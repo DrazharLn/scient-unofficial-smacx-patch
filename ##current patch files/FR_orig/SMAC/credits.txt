@@ -1,0 +1,517 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Credits
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#CREDITS
+
+
+SID MEIER4S ALPHA CENTAURI CONCU PAR
+Brian Reynolds
+
+
+AVEC LA PARTICIPATION DE
+Sid Meier
+Timothy Train
+Douglas Kaufman
+Bing Gordon
+
+
+ET
+Les membres de Firaxis Games
+
+SID MEIER'S ALIEN CROSSFIRE CONCU PAR
+Timothy Train
+
+
+AVEC
+Douglas Kaufman
+Chris Pine
+Gregory Foertsch
+Michael Ely
+Bing Gordon
+Sid Meier
+
+ET
+les membres de FIRAXIS Games
+
+
+POUR ALIEN CROSSFIRE :
+
+
+PRODUCTEUR EXECUTIF
+Jeffery L. Briggs
+
+
+PRODUCTEUR
+Timothy Train
+
+
+PROGRAMMEUR PRINCIPAL
+Chris Pine
+
+
+PROGRAMMATION ET INGENIEUR DU SON
+David Evans
+
+
+CONCEPTION ET PROGRAMMATION DE L'EDITEUR DE FACTION
+Jeff Morris
+
+
+PROGRAMMATION DU SYSTEME ET DE L'INTERFACE
+Jason Coleman
+
+
+PROGRAMMATION SUPPLEMENTAIRE
+Jeff Morris
+David Evans
+Jason Coleman
+Brian Reynolds
+
+
+DIRECTEUR ARTISTIQUE
+Gregory Foertsch
+
+
+GRAPHISTES
+Jerome Atherholt (Portraits, Terrain)
+Brent Alleyne (conception et animation des Progéniteurs)
+Steve Chao (Icônes, Conception des vaisseaux, Dossier photos)
+Michael Bazzell (Unités en 3D)
+
+
+
+FILMS ET VOIX DIRIGES PAR
+Michael Ely
+
+
+AVEC LES VOIX DE
+James Leibman (Capitaine Ulrik Svensgaard)
+Jeff Gordon (Progéniteurs Lular H'minee et Judaa Marr)
+Frederick Serafin (Bosco Domaï)
+Allie Rivenbark (Fonction primaire Aki Zeta-5)
+Christine Melton (Technicien de données Sinder Roze)
+Stacy Spenser (Prophète Cha Dawn)
+Robert Levy (le narrateur)
+
+
+MUSIQUE DE FOND
+David Evans
+Jeffery L. Briggs
+
+
+MUSIQUE CINEMATOGRAPHIQUE
+Jeffery L. Briggs
+
+
+DIRECTEUR DU MARKETING
+Lindsay Riehl
+
+
+RESPONSABLE GENERAL
+Susan Meier
+
+
+RESPONSABLE WEB
+Dan Magaha
+
+
+STAGIAIRE
+Stephen Lee
+
+
+REMERCIEMENTS SPECIAUX A
+Ann, Wendy, Jennifer et nos familles
+
+
+PUBLIE PAR
+Electronic Arts
+
+
+PARRAINE PAR
+Bing Gordon de EA
+
+
+PRODUCTEUR DE EA
+Hunter Smith
+
+
+DIRECTEUR DU MARKETING
+Chris Plummer
+
+
+CHEF DE PRODUIT
+Jonathan Harris
+
+
+CHEF DE PRODUIT, EUROPE
+Audrey Meehan
+
+
+RESPONSABLE DES RELATIONS MEDIATIQUES
+Patrick Buechner
+
+
+DIRECTEUR ASSURANCE QUALITE
+Jeff Morris, FIRAXIS Games
+
+
+CHEF TESTEUR
+David "Killkwik" McCormick
+
+
+ASSISTANT CHEF TESTEUR
+Daryl "Red Evil" Humdy
+
+
+TESTEURS
+Eduardo "Duff" Buenviaje, Jr.
+T.J. "DeadMeat" Cipri
+Justin "WWSD" Holst
+Mike "Hot Pants" Hong
+Matthew "Shocktart" Lewis
+Joe "Muh Pipe" Norris
+Ausias "Gimpy" Salmeron-Viver
+John "Belial" Trest
+
+
+CONTROLE DE LA QUALITE DE EA
+Directeur : Joel Knutson
+
+Représentants :
+Benjamin Crick
+Shane Ferguson
+Jacob Fernandez
+Darryl Jenkins
+Dave Knudson
+Micah Pritchard
+Andrew Young
+
+
+TESTEURS BETA
+Marty Bishop
+John Brown
+Michael Buccheri
+Ted Dennison
+Kevin Devine
+Michael Dorn
+Neil Fradkin
+Lonnie George
+Andrew Goldstein
+Dick Knisely
+Greg Lary
+Martin Leuschen
+Sam May
+Biju Mathai
+Jen MacLean
+Jean McGuire
+Vernon Michael
+Mark Norton
+George Politis
+Ronald Powell
+Alan Precourt
+Marc Ressig
+Jason Russ
+Thomas Stobie
+Peter Szymonik
+David Train
+Jeff Vitous
+Rita Waller
+
+
+REDACTION DU MANUEL
+Douglas Kaufman
+
+
+MISE EN PAGE DE LA DOCUMENTATION
+Deborah Maxwell
+
+
+EDITION DU MANUEL
+Ede Clarke
+Timothy Train
+
+
+DESSIN DU POSTER DE L'ARBRE DES TECHNOLOGIES
+Marco Garcia
+
+
+DIRECTION ARTISTIQUE DE L'EMBALLAGE
+Nancy Waisanen
+
+
+DIRECTEUR DE LA LOCALISATION
+Atsuko Matsumoto
+
+
+RESPONSABLE DE LA LOCALISATION
+John Pemberton
+
+
+SPECIALISTES DE PRODUCTION
+Barry Feather
+Ricky Brown
+
+
+CHEF DE PROJET
+Emily Bromley
+
+
+RESPONSABLE TRADUCTION FRANÇAISE
+Jean-Luc Chabrier
+
+
+TRADUCTEURS FRANÇAIS
+apex.fr(tm) (Nathalie Marlier, www.apex.fr)
+Jean-Claude Ducerf (www.ducerftranslations.com)
+
+
+AUDIO, FRANCE
+Knockin'Boots Production, Paris/France
+
+
+RESPONSABLE TRADUCTION ALLEMANDE
+Christina Vollmer
+
+
+TRADUCTEURS ALLEMANDS
+Frank Dietz
+Christoph Niedermair
+Susanne van Eyl
+
+
+AUDIO, ALLEMAGNE
+toneworx GmbH, Hamburg/Germany
+
+
+RESPONSABLE PRODUIT ESPAGNOL
+Teo Alcorta
+
+
+RESPONSABLE TRADUCTION ESPAGNOLE
+Julio Valladares
+
+
+TRADUCTEURS ESPAGNOL
+José Luis Rovira
+
+
+TRADUCTION ITALIENNE
+C.T.O. S.p.a., Bologna/Italy
+
+
+MPEG Real-Time Libraries
+(c) 1996-1998 by MpegTV. All rights reserved.
+
+
+CREDITS ORIGINAUX DE ALPHA CENTAURI
+(en ce qu'ils diffèrent de ci-dessus)
+
+
+CREE PAR
+Brian Reynolds
+
+
+AVEC
+Sid Meier
+Timothy Train
+Douglas Kaufman
+Bing Gordon
+
+
+ET
+Les membres de FIRAXIS Games
+
+
+DIRECTEUR ARTISTIQUE
+Michael Haire (Icônes, Scores)
+
+
+GRAPHISTES
+Jerome Atherholt (Portraits, Terrain)
+Michael Bazzell (Unités 3D, Prototypage)
+Gregory Foertsch (Payoffs, Films)
+David Inscore (Interface, Films)
+Nicholas Rusko-Berger (Films, Ouverture)
+
+
+AVEC LES VOIX DE
+Carolyn Dahl (Lady Deirdre Skye)
+Lu Yu (Président Sheng-ji Yang)
+Yuri Nesteroff (Académicien Prokhor Zakharov)
+Regi Davis (Chef de l'exécutif Nwabudike Morgan)
+Wanda Nino (Colonel Corazon Santiago)
+Gretchen Weigel (Soeur Miriam Godwinson)
+Hesh Gordon (Commissaire Pravin Lal)
+Alena Kanka (Planète)
+Robert Levy (Liaisons de données, voix masculine)
+Katherine Ferguson (Liaisons de données, voix féminine)
+
+
+RESPONSABLE WEB
+Michael Ely
+
+
+RECHERCHES EN ASTRONOMIE, PHYSIQUE ET BIOLOGIE
+Derek Cotter
+
+
+COORDINATION DES STAGIAIRES
+Deborah Briggs
+
+
+STAGIAIRES
+Alex Luskin (Ingénieur du son)
+Kurt Kotula (Graphisme)
+Matt Pierce (Marketing)
+
+
+CLIPS AVEC L'AUTORISATION DE :
+Archive Films
+Corbis
+The Image Bank
+WPA Film Library
+
+
+"THE DANCING BABY"
+est utilisé avec l'autorisation
+de Kinetix, division de
+Autodesk, inc.
+
+
+REMERCIEMENTS SPECIAUX
+Jill, Ro et Caleb Reynolds
+
+
+PRODUCTEUR EXECUTIF POUR EA
+Andy Hollis
+
+
+PRODUCTEUR POUR EA
+Bryan Walker
+
+
+MARKETING
+Alex Carloss
+
+
+DIRECTEUR DE PRODUIT
+Matt Orlich
+
+
+DIRECTION DES RELATIONS AVEC LES MEDIA
+David Swofford
+
+
+ABSOLUTE QUALITY, INC.
+Dan Schlueter, Chef testeur pour AQ
+Graham Boyanich
+Charles Brubaker
+Ray Lofton
+Ted Paulsen
+Jim Smith
+
+
+ORIGIN SYSTEMS, INC.
+Paul "Paladin" Vaden, Supervision QA OSI QA
+Rhea "Shalom" Shelley, Chef de projet OSI
+Todd "Balls" Raffray, Assistant Chef de projet OSI
+Tim "Quasimodo" Bell
+Brett "Beaker" Bonner
+Stacy "Skyline" Davidson
+Zafer "Z-man" Hamza
+Kent "Hand" Raffray
+Jon "Punchy" Shelus
+Stephen "Money Shot" VanWambeck
+Russ "Stranger" Wilkins
+
+
+ET
+Kyle "Paddleboat" Drewke
+Brian "BIG tiny" DuBose
+Mackey "Rastuss" Fair
+Kenny "Hottman" Hott
+Matt "O.G. Mudbone" Lynch
+Grant "Rogue" McDaniel
+Brandon "Arashi" Salinas
+Jon "Stormer" Savinelli
+Lance "MudPuppy" Stites
+
+
+MAIS SANS
+Chris "Binky" Launius
+
+
+TESTEURS BETA
+Marty Bishop
+Michael Buccheri
+Ted Dennison
+Chris Fitzgerald
+Neil Fradkin
+Andrew Goldstein
+Ronald Gretz
+Dick Knisely
+Greg Lary
+Martin Leuschen
+Jen MacLean
+Biju Mathai
+Sam May
+Jean McGuire
+Laralyn McWilliams
+Vernon Michael
+Mark Norton
+George Politis
+Alan Precourt
+Marc Reissig
+Don Rinker
+Jennifer Schlickbernd
+Dan Speicher
+William Stapel
+Thomas Stobie
+Jeff Vitous
+Rita Waller
+
+
+ELECTRONIC ARTS, INC.
+Benjamin Crick
+Etienne Grunenwald
+Daniel Hiatt
+Bobby Joe
+Michael Jung
+Anatol Somerville
+
+
+DOCUMENTATION PAR
+Incan Monkey God Studios, Inc.
+
+
+REDACTION DU MANUEL
+Chris McCubbin
+
+
+EDITEUR DU MANUEL
+David Ladyman
+
+
+
+
+Dédié aux hommes et femmes de la NASA,
+et à tous les programmes spatiaux du monde.
+
+
+
+
+L'éternité s'étend devant nous, mais aussi derrière.
+Avez-vous eu votre saoul ?
+Lady Deirdre Skye
+" Conversations avec la planète "
+Epilogue
+
+
+
+#; This line must remain at end of file
+

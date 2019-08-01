@@ -1,0 +1,177 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Text for Monument screen 
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+
+#FOUNDCOLONY1ST
+M.Y. $NUM0: $TITLE0 $NAME1 founds mankind's 
+first base since Planetfall--$BASENAME2!
+
+#FOUNDCOLONY2ND
+M.Y. $NUM0: $TITLE0 $NAME1 founds $BASENAME2, 
+the first $<M1:$FACTIONADJ3> base since Planetfall. 
+($TITLE4 $NAME5 of the $FACTIONNAME6 founded mankind's 
+first base since Planetfall in M.Y. $NUM1.)
+
+#TECHDISCOVER1ST
+M.Y. $NUM0: $<M1:$FACTIONADJ0> scientists discover 
+$TECH1--mankind's first research breakthrough on Planet! 
+
+#TECHDISCOVER2ND
+M.Y. $NUM0: $<M1:$FACTIONADJ0> scientists discover 
+$TECH1--their first research breakthrough since Planetfall. 
+(The $FACTIONNAME2 made mankind's first breakthrough 
+in M.Y. $NUM1.)
+
+#SECRETS1STA
+M.Y. $NUM0: $<M1:$FACTIONADJ0> researchers discover "Secrets 
+of the Human Brain!"
+
+#SECRETS1STB
+M.Y. $NUM0: $<M1:$FACTIONADJ0> researchers discover "Secrets 
+of the Human Brain!"  Other Secrets were uncovered in M.Y. $NUM1. 
+
+#SECRETS1STC
+M.Y. $NUM0: $<M1:$FACTIONADJ0> researchers discover "Secrets 
+of the Human Brain!"  Other Secrets were uncovered in M.Y. $NUM1 
+and M.Y. $NUM2. 
+
+#SECRETS2NDA
+M.Y. $NUM0: $<M1:$FACTIONADJ0> researchers discover "Secrets 
+of the Human Brain." (The $FACTIONNAME1 uncovered these 
+Secrets first in M.Y. $NUM1.)
+
+#SECRETS2NDB
+M.Y. $NUM0: $<M1:$FACTIONADJ0> researchers discover "Secrets 
+of the Human Brain." (The $FACTIONNAME1 uncovered these 
+Secrets first in M.Y. $NUM1.) $<M1:$FACTIONADJ2> researchers 
+uncovered other Secrets in M.Y. $NUM2.
+
+#SECRETS2NDC
+M.Y. $NUM0: $<M1:$FACTIONADJ0> researchers discover "Secrets 
+of the Human Brain." (The $FACTIONNAME1 uncovered these 
+Secrets first in M.Y. $NUM1.) $<M1:$FACTIONADJ2> researchers 
+uncovered other Secrets in M.Y. $NUM2 and M.Y. $NUM3.
+
+#PROTO1ST
+M.Y. $NUM0: $TITLE0 $NAME1's $<M1:$FACTIONADJ2> engineers 
+construct the first vehicle prototype on Planet!
+
+#PROTO2ND
+M.Y. $NUM0: $<M1:$FACTIONADJ0> engineers construct their first 
+vehicle prototype. (Engineers working under $TITLE1 $NAME2 of 
+the $FACTIONNAME3 already constructed the first prototype on 
+Planet in M.Y. $NUM1.)
+
+#FACILITY1ST
+M.Y. $NUM0: $<M1:$FACTIONADJ0> workers under $TITLE1 $NAME2 
+build the first base facility on Planet at $BASENAME3!
+
+#FACILITY2ND
+M.Y. $NUM0: $<M1:$FACTIONADJ0> workers build their first base 
+facility. ($TITLE1 $NAME2's $<M1:$FACTIONADJ3> workers already 
+built the first base facility on Planet in M.Y. $NUM1.)
+
+#PROJECT1ST
+M.Y. $NUM0: $TITLE0 $NAME1's engineers complete Planet's first 
+Secret Project: $PROJECT2!
+
+#PROJECT2ND
+M.Y. $NUM0: $<M1:$FACTIONADJ0> engineers complete their first 
+Secret Project: $PROJECT1. (Engineers working under $TITLE2 
+$NAME3 of the $FACTIONNAME4 already completed Planet's first 
+Secret Project in M.Y. $NUM1.)
+
+#BATTLEWIN1ST
+M.Y. $NUM0: $TITLE0 $NAME1 wins the first Planetary battle 
+against $TITLE2 $NAME3 of the $FACTIONNAME4!
+
+#BATTLEWIN2ND
+M.Y. $NUM0: $TITLE0 $NAME1 wins the first $<M1:$FACTIONADJ2> 
+battle victory. ($TITLE3 $NAME4 of the $FACTIONNAME5 already 
+won the first Planetary battle in M.Y. $NUM1.)
+
+#BASECAP1ST
+M.Y. $NUM0: $TITLE0 $NAME1 of the $FACTIONNAME2 captures 
+$BASENAME3 to achieve the first conquest on Planet!
+
+#BASECAP2ND
+M.Y. $NUM0: $TITLE0 $NAME1 captures $BASENAME2 to achieve the 
+first $<M1:$FACTIONADJ3> conquest. ($TITLE4 $NAME5 of the 
+$FACTIONNAME6 already achieved the first Planetary conquest 
+in M.Y. $NUM1.)
+
+#NAVY1ST
+M.Y. $NUM0: $TITLE0 $NAME1, founder of the $FACTIONNAME2 
+Naval Corps, christens the first combat ship on Planet!
+
+#NAVY2ND
+M.Y. $NUM0: $<M1:$FACTIONADJ0> engineers build their first 
+naval vessel. ($TITLE1 $NAME2 of the $FACTIONNAME3 already 
+founded the first Naval Corps in M.Y. $NUM1.)
+
+#AIR1ST
+M.Y. $NUM0: $TITLE0 $NAME1, $<1:father:mother::> of the 
+$FACTIONNAME2 Atmospheric Corps, unveils the first air unit 
+on Planet!
+
+#AIR2ND
+M.Y. $NUM0: $<M1:$FACTIONADJ0> engineers build their first air unit. 
+($TITLE1 $NAME2 of the $FACTIONNAME3 already founded the first 
+Atmospheric Corps in M.Y. $NUM1.)
+
+#NATIVE1ST
+M.Y. $NUM0: $TITLE0 $NAME1 inaugurates the $<M1:$FACTIONADJ2> 
+Psi Corps with mankind's first succesful captive breeding of 
+native life forms!
+
+#NATIVE2ND
+M.Y. $NUM0: $<M1:$FACTIONADJ0> xenobiologists breed their first 
+native life forms. ($TITLE1 $NAME2 of the $FACTIONNAME3 already 
+bred mankind's first native life forms in M.Y. $NUM1.)
+
+#SPACE1ST
+M.Y. $NUM0: The $FACTIONNAME0 under $TITLE1 $NAME2 $<0:launch:launches>
+a spacecraft! They become the first faction in space since Planetfall!
+
+#SPACE2ND
+M.Y. $NUM0: $TITLE0 $NAME1 orders the launch of the first $<M1:$FACTIONADJ2> 
+spacecraft. (The $FACTIONNAME3 under $TITLE4 $NAME5 became the first faction 
+in space since Planetfall in M.Y. $NUM1.)
+
+#PRESERVE1ST
+M.Y. $NUM0: $TITLE0 $NAME1 of the $FACTIONNAME2 sets aside the first Centauri 
+Preserve on Planet!
+
+#PRESERVE2ND
+M.Y. $NUM0: $TITLE0 $NAME1 sets aside the first $<M1:$FACTIONADJ2> Centauri 
+Preserve. ($TITLE3 $NAME4 constructed mankind's first Centauri Preserve in 
+M.Y. $NUM1.)
+
+#WINUNIFY
+M.Y. $NUM0: $TITLE0 $NAME1 unifies all of Planet under the $<M1:$FACTIONADJ2> 
+banner!
+
+#WINCO-OPUNIFY
+M.Y. $NUM0: $TITLE0 $NAME1 of the $FACTION2 has unified Planet under $<1:his:her::> banner! 
+Our pact with the $FACTION3 allows us to share in the victory!
+
+#WINTRANSCEND
+M.Y. $NUM0: $TITLE0 $NAME1 of the $FACTIONNAME2 leads humanity in the Ascent 
+to Transcendence-the next step in human evolution!
+
+#WINCO-OPASCENT
+M.Y. $NUM0: $TITLE0 $NAME1 of the $FACTION2 has completed the Ascent to Transcendence! 
+Our pact with the $FACTION3 allows us to join in the Ascent!
+
+#KILLFACTION
+M.Y. $NUM0: The $FACTION0 $<1:has:have> eradicated the $FACTION1! $TITLE2 $NAME3 has been
+captured and interrogated.
+
+
+
+# ; This line must remain at end of file

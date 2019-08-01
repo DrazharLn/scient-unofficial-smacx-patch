@@ -1,0 +1,965 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Longues descriptions tech
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+
+
+##Biogénétique
+#TECH0
+L'environnement extraterrestre de la planète a généré pour les colons
+une foule de problèmes de santé imprévus. Les questions pleuvent sur
+le centre de {biogénétique} concernant la prévention et le traitement de
+ces problèmes. Les spécialistes cherchent à
+comprendre la totalité du code génétique.
+
+
+##Base industrielle
+#TECH1
+Les premières colonies ne disposent d'aucune sorte d'usine ni
+d'industrie lourde ; la création d'une {base industrielle} devient
+donc une priorité importante pour la croissance économique. Cette
+base industrielle met l'accent sur la fabrication à petite échelle grâce
+à ces lignes de montage de base et à des instruments simples.
+
+
+##Réseaux d'information
+#TECH2
+Le matériel de survie de l'[Unity] contenait de nombreux ordinateurs
+construits pour satisfaire les besoins d'une société colonisatrice.
+Cependant, ils doivent tout d'abord être connectés en
+{réseaux d'information} avant que les scientifiques puissent utiliser
+leur puissance.
+
+
+##Physique appliquée
+#TECH3
+Les colons doivent créer de nouveaux outils à partir des morceaux
+d'épave de l'[Unity] pour pouvoir survivre et se multiplier. Les premières
+demandes faites en {physique appliquée} concernent cette adaptation
+de la technologie existante au nouvel environnement.
+
+
+##Psy sociale
+#TECH4
+La surpopulation à bord de l'[Unity] à la suite du réveil
+prématuré a créé une situation infernale pour l'équipage, mais a permis
+d'accéder à des données importantes concernant les humains soumis à
+un stress extrême. L'analyse de ces données fournit le premier
+aperçu mathématique complet de la {psychologie sociale} des humains.
+
+
+##Doctrine : mobilité
+#TECH5
+Les premiers colons ont rapidement appris l'importance de la
+reconnaissance et de l'autodéfense dans cet environnement
+des plus extraterrestres. La {doctrine : mobilité} est
+une des pierres angulaires de la puissance militaire et représente
+la première tentative de politique de défense organisée
+sur la planète.
+
+
+##Ecologie Centauri
+#TECH6
+La recherche de sources appropriées de nutriment, d'énergie
+et de minéraux est le problème le plus immédiat rencontré par
+les colons après l'arrivée sur la Planète. La compréhension des
+bases de l'{écologie Centauri} fournit aux nouveaux arrivants les outils
+nécessaires pour commencer la mise en forme du monde qui
+les entoure -- croissance des plantes, structures
+géologiques existantes et moyens d'exploitation des
+sources d'énergie naturelle de la planète.
+
+
+##Supraconducteur
+#TECH7
+Les exigences d'alimentation des [ordinateurs optiques (D3)]
+et de la [base industrielle (B1)] naissante stimulent
+la recherche sur les {supraconducteurs} à températures élevées,
+progrès longtemps considéré comme le 'Saint Graal' par les
+chimistes physiciens. Un {supraconducteur} est un matériau
+qui n'oppose aucune résistance au flux des électrons. Un
+{supraconducteur} permet d'envoyer le courant à des vitesses
+incroyables sur de longues distances sans dégradation. Le matériel
+de refroidissement des machines ou des armes consomme beaucoup
+d'énergie, est cher et encombrant et devient inutile car
+ces équipements restent froids et efficaces lorsque
+l'électricité les traverse.
+
+
+##Mathématiques non-linéaires
+#TECH8
+En utilisant la puissance des [réseaux d'information (D1)] pour accélérer
+les calculs et encourager les collaborations, les chercheurs font
+des pas de géant dans le domaine des {mathématiques non-linéaires},
+avec des applications militaires importantes.
+
+
+##Relativité appliquée
+#TECH9
+Albert Einstein a développé ses théories sur la relativité entre
+1905 et 1916 ; on trouvera des explications complètes sur ses travaux
+dans de nombreuses sources. La recherche en [théorie subatomique
+avancée (B3)] et sur les [supraconducteurs (C4)] a ensuite
+démontré que ces postulats, bien que nouveaux pour son époque,
+étaient incomplets. La {relativité appliquée} s'appuie sur les
+théories de base d'Einstein et les met à jour pour tenir compte
+de la compréhension des phénomènes découverts récemment.
+
+
+##Energie de fusion
+#TECH10
+Une source d'énergie extrêmement propre, puissante et efficace
+appelée {énergie de fusion} était connue sur Terre depuis des décennies
+en tant que réaction énergétique des étoiles. Cependant, les scientifiques
+ne pouvaient pas contrôler l'énorme puissance de l'énergie produite et
+donc la seule application pratique de l'{énergie de fusion} consistait à
+produire des bombes d'une incroyable puissance de destruction. Avec
+la découverte des [supraconducteurs (C4)], et grâce à l'utilisation
+des [algorithmes pré-sensibles (D5)] pour la surveillance et le contrôle
+de l'énergie produite, les scientifiques de l'avenir ont
+a finalement accès à une énergie
+bon marché, abondante et réutilisable.
+
+##Alliages d'acier
+#TECH11
+L'élargissement du champ de l'[automatisation industrielle (B3)]
+est la source d'une demande croissante pour de nouveaux matériaux
+pouvant supporter les contraintes incroyables des usines robotiques.
+Les découvertes de la [théorie subatomique avancée (D3)] ont apporté
+aux ingénieurs ces matériaux, appelés {alliages d'acier} en raison de
+leur force de tension et de leur souplesse extraordinaires.
+
+
+##Théorie subatomique avancée
+#TECH12
+Les découvertes faites dans le domaine de la [chimie grande
+puissance (C2)] montrent le chemin vers une nouvelle
+{théorie subatomique avancée} qui essaie de détecter et de
+quantifier les particules de matière sous-jacentes les plus petites
+possibles.A l'aide du [logiciel polymorphe (D2)] qui évolue seul,
+les physiciens développent cette théorie pour ouvrir aux humains
+une fenêtre sur les particules infinitésimales de l'univers.
+
+
+##Chimie grande puissance
+#TECH13
+Les progrès de la [physique appliquée (C1)] et de la [base
+industrielle (B1)] permettent de comprendre la {chimie
+grande puissance}. Cette discipline cherche à comprendre
+les propriétés et le comportement de la matière à très haute
+température, et les résultats sur de nouveaux types de
+matériaux qui restent dans un état plasmatique stable,
+même lorsqu'ils sont surchauffés par une stimulation
+laser intense.
+
+
+##Surfaces sans friction
+#TECH14
+La découverte de la [théorie des champs unifiés (D10)] a
+permis aux scientifiques de modifier les propriétés
+fondamentales de la matière elle-même. La découverte des
+{surfaces sans friction} s'avère l'application la plus
+utile de ces techniques. Comme leur nom le suggère, les
+{surfaces sans friction} sont des matériaux qui ne sont pas
+affectés par la friction, cette force qui ralentit le
+mouvement en changeant l'énergie cinétique en énergie
+thermique. Les objets mobiles fabriqués dans ces matières
+ne sont pas ralentis lorsqu'ils entrent en contact avec
+d'autres matières.
+
+
+##Nano-métallurgie
+#TECH15
+Poussées par les exigences de la [doctrine : initiative (E5)]
+et les modèles mathématiques à l'origine de la [mécanique des
+probabilités (B7)], les techniques de la {nano-métallurgie} permettent
+aux ingénieurs de manipuler les métaux au niveau moléculaire.
+
+
+##Théorie des supercordes
+#TECH16
+Un des débats les plus vifs existant au sein de la communauté des
+physiciens du 20ème siècle terrestre était centré sur la
+viabilité de la {théorie des supercordes}. Cette théorie tente
+d'unifier la théorie de la gravité et d'autres forces fondamentales,
+et avance l'idée que toutes les caractéristiques présentées par les
+particules subatomiques, telles que les protons et les neutrons,
+peuvent être décrites comme les vibrations de 'cordes' fondamentales
+à une seule dimension. Ce concept a été abandonné, car on ne pouvait pas
+le vérifier, jusqu'au développement des [mathématiques non-linéaires (C2)],
+qui offrent des modèles mathématiques qui soutiennent la {théorie des
+supercordes}.
+
+
+##Algorithmes militaires avancés
+#TECH17
+Les besoins militaires ont de tout temps fait avancer la
+technologie ; il n'en est pas de meilleur exemple que le développement
+de logiciels sophistiqués. Du tout premier ordinateur, conçu pour
+calculer la trajectoire des obus d'artillerie, aux {algorithmes
+militaires avancés} développés à partir de la [doctrine adaptative (C3)]
+et des [ordinateurs optiques (D3)], l'humanité a toujours travaillé
+à pousser l'art militaire vers le monde numérique.
+
+
+##Aimants unipolaires
+#TECH18
+Le magnétisme, comme l'électricité et la gravité, est l'une des
+forces fondamentales de l'univers. Avant les recherches dans le
+domaine de la [théorie des supercordes (C5)] et des [alliages d'acier (E4)],
+tous les aimants étaient bipolaires, avec un pôle nord et un pôle sud.
+Le développement d'un {aimant unipolaire} a permis le développement
+d'applications complètement nouvelles pour la science et l'industrie.
+
+
+##Compression de matière
+#TECH19
+Les progrès de la [nano-miniaturisation (B8)] et de la
+[nano-métallurgie (E8)] ont mené aux techniques complexes de la
+{compression de matière}. Grâce à ces techniques, les
+scientifiques peuvent créer des matériaux aussi denses que le
+coeur d'une étoiles ; des applications militaires et industrielles
+importantes en découlent.
+
+
+##Théorie des champs unifiés
+#TECH20
+Les scientifiques ont longtemps travaillé sur une théorie unique
+qui expliquerait toutes les forces fondamentales de la nature (gravité,
+magnétisme, etc. C'est la {théorie des champs unifiés}. Les progrès
+des [aimants unipolaires (B6)] et de la [relativité appliquée (D5)]
+aident à mettre à jour ces mécanismes fondamentaux de l'univers.
+
+
+##Théorie du graviton
+#TECH21
+La [mécanique quantique (D12)] et l'[interface esprit/machine
+(B6)] montrent le chemin parcouru pour comprendre la gravité --
+la plus faible des forces fondamentales de l'univers, mais une
+force dont les effets se font sentir à des distances infinies.
+Avec la {théorie du graviton}, les physiciens peuvent détecter
+et mesurer les chaînes de gravitons -- particules qui 'transportent'
+la force gravitationnelle.
+
+
+##Logiciel polymorphe
+#TECH22
+Sur Terre, seuls les mathématiciens théoriciens et les programmeurs
+de logiciels ludiques ont réussi à utiliser le {logiciel polymorphe}
+-- un code auto-modifiant. Sur la planète, les exigences des [bases
+industrielles (B1)] et des [réseaux d'information (D1)] bourgeonnants
+ont stimulé le large développement d'applications de réseaux neuronaux
+qui se réécrivent en réaction aux entrées de données.
+
+
+##Gravitonique appliquée
+Lorsque les physiciens ont découvert la [théorie du graviton (E13)],
+ils se sont tournés vers la {gravitonique appliquée} -- c'est-à-dire
+vers le contrôle de la gravité elle-même. En contrôlant et en
+manipulant les chaînes de gravitons qui transportent la force
+gravitationnelle, l'humanité peut déplacer des objets, quelle que soit
+leur masse ou la proximité d'autres objets.
+
+
+##Puissance quantique
+#TECH25
+Le scientifique terrestre Max Planck a le premier utilisé le terme
+"quantum" pour décrire une particule individuelle de lumière.
+Planck pensait que chaque quantum était indivisible, et donc
+qu'il ne pouvait exister de fraction de quantum. L'une des
+découvertes les plus étonnantes découlant de la [théorie des
+champs unifiés] fut qu'un quantum individuel pouvait en
+réalité être divisé en particules secondaires, tout comme
+les atomes peuvent être divisés par la fission. L'énergie émise
+par la {puissance quantique} est plusieurs fois plus grande que
+par la [puissance de fusion] ordinaire.
+
+
+##Mécanique singulière
+#TECH26
+La connaissance des [secrets de la création (D11)] a tracé la voie
+pour la compréhension de la {mécanique singulière}. Cette technologie
+recherche les causes physiques et la composition des trous noirs --
+phénomène produit par des zones de matière infiniment dense qui
+distordent la structure de l'espace et du temps lui-même.
+Des sondes guidées par des [machines intelligentes (B11)] embarquées
+transmettent les données nécessaires pour reproduire ce phénomène
+naturel dans les conditions contrôlées des laboratoires.
+
+
+##Singularité contrôlée
+#TECH27
+Comme l'ont rapidement découvert les ingénieurs, c'est une chose que
+de comprendre la [mécanique singulière (D12)] et c'en est une tout
+autre que de tenter la {singularité contrôlée} -- la maîtrise
+et la direction des pouvoirs d'un trou noir. Les progrès de la
+[gravitonique appliquée (E14)] ont finalement rendu possible cette
+technologie, avec sa suite d'applications étonnantes et puissantes
+et ses nouveaux armements aux sources de puissance globales.
+
+
+##Mécanique temporelle
+#TECH28
+Les progrès de l'[eudémonisme (E12)] et de la [transmission de
+matière (B17)] ont conduit à la dernière grande découverte de
+l'univers physique : la {mécanique temporelle}, la manipulation
+du temps lui-même.
+
+
+##Mécanique des probabilités
+#TECH29
+Avec leurs systèmes d'exploitation gérés par des [algorithmes
+pré-sensibles (D5)], les ordinateurs ont enfin acquis une puissance
+de traitement suffisante pour résoudre les mystères de la
+[mécanique des probabilités]. Ce progrès technique permet aux
+scientifiques de prédire avec exactitude de nombreux événements
+apparemment aléatoires.
+
+
+##Algorithmes pré-sensibles
+#TECH30
+La philosophie de la [cyberéthique (B4)] et la technologie des
+[algorithmes militaires avancés (E3)] ont préparé le développement
+des {algorithmes pré-sensibles}. Ces programmes de réseaux
+neuronaux ouverts peuvent trier et traiter des octets exécutifs de données,
+en 'apprenant' au fur et à mesure et en s'adaptant au monde
+qu'ils observent.
+
+
+##Matériaux de supertraction
+#TECH31
+Les exigences du [vol spatial avancé (E8)] et les possibilités
+inhérentes à la [compression de matière (C9)] ont guidé la
+recherche sur les {matériaux de supertraction}. Ces matériaux
+possèdent une résistance telle qu'ils sont virtuellement incassables
+dans un environnement naturel.
+
+
+##Réseaux planétaires
+#TECH32
+Lorsque les colons ont découvert comment survivre, ils se sont
+occupés de recréer certains des outils d'organisation laissés derrière
+eux, sur Terre. Après la mise en oeuvre de [réseaux d'information
+(D1)] simples, la création d'une norme pour les {réseaux planétaires}
+se présente comme une priorité importante pour la
+communauté scientifique.
+
+
+##Sensibilité numérique
+#TECH33
+Utilisée dans la [nano-robotique industrielle(B9)],
+l'[interface esprit/machine (B6)] fournit l'étincelle
+nécessaire aux ordinateurs pour pouvoir au moins atteindre
+la {sensibilité numérique}. Ces nouvelles intelligences
+artificielles possèdent toutes les caractéristiques d'un
+organisme individuel : elles réagissent à leur environnement,
+s'adaptent aux stimuli et font montre d'une 'personnalité' évoluée,
+avec leurs propres aptitudes et préférences.
+
+
+##Machines intelligentes
+#TECH34
+Après l'avènement de la [sensibilité numérique (D10)],
+les ordinateurs n'ont plus qu'une grande étape à franchir :
+l'évolution en {machines intelligentes}. Les progrès de la
+[compression N-spatiale (D11)] offrent la capacité de stockage
+nécessaire à cette technologie. Ces machines sont
+capables de pensée complexe d'un ordre élevé, et estiment
+l'expérience de l'existence autant que n'importe quel être
+biologique. Comme chez les autres organismes vivants,
+l'instinct de conservation
+est très important pour ces spécimens.
+
+
+##Doctrine : initiative
+#TECH35
+Les aéroglisseurs et autres transports lents élaborés sous
+la [doctrine : flexibilité (E2)] ont fourni une première force
+navale adéquate. Cependant, les progrès des matériels et de
+la fabrication qui ont découlé de l'[automatisation industrielle (B3)]
+rendent possible le développement de nouvelles classes de navires
+puissants sous la {doctrine : initiative}, qui met l'accent sur
+l'importance de la supériorité navale globale.
+
+
+##Doctrine : flexibilité
+#TECH36
+De nombreux jeunes officiers militaires radicaux ont pensé
+que la [doctrine : mobilité (E1)] n'allait pas assez loin dans
+le développement d'attaques rapides et d'une prompte reconnaissance,
+car la mobilité ne tient compte que des forces au sol. Ces
+dirigeant travaillent à la création des premières flottes de la
+planète, basées sur la {doctrine : flexibilité} -- la coordination
+et la coopération entre les forces rendues possibles par le
+contrôle de la mer.
+
+
+##Intégrité intellectuelle
+#TECH37
+La recherche de l'{intégrité intellectuelle} découle des questions
+que posent le [calcul éthique (E2)] et la [doctrine : Loyauté (C2)].
+Selon cette philosophie, on n'atteint l'état de sagesse
+qu'en posant des questions simples, débarrassées de tout
+préjugé. Ce n'est qu'en balayant ces notions préconçues que l'on
+peut atteindre la clarté d'une connaissance sans distorsion.
+
+
+##Combustibles fossiles synthétiques
+#TECH38
+L'extrême efficacité avec laquelle le fongus gérait le vaste
+écosystème de la planète a empêché la formation au cours des temps de
+dépôts de matériaux organiques. C'est pourquoi les
+combustibles fossiles connus sur Terre ne se sont jamais développés,
+forçant les premiers colons à utiliser d'autres sources d'énergie,
+moins efficaces. Cependant, les progrès de la [théorie subatomique
+avancée (B3)] et du [raccordement génétique (B3)] ont finalement
+permis aux scientifiques de court-circuiter un processus interminable,
+en leur fournissant les {combustibles fossiles synthétiques} nécessaires
+pour construire des véhicules et des machines évolués.
+
+
+##Doctrine : puissance aérienne
+#TECH39
+Les colons ont apporté sur la planète leur connaissance du vol
+atmosphérique, mais pas les matériaux permettant de bâtir et
+d'entretenir de nombreux avions dans les conditions difficiles
+de la planète. Avec la découverte des [combustibles fossiles
+synthétiques (E4)] pour les matériaux et l'accent renouvelé sur la
+[doctrine : flexibilité (E2)], les pilotes peuvent de nouveau
+chevaucher les nuages.
+
+
+##Mécanique onde/photon
+#TECH40
+Les physiciens ont réfléchi sur les mystères de la lumière
+pendant des siècles : pourquoi la lumière a-t-elle à la fois les propriétés
+d'une onde et d'une particule ? En 1924, un scientifique français,
+Louis de Broglie, a prouvé que toutes les particules
+présentent, en fait, un aspect d'onde, ce qui explique comment la
+lumière peut agir comme une onde, bien qu'elle se compose de particules,
+appelées photons. A la suite des progrès dans le domaine des [alliages
+d'acier (E4)] et de la [relativité appliquée (D5)], les études
+scientifiques suivantes s'intéressent à la manipulation de la
+{mécanique onde/photon} pour que la lumière, même les puissants rayons
+laser ou les intenses émissions solaires, puisse être diffusée et
+distordue en fonction des besoins.
+
+
+##Interface esprit/machine
+#TECH41
+La recherche sur la [greffe neuronale (C4)] a démontré que les
+transmissions directes entre le cerveau et sa contrepartie
+numérique sont en théorie possibles. Cette {interface esprit/
+machine}, demandée par les dirigeants qui mettent en oeuvre la
+[doctrine : puissance aérienne (E5)] pour une nouvelle génération
+d'avions, comble le vide entre le mécanique et le biologique.
+
+
+##Nano-miniaturisation
+#TECH42
+Les [aimants unipolaires (B6)] et les [superlubrifiants organiques
+(C7)] ont déclenché une révolution dans l'ingénierie : la
+{nano-miniaturisation}. Grâce à cette technologie, qui met l'accent
+sur de nouvelles méthodes de montage et des matériaux résistants
+à la traction, il est possible de construire des micro-composants et
+de réduire considérablement la taille de toutes sortes de matériels
+lourds et encombrants.
+
+
+##Doctrine : loyauté
+#TECH43
+La [doctrine : mobilité (E1)] s'est révélée être un dogme raisonnable
+pour les premières années sur la planète. Cependant, alors que la
+lutte pour la survie contre les vers télépathes indigènes et les
+factions rivales s'intensifie, de nombreux jeunes officiers rejettent
+l'importance accordée par la vieille garde sur la mobilité en tant
+que politique militaire dominante. Également basée sur les
+révélations de la [psy sociale (B1)], la nouvelle {doctrine : loyauté}
+met l'emphase sur une formation intensive, des installations de défense
+et une obéissance zélée aux dirigeants des factions, comme fondements
+de la survie et de la réussite au combat. La {doctrine : loyauté} met
+l'accent sur une fidélité bidirectionnelle -- on attend des soldats
+qu'ils mettent leur vie en jeu sans question, mais en retour, ils
+reçoivent respect, pouvoir et poste d'autorité dans la nouvelle
+hiérarchie sociale.
+
+
+##Calcul éthique
+#TECH44
+Tout au long de l'histoire de l'humanité, les philosophes se sont
+heurtés à cette question : 'Comment vivrons-nous alors ?'
+Le {calcul éthique} pose les principes mathématiques révélés par
+la [psy sociale (B1)] pour répondre à cette question,
+en fournissant surtout des calculs et des fonctions qui permettent de
+déterminer le comportement approprié.
+
+
+##Economie industrielle
+#TECH45
+La première industrie de la planète était concentrée sur
+la création d'une [base industrielle (B1)] pionnière avec des
+chaînes de montage de base et des instruments simples. Bientôt,
+les dirigeants des secteurs financiers soutiennent une
+politique d'{économie industrielle} plus complète pour englober
+le commerce libre et les autres stratégies de multiplication du
+capital.
+
+
+##Automatisation industrielle
+#TECH46
+La création des [réseaux planétaires (D2)] et l'adoption
+générale de l'[économie industrielle (B2)] ont conduit à
+l'industrialisation rapide de la planète vierge. Privés des
+masses traditionnelles de la classe ouvrière de la Terre,
+les dirigeants doivent maintenant développer une {automatisation
+industrielle} complète pour la production et le montage, en
+construisant des usines modestes où toutes les tâches non
+qualifiées répétitives, depuis le concierge jusqu'au vice-président
+commercial, sont prises en charge par des robots évolués.
+
+
+##Méditation Centauri
+#TECH47
+L'[empathie Centauri (E3)] et le [génie écologique (E4)] révèlent
+l'étendue et la complexité de l'écosystème de la planète. La
+recherche dans le domaine de la {méditation Centauri} met en
+lumière l'étape suivante, presque terrifiante -- la tentative de
+communiquer directement avec la planète elle-même.
+
+
+##Secrets du cerveau humain
+#TECH48
+Toutes les recherches passées sur la mémoire, l'apprentissage,
+les sens et les autres aspects du cerveau, n'ont pas répondu
+à la question essentielle : quel est le mécanisme biologique
+de la conscience de soi ? La recherche en [biogénétique (D1)]
+et en [psy sociale (B1)] a enfin résolu le dernier des {secrets
+du cerveau humain}, et apporté la compréhension des
+éléments fondamentaux de la conscience.
+
+
+##Raccordement génétique
+#TECH49
+L'adoption générale de la philosophie du [calcul
+éthique (E2)] supprime l'opposition à l'expérimentation
+génétique sur l'ADN des plantes et des animaux, alors que
+les progrès de la [biogénétique (D1)] apportent les techniques
+nécessaires au domaine naissant du {raccordement génétique}.
+Cette technologie permet aux chercheurs d'insérer du nouveau
+code d'ADN dans le matériel génétique existant de telle sorte
+que des caractéristiques complètes, de la résistance aux
+maladies à la stabilité d'une personnalité, peuvent être
+copiées d'un organisme et transférées vers plusieurs autres.
+
+
+##Bio-ingénierie
+#TECH50
+Le [raccordement génétique (B3)] et la [greffe neuronale (C4)]
+sont des exemples des techniques brutes et envahissantes de
+modification d'un organisme. La méthode de la {bio-ingénierie},
+plus raffinée, permet d'élaborer le code génétique désiré
+directement à partir de ses composants, et permet ainsi des
+transplants cellulaires massifs et économiques sur toute une
+population.
+
+
+##Biomécanique
+#TECH51
+Les premières expérimentations d'[ingénierie rétrovirale (C5)]
+et de l'[interface esprit/machine (B6)] ont tracé la voie pour
+la véritable {biomécanique} -- l'intégration complète de
+l'homme et de la machine au niveau cellulaire.
+
+
+##Greffe neuronale
+#TECH52
+La soif insatiable d'efficacité engendrée par
+l'[automatisation industrielle (B3)] donne son impulsion
+au développement de la {greffe neuronale}. Cette nouvelle
+technologie, basée sur les [secrets du cerveau humain (D2)],
+permet de fixer des circuits numériques directement sur
+le cortex neuronal. Avec ces implants, les individus qui
+souhaitent se soumettre à la {greffe neuronale} peuvent améliorer
+de nombreux aspects de leur condition physique, de l'acuité de leurs
+sens à leurs réflexes.
+
+
+##Cyberéthique
+#TECH53
+L'adoption générale des [réseaux planétaires (D2)] et la
+philosophie de l'[intégrité intellectuelle (E3)] permettent
+l'émergence d'un système cohérent de {cyberéthique} qui
+définit les relations convenables des ordinateurs et de
+la société.
+
+
+##Eudémonisme
+#TECH54
+L'{eudémonisme} est un système philosophique qui tire son
+nom d'un mot de grec ancien signifiant satisfaction et
+bonheur. Basé sur l'équité économique rendue possible par
+l'[économétrie sensible (E11)] et fondée en opposition aux
+excès de la [volonté de puissance (E8)], l'{eudémonisme}
+encourage chaque citoyen à atteindre le bonheur en luttant
+pour répondre complètement à son potentiel ; la liberté, la
+créativité et l'individualisme s'épanouissent sous les
+gouvernements qui adoptent cette philosophie.
+
+
+##La Volonté de puissance
+#TECH55
+À la suite du développement de l'[Homo Superior (E7)], beaucoup
+ont prôné le retour à la philosophie de Friedrich Nietzsche : la
+{volonté de puissance}. Cette philosophie souligne l'importance
+de la force, de l'ascétisme et de l'action résolue, souvent aux
+dépens de la compassion, de la charité et des autres qualités
+religieuses traditionnelles.
+
+
+##Seuil de la transcendance
+#TECH56
+Les [secrets de la création (D11)] et la [mécanique
+temporelle (B18)] ont amené les êtres intelligents au seuil d'une
+nouvelle ère -- le {seuil de la transcendance}.
+Dans cet état de transition, les individus commencent les
+préparatifs pour l'étape finale de l'évolution,
+vendent leurs biens, purifient leur corps selon un nouveau
+code d'ascétisme, et méditent seuls et sans protection
+dans les régions reculées de la planète.
+
+
+##Transmission de matière
+#TECH57
+La [décomposition de matière (B16)] et les [secrets d'Alpha
+Centauri (D12)] montrent le chemin accompli vers un des concepts
+les plus loués de la science-fiction --  la {transmission
+de matière}. Des transmetteurs basés sur cette technologie
+désassemblent les objets en leurs plus petites particules,
+puis transmettent ces particules et le plan
+structurel sous-jacent vers un récepteur. Le récepteur
+réassemble ces objets en suivant le plan, recréant ainsi
+l'original dans toutes ses nuances et tous ses détails.
+
+
+##Empathie Centauri
+#TECH58
+Basée sur les [secrets du cerveau humain (D2)] et sur
+l'[écologie Centauri (E1)], l'{empathie Centauri} épouse
+une philosophie d'environnement harmonieux, en mettant
+l'accent sur la recherche d'une niche appropriée pour
+l'humanité dans l'écosystème global.
+
+
+##Economie de l'environnement
+#TECH59
+L'expansion industrielle s'épanouit souvent aux dépens
+de la stabilité écologique. La pratique de l'{économie
+de l'environnement} tient compte de ce problème
+en recherchant et en exploitant des secteurs où les questions
+écologiques et industrielles se recoupent, comme
+l'utilisation acceptable des ressources, le tourisme
+écologique et le développement de la production organique.
+En associant les principes de l'[économie industrielle (B2)]
+et du [génie écologique (E4)] dans ce nouveau modèle
+d'activité, la stabilité écologique devient un effort
+profitable.
+
+
+##Génie écologique
+#TECH60
+Les formes de vie ont toujours fait preuve d'une remarquable
+aptitude pour l'innovation et l'astuce face aux obstacles
+de l'environnement. L'expansion sur une nouvelle planète
+met une fois de plus ces caractéristiques en lumière sous
+la forme du {génie écologique}. Basé sur les découvertes de
+l'{écologie Centauri (E1)] et du [raccordement génétique (B3)],
+cette recherche apporte de nouveaux moyens pour prospérer dans
+l'écosystème existant, plutôt que d'entrer en concurrence
+avec lui.
+
+
+##Economie planétaire
+#TECH61
+La politique industrielle originelle de la planète
+était centrée sur les marchés et secteurs individuels,
+tels que l'[économie de l'environnement (B5)], mais ces
+secteurs distincts créent des manquent d'efficacité. Les
+partisans de l'[intégrité intellectuelle (E3)] soutiennent
+que ces inefficacités sont inutiles, et travaillent à
+créer un système d'{économie planétaire} où les biens et
+services peuvent circuler librement.
+
+
+##Génie écologique avancé
+#TECH62
+La découverte de l'[énergie de fusion (D6)] a ouvert des
+possibilités stupéfiantes dans beaucoup de domaines, y
+compris celui de l'[économie de l'environnement
+(B5)]. Basé sur l'expérience cumulée de milliers de projets
+de construction entrepris depuis l'arrivée sur la planète, le
+{génie écologique avancé} marque une nouvelle étape de
+l'aptitude de l'homme à manipuler son environnement.
+
+
+##Psy Centauri
+#TECH63
+La [génétique Centauri (E6)] et le [génie écologique
+avancé (B10)] ont révélé la composition physique des
+formes de vie indigènes, mais n'ont pas expliqué les
+mystérieuses et terrifiantes attaques psychiques utilisées
+par ces créatures. Le démontage des mécanismes de cette
+attaque psychique dirigée nécessite une étude approfondie de
+la {psy Centauri} -- méthode utilisée par les vers télépathes
+pour communiquer et coordonner leurs attaques.
+
+
+##Secrets d'Alpha Centauri
+#TECH64
+Certaines sensibilités numériques parcourent des octets exécutifs
+de données dans la quête sans fin pour démêler l'[économétrie
+sensible (E11)]. Les meilleures de ces sensibilités ne
+s'arrêtent pas au tri des données économiques, mais poussent
+leur recherche jusqu'à la [psy Centauri (E11)] et à d'autres
+phénomènes planétaires. Elles travaillent pour mettre à jour
+ces {secrets d'Alpha Centauri} comme une sorte de défi
+personnel, pour s'imposer comme des machines qui peuvent non
+seulement conquérir les méandres de la société,
+mais également les magnifiques complexités d'un écosystème
+planétaire.
+
+
+##Secrets de la création
+#TECH65
+Ce qui adhère à la [volonté de puissance (E8)] doivent aussi
+affronter la question philosophique ultime : quel est le but
+et l'ordre de l'univers ? La confirmation de la [théorie des
+champs unifiés (C7)] donne finalement à l'humanité les outils
+permettant de répondre à cette question dans la recherche des
+{secrets de la création}.
+
+
+##Vol spatial avancé
+#TECH66
+La reprise des {vols spatiaux avancés} commence peu après
+le début des [vols spatiaux orbitaux (E7)] par l'humanité.
+Avec cette technologie, les vaisseaux spatiaux peuvent de
+nouveau atteindre les lunes en orbite autour de la planète
+et, par la suite, les étoiles elles-mêmes.
+
+
+##Homo Superior
+#TECH67
+Les progrès de la [biomécanique (B9)] et de la [doctrine :
+initiative (E5)] débouchent sur un nouveau type d'organisme,
+mi-biologique, mi-ordinateur. L'aspect biologique excelle aux
+manipulations physiques et à l'expérience émotionnelle,
+alors que l'aspect numérique excelle aux calculs et au
+traitement des données. Cet {Homo Superior} intègre le
+meilleur du biologique et de la machine.
+
+
+##Superlubrifiant organique
+#TECH68
+Les machines qui comportent des pièces en mouvement sont
+depuis longtemps victimes de l'usure et de la détérioration
+dues à la friction des pièces les unes contre les autres.
+Sur Terre, les lubrifiants traditionnels, comme l'huile,
+servaient à diminuer ces effets. La planète n'a pas de
+réserves importantes de ce type de matériau. Puis il y
+a eu l'invention des [combustibles fossiles synthétiques (E4)].
+Avec le {superlubrifiant organique}, les scientifiques
+peuvent créer des composés lubrifiants qui agissent comme
+des formes de vie simples, cherchant les endroits où elles
+sont le plus utiles.
+
+
+##Mécanique quantique
+#TECH69
+La découverte de l'[énergie quantique (B11)] génère une
+nouvelle révolution industrielle. Dans les usines de la
+planète, de minuscules {mécanismes quantiques} construits
+à l'aide des techniques de [nano-métallurgie (E8)] fournissent
+un travail étonnamment puissant et efficace pour tout type
+imaginable de production et de service.
+
+
+##Décomposition de matière
+#TECH71
+Peu de temps après les avancées dans le domaine des [matériaux de
+supertraction (B10)] et des [machines conscientes (B11)], les
+ingénieurs prétendent effectuer des recherches sur le dernier
+obstacle important de la manipulation physique -- la {transmission
+de matière}. Cette technique change réellement la structure
+physique des atomes individuels, en modifiant les caractéristiques
+tels que les états d'énergie, la rotation, le poids atomique et
+le nombre de protons, comme s'il s'agissait d'entrées dans une
+base de données. Cette technologie est la version moderne de
+la recherche entreprise jadis pour changer du plomb en or --
+la transmutation des éléments rendue possible par la manipulation atomique.
+
+
+##Ordinateurs optiques
+#TECH72
+L'adoption générale du [logiciel polymorphe (D2)]
+a généré le besoin d'ordinateurs plus rapides.
+Les {ordinateurs optiques} révolutionnaires, qui utilisent
+des photons voyageant à la vitesse de la lumière pour les
+calculs binaires, se révèlent près de 70% plus rapides
+que les vieux appareils à base d'électrons. Grâce aux succès
+de la [physique appliquée (C1)], les {ordinateurs optiques}
+améliorent aussi de manière exponentielle les capacités de
+stockage et les temps d'accès.
+
+
+##Nano-robotique industrielle
+#TECH73
+Les dirigeants d'affaires de la planète ont rapidement perçu
+le potentiel commercial de la [nano-miniaturisation (B8)] et
+construit des usines basées sur la {nano-robotique industrielle}.
+Ces usines utilisent l'[automatisation industrielle (B3)]
+traditionnelle, mais pour une fraction de la taille et du coût.
+La productivité s'accroît considérablement ainsi que la
+profitabilité avec ces minuscules robots qui usinent de
+nouveaux produits pour la consommation.
+
+
+##Génétique Centauri
+#TECH74
+Les premiers contacts avec la sensibilité de la planète
+lors de la recherche sur la [méditation Centauri (E5)] a provoqué
+un grand enthousiasme au sein de la communauté scientifique. On a
+proposé d'utiliser les nouvelles techniques d'[ingénierie
+rétrovirale (C5)] pour révéler la {génétique Centauri} -- plan
+structurel des organismes indigènes.
+
+
+##Econométrie sensible
+#TECH75
+Malgré la sophistication de ses modèles mathématiques,
+l'[économie planétaire (B4)] ne s'est pas révélée meilleure
+pour prédire les actions des marchés et des populations
+que les pronostiqueurs de Wall Street au 20ème siècle sur
+Terre. Il y a trop de variables inconnues, avec des
+conséquences imprévisibles. Les tenants de
+l'{économétrie sensible} utilisent les meilleurs 'ordinateurs intelligents'
+développés grâce à la [sensibilité numérique (D10)] et les
+paramètrent pour identifier ces variables et prédire leurs
+conséquences. Leurs efforts diligents ont enfin fait de
+l'économie une véritable science.
+
+
+##Ingénierie rétrovirale
+#TECH76
+L'{ingénierie rétrovirale} est un domaine dérivé de la [bio-ingénierie (B4)]
+qui utilise des virus fabriqués pour procéder à des
+altérations génétiques. Cette application peut servir des buts
+pacifiques et thérapeutiques, mais ils peuvent aussi être
+distordus par les mêmes chercheurs militants des
+[algorithmes militaires avancés (E3)] en une arme terriblement
+destructrice.
+
+
+##Vol spatial orbital
+#TECH77
+Les premiers colons apportent certainement la compréhension
+technique du vol spatial, mais ils manquent des matériaux
+et de l'infrastructure nécessaires pour construire un
+vaisseau spatial. Plus tard, la mise en oeuvre de la
+[doctrine : puissance aérienne (E5)] fournit les
+infrastructures, alors que les [algorithmes pré-sensibles (D5)]
+évolués fournissent les outils pour le retour de l'humanité
+au {vol spatial orbital}.
+
+##Psy Progéniteur
+#TECH78
+Les Progéniteurs, une race extra-terrestre anciennement liée
+à Planète, reviennent pour récupérer leur héritage. La {Psy
+Progéniteur} n'est rien de plus que la simple compréhension
+de la culture, de la langue et des objectifs des Progéniteurs.
+Les humains ne peuvent parler à aucune des factions humaines
+tant qu'ils n'ont pas découvert la Psy Progéniteur, ou avant
+que les Progéniteurs n'aient découvert la [Psy sociale (B1)].
+
+##Modulation de champ
+#TECH79
+La race des Progéniteurs peut ressentir et manipuler les champs
+locaux qu'un humain non entraîné ne peut percevoir sans aide
+mécanique, parmi lesquels l'électricité et le magnétisme. Fondée
+sur la [Psy Progéniteur (E1)] et l'[Ecologie Centauri (E1], la
+découverte de la {Modulation de champ} permet à des individus
+entraînés et équipés de détecter ces 'champs de résonance' et de
+procéder dessus à des manipulations.
+
+##Doctrine adaptative
+#TECH80
+La {Doctrine adaptative} associe le [Logiciel polymorphique (D2)] et la
+[Doctrine : Flexibilité (E2)] en une nouvelle philosophie militaire. Cette
+philosophie vise à associer une doctrine à chaque champ de bataille au lieu
+d'essayer de créer une doctrine suprême pour tous les environnements
+possibles.
+
+##Economie adaptative
+#TECH81
+Issue de la compréhension de la [Psy Progéniteur (E1)] et de l'[Economie
+industrielle (B2)], l'{Economie adaptative} peut assimiler les changements
+rapides des systèmes économiques pour les adapter aux modifications de la
+population.
+
+##Résonance bioadaptative
+#TECH82
+La {Rénonance bioadaptative} est une forme plus évoluée de la [Modulation de champ (C2)]
+qui permet une manipulation intensive des champs de résonance. La compréhension
+de l'[empathie Centauri (E3)] est essentielle pour la découverte de cette
+technologie.
+
+##Résonance sensible
+#TECH83
+La {Résonance sensible} est une exttension de la [Résonance bioadaptative (C4)]
+et de la [Psy Centauri (E8)] ce qui permet la création des champs de résonance
+intelligents.
+
+##Secrets du Collecteur
+#TECH84
+Planète n'est que l'une des grandes expériences, ou Collecteurs, parsemées dans
+toute la galaxie par les ancêtres Progéniteurs. La découverte des {Secrets des
+Collecteurs} permet la perception et le contact entre ces Collecteurs planétaires.
+Cette technologie est basée sur la compréhension de la [Résonance sensible (C9)]
+et des [Secrets d'Alpha Centauri (D12)].
+
+##Compression N-spatiale
+#TECH85
+La {Compression N-Space Compression} est un terme Progéniteur qui se traduit
+librement par"la plus courte distance entre deux points est toujours 0,
+parce que ces deux point de notre espace perceptible sont en fait contigüs
+dans un autre univers, d'où le postulat de l'infinité." La Compression
+transporte simplement des choses qui semblent être en un endroit (comme de lourds
+emports de missile) vers un autre endroit (tel qu'une tête de missile) à volonté
+(par exemple juste avant la détonation).
+Cette technologie est basée sur la compréhension du [Vol spatial orbital (D6)] et
+de la [Biomécanique (B7)].
+
+##Résonance des cordes
+#TECH86
+Basée sur les [Secrets des Collecteurs (D10)] et de la [Singularité contrôlée (C15)],
+la {Résonance des cordes} permet la manipulation des champs de résonance au niveau
+même de la "corde" (les briques de matière mono-dimensionnels). La capacité à
+manipuler la structure même de l'univers autorise un pouvoir de destruction effrayant.
+
+
+##Pensée transcendante
+#TECH88
+Se fondant sur la [singularité contrôlée (C16)] et sur le
+[seuil de la transcendance (E19)], cette technologie a enfin
+révélé les clefs de l'étape finale de l'évolution
+avec la {pensée transcendante} -- l'aptitude à
+contenir une conscience, ou 'âme', en dehors des limites
+d'une forme corporelle. Ceux qui le choisissent peuvent
+maintenant terminer l'ascension vers la transcendance,
+et unir leur conscience à l'esprit planétaire dans une
+immortalité intemporelle.
+
+
+# ; This line must remain at end of file

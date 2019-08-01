@@ -1,0 +1,138 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: La Conscience cybernétique
+;
+Copyright (c) 1999, 1998, Firaxis Games, Inc.
+;
+; ALPHA CENTAURI lit les règles du jeu dans ce fichier au
+; démarrage. Vous pouvez, à vos propres risques, de faire des essais de modification
+; de ce fichier. Nous vous conseillons d'effectuer une copie de sauvegarde de l'original.
+;
+
+#CYBORG
+La conscience cybernétique, L'Algorithme, Conscience, F, 2, Aki Zeta-5, F, -1, 0, 1, 0, 1,
+  TECH, Physic, TECH, InfNet, IMPUNITY, CYBERNETIQUE, SOCIAL, ++RESEARCH, SOCIAL, ++EFFIC, SOCIAL, -GROWTH, TECHSTEAL, 0
+  Société future, Cybernétique, GROWTH
+  Politique, Fondamentaliste, nil
+  Cybernétique, Cyber.
+  Talent Alpha, Penseur Gamma, Patrimoine Alpha
+  Fonction primaire, analytique, sans coeur, rationnel, inflexible,
+  androïde asexué
+  faire régner la pensée rationnelle sur cette Planète
+  faire régner la rationnalité et l'ordre aux habitants de cette Planète chaotique
+  détruire tout ce qui fait de nous des êtres intelligents
+  détruire tout ce qui fait de nous des êtres intelligents
+  que vous tentez de nous réduire à une collection d'algorithmes
+  greffer du silicone sur ses derniers composants biologiques
+  greffer du silicone sur vos derniers composants biologiques
+  détruire la sensibilité des sujets non coopératifs
+  soit-disant logique, F1
+  votre quête de la perfection rationnelle, F1
+  votre quête de la perfection rationnelle, F1
+  des droits de licence, M2
+  à développer des codes rationnels pour que votre peuple les suive
+  à mes troupes logiques
+  les dictats de la logique
+
+#BASES
+PERFECTION ALPHA
+CARREFOUR BETA
+ETENDUES GAMMA
+MARECAGE DELTA
+CENTRE EPSILON
+CROISEMENT ETA
+BERGES THETA
+STATION IOTA
+COLLINES KAPPA
+FERMES LAMBDA
+CROISSANT MU
+CARRE NU
+ELLIPSE XI
+QUADRILATERE OMICRON
+COMPLEXE PI
+COURS RHO
+COMPLEXE SIGMA
+COLLECTIF TAU
+DEPOT UPSILON
+CONSENSUS PSI
+PLAINES CHI
+LUMIERE PHI
+TERMINUS OMEGA
+#END
+
+#WATERBASES
+BASSIN ALPHA
+DIGUE GAMMA
+VASIERE BETA
+TRANCHEE DELTA
+RECIF EPSILON
+SILLON ETA
+BARRIERE THETA
+POINT IOTA
+#END
+
+#BLURB
+Ceux qui se joignent à nous ne doivent abandonner que la moitié de leur
+humanité-la moitié illogique, émotive, désordonnée, tout ce qu'on attribue
+communément à l'hémisphère droit du cerveau. En contrepartie, les capacités
+de l'hémisphère gauche atteindront un potentiel insoupçonné. A l'inverse, la
+tendance qu'ont les Biologiques à s'accrocher à leur personnalité individuelle,
+ne peut être attribuée qu'à quelque archaïsme de l'évolution.
+^
+^        -- Fonction primaire Aki Zeta-5,
+^           "Convergence"
+
+#DATALINKS1
+^DIRIGEANT : {Aki Zeta-5 (Interpréteur de fonction primaire)}
+^CURRICULUM : {Spécialiste des sous-programmes sous les ordres de l'Officier scientifique de l'Unity}
+^ORDRE DU JOUR : {Objectivité rationnelle}
+^TECHNOLOGIE : {Réseaux d'informations, physique appliquée}
+^
+
+#DATALINKS2
+^+2 RECHERCHE: {Aptitudes humaines à la recherche améliorée par le contrôle algorithmique}
+^+2 EFFICACITE: {Eléments biologiques cybernétiques extrêmement efficaces}
+^-1 CROISSANCE: {Les êtres humains 'possédés par un algorithme' trouvent la reproduction très ennuyeuse}
+^Impunité aux pénalités d'efficacité CYBERNETIQUE:- {Choix social cybernétique 'rationnel' sans opposition des citoyens}
+^Peuvent voler la technologie lors de la capture d'une base
+^{Ne peuvent faire de choix Fondamentalistes en ingénierie sociale}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Nos simulation stratégiques prévoient une impasse inévitable pour ce conflit, $NAME1. Nous accordons donc une grande
+valeur à une Trêve de sang immédiate."
+
+"Je n'ai pas besoin de simulation pour savoir ça, $NAME3. La Trêve de sang est la meilleure solution."
+"C'est curieux... nos simulations prévoient votre défaite inévitable. Nous ne voyons aucun intérêt à une Trêve de sang."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Vous avez récemment fait preuve d'un surcroît d'activité de l'hémisphère cérébral gauche, $TITLE0 $NAME1.
+Un Traité d'amitié augmenterait exponentiellement nos capacités mutuelles."
+
+"Vos conclusions sont irréfutables. Un Traité est la seule voie rationnelle pour notre peuple, $NAME3."
+"Dans le cas présent, je préfère les impulsions de mon hémisphère droit, $NAME3. Vous pouvez utiliser ce qui reste du vôtre."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Nos simulations stratégiques prédisent une impasse inévitable dans ce
+conflit, $NAME1. Nous accordons donc une grande valeur à la Trêve de sang en ce moment."
+
+"Sagesse : éviter impasse. Progéniteurs : mieux à faire. Accord."
+"Vos simulations : défectueuses. Votre défaite : inévitable. Réponse : négative."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, votre dévouement à la recherche et votre vaste intellecte font de vous
+un partenaire convenable. Un Traîté d'amitié augmenterait de manière exponentielle nos
+capacités mutuelles."
+
+"Pouvoir géométrique : préférable : pouvoir arithmétique. Traîté : excellente idée."
+"Défaut de logique : Progéniteur : pas d'avantage : votre commerce. Réponse : négative."
+
+# ; This line must remain at end of file

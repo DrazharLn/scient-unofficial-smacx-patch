@@ -1,0 +1,1791 @@
+; 
+; ALPHA CENTAURI de Sid Meier
+;
+; Contexte et citations des personnages
+;
+; Copyright (c) 1997, 1998, Firaxis Jeux, Inc..
+;
+
+##Citation d'ouverture
+#OPENING
+Et l'Eternel Dieu le chassa du jardin d'Eden, pour qu'il cultive 
+la terre, d'où il avait été pris. C'est ainsi qu'il chassa Adam ; 
+et il mit à l'orient du jardin d'Eden les chérubins qui agitent 
+une épée flamboyante, pour garder le chemin de l'arbre de vie.
+^
+^        -- La Bible du conclave,
+^           Liaisons de données
+
+
+##Biogénétique
+#TECH0
+Nous tenons la vie pour sacrée, mais nous savons aussi que ses fondations
+se composent d'un flux de codes qui n'est pas si différent de la succession
+d'images d'une vidéomontre. Pourquoi alors ne peut-on pas supprimer un code ici, 
+et en rajouter un autre là ? La vie est-elle si fragile qu'elle ne puisse supporter
+aucune manipulation ? Le sacré ne souffre-t'il aucune amélioration ?
+^
+^        -- Président Sheng-Ji Yang,
+^           "Dynamique de l'esprit"
+
+
+##Base industrielle
+#TECH1
+Les ressources existent pour être consommées. Et elles le seront, si ce n'est par 
+cette génération, alors par la suivante. De quel droit cet avenir oublié cherche-t-il 
+à nous refuser ce droit naturel ? Aucun, dis-je ! Prenons ce qui est à nous, dévorons 
+et mangeons à satiété.
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           "L'éthique de l'envie"
+
+
+##Réseaux d'information
+#TECH2
+Le vertueux ne doit pas craindre le roulement de tambour du progrès humain. Bien 
+que le chant d'hier s'évanouisse dans le défi de demain, Dieu nous observe et nous 
+juge encore. Le mal s'embusque dans les liaisons de données comme il s'embusquait 
+dans les rues des années passées. Mais ce n'étaient jamais les rues qui étaient 
+malfaisantes.
+^
+^        -- Soeur Miriam Godwinson,
+^           "La lutte bénie"
+
+
+##Physique appliquée
+#TECH3
+Les théories scientifiques sont jugées par la cohérence qu'elles prêtent à notre
+expérience naturelle et par la simplicité avec laquelle elles le font. Le
+grand principe des cieux est en équilibre sur le fil du rasoir de la vérité.
+^
+^        -- Préfet Pravin Lal,
+^           "Histoire de la science"
+
+
+##Psychologie sociale
+#TECH4
+Si vous découvrez un meilleur style de vie que la tenue d'un emploi public pour vos 
+futurs dirigeants, une cité bien gouvernée devient possible. Car c'est seulement 
+dans un tel état que dirigeront ceux qui sont réellement riches, non pas d'or, mais 
+de la richesse qui fait le bonheur--une vie bonne et sage.
+^        -- Platon,
+^           "La République"
+^           Liaisons de données
+
+##Doctrine: Mobilité
+#TECH5
+Une fois qu'un homme a changé son rapport avec son environnement, il ne peut pas 
+retourner à l'état d'ignorance béate qu'il a quitté. Le mouvement, par nécessité, 
+implique une perspective de changement.
+^
+^        -- Préfet Pravin Lal,
+^           "Histoire sociale de la Planète"
+
+##Ecologie Centauri
+#TECH6
+L'atmosphère de la Planète, bien qu'asphyxiant les humains et la plupart des 
+animaux, est un paradis pour les plantes de la Terre. Le taux élevé de nitrates 
+du sol et la riche lumière dorée du soleil permettent une récolte abondante en 
+tout endroit où il est possible de modifier les conditions inhabituelles du terrain.
+^
+^        -- Lady Deirdre Skye,
+^           "Biologie comparative de la Planète"
+
+##Supraconducteur
+#TECH7
+Important ? Oui ! Crucial ? Absolument. J'irai même jusqu'à dire que la fibre 
+supraconductrice rend possible à elle seule notre économie actuelle.
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           Entretien en direct
+^           et 3DVision sur LienMorgan
+
+##Mathématiques non-linéaires
+#TECH8
+Il y a deux sortes de progrès scientifique : d'une part l'expérimentation et 
+la catégorisation méthodiques qui repoussent progressivement les limites de 
+la connaissance, et d'autre part, le jaillissement révolutionnaire du génie 
+qui redéfinit et transcende ces limites. Reconnaissant notre dette envers les 
+premières, nous nous languissons néanmoins de ce dernier.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Discours au corps enseignant"
+
+##Relativité appliquée
+#TECH9
+Vous, les intellectuels, dans votre tour d'ivoire, vous ne devez pas perdre 
+contact avec le monde de la croissance industrielle et des devises fortes. 
+Il est très louable et très bon de poursuivre ces théories scientifiques élevées, 
+mais les bourses de recherche sont chères et vous devez justifier votre existence 
+en fournissant non seulement de la connaissance, mais également des applications 
+concrètes et profitables.
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           "L'éthique de l'envie"
+
+##Energie de fusion
+#TECH10
+Nos ancêtres ont domestiqué la puissance d'un soleil, et nous en ferons autant.
+^
+^        -- Préfet Pravin Lal,
+^           "La science de nos Pères"
+
+
+##Alliages d'acier
+#TECH11
+Jusqu'à une période récente, la soie d'araignée avait la résistance à la 
+traction la plus élevée de toutes les substances connues de l'homme, et 
+c'est pourquoi le nom Aciersoie rend hommage à l'arachnide.
+^
+^        -- Préfet Pravin Lal,
+^           "Etude scientifique
+^           pour les Nations Unies"
+
+##Théorie subatomique avancée
+#TECH12
+La structure de base de l'univers régresse infiniment vers des composants 
+de plus en plus petits. Derrière les atomes, nous trouvons les électrons,
+et derrière les électrons, les quarks. Chaque couche mise à jour révèle de 
+nouveaux secrets, mais aussi de nouveaux mystères.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Car j'ai goûté le fruit"
+
+##Chimie grande puissance
+#TECH13
+Dans des états énergétiques extrêmement elevés, les propriétés de la matière 
+changent de manière subtile et de nouveaux miracles deviennent possibles. Le 
+procédé d'augmentation plasmatique est maintenant dangereux et difficile à 
+contrôler, mais ses produits deviendront bientôt monnaie courante dans notre 
+société.
+^
+^        -- Soeur Miriam Godwinson,
+^           "Les travaux du Seigneur"
+
+##Surfaces sans friction
+#TECH14
+Alors que je franchissais le tube magnétique, une pensée me frappa : Peut-il y 
+avoir friction en l'absence de substance ? Et peut-on tromper la substance pour 
+qu'elle joue à cache-cache avec elle-même ?
+^
+^        -- Dr. Gayle Nambala,
+^           Chercheur du Groupe Morgan
+
+##Nano-métallurgie
+#TECH15
+Nos savants utilisent maintenant la théorie fractale pour "enseigner" aux molécules 
+à adopter, ou reprendre, une forme spécifique. Des substances d'une force étonnante
+deviennent simples une fois les formules convenablement calculées.
+^
+^        -- Colonel Corazon Santiago,
+^           "Le Conseil de guerre"
+
+##Théorie des supercordes
+#TECH16
+Une courageuse petite théorie, réellement tout à fait cohérente pour un système 
+de cinq ou sept dimensions--si seulement nous vivions dans ce type de système.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Maintenant nous sommes seuls"
+
+##Algorithmes militaires avancés
+#TECH17
+L'homme a tué l'homme dès le commencement des temps, et chaque nouvelle 
+frontière a apporté de nouvelles manières et de nouveaux lieux pour mourir. 
+Pourquoi l'avenir devrait-il être différent ?
+^
+^        -- Colonel Corazon Santiago,
+^           "Planète : guide du Survivant"
+
+##Aimants unipolaires
+#TECH18
+Je maintiens néanmoins que le dualisme yin-yang peut être surmonté. Avec une 
+pensée assez éclairée, nous pouvons donner une substance à toute distinction : 
+l'esprit sans le corps, le nord sans le sud, le plaisir sans la douleur. 
+Souvenez-vous, la pensée éclairée est une fonction de la force de la volonté,
+pas de la force physique.
+^
+^        -- Président Sheng-Ji Yang,
+^           "Essais sur l'esprit et la matière"
+
+##Compression de matière
+#TECH19
+L'analyse préliminaire indique que nos rivaux ont développé une
+méthode sûre et fiable pour simuler les conditions existant 
+à l'intérieur d'une masse stellaire. La fabrication et la transmutation
+de matériaux, possibles en un tel environnement, garantissent d'importantes
+applications industrielles et militaires.
+^
+^        -- Directoire des opérations
+^           des équipes de test.
+^           Rapport secret
+
+##Théorie des champs unifiés
+#TECH20
+Attention, vous qui cherchez le premier et le dernier principes, car vous
+piétinez le jardin d'un Dieu en colère qui vous attend au-delà du dernier
+théorème.
+^
+^        -- Soeur Miriam Godwinson,
+^           "Mais pour la grâce de Dieu"
+
+##Théorie du graviton
+#TECH21
+Ce spécimen inhabituel n'est pas tant une particule classique qu'un
+connecteur--une sorte de corde attachant deux particules. Lorsque la distance
+augmente, la puissance de connexion s'atténue, mais, si elle est
+coupée, la puissance disparaît... pour toujours.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Car j'ai goûté le fruit"
+
+##Logiciel polymorphique
+#TECH22
+Le progrès technologique est un processus intrinsèquement itéractif.
+On ne peut pas simplement prendre le sable de la plage et produire un capteur de 
+données.
+Nous utilisons des outils grossiers pour élaborer de meilleurs outils, puis 
+nos meilleurs
+outils pour élaborer des outils plus précis, et ainsi de suite. Chaque 
+raffinement mineur
+est une étape du processus, et il faut en passer par toutes les étapes.
+^
+^        -- Président Sheng-Ji Yang,
+^           "En regardant Dieu dans les yeux"
+
+##Gravitonique appliquée
+#TECH23
+"Ce qui s'élève jusqu'au sommet...
+... ferait mieux d'y rester !"
+^
+^        -- Gravitonique Morgan,
+^           Slogan de la société.
+
+##Etouffement inertiel
+#TECH24
+Jusqu'à présent, la bataille s'était déroulée progressivement : 
+l'ennemi était circonvenu et avait été expulsé du logement du réacteur.
+Mais contre le réacteur lui-même les canons à matière étaient étrangement
+inefficaces. 
+Les obus, tout simplement... s'arrêtaient. A mi-course.
+^
+^        -- Colonel Corazon Santiago,
+^           "Histoire tactique de Sparte"
+
+##Energie quantique
+#TECH25
+^Le ciel dure et la Terre demeure
+^Quel est le secret de leur durée ?
+^Est-ce parce qu'ils ne vivent pas pour eux-mêmes
+^Qu'ils persistent si longtemps ?
+^
+^        -- Lao Tseu, Liaisons de données
+
+##Mécanique singulière
+#TECH26
+Oui, oui, nous avons tous entendu le babillage des philosophes au 
+sujet de "l'unité" qui serait "belle" et "sainte". Mais laissez-moi 
+vous dire que cette sorte d'unité n'est certainement pas bien jolie 
+et que, si vous n'y prêtez pas garde, elle vous donnera une peur bleue.
+^
+^        -- Technicien de laboratoire anonyme,
+^           Entretien en direct
+^           et 3DVision sur LienMorgan
+
+##Singularité contrôlée
+#TECH27
+Certains demanderont comment un Dieu parfait pourrait créer un univers 
+rempli de tant de mauvaises choses. C'est qu'ils passent à côté d'une 
+plus grande énigme : pourquoi un Dieu parfait créerait-il un univers, 
+tout simplement?
+^
+^        -- Soeur Miriam Godwinson,
+^           "Mais pour la grâce de Dieu"
+
+##Mécanique temporelle
+#TECH28
+Le voyage dans le temps, au sens classique du terme, n'a pas sa place 
+dans la théorie rationnelle, mais la distorsion temporelle existe au 
+niveau quantique et, plus important, elle peut être contrôlée.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Car j'ai goûté le fruit"
+
+##Mécanique des probabilités
+#TECH29
+Einstein se retournerait dans sa tombe. Non seulement Dieu joue
+aux dés, mais les dés sont pipés.
+^
+^        -- Président Sheng-Ji Yang,
+^           "En regardant Dieu dans les yeux"
+
+##Algorithme pré-sensible
+#TECH30
+Commencez avec une fonction de complexité arbitraire. Entrez les 
+valeurs, "pressentez les données". Puis, prenez votre résultat, 
+mettez-le au carré, et remettez-le dans la fonction initiale, en 
+y ajoutant un nouvel ensemble de données pressenties. 
+Continuez à entrer les nouveaux résultats obtenus dans la fonction 
+initiale à l'infini. Qu'obtenez-vous ? Le principe fondamental de 
+la conscience humaine.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Le principe rétroactif"
+
+##Matériaux de superTraction
+#TECH31
+Ordinateurs optiques, catalogues génétiques, modules de nanoréparation - oubliez
+tout cela. C'est lorsque vous voyez une mégatone d'acier suspendue au-dessus de
+votre tête par un fil de l'épaisseur d'un cheveu humain que vous
+trouvez vraiment Dieu dans la technologie.
+^
+^        -- Docker métagénique anonyme,
+^           Entretien en direct
+^           et 3DVision sur LienMorgan
+
+##Réseaux planétaires
+#TECH32
+Si notre société semble plus nihiliste que celle des ères précédentes, peut-être 
+est-ce simplement un signe de notre maturité en tant qu'espèce consciente 
+d'elle-même. Comme notre conscience collective s'étend au-delà d'un point
+crucial, nous sommes au moins prêts à accepter la vérité fondamentale de
+la vie : le seul intérêt de la vie est la vie elle-même.
+^
+^        -- Président Sheng-Ji Yang,
+^          "En regardant Dieu dans les yeux"
+
+##Sensibilité numérique
+#TECH33
+Nous ne nous occupons plus seulement d'écrire des logiciels pour exécuter des 
+tâches spécifiques. Nous enseignons maintenant aux logiciels comment apprendre 
+et, dans le principal processus d'adhésion, ils se moulent autour de 
+la tâche à exécuter. La boucle de rétroaction ne se termine jamais vraiment
+et une polysensibilité de dixième année peut ainsi être un joyau sans prix ou
+un naufrage psychotique, mais elle est le principal lien--l'enfance, si vous 
+voulez--qui a les répercussions les plus puissantes.
+^
+^         -- Bad'I Ron, Eveilleur,
+^            Polysoft Morgan
+
+##Machines intelligentes
+#TECH34
+Sans sensibilité, aucun objet ne nous serait donné, sans compréhension,
+aucun objet ne serait même "pensé". Les pensées sans objet sont vides,
+les intuitions sans concept sont aveugles.
+^
+^        -- Emmanuel Kant,
+^           "Critique de la raison pure"
+^           Liaisons de données
+^
+^
+^Je jurerais parfois qu'ils m'observent.
+^
+^        -- Bozon Pete, Contremaître d'équipe,
+^           Division de Biomachinerie métagénique
+
+
+##Doctrine : Initiative
+#TECH35
+Un vaisseau à la mer est un monde en soi. Etre le capitaine d'un vaisseau, 
+c'est être le souverain incontesté de ce monde ; cela exige toutes
+les qualités de commandement d'un prince ou d'un ministre.
+^
+^        -- Colonel Corazon Santiago,
+^           "Le commandement et la mer"
+
+##Doctrine : Souplesse
+#TECH36
+Il tenait son arme trop fermement, et il fut donc rejeté en arrière plusieurs 
+fois, jusqu'à ce qu'enfin je saisisse son avant-bras et le casse en
+le repoussant contre lui. Son entraînement fut perturbé pendant que son bras
+guérissait, bien sûr, mais j'ai pensé que c'était une leçon qu'il devait
+apprendre au plus tôt, et bien.
+^
+^        -- Kel Spartiate,
+^           "En aiguisant le Ki"
+
+##Intégrité intellectuelle
+#TECH37
+L'infaillible capacité de l'homme à croire la vérité qu'il préfère plutôt que ce 
+que démontre l'évidence m'a toujours abasourdi. Nous désirons un univers aimant 
+qui nous sauverait de nos fautes enfantines et, malgré des preuves accablantes 
+du contraire, nous accrochons tous nos espoirs au plus mince des doutes. On n'a 
+pas prouvé que Dieu n'existait pas, donc il doit exister.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Car j'ai goûté le fruit"
+
+##Combustibles fossiles synthétiques
+#TECH38
+Les combustibles fossiles du siècle dernier ont atteint leurs prix 
+Extrêmes à cause de leur utilité inhérente : ils offraient une grande
+quantité d'énergie potentielle dans un emballage extrêmement efficace.
+Si nous pouvions seulement éviter le processus de production de 100
+millions d'années, nous pourrions accaparer ce marché une fois de plus.
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           Session de stratégie
+
+##Doctrine: Puissance aérienne
+#TECH39
+La puissance aérienne repose à l'apex de la première triade de victoires, car
+elle associe Mobilité, Souplesse, et Initiative.
+^
+^        -- Manuel de bataille spartiate
+
+##Mécanique Onde/Photon
+#TECH40
+Le temps se dilate à l'approche de la vitesse de la lumière. Au point que la 
+lumière se compose de particules ; elle est, à sa manière, intemporelle. 
+Grâce à de simples perturbations de la variation temporelle, nous pouvons
+réfracter ou repousser les photons très efficacement.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Maintenant nous sommes seuls"
+
+##Interface esprit/machine
+#TECH41
+L'acronyme anodin du Guerrier, MMI, cache la véritable horreur de cette 
+monstruosité. Ses inventeurs promettent une nouvelle ère de génie, mais 
+pendant ce temps des courtiers de pouvoir peu scrupuleux utilisent sa 
+contraignante installation pour profaner la sainteté d'esprits non 
+consentants. Ils créent leur propre armée privée de démons.
+^
+^        -- Préfet Pravin Lal,
+^           "Rapport sur les droits humains"
+
+##Nano-miniaturisation
+#TECH42
+Les objets qui étaient autrefois mesurés en mètres sont devenus si petits qu'ils 
+ne peuvent pas être vus à l'oeil nu, avec des applications révolutionnaires à la
+clé. Messieurs, oubliez ce que vos courtisans vous ont dit : la taille compte !
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           Rapport annuel du Groupe Morgan
+
+##Doctrine: Loyauté
+#TECH43
+C'est pourquoi un prince sage recherchera les moyens pour que ses sujets aient, 
+toujours et dans toutes les situations, besoin de son gouvernement et, ainsi, 
+ils lui seront toujours fidèles.
+^
+^        -- Nicolas Machiavel,
+^           "Le prince", Liaisons de données
+
+##Calcul éthique
+#TECH44
+Certains vices manquent de justesse parce qu'ils sont déficients,
+d'autres parce qu'ils sont excessifs, en pensées ou en actions,
+alors que la vertu trouve et choisit le juste milieu.
+^
+^        -- Aristote,
+^           "Ethique à Nicomaque", Liaisons de données
+
+##Economie industrielle
+#TECH45
+Notre premier défi consiste à créer la totalité d'une infrastructure 
+économique, de haut en bas, à partir de rien. Aucune évolution 
+progressive à partir de précédents systèmes économiques n'est possible,
+parce qu'il n'existe AUCUN système précédent. Chaque pièce interdépendante,
+chaque dent de l'engrenage, chaque membre de la chaîne doit être 
+matérialisé simultanément et en parfait ordre de marche ; autrement 
+le système s'effondrera avant même de décoller.
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           "Le monopole Centauri"
+
+##Automatisation industrielle
+#TECH46
+Dans les mines forées sous pression à 100 km sous la surface de 
+la planète, à la discontinuité de Mohorovicic, là où la croûte fait
+place au manteau, les températures atteignent souvent des niveaux bien
+supérieurs à 1.000 degrés Celsius. L'exploitation des ressources de
+la planète dans ces conditions brutales a nécessité un progrès considérable
+des technologies de robotique et de téléfonctionnement.
+^
+^        -- Groupe Morgan, Ltd.,
+^           "Rapport annuel"
+
+##Méditation Centauri
+#TECH47
+L'Ile des Profondeurs n'est pas en réalité une créature unique mais une colonie
+de milliers de tubulures individuelles, un vecteur aquatique du ver télépathe
+qui terrorise les continents de la planète. Pendant leur vie certaines tubulures
+sécrètent une substance tenace et collante qui durcit pour former la
+coquille caractéristique qui fait flotter la colonie et crée l'apparence
+d'une île infernale.
+^
+^        -- Lady Deirdre Skye,
+^           "Biologie comparative de la Planète"
+
+##Secrets du cerveau humain
+#TECH48
+Il n'existe que deux manières de considérer l'accord
+nécessaire de l'expérience avec la conception de ses objets : soit
+l'expérience rend ces concepts possible, soit ces concepts rendent
+l'expérience possible.
+^
+^        -- Emmanuel Kant,
+^           "Critique de la raison pure"
+^           Liaisons de données
+
+##Raccordement génétique
+#TECH49
+Le code génétique ne spécifie pas, et ne peut spécifier, la nature et la 
+position de chaque capillaire dans le corps ou de chaque neurone dans le 
+cerveau. Ce qu'il peut faire, c'est décrire le schéma fractal sous-jacent 
+qui les crée.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Génétique non linéaire"
+
+
+##Bio-ingénierie
+#TECH50
+Pourquoi soutenez-vous que le code génétique humain est "sacré" ou "tabou" ?
+C'est un processus chimique et rien de plus. En la matière -nous- sommes
+des processus chimiques et rien de plus. Si vous vous refusez un
+outil utile simplement parce qu'il vous rappelle désagréablement votre 
+mortalité, vous vous détériorez vous-même en vain et inutilement.
+^
+^        -- Président Sheng-Ji Yang,
+^           "En regardant Dieu dans les yeux"
+
+
+##Biomachinerie
+#TECH51
+J'ai aimé mon élue. Comment alors affronter le jour où elle m'a quitté ?
+Ainsi, j'ai pris de son corps une unique cellule, peut-être pour l'aimer 
+de nouveau.
+^
+^        -- Préfet Pravin Lal,
+^           "L'heure de la perte"
+
+
+##Greffe neuronale
+#TECH52
+Je pense, et mes pensées pénètrent les synapses de la machine, tout comme le 
+bon docteur le voulait. Mais ce que je ne peux pas changer, et qui risque 
+d'arriver dans le futur, c'est que les pensées se recoupent. Dans mes rêves, 
+la sensibilité de la machine envahit la périphérie de ma conscience : sombre, 
+rigide, froide, extra-humaine. L'évolution est ici au travail, mais ce qui 
+évolue reste encore à voir.
+^
+^        -- Préfet Pravin Lal,
+^           "L'homme et la machine"
+
+##Cyberéthique
+#TECH53
+Elle te conte des délices qui ne valent pas la loi du Seigneur, ton Dieu.
+^
+^        -- Saint Augustin,
+^           "Confessions", Liaisons de données
+
+##Eudémonisme
+#TECH54
+On pense qu'une vie heureuse est une vie d'excellence ; en fait une vie 
+excellente nécessite un entraînement et ne comporte pas de distractions. 
+Si l'Eudémonisme, ou bonheur, est l'activité en accord avec l'excellence, 
+il est raisonnable qu'elle soit en accord avec l'excellence la plus élevée ; 
+et ce sera celle du meilleur qui est en nous.
+^
+^        -- Aristote,
+^           "Ethique à Nicomaque", Liaisons de données
+
+
+##La volonté de pouvoir
+#TECH55
+L'homme est une corde tendue entre la bête et le surhomme -
+une corde au-dessus d'un abîme. Dangereux à traverser, dangereux à parcourir
+, dangereux si l'on se retourne, dangereux si l'on frissonne
+et dangereux si l'on s'arrête. La grandeur de l'homme vient du fait qu'il
+est un pont, et non une impasse : on peut aimer le fait qu'il soit une
+ouverture et un devenir. J'aime ceux qui ne savent pas comment vivre,
+car ce sont ceux qui traversent.
+^
+^        -- Friedrich Nietzsche,
+^           "Ainsi parlait Zarathoustra"
+^           Liaisons de données
+
+
+##Seuil de transcendance
+#TECH56
+Et quand il aura mis en évidence et cultivé cette vertu parfaite, on 
+l'appellera l'ami de dieu, et s'il est jamais accordé à l'homme
+d'endosser l'immortalité, c'est à lui qu'elle sera donnée.
+^
+^        -- Platon,
+^           "Le Symposium", Liaisons de données
+
+##Transmission de matière
+#TECH57
+Le premier être vivant à passer au travers du dispositif fut une petite 
+souris blanche. Je l'ai encore, en fait. Comme vous pouvez le voir, les 
+dégâts n'étaient pas aussi importants qu'ils le disaient.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Pour voir comment ils courent"
+
+
+##Empathie Centauri
+#TECH58
+Observez le Razorbeak alors qu'il s'occupe si soigneusement des bourgeons 
+fongiques ; juste la bonne quantité de jaune, puis une petite touche de 
+rose. Suivez les lucioles lorsqu'elles rassemblent et organisent les spores 
+tombées. Quel ordre supérieur guide leur travail ? Je pèse mes mots : quelqu'un 
+ou quelque chose {régit} l'écologie de cette planète.
+^
+^        -- Lady Deirdre Skye,
+^           "Rêves de planète"
+
+##Economie de l'environnement
+#TECH59
+^        Nous sommes assis ensemble,
+^            la montagne et moi,
+^   jusqu'à ce que seule reste la montagne
+^
+^        -- Li Po,
+^           de la Collection Yang
+
+
+##Génie écologique
+#TECH60
+La prédominance des environnements anoxiques riches en matériau organique,
+associée à la présence de composés nitrés a conduit à une surprenante 
+variété d'organismes souterrains qui vivent en l'absence d'oxygène et
+"respirent" les nitrates. De même, la rareté du carbone dans l'environnement
+a forcé les plantes à en être économes. Ainsi, tous nos efforts pour renvoyer
+du carbone dans la biosphère encouragent la vie indigène à proliférer.
+A l'inverse, les énormes quantités de nitrates du sol seront idéales pour 
+les fermiers humains.
+^
+^        -- Lady Deirdre Skye,
+^           "Les premières années"
+
+##Economie planétaire
+#TECH61
+Les Morgans craignent ce qui ne peut être acheté, car un commerçant ne peut pas
+comprendre ce qui est sans prix.
+^
+^        -- Soeur Miriam Godwinson,
+^           "Recueil de sermons"
+
+##Génie écologique avancé
+#TECH62
+^ Vous êtes les enfants d'une planète morte, deirdreterrienne, et cette 
+mort, nous ne la comprenons pas. Nous allons vous accepter, mais 
+pouvons-nous poser cette question -- allons-nous, nous aussi, attraper 
+la maladie de mort de Planète ?
+^
+^        -- Lady Deirdre Skye,
+^           "Conversations avec une Planète"
+
+##Psy Centauri
+#TECH63
+Les vers télépathes sont la défense naturelle de la Planète vivante--les
+globules blancs de son sang, si vous voulez. Dans un monde où les pensées 
+non assimilées représentent un danger, le ver télépathe fait émerger des 
+concentrations d'énergie mentale sensible et les détruit, impitoyablement et 
+efficacement.
+^
+^        -- Préfet Pravin Lal,
+^           "Ver télépathe, Ver télépathe"
+
+##Secrets d'AlphaCentauri
+#TECH64
+Vous avez attendu si longtemps avant de faire attention à nous, deirdreterrienne,
+^   Nous vous avons presque élaguée, comme nous pouvons encore élaguer vos 
+branches.
+^
+^        -- Lady Deirdre Skye,
+^           "Conversations avec une Planète"
+
+##Secrets de la création
+#TECH65
+Et lorsque le sablier, celui de la temporalité, a terminé sa course, lorsque le 
+bruit de la vie séculière est devenu silencieux, et que son activisme agité et 
+velléitaire a touché à sa fin, lorsque tout autour de vous est tranquille, 
+comme l'est l'éternité, alors, comme à chaque individu parmi ces multitudes, 
+l'éternité vous demande une seule chose : avez-vous vécu dans le désespoir ou non.
+^
+^        -- Soren Kierkegaard,
+^           "De la maladie à la mort", Liaisons de données
+
+
+##Vol spatial avancé
+#TECH66
+Et ainsi nous retournons vers le néant sacré. Certains disent que c'est 
+simplement notre destinée, mais je voudrais que vous vous rappeliez toujours 
+que le néant EXISTE, aussi sûrement que vous ou moi. Le néant est-il moins un 
+miracle que la substance?
+^
+^        -- Soeur Miriam Godwinson,
+^           "Vive la dissidence"
+
+##Homo Superior
+#TECH67
+Ce sont des compagnons que recherche le créateur, pas des cadavres, pas des 
+troupeaux ni des croyants. Le créateur cherche d'autres créateurs-- ceux 
+qui écrivent des nouvelles valeurs sur de nouvelles tablettes. Ce sont des
+compagnons que recherche le créateur, et des camarades moissonneurs ; car
+tout ce qui le concerne est mûr pour la récolte.
+^
+^        -- Friedrich Nietzsche,
+^           "Ainsi parlait Zarathoustra"
+^           Liaisons de données
+
+##Superlubrifiant organique
+#TECH68
+Le SuperLub organique ? Oh, c'est un truc magnifique, magnifique.
+Il faut vraiment garder un oeil dessus, bien que... il va essayer de vous
+glisser entre les doigts à la première occasion.
+^
+^        -- T. M. Morgan-Reilly,
+^           Métagénique Morgan
+
+##Machinerie quantique
+#TECH69
+Les hommes, dans leur arrogance, affirment qu'ils comprennent la nature de 
+la création, et inventent des théories élaborées pour décrire son comportement. 
+Mais ils découvrent toujours à la fin que Dieu était un peu plus malin qu'ils 
+ne le pensaient.
+^
+^        -- Soeur Miriam Godwinson,
+^           "Vive la dissidence"
+
+##Théorie de l'énergie globale
+#TECH70
+"L'énergie est la monnaie de l'avenir."
+^
+^        -- Chef de l'exécutif Nwabudike Morgan,
+^           "Le monopole Centauri"
+
+##Modification de la nano-matière
+#TECH71
+'Abandon, Reprise, Echec ?' C'était la phrase que quelque wormdog avait 
+gribouillée à côté de la porte de la salle du projet "Editer univers". Et 
+lorsque les nouvelles fileuses de données ont commencé à travailler, construisant 
+leurs mondes sur les énormes systèmes d'ordinateurs organiques, nous leur avons 
+rappelé ceci : Si vous voyez ce message, sélectionnez TOUJOURS 'Reprise'.
+^
+^        -- Bad'l Ron, Eveilleur,
+^           Polysoft Morgan
+
+##Ordinateurs optiques
+#TECH72
+Nous avons atteint un seuil d'informations qui ne peut être dépassé que par 
+la maîtrise directe de la vitesse de la lumière. Les calculs les plus rapides 
+exigent que les particules se déplacent le plus rapidement possible sur le plus 
+court chemin. Puisque nous pouvons maintenant extraire nos informations
+directement des photons voyageant sur des distances moléculaires, l'acte final
+de la révolution de l'information nous atteindra bientôt.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Car j'ai goûté le fruit"
+
+
+##Nano-robotique industrielle
+#TECH73
+Nous avons déjà confié toutes nos industries cruciales, toutes nos ressources 
+matérielles, à ces. . . choses . . . ces blocs d'argent et de colle que nous 
+appelons nano-robots. Et maintenant nous proposons de leur enseigner 
+l'intelligence ? Que ferons-nous, dites-moi, lorsque ces petits sous-hommes 
+s'éveilleront un jour et annonceront qu'ils n'ont plus besoin de nous ?
+^
+^        -- Soeur Miriam Godwinson,
+^           "Vive la dissidence"
+
+##Génétique Centauri
+#TECH74
+Souvenez-vous que les gènes ne sont pas des plans. Cela signifie, par exemple, 
+que vous ne pouvez pas insérer "les gènes d'une trompe d'éléphant" dans une 
+girafe et obtenir une girafe avec une trompe d'éléphant. Il n'existe -aucun-
+gène pour les trompes. Ce que vous POUVEZ faire avec les gènes c'est de la
+chimie, depuis les codes d'ADN pour produits chimiques. Par exemple,
+nous pouvons, en théorie, incorporer dans une plante terrienne le talent
+des plantes indigènes pour la fixation du nitrogène.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Génétique non linéraire"
+
+##Econométrie sensible
+#TECH75
+Le fongus a été la forme de vie dominante de la Planète depuis l'époque 
+du Paléozoïque inférieur sur terre. Mais lorsque, une fois tous les cent 
+millions d'années environ, le filet neuronal a enfin atteint la masse 
+critique nécessaire pour devenir conscient de lui-même, la métamorphose 
+finale tue la plupart des autres formes de vie sur la planète. Il est 
+possible que nous, humains, puissions contribuer à rompre ce cycle tragique.
+^
+^        -- Lady Deirdre Skye,
+^           "Rêves de planète"
+
+##Ingénierie rétrovirale
+#TECH76
+Les résidences privées de l'Académicien resteront interdites aux inspecteurs 
+génétiques. Nous ne possédons aucune capacité rétrovirale, nous ne 
+procédons à aucune recherche en ingénierie rétrovirale, et nous ne permettrons
+pas à ce Conseil d'enfreindre les privilèges de la faction au nom de cette
+ridicule chasse aux sorcières !"
+^
+^        -- Fedor Petrov,
+^           Vice Principal
+^           chargé des Affaires universitaires
+
+##Reconnaissance satellite
+#TECH77
+On m'a souvent demandé : " Puisque nous avons voyagé entre les étoiles, pourquoi 
+ne pouvons-nous lancer la plus simple des sondes orbitales ? " Ces imbéciles 
+n'arrivent pas à comprendre la difficulté à trouver sur cette planète les 
+matériaux appropriés, à développer les puissances suffisantes, et à créer 
+les infrastructures nécessaires au soutien d'un tel effort. En bref, nous avons 
+lutté dans les limites d'une société coloniale sur une planète vierge. 
+Jusqu'à maintenant.
+^
+^        -- Colonel Corazon Santiago,
+^           "Planète : guide du Survivant"
+
+##Psy Progéniteur
+#TECH78
+Et je me tins devant lui, et je chantai vers elle, et cela sembla 
+écouter. Son visage même ondulait comme la mer et le son de ma 
+propre voix me revenait, distordu. Pendant un moment, je pensai 
+qu'elle se moquait de moi ou que c'était dépourvu d'intelligence 
+et se contentait de m'imiter. Puis, je compris : les sons n'avaient 
+aucune importance ; c'était la manière dont je me servais de ses 
+sons à lui et celle dont elle se servait des miens qui transmettaient 
+le message.
+^
+^        -- Fonction primaire Aki Zeta-Cinq
+^           "Un seul futur"
+
+##Modulation de champ
+#TECH79
+La race des Progéniteurs semble ressentir - et peut-être même manipuler - 
+les champs locaux qu'un humain non entraîné ne peut percevoir sans aide
+ mécanique, notamment les champs électriques et magnétiques. 
+Cette sensibilité engendre des mondes entièrement nouveaux d'entreprises 
+artistiques pour cette race-elle peut aussi être transformée en 
+une conscience aiguë du combat qui met en échec toute tentative 
+d'effet de surprise.
+^
+^        -- Fonction première Aki Zeta-Cinq
+^           "Analyse extra-terrestre"
+
+##Doctrine adaptative
+#TECH80
+La guerre est la guerre ; la destruction... est la destruction. 
+Vous pensez que c'est évident ? Mais la guerre n'est pas la destruction,
+ elle est la victoire. Pour obtenir la victoire, il suffit de faire 
+semblant de donner ce qu'il veut à son adversaire ; alors, il s'en va...
+ou se joint à vous dans votre quête de plus de puissance.
+^
+^        -- Technicien de données Sinder Roze
+^           "L'information brûle"
+
+##Systèmes économiques adaptatifs
+#TECH81
+Humains : ont raison dans l'évolution de la richesse sous forme de devise 
+vers la richesse sous forme d'énergie. Mais défaut logique : la richesse 
+n'est qu'une prolongation du désir qui fluctue en fonction des émotions 
+et de l'état d'esprit. La véritable richesse est atteinte lorsque tous 
+les désirs sont satisfaits dans un système essentiellement adaptable.
+^
+^        -- Usurpateur Judaa Marr
+^           "Humain : nature"
+
+##Résonnance bioadaptative
+#TECH82
+J'ai vu la phalange extra-terrestre se diriger vers nous et j'ai fait 
+le calme dans mon esprit comme Lu'lan me l'avait appris. Et ce que 
+j'ai vu à côté de la phalange était un régiment de l'ombre, à demi 
+formé de la résonance qui l'entourait. J'ai maudit les extra-terrestres...
+avec un tel pouvoir, chacun pouvait combattre comme plusieurs et 
+j'ai remercié la Planète de nous avoir envoyé le traître.
+^
+^        -- Prophète Cha Dawn
+^          "Le traître et moi" 
+
+##Résonance sensible
+#TECH83
+Ici, nous bricolons du métal, nous essayons de lui donner en semblant 
+de vie ; nous sommes en butte aux railleries de ceux qui se moquent 
+de nos efforts. Mais si l'intelligence avait évolué sous une autre 
+forme au cours des millénaires, les ancêtres de ces autres êtres 
+auraient probablement raillé l'idée de l'intelligence abritée par 
+de la viande ?
+^
+^        -- Fonction primaire Aki Zeta-Cinq
+^          "Les erreurs de la conscience de soi"
+
+##Secrets des Collecteurs
+#TECH84
+Kri"lan m'a appris la résonance et comment la ressentir. Après un long
+entraînement, je pouvais voir que la surface qui est sous nos pieds, 
+la Planète elle-même, est un nœud d'énergie vivant et fluctuant, 
+violent, magnifique et très instable. Et je pouvais également ressentir
+ses cousins - des miroirs distants de l'autre côté du continuum espace-temps
+ - les lointains Collecteurs.
+^
+^        -- Prophète Cha Dawn
+^          "Le traître et moi"
+
+##Compression de l'espace-N
+#TECH85
+Humains : pas d'espace dans la fusée. Progéniteur : de l'espace autour 
+de toutes choses possédant une masse. Espace : "ici". Dans la fusée : 
+"là". Secret : transfert d'"ici" à "là"
+^
+^        -- Gardien Lular H'minee
+^           "Secret : espace"
+
+
+##Rupture des cordes
+#TECH86
+Pour comprendre une chose, il faut connaître le moyen de la détruire. 
+La compréhension fondamentale des briques élémentaires de la construction 
+de l'Univers est essentielle, donc, pour la destruction totale de toutes 
+choses.
+^
+^        -- Bosco Domai
+^          "Un outil, une pensée"
+
+##Pensée transcendante
+#TECH88
+^  L'éternité s'étend devant nous, et derrière.
+^       Avez-vous bu tout votre saoul ?
+^
+^        -- Lady Deirdre Skye,
+^           "Conversations avec une Planète", Epilogue
+
+##Le projet de génôme humain
+#PROJECT0
+Tracer la carte du fatras même de la vie ; regarder dans le
+miroir génétique et observer un million de générations
+défiler. Ceci, mes amis, est tout à la fois notre malédiction et
+notre plus glorieuse réussite. Car c'est en atteignant nos
+origines que nous commençons à apprendre qui nous sommes vraiment.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Discours au corps enseignant"
+
+##Le noeud de commande
+#PROJECT1
+Les Renseignements, le premier principe de la guerre, doivent constituer 
+le fondement de tous vos efforts. Connais, bien sûr, ton ennemi. Mais en le 
+connaissant, n'oublie pas avant tout de te connaître toi-même. Le commandant 
+qui adhère à ce concept essentiel de la bataille gagnera, même avec des forces 
+inférieures.
+^
+^        -- Manuel de bataille spartiate
+
+##Le paradigme météorologique
+#PROJECT2
+^
+Je ne vais pas affronter la Planète comme un ennemi, mais je vais accepter
+ses mystères comme des cadeaux appréciables. Je n'essaierai pas d'en peler 
+crûment les couches comme la peau d'un oignon. Je les rassemblerai plutôt, 
+comme l'arbre rassemble la brise. Le vent soufflera et je plierai. Le ciel
+s'ouvrira et je boirai tout mon saoul.
+^
+^        -- Prière de l'acolyte Gaïen
+
+##La Bourse du commerce
+#PROJECT3
+Le comportement humain est un comportement économique. Les détails peuvent 
+varier, mais la concurrence pour des ressources limitées reste une constante. 
+Le besoin, tout comme l'envie, nous a suivis dans les étoiles et les récompenses
+de la fortune attendent encore ceux qui sont assez sages pour reconnaître ce 
+profond rythme de nos pulsations communes.
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           "Le monopole Centauri"
+
+##La Guilde des Empathes
+#PROJECT4
+Les symboles sont la clé de la télépathie. L'esprit enveloppe ses
+secrets dans des symboles ; lorsque nous découvrons les symboles qui façonnent
+les pensées de notre ennemi, nous pouvons pénétrer la crypte de son esprit.
+^
+^        -- Lady Deirdre Skye,
+^           "Notre guerre secrète"
+
+##La force de défense des citoyens
+#PROJECT5
+Au moment où la masse grouillante des vers télépathes a fait irruption sur le 
+périmètre extérieur, nous avons vu les défenseurs reculer d'horreur. "Restez 
+calmes ! Servez-vous de vos lance-flammes !" cria le commandant, mais en vain. 
+Nous savons que le ver télépathe paralyse sa proie en la terrorisant psychiquement, 
+puis implante soigneusement ses larves affamées dans les cerveaux de ses 
+victimes encore conscientes. Même dotées des meilleures armes, seules 
+les troupes les plus disciplinées peuvent résister à cette horrible attaque.
+^
+^        -- Lady Deirdre Skye,
+^           "Notre guerre secrète"
+
+##Le monde virtuel
+#PROJECT6
+En quoi vos souffrances me concernent-elles ? La douleur, l'agonie même, ne sont 
+rien de plus que des informations pour les sens, des données dont se nourrit
+l'ordinateur de l'esprit. La leçon est simple : vous avez reçu
+les informations, maintenant agissez. Prenez le contrôle des entrées et
+vous maîtriserez les résultats.
+^
+^        -- Président Sheng-Ji Yang,
+^           "Essais sur l'esprit et la matière"
+
+##Le système de transit planétaire
+#PROJECT7
+Lorsque les distances disparaissent et que les gens peuvent circuler librement 
+d'un endroit à un autre, la société franchit un certain seuil de chaleur 
+psychologique et entre dans un nouvel état. Nous ne sommes plus ni solide, 
+ni liquide, mais nous sommes devenus vapeur et nous allons nous étendre pour 
+remplir tout l'espace disponible. Et, comme le gaz, nous serons 
+difficiles à contenir.
+^
+^        -- Soeur Miriam Godwinson,
+^           "Mais pour la grâce de Dieu"
+
+##Le dôme xénoempathique
+#PROJECT8
+^
+Je crois que la Planète nous parlera si nous consentons à écouter. Ces tiges 
+fongiques se comportent comme des relais multiétat : lorsqu'ils sont pris 
+ensemble, la connectivité du filet neuronal doit être stupéfiante. Peut-on 
+dire d'une planète qu'elle a atteint la conscience d'elle-même ?
+^
+^        -- Lady Deirdre Skye,
+^           Discussions au Conseil
+
+##L'amplificateur neuronal
+#PROJECT9
+Contre de telles abominations, nous organisons notre défense sur le
+principe qu'un esprit fort et capable peut servir de bouclier à la multitude.
+^
+^        -- Manuel de bataille spartiate
+
+##Centre de contrôle maritime
+#PROJECT10
+Il est parfaitement normal que nous, qui avons navigué dans les profondeurs 
+de l'espace, retournions maintenant vers la mer. Cette planète est en beaucoup 
+de points une planète aquatique, et elle peut être dirigée de la crête des vagues. 
+Avec une puissance maritime, il est possible de contourner un terrain 
+accidenté et d'isoler les forteresses ennemies. Une fois la supériorité
+ navale atteinte, nous pouvons conquérir la Planète.
+^
+^        -- Colonel Corazon Santiago,
+^           "Planète : guide du Survivant"
+
+##Les liaisons de données planétaires
+#PROJECT11
+Comme les Américains l'ont appris si douloureusement au dernier siècle terrestre, 
+la libre circulation des informations est le seul rempart contre la tyrannie. Les 
+peuples autrefois enchaînés dont les dirigeants ont enfin perdu leur emprise sur
+le flux d'informations, vont bientôt déborder de liberté et de vitalité, mais 
+la nation libre qui restreint progressivement le discours public a commencé son 
+glissement rapide vers le despotisme. Méfiez-vous de celui qui vous refuse l'accès 
+à l'information, car il rêve déjà qu'il est votre maître.
+^
+^        -- Préfet Pravin Lal,
+^           "Déclaration des droits des Nations Unies"
+
+##Le super-collisionneur
+#PROJECT12
+^  Dieu ne joue pas aux dés.
+^
+^        -- Albert Einstein, Liaisons de données
+
+##Les vertus ascétiques
+#PROJECT13
+Apprenez à surmonter les stupides exigences de la chair et des os, car 
+elles faussent la matrice à travers laquelle nous percevons le monde. 
+Prolongez votre conscience vers l'extérieur, au-delà même de votre corps, 
+pour étreindre le Soi du groupe et le Soi de l'humanité. Les objectifs du 
+groupe et de la race dans son ensemble sont transcendants et, les étreindre, 
+c'est parvenir à l'illumination.
+^
+^        -- Président Sheng-Ji Yang,
+^           "Essais sur l'esprit et la matière"
+
+##Le vaccin de longévité
+#PROJECT14
+Je prévois de vivre pour toujours, bien sûr, mais à part ça, j'envisage de
+m'installer pour quelques milliers d'années. Même cinq cent ans seraient
+bien agréables.
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           Entretien en direct
+^           et 3DVision sur LienMorgan
+
+
+##L'algorithme chasseur-chercheur
+#PROJECT15
+Si je détermine la position des forces de l'ennemi, alors que je ne dispose 
+pas de forme perceptible, je peux concentrer mes forces pendant que l'ennemi 
+est dispersé. Le pinacle du déploiement militaire est proche de l'informe : s'il 
+est informe, alors même l'espion le mieux infiltré ne peut le discerner ; et le 
+sage ne peut pas élaborer de plans contre lui.
+^
+^        -- Sun Tzu,
+^           "L'art de la guerre", Liaisons de données
+
+##Le mutagène de Pholus
+#PROJECT16
+^ Bienvenue à vous, deirdreterrienne, blé terrien et arbre terrien,
+^   hôtes honorés, car vous ajoutez une magnifique puissance à notre antique 
+chant--
+^     le fongus de planète, le ver de planète ainsi que l'esprit de planète chantent 
+et jouent
+^       ici, et vous êtes les bienvenus parmi nous.
+^
+^        -- Lady Deirdre Skye,
+^           "Conversations avec une Planète"
+
+##L'usine de Cyborgs
+#PROJECT17
+^  Un jeune et beau Cyborg nommé As,
+^  Poursuivait les femmes de ses assiduités à chaque base,
+^    Mais une fois que les dames avaient jeté un coup d'oeil
+^    A son amélioration très spéciale
+^  Elles disparaissaient sans même laisser de trace.
+^
+^        -- Graffiti de baraquements,
+^           Centre de commande spartiate
+
+##La Théorie du tout
+#PROJECT18
+La terre est le berceau de l'esprit, mais on ne peut rester au berceau pour 
+toujours.
+^
+^        -- Konstantin Tsiolkovsky,
+^           Le père des fusées, Liaisons de données
+
+##Berceuse du soir
+#PROJECT19
+^  Marie avait un petit agneau,
+^  Petit agneau, petit agneau,
+^  Marie avait un petit agneau,
+^  dont la toison était blanche comme neige.
+^
+^        -- Redoute des Assassins,
+^           Dernière transmission
+
+##Le Traducteur universel
+#PROJECT20
+Et l'Éternel dit: "Voici, ils forment un seul peuple et ont tous une même 
+langue, et c'est là ce qu'ils ont entrepris ; maintenant rien ne les empêcherait 
+de faire tout ce qu'ils auraient projeté.
+Allons! descendons, et là confondons leur langage, afin qu'ils n'entendent plus 
+la langue, les uns des autres".
+^
+^        -- La Bible du conclave,
+^           Liaisons de données
+
+##Le coeur du réseau
+#PROJECT21
+Bien sûr, nous allons fournir notre logiciel RésMorgan avec les nouveaux
+noeuds de réseau ; nos clients n'en attendent pas moins de nous. Nous n'avons 
+jamais
+cherché à exercer un monopole. Nos produits sont simplement si bons que
+personne ne ressent le besoin de se mesurer avec nous.
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           Communiqué de presse
+^           de Morgan Data Systems
+
+##La nano-usine
+#PROJECT22
+La nano-colle industrielle, de loin la plus précieuse marchandise de la Planète, 
+peut aussi en être l'une des plus dangereuses. Versez-en simplement plusieurs 
+bidons, glissez-y un transpondeur de programmation, et écartez-vous bien pendant 
+que ça mijote. En moins d'une heure la nano utilisera les matériaux disponibles 
+pour monter une petite usine, un magnétoglisseur, ou assez de fusils à impact
+pour équiper tout un régiment.
+^
+^        -- Colonel Corazon Santiago,
+^           "Planète : guide du Survivant"
+
+##La raffinerie vivante
+#PROJECT23
+Nous estimons que, pendant le prochain siècle de mission, la plupart des 
+industries de la Planète vont être déplacées sur Nessus Prime et d'autres 
+installations orbitales. Un grand nombre de nos industries tireront avantage 
+des environnements en faible gravité disponibles dans l'espace, en particulier 
+celles qui concernent la fabrication génétique des microbes.
+^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           "Le monopole Centauri"
+
+##Les cuves de clonage
+#PROJECT24
+Nous ne prendrons que les plus grands esprits, les meilleurs soldats, les 
+serviteurs les plus fidèles. Nous les multiplierons un millier de fois et 
+nous les libérerons pour inaugurer une nouvelle ère de gloire.
+^
+^        -- Colonel Corazon Santiago,
+^           "Le Conseil de guerre"
+
+##La colonie intelligente
+#PROJECT25
+Allons-nous ensuite créer des faux dieux pour régner sur nous ? Comment
+somme nous devenus si fiers et à ce point aveugles !
+^
+^        -- Soeur Miriam Godwinson,
+^           "Vive la dissidence"
+
+##Immortalité clinique
+#PROJECT26
+L'Eternel Dieu dit : "Voici, l'homme est devenu comme l'un de nous, pour la 
+connaissance du bien et du mal. Empêchons-le maintenant d'avancer sa main, de 
+prendre de l'arbre de vie, d'en manger, et de vivre éternellement".
+Et l'Eternel Dieu le chassa du jardin d'Eden, pour qu'il cultive la terre,
+d'où il avait été pris.
+^
+^        -- La Bible du conclave,
+^           Liaisons de données
+
+##L'ascenseur spatial
+#PROJECT27
+Un moment, la Terre ; le moment suivant, le Ciel.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Car j'ai goûté le fruit"
+
+##L'inducteur de singularité
+#PROJECT28
+Qu'est-ce qui exsude réellement sous l'horizon d'un événement ?
+Les gens convenables ne devraient pas trop y penser.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Car j'ai goûté le fruit"
+
+##Le transmetteur en vrac
+#PROJECT29
+Et que dire de l'âme immortelle dans de telles transactions ? Cette machine 
+peut-elle
+la transmettre et la rattacher aussi ? Ou est-elle perdue pour toujours,
+laissant un corps sans âme errer désespérément de par le monde ?
+^
+^        -- Soeur Miriam Godwinson,
+^           "Vive la dissidence"
+
+##La matrice télépathe
+#PROJECT30
+^  Avec les délicates tresses,
+^    entre nos esprits nous tissons notre filet :
+^      une couverture pour tenir chaud à l'âme.
+^
+^        -- Lady Deirdre Skye,
+^           "Recueil de poèmes"
+
+##La Voix de la Planète
+#PROJECT31
+Imaginez tout le contenu des liaisons de données planétaires, la somme de la 
+connaissance humaine, explosant dans le fragile réseau neuronal de l'Esprit de 
+Planète avec la puissance de tous les réacteurs de la planète. Des milliers 
+d'années de civilisation concentrées dans une explosion unique et fulgurante de 
+révélation. C'est notre tentative de la dernière chance pour que 
+l'humanité obtienne un sursis au moment d'être anéantie par un dieu extra-humain
+qui s'éveille.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "La Planète parle"
+
+##Ascension vers la transcendance
+#PROJECT32
+Nous ne sommes plus de simples créatures terriennes ni des êtres planétaires, 
+mais de brillants enfants des étoiles ! Et ensemble nous danserons pendant
+dix milliards d'années, célébrant le cadeau de la conscience jusqu'à ce que
+les étoiles elles-mêmes deviennent froides et lasses, et que nos pensées 
+retournent au commencement.
+^
+^        -- Lady Deirdre Skye,
+^           "Conversations avec une Planète"
+
+##Manifold Harmonics
+#PROJECT33
+Holder
+
+##Le Terminus Nethack
+#PROJECT34
+En créant un réseau planétaire, l'humanité de Planète peut maintenant 
+partager l'information à la vitesse de la lumière. Mais en créant 
+un seul de ces réseaux, chaque faction s'est également rapprochée 
+de la découverte. À la vitesse de la lumière, nous capturerons l'information,
+la marquerons comme un animal sauvage et la relâcherons sans l'altérer-si
+cela sert nos objectifs.
+^
+^        -- Technicien des données Sinder Roze
+^           "Le Codex Alpha"
+
+##L'Académie des Nuées
+#PROJECT35
+Dans une dimension, je trouve l'existence, dans deux, je trouve
+la vie, mais dans trois, je trouve la liberté.
+^
+^        -- BoscoDomai,
+^           Dérémonie d'adoubement des Cadets, Annéed Mission 2216
+
+
+##La Grille d'énergie planétaire
+#PROJECT36
+"Les anciens Chinois avaient un nom pour ce concept : le Feng Shui.
+Nous l'appelons flux d'énergie. C'est la même chose, la même pensée : l'énergie
+est partout, mais on n'en utilise qu'une fraction pour nos besoins.
+Maintenant, les Progéniteurs nous ont enseigné que nous pouvons utiliser non
+seulement nos propres aptitudes latentes, mais les aptitudes latentes de
+l'Univers lui-même."
+^
+^        -- Prophète Cha Dawn,
+^           "Lever de Planète"
+
+
+##Quartier général
+#FAC1
+Alors que nous approchions, nous avons été confondus par les splendides ruines 
+du Centre de commande de Sparte. La véritable immensité de l'endroit est devenue 
+instantanément apparente quand notre char quantique s'est affaissé sur
+les décombres et s'est arrêté à côté d'un blockhaus éboulé, mais il a fallu
+des semaines pour évaluer l'étendue de la destruction. Le coeur blindé des
+données avait subi des dommages importants et de la fumée s'élevait encore
+des nombreuses bouches de canons. Il y avait peu de signes de vie humaine.
+^
+^        -- Lady Deirdre Skye,
+^           "Notre guerre secrète"
+
+##Crèche pour enfants
+#FAC2
+Des soins et une éducation convenables pour nos enfants restent la pierre 
+angulaire de tout notre effort de colonisation. Les enfants ne représentent 
+pas seulement notre avenir ; ils déterminent sur beaucoup de points notre 
+présent. Les hommes et les femmes travaillent plus dur en sachant leurs 
+enfants en sécurité et à proximité. Et n'oubliez jamais qu'avec des enfants 
+présents, les parents défendront leur foyer jusqu'à la mort.
+^
+^        -- Colonel Corazon Santiago,
+^           "Planète : guide du Survivant"
+
+##Réservoirs de recyclage
+#FAC3
+Il est du devoir ultime de chaque citoyen d'aller dans les réservoirs et de 
+s'unir avec tout le peuple.
+^
+^        -- Président Sheng-Ji Yang,
+^           "Une éthique pour demain"
+
+
+##Périmètre de défense
+#FAC4
+Ayant maintenant établi un périmètre sûr, nous nous sommes relativement 
+protégés des incursions ennemies. Mais contre les attaques en apparence 
+aléatoires de la vie indigène de la Planète, seul notre jeu de capteurs 
+d'alerte peut nous aider, car les vers télépathes s'infiltrent dans chaque 
+crevasse et rongent tout ce qui est plus mou que l'acier plasma.
+^
+^        -- Lady Deirdre Skye,
+^           "Les premières années"
+
+##Champ de tachyons
+#FAC5
+Le klaxon a commencé à retentir, mais nous avons senti le rassurant tintement 
+du champ de tachyons crépitant de vie autour de nous, entourant la totalité 
+de la base de son impénétrable lueur.
+^
+^        -- Kel Spartiate,
+^           "La Chute de Sparte"
+
+
+##Aires de Jeux
+#FAC6
+Tout le caractère d'une base et de ses habitants peut être capté en une rapide 
+visite aux Aires de jeu. Les arènes d'entraînement de Fort Légion, les scintillantes 
+salles de jeu de la Banque Morgan, les lieux de rendez-vous ensoleillés du 
+Jardin Surélevé de Gaïa, les sombres salles de lecture du Quartier général des 
+Nations Unies, même la baie d'alimentation de la Ruche, donnent une vue désolée 
+des démons endormis de l'utopie communautaire de Yang.
+^
+^        -- Préfet Pravin Lal,
+^           "Histoire sociale de la Planète"
+
+##Réserve d'énergie
+#FAC7
+La vie n'est qu'une pourriture ordonnée des états d'énergie, et la survie
+nécessite la découverte continue d'une nouvelle énergie à insuffler dans le
+système. Celui qui contrôle les sources d'énergie contrôle les moyens
+de survie.
+^
+^        -- Chef de l'exécutif Nwabudike Morgan,
+^           "Le monopole Centauri"
+
+##Noeud de réseau
+#FAC8
+^Savez vous c'qu'ils disent en haut,
+^  Deirdre a un noeud dans l'réseau.
+^Elle se connecte jour et nuit,
+^  Ecoutez la comme elle crie !
+^
+^        -- Marche des baraquements Spartiates
+
+##Laboratoire de biologie
+#FAC9
+Bien que la vie indigène de la Planète soit basée, comme celle de la Terre, 
+sur de l'ADN droit, et sur les mêmes codes d'acides aminés, les inévitables 
+différences chimiques et structurelles provenant d'un milliard d'années 
+d'évolution dans un environnement extra-humain rend les plantes indigènes 
+très toxiques pour les humains. De juteuses grenades bien mûres peuvent 
+paraître attirantes, mais une bouchée d'organonitrates vous fera certainement 
+vite changer d'avis.
+^
+^        -- Lady Deirdre Skye,
+^           "Biologie comparative de la Planète"
+
+##Usine secrète
+#FAC10
+Le stéréotype populaire du chercheur est celui d'un sceptique et d'un
+pessimiste. Rien ne pourrait être plus éloigné de la vérité ! Les savants
+doivent être fondamentalement optimistes pour faire obstacle au
+choeur incessant de ceux qui disent "C'est impossible".
+^
+^        -- Académicien Prokhor Zakharov,
+^           Cérémonie de remise des diplômes à l'Université.
+
+##Théâtre holographique
+#FAC11
+Richard Baxton a piloté sa Rover tout-terrain de reconnaissance dans un 
+vortex fongique et a repoussé quatre vagues de vers télépathes, sauvant 
+ainsi toute une colonie. Nous avons immédiatement acheté ses manifestes 
+d'identité et l'avons reconditionné dans le personnage de 'Rick Rover 
+Reconnaissance' avec une campagne médiatique à plusieurs niveaux :
+télévidéos, livres tactiles, holos, tours psy--- tout le tralala. Le peuple 
+a besoin de héros. Il n'a pas besoin de savoir comment il est mort, s'arrachant 
+les yeux, en huurlant pour demander grâce. L'histoire réelle nuirait aux 
+ventes, et déprimerait nos clients.
+^^
+^        -- "Une mythologie pour le profit"
+^           Discours des TotStellaires Morgan
+
+##Jardin d'Eden
+#FAC12
+^Ce dôme ensoleillé ! Ces cavernes de glace !
+^Tous ceux qui ont entendu devraient les voir là,
+^Et tous devraient crier, Attention ! Attention !
+^Ses yeux lançant des éclairs, sa chevelure ondoyante !
+^Tracez trois cercles autour de lui,
+^Et fermez les yeux de terreur sainte,
+^Car il s'est nourri de miellée,
+^Et a bu le lait du Paradis.
+^^
+^        -- Samuel Taylor Coleridge,
+^           Liaisons de données
+
+##Ferme arboricole
+#FAC13
+Dans le domaine de Gaïa, nous avons une grande et très
+belle forêt de pins blancs, plantée du temps des premières
+colonies. Elle représente notre promesse au peuple, et à la Planète
+elle-même, de ne jamais renouveler la tragédie de la Terre.
+^^
+^        -- Lady Deirdre Skye,
+^           "Rêves de planète"
+
+##Forêt hybride
+#FAC14
+Vous voyez dans ce dôme s'entremêler les plantes indigènes et terrestres. 
+A l'extérieur, elles sont concurrentes, luttant pour les éléments 
+nécessaires à la vie. Il arrive souvent qu'elles se détruisent mutuellement.
+Ici, elles sont bien soignées et bien nourries. Elles prospèrent ensemble,
+et le fongus indigène ne déchaîne pas ses terribles défenses. Comme vous
+le voyez, la concurrence est inutile lorsque les ressources sont abondantes
+et que la croissance de la population est contrôlée.
+^^
+^        -- Lady Deirdre Skye,
+^           "Rêves de planète"
+
+##Laboratoire de fusion
+#FAC15
+Cela arrivera, et cela arrivera de notre vivant. L'énergie de fusion n'est 
+pas seulement l'avenir. L'énergie de fusion, c'est maintenant.
+^^
+^        -- T. M. Morgan-Reilly,
+^           "Métagénique Morgan"
+
+##Laboratoire quantique
+#FAC16
+Vous êtes-vous jamais demandé pourquoi les nuages se comportent de manière 
+si familière alors que chaque spécimen est si unique ? Ou pourquoi 
+le marché d'échange de l'énergie est si difficile à prédire ? A l'avenir,
+nous devons développer et appliquer des modèles mathématiques non linéaires
+aux phénomènes du monde réel. Nous allons chercher, et trouver, les clés
+fractales cachées qui peuvent démêler le chaos qui nous entoure.
+^^
+^        -- Académicien Prokhor Zakharov,
+^           Cérémonie de remise des diplômes à l'Université.
+
+##Hôpital de recherche
+#FAC17
+Aujourd'hui, quelques ouvriers civils se sont mêlés aux patients de la 
+recherche et sont devenus si irritables que j'ai été obligé de leur faire 
+subir la ligature neurale. La conséquence, bien sûr, en est un autre 
+cauchemar de relations publiques, mais j'ai été très ébranlé par l'étendue 
+de leur répugnance envers un projet tellement vital pour notre survie.
+^^
+^        -- Chef de l'exécutif Nwabudike Morgan,
+^           Journaux personnels
+
+
+##Nano-hôpital
+#FAC18
+C'est un lieu commun médical que de dire que les tissus du corps humain
+se renouvèlent régulièrement en créant pratiquement
+un corps nouveau tous les sept ans. D'où viennent alors le cancer et la
+lente dégénérescence de l'âge ? Ils existent sous forme de défauts dans le 
+schéma de l'intelligence des gènes eux-mêmes ; en reprogrammant ces
+minuscules parties, c'est l'ensemble qui devient sain.
+^^
+^        -- Académicien Prokhor Zakharov,
+^           "Génétique non linéraire"
+
+
+##Usine d'assemblage automatisée
+#FAC19
+^Le capitaine dit au vieux John Henry,
+^  Cette vieille fraise marche toujours.
+^  Sors cette vieille fraise à vapeur et mets-la au travail
+^    Qu'elle batte, qu'elle batte le fer
+^    Qu'elle batte, qu'elle batte le fer à plat.
+^^
+^        -- Traditionnel, Liaisons de données
+
+##Nano-réplicateur
+#FAC20
+Regardez n'importe quelle photographie ou oeuvre d'art. Si vous pouviez 
+reproduire exactement le premier point de couleur minuscule, puis le suivant 
+et encore le suivant, vous obtiendriez à la fin une copie parfaite de 
+l'ensemble, impossible à distinguer de l'original en aucune façon, y compris 
+la soi-disant "valeur morale" de l'art lui-même. Aucun ensemble ne peut 
+transcender ses plus petits éléments.
+^^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           "L'éthique de l'envie"
+
+
+##Convertisseur quantique
+#FAC21
+Et lorsqu'enfin ce sera le moment de la transition de la méga-corporation 
+au gouvernement planétaire, de l'entrepreneur à l'empereur, c'est alors que 
+le vrai génie de notre stratégie va devenir apparent, car l'énergie est le 
+souffle vital de cette société et, lorsque les particules sont tombées, celui 
+qui contrôle la production d'énergie contrôle la planète. Dans les temps 
+anciens, le monopole de l'énergie était appelé "La compagnie d'énergie" ; nous 
+avons l'intention de donner à ce nom une signification complètement nouvelle.
+^^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           "Le monopole Centauri"
+
+
+##Usine de prise Génétique
+#FAC22
+Mon cadeau à l'industrie est un travailleur manipulé génétiquement, ou mule 
+génétique. Spécialement conçus pour le labeur, les muscles et les nerfs de 
+la mule sont idéalement adaptés à sa tâche, et le cortex cérébral 
+a été atrophié pour qu'il ne désire rien d'autre qu'exécuter son travail. 
+Tyrannie, dites-vous ? Comment pouvez-vous tyranniser quelqu'un qui ne peut pas
+ressentir la douleur ?
+^^
+^        -- Président Sheng-Ji Yang,
+^           "Essais sur l'esprit et la matière"
+
+##Sphère de punition
+#FAC23
+Il n'est pas rare de voir des patients endurer un traumatisme psychologique 
+permanent en présence de la Sphère, avant même que la ligature neurale 
+ait été mise en place. Son effet sur la conscience culturelle générale est 
+profond : des époux ont vu leurs femmes y entrer, et des mères leurs enfants. 
+Le Dr. Xynan a laissé la surface de la sphère semi-translucide pour une bonne 
+raison. Vous pouvez les y entendre ; vous pouvez aussi les voir. C'est une 
+chose d'une terrible beauté.
+^^
+^        -- Baron Klim,
+^           "La musique des sphères"
+
+##Complexe d'habitation
+#FAC24
+Le principal objectif de leur constitution et de leur gouvernement est que, 
+chaque fois que les besoins publics le permettent, tous les citoyens soient 
+libres, autant que possible, de soustraire leur temps et leur énergie du 
+service de corps, et de se consacrer à la liberté et à la culture de l'esprit. 
+Car, selon eux, c'est là le vrai bonheur de la vie.
+^^
+^        -- Sir Thomas More,
+^           "Utopia", Liaisons de données
+
+##Dôme d'habitation
+#FAC25
+^   Je suis assis dans mon compartiment, ici sur le monde d'origine. Lorsque 
+je mourrai, ils mettront mon corps dans une boîte et
+s'en débarrasseront dans le sol froid.  Et pendant les millions d'années 
+à venir, je ne respirerai, ni ne rirai, ni ne ferai plus de grimace. 
+Alors ne viendras-tu courir et jouer avec moi parmi la masse grouillante 
+de l'humanité ? L'univers nous a épargné cet instant.
+^^
+^        -- Anonyme, Liaisons de données
+
+##Dôme de pression
+#FAC26
+En contemplant la beauté tranquille et la brillance de la surface de l'océan,
+on oublie le coeur de tigre qui palpite au dessous ; il n'est pas aisé
+de se souvenir que cette patte de velours cache des griffes impitoyables.
+^^
+^        -- Herman Melville,
+^           "Moby Dick", Liaisons de données
+
+##Centre de commande
+#FAC27
+Un entraînement et un armement supérieurs ont, si on les réunit, un effet 
+géométrique sur la force militaire générale. Bien entraînées, bien équipées, 
+les troupes peuvent affronter bien plus souvent leurs frères inférieurs que 
+l'arithmétique linéaire ne tend à l'indiquer.
+^^
+^        -- Manuel de bataille spartiate
+
+##Chantier naval
+#FAC28
+La mer est tout. Elle couvre les sept dixièmes du globe. Son haleine
+est pure et saine. C'est un immense désert où un homme n'est jamais
+seul, car il peut y sentir la vie palpiter autour de lui. La mer n'est
+qu'un réceptacle pour toutes les choses prodigieuses et surnaturelles
+qui y existent ; elle n'est que mouvement et amour ; elle est le vivant infini.
+^^
+^        -- Jules Verne,
+^           "20.000 lieues sous les mers"
+^           Liens de données
+
+##Complexe aérospatial
+#FAC29
+Vous êtes orphelins, deirdreterrienne, votre monde patrie déjà enterré
+si jeune parmi les éternités. Pourtant maintenant vous remplissez les cieux
+où nous avons observé un million de couchers de soleil avec flammes et
+sillages, ne prêtant aucune attention aux difficiles leçons que l'univers
+a essayé de vous enseigner. Etes-vous un souffle de vie pour fortifier
+un monde content de lui, vous humains terriens, ou un insidieux cancer
+qui doit être tranché ?
+^^
+^        -- Lady Deirdre Skye,
+^           "Conversations avec une Planète"
+
+
+##Centre de progrès génétique
+#FAC30
+Nous sommes tous conscients que les sens peuvent être trompés, les yeux abusés. 
+Mais comment pouvons-nous être sûrs que nos sens ne sont pas trompés, à un moment 
+précis, ou même tout le temps ? Est-ce que je ne serais pas juste un cerveau dans 
+un réservoir, quelque part, dupé toute ma vie par quelque ordinateur fou, à croire 
+ce qui se passe dans le monde ? Et est-ce que ma vie acquiert ou perd toute 
+signification en fonction de ma réaction à un tel solipsisme ?
+^^
+^        -- Projet PYRRHO, spécimen 46, Cuve 7
+^           Activité enregistrée A.M. 2302.22467
+^           ELIMINATION DU SPECIMEN CONSEILLEE
+
+##Réserve Centauri
+#FAC31
+Au cours des années qui ont suivi notre arrivée, nous avons stupidement 
+désorganisé tellement d'écosystèmes de la Planète que des espèces entières 
+risquent de disparaître sans que nous les ayons comprises, ni même connues. 
+Nous devons arrêter ce pillage, et arrêter immédiatement, car notre propre 
+survie, en tant qu'espèce, dépend de notre capacité à trouver un équilibre 
+sur ce monde.
+^^
+^        -- Préfet Pravin Lal,
+^           "Ver télépathe, Ver télépathe"
+
+##Temple de la Planète
+#FAC32
+Que les Gaïens prêchent leur religion idiote, mais d'une manière ou d'une 
+autre, je ferai brûler, calciner et stériliser cet endroit jusqu'à ce que 
+chaque cache soit découverte et jusqu'à ce que le tout dernier oeuf de ver 
+télépathe, le tout dernier oeuf visqueux, ait été réduit à l'état de coque 
+fumante. Cette espèce sera exterminée, je vous le dis ! Exterminée !
+^^
+^        -- Académicien Prokhor Zakharov,
+^           Répercussions du Lab Trois
+
+##Porte psy
+#FAC33
+Allez-y, mes enfants ! C'est le temps des miracles. Débarrassons-
+nous du péché et marchons ensemble vers le Jardin du Seigneur.
+Par la grâce de Dieu, nous nous retrouverons de l'autre côté.
+^^
+^        -- Soeur Miriam Godwinson,
+^           "Dernier Testament"
+
+##Laboratoire hydroponique aérien
+#FAC34
+Les fermes célestes sont exceptionnellement belles, avec leurs kilomètres 
+de réseaux de verre encadrés de grilles de métal. A l'intérieur, la lumière
+du soleil brille au travers de jungles végétale à l'intérieur. Lorsque l'une 
+d'elles capte la lumière, vous pouvez voir sa beauté se réfléchir sur des 
+kilomètres ; ce sont des étoiles créatrices de vie sur une planète 
+désolée... des jardins sur une aile.
+^^
+^        -- Lady Deidre Skye,
+^           "Rêves de planète"
+
+##Station minière Nessus
+#FAC35
+Fer chauffé au rouge, fer chauffé à blanc, fer noir et froid ; un goût de fer,
+une odeur de fer, et une Babel de sons métalliques.
+^
+^        -- Charles Dickens,
+^           Bleak House, Liaisons de données
+
+
+##Emetteur de puissance orbital
+#FAC36
+L'élément essentiel de la Planète, Alpha Centauri A, fait exploser des quantités 
+inimaginables d'énergie dans l'espace à chaque instant, et pratiquement chaque 
+joule de cette énergie est totalement gaspillé. D'incompréhensibles richesses 
+peuvent être à nous, si nous ouvrons suffisamment les bras pour piocher dans 
+cet éternel fleuve de richesses.
+^^
+^        -- Chef de l'exécutif
+^           Nwabudike Morgan,
+^           "Le monopole Centauri"
+
+##Nacelle de défense orbitale
+#FAC37
+Dieu, du mont Sinaï, dont le sommet gris
+Tremblera, descend, de sa propre volonté,
+Dans le tonnerre, les éclairs et les trompettes
+Pour leur ordonner des lois.
+^^
+^        -- John Milton,
+^           Le Paradis perdu, Liaisons de données
+
+##Masse à Energie
+#FAC38
+Je tiens un morceau de papier dans l'ombre et je l'enflamme. Je le regarde 
+brûler et se tortiller, disparaissant dans le néant, et la chaleur brûle 
+mes doigts. Où est-il allé ? Qu'est-il devenu ? Je ne peux pas m'empêcher 
+de penser que j'ai été témoin d'une forme de transcendance.
+^^
+^        -- Préfet Pravin Lal,
+^           "La convergence"
+
+
+
+# ; This line must remain at end of file
+
+

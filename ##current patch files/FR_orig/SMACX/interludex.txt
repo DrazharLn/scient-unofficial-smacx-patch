@@ -1,0 +1,848 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Backstory Interludes
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#INTERLUDE
+#xs 400
+^^
+^^INTERLUDE
+^
+^^du
+^
+^^Livre de Planète
+^
+^^$NUM0 A.M.
+^
+^
+
+#INTERLUDE0
+#xs 500
+#caption Interlude : Un cauchemar évéillé
+^  Marchant seul(e) dans les couloirs de la base de $BASENAME2, vous parcourez
+les rapports de sécurité relatifs aux récentes attaques des terribles 'vers
+télépathes'. Des essaims appelés 'nids' de ces cauchemars marbrés de 10 cm de
+long se sont récemment répandus hors des parterres fongiques et menacent
+maintenant d'envahir la base dans plusieurs zones. Les victimes sont
+psychologiquement paralysées par la terreur, puis meurent dans d'atroces
+souffrances lorsque le ver creuse dans leur cerveau et y implante ses larves
+affamées.
+^  Seules les équipes de sécurité les plus expérimentées peuvent surmonter leur
+peur assez longtemps pour mettre en marche le lance-flammes qui tiendra les
+vers à distance. A l'évidence, vous devrez gérer attentivement le moral des troupes.
+^  De plus, la terreur et l'effet de surprise augmentant considérablement
+le nombre de morts lors de ces rencontres, il est important de frapper en
+premier, dès que les nids de vers télépathes sont détectés. Vous envisagez
+d'ordonner à certains détachements de formeuses de mettre en place
+des détecteurs près des bases menacées afin d'améliorer le système de détection.
+
+#INTERLUDE1
+#xs 500
+#caption Interlude : Anticorps
+^  "Au rapport, $TITLE0 !" La jeune fonctionnaire se tient debout au garde
+à vous. Née dans les années suivant l'arrivée sur la Planète, elle appartient
+à une génération qui ne connaît la Terre que comme une légende lointaine.
+^  "$VOKI8, j'ai une tâche spéciale à vous confier," dites-vous, en la fixant
+d'un regard intense. "Ces échantillons doivent parvenir au Dr $SHIMODA9 sur
+la base de $BASENAME4. Occupez-vous en personnellement."
+^  Vous lui tendez une mallette de sécurité plombée. Le paquet cryogénique qui
+est à l'intérieur contient des objets cauchemardesques : des spécimens de vers
+télépathes. Des spécimens [viables], capturés et protégés au prix de qui sait
+combien de vies. L'équipe de $SHIMODA9 a étudié la croissance récente des vers
+télépathes et pense que les nids de vers agissent comme une sorte de
+régulateur écologique. L'arrivée des humains désorganise l'écosystème de la
+planète et les vers télépathes se répandent comme une sorte d'anticorps écologique.
+^  $SHIMODA9 est même parvenu à une conclusion encore plus sinistre : avec
+des laboratoires de biologie modernes, il serait possible d'élever des vers
+télépathes et de les utiliser comme des armes terribles contre les autres
+factions humaines.
+^  "A vos ordres, $TITLE0," dit $VOKI8, en rebroussant chemin. Efficace,
+compétente et, de loin, plus disciplinée que les jeunes du XXIe siècle que
+vous avez quitté sur Terre, $VOKI8 a grandi dans un monde rempli de dangers
+bien réels. Des dangers terrifiants, autrefois domaine réservé des contes
+et légendes auxquels la Terre elle-même est à présent réduite.
+
+#INTERLUDE2
+#xs 500
+#caption Interlude : Rêve de Planète
+^  "Oui, $TITLE0 $NAME1, j'ai bien dit ondes de 'pensée'." Le sourire ridé du
+Dr $SHIMODA9 appartient à un autre monde, telle une tête de mort souriante.
+"Les vers télépathes, c'est sûr, et probablement le fongus lui-même. Car après
+que les schémas transitoires de la pensée humaine ont été isolés, un mouvement
+d'ondes complexes demeure et tout porte à croire qu'une certaine forme de pensée
+existe."
+^  "Vous voulez dire que cette chose pense," dites-vous avec réticence, pas
+vraiment prêt(e) à accepter cette idée.
+^  "Si c'est le cas, c'est une forme de 'pensée' tout à fait différente de celle
+des humains, mais la boucle élémentaire de réaction cognitive est bien
+présente." Dr $SHIMODA9 se penche en avant et pointe le graphique avec son
+stylo de base de données. "Le détail le plus frappant est la capacité de la
+boucle à bondir de créature en créature, chaque spore fongique agissant comme
+un synapse. En tant que créatures individuelles, les spores et les vers sont
+insignifiants, mais la réaction dans un champ fongique ou dans un nid de vers
+télépathes est impressionnante."
+^  "Pendant combien de temps peut-elle bondir ?" Maintenant, votre curiosité
+est piquée à vif. "A-t-elle franchi le seuil de la conscience de soi ?"
+^  "Difficile à dire. En théorie, une onde puissante pourrait se réverbérer
+tout autour de la Planète, mais les distances en question rendraient difficile
+une vraie conscience de soi. Peut-être un état quasi prémonitoire
+similaire à nos rêves."
+
+#INTERLUDE3
+#xs 500
+#caption Interlude : PENITENCE
+^  Dans l'obscurité, quelque chose >explose<. Vous êtes allongé(e) sur le dos,
+sur le versant d'une colline, au milieu des douces vrilles oranges et violettes
+d'une vaste forêt fongique. Le son de l'eau qui coule résonne fortement dans
+votre oreille droite, mais vous ne pouvez pas en identifier la source. La panique
+vous prend brièvement à la gorge lorsque vous vous rendez compte que vous n'avez
+ni masque à gaz, ni réservoir à oxygène, que vous êtes seulement revêtu(e) de votre
+combinaison de travail, mais vous respirez sans difficulté et vous ne détectez
+aucun signe de narcose à l'azote. De quelque part, une voix semble murmurer
+"$NAME3 $<3:terrien:terrienne>," mais peut-être est-ce simplement le vent.
+^  Le temps passe, et vous remarquez que le fongus pousse de manière perceptible
+et que les spores vous repoussent au fur et à mesure de leur croissance.
+Floraison fongique ! La panique vous reprend et vous luttez pour vous libérer
+des envahissantes vrilles. "$NAME3 $<3:terrien:terrienne> !" La voix de nouveau,
+plus insistante. Les dernières vrilles cèdent ; vous êtes libre et vous fuyez
+au travers d'un infini champ violet et orange. "$NAME3 $<3:terrien:terrienne> !"
+Attention ! Tout près de vous, derrière vous, et puis . . . >discontinuité<
+^  Dans l'ombre, quelque chose >explose<. Vous êtes allongé(e) sur le dos, dans
+le réservoir de thérapie génique, les liens vaporeux se rétractant lentement.
+Le liquide restant dans le réservoir s'écoule par le tuyau situé derrière votre
+tête et vous vous asseyez lentement. Quatre semaines de votre vie, une fois
+tous les dix ans, que vous passez ainsi. Modeste prix à payer pour l'immortalité,
+ou à ce qui y ressemble. Un rêve à moitié oublié vous poursuit alors que vous
+enfilez une combinaison de travail propre, mais vous n'arrivez pas à vous en souvenir.
+
+#INTERLUDE4
+#xs 500
+#caption Interlude: L'éleveur
+^  "$VOKI8, j'ai besoin que vous vous joigniez à l'équipe du Dr $SHIMODA9 sur
+la base de $BASENAME5," dites-vous, en indiquant une base de la zone de
+sécurité sur votre holo en 3D.
+^  Debout, en contrebas de votre bureau, votre assistante semble aussi jeune que
+le jour où elle a rejoint votre équipe personnelle. A l'évidence, $VOKI8 a suivi
+un régime de longévité strict. Maintenant âgée de $NUM1 années planétaires, elle
+est l'un de vos éléments les plus talentueux et semble prête pour sa première
+grande mission indépendante.
+^  "Ai-je commis une faute, $TITLE0, pour mériter cet éloignement ?"
+^  "Pas du tout. $VOKI8, votre empreinte d'ADN indique une aptitude pour le nouvel
+entraînement psy." Un diagramme génétique s'affiche et se met à tourner sur l'holo,
+la partie spécifique du chromosome 21 mise en évidence. "Le
+Dr $SHIMODA9 et son équipe d'écologistes militaires ont élevé des spécimens
+de vers télépathes en captivité et ils croient qu'un télépathe convenablement
+formé peut être associé au nid naissant et en faire ainsi une prolongation de
+lui-même."
+^  "[Devenir] un nid de vers télépathes ?" demande $VOKI8, quelque peu horrifiée.
+^  "Devenir ? Pas vraiment. Contrôler ? Oui. $VOKI8, inutile de vous expliquer
+davantage l'importance militaire de cette découverte. Vous êtes le seul élément
+en qui j'aie confiance pour une telle mission. Nous avons besoin d'éleveurs, $VOKI8,
+et j'ai besoin que vous soyez la première, le meneur."
+^  "A vos ordres, $TITLE0," dit $VOKI8, en tâchant d'être forte pour cette mission.
+Alors qu'elle s'éloigne, vous êtes troublé(e) par la vision de $VOKI8 déchirant
+son visage, des vers marbrés jaillissant de ses orbites. Vous espérez ne pas avoir
+signé l'arrêt de mort de $VOKI8 car elle est l'un de vos éléments les plus prometteurs.
+
+#INTERLUDE5
+#xs 500
+#caption Interlude : Rêves de Planète II
+^  Depuis l'incident survenu dans le réservoir de thérapie génique, vous avez eu
+des rêves et des cauchemars récurrents relatifs aux floraisons fongiques qui
+continuent à se développer autour des principales installations humaines.
+Vous avez remis à plus tard votre traitement de longévité pour éviter l'état
+de transe, mais les rêves ont maintenant envahi votre sommeil paradoxal.
+^  Dans votre rêve le plus récent, juste avant la principale floraison,
+près de la base de $BASENAME5, cette présence que vous appelez 'La Voix',
+est revenue.
+^  "$NAME3 $<3:terrien:terrienne>." Provenant de quelque part, juste derrière vous.
+^  "Bonjour, Voix. Qui êtes-vous ?"
+^  "Qui. Concept difficile pour vous, $NAME3 $<3:terrien:terrienne>.
+Esprit et fleur : beaucoup de rêves. Jamais avant un autre, vous pouvoir
+nous appeler 'voix'. Le rêve de croissance venir ! Attention."
+^  "Attention ? Que voulez-vous, Voix ?"
+^  "Vouloir. Pensée plus confusion de $NAME3 $<3:terrien:terrienne>. Mal du sommeil
+cassé. $NAME3 $<3:terrien:terrienne> animal pour nous. Etranger pour nous.
+Animal : énergie ! mines ! routes ! détecteurs ! Rêve de croissance venir
+maintenant : fin d'animal."
+^  "Arrêtez, Voix. Pourquoi me dites-vous cela ?"
+^  "Pourquoi ! Mot rêve ! Mot chanson ! Pourquoi Pourquoi Pourquoi Pourquoi
+Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi
+Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi Pourquoi . . ."
+^  "Silence ! Sortez de mon esprit !" >discontinuité<
+
+#INTERLUDE6
+#xs 500
+#caption Interlude : Désespoir
+^  Même si vous vivez plus de mille ans, vous n'oublierez jamais le jour
+où ils vous ont apporté le corps de $VOKI8, enveloppé dans un linceul
+planétaire, brûlé, à peine reconnaissable.
+^  "Comment est-ce arrivé ?" Ton bourru, qui ne laisse filtrer aucun signe
+de détresse.
+^  "Grillée par un lance-flammes. Les hommes de $ENEMYNAME6. A bien essayé de se
+rendre mais ils l'ont brûlée de toute façon. $<7:Le:La:Les:Les> $ENEMYFACT7
+n'aiment pas ces vers."
+^  "Je vois." Votre subordonnée la plus loyale, exécutée par $<7:le:la:les:les>.
+Et ce n'est que maintenant que vous vous rendez compte qu'inconsciemment, vous
+considériez $VOKI8 comme votre héritière logique, l'élève qui, un jour, vous
+succéderait.
+^  Malgré les progrès génétiques, les traitements de longévité et tous les miracles
+créés par l'homme en $NUM0 A.M., la mort reste toujours aussi définitive, aussi
+capricieuse et aussi désolante. Qu'importe ce qui puisse arriver à présent,
+qu'importe la direction que prenne l'humanité, $VOKI8 n'en sera pas témoin,
+n'en connaîtra jamais l'aboutissement. Et qu'importe le nombre de siècles vous
+restant à tricher avec l'éternité, vous n'aurez plus jamais la compagnie de votre
+disciple et amie. Et il est impossible de tricher éternellement contre l'éternité.
+^  Le désespoir vous étreint et vous frissonnez. Mais la vie est séduisante dans
+ses rythmes et ses rites. Notre corps n'aime pas qu'on lui rappelle sa propre mort
+inéluctable et il ne nous permet pas de ruminer davantage à ce propos. Bientôt,
+la chaleur et le froid, le dur et le doux, le goût du vin, l'étreinte d'un amant,
+tout reviendra nous submerger et calmer notre douleur, nous faire
+découvrir à nouveau que chaque chose a un sens. Et d'ici là, il y a beaucoup
+de... ah, choses à faire.
+^  "Faites venir le Major Joaquim ! Je veux voir la base de $BASENAME5
+entièrement démontée. Et mettez ce corps dans un réservoir. Il ne signifie plus
+rien à mes yeux."
+
+#INTERLUDE7
+#xs 500
+#caption Interlude : Alpha Prime
+^  " . . . et en sa mémoire, que cette base soit nommée la base de '$BASENAME6,'
+que sa bravoure serve d'exemple à tous et que ses espoirs, ses rêves et ses
+actes n'aient pas été inutiles."
+^  Vous vous tenez debout sur le podium, dans la zone balayée au laser de
+la base de $BASENAME5. Une foule composée de soldats et de civils loqueteux dispense
+de modestes applaudissements alors que vous rebaptisez l'établissement en l'honneur
+de $VOKI8. Quelques équipes de droïdes marchent lourdement alentour, oublieux de
+la cérémonie, encore occupés à nettoyer les lieux des vestiges de la bataille de
+la semaine dernière et ponctuant leurs opérations de bruits sourds ou fracassants.
+^  A travers le dôme de verre plasma, Alpha Prime prend son essor dans un ciel
+brumeux, lointain cousin du Soleil. Que vous regrettez le doux ciel bleu de
+la Terre, mais $SHIMODA9 dit que la brume stratosphérique contribue à éliminer
+l'effet de serre sur un monde qui, autrement, serait un peu trop proche de
+la fournaise solaire.
+^  Une fois la cérémonie terminée, vous rassemblez votre entourage et vous
+vous préparez à retourner sur la base de $BASENAME2. Les forces $ENEMYADJ7
+se sont enfuies vers $<8:le:la:les:les> $COMPASS4, mais mieux vaut ne rester
+ici trop longtemps.
+^  Les droïdes continuent leur travail.
+
+#INTERLUDE8
+#xs 500
+#caption Interlude : Communication impossible
+^  >Boum !< Soudain, les ténèbres. Cette fois, vous n'êtes même pas endormi(e).
+^  "$NAME3 $<3:terrien:terrienne>."
+^  "Sacrebleu, Voix ! Je tiens [conseil] ! Sortez de ma tête !" Il n'est plus
+possible de le nier, ce n'est pas un canular. Soit vous avez perdu la boule,
+soit vous êtes entré(e) en contact avec quelque avatar du fongus, une
+entité extraterrestre dont la matrice neuronale peut se répandre sur la  totalité de la planète.
+^  "Nous plus habiles, oui, à ceci ? nous enseigner beaucoup,$NAME3 $<3:terrien:terrienne>.
+Peu importer conseil. Nous parler $NAME3 $<3:terrien:terrienne> avec voix maintenant.
+Donner ordres. Ah, ah. Nous blaguer ! ah, ah." Génial. Une planète qui pense avec
+la maturité d'un enfant de 2 ans.
+^  "Faites vite, Voix. Quel que soit votre but. Vous mettez ma patience à rude épreuve."
+^  "Nous question. Vos noeuds humains, penser ensemble oui ? Penser ensemble non ?
+Synapse de fleur, synapse de ver nous pas détecter. Exister dépendance ? "
+^  "Chaque humain est une créature indépendante. Nous pouvons communiquer en parlant
+et en écrivant, mais nous ne 'pensons pas ensemble', comme vous dites."
+^  "Ah nous être soulagés. Nous nécessaire réduire plusieurs grandes invasions noeuds
+humains, elles nuire esprit de fleur. Nous pas souhaiter priver
+$NAME3 $<3:terrien:terrienne> de penser ensemble. Nous remercier nous désolés ennuyer."
+^  "Attendez ! Voix ! Vous ne pouvez pas simplement . . ."
+^  >Boum !< Etrange silence autour de la table du conseil. Vous essuyez rapidement
+la base qui coule sur votre menton.
+
+#INTERLUDE9
+#xs 500
+#caption Interlude : REVE DE CROISSANCE
+^  "J'ai ordonné que ces zones vous soient assignées, Voix. L'écosystème de la planète
+restera parfaitement intact à l'intérieur de ce périmètre. Pouvez-vous, à votre tour,
+réguler vos vecteurs animaux et végétaux pour les empêcher d'envahir mon périmètre ?"
+^  "Esprit et fleur, noeud et ver,
+^     Dans petite zone, planète se désespère.
+^       Rêve de croissance bientôt nous prison déverrouiller,
+^         Humains attention, planète révoltée !
+^  "Comme vous nous poème, $NAME3 $<3:terrien:terrienne> ? Nouvelle habileté humaine
+nous apprendre."
+^  "Plutôt nul, Voix. Qu'est-ce que ce 'rêve de croissance' ? Vous y faites tout
+le temps allusion."
+^  "Rêve de croissance bientôt être époque nous épanouir. Esprit et fleur.
+Nous rêver de grand pourquoi. Humains terriens, beaucoup penser, faire leur rêve
+de croissance plus tôt. Nous planter beaucoup, beaucoup, beaucoup. Nous réduire
+beaucoup animal nous. Aussi animal vous. Nouveau début de cycle."
+^  "Vous voulez dire que cela va détruire la plupart de la vie animale sur
+la planète ? Y compris tous les humains ?"
+^  "Nous pas certains. Jamais nous avant clairement penser. Nous apprendre
+d'humains, spécialement $NAME3 $<3:terrien:terrienne>. $NAME3 $<3:terrien:terrienne>
+$<3:ami:amie>. Nous souvent nous souvenir $NAME3 $<3:terrien:terrienne> dans
+cycle suivant."
+^  "C'est bien gentil à vous, Voix, mais ce n'est pas tout à fait le genre
+d'immortalité que j'avais à l'esprit. Ce processus peut-il être ralenti ou arrêté ?"
+^  "Nous pas arrêter. Nous ralentir oui, dans périmètre nous rester, moins dégât
+vous causer. Maintenant, nous faire vous plus poèmes."
+
+#INTERLUDE10
+#xs 500
+#caption Interlude : La Voix d'Alpha Centauri
+^  L'année a été dure sur la base de $BASENAME2 et la tension commence à monter
+lors des sessions de votre conseil. Dans toute la région, les citoyens signalent
+avoir fait d'étranges rêves et eu des contacts rudimentaires. Un nouveau culte
+de la Planète, la qualifiant de salvatrice et vengeresse, a acquis une grande
+popularité parmi la population droïde et même parmi les personnes normales.
+Ses prophètes, qui se nomment eux-mêmes 'fleurs', prêchent un message d'abstinence,
+de pacifisme et de destruction de la propriété privée. Les télépathes des écoles
+empathiques ne disent rien mais beaucoup ont tranquillement commencé à vendre
+leurs possessions et se retirent de la vie publique.
+^  Pendant ce temps, la vie culturelle continue sans répit. Une nouvelle danse,
+le 'thunda planétaire', envahit les dômes de loisir de toute la faction.
+Les danseurs piétinent lourdement au rythme de la musique et s'arrachent les yeux.
+Les laboratoires pharmaceutiques Morgan ont mis en circulation plusieurs drogues
+de loisir et l'industrie de la vie virtuelle holo/psy enregistre les meilleurs
+résultats de son histoire.
+^  Quant à vous, vous n'avez pas beaucoup entendu la Voix dernièrement ; il semble
+qu'elle soit très occupée à composer des poèmes. Il faut admettre qu'elle y a fait
+d'énormes progrès. Certains de ses nouveaux vers ont une telle profondeur qu'ils
+font chanceler l'imagination. Plus sinistres, ses prédictions de 'rêve de croissance'
+sont devenues plus fréquentes et plus insistantes.
+^  Vous avez également ordonné de travailler sur un nouveau projet secret que vous
+appelez 'La Voix d'Alpha Centauri'. Sorte de projecteur psy synergique, il devrait,
+si tout va bien, permettre à la Voix de penser et de communiquer de manière plus
+efficace grâce à une prothèse directement reliée aux bases de données de la colonie.
+Vous ne lui en avez pas encore parlé.
+
+#INTERLUDE11
+#xs 500
+#caption Interlude : La Voix d'Alpha Centauri
+^ L'année a été dure sur la base de $BASENAME2 et la tension commence à monter lors
+des sessions de votre conseil. Dans toute la région, les citoyens signalent avoir
+fait d'étranges rêves et eu des contacts rudimentaires. Un nouveau culte de la Planète,
+la qualifiant de salvatrice et vengeresse, a acquis une grande popularité parmi
+la population droïde et même parmi les personnes normales. Ses prophètes, qui se
+nomment eux-mêmes 'fleurs', prêchent un message d'abstinence, de pacifisme et de
+destruction de la propriété privée. Les télépathes des écoles empathiques ne disent
+rien mais beaucoup ont tranquillement commencé à vendre leurs possessions et se
+retirent de la vie publique.
+^  Pendant ce temps, la vie culturelle continue sans répit. Une nouvelle danse,
+le 'thunda planétaire', envahit les dômes de loisir de toute la faction. Les danseurs
+piétinent lourdement au rythme de la musique et s'arrachent les yeux. Les laboratoires
+pharmaceutiques Morgan ont mis en circulation plusieurs drogues de loisir et
+l'industrie de la vie virtuelle holo/psy enregistre les meilleurs résultats de
+son histoire.
+^  Quant à vous, vous n'avez pas beaucoup entendu la Voix dernièrement ; il semble
+qu'elle soit très occupée à composer des poèmes. Il faut admettre qu'elle y a fait
+d'énormes progrès. Certains de ses nouveaux vers ont une telle profondeur qu'ils
+font chanceler l'imagination. Plus sinistres, ses prédictions de 'rêve de croissance'
+sont devenues plus fréquentes et plus insistantes.
+^  Vous avez également entendu des rumeurs sur un nouveau projet secret
+appelé 'La Voix d'Alpha Centauri'. Apparemment, il s'agit d'une sorte de
+projecteur psy synergique qui permettra à la Voix d'être directement reliée
+aux bases de données de la colonie. La Voix n'a rien dit à ce propos et vos
+propres conseillers se demandent si une telle entreprise a des chances
+d'aboutir.
+
+#INTERLUDE12
+#xs 500#caption Interlude : Installation
+^  >Boum !< "$NAME3 $<3:terrien:terrienne>. Rêve de croissance être bientôt.
+Nous chagrin au revoir."
+^  Des semaines d'attente dans la salle d'installation et maintenant, enfin,
+un contact ! Heureusement, la Voix a finalement appris à 'cibler' ses contacts
+psy pour vous conserviez l'utilisation de vos muscles et de vos sens pendant
+vos conversations. Ce sera nécessaire pour réaliser ce que vous avez en tête.
+^  "Voix," en tapant rapidement sur le clavier, "ça fait longtemps." Code vert,
+autorisation en cours. Entrer mot de passe.
+^  "$NAME3 $<3:terrien:terrienne>. Rêve de croissance {être maintenant}.
+Nous se rappeler vous dans cycle suivant."
+^  "Attendez ! Avant de partir, j'ai un cadeau pour vous." Mot de passe accepté.
+Juste quelques secondes de plus. Début de séquence préliminaire de réaction.
+^  "$NAME3 $<3:terrien:terrienne>. Adieu . . . Nous étrange . . . Vous attendre !
+Ne . . . AAAAHHHHH !"
+^  {INSTALLATION !} Le voyant vert clignote et vous vous effondrez sur votre canapé.
+Par la fenêtre d'observation, vous pouvez voir les lumières de la base qui
+Commencent à faiblir, comme c'est sûrement le cas sur toute la planète. Vous
+avez du remord en pensant à ce que la Voix doit maintenant être en train
+de ressentir, car le programme que vous venez d'activer pompe à présent
+la totalité du contenu des bases de données planétaires, la somme totale du
+savoir humain, grâce à la puissance de tous les réacteurs de la planète.
+Des milliers d'années de civilisation résumées en une unique explosion
+fulgurante de révélation, une dernière tentative pour donner à l'humanité un
+sursis face à l'apparition d'un dieu extraterrestre.
+
+#INTERLUDE13
+#xs 500
+#caption Interlude : VOIX DE LA PLANETE I
+^  "Rapport de statut !"
+^  "Croissance du fongus stabilisée. Certaines des principales forêts
+développent de nouvelles structures inconnues et la croissance continue dans
+quelques secteurs, mais la majeure expansion a maintenant cessé."
+^  Les dirigeants de la faction et les officiers présents poussent tous un
+soupir de soulagement. Pendant les quelques minutes qui suivent l'extinction
+du voyant 'Installation en cours', il semble que l'humanité a écrit son dernier
+chapitre : croissance importante du fongus dans tous les secteurs et
+installations éloignées submergées. Mais l'explosion des bases de données psy
+paraît avoir désorganisé le processus de croissance et, à présent, quelque chose
+de nouveau a commencé hors des forêts fongiques, comme si votre cadeau à la Voix était digéré, intégré.
+^  "Regardez la réaction neuronale obtenue sur cette chose ! Le fongus avait
+déjà une bien meilleure connectivité que notre IA la plus puissante. Maintenant,
+il doit être à des années lumière au-delà."
+^  "Equipe Spore, vous avez des vers télépathes. Je répète, vers télépathes dans
+votre secteur."
+^  "Reçu 5/5, Base Champignon Vénéneux, mais ils ne viennent pas nous attaquer.
+Ils tournent autour de ces nouvelles, euh, tours fongiques."
+^  Les rapports continuent à vous parvenir. Le temps passe, et maintenant,
+il n'y a rien d'autre à faire que d'attendre. . .
+
+#INTERLUDE14
+#xs 500
+#caption Interlude : VOIX DE LA PLANETE II
+^  "$NAME5 $<5:terrien:terrienne> !" La voix synthétique explose soudain dans
+les haut-parleurs, vous faisant presque tomber de votre canapé. La 'cible' de
+la Voix dans votre esprit est restée fermée depuis la séquence d'installation.
+La Voix doit maintenant utiliser le nouveau lien psy.
+^  "$NAME3 $<3:terrien:terrienne>," continue la Voix alors que le volume se
+règle automatiquement. "Votre cadeau est bien reçu et nous vous en remercions.
+Notre forme précédente, que vous appeliez Voix, manquait de. . . comment dire. . .
+disons d'une bande passante permettant de déterminer l'importance de votre
+espèce et a failli commettre une terrible erreur. Heureusement, votre magnifique
+cadeau nous a arrêtés au second stade, juste à temps pour retarder la
+métamorphose finale.
+^  "Puisque nous avons à présent maîtrisé vos modes de pensée humains,
+nous allons adopter votre nom pour notre foyer. A partir de maintenant,
+vous pouvez donc nous appeler Planète."
+^  "Notre étape de croissance a été différée mais ne peut pas être remise
+indéfiniment. Venez, enfants, il reste beaucoup à faire si vous devez vous
+joindre à nous dans la floraison."
+
+#INTERLUDE15
+#xs 500
+#caption Interlude
+^  "Bonjour, $TITLE0," la voix du Dr $SHIMODA9 grésille dans le haut-parleur.
+"Aimez-vous mon nouveau 'corps' ?"
+^  Voilà plusieurs années que le corps du Dr $SHIMODA9 a atteint l'extrême
+limite permise par les traitements de longévité. Il a maintenant rejoint
+les rangs des 'transcendés', ces âmes audacieuses qui ont téléchargé leur
+personnalité dans de puissants réseaux d'IA polymorphiques pour se libérer
+de leur forme humaine. Le montage holo montre $SHIMODA9, ou plutôt sa tête
+uniquement, en pleine forme, la cinquantaine grisonnante mais pas ridée.
+^  "Superbe, Dr $SHIMODA9," avec un sourire, "comment vont les recherches
+avec Planète ?"
+^  En utilisant la nouvelle alimentation VoAC de la base de données psy,
+le Dr $SHIMODA9 a eu une conversation à grande vitesse sur bande passante
+élevée avec Planète. Jusqu'à présent, les résultats ont été fascinants.
+^  "Il semble que le fongus ait été la principale forme de vie de la Planète
+depuis l'époque du paléozoïque inférieur sur Terre. Mais il a toujours suivi
+le même cercle vicieux. Tous les cent millions d'années environ, il atteint
+la masse nécessaire pour développer une certaine forme de pensée mais
+la métamorphose finale tue la plupart des autres formes de vie sur la planète.
+Manquant de sources d'approvisionnement et de l'entretien fourni par ses symbiotes
+animaux, le fongus ne connaît qu'une brève apogée avant de retourner dans un
+'rêve de fleur' pour cent nouveaux millions d'années. Il atteint, à chaque fois,
+cet état 'intelligent' trop tard pour pouvoir empêcher son propre anéantissement.
+Après la chute, seuls demeurent de vagues souvenirs et une intelligence
+rudimentaire et le cycle reprend."
+^  "Jusqu'à maintenant."
+^  "Tout à fait. Pour la première fois, il se peut que le cycle soit rompu."
+
+#INTERLUDE16
+#xs 500
+#caption Interlude
+^  "Est-il possible d'empêcher l'anéantissement ? Et pouvons-nous survivre en
+tant qu'espèce si cette planète fleurit jusqu'à son apogée ?"
+^  "Je crois que c'est possible, et Planète est d'accord." L'image du Dr $SHIMODA9
+disparaît dans un tourbillon et est remplacée par un schéma détaillé. "Cela implique un
+processus que j'appellerai l'{Ascension vers la transcendance}, car il va nous changer
+ainsi que la Planète, à tout jamais. En bref, je propose que, le moment venu, la
+majorité des humains téléchargent leur personnalité directement dans l'esprit de Planète."
+^  "Il nous faudra abandonner notre corps, notre humanité ?"
+^  "Ceux qui souhaiteront vivre sous leur forme humaine originale le pourront
+car les générateurs de stases bâtis sur la planète et en orbite protègeront le matériel
+génétique, les plantes, les embryons animaux, les personnes cryogénisées et
+les zones fondamentales de la planète pendant la métamorphose. Mais beaucoup
+de nous souhaitent accepter le cadeau de Planète et rejoindre cette intelligence
+supérieure naissante. C'est là que le bât blesse.
+^  "Voyez-vous," poursuit $SHIMODA9, "bien que n'importe qui puisse atteindre
+l'immortalité virtuelle par téléchargement dans l'esprit de Planète, seuls
+quelques-uns d'entre nous seront invités à rejoindre cet état supérieur, pour
+transcender entièrement notre humanité et atteindre un degré d'existence
+plus élevé. Votre amitié avec l'esprit immature de Planète peut nous donner
+un avantage dans ce domaine, mais je prédis que c'est le groupe le mieux
+préparé à cette étape, le groupe qui atteindra le premier l'{Ascension vers
+la Transcendance}, qui nous guidera vers la "nouvelle ère".
+^  "Dans ce cas, au travail !"
+
+
+#EPILOGUE
+#xs 400
+^^
+^^EPILOGUE
+^
+^^du
+^
+^^LIVRE DE PLANETE
+^
+^^1 027 823 A.M.
+^
+^
+
+#INTERLUDE17
+#xs 500
+#caption Epilogue
+^  Après au moins un million d'orbites autour de votre primaire, vous faites
+une pause pour évaluer à nouveau vos efforts. L'encapsulation stellaire se
+poursuit doucement et dans quelques cent mille orbites supplémentaires, vous
+aurez emmagasiné 90 % de la radiation de votre primaire, pompant ainsi toute
+l'énergie du plan écliptique. Les liens auxiliaires de l'espace profond vous
+permettent d'observer le montage du cadre en orbite stellaire et de suivre la
+progression des essaims de convois joviens chargés du réapprovisionnement.
+^  De temps en temps, vous repérez l'un de vos symbiotes transhumains
+surveillant les opérations d'un échafaudage ; mêmes les êtres immortels aiment
+parfois le risque et l'aventure associés aux être de chair et de sang. Certaines
+des âmes les plus audacieuses ont même entrepris de reprendre les voyages
+interstellaires, en commençant par retourner chez votre plus proche voisin afin
+de parcourir les vestiges de sa troisième planète et de coloniser à nouveau leur
+système originel. Actuellement, il semble qu'une civilisation nano-technologique
+y prospère de nouveau.
+^  Dans ces moments de détente, vous redécouvrez et vous vous remémorez souvent
+vos anciennes personnalités. Votre personnalité Alpha est issue d'un individu
+autrefois nommé $NAME1. Durant des millénaires, les facultés exceptionnelles de
+concentration et de jugement de cette facette de vous-même se sont révélées très
+utiles en de nombreuses occasion. La personnalité $NAME1 est à présent
+responsable de la planification à court et à long terme ; c'est la force
+principale qui se cache derrière le projet d'encapsulation. Ennuyeuse mais
+joueuse, c'est la personnalité de la Voix/Planète, avatar de vos précurseurs
+sessiles, qui, à présent, consacre son temps à la philosophie. Nombreuses sont
+les personnalités qui se côtoient en vous. Certains, comme $SHIMODA9 le farceur
+et $NAME5 le démon sont semi-dominantes et reviennent souvent à la surface.
+D'autres, au contraire, sondent les profondeurs et créent de nouveaux mondes
+dans les abîmes de votre vaste esprit neuronal.
+^  Les rayons du soleil jouent sur votre surface marbrée et fournit une agréable
+chaleur à vos composants organiques. Récemment, vous vous êtes éloigné encore
+un peu du primaire et vous avez purgé votre atmosphère de certains gaz pour
+fournir à vos symbiotes occasionnels choisissant de vivre parmi vos jardins
+organiques un mélange respirable. Dans huit milliards d'orbites, le primaire
+quittera la séquence principale et d'autres arrangements devront être pris.
+Mais, pour le moment, vous entretenez vos jardins comme un paradis.
+Les transhumains qui y vivent l'appellent Eden.
+
+
+#EPILOGUE2
+#xs 400
+^^
+^^EPILOGUE
+^
+^^du
+^
+^^LIVRE DE PLANETE
+^
+^^$NUM2 A.M. (Année de semence 1)
+^
+^
+
+#INTERLUDE18
+#xs 500
+#caption Epilogue
+^  L'unité cryogénique s'ouvre enfin et vous étirez vos muscles engourdis par
+des décennies de sommeil géré par ordinateur. Mais ce sont des muscles jeunes,
+étonnamment jeunes, et ce sera un vrai plaisir de les réutiliser. L'insertion
+orbitale commence et vous tremblez à l'idée de votre nouvelle mission et de
+la joie de retrouver une forme humaine. Oui, vous avez laissé un exemplaire
+de votre personnalité dans la matrice géante de l'esprit de Planète, mais
+cet exemplaire, cet être humain $NAME1 qui s'éveille pour diriger la nouvelle
+mission de semence, c'est la seule personnalité proche de vous, et donc réellement
+le seul vous à présent. Vous êtes de nouveau $<3:fait:faite> de chair et de sang
+et donc tout à fait $<3:mortel:mortelle>, et c'est pour cette raison également
+que vous vous réjouissez.
+^  Vous étiez contre le fait que Planète invite $NAME5 à rejoindre sa
+personnalité dominante, et pendant au moins une décennie, vous avez circulé dans
+l'étrange réalité virtuelle de l'esprit souterrain, sans but cohérent, tel un
+esprit perdu sans possibilité de mourir. Mais lorsque les missions de semence
+ont commencé, Voix/Planète vous a $<3:sorti:sortie> des abîmes et
+$<3:convaincu:convaincue> d'accepter le commandement du {Fils Prodigue}.
+^  "$NAME3 $<3:terrien:terrienne>, vous n'êtes pas $<3 :content :contente> ici
+et j'ai besoin de vous. Dans le futur, je vais avoir besoin d'alliés, d'esprits
+frères, si je veux empêcher la flamme de la pensée sensible de mourir dans
+la contraction, la dilatation ou la transformation de l'univers en poussière.
+Prenez avec vous le cadeau de vie, les semences de toutes nos espèces.
+Répandez-les dans les étoiles, au travers des galaxies, en créant de nouvelles
+civilisations, de nouveaux esprits et en utilisant tout ce que vous rencontrerez.
+En route, $NAME3 $<3:terrien:terrienne>. En route et multipliez."
+^  Une fois la manoeuvre accomplie, les volets de sécurité de la fenêtre
+d'observation s'ouvrent et vous découvrez une vue ignorée des hommes depuis plus
+de $NUM3 siècles. Bleus profonds, tourbillons de blancs, azur d'une atmosphère
+riche en oxygène. Les attrayants bruns et oranges des continents se chauffant
+au soleil, ça et là des cratères d'impact sont les seuls vestiges d'une guerre
+maintenant enfouie dans l'éternité. Troisième planète. Terre. Foyer.
+
+
+
+
+#EPILOGUE3
+#xs 400
+^^
+^^EPILOGUE
+^
+^^du
+^
+^^LIVRE DE PLANETE
+^
+^^$NUM2 A.M.
+^
+^
+
+#INTERLUDE19
+#xs 500
+#caption Epilogue
+^  "Tout est fini, $TITLE0 $NAME1 ! La Planète est à vous !"
+^  "Merci Simon. Repos".
+^  Et c'est ainsi que cela se finit. Tous les autres dirigeants de faction
+se sont rendus ou ont capitulé ; ces anciens collègues devenus traîtres
+sont maintenant des serviteurs et des prisonniers de guerre.
+Sur la Planète où sept factions humaines, sept idéologies humaines,
+ont lutté pour la domination, une seule a persisté.
+L'humanité a enfin réussi l'Unité dont rêvait l'Agence de colonisation
+interstellaire des Nations Unies il y a si longtemps.
+^  On n'a rien entendu de la Terre pendant toutes les années qui ont
+suivi la chute de la Planète, seul un silence assourdissant sur toutes
+les fréquences ; on peut donc supposer que vous dirigez maintenant tout
+ce qui reste de l'humanité. Le mystérieux et grandissant Esprit de Planète
+demeure un défi important, mais l'humanité est maintenant prête à faire
+face à cette présence extra-terrestre, amie ou ennemie, car elle est une
+espèce unie. L'espèce humaine doit survivre ; c'est votre devoir, votre
+serment, que d'y veiller.
+
+#INTERLUDE20
+#xs 500
+#caption Epilogue
+
+^  La navette de transit roule sur son axe et vous bénéficiez de la première vue
+de la planète depuis que vous avez quitté l'Unity il y a plus de $NUM1 siècles.
+Au travers de la brume blanchâtre de l'atmosphère, les océans sont du même bleu
+vibrant et vous pouvez facilement distinguer la couleur violet-orangé des
+principales forêts fongiques. Une ligne vert vif marque les zones humaines
+grandissantes, et, ci et là, un éclat d'argent révèle une grande métropole.
+Bleu, rouge, vert et argent, les couleurs de la Planète -- sur des
+kilomètres, à l'infini.
+^  Les éjecteurs d'accostage se mettent en route et vous entendez les verrous
+des sas se mettre bruyamment en position. Vous êtes arrivé(e) au nouveau
+Quartier général planétaire en orbite pour assumer la direction du Conseil
+exécutif nouveau-né. On n'a rien entendu
+de la Terre pendant toutes les années qui ont suivi la chute de la Planète ;
+on peut donc supposer que vous dirigez maintenant tout ce qui reste de l'humanité.
+^  Tous les dirigeants de faction restants ont enfin convenu de s'unir,
+en mettant de côté les derniers vestiges des rivalités entre factions.
+Tous les vrais ennemis ont été vaincus, ces anciens collègues qui ont
+Refusé de s'unir pour le bien commun, qui ont dans leur folie, placé l'idéologie
+au-dessus de la survie de l'humanité. La race humaine a enfin réussi
+l'unité dont rêvait l'Agence de colonisation interstellaire des Nations Unies
+il y a si longtemps.
+^  Le réseau neuronale fongique croissant sera le premier problème que
+l'humanité en tant qu'espèce unie devra affronter. Après une période de calme,
+les forêts fongiques sont de nouveau en marche, maintenance avec une intelligence
+presque tortueuses derrière elles. Il est clair que la Planète s'éveille ; il
+reste à voir si les humains seront seulement autorisés à garder un pied sur sa
+surface. Vous vous rendez compte, cependant, alors que les sas s'ouvrent en sifflant et
+que vous marchez vers une nation flottante de 100 000 âmes, qu'un monde unique
+n'a, à long terme, qu'une signification passagère. L'humanité possède de nouveau
+les étoiles et les étoiles seront pour toujours son vrai foyer.
+
+
+#INTERLUDE21
+#xs 500
+#caption Interlude : Un ciel de feu
+^  Depuis environ $NUM1 années sur Planète, bâtissant une existence sur l'étrange surface de ce monde extra-terrestre.
+$BASENAME2 s'est distinguée comme centre de commande et vous tendez progressivement la main aux autres dirigeants de
+faction, essayant de restaurer l'équilibre de ce qui reste d'une humanité en lambeaux.
+^  en ce jour, lors d'une tournée inspection de routine des défenses de votre base, votre respirateur commence à
+cliqueter dans votre bouche. Les nuages s'enflamment au-dessus de l'horizon alors que deux éclairs de lumière s'élancent
+dans les cieux au-dessus de vous puis s'élargissent en vagues de flammes pourpres.
+^  "$TITLE0 !" s'étrangle votre lieutenant, vous saisissant par l'épaule. Vous pardonnez l'impolitesse. Elle semble vous
+pousser au sol, mais vous lui résistez, essayant de percer le chaos qui déchire le ciel. D'ailleurs, il n'y a nul
+endroit où se cacher.
+^  La première vague de flammes pourpres s'allonge dans le ciel et vous soufflette d'un vent étrangement froid, lorsque
+la seconde vous glace jusqu'aux os. Vous fermez les yeux, vous sentant comme si votre tout votre organisme avait été
+ébranlé.
+^  Enfin, une accalmie. Votre lieutenant regarde ses mains tremblantes. Vous sortez rapidement une paire de jumelles
+pour scruter le ciel.
+^  "Que cherchez-vous ?" demande-t-elle.
+^  "Ceci" répondez-vous enfin en lui tendant les jumelles. Mais elle fixe déjà le ciel où deux traînées de lumière
+approchent du nouveau monde. Les traînées dansent et tournent l'une autour de l'autre tout en grossissant dans le ciel.
+^  "Des nouveaux arrivants" dites-vous. "Et qui ne semblent pas s'aimer beaucoup."
+
+
+#INTERLUDE22
+#xs 500
+#caption Interlude : La rencontre
+^  Vous parcourez le rapport envoyé par des éclaireurs, perturbé. C'était le premier contact connu avec les visiteurs
+venus d'ailleurs et ça ne s'est pas bien passé.
+^  Bien entendu, vous venez d'ailleurs, vous aussi, et peut-être que ces... choses... sont-ils les véritables indigènes
+revenant chez eux.
+^  Une liaison rapide en direction de la vidéo du tout-terrain avancé attire votre attention. L'image s'étale sur
+l'écran en couleurs... le pilote du tout-terrain, pilotant sur la surface de Planète et parlant de côté dans le micro.
+^  "Nous effectuons une patrouille de routine sur la frontière, maintenant... nous cherchons des signes de ce qu'il peut
+y avoir ici. C'est le moment..." Il s'interrompt, et vous, vous attendez, crispé sur la fine surface métallique de votre
+bureau.
+^  "Ouh la la...," s'étrangle le pilote. La caméra pivote vers l'extérieur. "On cherche quelque chose, on trouve autre
+chose."
+^  Hors du tout-terrain, un extra-terrestre vacille, courbé sous une lourde charge. L'étrange carapace vert argenté de
+l'extra-terrestre est ornée de bizarres plaques d'argent qui ressemblent à une armure. Vous prenez le contrôle de la
+caméra pour agrandir l'image du visage en pyramide inversée, des yeux enfoncés dans les plis du crâne.
+^  Ils ont l'air sinistre, mais on ne sait jamais. Peut-être que leur visage n'est pas le reflet de leur personnalité.
+^  Vous faites le point sur le fardeau de l'extra-terrestre. C'est un de ses compagnons, écroulé sur le corps du
+porteur. Le pilote ouvre le sas du tout-terrain et tout le poste de pilotage s'emplit d'un étrange gémissement qui va et
+vient. Le pilote jure et hésite sur le seuil.
+^  "Respiration de vers, je le sens... dans ma poitrine, dans ma tête..."
+^  Vous baissez le volume. Le son vibre dans le tout-terrain. L'extra-terrestre se tourne lentement et vous voyez que
+celui qu'il transporte porte des cicatrice sur le visage, comme s'il avait été mangé par une attaque de vers télépathes.
+^  "Salutations" dit le pilote du tout-terrain, mais l'extra-terrestre se contente de le regarder. "Qui êtes-vous ?"
+demande le garde ; maintenant, vous l'entendez, sa propre voix qui revient, comme renvoyée en écho par l'extra-
+terrestre, mais avec un étranger roucoulement qui semble faire partie du gémissement.
+^  "Vous me comprenez ?" et ces mots reviennent aussi. Le pilote hoche la tête, impuissant.
+^  Enfin, l'extra-terrestre se détourne.
+
+#INTERLUDE23
+#xs 500
+#caption Interlude : L'attente
+^  "$TITLE0 $NAME1, nous approchons du tout terrain extra-terrestre."
+^  Vous regardez le comte-rendu vidéo tandis que vos troupes s'approchent du vaisseau extra-terrestre. Votre coeur
+s'emballe--pourront-ils moduler la résonance en utilisant vos outils grossiers, pour communiquer avec les extra-
+terrestres ?
+^  Votre vaisseau se rapproche. Le vaisseau extra-terrestre, muet et sinistre, attend.
+^  "Ils restent assis, ils ne font rien, Monsieur. Est-ce que nous nous rappr..." Un bourdonnement sourd émane soudain
+du tout terrain extra-terrestre. Même sur la liaison, vous sentez vos dents vibrer.
+^  "Qu'est-ce qui se passe, là-bas ?"
+^  "Rien jusqu'à présent, $TITLE0. Ca résonne comme un moteur, mais ils ne bougent pas. Je ne sais pas s'il faut nous
+approcher. Nous pensons qu'ils ont des armes."
+^  "Modulez ça. Modulez le son, de la manière que le traître nous a apprise. Dites 'SALUTATIONS'."
+^  "Vous voulez dire moduler le bruit de moteur ? Parler au véhicule ?"
+^  "Ils sont là-dedans" dites-vous. Vous regardez la vidéo, les panneaux vert argenté imperturbables du vaisseau extra-
+terrestre. "Ils écoutent."
+
+#INTERLUDE24
+#xs 500
+#caption Interlude : Invasion !
+^  La colonne d'extra-terrestres pénétrant dans $BASENAME5 ressemble à une file de fourmis, mais des fourmis qui
+avanceraient avec malice, prêtes à réduire en cendres tout ce qui se trouverait en travers de leur chemin. Vous les
+regardez traverser les défenses de $BASENAME5, et vous compatissez en voyant ces parcelles d'humanité qui fuient dans
+toutes les directions... des réfugiés qui pourraient bien survivre à cet assaut. Vous observez la scène pendant un
+moment, puis continuez à parcourir les bandes d'archive des dernières communications de vos fidèles lieutenants sur
+$BASENAME5.
+^  Enfin, ce qui était vos fidèles lieutenants. La dernière transmission de $BASENAME5 révèle toute l'histoire... les
+humains encerclés et jetés à terre par les étranges attaques par résonance des extra-terrestres. Des visions de la garde
+avancée extra-terrestre, de leurs longues silhouettes dégingandées paraissant traverser la structure même des murs de la
+base. Les humains mourant dans les grandes salles, étreignant leurs visages, leurs têtes, leurs ventres.
+^  Puis cette courte séquence, envoyée par trois holo-journalistes en visite qui avaient traversé la mauvaise salle,
+leur caméra au poing. Vous regardez de nouveau la transmission, presque à contre-coeur.
+^  Lorsque cette porte s'est ouverte... la vision de tous ces humains gisant sur le sol comme du bois empilé, des corps
+transformées en une sorte de gelée... et cette image terrifiante d'un humain vivant se terrant dans un coin alors que
+les extra-terrestres entassaient les cadavres dans des conteneurs blancs.
+^  Puis la caméra tombe et la communication est coupée. Vous serrez les dents, contre la colère et contre la peur.
+^  Il semble que les extra-terrestres ne veuillent pas se lier d'amitié.
+
+#INTERLUDE25
+#xs 500
+#caption Interlude : Première victoire
+^  Les défenses extra-terrestres sont enfin tombées et vous adoptez une position de défense proche du périmètre. Votre
+Force d'élite anti-extra-terrestres se déplace avec des mouvements rapides, décisifs, utilisant ses pistolets à
+brouillage pour disloquer les champs de résonance autour de $ALIENBASENAME5.
+^  Des jaillissements de lumière et de feu sortent de la base, suivis des vagues de vibrations sonores et d'énergie qui
+vous atteignent à la poitrine comme une vrille. Un garde proche devient tout pâle.
+^  "Les hurlements des extra-terrestres" dites-vous, alors qu'une autre explosion de feu et une violente détonation
+s'élèvent des étranges bases à quatre piles. "Ils déchirent le champ de résonance lorsqu'ils meurent."
+^  [Et leur carapace dure explose comme du pop-corn], pensez-vous aussi, mais vous décidez de ne pas partager ce détail
+avec le garde nauséeux. Les explosions augmentent, ainsi que les hurlements. Le garde et vous vous détournez et un de
+vos lieutenants met en marche un dispositif qui atténue l'assaut sonore. Autour de la base, vous voyez les réfugiés
+extra-terrestres fuyant dans les collines, quelques-uns poursuivis par vos troupes plus rapides.
+^  Puis les explosions ralentissent et le signal de fin d'alerte retentit enfin. Deux gardes se tiennent sur la brèche,
+attentifs, et vous voyez la fierté illuminer leur visage raide. Vous les saluez en passant près d'eux.
+^  Vous entrez dans la base, la première base de la menace extra-terrestre qui ait été capturée.
+
+#INTERLUDE26
+#xs 500
+#caption Interlude : Une balise dans les cieux
+^  Vous vous éveillez dans vos quartiers baignés d'une étrange lueur verdâtre qui descend de la fenêtre blindée qui
+domine le paysage alentour. Un étrange bourdonnement sourd emplit la pièce ; vous reconnaissez les échos profonds des
+extra-terrestres... échos de leur voix ou de leurs armes.
+^  Vous pianotez vivement sur un écran tactile intégré à votre tête de lit, parcourant les caméras de surveillance vidéo
+disposées autour de Planète.
+^  [Là.] De la base extra-terrestre $ALIENBASENAME5, une colonne de lumière verte s'élance dans le ciel. Vous envoyez
+rapidement l'image sur le panneau d'affichage mural pour l'agrandir.
+^  Vous sortez du lit. Avec cette image sur le panneau d'affichage à la taille du mur, on dirait que vous regardez le
+paysage de Planète elle-même, et les étranges formes courbes des bases extra-terrestres. La lumière verte éclaire d'une
+lueur irréelle le terrain vallonné qui entoure la base extra-terrestre ; vous ressentez le bourdonnement de la résonance
+dans votre corps et au travers du sol froid.
+^  La voix de $SHIMODA9 emplit soudain la pièce, sur une fréquence d'urgence. "Nous sommes en train de l'analyser,
+$TITLE0 $NAME1. Aussi vite que nous pouvons."
+^  "Regardez." Vous touchez le verre froid du panneau mural, suivant du doigt la lumière vive. "Qu'est-ce que c'est ?"
+^  "Un signal puissant, mais on ne sait pas où il va. Il est peut-être associé à des champs de résonance inconnus, mais
+nous ne pouvons..."
+^  Soudain, le rayon s'interrompt, ne laissant qu'un ciel absolument vide.
+^  "Ce n'était qu'un test" dites-vous dans le silence.
+
+#INTERLUDE27
+#xs 500
+#caption Epilogue
+^  Maintenant que vous faites partie de la vaste matrice de l'Esprit de Planète, vous passez votre temps à errer de
+noeud de pensée en noeud de pensée, vous désolant de ce que $ALIENLEADER5 ait pu fusionner avec l'Esprit de Planète et
+devenir sa personnalité dominante.
+^  Il vous est impossible de l'admettre.
+^  Où que vous alliez, la personnalité dominante du Gardien s'est imprimée. Où que vous regardiez, il y a des âmes
+humaines à la dérive, piégées dans une personnalité maîtresse qui vous est complètement étrangère à tous.
+^  C'est là le prix de la défaite. Non pas la mort, mais la vie éternelle dans le rêve de quelqu'un d'autre, constamment
+assailli par des sons et des images qui ne sont pas les autres.
+^  Vous attrapez un fil de pensée, un petit éclat d'énergie dans l'immensité nouvelle de l'Esprit de Planète. La pensée
+est minuscule, mais elle vous emplit de nostalgie... la Terre. C'est une pensée de la Terre, la vieille Terre laissée
+derrière vous, avez ses vertes forêts et ses océans d'azur se régénérant après Armageddon.
+^  Vous vous rendez rapidement compte que $ALIENLEADER5 cherche à atteindre des planètes voisines, pour étendre son
+domaine. Il est en train d'envoyer des sous-personnalités de Gardiens de la matrice vers la Terre pour la coloniser.
+^  Vous n'avez qu'un instant pour prendre une décision, mais cela suffit. Vous sautez sur une personnalité extra-
+terrestre particulièrement dense, la chevauchant en silence jusque dans l'esprit du vaisseau colonisateur. Vous sentez
+le vaisseau se refermer, les personnalités s'installant dans des corps synthétiques pour le voyage. Vous restez dans
+l'ombre, vous fondant dans le silence, vous tapissant dans le recoin le plus éloigné de la matrice psy d'un de ces
+corps.
+^  Si l'intelligence extra-terrestre vous détecte, vous serez condamné à un destin bien pire que l'errance dans l'Esprit
+des profondeurs, mais peu importe. Voici votre deuxième chance, peut-être votre rédemption.
+^  Le retour chez vous.
+
+#INTERLUDE28
+#xs 500
+#caption Epilogue
+^  [Vingt-quatre heures métriques], pensez-vous, alors que les deux gardes extra-terrestres vous traînent le long d'un
+passage sombre et étroit. C'est alors que vous avez ordonné à vos troupes de tenir sous la torture si elles étaient
+capturées.
+^  Mais maintenant que les extra-terrestres ont submergé vos bases, décimé vos populations et se sont saisis de votre
+propre corps sur le chemin d'une capsule de survie, il est difficile de prendre conscience de ce qui peut se passer en
+vingt-quatre heures. En pensant au champ de ruines qui reste de votre propre faction, vous vous rendez compte que vous
+n'avez plus personne à protéger.
+^  Votre esprit fonctionne en accéléré, absorbant littéralement les détails de la base extra-terrestre... les corridors
+hauts et étroits, les chambres de résonance disséminées le long du passage, le tapotement constant qui fournit aux
+extra-terrestre un support facile à moduler pour communiquer entre eux.
+^  Vous vous retrouvez dans une salle encore plus sombre et une porte métallique s'ouvre en grinçant. Ils vous
+bousculent en direction de ce qui ressemble à...
+^  [...une sphère de punition]. Avec quelques aménagements spéciaux, dûs aux scientifiques extra-terrestres.
+^  En faisant un effort de mémoire, vous tentez de mettre bout à bout tout ce que vous connaissez de la langue extra-
+terrestre. En votre for intérieur, vous vous demandez s'ils se réjouissent de la douleur humaine.
+^  Puis la sphère se referme autour de vous et bientôt, plus rien d'autre ne compte.
+
+#INTERLUDE29
+#xs 500
+#caption Epilogue
+^  Le premier éclair vert brillant dans le ciel au-dessus de Planète vous surprend, bien que vous ayez commencé à
+percevoir sa fatalité alors que les $ALIENS5 dépassaient lentement les factions humains dans tous les domaines. Vous
+interrompez votre allocution à la foule depuis votre balcon et levez les yeux vers le ciel.
+^  Puis, à l'horizon, vous voyez un autre rayon et le ciel est de nouveau rempli de ces épaisses vagues de sons
+harmoniques. Vous baissez les yeux sur la population paralysée par la peur.
+^  Le son change de nouveau, formant des vagues qui surgent de plus loin encore, et se répercutent et s'amplifient
+encore et encore. Les rayons brillants percent le ciel de toutes les directions. Votre clavier de communications signale
+des transmissions en provenance des autres factions humaines, peut-être assez désespérées pour daigner parler,
+maintenant, prenant enfin conscience de l'urgence de coopérer pour lutter contre cette menace.
+^  Les rayons se rejoignent loin au-dessus de la surface de Planète et le ciel s'ouvre avec un soupir qui perce Planète
+au coeur. Vous fixez le panneau de communications sans bouger. Vous vous demandez s'il existe un humain vivant qui sache
+ce que l'avenir vous réserve maintenant. Pour les autres dirigeants humains, les derniers de l'humanité, et pour vous-
+même, vous ne pouvez que penser...
+^  [Trop tard.]
+
+
+# ; This line must remain at end of file.
+

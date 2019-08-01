@@ -1,0 +1,180 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; Alpha Centauri Base Names
+;
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
+;
+
+#INVERTLIST
+6
+Garden
+Gaia’s
+The
+Morgan
+Lab
+U.N.
+
+#GENERIC
+Alpha Sector
+Arxa Sector
+Baix Sector
+Beta Sector
+Chi Sector
+Czechn Sector
+Delta Sector
+Deew Sector
+Epsilon Sector
+Eta Sector
+Eth Sector
+Fein Sector
+Fint Sector
+Gamma Sector
+Gine Sector
+Har Sector
+Hixe Sector
+Iota Sector
+Inxu Sector
+Jinn Sector
+Jeuw Sector
+Kappa Sector
+Kerr Sector
+Lambda Sector
+Larx Sector
+Mu Sector
+Meur Sector
+Nu Sector
+Nil Sector
+Omega Sector
+Omicron Sector
+Phi Sector
+Pi Sector
+Psi Sector
+Qad Sector
+Quin Sector
+Rho Sector
+Rixt Sector
+Sigma Sector
+Sine Sector
+Tau Sector
+Theta Sector
+Upsilon Sector
+Ura Sector
+Vait Sector
+Vuq Sector
+Wenx Sector
+Wark Sector
+Xarn Sector
+Xi Sector
+Yan Sector
+Yen Sector
+Yin Sector
+Yon Sector
+Yun Sector
+Zint Sector
+Zeta Sector
+Antre Sector
+Ayun Sector
+Belax Sector
+Bygre Sector
+Cüy Sector
+Clix Sector
+Dray Sector
+Dolae Sector
+Est Sector
+Enta Sector
+Fal Sector
+Frus Sector
+Grün Sector
+Gajen Sector
+Hoth Sector
+Heyst Sector
+Ibn Sector
+Imal Sector
+Jah Sector
+Jellux Sector
+Küt Sector
+Knät Sector
+Litre Sector
+Lum Sector
+Murx Sector
+Melet Sector
+Nugh Sector
+Ninev Sector
+Ogren Sector
+Onesci Sector
+Pürget Sector
+Penra Sector
+Quert Sector
+Qwäst Sector
+Rigmu Sector
+Rogat Sector
+Säha Sector
+Shamt Sector
+Trex Sector
+Tilte Sector
+Ustbüs Sector
+Veldt Sector
+Volem Sector
+Yigem Sector
+Yüva Sector
+Zäay Sector
+Zetro Sector
+Arlia Sector
+Agnon Sector
+Bugelx Sector
+Bruv Sector
+Cunni Sector
+Cälet Sector
+Diax Sector
+Duap Sector
+Elgo Sector
+Eld Sector
+Firt Sector
+Fwirl Sector
+Gyro Sector
+Ghast Sector
+Helle Sector
+Hjor Sector
+Ipno Sector
+Ixab Sector
+Jalah Sector
+Jurx Sector
+Kilt Sector
+Kulee Sector
+Luress Sector
+Litro Sector
+Meaj Sector
+Mojab Sector
+Nyl Sector
+Nïnt Sector
+Ottay Sector
+Ort Sector
+Pan Sector
+Proy Sector
+Quaq Sector
+Q Sector
+Rast Sector
+Rhayt Sector
+Sizz Sector
+Sahl Sector
+Tirn Sector
+Thau Sector
+Ute Sector
+Uthnay Sector
+Valt Sector
+Vlab Sector
+Wod Sector
+Weuel Sector
+Wixe Sector
+Whayl Sector
+Xel Sector
+Xaph Sector
+Yuko Sector
+Yey Sector
+Zela Sector
+Zooe Sector
+#END
+
+
+# ; This line must remain at end

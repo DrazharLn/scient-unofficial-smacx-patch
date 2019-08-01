@@ -1,0 +1,213 @@
+;
+;   menu.txt
+;
+
+#GAME
+&Game
+Switch To Detailed &Menus|F11
+Switch To Simple &Menus|F11
+&Preferences...|Ctrl+P
+&Warning Preferences...|Ctrl+W
+&Advanced Preferences...|Ctrl+O
+&Automation Preferences...|Ctrl+A
+&Audio/Visual Preferences...|Ctrl+I
+&Map Display Preferences...|Ctrl+M
+&Save Game...|Ctrl+S
+&Load Game...|Ctrl+L
+&Resign|Shift+Q
+Start New &Game|Ctrl+Shift+Q
+&Quit|Ctrl+Q
+
+#NETWORK
+&Network
+&Chat|Ctrl+C
+&Voice Transmission|Hold \ Key
+&Pause|BKSP
+Customize Your Faction|+
+Alter &Time Controls|Shift+T
+Zoom to Base Messages|*
+Use Time Bonus|Ctrl+SPACE
+End Turn|Ctrl+ENTER
+Resume Turn|Ctrl+ENTER
+
+#HQ
+&HQ
+&Social Engineering...|E
+Set Research Priorities...|Shift+R
+Change Research Goal...|Shift+R
+Design &Workshop...|U
+Datalinks...|F1
+Laboratories Status...|F2
+Energy Banks...|F3
+Base Operations Status...|F4
+Secret Project Data...|F5
+Orbital and Space Status...|F6
+Military Command Nexus...|F7
+Alpha Centauri Score...|F8
+View Monuments...|F9
+View Hall of Fame...|F10
+Communications and Protocol...|F12
+Corner Global Energy Market!|,
+Review Scenario Objectives|=
+
+#MAP
+&Map
+Mo&ve units|V
+&View map|V
+&Zoom in|Z
+Zoom out|X
+Standard zoom in|Shift+Z
+Standard zoom out|Shift+X
+Full zoom in|Ctrl+Z
+Full zoom out|Ctrl+X
+Toggle flattened terrain|Ctrl+Shift+X
+Toggle map &grid|Ctrl+G
+Toggle &base grid|Ctrl+Shift+G
+Show autoforward routes|Ctrl+Shift+B
+Show &patrol orders|Shift+P
+Terrain Sur&vey|T
+Hide/Show Names & Production|Ctrl+N
+Name Landmark|Shift+N
+Erase Landmark|Ctrl+Shift+N
+Locate &Base...|Ctrl+B
+Previous Cursor Position|BACKSPACE
+Next Cursor Position|Shift+BACKSPACE
+&Center screen|C
+
+#ACTION
+&Action
+Construct &Base...|B
+Join &Base|B
+Obliterate &Base|B
+Long Range &Fire|F
+A&irdrop|I
+Detonate M&issile Payload|I
+Ps&i Gate|Shift+I
+Convoy Resources|O
+&Destroy Enhancements|D
+Disband Unit|Shift+D
+Automate Unit|Shift+A
+&Explore Automatically|/
+&Patrol|P
+Designate Bombing Run|B
+Automate Air Defense|Ctrl+Shift+A
+&Go to Base...|G
+&Group go to...|J
+&Assemble Group|Shift+J
+Go to H&ome Base|Shift+G
+Set H&ome Base|Ctrl+H
+&Activate (Move Now)|A
+&Wait (Move Later)|W
+&Unload Transport|Shift+U
+Upgrade Unit|Ctrl+U
+Turn Over Unit Control|Ctrl+Shift+U
+Designate Defender|Ctrl+D
+S&entry/Board Transport|L
+Place Unit "On Alert"|Shift+L
+Hold 10 Turns|Shift+H
+&Hold This Position|H
+Skip Turn|Space
+
+#TERRAFORM
+&Terraform
+Farm+Solar+Road|Ctrl+Shift+S
+Farm+Mine+Road|Ctrl+Shift+M
+Construct Road To|Ctrl+R
+Construct Tube To|Ctrl+T
+Automatic Roads|Ctrl+Shift+R
+Automatic Tubes|Ctrl+Shift+T
+Automatic Sensors|Ctrl+Shift+O
+Automatic Fungus Removal|Ctrl+Shift+F
+Autoimprove Home Base|Ctrl+Shift+A
+Fully Automate Former|Shift+A
+
+#SCENARIO
+&Scenario
+Activate Scenario Editor|Ctrl+K
+Omniscient View|Y
+Create Unit...|Shift+F1
+Edit Unit...|Ctrl+Shift+F1
+Technological Breakthrough|Shift+F2
+Edit Technology...|Ctrl+F2
+Switch Sides/Set View...|Shift+F3
+Set Difficulty Level...|Ctrl+Shift+F3
+Set Energy Reserves...|Shift+F4
+Set Mission Year...|Shift+F5
+Eliminate Faction...|Shift+F6
+Reload Faction|Ctrl+Shift+F6
+Eliminate Units|Ctrl+F6
+View Replay...|Shift+F7
+View Movies...|Shift+F8
+Reset Technology|Ctrl+F8
+Reset All Factions|Ctrl+Shift+F8
+Edit Faction Diplomacy|Shift+F9
+Edit Faction Personality|Ctrl+F9
+Edit Faction Strategy|Ctrl+Shift+F9
+Edit Custom Rules|Shift+F10
+Edit Scenario Rules|Shift+F11
+Edit Scenario Parameters|Shift+F12
+Edit Scenario Victory|Ctrl+Shift+F12
+Undo|Alt+Backspace
+Redo
+Load Scenario|Ctrl+Shift+F7
+Save Scenario|Ctrl+F7
+
+#EDITOR
+&Edit Map
+Save Map|Ctrl+F5
+Load Map|Ctrl+Shift+F5
+Place Elevations|1
+Place Rocky Squares|2
+Place River Sources|3
+Place Special Resources|4
+Place Unity Pods|5
+Place Terrain Enhancements|6
+Cover/Uncover Map Squares
+Place Natural Landmark
+Remove Natural Landmark
+Place Minor Landmark Squares
+Place At Cursor|Ctrl+Left (+Shift paints)
+Remove At Cursor|Ctrl+Right (+Shift paints)
+Paint & Editor Only Mode|SCROLL LOCK
+Change Brush Size|7
+Toggle Round/Flat Map
+Set Climate And World Parameters|8
+(Slow) Generate Random Map|9
+(Fast) Generate Random Map|0
+Generate/Remove Fungus
+Randomize Rockiness
+Randomize Resources & Beacons
+Toggle Random Resources & Beacons
+Clear Map (All Ocean) and Set Size
+Apply Polar Caps
+Clear Bases and Units
+Clear Terrain Enhancements
+Toggle "Editor Only" Mode|Ctrl+Shift+F10
+
+#HELP
+&Help
+Index
+General Concepts
+Advanced Concepts
+Technologies
+Base Facilities
+Secret Projects
+Social Engineering
+Factions
+Basic Unit Types
+Chassis Types
+Weapon Types
+Defense Types
+Reactor Types
+Special Abilities
+Interface Tour
+Terraforming Tour
+Base Control Tour
+Social Engineering Tour
+Design Workshop Tour
+Drone Riot Details
+About Alpha Centauri|Ctrl+Shift+F4
+Show Version Number|Ctrl+F4
+
+# ; This line must remain at end of file
+

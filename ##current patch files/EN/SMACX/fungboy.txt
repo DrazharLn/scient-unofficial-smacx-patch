@@ -1,0 +1,138 @@
+;
+; Sid Meier’s ALPHA CENTAURI Expansion Disk
+;
+; FACTION FILE: The Cult of Planet
+;
+; Copyright © 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#FUNGBOY
+The Cult of Planet, The Voice, Planet Cult, M, 1, Cha Dawn, M, 1, 1, 0, 0, 1,
+  TECH, Ecology, TECH, Psych, WORMPOLICE, 0, SOCIAL, ++PLANET, SOCIAL, -INDUSTRY, SOCIAL, -ECONOMY, FREEFAC, 35, UNIT, 8
+  Economics, Green, PLANET
+  Values, Wealth, nil
+  Cultist, Cultist
+  Fatima, Samuels, Fatima Garden
+  Prophet, charismatic, worm-loving, unyielding, self-righteous,
+  Manipulative Demagogue
+  carry out the Will of Planet
+  to implement the Will of Planet
+  exterminating anything that walks on two legs
+  exterminating anything that walks on two legs
+  plot the eradication of all sapient life forms on Planet
+  feeding his opponents to hatchling Mind Worms
+  feeding your opponents to hatchling Mind Worms
+  torturing opponents in my loathsome Brood Pits
+  orange-eyed fanatics, M2
+  rapport with Planet, M1
+  ‘member indoctrination’, M1
+  offering, M1
+  shielding you from the wrath of Planet
+  my Dervish Cadre
+  The Commandments of Planet
+
+#BASES
+Dawn of Planet
+Worm’s Lair
+The Edicts
+Terror’s Delight
+Seers of Chiron
+Sword of Planet
+Wormfang Shrine
+Consecration Pit
+Planetvision Gate
+Trance of Purity
+Virgin Planet
+Chiron Stigmata
+Locust Haven
+Well of Souls
+Remain in Light
+Sporerunner Sanctum
+Childhood’s End
+Trial By Fire
+Dawn’s Chancel
+Concordat of Worms
+Misericordia
+The Hermitage
+Invictus
+#END
+
+#WATERBASES
+Deep Isle Shoals
+WaveTrance Dome
+Point Flensing
+Ninevah Rising
+Ark of the Edicts
+Dawn’s Reverie
+Sealurk City
+Sanctuary Dome
+#END
+
+#BLURB
+Mankind has been blind for thousands of years-for all of its history. We
+have come to a place whose wonders are a hundred-fold more amazing than
+anything on Earth. Around us is clear evidence of the will of a higher power.
+I bring the Vision to the blind eyes of men. I bring the Word to the deaf ears
+of men. I will make them see it. I will make them hear it.
+^
+^       —Prophet Cha Dawn
+^       “Planet Rising”
+
+
+#DATALINKS1
+^LEADER: {Cha Dawn}
+^BACKGROUND: {Born of uncertain parentage, found abandoned in the fungus by Ecological Malcontents}
+^AGENDA: {Return Planet to its pristine state}
+^TECH: {Centauri Ecology, Social Psych}
+^
+
+#DATALINKS2
+^+2 PLANET: {Devoted to promoting native growth}
+^-1 INDUSTRY: {Reluctant to pollute environment}
+^-1 ECON: {Disinterested in wealth and its trappings}
+^Free {Brood Pit} with discovery of {Centauri Genetics}
+^Mind Worms do double police duty: {Fear and reverence for native life}
+^{May not make Wealth choice in Social Engineering}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Planet finds this conflict most displeasing. Let us live in accordance with her
+will and pledge Blood Truce.”
+
+“Um … sure … whatever Planet says …”
+“Have you been sniffing spores again, $NAME3? Let’s see if Planet can save you now!”
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“Planet senses a kinship between our people. Let us forge a bond by signing a Treaty of
+Friendship!”
+
+“Planet is wise, $NAME3. So it has been spoken, so let it be done.”
+“Planet must have magma in its mantle, $NAME3. We’ll never join your spore-sniffing fanatics!”
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Planet finds this conflict most displeasing. Let us live in accordance with her
+will and pledge Blood Truce.”
+
+“Manifold Six: must be heeded! Agreement!”
+“Presumption: to speak to Manifold Six: human concept: heresy! Truce: no!”
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“Planet senses a kinship between our people, despite the differences of skin
+and gross shape. Let us forge a Planetary bond by signing a Treaty of
+Friendship!”
+
+“Kinship: deep respect: Manifold Six. Agreement.”
+“Will of Manifold Six: not so easily discerned. Treaty: none at this time.”
+
+# ; This line must remain at end of file

@@ -1,0 +1,247 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: TEMPLATE
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+;
+; Factions -- Names & personalities
+;
+; formal, desc, noun, masc/fem, sing/plural, name, gender, ai-fight, ai-power,
+; ai-tech, ai-wealth, ai-growth
+;    title, characteristic, adjective
+;    SPECIAL RULES, parameters, ...
+;    SOCIAL PRIORITY, setting, result
+;
+; formal      = Formal name of colony/group
+; desc        = Description of basic ideology
+; noun        = Plural noun
+; masc/fem    = Is faction's noun masculine or feminine
+; sing/plural = Is faction's noun singular (Labyrinth) or plural (Gaians)
+; name        = Name of default leader
+; gender      = M or F (gender of leader)
+; ai-fight    = -1,0,1 (willingness to use force to achieve goals)
+; ai-power    = 1 or 0 (interest in power)
+; ai-tech     = 1 or 0 (interest in knowledge)
+; ai-wealth   = 1 or 0 (interest in wealth)
+; ai-growth   = 1 or 0 (interest in population growth)
+;
+; title          = leader's title
+; characteristic = leader's descriptive adjective
+;
+; adjective      = adjectival form of faction name (e.g. Gaian)
+;                  TRANSLATOR NOTE: for FRENCH versions, this should
+;                  give all four forms (ms:fs:mp:fp):
+;                  Gaian:Gaiane:Gaians:Gaianes (or whatever it would be)
+;                  for GERMAN it should have all six forms.
+;
+; SPECIAL RULES = rule, parameter
+;
+;   TECH        = Free technology at start. Parameter
+;                 is either a tech id (e.g. "Cen") to
+;                 indicate a specific technology, or a
+;                 number (e.g. 2) to indicate a number
+;                 of player-selected technologies.
+;   MORALE      = Morale modifier (if 0, indicates an
+;                 exemption from negative modifiers from
+;                 other sources).
+;   PSI         = Percentage combat bonus for PSI Combat.
+;   FACILITY    = Every new base gets this free facility.
+;                 Param indicates facility (e.g. "4" is
+;                 a Perimeter Defense) from the facilities
+;                 list. Do NOT attempt to give satellites
+;                 and secret projects this way.
+;   RESEARCH    = Free research points per base per turn.
+;   DRONE       = Extra drone at base (per "param"
+;                 citizens, rounded down)
+;   TALENT      = Extra talent at base (per "param"
+;                 citizens, rounded up)
+;   ENERGY      = Free energy reserves at start
+;   INTEREST    = Energy reserves interest.
+;                 Non-zero = constant percentage per turn (including negative)
+;                 Zero     = +1/base each turn
+;   COMMERCE    = Increased commerce rate
+;   POPULATION  = # to be added to population limit of
+;                 each base for purposes of Habitation
+;                 domes, etc.
+;   HURRY       = Percentage change in costs of "Hurry"
+;                 button on construction (e.g. 125 means
+;                 125% of normal cost, so 100 costs 125).
+;   UNIT        = Extra free unit at start; param is
+;                 index from units list (e.g. 0 equals
+;                 Colonists, 1 Terraformers, 2 Scout
+;                 Crawler)
+;   TECHCOST    = Modifier % for tech research rate.
+;                 (e.g. 125 means each discovery costs
+;                 125% the usual number of research
+;                 points).
+;   SHARETECH   = Gain any technology known to # other players
+;   TERRAFORM   = Halves terraform raise/lower cost
+;   SOCIAL      = Gives a modifier in the named social effect category
+;                 ("SOCIAL, +EFFIC" raises the EFFIC rating by 1;
+;                  "SOCIAL, --POLICE" lowers POLICE rating by 2);
+;   ROBUST      = Halves the intensity of minus effects in the named
+;                 social area ("ROBUST, EFFIC" halves minus efficiency
+;                 effects in social model).
+;   IMMUNITY    = Immunity from minus effects in the named social
+;                 area. ("IMMUNITY, ENERGY" prevents minus energy
+;                 effects in social model).
+;   IMPUNITY    = Impunity :-) from minus effects from a particular
+;                 social setting. "IMPUNITY, Police State" prevents
+;                 all - effects from "Police State" setting.
+;   PENALTY     = Opposite of impunity: doubles the negative effects
+;                 of a particular setting.
+;   FUNGNUTRIENT= Modifier to NUTRIENT produced in fungus squares
+;   FUNGMINERALS= Modifier to MINERALS produced in fungus squares
+;   FUNGENERGY  = Modifier to ENERGY produced in fungus squares
+;   COMMFREQ    = Gets an extra comm frequency (another faction to
+;                 talk to) at beginning of game. (Parameter is ignored)
+;   MINDCONTROL = Vehicles and bases immune to mind control
+;   FANATIC     = +25% bonus on attack
+;   VOTES       = Multiplier for governor votes
+;   FREEPROTO   = Prototype cost reduced to zero for this faction
+;
+; SOCIAL PRIORITY:
+;   Drawn from the political table above (see #SOCIO), these entries
+;   must exactly match the SOCIO entries in spelling. These determine
+;   the leader's social priorities.
+;
+
+##
+##SAMPLE SENTENCES FOR TRANSLATORS
+##
+##  [Together we shall both] preserve Planet's native life [and ...]
+##  [My intent is] to guard, understand, and preserve Planet's native life
+##  [She is bent on] stamping out all legitimate human development of this planet
+##  [You seem bent on] stamping out all legitimate human development of this planet
+##  [I shall not stand here while you] cripple any and all efforts toward human progress on this world
+##  [She spends her time] dancing naked through the trees
+##  [You spend your time] dancing naked through the trees
+##  [I have been accused of] spouting tree-crazy prattle
+##  [Your] tree-crazy prattle [does not impress me]
+##  [Think how this could benefit your] environmental initiatives
+##  [I trust your] pagan rituals [are proceeding to your satisfaction]
+##  [It is customary to remit me a small] ecology tax [...]
+##  [...for the services my forces provide in] preserving and cataloguing Planet's native life
+##  [I shall instruct] my Environmental Police [to see that no such...]
+##  [You are in contravention of] the Planetary Ecology Code
+##
+##  END OF SAMPLE SENTENCES FOR TRANSLATORS
+##
+
+
+#GAIANS
+Les filles de Gaïa, Les Verts, Gaïens, F, 2, Deirdre, F, -1, 0, 0, 0, 1,
+  TECH, Ecology, SOCIAL, -MORALE, SOCIAL, -POLICE, SOCIAL, ++EFFIC, SOCIAL, +PLANET, FUNGNUTRIENT, 1
+  Economie, Vert, PLANETE
+  nil, nil, nil
+  Faction Gaïenne
+  Lindly, Scott, Le Repos de Lindly
+  Lady, belle, dingue des arbres, sensible à l'écologie, écolo,
+  Folle de nature
+  protéger toute forme de vie sur la Planète
+  défendre, comprendre et protéger toute forme de vie sur la Planète
+  jugulant tout développement sensible légitime sur cette planète
+  jugulant tout développement sensible légitime sur cette planète
+  enrayer tout effort du progrès humain sur ce monde
+  dansant nu:nue:nus:nues au milieu des arbres
+  dansant nu:nue:nus:nues au milieu des arbres
+  papotant sur les arbres
+  bavardage insensé sur les arbres, M1
+  initiatives en matière d'environnement, F2
+  rites païens, M2
+  impôt écologique, M1
+  protéger et cataloguer toute forme de vie sur la Planète
+  ma police écologique
+  le Code écologique planétaire
+
+#BASES
+Domaine de Gaia, M1
+Jardin surélevé de Gaia, M1
+Forêt primitive, F1
+Enfants de la Terre, M2
+Vallon des vents, M1
+Col du ver télépathe, M1
+Palais des racines, M1
+Portes de la serre, F2
+Forêt du bec crochu, F1
+Dernière rose d'été, F1
+Automne heureux, M1
+Rêves de verdure, M2
+Pins, M2
+Pointe des pâturages, F1
+Chant de Planète, M1
+Brillante Nessus, F1
+Parc de l'oiseau, M1
+Ere de jachère, F1
+Bocage d'automne, M1
+Prêche des fleurs, M1
+Chêne resplendissant, M1
+Muguet, M1
+Sol vierge, M1
+Jardin du Paradis, M1
+Vigne épineuse, F1
+Réserve de Chiron, F1
+Mémoire de Terre, F1
+#END
+
+#WATERBASES
+Jardin des profondeurs, M1
+Pêche de Deirdre, F1
+Jardin aquatique, M1
+Fleur d'océan, F1
+Cascade, F1
+Grand lagon, M1
+Berceau marin, M1
+Jardin des poissons, M1
+#END
+
+#BLURB
+Sur les terres du Domaine de Gaia, nous avons une magnifique pinède blanche,
+plantée à l'époque des premières colonies. Elle représente notre promesse faite
+au peuple et à la Planète elle-même, de ne plus répéter la tragédie de la Terre.
+^
+^        -- Lady Deirdre Skye,
+^           "Rêves de Planète"
+
+#DATALINKS1
+^DIRIGEANT : {Deirdre Skye}
+^CURRICULUM : {Ecosse libre, Unité Xénobiologiste}
+^ORDRE DU JOUR : {Démocratie écologique}
+^TECH : {Ecologie centaurienne}
+^
+
+#DATALINKS2
+^+1 PLANETE : {Mesures écologiques préventives ; peut capturer les vers télépathes}
+^+2 EFFICACITÉ : {Expérimentation de systèmes de vie et du recyclage}
+^-1 MORAL : {Tendances pacifistes}
+^-1 POLICE : {Amour de la liberté}
+^+1 Nutriment dans les cases de fongus
+^{Ne peut pas utiliser l'économie de marché.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Cette destruction insensée va sûrement provoquer des dégâts irréparables
+sur l'écosystème de la Planète. Je vous supplie d'oublier nos différences
+et de conclure une Trêve de sang"
+
+"Bien dit. Cette violence doit prendre fin."
+"Ah ! Vos rochers et vos plantes ne pourront vous sauver, maintenant, $NAME3 !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"J'ai le sentiment que vous êtes un ami de Planète, $TITLE0 $NAME1. Je vous
+suggère de signer un Traité d'amitié, pour que nos peuples puissent vivre
+côte à côte dans la paix".
+
+"D'accord. signons un accord avec Planète, $NAME3."
+"Non. Cette idée d'ami de Planète me donne des angoisses".
+
+
+# ; This line must remain at end of file
+
+
+

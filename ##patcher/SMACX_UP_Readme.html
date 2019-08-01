@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+  <style type="text/css">
+/*<![CDATA[*/
+    <!-- 
+    
+
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #306730;
+        border-top: 5px solid #306730;
+        border-bottom: 5px solid #306730;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #306730;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #306730;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+
+      h2::first-letter {
+        color: #306730;
+        background-color: transparent;
+      }
+
+      #maindiv p {
+        font-size: 100%;
+        font-style: normal;
+        line-height: 150%;
+        padding: 0px;
+        margin: 10px auto;
+        width: 90%;
+        display: block;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #306730;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+        margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+        list-style-type: square;
+        line-height: 150%;
+      }
+
+      #maindiv ol li {
+        line-height: 150%;
+      }
+
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        font-style: italic;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+
+      a:link,
+      a:visited {
+        color: #306730;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+  </style>
+
+  <title>Sid Meier&#39;s Alpha Centauri &amp; Alien Crossfire Unofficial Patch</title>
+</head>
+
+<body>
+  <a name="top" id="top"></a>
+
+  <div id="wrap">
+    <div id="header">
+      <h1>Sid Meier&#39;s Alpha Centauri &amp; Alien Crossfire Unofficial Patch</h1>
+
+      <p class="about">Author: scient (Brendan Casey)<br />
+      Version: 2.00</p><br />
+
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" /><input type="hidden" name="encrypted" value=
+        "-----BEGIN PKCS7-----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-----END PKCS7----- " /><input type="image"
+        src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt=
+        "PayPal - The safer, easier way to pay online!" /><img alt="" border="0" src=
+        "https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+      <hr />
+
+      <p class="menu"><a href="#intro">Introduction</a> � <a href="#installation">Installation</a> � <a href="#efixes">Engine
+      Fixes</a> � <a href="#nfixes">Non-Engine Fixes</a> � <a href="#credits">Credits</a> � <a href="#version">Version
+      History</a></p>
+    </div>
+
+    <div id="maindiv">
+      <!-- ================== I n t r o d u c t i o n ================== -->
+      <a name="intro" id="intro"></a>
+
+      <div class="content">
+        <h2>Introduction</h2>
+
+        <p>This is a comprehensive set of fixes to bugs, crashes, and exploits found in Sid Meier&#39;s Alpha Centauri (SMAC) and
+        Alien Crossfire (SMACX). The primary goal of this project is to fix bugs left after the official patches. A secondary
+        objective is to expand upon the games features without modifying the existing mechanics to allow for more freedom.</p>
+
+        <p>Feel free to host the installer somewhere else besides <a href=
+        "http://alphacentauri2.info/index.php?action=downloads">AC2</a>, <a href=
+        "http://www.civgaming.net/forums/forumdisplay.php?f=15">CGN</a>, <a href=
+        "http://www.weplayciv.com/forums/downloads.php?do=cat&amp;id=1">WPC</a> or <a href=
+        "http://apolyton.net/local_links.php?catid=399">Apoly</a> as long as the contents of package aren&#39;t altered in any way
+        and the readme is included.</p>
+
+        <p>I am busy with multiple commitments so updates come whenever I have time. One of those commitments is my work on another
+        unofficial patch project for the classic isometric RPG <a href="http://spellholdstudios.net/ie/pst-fixpack">Planescape:
+        Torment</a>. However, this project has mostly concluded.</p>
+
+        <p>I have no problem with other modders building off of my work as long as credit is given. If you&#39;re interested in
+        helping out in any capacity please contact me. I would like to add fixed versions of the localized text files to the
+        installer, so if you&#39;re interested in working with me to update the French, German or some other language let me
+        know!</p>
+
+        <p>I encourage you to report any bugs, crashes, exploits or just ideas on either <a href=
+        "http://alphacentauri2.info/index.php">AC2</a> or <a href="http://www.civgaming.net/forums/forumdisplay.php?f=15">CGN</a>
+        forums which are the two primary homes of this project. You can also contact me on <a href=
+        "http://www.weplayciv.com/forums/forumdisplay.php?f=7">WPC</a>, <a href=
+        "http://apolyton.net/forums/forumdisplay.php?f=23">Apolyton</a>, <a href=
+        "http://forums.civfanatics.com/forumdisplay.php?f=27">CFC</a> or <a href=
+        "http://www.shsforums.net/index.php?showforum=551">SHS</a> forums as well.</p>
+
+        <p>While my work on this project will go on regardless, if you enjoyed this patch please donate a few dollars via PayPal
+        link at the top.</p>
+
+        <address>
+          <span class="footer">Unofficial SMAC/SMACX Patch &gt; Introduction</span> &#8226;<a href="#top">BACK TO TOP</a>
+        </address>
+      </div><!-- ================== I n s t a l l a t i o n ================== -->
+      <a name="installation" id="installation"></a>
+
+      <div class="content">
+        <h2>Installation</h2><br />
+
+        <ul>
+          <li><b>Install the game (original individual CD&#39;s, Planetary Pack, SOS, GOG).</b></li>
+
+          <li><b>Next install the unofficial patch.</b></li>
+
+          <li><b>Done!</b></li>
+        </ul><br />
+
+        <p><b>Notes regarding the installer:</b></p>
+
+        <ul>
+          <li>While always applying the SMAC base files, the SMACX specific files will only be applied if SMACX has been
+          installed.</li>
+
+          <li>All of the official patches have been rolled into the installer. So once applied, you are getting the same effect as
+          if you installed the SMAC 2000/XP Compatibility Update and if applicable SMACX v2.0 patch.</li>
+
+          <li>Any files touched by the installer will be backed up to a new folder inside SMAC/X directory. Also, an uninstaller is
+          created that will allow you to roll back any changes made.</li>
+
+          <li>The installer can be applied to multiple SMAC/X installs on the same system without any conflicts. There are no
+          issues with applying the installer to a portable install. However, there are a few minor fixes related to the registry
+          and system font that will only be in effect on a system where the installer was run.</li>
+        </ul><br />
+
+        <address>
+          <span class="footer">Unofficial SMAC/SMACX Patch &gt; Installation</span> &#8226;<a href="#top">BACK TO TOP</a>
+        </address>
+      </div><!-- ================== DOCUMENTED ENGINE FIXES ================== -->
+      <a name="efixes" id="efixes"></a>
+
+      <div class="content">
+        <h2>Engine Fixes</h2><br />
+
+        <p>Version 1.0:</p><br />
+
+        <ol>
+          <li><strong>[CRASH][SMACX]</strong> As either the Caretakers or the Usurpers, opening up the Design Workshop and then
+          switching back and forth between a &quot;Colony Pod&quot; and other &quot;Equipment&quot; can cause the text in the
+          &quot;Special Ability&quot; panel to become corrupted and crash the game upon exiting the Design Workshop. Fixed by
+          increasing the memory allocation used to manipulate the caviar animation files (cvr) and possibly other buffer related
+          problems. (credit to WBird784 for original fix)</li>
+
+          <li><strong>[CRASH]</strong> Scrambling air interceptors could cause the game to crash usually on larger maps. Even when
+          the game didn&#39;t crash, it would use incorrect altitude values.</li>
+
+          <li><strong>[CRASH]</strong> While moving units around near or at the poles, it is possible for the y coordinate to
+          exceed the map bounds and crash the game. Add handling to prevent the y coordinate from ever going over the World Maps
+          minimum or maximum values.</li>
+
+          <li>
+            <strong>[CRASH][MISC]</strong> Optimized out a number of legacy CPU checks that serve no purpose unless you&#39;re
+            using an extremely old computer. In some cases, these checks actually prevented the game from starting on newer
+            CPU&#39;s causing the game to crash. After removing these old checks, enabling ForceOldVoxelAlgorithm is no longer
+            necessary. Disabling it may improve performance since setting ForceOldVoxelAlgorithm to 0 enables SMAC/SMACX to use
+            your CPU&#39;s <a href="http://en.wikipedia.org/wiki/MMX_(instruction_set)">MMX capabilities</a> for the <a href=
+            "http://en.wikipedia.org/wiki/Voxel">voxel algorithm</a>.
+          </li>
+
+          <li><strong>[BUG][SMACX]</strong> The transport unit&#39;s special ability &quot;Repair Bay&quot; is rendered useless due
+          to an incorrect check that would only give the healing bonus to ground transports inside a transport. Now, it will give
+          the bonus to all ground units except ground transports.</li>
+
+          <li><strong>[BUG][SMACX]</strong> Enhanced probes are now able to mind control bases or units normally immune due to high
+          SE morale as stated in SMACX manual. For units it&#39;s purely the morale SE value so &gt;=3 acts as if it were 2 (cost
+          doubled). For bases, the value is calculated from morale SE and any base facility modifiers (Covert Ops: +2, Genejack:
+          -1). If final value is &gt;=3, it acts as if it were 2.</li>
+
+          <li><strong>[BUG][SMACX]</strong> While loading the ambient sound file for game, there is a mistake in faction id check
+          for Believers causing it to use SMACX default of &quot;aset1.amb&quot; rather than their correct ambient sound file
+          &quot;bset1.amb&quot;.</li>
+
+          <li><strong>[BUG][SMACX]</strong> Enhanced probes don&#39;t receive a penalty to survival probability when target faction
+          has built Hunter-Seeker Algorithm. Instead, the success probability is erroneously given the penalty for a second time
+          after it has already been displayed in UI. This could cause diminished success rate when it should have been higher. Fix
+          corrects check so survival rather than success probability is modified.</li>
+
+          <li><strong>[BUG][SMACX]</strong> Sealurk units will now not get a movement penalty when moving through Sea Fungus the
+          same as &quot;Isle of the Deep&quot;.</li>
+
+          <li><strong>[BUG]</strong> If a faction&#39;s cumulative PROBE value is greater than three (SE morale, covert ops center)
+          it is possible to &quot;mind control&quot; their bases when they should be immune. If the University uses SE Knowledge
+          putting PROBE value down to -4, it would act as if it were 0 erroneously increasing &quot;mind control&quot; costs. After
+          patch, PROBE values greater than 3 will always be immune to regular probes and values less than -2 will be treated as if
+          they were -2.</li>
+
+          <li><strong>[BUG]</strong> Fixed a check that was ending the turn for certain air units (choppers/missiles/grav) when
+          entering a base that had no adjacent enemy units. The unit&#39;s turn will now only end if when entering a base it has
+          less then one turn remaining with no enemy units adjacent to the base.</li>
+
+          <li><strong>[BUG]</strong> Using &quot;Go to home base&quot; command (shift-g) sends the unit to closest base rather than
+          it&#39;s actual home. Fixed so now the game retrieves the unit&#39;s home base and sets a &quot;go to&quot; waypoint
+          similar to how a unit is recalled from within the base UI. If a home base cannot be found say if the unit is independent
+          then the unit will go to the nearest base.</li>
+
+          <li><strong>[BUG][EXPLOIT]</strong> Setting more than one patrol waypoint for a unit with the spacebar causes the
+          coordinate values to be stored incorrectly. If only two waypoints are set then it is just a display issue showing an
+          incorrect amount of waypoints when the unit is clicked. However, if three waypoints are set, it causes the unit&#39;s
+          morale to be set as one of coordinates usually boosting it to elite or demon boil status. Also, when three waypoints are
+          set the final waypoint would get set to some far off random location usually (0,0).</li>
+
+          <li><strong>[EXPLOIT]</strong> Using the right click menu to airdrop a unit moves the unit instantly and bypasses all of
+          the required condition checks such as if unit has already moved or in a base or an airbase. Fixed so airdropping via
+          right click now goes through same condition checks as if you used the hotkey &quot;I&quot;.</li>
+
+          <li><strong>[EXPLOIT]</strong> Inside the base UI, after opening up the production queue window it is possible to then
+          open the hurry command window, switch between bases and complete projects for less then their actual value. An issue with
+          the queue panel is now fixed preventing certain parts of UI from becoming clickable when they shouldn&#39;t.</li>
+
+          <li><strong>[EXPLOIT]</strong> When clicking on an unexplored square, the map should recenter on that square. However, if
+          the square contains a base the map doesn&#39;t recenter giving away hidden bases. Fixed so when an unexplored square with
+          a base is clicked, the game will recenter like any other square.</li>
+
+          <li><strong>[EXPLOIT]</strong> It is possible to change another faction&#39;s workers via &quot;Base Ops&quot; (F4) if
+          you have that faction infiltrated. It is now fixed so clicking the citizens of another faction in &quot;Base Ops&quot;
+          has no effect similar to garrisoned units.</li>
+
+          <li><strong>[EXPLOIT]</strong> It is possible to give the airdrop or artillery ability to a unit who didn&#39;t already
+          have it. This is done by using hotkey (I or F) on a unit that has the ability then switching to a different unit in
+          bottom center window. The mouse cursor would still have the airdrop or artillery action ready to go and it is then
+          possible to use it with the new unit bypassing any checks whether this unit can use the ability. Fixed by resetting the
+          cursor when clicking the unit selection window.</li>
+
+          <li><strong>[MOD]</strong> Squares with both a Borehole and nutrient bonus don&#39;t receive the nutrient bonus. If the
+          &quot;Borehole Square&quot; nutrient value defined in alpha/x.txt under #RESOURCEINFO is set to non-zero, a square with a
+          Borehole will erroneously act as if it has a nutrient bonus. The check whether or not to give a &quot;Borehole
+          Square&quot; a nutrient bonus is now fixed from checking if borehole nutrient value is non-zero to checking if nutrient
+          bonus is actually present in the square.</li>
+
+          <li><strong>[MOD]</strong> Fixed a check to use the &quot;Max artillery range&quot; value defined under #RULES rather
+          than a hardcoded value of 2. It is already set to 2 by default in alpha/x.txt.</li>
+
+          <li><s><strong>[MOD]</strong> Increase maximum number of all units on a map from 2048 to over 2 billion (2147483647).
+          Also, increase value when native life stops spawning due to number of units on map from 1792 to 2147483391 (same
+          difference of 256 between original values).</s> <b>NOTE:</b> Removed as of v2.00 due to problems with fix.</li>
+
+          <li><strong>[UI]</strong> Removed a check when displaying probe success and survival probabilities that would drop the
+          display of one if they&#39;re both the same. For example, (50%, 50%) would just be (50%). This change makes the interface
+          a little less confusing.</li>
+        </ol><br />
+
+        <p>Version 2.0:</p><br />
+
+        <ol>
+          <li><strong>[BUG][MISC]</strong> On launch of the game, fixed a registry check that could cause an error message to be
+          incorrectly displayed regarding a &quot;Complete Install&quot; not being performed. This was due to permission issues
+          relating to UAC (Vista, Win7, Win8).</li>
+
+          <li><strong>[BUG][EXPLOIT]</strong> Units without the &quot;Amphibious Pods&quot; ability can no longer move to a land
+          square from a ocean base without there being a transport in either the land square or the ocean base. The previous buggy
+          behavior would allow the unit in the ocean base to move to the land square as long as there was any existing unit in that
+          square.</li>
+
+          <li><strong>[BUG][SMACX]</strong> Prevent the Caretakers from being given the oppertunity to build the Secret
+          Project &quot;Ascent to Transcendence&quot; which goes against their philosophy. If completed, they would declare war on
+          themselves and get a Transcendence victory.</li>
+
+          <li><strong>[BUG][MOD]</strong> You can now evict probes from squares that have more than one probe or other units in the
+          stack as long as the probe is the top most unit. When evicting, only the top most probe is sent back to its own
+          faction&#39;s territory.</li>
+
+          <li><strong>[BUG][SMACX]</strong> After the AI successfully completes the probe action of freeing a captured faction
+          leader, it would instead reset a non-captured faction. The problem was that AI would always try to free the first
+          faction, usually being the PC, regardless of whether this faction was eliminated or not. Now it will obtain all the
+          potential captured faction leaders and free one randomly.</li>
+
+          <li><strong>[BUG][MOD][SMACX]</strong> Add references for the use of a new file &quot;movlistx.txt&quot; to allow for
+          expansion specific information text to be displayed after a Secret Project movie has been played.</li>
+
+          <li><strong>[MOD]</strong> The &quot;Nessus Canyon&quot; landmark is now placed when generating random maps.</li>
+
+          <li><strong>[BUG]</strong> The &quot;attacking along road&quot; combat bonus is now correctly applied for combat taking
+          place on roads or magtubes. It is set to 0 by default in alpha/x.txt.</li>
+
+          <li><strong>[MOD]</strong> There are a number of unused pcx image files in relation to the random script event near a
+          base of whether new resources are discovered or existing ones are depleted. The game will now display one of twelve
+          images depending on the square (land, ocean) and resource type (minerals, energy, nutrients) instead of showing a general
+          warning image for every event.</li>
+
+          <li><strong>[MOD]</strong> As part of the Datalinks, add the ability to set individual entries for armor and reactors
+          (help/x.txt) as well as enable the display of the &quot;Sea Formers&quot; unit.</li>
+
+          <li><strong>[BUG]</strong> Fixed a bug where a &quot;Planet Buster&quot; (PB) could detonate after being initially shot
+          down. Each faction has one chance to defend against an incoming PB if they have bases or units in the blast radius.
+          However, there is a check to give the owner of the ground zero square a chance to defend against the PB even if they have
+          no units or bases in this territory. This check didn&#39;t take into account whether or not the PB had already been shot
+          down by another faction.</li>
+
+          <li><strong>[BUG][SMACX]</strong> When another faction detonates a &quot;Fungal Missile&quot; near one of your bases,
+          sometimes a script message would use an incorrect faction name as part of the text.</li>
+
+          <li><strong>[BUG][MOD][SMACX]</strong> When detonated in or near ocean squares, &quot;Fungal Missiles&quot; could spawn
+          &quot;Mind Worms&quot; or a &quot;Fungal Tower&quot; in those ocean squares that would then die instantly after the end
+          of turn. Now, a native sea unit will spawn in their place like an &quot;Isle of the Deep&quot; or a
+          &quot;Sealurk&quot;.</li>
+
+          <li><strong>[BUG]</strong> Fixed an erroneous message that the use of nerve gas caused massive casualties at a base even
+          when the attack failed.</li>
+
+          <li><strong>[MOD]</strong> Added the ability to set the reactor type (1-4) for #UNITS inside the alpha/x.txt. To do so,
+          just add a comma after the Abil field with the value of the reactor you want for the unit. As an example, &quot;Colony
+          Pod,..., 00000000000000000000000000,4&quot; will give all &quot;Colony Pods&quot; a Singularity Engine. If no value is
+          set, it defaults to &quot;1&quot; like original code. For SMACX only, there are two exceptions for &quot;Battle Ogre
+          MK2&quot; and &quot;Battle Ogre MK3&quot; where default isn&#39;t &quot;1&quot; but &quot;2&quot; and &quot;3&quot;
+          respectively. You can still override the Ogres default.</li>
+
+          <li><strong>[BUG]</strong> &quot;Colony Pods&quot; or &quot;Sea Colony Pods&quot; can now be added to existing bases
+          where fungus has spread to the base&#39;s square. Also, ignore restrictions regarding land or ocean squares when adding
+          pods to existing bases.</li>
+
+          <li><strong>[BUG]</strong> Due to an incorrect check, a message would fail to display telling you that a transport with
+          no units has nothing to disembark when moved into a non-base land square.</li>
+
+          <li><strong><s>[BUG]</s></strong> <s>Changing start date for Perihelion event to be 2160 from 2190. This is to be
+          consistent with info about Planet and cycle from readme regarding 80 year cycles (20 years near, 60 years far).</s></li>
+
+          <li><strong>[CRASH]</strong> Under extremely rare circumstances, the game would crash when an AI faction with no bases
+          attempted to upgrade a unit.</li>
+
+          <li><strong>[BUG]</strong> Abandoning a base after building a &quot;Colony Pod&quot; no longer skips the base production
+          of the next base in line. This was caused by the upkeep function using incorrect base values after the abandoned base was
+          destroyed.</li>
+
+          <li><strong>[BUG]</strong> Non-amphibious units can now move from a transport into Pact sea base since movement to and
+          from Pact bases should be identical to your own.</li>
+
+          <li><strong>[BUG][SMACX]</strong> Interludes #6 and #7 would display incorrect string values specific to either the
+          Caretakers or Usurpers for non-Progenitor factions.</li>
+
+          <li><strong>[BUG]</strong> Interlude #6 would sometimes be triggered by native life forms causing issues with the display
+          strings and not making sense. This interlude (and its follow up #7) are designed only for actual rival factions.</li>
+
+          <li><strong>[BUG]</strong> Fixed the rendering of the menu when using the scenario editor to change the faction id of the
+          former owner of a base.</li>
+
+          <li><strong>[BUG]</strong> Fixed the CC/BP combat bonus bug.</li>
+
+          <li><strong>[BUG][EXPLOIT]</strong> Fixed the AI base trading exploit. (credit to kryub)</li>
+
+          <li><strong>[EXPLOIT]</strong> Fixed the energy stockpile exploit. (credit to kyrub)</li>
+		  
+		  <li><strong>[BUG]</strong> Fixed the parsing of the "Retool strictness" value in alpha/x.txt so "Never Free" works correctly.  This would only apply if you wanted to give a retooling penalty when switching to "Secret Projects".
+		  
+		  <li><strong>[BUG][MOD]</strong> Factions with the FREEPROTO flag (Spartans) will gain free retooling in their bases as long as the production switch is within the same category (unit to unit, base facility to base facility) and they've discovered the necessary tech (&quot;Advanced Subatomic Theory&quot;).  This is to resolve the issue with FREEPROTO factions never being able to gain the undocumented retooling ability of &quot;Skunkworks&quot; when it is fairly clear that they should.</li>
+		  
+		  <li><strong>[EXPLOIT]</strong> Using the right click "Save current list to template" and "Load template into list" features of base queue can be used to bypass retooling completely.  Fixed so these queue template features only save and load the actual queue and not affect the item currently in production.</li>
+		  
+		  <li><strong>[BUG]</strong> When drilling an aquifer, there isn't a check whether a river already exists in the initial square.  Now, it checks the the initial square as well as the eight square around it.
+		  
+		  <li><strong>[BUG]</strong> Fixed an issue where diplomacy dialog could be incorrectly displayed due to faction id value being set incorrectly.  This best exhibited where Progenitors switch into "Human" dialog syntax.
+		  
+		  
+        </ol>
+
+        <address>
+          <span class="footer">Unofficial SMAC/SMACX Patch &gt; Engine Fixes</span> &#8226;<a href="#top">BACK TO TOP</a>
+        </address>
+      </div><!-- ================== DOCUMENTED NON-ENGINE FIXES ================== -->
+      <a name="nfixes" id="nfixes"></a>
+
+      <div class="content">
+        <h2>Non-Engine Fixes</h2><br />
+
+        <ol>
+          <li>
+            <strong>[BUG][MOD]</strong> Overhaul of all text files correcting spelling, grammar and various formatting issues by
+            Guv&#39;ner. See his projects readme for more details since the changes are too numerous to be mentioned beyond the
+            highlighted bug fixes below. Also, as part of this an update fork of GooglyBoogly&#39;s Datalinks v1.3 is included for
+            SMACX.
+
+            <ul><p>
+              <li><strong>[BUG]</strong> Enabled the &quot;Antigrav Struts&quot; special ability for air units as stated in the manual.
+              (alpha/x.txt)</li>
+
+              <li><strong>[BUG]</strong> Disabled the &quot;Clean Reactor&quot; special ability for Probe Teams because they already don&#39;t
+              require any support. (alpha/x.txt)</li>
+			  
+			  <li><strong>[BUG]</strong> Amended base seizure notifications that would display incorrect plurality for the faction losing the base. (scripts.txt)</li>
+			  
+            </p></ul>
+          </li>
+
+          <li><strong>[BUG]</strong> Needlejet &quot;DATA&quot; edit window via scenario editor wouldn&#39;t render properly making
+          it so you couldn&#39;t edit the stats. (scripts.txt)</li>
+
+          <li><strong>[BUG]</strong> When attempting to build a sea base inside another faction&#39;s territorial waters, you were
+          suppose to receive warning messages that were mislabeled. (scripts.txt)</li>
+
+          <li><strong>[BUG]</strong> Added a new entry that was missing when you attempted to use &quot;B&quot; or &quot;b&quot;
+          shortcuts with a non-combat unit that didn&#39;t have a "Colony Pod". (scripts.txt)</li>
+		  
+		  <li><strong>[BUG]</strong> Added new entries that were missing in conjunction with an engine fix for when "retool strictness" in alpha/x.txt is set to "never free". (scripts.txt)</li>
+
+          <li><strong>[BUG][SMACX]</strong> When attempting to terraform an ocean square other than shelf, aquatic factions
+          (Nautilus Pirates) were suppose to receive a warning message that was mislabeled. (scripts.txt)</li>
+
+          <li><strong>[BUG]</strong> Fixed the display of the base facility quotes inside the Datalinks caused by incorrect ids.
+          Added the missing quotes for SMACX specific facilities transcribed from their audio clips. (blurbs/x.txt)</li>
+
+          <li><strong>[BUG][SMACX]</strong> Fixed the display of an image used for Fungal payloads script events by renaming
+          fungalpayld_sm.pcx.</li>
+
+          <li><strong>[BUG][SMACX]</strong> Fixed the display of an image used for script events when Progenitor factions capture a
+          human base by renaming humref_sm.pcx.</li>
+
+          <li><strong>[BUG][SMACX]</strong> Fixed the display of an image used for Spore Launcher script events by renaming
+          sporelnch_sm.pcx.</li>
+
+          <li><strong>[BUG][INSTALLER]</strong> Create a registry entry that is usually missing to suppress the
+          &quot;CDNOTFOUND&quot; warning message on launch.</li>
+
+          <li><strong>[BUG][INSTALLER]</strong> Register the SMAC &quot;Alpha Centauri&quot; font with Windows so the game credits
+          are displayed correctly.</li>
+
+          <li><strong>[MOD]</strong> Add new versions of Arial font to SMAC directory that will be more compatible with more recent
+          monitors. If you notice graphical issues with the in game text, revert back to original font found inside backup
+          directory.</li>
+
+          <li><strong>[BUG]</strong> Add netcr_sm.pcx that was missing for a script event when a Network Node crashes. The image
+          was taken from the Planetary Pack&#39;s Alternative Art folder with scan lines added by BU.</li>
+
+          <li><strong>[BUG]</strong> Add rdminldp_sm.pcx that was missing for a script event regarding minerals being depleted in
+          conjunction with an engine fix. The image was taken from the Planetary Pack&#39;s Alternative Art folder with scan lines
+          added by BU.</li>
+
+          <li><strong>[BUG]</strong> Fixed an audio clip for when Network Node is already linked from repeating itself by adding
+          fractional amount of silence to end of clip.</li>
+
+          <li><strong>[BUG]</strong> Fixed an audio clip not playing when Missile Launcher weapons are used by remixing from stereo
+          to mono (edited by chuft).</li>
+
+          <li><strong>[BUG]</strong> Fixed an audio clip not playing when Singularity Laser weapons are used by remixing from
+          stereo to mono (edited by chuft).</li>
+        </ol>
+
+        <address>
+          <span class="footer">Unofficial SMAC/SMACX Patch &gt; Non-Engine Fixes</span> &#8226;<a href="#top">BACK TO TOP</a>
+        </address>
+      </div><!-- ================== C r e d i t s ================== -->
+      <a name="credits" id="credits"></a>
+
+      <div class="content">
+        <h2>Credits</h2>
+
+        <p>So far beyond a few, all of the patches to the exe are done by myself. Thanks goes out to WBird784 for his crash fix and
+        kyrub for his two fixes. A special thanks goes out to Guv&#39;ner for his overhaul of all the text files. I&#39;d like to
+        thank a few people for their work behind the scenes. First off, a big thank you should go out to vyeh for the work he&#39;s
+        done in overseeing the administrative aspects of project. He has definitely helped motivate me by keeping in contact and
+        setting up community at <a href="http://www.civgaming.net/forums/forumdisplay.php?f=15" target="_blank">CGN</a> for this
+        project. Another big thank you goes to buster (the owner of <a href="http://www.civgaming.net/forums/forumdisplay.php?f=15"
+        target="_blank">CGN</a>) for providing dedicated forums for project and being willing to host the unofficial patch. chuft
+        for helping moderate and organize project forums on <a href="http://www.civgaming.net/forums/forumdisplay.php?f=15" target=
+        "_blank">CGN</a>. Darsnan for making playtest scenarios used in testing of fixed game mechanics. GooglyBoogly for his
+        Datalinks update and comprehensive testing of patch changes. BlackCat, BU, ete, Flygon, Googlie, Illuminatus, Kilkakon,
+        Lord Avalon, Mart, Nevill, Petek, Psyringe, Rubin, <a href="http://alphacentauri2.info/index.php" target="_blank">AC2
+        forums</a>, <a href="http://www.weplayciv.com/forums/forumdisplay.php?f=7" target="_blank">WPC forums</a> and anyone else
+        who has reported bugs, given feedback and support to this project. Qwinn for letting me use the html shell of his readme.
+        And of course to the developers of SMAC and SMACX for making two great games that are still being played even to this
+        day!</p>
+
+        <address>
+          <span class="footer">Unofficial SMAC/SMACX Patch &gt; Credits</span> &#8226;<a href="#top">BACK TO TOP</a>
+        </address>
+      </div><!-- ================== V e r s i o n   H i s t o r y ================== -->
+      <a name="version" id="version"></a>
+
+      <div class="content">
+        <h2>Version History</h2>
+
+        <h6>07 May 2010 - Version 1.0</h6>
+
+        <ul>
+          <li>Initial &quot;Official&quot; Release</li>
+        </ul>
+
+        <h6>07 April 2013 - Version 2.0</h6>
+
+        <ul>
+          <li>Streamlined installer</li>
+
+          <li>Major update to exe and other resource files</li>
+        </ul>
+
+        <address>
+          <span class="footer">Unofficial SMAC/SMACX Patch &gt; Version History</span> &#8226;<a href="#top">BACK TO TOP</a>
+        </address>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

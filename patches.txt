@@ -1,0 +1,161 @@
+[BUG] If a faction's cumulative PROBE value is greater than 3 (SE morale, covert ops center) it is possible to "mind control" their bases when they should be immune. If the University uses SE Knowledge putting PROBE value down to -4, it would act as if it were 0 erroneously increasing "mind control" costs. After patch, PROBE values greater than 3 will always be immune to regular probes and values less than -2 will be treated as if they were -2.
+[CRASH] It is possible usually on larger maps that scrambling air interceptors would cause the game to crash. Even when the game didn't crash incorrect altitude values were being used in checks. Both of these have been fixed.
+[CRASH][SMAX] If you open up Design Workshop as Caretakers/Usurpers and switching back and forth between colony pod and other "equipment" you can cause text in "special ability" to become overwritten and crash once you exit Design Workshop. Patch increases memory allocation used to manipulate the caviar animation files (cvr) and may fix other buffer related problems other than the one noted. (credit to WBird784 for original patch)
+[EXPLOIT] Using the right click menu to airdrop calls the "move to" code directly and bypasses all the checks such as if unit is in airbase/base or has already moved. Since the airdrop hotkey "i" correctly checks these restrictions, the patch makes the right click menu use the hotkey checks before directly moving the unit. 
+[BUG/EXPLOIT] Setting more than one patrol waypoint with spacebar causes the values to be stored incorrectly. If only two waypoints are set then it is just a display issue showing an incorrect amount of waypoints when clicking on unit. If three waypoints are set, it causes the unit's morale to be set as one of coordinates usually boosting it to demon boil / elite status. Also, with three waypoints the final waypoint gets set to some far off random location usually (0,0) breaking three point patrol completely.
+[BUG][SMAX] Transport unit's special ability "Repair Bay" is rendered useless due to an incorrect check that would only give the healing bonus to ground transports. Now, it will give bonus to all ground units except ground transports.
+[BUG] Fixed a check that was ending the turn for certain air units (choppers/missiles/grav) when entering a base which had no adjacent enemy units. There is still a check which will end the unit's turn if when entering a base it has less then one turn remaining unless an enemy is adjacent to base.
+[EXPLOIT] Inside base UI, after opening up the production queue window it is possible to then open the hurry command window, switch between bases and complete projects for less then their actual value. Patch fixes a clean up issue with queue panel preventing certain parts of UI from becoming clickable when they shouldn't.
+[EXPLOIT] When clicking on an unexplored tile, the map recenters on that square. However, if the tile contains a base the map doesn't recenter. Patch fixes it so when an unexplored tile with a base is clicked, the game will recenter like the rest of the tiles.
+[CRASH] When moving units near or at the poles, it is possible for y coord to exceed the map bounds and crash the game. Patch adds handling to prevent y coord from going over min/max.
+[EXPLOIT] It is possible to change another faction's workers via Base Ops (F4) if you have that faction infiltrated. Patch fixes it so clicking citizens of another faction in Base Ops has no effect similar to garrisoned units. 
+[BUG] Using "Go to home base" (shift-g) command sends the unit to closest base rather than it's actual home. Patch retrieves unit's home base and sets a "go to" waypoint similar to how a unit is recalled from within base UI. If a home base cannot be found (independent) the unit will go to the nearest base. 
+[EXPLOIT] It is possible to give airdrop or artillery ability to an unit who didn't have it. This is done by using hotkey (I or F) on an unit that has the ability then switching units in bottom center window. The mouse cursor would still have airdrop/artillery up and it is then possible to use it with the new unit bypassing all the checks if unit can use ability. Patch resets the cursor when clicking unit selection window.
+[BUG] Fixed an unit check to use the "Max artillery range" value defined in #Rules (alphax.txt) rather than a hardcoded value of 2. This fix is geared toward modders so players who use an unmodified version of alphax.txt will see no change.
+[BUG][SMAX] Enhanced probes (Algorithmic Enhancement) are now able to mind control bases/units normally immune due to high SE morale as stated in SMAX manual. For units it's purely the morale SE value so >=3 acts as if it were 2 (cost doubled). For bases, the value is calculated from morale SE and any base facility modifiers (Covert Ops: +2, Genejack: -1). If final value is >=3, it acts as if it were 2.
+[BUG] Squares with both a borehole and nutrient bonus don't receive the nutrient bonus. If the "Borehole Square" nutrient value defined in #RESOURCEINFO (alphax.txt) is set to non-zero, a square with borehole will erroneously act as if it has a nutrient bonus. The patch fixes a check whether or not to give a borehole square a nutrient bonus from checking if borehole nutrient value is non-zero to checking if nutrient bonus is actually present in square.
+[BUG][SMAX] While loading the ambient sound file for game, there is a mistake in faction id check for Believers causing it to use SMAX default of "aset1.amb". Patch fixes check so Believers will now use their correct ambient sound file "bset1.amb".
+[BUG][SMAX] Enhanced probes don't receive a penalty to survival probability when target faction has built Hunter-Seeker Algorithm. Instead, the success probability is erroneously given the penalty for a second time after it has already been displayed in UI. This could cause diminished success rate when it should have been higher. Patch corrects check so survival rather than success probability is modified.
+[UI] Removed a check that would while displaying probe success/survival probabilities drop one if they're both the same. For example, (50%, 50%) would just be (50%).
+[MISC] Disabled cpu check which serves no purpose other than preventing the game from starting on newer cpu's. Patch enables ForceOldVoxelAlgorithm=1 in code by default and suppresses annoying warning.
+[BUG][SMAX] Sealurk units now do not get a penalty when moving onto Sea Fungus like Isle of Deep.
+***REMOVED***[TWEAK] Increasing maximum of all units on a map from 2048 to over 2 billion (2147483647). Also, native life use to stop spawning when max units reached 1792. Now it will stop a little under new max units value.
+[MISC] Fixed a registry check at startup (Vista/Win7) whether a complete installation has been performed. Prevents #FILEFIND_NOCD from being incorrectly displayed.
+[BUG] Units without the Amphibious Pods ability can no longer move to a land tile from a sea base without there being a transport in land tile.
+[BUG][SMAX] Prevent the Caretakers from being given the possibility of building secret project "Ascent to Transcendence" which goes against their philosphy and would cause them to declare war on themselves if built.  Problem with logic, code exists which should of prevented it from displaying but didn't.
+[BUG] Allow tiles with more than one probe ability to evict probes (more than one unit, probe has to be top most) ; when evicting probe, only send top unit to home base -> prevents non-probe units from being booted as well. -> using same code used to return probes to base after successful mission
+[BUG][SMAX] Fixed bug when AI successfully completes probe action of freeing a captured faction leader (FREEWILLY/FREEWHO) where it would reset a non-captured faction.  The problem was that AI would always try to free the very first faction (usually PC) regardless of whether they were elminated or not.  Fix now obtains all potential faction leaders to free and randomly picks one.
+[BUG][SMAX] Add references to use a new file (movlistx.txt) for SMAX specific info after secret project movies rather than one shared between SMAC/SMAX (movlist.txt).
+[MOD] Add "Nessus Canyon" landmark placement on random map generation.
+[BUG] Fixed "attacking along road" combat bonus in alpha/x.txt.  Set to 0 by default.
+[BUG/MOD] Fixed NEWRESOURCE and PETERSOUT events to display the correct corrosponding image to match resource type.
+[MOD] Add ability to set individual datalink entries for armor and reactors (ARMORDESC#/REACTORDESC#) in help/x.txt.
+[MOD] Enable the display of Sea Formers unit (UNITDESC4) in datalinks.  Also, hide '*' from showing in name.
+[BUG] Fixed logic in PB code to prevent ODP/Flechette defenses being called a 2nd time (with a chance for defenses to fail) even after PB had already been shot down.  Each faction has one chance to defend against incoming missile based on closest base or unit to PB blast.  However, there is secondary check to give the tile owner a chance to defend against PB even if they have no units or bases in this space.  This check didn't take into account whether or not PB had already been shot down.
+[BUG/MOD][SMAX] Fungal Missiles would spawn MW in ocean tiles -> fix by spawning IoD instead and adding in one Sealurk instead of Fungal Tower.
+[BUG] Fixed a bug that would display NERVEGAS message even when attack on base failed -> checking attacker health
+[MOD] Add ability to set reactor (1-4) for #UNITS in alpha/x.txt (ex. "Colony Pod,..., 00000000000000000000000000,4" -> gives Colony Pods Singularity Engine).  To do so, just add comma after Abil with value of reactor you want for unit.  If no value is set, it defaults to "1" like original code.  For SMAX only, there are two exceptions for Battle Ogre MK2 and Battle Ogre MK3 where default isn't "1" but "2" and "3" respectively.  The Ogre default can still be overriden if you set a different reactor value in alpha/x.txt.
+[BUG] Allowing colony pods to be added to bases with fungus on tile ; allowing sea/land pods to be added to existing sea/land bases ignoring building restriction
+[BUG] #DISEMBARKFAIL wasn't being displayed due to incorrect logic check ; when you try to move a transport with no units on board (L) onto land this message should display (doesn't include moving into land base, does include two transports on same tile one without units and other with) -> update: added additonal check so #DISEMBARK code wasn't being particially loaded for non-transport units
+[BUG] Changing start date for Perihelion event to be 2160 from 2190.  This is to be consistent with info about Planet and cycle from readme regarding 80 year cycles (20 years near, 60 years far).
+[BUG][SMAX] FM would sometimes display #FUNGMOTIZED due to faction id of FM memory location would change and instead would use faction id of MW.  Fixed by storing faction id in variable.
+[CRASH] Under rare circumstances, the game would crash when an AI faction with no bases attempted to upgrade a unit.
+[BUG] Abandoning a base after building a colony pod no longer skips the base production of the next base.  This was caused by the upkeep function using incorrect base values after the abandoned base was destroyed.  Fixed so acts like #STARVE.
+[BUG] Movement to and from pact bases should be identical to your own bases. Since a non-amphibious unit can move from a transport into your own sea base, it should be able to move from a transport into a pact mate's base.
+[BUG][SMAX] Interludes 6 and 7 would display incorrect string variables specific to Caretakers or Usurpers for non-Alien factions.  They now show correct values for human factions as well as Aliens.
+[BUG] Interlude 6 would sometimes be triggered by native life forms causing issues with variables and not making sense, this interlude (and it's follow up #7) are designed for another specific faction.  Add check to skip if faction killing unit is alien.
+[BUG] Fixed display when scenario editor is enabled for changing former owner inside a base (#CHANGEFORMER) since menu didn't load correctly.
+[BUG] Fixed parsing of alpha/x.txt of "retool strictness" to include "never free" which only really applies to giving penalty secret projects.
+[BUG][MOD] Giving FREEPROTO factions (spartans) undocumented retool strictness ability when learn necesseary tech.
+[EXPLOIT] Save/Load queue
+[BUG] Additional check to initial tile when build aquifer rather that tiles around it
+[BUG] Diplomacy dialog sometimes had wrong faction id set
+
+
+ACX:
+***ROLL BACK***: 00226458, 00225F61 -> log file
+
+0005FA5E, 002187F8 : kill useless cpu check, ForceOldVoxelAlgorithm=0 by default (use MMX voxel code) but read in ini value
+002392DC, 0023E85B : empty patch data spaces -> former cpu check functions -> http://www.sandpile.org/ia32/cpuid.htm
+
+0005C3A5, 005C3E7, 0005C510 : fix #3 (Design Workshop overflow)
+00283C8B : fix #17 -> Believers were using incorrect ambient sound string
+0012646B : fix #6 -> repair bay bug
+00193590, 002186ED : fix #21 -> sealurk movemovent in fungus
+00218A94 : fix #3 -> increasing VM alloc at start
+0006E778 : fix #9 -> recenters on unexplorered city tiles when clicked
+000E6FCC : fix #16 -> borehole nutrient problem
+00198F80 : fix #7 -> removing check which ends turn for certain air units when entering base
+0019F0B9 : fix #18 & #19 -> flag to look into more whether correct mechanic
+00094FBD, 002186A9 : fix #8 -> hurry production exploit
+000BFE81, 0021868C : fix #10 -> poles crash
+000CDA6C, 00218668 : fix #5 -> fixes patrol waypoint bug
+00106865, 00218623 : fix #2 -> intercept crash
+000D7EAC, 002185A0 : fix #12 -> shift-g "go to home base"
+001A239D, 002185F8 : fix #1 & #15 -> probe attempting to mind control base
+001A1788, 00218616 : fix #15 -> probe attempting to mind control unit
+0005CE09, 0021867C : fix #13 -> resetting cursor when clicking unit selection
+000CD136, 002186E0 : fix #14 -> artillery range
+00097FC6, 000972C0, 002186B9 : fix #11 -> base ops changing infiltrated workers exploit (right/left click)
+0006D40A : fix #4 -> adding checks to right click airdrop
+000D89A8, 00218637 : fix #4 -> extended handling of airdrop for right click
+***ROLLED BACK***: 001C03DD, 001C09C6, 0012260A : fix #22 -> Adding Vehicle(), Killing vehicle(), native AI unit cap
+<... v2.0 ...>
+0012A9BC, 0012AAB1, 002186FF : fix #23 -> registry check complete install
+0019606B, 00218718 : fix #24 -> amphib / transport / sea base
+001BA128, 00218736 : fix #25 -> "Ascent to Transcendence" SMAX only
+00195869, 0019706B : fix #26 -> probe stacks
+001A3AEA, 001A3C50, 00218763 : fix #27 -> AI #FREEWHO using faction slot 0
+00003BA9, 000BEF8E, 00297214 : fix #28 -> movlistx
+001C88E9 : fix #29 -> Nessus Canyon
+00102F5B, 002392DC : fix #30 -> attacking along road
+0011E01D, 0011E049, 0011E06A, 0011E0AB, 0011E14A, 0011E175, 0011E196, 0011E262, 0011E324 : change offsets of duplicate const registry str to make room for new str table (fix #31)
+001201BF, 00120364, 001204BC, 0028AD88 : fix #31 -> NEWRESOURCE/PETERSOUT
+0002EC63, 0002E18F, 002187A2 : fix #32 -> ARMORDESC/REACTORDESC datalinks
+0002A648, 0002CAEF, 002187BB : fix #33 -> UNITDESC4 (sea formers)
+00100E84 : fix #34 -> PB attempting to defend 2nd time after PB shot down
+000CE516, 002187CF : fix #34 -> TM defending 2nd time after shot down
+000CE9DD, 002187DD : fix #34 -> FM defending 2nd time after shot down
+000CEA4F, 000CECB4, 002187EB : fix #35 -> Fungal Missiles spawning MW in ocean tiles
+0010B51E : fix #36 -> nerve gas
+00187245, 0018731B : fix #37 -> ability to set reactor in alpha/x.txt
+000CF834, 000CF88C, 000D0080 : fix #38 -> modifying restrictions on adding pods to bases
+00196139, 00197323, 0023E86B : fix #39 -> DISEMBARKFAIL
+000CEA2A, 000CEB42, 000CED04, 000CED40, 000CED7A, 0023E85B : fix #41 -> FM #FUNGMOTIZED
+000D11C8, 0023932C : fix #42 -> rare crash on AI attemping upgrade unit
+000F14C0, 000F1E57, 000F1F1B, 000F3FCA, 000F7A34 : fix #43 -> #ABANDONBASE fix
+0011F439, 0011F491 : fix #40 -> Perihelion init date
+001950BD : fix #44 -> movement pact sea bases
+00123849, 01238F6 : fix #45 -> interlude 6/7 issue #1
+00105FBA : fix #46 -> interlude 6 issue #2
+0001CFF7 : fix #47 -> base #CHANGEFORMER
+001856C3 : fix #48 -> retooling parsing
+000E4748, 0023E898 : fix #49 -> FREEPROTO & skunkworks
+00009F24, 00009B96 : fix #50 -> save/load queue exploit
+000D41D7 : fix #51 -> aquifer loop
+0014ACD6 : fix #52 -> diplo faction id
+
+AC:
+0006C2B2, 002326E0 : kill useless cpu check, ForceOldVoxelAlgorithm=0 by default (use MMX voxel code) but read in ini value
+00253B2C, 0025970B : empty patch data spaces -> former cpu check functions
+00232BD4 : fix #3 -> increasing VM alloc at start
+001BA166, 002327E5 : fix #1 -> probe attempting to mind control base (university knowledge fix only)
+0011A89B, 00232721 : fix #2 -> intercept crash  // consts still unk
+00079DDA : fix #4 -> adding checks to right click airdrop
+000ED47D, 00232742 : fix #4 -> extended handling of airdrop for right click
+000E360C, 0063270D : fix #5 -> fixes patrol waypoint bug
+001B062A : fix #7 -> removing check which ends turn for certain air units when entering base
+000A4394, 002326E0 : fix #8 -> hurry production exploit
+0007B1C7 : fix #9 -> recenters on unexplorered city tiles when clicked
+000D629D, 002326F0 : fix #10 -> poles crash
+000A817F, 000A74BC, 002327F9 : fix #11 -> base ops changing infiltrated workers exploit (right/left click)
+000ECF5F, 0023278C : fix #12 -> shift-g "go to home base"
+00069AF7, 0023277C : fix #13 -> resetting cursor when clicking unit selection
+000E2CF9, 00232735 : fix #14 -> artillery range
+000FC844 : fix #16 -> borehole nutrient problem
+001B6E85 : fix #19 -> UI probe update
+<... v2.0 ...>
+0013F65A, 0013F75F, 00232820 : fix #23 -> registry check complete install
+001AD65A, 00232839 : fix #24 -> amphib / transport / sea base
+001ACF36, 001AE7FE : fix #26 -> probe stacks
+001E02D1 : fix #29 -> Nessus Canyon
+001173B9, 00232855 : fix #30 -> attacking along road
+0013585C, 00135A03, 00135B62, 002ABEE6, 002AC0BC, 002B53D4 : fix #31 -> NEWRESOURCE/PETERSOUT
+000366A2, 00037332, 002328A7 : fix #32 -> ARMORDESC/REACTORDESC datalinks
+00031660, 00034485, 00253B36 : fix #33
+0011587D, 002328C6 : fix #34 -> PB attempting to defend 2nd time after PB shot down
+0011F700, 00253B2C : fix #36 -> nerve gas
+0019DFC7, 0019E0B0, 0019E107, 00232919 : fix #37
+000E40CE, 000E49B3 : fix #38
+001AD733, 001AEABD, 002328E7 : fix #39
+00134A3E, 00134A98 : fix #40
+000E5C00, 002328D8 : fix #42
+00105ADE, 00105D52, 00105E2B, 00105F3D, 00105FEA, 00106096, 0010626F, 0010642E, 001067A2, 00106C31, 00106CE3, 00106ED0, 00106FCC, 00107072, 001071C3, 0010727D, 00108609, 00108A59, 0010922A, 0010C7CF : fix #43
+001AC7A2 : fix #44
+00119FF2 : fix #46
+0002349A : fix #47 -> base #CHANGEFORMER
+0019C833 : fix #48 -> retooling parsing
+000FA058, 00253B47 : fix #49 -> FREEPROTO & skunkworks
+0000D612, 0000D9E1 : fix #50 -> save/load queue exploit
+000E8AB5 : fix #51 -> aquifer loop
+00161182 : fix #52 -> diplomacy faction id

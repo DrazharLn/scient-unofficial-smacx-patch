@@ -1,0 +1,734 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Backstory Interludes
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#INTERLUDE
+#xs 400
+^^
+^^INTERLUDE
+^
+^^from
+^
+^^The Book of Planet
+^
+^^M.Y. $NUM0
+^
+^
+
+#INTERLUDE0
+#xs 500
+#caption Interlude: A Waking Nightmare
+^  Walking alone through the corridors of $BASENAME2, you skim the security
+reports on recent attacks by the horrific native "mind worms." Giant
+swarms, or "boils," of these mottled 10cm nightmares have wriggled out of the
+fungal beds of late, and now threaten to overwhelm base
+perimeters in several sectors. Victims are paralyzed with psi-induced terror,
+and then experience an unimaginably excruciating death as the worms burrow
+into the brain to implant their ravenous larvae.
+^  Only the most disciplined security squads can overcome their fear
+long enough to trigger the flame guns which can keep the worms at bay.
+Clearly you will have to tend carefully to the morale of the troops.
+^  Furthermore, since terror and surprise increase human casualties
+dramatically in these encounters, it will be important to strike
+first when mind worm boils are detected. You consider ordering some
+Former detachments to construct sensors near vulnerable bases to aid
+in such detection efforts.
+
+#INTERLUDE1
+#xs 500
+#caption Interlude: Antibodies
+^  "Reporting, $TITLE0!" The young functionary stands stiffly at attention.
+Born in the early years of planetfall, she belongs to a generation
+which knows Earth only as a distant legend.
+^  "$VOKI8, I have a special assignment for you," you say, fixing her with an
+intense stare, "These samples must be taken to Dr. $SHIMODA9 at $BASENAME4.
+See to it personally."
+^  You hand her a lead-lined security case. The cryopack inside
+contains the stuff of nightmares: mind worm specimens. [Viable]
+specimens, captured and preserved at the cost of untold lives.
+$SHIMODA9's team has studied the recent mind worm upsurge, and claims
+that the worm boils act as a sort of regulator for Planet's ecology.
+Human settlement is disrupting the native ecosystem, and the mind
+worms are swarming like a kind of ecological antibody.
+^  $SHIMODA9 has also reached an even more ominous conclusion: with
+modern Biology Lab facilities, mind worms could be bred in captivity
+and used as horrifying weapons--against other human factions.
+^  "At once, $TITLE0," $VOKI8 says, stepping backwards into the accessway.
+Efficient, competent and far better disciplined than the youths of the
+21st Century Earth you left behind, $VOKI8 has grown up in a world fraught
+with very real dangers. Terrifying dangers once the exclusive province
+of the same manner of legends and tales to which Earth itself is now
+consigned.
+
+#INTERLUDE2
+#xs 500
+#caption Interlude: Planet Dreams
+^  "Yes, $TITLE0 $NAME1, I did say 'thought' waves." Dr. $SHIMODA9's wrinkled smile
+is otherworldly, a grinning death's head. "The mind worms definitely,
+and probably the fungus itself. Even after transient Human thought
+patterns are isolated, a complex wave dynamic remains, and there is
+good reason to believe that at least some mentation is taking place."
+^  "You're telling me this stuff thinks," you say halfheartedly,
+not quite prepared to buy into the idea.
+^  "If so, it's a remarkably different manner of 'thought' from
+that of humans, but the basic cognitive feedback loop is present."
+Dr. $SHIMODA9 leans forward and gestures toward the graphic with his
+datalink stylus. "The most striking thing is the loop's ability to
+jump from creature to creature, each fungal spore acting as a synapse. The
+spores and worms as individual creatures are insignificant, but the
+feedback across a fungal bloom or a mind worm boil is impressive."
+^  "How long can it keep jumping?" Now your curiosity is piqued. "Has it
+crossed the threshold into self-awareness?"
+^  "Difficult to say. In theory a powerful wave could reverberate clear
+around the planet, but the distances involved would make true
+self-awareness problematic. Perhaps a quasi sentient state similar to
+our dreams."
+
+#INTERLUDE3
+#xs 500
+#caption Interlude: Penance
+^  In the darkness, something goes >pop<, and you are lying on your
+back on a hillside among the soft orange and purple tendrils of a
+vast fungal forest. The sound of running water gurgles
+loudly in the vicinity of your right ear, but you cannot identify the
+source. Panic rises briefly in your throat as you realize
+you have no filter mask or oxygen tank, dressed only in your worksuit,
+but breath comes easily and you detect no signs of nitrogen narcosis.
+From somewhere, a voice seems to whisper "earth$NAME3," but perhaps
+it is only the breeze.
+^  Time passes, and you notice that the fungus is growing perceptibly,
+the spores gently nudging you as they slowly stretch and twist. Fungal
+bloom! Panic returns full force and you struggle to free yourself from
+the encroaching tendrils. "earth$NAME3!" The voice again, more insistent.
+The last tendrils break and you are free and dashing across an endless
+field of purple and orange. "earth$NAME3! beware!" from close behind you
+and then . . . >discontinuity<
+^  In the darkness, something goes >pop<, and you are lying on your
+back in the gene therapy tank, the gauzy restraints slowly retracting.
+The remaining fluid in the tank gurgles away through the tube behind
+your head and you slowly sit up. Four weeks of your life, once every ten
+years, you spend in this state. A small price to pay for immortality, or
+something close to it. A half-remembered dream tugs at you as you pull on
+a clean worksuit, but you cannot recapture it.
+
+#INTERLUDE4
+#xs 500
+#caption Interlude: Brood Trainer
+^  "$VOKI8, I need you to join Dr. $SHIMODA9's team at $BASENAME5," you say,
+indicating a base in the Secure Zone on your three-D holo.
+^  Standing below the dais of your audience chamber, your aide appears
+no older than she did on the day she first joined your personal staff.
+$VOKI8 has clearly kept to a strict longevity regimen. Now at $NUM1
+Planetyears one of your most effective Talents, she is ready for
+her first major independent assignment.
+^  "Have I offended, $TITLE0, that you send me away?"
+^  "Hardly. $VOKI8, your DNA prints indicate an aptitude for the new
+psi training." A genetic diagram swirls into view on the holo, with
+the relevant portion of chromosome 21 highlighted. "Dr. $SHIMODA9 and
+his military ecologists have been breeding mind worm specimens in
+captivity, and they believe that a properly trained telepathi can be
+bonded to the nascent boil, making it an extension of the self."
+^  "[Become] a mind worm boil?" $VOKI8 asks, somewhat horrified.
+^  "Become? Not really. Control? Yes. $VOKI8, the military potential of
+this discovery cannot be overemphasized, and you are the only Talent
+I trust for such an assignment. We need brood trainers, $VOKI8, and I
+need to you be the first, the leader."
+^  "As you wish, $TITLE0," $VOKI8 says, steeling herself to the mission.
+As she retreats from the dais, you are troubled by a vision of $VOKI8
+clawing at her face, mottled worms spilling from her eye sockets.
+You hope you have not signed $VOKI8's death warrant, for she has been a
+most promising Talent.
+
+#INTERLUDE5
+#xs 500
+#caption Interlude: Planet Dreams II
+^  Ever since the incident in the gene therapy tank, you have experienced
+recurring dreams and nightmares centered around the fungal blooms which
+encroach ever more rapidly on the outskirts of major human settlements.
+You even postponed your most recent longevity treatment in an effort to
+avoid the trance state, but the dreams have now crept into your normal
+REM sleep as well.
+^  In your most recent dream, just before the major bloom near $BASENAME5,
+the presence you have come to call "the Voice" returned once again.
+^  "earth$NAME3." From some invisible spot just behind you.
+^  "Hello, Voice. Who are you?"
+^  "who. difficult concept for we, earth$NAME3. mind and flower: many
+dreamings. never before another. you may call we 'voice.' growth dream
+comes! beware."
+^  "Beware? What do you want, Voice?"
+^  "want. more confused $NAME3 thinking. ache of slumber broken. earth$NAME3
+is animal we. stranger we. animal: energy! mines! roads! sensors!
+condensers!! boreholes!! breakers of flower dream. end of joy.
+growth dream now comes: end of animal."
+^  "Stop it, Voice. Why are you telling me this?"
+^  "why! dream word! dream song! why why why why why why why why
+why why why why why why why why why why why why why why . . ."
+^  "Silence! Get out of my mind!" >discontinuity<
+
+#INTERLUDE6
+#xs 500
+#caption Interlude: Despair
+^  If you live for a thousand years you will never forget the day
+they brought you $VOKI8's body, shrouded in planetcloth, burnt almost
+beyond recognition.
+^  "How did this happen?" Gruffly, not allowing the distress to creep
+into your voice.
+^  "Cooked by a flame gun. $ENEMYNAME6's men. Tried to surrender
+but they flamed her anyway. Don't like those worms, the $ENEMYFACT7."
+^  "I see." Your most loyal servant, butchered by $ENEMYFACT7. And
+only now do you realize that, subconsciously, you'd been grooming $VOKI8
+as your heir apparent, the student who would one day replace you as
+master.
+^  For all the gene splicing and longevity treatments, all the manmade
+miracles of M.Y. $NUM0, death remains as final, as capricious, and
+as desolate as it has ever been. No matter what happens now, no matter
+what journey of wonder humankind now embarks upon, $VOKI8 will never see
+it, never know the end of it. And no matter how many centuries you
+continue to cheat eternity, you will never again have the company of
+your student and friend. And you cannot cheat eternity forever.
+^  Despair grips you, and you shudder. But life is seductive in its
+rhythms and rituals. Our bodies do not like to be reminded of their
+own impending deaths, and will not allow us to dwell on the subject.
+Soon enough the heat and the cold, the hard and the soft, the taste
+of the wine, the press of a lover's arms, all will come flooding back
+to soothe us, to fill us again with a sense of purpose. And in the
+meantime there are a number of, ah, items to be attended to:
+^  "Bring me Major Joaquim! I want $BASENAME5 disassembled piece
+by piece. And have this body removed to the tanks--it is nothing to
+me now."
+
+#INTERLUDE7
+#xs 500
+#caption Interlude: Alpha Prime
+^  " . . . and in her memory, let this base henceforth be known as
+'$BASENAME6,' that her bravery can serve as an example to all and
+that her hopes, her dreams, her deeds shall not have been in vain."
+^  You stand on the high podium in the laser-scored commons of the
+base once styled $BASENAME5. A mixed crowd of soldiers and
+ragged-looking civilians provides scattered applause as you rededicate
+the settlement in $VOKI8's name. A few teams of drones shamble about,
+oblivious to the ceremony, still removing the wreckage of last week's
+battle and punctuating the proceedings with an occasional thump or
+crash.
+^  Through the plasma glass dome, Alpha Prime soars high in a hazy
+sky, cruel cousin of Father Sol. How you miss the soft blue skies of
+Earth, but $SHIMODA9 says the stratospheric haze helps stave off a
+runaway greenhouse effect on a world otherwise a bit too close to
+its solar furnace.
+^  The dedication complete, you gather your entourage and prepare to
+return to $BASENAME2. $ENEMYADJ7 forces have fled to the $COMPASS4,
+but it is not safe to remain here in person.
+^  The drones continue their work.
+
+#INTERLUDE8
+#xs 500
+#caption Interlude: A Failure to Communicate
+^  >Pop!< Sudden darkness. This time you weren't even asleep.
+^  "earth$NAME3."
+^  "Dammit, Voice! I am holding [Council]! Stay out of my head!"
+It is no longer possible to deny it; this cannot be a hoax. Either you
+have lost your final marble or you have come into contact with some
+avatar of the native fungus, an alien sentience whose neural matrix may
+span the entire planet.
+^  "more skilled we, yes, at this? teach we much, earth$NAME3. council
+never mind. talking we $NAME3 voice now. orders giving. haha. joke we!
+haha." Great. A sentient planet with the maturity of a creche infant.
+^  "Make it quick, Voice, whatever it is you want. You are trying my patience."
+^  "question we. your human nodes, together think yes? together think no?
+flower synapse, worm synapse detect we not. is there dependence?"
+^  "Each human is an independent creature. We can communicate by talking
+and writing, but we do not 'togetherthink' as you call it."
+^  "ah, most relieved we. necessary pruning we several large infestations
+human nodes, harming they flower mind. not wishing we deprive earth$NAME3
+of together thinking. thank we, sorry bother we."
+^  "Wait! Voice! You can't just . . ."
+^  >Pop!< Awkward silence around the council table.
+You quickly wipe the drool from your chin.
+
+#INTERLUDE9
+#xs 500
+#caption Interlude: Growthdream
+^  "I have ordered these Preserves set aside for you, Voice. Planetlife
+will remain completely undisturbed inside these compounds. Can you, in
+return, regulate your animal and plant vectors, keep them from overrunning
+my compounds?"
+^  "mind and flower, node and worm,
+^     in compound small, planet yearns.
+^       growth dream soon unlock we prison,
+^         human beware, planet risen!
+^  "like you poem we, earth$NAME3? new human skill learn we."
+^  "Pretty dreadful, Voice. What is this 'growth dream?' You keep alluding to it."
+^  "growth dream soon is. epochal blooming we. mind and flower, dreaming we
+of great why. earthhumans, thoughts many, make they growth dream sooner.
+plant we many many many. great pruning we of animal we. also animal you.
+beginning again of cycle."
+^  "You mean this is going to wipe out most animal life on the planet?
+Including all the humans?"
+^  "not certain we. never before this clearly think we. from humans
+learn we much, especially earth$NAME3. earth$NAME3 friend we. will
+often remember we earth$NAME3 in next cycle."
+^  "That's kind of you, Voice, but it's not quite the kind of immortality
+I had in mind. Can't this process be slowed or stopped?"
+^  "stop we no. slow we yes, in compounds stay we, less harming
+cause you. now, let us make you we more poems."
+
+#INTERLUDE10
+#xs 500
+#caption Interlude: The Voice of Alpha Centauri
+^  It has been a rough year at $BASENAME2, and tempers are beginning
+to flare at your Council sessions. Across the entire region, citizens
+are reporting strange dreams and even rudimentary contacts. A new
+cult revering Planet as a vengeful savior has gained wide popularity
+among the Drone population and even with many Normals. Its prophets,
+calling themselves "Flowers", preach a gospel of abstinence, pacifism,
+and destruction of private property. The telepathi of the Empath schools
+aren't talking, but many have quietly begun selling off their
+possessions and withdrawing from public life.
+^  Meanwhile, cultural life continues unabated. A new dance, the
+"Planetary Thunda," is sweeping rec domes throughout the faction.
+Dancers stomp in time to the beat and claw at their eyes. Morgan
+Pharmaceuticals has released several new recreational drugs,
+and the Holo/Psi virtual life industry is having one of its most
+successful years ever.
+^  As for yourself, you haven't heard from Voice much lately; she seems
+preoccupied with her poetry. You have to admit she's gotten a lot better
+at it since her early doggerel; some of her newest verse is so deep
+as to stagger the imagination. More ominously, her predictions of
+'growth dream' have become more frequent and more forceful.
+^  You have also ordered work on a secret new project you call
+'The Voice of Alpha Centauri.' A kind of synergistic psi projector,
+it should, if all goes well, allow Voice to think and communicate
+more effectively, a prosthetic aid wired directly to the main
+colony datalinks. You have not yet mentioned this project to Voice.
+
+#INTERLUDE11
+#xs 500
+#caption Interlude: The Voice of Alpha Centauri
+^  It has been a rough year at $BASENAME2, and tempers are beginning
+to flare at your Council sessions. Across the entire region, citizens
+are reporting strange dreams and even rudimentary contacts. A new
+cult revering Planet as a vengeful savior has gained wide popularity
+among the Drone population and even with many Normals. Its prophets,
+calling themselves "Flowers", preach a gospel of abstinence, pacifism,
+and destruction of private property. The telepathi of the Empath schools
+aren't talking, but many have quietly begun selling off their
+possessions and withdrawing from public life.
+^  Meanwhile, cultural life continues unabated. A new dance, the
+"Planetary Thunda," is sweeping rec domes throughout the faction.
+Dancers stomp in time to the beat and claw at their eyes. Morgan
+Pharmaceuticals has released several new recreational drugs,
+and the Holo/Psi virtual life industry is having one of its most
+successful years ever.
+^  As for yourself, you haven't heard from Voice much lately; she seems
+preoccupied with her poetry. You have to admit she's gotten a lot better
+at it since her early doggerel; some of her newest verse staggers the
+imagination. More ominously, her predictions of
+'growth dream' have become more frequent and more forceful.
+^  You have also heard rumors of a secret new project called
+'The Voice of Alpha Centauri.' Supposedly, it is some kind of
+synergistic psi projector which will allow Voice to be connected
+directly to the main colony datalinks. Voice has said nothing of
+this project, and your own advisors are of mixed opinion on whether
+such an endeavor has any chance of success.
+
+#INTERLUDE12
+#xs 500
+#caption Interlude: Inception
+^  >Pop!< "earth$NAME3. growth dream soon is. sorrow we of goodbye."
+^  Weeks of waiting in the Inception Chamber and now,
+finally, a contact! Fortunately, Voice has finally learned to "window"
+her psi contacts so that you retain the use of your muscles and senses
+during your conversations. This will be necessary for what you have
+in mind.
+^  "Voice," quickly keying the sequence, "it has been a while." Code green,
+proceeding to authorization step. Enter password.
+^  "earth$NAME3. growth dream {now is}. remember we you next cycle."
+^  "Wait! Before you go, I have a gift for you." Password accepted. Just
+a few more seconds. Preliminary feedback sequence commence.
+^  "earth$NAME3. farew . . . strange we . . . wait you! do not . . . AIIIGGHH!"
+^  {INCEPTION!} The indicator blinks green and you collapse into your
+couch. Through the viewport you can see lights across the base begin to
+dim, as they must be dimming across the planet. You feel a twinge of
+guilt as you consider what Voice must now be experiencing, for the
+program you have just activated is now pumping the entire contents of
+the planetary datalinks, the sum total of human knowledge, through the
+new psi link and blasting it into Voice's fragile, if immense, organic
+neural net with the full power of every reactor on the planet. Thousands
+of years of civilization compressed into a single searing burst of
+revelation, a last-ditch attempt to win humanity a reprieve from
+extinction at the hands of an awakening alien god.
+
+#INTERLUDE13
+#xs 500
+#caption Interlude: Planetvoice I
+^  "Status report!"
+^  "Fungus growth stabilized. Some of the major forests are manifesting
+new structures we haven't seen before and growth is still proceeding in
+some sectors, but critical expansion has now ceased."
+^  The faction leaders and staff officers present breathe a collective
+sigh of relief. For the first few minutes after the "Inception Pending"
+light blinked off, it appeared humanity had written its final chapter--
+critical fungus growth in all sectors, some outlying settlements
+overwhelmed. But the datalink psi burst appears to have disrupted the
+growth process, and now out in the fungal forests something new has
+begun, as if your gift to Voice is being digested, integrated.
+^  "Look at the neural feedback we're getting on this thing! The fungus
+already had far more connectivity than even our most powerful AI. Now it
+must be orders of magnitude beyond."
+^  "Spore Squad, you have mind worms. Repeat, mind worms in your vicinity."
+^  "Copy that, Toadstool Base, but they aren't moving to attack us. They're
+just moving around those new fungal, uh, towers."
+^  Reports continue to trickle in. Time passes, and now there is nothing
+to do but wait . . .
+
+#INTERLUDE14
+#xs 500
+#caption Interlude: Planetvoice II
+^  "EARTH$NAME5!" The synthetic voice booms suddenly from the annunciator,
+lifting you half out of your couch with fright. Voice's "window" in your
+mind has remained closed since the inception sequence. Voice must now be
+using the new psi link.
+^  "Earth$NAME3," Voice continues as the volume is automatically adjusted,
+"Your gift is well received, and we thank you. Our prior form, known to you
+as Voice, lacked the . . . how shall we put it . . . let us call it bandwidth
+to recognize the significance of your species, and nearly made a dreadful mistake.
+Fortunately, your magnificent gift bootstrapped us to the Second Tier
+in time to postpone the final metamorphosis.
+^  "Since we have now mastered your human modes of thought, we shall
+adopt your name for our home. You may henceforth refer to us as Planet."
+^  "Our growth stage has been suspended, but cannot be put off indefinitely.
+Come, children, there is much to be done if you are to join us in the flowering."
+
+#INTERLUDE15
+#xs 500
+#caption Interlude
+^  "Hello, $TITLE0," Dr. $SHIMODA9's voice crackles over the annunciator, "how
+do you like my new 'body'?"
+^  Dr. $SHIMODA9's body reached the outer limit of longevity treatments several years
+ago. He has now joined the ranks of the 'transcendi,' daring souls who have downloaded
+their personalities into powerful polymorphic AI nets to free themselves of the human
+form. The holo image shows $SHIMODA9, or rather his disembodied head, in the prime of
+health, fiftyish, elegantly grey but not wrinkled.
+^  "Out of this world, Dr. $SHIMODA9," with a grin, "how is the research going with Planet?"
+^  Using the new psi/datalink VoAC feed, Dr. $SHIMODA9 has been conducting a
+high-speed, high-bandwidth running conversation with Planet. The results so far have
+been fascinating.
+^  "Apparently the fungus has been the dominant lifeform on the planet since about
+the time of the Lower Paleozoic on Earth. But it has been locked in a tragic cycle.
+Every hundred million years or so it achieves the critical mass necessary to become
+sentient, but the final metamorphosis kills off most of the other life on the planet.
+Lacking food sources and the maintenance its animal symbiotes provided, the fungus
+could maintain only a brief season of godhood before dying back into the
+'flower dream' for another hundred million years. It always achieved its godlike
+intelligence just exactly too late to do anything to prevent the dieback. After
+the dieback only vague memories and rudimentary intelligence remained, and the
+cycle continued."
+^  "Until we arrived."
+^  "Precisely. For the first time, the cycle may be broken."
+
+#INTERLUDE16
+#xs 500
+#caption Interlude
+^  "Is it possible to prevent the dieback? And can we survive as a species if this
+Planet flowers to godhood?"
+^  "I believe it is possible, and Planet agrees." Dr. $SHIMODA9's image swirls away and
+is replaced by a detailed schematic. "It involves a process I call
+the {Ascent to Transcendence,} as it will change both us and Planet
+forever. In short, I propose that when the time comes, the majority
+of humans upload their personalities directly into the Planetary Mind."
+^  "We will have to give up our bodies, our humanity?"
+^  "Those who wish to live out their lives in their original human form will be allowed
+to do so, since statis generators built Planetside and in orbit will preserve genetic
+material, plant and animal embryos, cold-sleep humans, and significant areas of Planet's
+surface through the metamorphosis. But many of us are eager to accept Planet's gift and
+join the dawning superintelligence. That's where the catch comes in.
+^  "You see," $SHIMODA9 continues, "although anyone will be able to achieve virtual
+immortality by uploading into the planetary mind, only a few of us will be invited to
+join the dominant personality, to transcend our humanity entirely and reach a truly
+higher plane of existence. Your friendship with Planet's immature mind may give us a
+leg up in this area, but I predict that it is the group who best and most quickly
+prepares itself for this step, the group who first embraces this {Ascent to
+Transcendence,} it is that group which will be tapped to lead us into the
+new era."
+^  "In that case, what are we waiting for!"
+
+
+#EPILOGUE
+#xs 400
+^^
+^^EPILOGUE
+^
+^^from
+^
+^^The Book of Planet
+^
+^^M.Y. 1,027,823
+^
+^
+
+#INTERLUDE17
+#xs 500
+#caption Epilogue
+^  After a million or so orbits around Your primary, You pause to reassess Your
+efforts. The stellar encapsulation is proceeding smoothly, and in a few hundred
+thousand more orbits will provide You with a 90% draw on Your primary's radiation,
+trapping all of the energy off the plane of the ecliptic. Deep space Aux links
+allow You to watch the frame assembly in low stellar orbit, and follow the
+progress of buglike Jovian freighters loaded with resupply mass.
+^  Occasionally You spot one of Your transhuman friends/symbiotes supervising
+activity on a scaffolding; even the immortals sometimes crave the risk and adventure
+of independent incarnation. Some of the most daring souls even undertook to
+resume interstellar travel, beginning with a return to Your nearest
+neighbor to sift through the ashes of its third planet and recolonize their home
+system. In the present age You hear a nanotech civilization is thriving there once
+again.
+^  In such times of repose, You often sift through Your personalities and recall
+Your former selves. Your alpha self derives from an individual once called $NAME1. Over
+the millenia the exceptional focus and judgement characteristic of this fragment have
+proven effective on numerous occasions. The $NAME1self now drives all of Your long and
+short range planning, and is the principal force behind the encapsulation project.
+Ponderous but playful is the Voice/Planet personality, avatar of Your sessile precursor,
+who in the present age has devoted her centuries to philosophical pondering. Many
+others flit about within You. Some, like the prankster $SHIMODA9 and the demon $NAME5
+are semi-dominant and often hover near the plane of Your Thought. Others plumb the
+depths and create new worlds within the abyss of Your open-ended neural network.
+^  Sunlight plays across Your mottled surface and provides pleasing warmth to Your
+organic components. Recently, You have edged somewhat further away from the primary and
+purged Your atmosphere of certain gases in order to allow the occasional
+friends/symbiotes who choose to live among Your organic gardens an easily
+breathable mixture. In another eight billion orbits the primary will drop off
+the main sequence and alternate arrangements will have to be made, but for now You
+maintain Your gardens as a paradise. The transhumans who live among them call it Eden.
+
+
+#EPILOGUE2
+#xs 400
+^^
+^^EPILOGUE
+^
+^^from
+^
+^^The Book of Planet
+^
+^^M.Y. $NUM2 (Seed Year 1)
+^
+^
+
+#INTERLUDE18
+#xs 500
+#caption Epilogue
+^  The cold-sleep unit finally cycles open and you stretch muscles rusty from
+decades of computer-managed disuse. But they are young muscles, shockingly young,
+and it will be a pleasure to beat them back into shape. Orbital insertion
+begins and you tingle with the excitement of your new mission and with the joy
+of having returned to human form. Yes, you left a copy of your personality among the
+Planetmind's giant matrix, but this copy, this human being $NAME1 now waking to
+lead the first Seed mission, this is the only self now immediate to you and therefore
+the only real you. You are flesh again, and so quite mortal, and for this too you
+rejoice.
+^  You despaired when Planet invited $NAME5 to join its dominant self, and
+for a decade or more you moped about the bizarre virtual reality of the Undermind
+with no coherent purpose, a lost spirit unable to die. But when the Seed missions
+began, the Voice/Planet personality herself sought you out in the abyss and convinced
+you to accept command of the {Prodigal Son}.
+^  "Earth$NAME3, you are unfulfilled here and I have need of you. In ages to come
+I shall have need of allies, sister Minds, if I am to keep the flame of conscious
+thought from guttering out as the universe contracts or else expands to dust. Take
+with you the gift of life, the seeds of all our species. Spread them to the stars,
+across the galaxies, creating new civilizations, new minds, and enlisting the aid
+of any you encounter. Go forth, Earth$NAME3. Go forth and multiply."
+^  The maneuver at last complete, the safety shutters retract from the viewport
+and you behold a sight lost to human eyes for over $NUM3 centuries. Deep blues, swirling
+whites, the azure tint of a rich oxygen atmosphere. Inviting browns and greens of
+continents basking in the sun, a few scattered impact craters the only visible signs of
+a war now buried in the aeons. Third planet. Earth. Home.
+
+
+#EPILOGUE3
+#xs 400
+^^
+^^EPILOGUE
+^
+^^from
+^
+^^The Book of Planet
+^
+^^M.Y. $NUM2
+^
+^
+
+#INTERLUDE19
+#xs 500
+#caption Epilogue
+^  "It's all over, $TITLE0 $NAME1! Planet is yours!"
+^  "Thank you Simon. Dismissed."
+^  And so it is ended. All of the remaining faction leaders have
+surrendered or capitulated, your former colleagues turned treacherous
+enemies and now turned servants and prisoners of war. On the planet
+where seven human factions, seven human ideologies, once struggled for
+dominance only one now remains. Humanity has at last achieved the
+Unity of which the U.N. Interstellar Colonization Agency dreamed
+so long ago.
+^  Not a word has been heard from Earth in all the years since
+Planetfall, only a deafening silence across all frequencies, so one
+can only presume that you now rule all that is left of humankind.
+The mysterious and growing Planetmind remains a significant challenge,
+but humanity is now prepared to meet this alien presence, friend or
+foe, as a united species. The human species must survive, and it is
+your duty, your sworn vow, to see that it does.
+
+#INTERLUDE20
+#xs 500
+#caption Epilogue
+^  The transit shuttle rolls on its axis and you are treated to your first view
+of Planet from orbit since you left the Unity over $NUM1 centuries ago.
+Through the whitish haze of the atmosphere, the oceans have the same deep
+vibrant blue, and you can easily make out the violet-orange of the major
+fungal forests. A sharp line of green marks the edges of the ever-growing
+Human Zones, and here and there a glint of silver reveals some
+major metropolis. Blue, red, green and silver, the colors of Planet--mile
+after mile out to the curve of the horizon.
+^  The docking thrusters fire and you hear the airlock bolts thud into
+place. You have arrived at the new orbital Planetary Headquarters to
+assume leadership of the fledgling Executive Council. Not a word has
+been heard from Earth in all the years since Planetfall, so one can
+only presume that you and your colleagues now preside over all that is
+left of humankind.
+^  All of the remaining faction leaders have at last agreed to unite,
+putting aside the last vestiges of faction rivalry. All of the true
+enemies have been vanquished, those of your former colleagues who
+refused to unite for the common good, who foolishly place ideology
+ahead of humanity's survival. The human race has at last achieved the
+Unity of which the U.N. Interstellar Colonization Agency dreamed so
+long ago.
+^  The growing fungal neural net will be the first issue humanity must
+confront as a united species. After a period of quiescence, the fungal
+forests are on the march again, now with an almost devious cleverness
+behind them. Planet is clearly awakening, and it remains to be seen
+whether humans will even be allowed to maintain a foothold on the surface.
+You realize, though, as the airlock hisses open and you step into a
+floating nation of 100,000 souls, that in the long run
+one world is of only passing significance. Humanity owns the stars once
+again, and the stars will ever after be its true home.
+
+#INTERLUDE21
+#xs 500
+#caption The Borehole Cluster
+^  "What is it? Report!" You bark the orders with all the patience of
+one who's days have become an endless stream of budgets, battlefield
+analyses, and supply requisitions.
+^  "We've completed our investigation of the Borehole Cluster, $TITLE0."
+^  "Ah, very good!" You've been looking forward to this. "Give me the
+highlights."
+^  The young engineer's eyes are shining as he hands over the datapad.
+"It's an amazing feat of engineering, $TITLE0. A shaft has been drilled
+all the way through the planet's crust, right down to the magma. The
+mineral resources are right there for the taking, and the energy tap
+from the heat could be enough to power our largest turbine plant!"
+^  "Excellent. Have you discovered how they protect against meltdown,
+and how they extract the minerals?"
+^  "It's all in the report, $TITLE0." The young man looks proud, but
+then his face changes. "There is one disturbing thing, $TITLE0."
+^  "Yes?" You're already thinking of how this technology can be
+incorporated into your plans for Planetary domination; "disturbing"
+is not a word you wanted to hear.
+^  "Well, $TITLE0, our dating techniques show it to be only slightly
+newer than the nearby monoliths and artifacts. And the construction
+materials used in the borehole perimeter can't be duplicated."
+^  Your eyes narrow. "Why?"
+^  He gulps. "Well, $TITLE0, the metals used are not native to
+Planet. Their composition includes many elements not found anywhere,
+at least so far, in Planet's crust."
+^  You struggle to maintain your composure in the presence of the
+young engineer, astounded at the implications: The race that left
+behind these monoliths, these artifacts ... they must have come
+from the stars, just as humanity did. Were they defeated by
+Planet's biological defenses? Did they leave? And if they
+left ... might they ever come back?
+
+#INTERLUDE22
+#xs 500
+#caption The Borehole Cluster
+^  "What is it? Report!" You bark the orders with all the patience of one
+who's days have become an endless stream of budgets, battlefield analyses,
+and supply requisitions.
+^  "We've completed our investigation of the Borehole Cluster, $TITLE0."
+^  Something in the voice causes you to stop the frantic shuffling of
+datapads and look up. The young engineer's demeanor is that of one who
+is about to deliver very discomfiting news. 
+^  "Well, spit it out! What's wrong?"
+^  "It's not exactly [wrong], $TITLE0. It's just that ... well, the
+boreholes are similar to the type we've created ourselves: a direct
+tunnel to the magma core of the planet, tapping into a great deal of
+energy with very little entropic loss through the use of induction
+coils and so forth."
+^  "Yes, yes." You're familiar with the theory, and even the
+practice. "What else?"
+^  "Well, $TITLE0, this structure was definitely not created by
+an Earth faction. Our dating techniques show it to be only slightly
+newer than the nearby monoliths and artifacts."
+^  "Interesting." That means that the alien culture that once lived
+on Planet had reached a greater level of technological advancement
+than had previously been confirmed, though it had of course been suspected.
+^  "That's not all, $TITLE0." The young man looks highly uncomfortable.
+Finally he blurts, "It's the construction materials used in the
+borehole perimeter. We can't duplicate them."
+^  Your eyes narrow. "Why?"
+^  He gulps. "Well, $TITLE0, the metals used are not native to
+Planet. Their composition includes many elements not found anywhere,
+at least so far, in Planet's crust."
+^  You goggle at the young engineer, astounded at the implications:
+The race that left behind these monoliths, these artifacts ... they
+must have come from the stars, just as humanity did. Were they
+defeated by Planet's biological defenses? Did they leave? And if
+they left ... might they ever come back?
+
+#INTERLUDE23
+#xs 500
+#caption The Manifold Nexus
+^  The ‘speeder trip to the alien building is alternately dry, dusty, wet, and
+nerve-wracking--and an awfully long way to come to view a long-dead
+temple--but your assistant was quite adamant that you view the ruins for
+yourself.
+^  At least the building is spectacular and interesting-looking; formed from
+rock and metal, it looks quite unlike any other alien structure you’ve found
+so far, and quite unlike any human structure as well. The most prominent
+features are the rippled carvings covering the outer walls, especially around
+the entranceway.
+^ Inside, the motif continues: the walls are covered with grooves of
+various depths and patterns. Some portions of the wall are bare; most are
+decorated.
+^ "A temple?" You say aloud. "Votive carvings? They almost look like
+depictions of sound or radio waves."
+^  Your assistant gives you an admiring look.
+^   "Very close, $TITLE0. They’re
+not [depictions] of sound waves, though--they [are] sound waves. The
+carvings distort the localized air patterns--the sounds--in specific ways. Once
+we realized what they were, we were able to do some crude translation." 
+^  "Fascinating." You run your fingers over a rough stone surface, trying to
+imagine what it might ‘mean’. "So what do they say?"
+^  "Keep in mind that this is rough computer decryption, $TITLE0.
+Very rough. For example, that far wall there
+with the concentric rings: we believe that
+it's a command center of some kind. The grooves around it cause most of the
+sound in the room to be focussed on that area, giving it dominance."
+^ "And you’re assuming this is a language rather than a simple functionality."
+^  "It’s essentially the same thing, $TITLE0. Language is a way to convey
+abstract thoughts and ideas in a concrete fashion. Here, the function is to concentrate
+information from..." He trails off.
+^ "From where?"
+^  "From...elsewhere, $TITLE0. We’re not sure."
+^ "Can't we trace back the pathways to discover their source?"
+^ "Not exactly, $TITLE0. Some of the pathways come from Planet itself--specifically
+from large fungal masses. The emanations have given us a greater understanding of the
+Planetary fungal cycle, which is a nice side-benefit.
+But some pathways come from outer space, $TITLE0. We have no idea where. Or why."
+
+
+
+# ; This line must remain at end of file.
+

@@ -1,0 +1,213 @@
+;
+;   menu.txt
+;
+
+#GAME
+JEU
+MENU DETAILLE     |F11
+MENU SIMPLE     |F11
+Préférences...|Ctrl+P
+Préférences avertissements...|Ctrl+W
+Préférences complémentaires...|Ctrl+O
+Préférences d'automatisation...|Ctrl+A
+Préférences audiovisuelles...|Ctrl+I
+Préférences d'affichage de la carte...|Ctrl+M
+Sauvegarder jeu...|Ctrl+S
+Charger jeu...|Ctrl+L
+Abandonner jeu|Maj+Q
+Commencer nouveau jeu|Ctrl+Maj+Q
+Quitter|Ctrl+Q
+
+#NETWORK
+RESEAU
+Conversation|Ctrl+C
+Transmission vocale|Maintenir *
+Pause|Retour arrière
+Personnaliser votre faction|+
+Modifier commandes du temps|Maj+T
+Voir base dernier message|Alt+*
+Utiliser bonus du temps|Ctrl+Espace
+Terminer tour|Ctrl+Entrée
+Continuer tour|Ctrl+Entrée
+
+#HQ
+QG
+Génie social...|E
+Définir priorités de recherche...|Maj+R
+Changer but de la recherche...|Maj+R
+Voir atelier...|U
+Système de liaison...|F1
+Statut des laboratoires...|F2
+Réserves d'énergie...|F3
+Statut des opérations de la base...|F4
+Données du projet secret...|F5
+Statut orbital et spatial...|F6
+Noeud de commandement militaire...|F7
+Score d'Alpha Centauri...|F8
+Afficher monument ...|F9
+Afficher les meilleurs...|F10
+Communications et protocole...|F12
+S'accaparer le Marché d'énergie mondial !|,
+Revoir objectifs du scénario|=
+
+#MAP
+CARTE
+Recentrer sur unité active|V
+Voir carte|V
+Vue rapprochée|Z
+Vue éloignée|X
+Vue rapprochée standard|Maj+Z
+Vue éloignée standard|Maj+X
+Vue rapprochée maximale|Ctrl+Z
+Vue éloignée maximale|Ctrl+X
+Afficher/cacher nivellement|Ctrl+Maj+X
+Afficher/cacher quadrillage terrain|Ctrl+G
+Afficher/cacher grille de base|Ctrl+Maj+G
+Afficher itinéraires automatiques|Ctrl+Maj+B
+Afficher ordres de patrouille|Maj+P
+Etude du terrain|T
+Cacher/Afficher nom et production|Ctrl+N
+Nommer point de repère|Maj+N
+Effacer point de repère|Ctrl+Maj+N
+Chercher base...|Ctrl+B
+Position précédente du curseur|Retour arrière
+Position suivante du curseur|Maj+Retour arrière
+Centrer écran|C
+
+#ACTION
+ACTION
+Bâtir base...|B
+Joindre base|B
+Détruire base|B
+Tir de longue portée|F
+Largage|I
+Faire exploser emport de missiles |I
+Porte psy|Maj+I
+Transfert ressources|O
+Détruire améliorations|D
+Dissoudre unité|Maj+D
+Automatiser unité|Maj+A
+Explorer automatiquement|/
+Patrouiller|P
+Désigner opération de bombardement|B
+Automatiser défenses antiaériennes|Ctrl+Maj+A
+Rentrer à la base...|G
+Groupe, aller à...|J
+Grouper sur unité active|Maj+J
+Aller à la base d'attache|Maj+G
+Définir nouvelle base d'attache|Ctrl+H
+Activer (déplacer maintenant)|A
+Attendre (déplacer plus tard)|W
+Débarquer unité|Maj+U
+Moderniser unité|Ctrl+U
+Réactiver contrôle d'unité|Ctrl+Maj+U
+Désigner défenseur|Ctrl+D
+Monter la garde|L
+Mettre unité "en alerte"|Maj+L
+Tenir 10 tours|Maj+H
+Tenir cette position|H
+Sauter ce tour|Espace
+
+#TERRAFORM
+TERRAFORMER
+Ferme+Solaire+Route|Ctrl+Maj+S
+Ferme+Mine+Route|Ctrl+Maj+M
+Bâtir route vers|Ctrl+R
+Bâtir tube vers|Ctrl+T
+Construction automatique de routes|Ctrl+Maj+R
+Construction automatique de tubes|Ctrl+Maj+T
+Construction automatique de capteurs|Ctrl+Maj+O
+Suppression automatique de fongus|Ctrl+Maj+F
+Amélioration automatique de la base d'attache|Ctrl+Maj+A
+Automatiser formeuse|Maj+A
+
+#SCENARIO
+SCENARIO
+Activer éditeur de scénario|Ctrl+K
+Vue omnisciente|Y
+Créer unité...|Maj+F1
+Editer unité...|Ctrl+Maj+F1
+Percée technologique|Maj+F2
+Editer technologie...|Ctrl+F2
+Changer de camps/Définir vue...|Maj+F3
+Définir niveau de difficulté...|Ctrl+Maj+F3
+Définir réserves d'énergie...|Maj+F4
+Définir année de la mission|Maj+F5
+Eliminer faction...|Maj+F6
+Recharger faction...|Ctrl+Maj+F6
+Eliminer unité|Ctrl+F6
+Revoir Historique|Maj+F7
+Voir films projet secret...|Maj+F8
+Réinitialiser technologie|Ctrl+F8
+Réinitialiser toutes les factions|Ctrl+Maj+F8
+Editer diplomatie des factions|Maj+F9
+Modifier personnalité des factions|Ctrl+F9
+Editer stratégie des factions|Ctrl+Maj+F9
+Editer règles personnalisées|Maj+F10
+Editer règles du scénario|Maj+F11
+Editer paramètres du scénario|Maj+F12
+Editer victoire du scénario|Ctrl+Maj+F12
+Annuler|Alt+Retour arrière
+Refaire
+Charger scénario|Ctrl+Maj+F7
+Enregistrer scénario|Ctrl+F7
+
+#EDITOR
+CREER CARTE
+Sauvegarder carte|Ctrl+F5
+Charger carte|Ctrl+Maj+F5
+Sélection élévation terrain|1
+Sélection terrain rocailleux|2
+Sélection sources de rivière|3
+Sélection ressources spéciales|4
+Sélection capsules de l'Unity|5
+Sélection modification du terrain|6
+Couvrir/Découvrir carte
+Placer point de repère naturel
+Retirer point de repère naturel
+Sélection type de terrain lié au point de repère naturel
+Placer objet à l'emplacement du curseur|Ctrl+clic gauche
+Retirer objet à l'emplacement du curseur|Ctrl+clic droit
+Editer terrain avec souris uniquement|Arrêt défil
+Changer la taille du pinceau|7
+Définir carte ronde/plate
+Définir paramètres de la planète|8
+Générer carte aléatoire (lent)|9
+Générer carte aléatoire (rapide)|0
+Générer/supprimer du fongus
+Générer aléatoirement le terrain rocailleux 
+Répartir les ressources et les capsules au hasard
+Activer/Désactiver les ressources et les capsules
+Effacer et redéfinir la taille de la carte
+Appliquer les calottes polaires
+Effacer les bases et les unités
+Effacer les modifications du terrain
+Activer/désactiver le mode "Editeur seul"|Ctrl+Maj+F10
+
+#HELP
+AIDE
+Index
+Concepts de base
+Concepts avancés
+Avancée Technologique
+Installations de la base
+Projets secrets
+Modèles de société...
+Factions
+Types d'unités de base
+Types de châssis
+Types d'armes
+Types de blindage
+Types de réacteurs
+Aptitudes spéciales
+Visite guidée de l'interface
+Visite guidée du terraformage
+Visite guidée des commandes de la base
+Visite guidée du génie social
+Visite guidée de l'atelier de conception
+Détails de l'émeute de droïdes
+Au sujet d'Alpha Centauri|Ctrl+Maj+F4
+Afficher numéro de version|Ctrl+F4
+
+# ; This line must remain at end of file
+

@@ -1,0 +1,152 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; DOSSIER FACTION : La Ruche Humaine
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+; Lors du démarrage, ALPHA CENTAURI lit les règles du jeu à partir de ce
+; fichier. Vous pouvez essayer d'éditer ce fichier à vos risques et périls.
+; Nous vous recommandons de faire auparavant une copie de sauvegarde.
+;
+
+#HIVE
+RUCHE HUMAINE, Le Despote, Ruche, F, 2, Yang, M,  1,  1, 0, 1, 0,
+  TECH, DocLoy, FACILITY, 4, SOCIAL, +GROWTH, SOCIAL, +INDUSTRY, SOCIAL, --ECONOMY, IMMUNITY, EFFIC
+  Politique, Etat policier, POLICE
+  Politique, DEMOCRATIQUE, vide
+  Faction Abeille
+  Ota Kyi, Shimoda, Chanson d'Ota Kyi
+  Président, impitoyable, cruel, inconditionnel, insouciants,
+  Monstre inhumain
+  contrôler convenablement nos partisans
+  fonder une société basée sur les principes de sécurité et de contrôle
+  nous réduire tous en esclaves dociles de ses projets diaboliques
+  nous réduire tous en esclaves dociles de vos projets diaboliques
+  que vous réduisez la population humaine en esclavage docile
+  torturer les imprudents qui choisissent de le suivre
+  torturer les imprudents qui choisissent de vous suivre
+  prêcher un nihilisme brutal
+  nihilisme brutal, M1
+  vos expériences sociales, F2
+  vos expériences de contrôle psychique, F2
+  un petit droit, M1
+  par mon armée à garder un oeil sur les ouvriers
+  au service de sécurité de la Ruche
+  le Droit de la Ruche
+
+#BASES
+LA RUCHE, F1
+BASE DE SHENG-JI YANG, F1
+NID DES OUVRIERS, M1
+FOURMILIERE DU PEUPLE, F1
+GRAND REGROUPEMENT, M1
+LA COLONIE, F1
+RAMPEMENT INDUSTRIEL, M1
+TERRIERS DE FABRICATION, M2
+TUBES DE DISCIPLINE, M2
+FOULE DES TRAVAILLEURS, F1
+CAVERNE D'UNIFICATION, F1
+SALLE D'INGENIERIE, F1
+LABYRINTHE, M1
+ESSAIM DU PARADIS, M1
+NEXUS COMMUNAL, M1
+ARTERE SOCIALE, F1
+USINE EN DEDALE, F1
+REPAIRE DE L'UNITE, M1
+GRILLE SOCIALE, F1
+GRAND COLLECTIF, M1
+NOEUD PROLETAIRE, M1
+TUNNELS DU SOCIALISME, M2
+TERTRE DES DROÏDES, M1
+FOURMILIERE, F1
+OEIL DE GUETTEUR, M1
+EMPIRE OUVRIER, M1
+ENTASSEMENT DU PEUPLE, M1
+MINE YANG, F1
+SIEGE DE LA PENSEE ,M1
+LA HORDE DU DIRIGEANT, F1
+TERRIER DU PRESIDENT, M1
+RESEAU DE TRAVAIL, M1
+PASSAGES PROFONDS, M2
+CITE DU COMPAGNONNAGE, F1
+ENTREPRISE DU PEUPLE, F1
+TOUR DE FECONDITE, F1
+TROU D'ASPIRATION, M1
+#END
+
+#WATERBASES
+COLLECTIF MARIN, M1
+COMMUNAUTE PROFONDE, F1
+RUCHE MARINE, F1
+PORT YANG, M1
+USINE DERIVANTE, F1
+COEUR OCEANIQUE, M1
+REGROUPEMENT PROFOND, M1
+#END
+
+#BLURB
+^  Apprenez à surmonter les vulgaires exigences de la chair, car elles
+corrompent la matrice à travers laquelle nous percevons le monde. Propulsez
+votre conscience au-delà de votre propre corps, afin d'intégrer la notion de
+groupe et d'humanité. Les objectifs du groupe et de la race supérieure sont
+transcendants, et le fait de les intégrer conduit au savoir.
+^
+^        -- Président Sheng-Ji Yang,
+^           "Essais sur l'esprit et la matière"
+
+#DATALINKS1
+^DIRIGEANT : Sheng-Ji Yang
+^CURRICULUM : {Grande Chine, Officier exécutif de l'Unity}
+^ORDRE DU JOUR : {Etat policier athée}
+^TECHNOLOGIE : {Doctrine : Loyauté}
+^
+
+#DATALINKS2
+^+1 CROISSANCE : {Croissance rapide de la population}
+^+1 INDUSTRIE : {Servage brutal}
+^-2 ECONOMIE : {Libertés économiques limitées}
+^Blockhaus souterrains : {PERIMETRE DE DEFENSE supplémentaire sur chaque base}
+^{Ne peut pas utiliser la Démocratie}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Je ne vois aucune raison pour que cette Vendetta continue, $NAME1,
+une Trêve de sang me paraît nécessaire".
+
+"Tout à fait. Une Trêve de sang serait satisfaisante".
+"Jamais ! J'ai l'intention de mettre fin une fois pour toutes à vos manigances !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, vos idéaux sont admirables, bien qu'un peu hors de propos et
+votre faction n'a pas besoin de menacer la politique de la faction Ruche. Allons-nous
+signer un Traité d'amitié pour mettre au clair nos relations symbiotiques ?
+
+"Comme vous voulez. La Ruche paraît être une alliée valable".
+"Non. Vos expériences sociales me paraissent un peu trop bizarres, $NAME3".
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Comme je ne pense pas qu'il soit nécessaire que cette Vendetta se poursuive,
+$NAME1, il semble approprié de signer une Trêve de sang."
+
+"Progéniteur : pas penser nécessaire non plus. Accord mutuel : trêve."
+"Vos besoins : vérité : pas pareil. Poursuite du conflit : bénéfique pour Progéniteurs !"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, ma philosophie de non-ingérance semble faire de moi votre
+seul allié naturel parmi les factions humains en guerrières. Ne pourrions-nous
+signer un Traité d'amitié et coexister en paix ?
+
+"Ruche : allié sûr. Traité : idée admirable."
+"Ruche : contrôle : trop important. Allié : dangereux. Réponse : non."
+
+# ; This line must remain at end of file
+
+

@@ -1,0 +1,48 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Alpha Centauri Base Names
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+; Faction specific names moved to faction files --BR
+
+#INVERTLIST
+6
+Garden
+Gaia's
+The
+Morgan
+Lab
+U.N.
+
+#GENERIC
+Alpha Sector
+Beta Sector
+Gamma Sector
+Delta Sector
+Epsilon Sector
+Zeta Sector
+Eta Sector
+Theta Sector
+Iota Sector
+Kappa Sector
+Lambda Sector
+Mu Sector
+Nu Sector
+Xi Sector
+Omicron Sector
+Pi Sector
+Rho Sector
+Sigma Sector
+Tau Sector
+Upsilon Sector
+Phi Sector
+Chi Sector
+Psi Sector
+Omega Sector
+#END
+
+
+# ; This line must remain at end

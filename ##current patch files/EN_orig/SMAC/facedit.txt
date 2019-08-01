@@ -1,0 +1,325 @@
+r; Faction Editor Text Files
+
+#TITLE
+Faction Editor v1.0
+
+#DATATITLES
+BASE NAMES
+SEABASE NAMES
+FACTION
+SENTENCES
+RULES
+LEADER
+DIPLOMACY
+DATALINKS
+
+#BUTTONS
+New Faction
+Save Faction
+Load Faction
+Quit
+Faction
+Leader
+Rules
+Diplomacy
+Datalinks
+Sentences
+Base Names
+Seabase Names
+Male
+Female
+Yes
+No
+Sometimes
+Masculine
+Feminine
+Singular
+Plural
+Add Faction To Game
+Delete Faction From Game
+Close
+Alien Diplomacy Mode
+Human Diplomacy Mode
+
+#FACTION
+Faction Name
+Descriptive Name
+Faction Noun
+Faction Adj.
+Faction Insult
+Faction Gender
+Plural/Singular
+Social Ideology
+Emphasis
+Anti-Ideologies
+Faction Bonus
+Graphic Set
+
+#GRAPHICSET
+Gaia's Stepdaughters
+Human Hive
+University of Planet
+Morgan Industries
+Spartan Federation
+The Lord's Believers
+Peacekeeping Forces
+The Cybernetic Consciousness
+Pirates
+The Free Drones
+The Data Angels
+The Cult of Planet
+Manifold Caretakers
+Manifold Usurpers
+
+#LEADER
+Name
+Title
+Good Adjective
+Bad Adjective
+Insult
+Assistant
+Scientist
+Assistant City
+Leader Gender
+Use of Force
+Interest In Power
+Interest In Tech.
+Interest In Wealth
+Interest In Growth
+
+#LIMITEDBONUS
+None
+Free Tech.
+Free Facility
+Free Vehicle
+Social Benefit
+Robust
+Immunity
+Impunity
+Penalty
+Fungus Nutrient
+Fungus Mineral
+Fungus Energy
+Bonus Votes
+Free Facility (Prereq.)
+Revolt
+No Drone
+Free Ability (Prereq.)
+Probe Cost
+Defense
+Offense
+
+#LIMITEDBONUSCODES
+NONE
+TECH 
+FACILITY
+UNIT
+SOCIAL
+ROBUST
+IMMUNITY
+IMPUNITY
+PENALTY
+FUNGNUTRIENT
+FUNGMINERALS
+FUNGENERGY
+VOTES
+FREEFAC
+REVOLT
+NODRONE
+FREEABIL
+PROBECOST
+DEFENSE
+OFFENSE
+
+#SENTENCES
+Together we shall both
+My intent is 
+S/he is bent on
+You seem bent on
+I shall not stand here while you
+S/he spends her/his time
+You spend your time
+I have been accused of
+Your
+Think how this could benefit your
+I trust your
+it is customary to remit me a small
+for the services my forces provide in
+I shall instruct
+You are in contravention of
+and...
+does not impress me
+are proceeding to your satisfaction
+...
+to see that no such...
+
+#DIPLOMACY
+Truce Text
+Agree to Truce
+Refuse Truce
+Treaty Text
+Agree to Treaty
+Refuse Treaty
+Alien Truce Text
+Alien Agree to Truce
+Alien Refuse Truce
+Alien Treaty Text
+Alien Agree to Treaty
+Alien Refuse Treaty
+
+#DATALINKS
+Leader:
+Background:
+Agenda:
+Tech:
+Bonus 1:
+Bonus 2:
+Bonus 3:
+Bonus 4:
+Bonus 5:
+Bonus 6:
+Bonus 7:
+Bonus 8:
+Blurb Author:
+Blurb Source:
+Blurb Text:
+
+#BONUS
+Morale Modifier
+Psi Combat Modifier (%)
+Research Bonus Per Base
+Extra Drone Per Base
+Extra Talent Per Base
+Bonus Energy Reserve
+Energy Interest (%)
+Bonus Commerce Rate
+Population Bonus
+Hurry Modifier (%)
+Research Modifer (%)
+Share Technology
+Select Technologies
+Terraform Bonus
+Bonus Commfrequency
+Immunity to Mind Control
+25% Attack Bonus
+Free Prototypes
+Aquatic Faction
+Alien Faction
+Worm Police
+Share Tech w/ Infiltrator
+Steal Tech
+
+#BONUSCODES
+MORALE
+PSI
+RESEARCH
+DRONE
+TALENT
+ENERGY
+INTEREST
+COMMERCE
+POPULATION
+HURRY
+TECHCOST
+TECHSHARE
+SELECTTECH
+TERRAFORM
+COMMFREQ
+MINDCONTROL
+FANATIC
+FREEPROTO
+AQUATIC
+ALIEN
+WORMPOLICE
+SHARETECH
+TECHSTEAL
+
+#HELPTEXT
+Formal name of colony/group
+Description of basic ideology.
+The plural noun.
+An adjective that describes the faction
+An insult against the faction.
+The gender of the faction name.
+Whether the faction name is plural or singular
+An ideology that the AI player will focus on. 
+An area of its society the AI will try to enhance.
+A social ideology that the AI player finds distastful.
+Faction bonus; limited to a total of eight.
+The base set of graphic files that the faction will use.
+Name of faction leader
+Title of  faction leader
+A positive adjective describing the faction leader
+A negative adjective describing the faction leader
+An insult against the faction leader
+An assistant's name that is used in various interludes
+An scientist's name that is used in various interludes
+A base name that is used in various interludes
+The faction leader's gender
+The faction leader's willingness to achieve it's goals through agression
+The faction leader's interest in military might when under AI control
+The faction leader's interest in research when under AI control
+The faction leader's interest in accumulating energy when under AI control
+The faction leader's interest in expanding his or her borders when under AI control
+Increases or decreases new unit's morale. A setting of 0 indicates they are immune to negative modifiers.
+A percentage bonus to all PSI combat
+Free research points generated at every base per turn.
+Extra drone generated at every base, per # of population you input
+# of extra talents generated at every base
+Free energy reserves at start of game
+Energy reserves interest. When set to 0, +1 per base
+Increased commerce rate
+Number to be added to population limit prior to requiring a Habitation Dome/Complex
+Percentage modifier to costs associated with hurrying production
+Percentage modifier to research rate
+The number of other factions that need to know a technology before you receive it. 0 indicates lack of this ability.
+Allows the faction to select a number of techs at the beginning of a game
+Halves terraform raise/lower costs
+Gives an extra commfrequency at the beginning of the game
+Vehicles and bases are immune to mind control
+A 25% bonus when attacking
+Prototype cost reduced to 0 for this faction
+This is a sea based faction (extra mineral in shelf, ability to build ocean enhancements)
+A Progenitor faction (Progenitor text, extra units, directed tech, etc.)
+Mindworms do double duty as police
+When used with sharetech, requires one to be spying on the other factions
+Faction steals a tech when it captures a base
+The name of the faction leader that appears in the datalinks
+The background of the faction leader that appears in the datalinks
+The agenda of the faction leader that appears in the datalinks
+The starting technology of the faction that appears in the datalinks
+A faction bonus that appears in the datalinks
+The author of the source that the blurb is taken from
+The source that the blurb is taken from
+The blurb displayed when selecting a faction
+This is where you change the text of various diplomacy messages
+This is where you see the final result of your diplomacy message, within context
+This is the list of names drawn from for land bases
+This is the list of names drawn from for sea bases
+Restore the default faction settings (The Human Hive)
+Load a previously created faction
+Save the current faction and add it to the game
+Exit Faction Editor
+Faction Options
+Leader Options
+Rule Options
+Diplomacy Options
+Datalinks Options
+Sentence Options
+Landbase Names
+Seabase Names
+The text of a truce that your faction offers to a human
+The text used when a human agrees to a truce from your faction
+The text used when a human refuses a truce from your faction
+The text of a treaty that your faction offers to a human
+The text used when a human agrees to a treaty from your faction
+The text used when a human refuses a treaty from your faction
+The text of a truce that your faction offers to a alien
+The text used when an alien agrees to a truce from your faction
+The text used when an alien refuses a truce from your faction
+The text of a treaty that your faction offers to a alien
+The text used when an alien agrees to a treaty from your faction
+The text used when an alien refuses a treaty from your faction
+Toggle between alien and human diplomacy text
+
+# ;

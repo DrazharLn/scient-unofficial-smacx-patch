@@ -1,0 +1,212 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; FACTION FILE: Nautilus Pirates
+;
+; Copyright © 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#PIRATES
+Nautilus Pirates, The Buccaneer, Pirates, M, 2, Svensgaard, M, 0, 1, 0, 0, 1,
+  TECH, Mobile, TECH, DocFlex, SOCIAL, -GROWTH, SOCIAL, -EFFIC, FREEFAC, 28, AQUATIC, 0, FREEABIL, 26
+  Values, Power, SUPPORT
+  nil, nil, nil
+  Nautilus, Nautil.
+  Ensign Jones, Lukas, Jones’ Locker
+  Captain, heroic, bloodthirsty, intrepid, barbarous,
+  Outmoded Misfit
+  exploit the riches of the sea
+  to harness the vast potential of the oceans
+  strangling the sea lanes and depriving us of our trade
+  strangling the sea lanes and depriving us of our trade
+  openly violate interfactional laws in the name of free trade
+  swilling rum and feeding Mind Worms to his parrot
+  swilling rum and feeding Mind Worms to your parrot
+  brazen thievery
+  brazen thievery, M1
+  aquatic ambitions, M2
+  latest expeditions, M2
+  tariff, M1
+  protecting your shipping from undeserving brigands
+  my privateers
+  the Law of the Sea
+
+#BASES
+Deadman Tavern
+Landlubber Inn
+Buried Treasure
+Sunny Oasis
+Sailor’s Rest
+Freshwater Springs
+Marque City
+Land Lock
+Far Horizons
+Crossbone Way
+Sailor’s Warning
+Red Sky
+Roberts’ Dread
+Ulrik’s Hideaway
+Pirate’s Siege
+Grasshome
+Drunktown
+Merchantman Run
+Shanty Town
+Penzance
+Skull Crossroads
+Sailor’s Delight
+Plunder Cache
+Cannon’s Thunder
+#END
+
+#WATERBASES
+Safe Haven
+Port Svensgaard
+Crow’s Nest
+Provision Point
+Parrot Landing
+Barbary Coast
+Capetown
+Point Blood
+Meergard
+Cutlass Cay
+Sextant Cove
+Privateer Quay
+Dry Dock
+Frigate Base
+Drake Landing
+Storm’s Lee
+Pennant Shoals
+The Anchorage
+Lorcha Roads
+Skeleton Key
+Slave Raid
+Violence at Sea
+Privateering
+Commerce Raiding
+Treasure Taken
+Gan Ning
+Jean Fleury
+Buccaneer Base
+Edward Teach
+Jack Rackham
+Henry Morgan
+Bartholomew Roberts
+Hendrick Lucifer
+Jean Lafitte
+Roberto Cofresi
+Boysie Singh
+Zheng Qi
+Orang Laut
+Moro Raiders
+Viking Age
+Zaporizhian Sich
+Zaporozhian Cossacks
+Don Cossacks
+Stenka Razin
+Pier Gerlofs Donia
+Wijerd Jelckama
+Fraxinet Moors
+Narentine Raiders
+Slavic Piracy
+Victual Brothers
+William Maurice
+Novgorodian Ushkuiniks
+Maniots
+Barbary Corsairs
+Hayreddin
+Oruç Reis
+Turgut Reis Dragut
+Koca Murat Reis
+Jan Janszoon
+John Ward
+Samuel Mason
+Bully Wilson
+Harpe Brothers
+Peter Alston
+Wiley Harpe
+Jonathan Brown
+Colonel Plug
+James Ford
+John A. Murrell
+Dan Seavey
+Kanhoji Angre
+Jolly Roger
+Buried Treasure
+Plank Walk
+Captain Kidd
+Pieces of Eight
+Treasure Map
+Thomas Tew
+Charles Vane
+William Fly
+Jack Rackham
+#END
+
+#BLURB
+The sea … vast, mysterious … and full of wealth! And the nations of Planet
+send their trade across it without a thought. Well, the sea doesn’t care about
+them, so it lets them pass. But we can give the sea a little hand in teaching the
+landlubbers a lesson in humility.
+ ^
+ ^      —Captain Ulrik Svensgaard
+ ^      “The Ripple and the Wave”
+
+#DATALINKS1
+^LEADER: {Captain Ulrik Svensgaard}
+^BACKGROUND: {Unity Astrogator}
+^AGENDA: {Pillage and burn}
+^TECH: {Doctrine: Mobility, Doctrine: Flexibility}
+^
+
+#DATALINKS2
+^-1 EFFICIENCY {Individualistic mentality opposed to central organization}
+^-1 GROWTH {Culture does not place high emphasis on family}
+^Free {Naval Yard} with discovery of {Doctrine: Initiative}: skilled shipwrights
+^Enhancements may be built in ocean and trench squares with the discovery of Advanced Ecological Engineering: {Trained for life at sea}
+^Sea colony pod & sea former prototypes {free}: advanced oceanic technology
+^Bonus mineral from ocean shelf squares: {Culture and technology adapted for the ocean}
+^{Marine Detachment ability} free for all naval combat units upon discovery of {Adaptive Doctrine}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Planet offers far greater adventures for us than this tedious conflict.
+Let us pledge Blood Truce and return to our explorations!”
+
+“Agreed. Forth to adventure!”
+“There is no greater adventure than the defeat of a meddlesome foe. Prepare to be annihilated!”
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“Your ambitions seem to lie outside our sphere of influence, $TITLE0 $NAME1.
+We’d like to sign a Treaty of Friendship to cement our common bonds.”
+
+“We would never think of encroaching on your interests, $NAME3. Let’s sign that Treaty.”
+“We’d like to reserve judgement. Our expansion plans may yet come into conflict.”
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Planet offers far greater adventures for us than this tedious conflict.
+Let us pledge Blood Truce and return to our explorations!”
+
+“Exploration of Manifold Six: much more important. Agreement!”
+“Already familiar: Manifold Six. Best adventure: your destruction!”
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“You don’t seem very interested in the sea, $TITLE0 $NAME1. Though you are
+alien to us, it seems that among all the human factions, I am your logical
+ally, since our spheres of influence are different. Let’s sign a Treaty of
+Friendship and formalize what is already manifest.”
+
+“Land: Progenitor. Sea: $NAME3. Treaty: agreed.”
+“All Manifold Six: possible conflict. Treaty: unwise at this time.”
+
+# ; This line must remain at end of file

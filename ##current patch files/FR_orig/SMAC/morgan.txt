@@ -1,0 +1,143 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; DOSSIER FACTION : Industries Morgan
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+; Lors du démarrage, ALPHA CENTAURI lit les règles du jeu à partir de ce
+; fichier. Vous pouvez essayer d'éditer ce fichier à vos risques et périls.
+; Nous vous recommandons de faire auparavant une copie de sauvegarde.
+;
+
+#MORGAN
+INDUSTRIES MORGAN, Le Magnat, Industriels, M, 2, Morgan, M, -1,  0, 0, 1, 0,
+  TECH, Indust, ENERGY, 100, SOCIAL, +ECONOMY, POPULATION, 3, COMMERCE, 1, SOCIAL, -SUPPORT
+  Economie, Marché libre, ECONOMY
+  Economie, Planifiée, vide
+  Faction Morganique
+  Jeneba, Kai, Le Complexe de Jeneba
+  Président, rusé, sagace, monopolistique, opulents, bouffi,
+  sale extorqueur d'argent
+  dominer l'économie de la Planète
+  récolter la récompense logique d'une planification intelligente des investissements 
+  réussir le contrôle monopolistique complet de toutes les ressources de la Planète
+  réussir le contrôle monopolistique complet de toutes les ressources de la Planète
+  que vous vous appropriez toutes les richesses de la Planète
+  compter ses crédits énergétiques mal acquis
+  compter vos crédits énergétiques mal acquis
+  faire montre d'une poigne monopolistique
+  poigne monopolistique, F1
+  vos projets commerciaux, M2
+  votre construction d'un empire de sociétés, F1
+  un petit investissement, M1
+  à exploiter les richesses naturelles de la Planète
+  aux services de sécurité du conglomérat
+  la Politique du conglomérat Morgan
+
+#BASES
+INDUSTRIES MORGAN, F2
+METAGENIQUE MORGAN, F1
+BANQUE MORGAN, F1
+CENTRE FINANCIER MORGAN, M1
+BIOCHIMIE MORGAN, F1
+INFORMATIQUE MORGAN, M1
+HYDROPONIQUE MORGAN, F1
+MINES MORGAN, F2
+TRAITEMENT MORGAN, M1
+LOISIRS MORGAN, M2
+DISTRIBUTION MORGAN, F1
+CENTRE MEDICAL MORGAN, M2
+METALLURGIE MORGAN, F1
+TRANSPORTS MORGAN, M2
+ANTIMATIERE MORGAN, F1
+CENTRE D'ENERGIE MORGAN, M1
+COLLECTIONS MORGAN, F2
+CONSTRUCTIONS MORGAN, F1
+INTERSTELLAIRE MORGAN, F1
+AERODYNAMIQUE MORGAN, F1
+ROBOTIQUE MORGAN, F1
+STUDIOS MORGAN, M2
+GRAVITONIQUE MORGAN, F1
+SOLARFEX MORGAN, M1
+#END
+
+#WATERBASES
+HYDROCHIMIQUE MORGAN, F1
+BIENS MARITIMES MORGAN, M2
+MARINE MORGAN, F1
+PLATE-FORME MORGAN, F1
+QUAI MORGAN, M1
+#END
+
+#BLURB
+  Le comportement humain est avant tout économique. 
+Les circonstances sont plus ou moins variables, mais la course
+aux ressources limitées reste une constante. Le besoin aussi
+bien que la cupidité nous a entraînés dans les étoiles,
+et des richesses infinies attendent ceux qui accepteront
+de reconnaître cette pulsion profonde et universelle.
+^
+^        -- Président Nwabudike Morgan,
+^           "Le monopole Centauri"
+
+#DATALINKS1
+^DIRIGEANT : {Président Nwabudike Morgan}
+^CURRICULUM : {Le magnat namibien du diamant, Détenteur de la franchise
+de l'Unity}
+^ORDRE DU JOUR : {Economie de marché, pro-industriel}
+^TECHNOLOGIE : {Base industrielle}
+
+#DATALINKS2
+^+1 ECONOMIE : {Groupe industriel}
+^-1 SOUTIEN : {Les partisans ont des goûts dispendieux}
+^COMMERCE : {Le bonus augmente la valeur des traités, des pactes, des prêts}
+^Commence avec 100 crédits énergétiques supplémentaires.
+^COMPLEXE D'HABITATION nécessaire pour que les bases dépassent la taille 4 : {Confort des créatures essentiel}
+^{Ne peut pas utiliser l'économie planifiée}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"La Vendetta est mauvaise pour les affaires, $NAME1. Je vous suggère de conclure
+une Trêve de sang et de nous remettre au travail".
+
+"D'accord. J'ordonne le cessez-le-feu."
+"Pardon, $NAME3, mais je prévois de vous pousser à la faillite."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$<1:Cher:Chère> $NAME1, je peux proposer des accords commerciaux lucratifs
+si vous consentez à un Traité d'amitié. Voulez-vous vous associer à moi ?"
+
+"Absolument. Prospérons ensemble en paix".
+"Non. Tous les bénéfices finiraient dans votre poche".
+
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"La Vendetta doit aussi néfaste pour les affaires des Progéniteurs
+que pour celles des humains, $NAME1. Je suggère que nous signons une
+Trêve de sang et que retournions au travail."
+
+"Economie : importante. Mort : à éviter. Trêve : d'accord."
+"$NAME3 : croit que l'argent peut sauver. Progéniteur : pas d'accord. 
+Guerre : continue !"
+	
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$NAME1, votre manque d'intérêt pour le commerce humain fait de vous un 
+allié naturel, car nous n'avons aucun point de friction. Voulez-vous
+signer un Traité d'amitié pour que nous puissons nous consacrer à nos 
+autres objectifs ?"
+
+"Commerce : pas le seul résultat. Amitié : appréciée. Traité : d'accord."
+"Progéniteur : aucun profit : politique de traité humaine. Refuser : poliment."
+
+# ; This line must remain at end of file
+
+

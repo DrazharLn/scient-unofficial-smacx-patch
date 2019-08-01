@@ -1,0 +1,139 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Libres Droïdes
+;
+Copyright (c) 1999, 1998, Firaxis Games, Inc.
+;
+; ALPHA CENTAURI lit les règles du jeu dans ce fichier au
+; démarrage. Vous pouvez, à vos propres risques, faire des essais de modification
+; de ce fichier. Nous vous conseillons d'effectuer une copie de sauvegarde de l'original.
+;
+
+#DRONE
+Libres Droïdes, Le Travailleur, Droïdes, M, 2, Domai, M, 0,1, 0, 0, 1,
+  TECH, Indust, SOCIAL, ++INDUSTRY, SOCIAL, --RESEARCH, NODRONE, 1, REVOLT, 75
+  Société future, Eudémonique, INDUSTRY
+  Economie, Verte, nil
+  Libre Droïde, Libre D.
+  Maxwell, Irwin, Assemblée de Maxwell
+  Bosco, fidèle, décérébré, travailleurs, prétentieux,
+  contestataire systématique
+  améliorer les conditions de vie des prolétaires
+  libérer les classes laborieuses asservies
+  contrôler toute la production économique de la Planète
+  contrôler toute la production économique de la Planète
+  que vous minez les fondements de notre société
+  se pavaner sous les flagorneries béates de ses laquais
+  vous pavaner sous les flagorneries béates de vos laquais
+  dresser les droïdes contre leurs maîtres légitimes
+  vociférations, F2
+  vos luttes de libération, F2
+  votre prétendu paradis du prolétaire, M1
+  une petite contribution de solidarité, F1
+  à garantir un niveau de vie minimum au citoyen de base
+  à mes Héros du peuple
+  le niveau de vie sur la Planète
+
+#BASES
+LIBRE DROÏDE
+PALAIS DE L'INDUSTRIE
+CHEMINEE D'USINE
+SOURCE D'ACIER
+DELIVRANCE
+MAISON DU PEUPLE
+MONOPOLE TRAVAIL
+USINE DE LA LIBERTE
+FONDERIE DE LA LIBERATION
+ASSEMBLEE POPULAIRE
+PARADIS DU PROLETAIRE
+CONCESSION DU MINEUR
+VAILLANT FOREUR
+DOME DE DOMAI
+NIVEAU DE VIE
+CLE DE 20
+TREMPLIN
+MARTEAUX ET TENAILLES
+ENCLUME HUMAINE
+COLLECTIVISME
+ZONE DE FORAGE
+CENTRALE SYNDICALE
+MAISON DE L'ARTISAN
+AVENANT AVENIR
+ORGANIGRAMME
+#END
+
+#WATERBASES
+TRAVAILLEURS DE LA MER
+FAILLE DU CHAINON
+PROFONDEUR TIERCE
+CHANTIERS NAVALS
+DOCK DES DOCKERS
+GRUTIERS
+REPOS DU PETROLIER
+ENTREPOT DE CORAIL
+#END
+
+#BLURB
+"Les fers résonnent nuit et jour, et nous, pauvres galériens,
+^Notre peine n'a point de fin et nos tombes n'ont point d'honneur.
+^Mais par une nuit sombre, quand la ville sera silence
+^Je flinguerai tous ces tyrans, je descendrai tous ces matons,
+^Il va y avoir du changement. Retenez bien mes paroles !
+^Alors on regrettera d'avoir jeté Jim Jones aux fers à Botany Bay."
+ ^
+ ^      -- "Jim Jones", Traditionnel.
+
+#DATALINKS1
+^DIRIGEANT: {Bosco Domai}
+^CURRICULUM: {Assistant Technicien de 3ème classe de l'Unity}
+^ORDRE DU JOUR: {Emancipation de la classe laborieuse}
+^TECHNOLOGIE: {Base industrielle}
+^
+
+#DATALINKS2
+^+2 INDUSTRIE: {Excellents artisans et ouvriers qualifiés}
+^-2 RECHERCHE: {Privilégient la productivité sur la recherche pure}
+^Les bases révoltées ont tendance à rejoindre les droïdes: {Offre un Paradis du Prolétaire}
+^-1 DROIDE sur chaque base: {Le travail accompli pour la collectivité diminue le mécontentement}
+^{Ne peut utiliser l'économie Verte}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Les citoyens de base ont beaucoup souffert de ce conflit interminable. Pour le bien de la collectivité, nous devrions
+oublier notre individualisme et notre orgueil. Concluons une Trêve de Sang."
+
+"Vous avez raison, le peuple mérite mieux que cela. Nous allons signer votre Trêve."
+"Notre peuple est prêt à tous les sacrifices pour vous détruire."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Apparemment, vous n'êtes pas un de ces vils exploiteurs qui se moquent du sort de leurs concitoyens, $TITLE0 $NAME1.
+Dans l'intérêt du peuple, nous devrions renoncer à de mesquines ambitions individuelles et signer un Traité d'amitié."
+
+"Oui, il faut toujours écouter la volonté populaire."
+"A mes yeux, le peuple n'est qu'un moyen au service de mes ambitions personnelles. Dans les circonstances actuelles, un
+tel accord n'est pas dans mes projets."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Quelle que soit leur espèce, les travailleurs sont tous des frères, $TITLE0 $NAME1. Chez vous comme chez nous,
+leur idéal c'est de vivre leur vie en paix. Pourquoi ne pas accéder à leurs voeux et conclure une Trêve de Sang ?"
+
+"Tout à fait : égale importance de tous les Progéniteurs. Meilleure option pour les Progéniteurs : la Trêve."
+"La meilleure option pour les Progéniteurs : le conflit contre $NAME3. Continuation du combat."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Je sais que les autres se méfient de vous, $TITLE0 $NAME1, mais je crois que votre science fondamentale
+notre puissance industrielle peuvent se compléter. Nous devrions
+signer un Traité d'Amitié pour coexister en paix."
+
+"Traité : bénéfique pour tous. Proposition acceptée."
+"Interaction avec $NAME3 : proposition irréaliste. Donnée incorrecte. Réponse négative."
+
+# ; This line must remain at end of file

@@ -1,0 +1,125 @@
+;
+; ALPHA CENTAURI de Sid Meier
+;
+; FACTION FILE: Les Usurpateurs du Collecteur
+;
+Copyright (c) 1999, 1998, Firaxis Games, Inc.
+;
+; ALPHA CENTAURI lit les règles du jeu dans ce fichier au
+; démarrage. Vous pouvez, à vos propres risques, faire des essais de modification
+; de ce fichier. Nous vous conseillons d'effectuer une copie de sauvegarde de l'original.
+;
+
+#USURPER
+Usurpateurs du Collecteur, L'Insurgé, Usurpateurs, M, 2, Marr, M, 1, 1, 0, 1, 0,
+  ALIEN, 0, OFFENSE, 125, SOCIAL, +GROWTH, SOCIAL, +MORALE, SOCIAL, -PLANET, FACILITY, 3, TECH, Ecology, TECH, Physic, TECH, Biogen 
+  Economie, Planifiée, PLANET
+  Economie, Verte, nil
+  Usurpateur, Usurpateur
+  Hackjob, Peter, Taudis de Hackjob
+  Conquérant, puissant, assoiffé de pouvoir, preux, horribles,
+  abominable despote
+  retourner les pouvoirs latents du Collecteur contre la faction fanatique des Gardiens.
+  dompter la formidable puissance du Collecteur
+  l'élimination de toutes les autres factions de Planète
+  dominer la galaxie
+  que vous confisquez le pouvoir planétaire
+  se repaître des chairs pantelantes de ses prisonniers
+  vous repaître des chairs pantelantes de vos prisonniers
+  détourner la puissance de la Planète pour des projets ténébreux
+  utopies de conquête galactique, F2
+  votre lutte contre les Gardiens, F2
+  votre campagne d'extermination des Gardiens, F1
+  un tribut, F1
+  à tolérer votre misérable présence sur cette Planète, pauvre vermine
+  à mes troupes de choc
+  la Doctrine de l'Usurpateur
+
+#BASES
+COURAGE DU DOUTE
+VERS LES ETOILES
+CONTRE-ATTAQUE
+TOUJOURS PLUS HAUT
+HONNEUR AU PROGENITEUR
+ECRASER LES FAIBLES
+NOUVELLE GENESE
+BECS ET ONGLES
+MAITRISE DES CIEUX
+MATRAQUE
+CHANT D'EFFROI
+MAUVAIS OEIL
+ECLATS DE VOIX
+FORCE DU NOMBRE
+HARMONIE DU GUERRIER
+DISSOLUTION DE MAAR
+FIL DU RASOIR
+ERE DE SANG
+EMPRISE DE LA DEITE
+SATIETE
+BLINDAGE TAU CETI
+FRACAS DES GLAIVES
+CATASTROPHE ANNONCEE
+CHANT DE GUERRE
+BRULURE DES SOUVENIRS
+RISQUES DE FLORAISON
+HONNEUR ULTIME
+#END
+
+#WATERBASES
+VAUTOUR
+TERRE BRULEE
+DESTROYER
+DOME DU PAL
+PLAIE A VIF
+CAP CONQUETE
+EAUX TROUBLES
+PREDATEURS
+BALAFRE OCEANE
+#END
+
+#BLURB
+Risques de la floraison : considérables. Mais récompenses de la déité : qui peut les
+mesurer ?
+^
+^       -- Usurpateur Judaa Marr
+^          "Le Courage en question"
+
+
+#DATALINKS1
+^DIRIGEANT: {Usurpateur Judaa Marr}
+^CURRICULUM: {<Inconnu>}
+^ORDRE DU JOUR: {Soumettre la Planète puis dominer la Galaxie}
+^TECHNOLOGIE: {Psy Progéniteur, Ecologie centaurienne, Modulation de champ, Physique appliquée, Biogénétique}
+^
+
+#DATALINKS2
+^+1 CROISSANCE: {Détournement des ressources planétaires}
+^+1 MORAL: {Culture guerrière}
+^-1 PLANETE: {Planète ressent les intentions néfastes des Usurpateurs}
+^+25% Combat offensif: {peuvent ressentir et manipuler les champs de "résonance"}
+^RESERVOIRS DE RECYCLAGE gratuits sur chaque base
+^"Grille d'énergie" sur chaque base: {l'accroîssement de l'infrastructure génère de l'énergie supplémentaire}
+^Commence le jeu avec un Ogre de combat Mk I et une capsule de colonie supplémentaire
+^Toutes les unités de combat prototypées disposent d'un rayon de vision de 2 carrés (sensibilité à la "résonance")
+^Peuvent diriger leurs efforts de recherche (redécouverte des technologies et des infrastructures)
+^Possèdent un relevé physique de la surface de Planète
+
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"But ultime : la jonction avec le Collecteur. Cette guerre : un gâchis en regard de notre objectif. Trêve de Sang : exigée  !"
+
+"C'est d'accord : vous non plus, vous n'êtes pas notre priorité. Des affaires autrement importantes nous appellent."
+"Je n'aime pas beaucoup votre ton, $NAME3. Nous rejetons vos exigences !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Objectif ultime de l'Usurpateur : Transcendance et déité. Possibilité de partage avec les humains. Première étape : signer Traité d'Amitié. D'accord ?"
+
+"Effectivement... La Transcendance, c'est assez tentant. Où est-ce que je signe ?"
+"Nous autres humains, trouverons-nous vraiment une place dans votre nouvel ordre galactique ? C'est douteux. Je ne peux vous faire confiance pour respecter ce Traité !"
+
+
+# ; This line must remain at end of file

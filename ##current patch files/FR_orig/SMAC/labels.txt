@@ -1,0 +1,1144 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Miscellaneous Text Labels
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#LABELS
+1131
+Date
+Fonds
+En mouvement
+Visionnage
+Carte
+Vétéran
+Elite
+Mouvements
+à
+route
+tube
+Alt
+profond
+m
+Climat
+glacial
+frais
+doux
+chaud
+torride
+aride
+humide
+pluvieux
+Non
+végétation
+AUCUN
+FIN DU TOUR
+Appuyez sur ENTREE pour continuer
+Sid Meier's ALPHA CENTAURI
+Carte de mission
+Balayage planétaire
+Lecture des données
+Température
+Précipitation
+Physique
+Statut de la mission
+Energie
+Rendement
+Existant
+Sortie
+MINERAUX
+Nutriments
+Production
+ACCELERER
+Vue rapprochée de la Base de commande
+Continuer
+Bâti.
+Croissance
+Tour
+tours
+stagnant
+Famine
+Surplus
+Soutien
+Pénurie
+Ineff.
+Inefficace
+RESERVES D'ENERGIE
+Psy
+Econ.
+Labos
+Econ.
+Près de
+GARNISON
+FORCES SUPPORTEES
+Affiche base suivante (dans l'ordre alphabétique)
+Affiche base précédente (dans l'ordre alphabétique)
+Aucun minéraux
+Installations
+SOCIETE
+Modèle Socioéconomique
+Ordres
+Types de châssis
+Armes
+Défenses
+Capacités
+Technologies
+Hybrides
+Statistiques de la conception
+REACTEUR
+CHASSIS
+Taille/Energie
+Armement
+Projectile
+Taux d'énergie
+Défense
+Restant
+Coût de construction
+COUT
+plat
+vallon
+rocaille
+nutrim.
+minéraux
+Energie
+bonus
+Protection
+Max
+Type de châssis
+Type d'arme
+Type de défense
+OK
+Annuler
+Aide
+Attribution de l'énergie
+Equipement de survie
+Recherche
+Limite
+Energie-
+Projet-
+Espace vide
+unité
+unités
+Novice
+Expert
+saisir
+libérer
+saisie
+libération
+Personnaliser nouvelle unité.
+Catégorie
+Puissance
+Coût minimum
+...
+Attaquer
+Renommer
+Blindage
+Facteur coût
+Equipement
+Arme
+Proj.
+Ener.
+bas
+Modéré
+Haut
+Xénofongus
+Aucune aptitude spéciale
+Vide
+APTITUDE SPECIALE
+Requiert
+Transférer
+Réacteurs
+Monolithe
+Capteur solaire
+Mine
+Polymère
+Scout
+Paramètre max.
+Rapport de bataille
+RECHERCHE EN COURS
+Percées
+Total
+Energie totale
+par tour
+Hybride
+Installation
+Unité Abil.
+Tech
+Revenu
+Maintenance
+Réseau
+Charge utile
+Air
+Mer
+Aptitude
+Porter
+Un choix gratuit
+Type de société.
+Psy
+Econ.
+Labos
+Industrie
+Ferme
+Aucune végétation
+Nom :
+Formel :
+Nom :
+Adjectif :
+Ouvrier
+Projet
+de la faction
+Taux d'intérêt
+Reconnaissance
+Attaque
+Défense
+Prototype
+Majeur
+Mineur
+Poste avancé
+Base
+BASE
+Coût du prototype
+Inconnu
+Océan
+Indépendant
+Carburant
+Psy
+Unité
+Types d'unités
+Lui
+elle
+Pacte Frères de Sang
+Pacte Frères de Sang
+Pacte Frères de Sang
+Pactes Frères de Sang
+Pacte Frères de Sang
+Pacte Frères de Sang
+son
+sa
+il
+elle
+PACTE
+TRAITE
+TREVE
+VENDETTA
+Transferts de données
+Cargo
+Non armé
+Obs.
+Fermer
+Politique
+Unité de contact
+Intégrité.
+Puissance
+avec ferme
+avec mine
+avec capteur solaire
+avec varech
+avec plate-forme
+avec marée
+Fongus marin
+Engrais
+Relié
+PROTOTYPE TERMINE
+Rivière
+Terminer visite
+Continuer
+Ferme de varech
+Plate-forme de minage
+Harnais de marée
+Tube mag.
+Base aérienne
+Adhésifs en polymère
+Sélection complète ci-dessus
+Extra-terrestre
+Extra-terrestres
+DECOUVERT
+Disponible
+Distant
+Production
+Distance
+Annuler Destination
+Configuration Multijoueur
+PRET
+NON-PRET
+En attente
+Carte de bataille
+Carte de surveillance
+Transfert de données sur réseau
+Horloge
+Entretien
+Joueurs
+IDENTITE
+Tech
+Militaire
+Population
+Total
+Entretien
+Prêt
+En mouvement
+ACCEPTER
+de
+Conversation
+EN PAUSE
+Pause
+Activer
+Un
+Un
+3+ nutriments par carré
+3+ Minéraux par carré
+3+ Energie par carré
+Peut bâtir des tubes mag.
+sec/tour
+sec/base
+sec/unité.
+Aucun contrôle du temps
+Punir
++1 nutriment dans climat CHAUD
++1 nutriment dans climat PLUVIEUX
++1 nutriment dans climat MODERE
++1 nutriment dans climat ARIDE
+Forêt
+Reboisement
+PROFIL DE BATAILLE
+-- DETRUIT --
+-- EXTERMINE --
+-- CAPTURE --
+Paiement de prêt
+Revenu sur les prêts
+Balance
+Taux de com.
+Rev. du commerce
+Rev. de l'énergie
+Coûts de maint.
+/tour
+Noeud non relié
+Carte du monde
+Citoyens
+Citoyen
+Rayon
+Non disponible
+LIBRE
+Combat
+Commerce
+Ecologie
+Modéré
+Richesse
+RESTAURER
+Psy
+Ressource
+Soutien
+Renommer
+Non modifié.
+Psy
+Installations
+Police
+Pacifisme
+Projets secrets
+Force
+Transe
+Descente
+Terrain
+Base
+Proj/Energie
+Bombarder
+A Quai
+Dispositif de brouillage
+Suivi
+Fongus
+Improvisé
+Surprise
+Gaz innervant
+Psy Gaian
+Tourbillon des rêves
+Amplificateur neuronal
+Océan
+Fosse marine
+Engrais
+Colonie
+Coût du soulèvement
+Remboursement du soulèvement
+crédits énergétiques
+(Tour suivant)
+Lourd
+Périmètre
+Batterie
+Artillerie antiaérienne
+Tachyon
+Blockhaus
+Profil du sujet
+Personnalité.
+Agressif
+Excentrique
+Pacifiste
+Intérêts
+Connaissance
+Economie
+Colonisation
+Agenda
+Quartier général
+sur
+avec
+SANS FORMALITE
+TECHNOLOGIE
+BASES
+Statut des laboratoires
+COUT TECHNO
+TECHNO ACCUM
+TECHNO/TOUR
+/année
+BANQUE D'ENERGIE
+REVENU TOTAL
+MAINTENANCE TOTALE
+PRET TOTAL
+MAINTENANCE
+Suspendu
+Profil psychologique
+Opérations de la base
+Noeud de sécurité
+Actif
+Production
+Perdu
+Avec route
+Nouvelle unité proposée
+Endommagée
+Automatique
+Routes automatiques
+Tubes automatiques
+Amélioration automatique de la base
+Ferme+Capteur solaire+Route
+Mine+Capteur solaire+Route
+Retrait automatique de fongus
+Capteurs solaires automatique
+Nord
+Est
+Sud
+Ouest
+Patrouiller
+vers
+puis
+Patrouiller vers
+Mouvement vers
+Distance
+Fichiers enregistrés
+Fichiers de la carte
+Enregistrer les fichiers de la carte
+Charger fichier de la carte
+Taille du pinceau
+Croix
+Elévations
+Rocailleux
+Rivières
+Ressources
+Balises
+Protéger
+Modifier
+Fichier
+EDITEUR DE CARTE
+Base contre téléporteur
+Bombardement
+Duel d'artillerie
+En construction
+Score d'Alpha Centauri
+Groupe, allez à
+de
+Canons basés au sol
+Tir de contrebatterie
+Largage aérien
+Insertion orbitale
+Civil
+Faction dominante
+En montée
+Anathème à la Faction ! (+1 LEURRE)
+Ne pas afficher sous forme de fenêtre instantanée
+Bombarder $BASENAME0
+En alerte
+Duel air-air
+Duel sol-air
+Frappe au sol
+Air-air
+Sanctions
+Par Nom
+Par Taille
+Par Distance
+Vue rapprochée
+Tours restants
+Auto
+Gouverneur
+Effacer
+INSERER
+Espace vide
+- Aucune offre -
+- Offres -
+Négociation
+ACCEPTER
+REFUSER
+Transmission
+Accepter l'offre
+Refuser l'offre
+Terminer transmission
+Proposer un pacte
+Faire un traité
+Promettre une trêve
+Donner de l'énergie
+Partager la technologie
+Rompre un pacte
+Demander un retrait
+Profil
+Annuler les offres
+ORDRE
+ACCORD CONCLU
+PAS DE TREVE
+Statut
+Titre
+Description
+Genre
+Production
+Fréquence de communication
+Soumis
+TERMINER
+Faire gérer les citoyens par le Gouverneur
+Utiliser sectionnement des nerfs contre émeutiers (Atrocité)
+Créer
+Conseil planétaire
+GOUVERNEUR
+OUI
+NON
+S'ABSTENIR
+PROPOSITION
+CANDIDAT
+VETO
+EXCLU
+ELIMINE
+MESURE ADOPTEE
+MESURE REJETEE
+VETO EXECUTIF
+Conseil
+VOTE
+Propositions du Conseil
+ELU
+Communications et Protocole
+Immersion
+RETENU
+ELECTION SANS ISSUE
+VOTE
+VOTES
+Plan de bataille
+CHANGER
+ATTRIBUTION
+PRODUCTION
+NUTRIMENTS
+EXPLORER
+DECOUVRIR
+BATIR
+CONQUERIR
+Terrain dégagé
+QUITTER
+Transmission
+Attaque fanatique
+Porte ouverte
+Porte utilisée
+Volcan
+IMPITOYABLE
+IDEALISTE
+FACTION
+GENIE SOCIAL
+Accepter
+Fonction automatique désactivée
+Carte de destination
+TRANSFERTS DE DONNEES
+PERCEE EN RECHERCHE
+NOS CHERCHEURS ONT ACCOMPLI UNE PERCEE TECHNOLOGIQUE !
+NOUS AVONS ACQUIS UNE NOUVELLE TECHNOLOGIE !
+Artillerie
+Batterie
+Opérations spatiales
+Attaque de satellite
+Infanterie contre Base
+Terrain accidenté contre Unité mobile
+Vue rapprochée de la BASE
+Changer la production
+Accélérer
+Fixer sur EXPLORER
+Fixer sur DECOUVRIR
+Fixer sur BATIR
+Fixer sur CONQUERIR
+Définir l'itinéraire de livraison
+Déplacer l'unité vers
+Patrouiller vers
+Sortie de bombardement vers
+Largage aérien à
+Insertion orbitale à
+Tir de longue portée contre
+Action...
+Terraformer...
+Déplacer le curseur ici|Maj+Droit
+Centrer sur l'unité active|C
+Trouver une unité à déplacer|V
+Activer l'unité ici|A
+Activer les unités ici|A
+Terminer le tour|Ctrl+ENTER
+Renommer le point de repère
+Effacer le point de repère
+Nommer le point de repère
+Info sur ce carré|Maj+RETOUR
+Aide
+Altitude
+Formes de vies rares
+Formes de vies abondantes
+Taille
+Recentrer la fenêtre de la carte ici
+Recentrer cette fenêtre ici
+Ouvrir une nouvelle fenêtre de carte
+Analyse PHYSIQUE
+Analyse du CLIMAT
+Analyse des PRECIPITATIONS
+Analyse POLITIQUE
+Analyse principale
+Analyse de l'économie
+Profil de la faction ennemie
+Analyse diplomatique
+Analyse de la base
+Analyse de l'unité.
+Analyse du terrain
+Diagramme des factions dominantes
+Tableau des factions dominantes
+Identité.
+Analyse de l'éditeur de carte
+Activer l'unité.
+"Laissez tomber !"
+"Presque..."
+Menacer
+MENACE !
+Offrir toutes les tech.
+Vendetta
+Se joindre à la vendetta
+Attaque sur route
+Territoire
+Vous attaquez
+Modèle
+Horloge
+Unité mobile en terrain dégagé
+Unité mobile contre Base
+Capteur
+Marines
+Envahisseurs
+Libre
+Défendre
+Attaquez mon ennemi
+Reprise de la conception
+Nouvelle conception
+Atelier
+Ignorer blindage
+Ignorer Arme
+Menu
+Planète
+Fichiers du scénario
+IA
+AUCUN CONTACT
+E
+D
+B
+C
+Déjà déplacée
+Montrer Info sur la base
+Montrer Info sur l'unité.
+Contacter
+Profil de la faction
+Convoquer le Conseil planétaire
+Activer/désactiver la conversation
+Envoyer message
+Aucun ctrl
+Horloge
+Trêve
+Traité.
+Pacte
+Vendetta
+Vendetta
+Ils ont
+Gouv
+Explorer
+Découvrir
+Bâtir
+Conquérir
+Attribution
+Apport
+Consommation
+Minéraux accumulés
+Dégâts écologiques
+Attribution d'énergie
+Dépenses des ressources
+Paramètres du gouverneur avancés
+Gaz innervant
+Le Grand Cratère
+RETOUR
+FERMER
+Module
+Niveau
+PARAMET. PREDEFI. DU VEHI.
+Editeur de faction
+Règles spéciales
+Règles sociales
+Saisies du texte
+Charger
+Enregistrer
+Editeur de l'IA
+SANS TITRE
+Sauvegarde automatique d'Alpha Centauri
+BUDGET
+COUT TOTAL
+Montrer société.
+Montrer Détail
+MEILLEURES
+PRODUCTION DU LAB.
+PRODUCTION PSY
+POPULATION
+INFRASTRUCTURE
+INFO
+MESSAGES
+RESUME DU LABORATOIRE
+ATTRIBUTION D'ENERGIE
+OPERATIONS DE LA BASE
+RAPPORTS SUR LE PROJET SECRET
+RECONNAISSANCE SATELLITE
+NOEUD DE SECURITE
+SCORE D'ALPHA CENTAURI
+FICHIERS DE RENSEIGNEMENT
+PENURIE
+MAXIMISER
+GENIE SOCIAL
+VUE D'ENSEMBLE DE LA SOCIETE
+ACTIVE
+DESACTIVE
+AVANCE
+PROGRES TECH
+EMEUTES DE DROIDES
+GAZ INNERVANT
+Ajouter au début de la liste de construction
+Ajouter à la fin de la liste de construction
+Vitesse
+Allez à la base aérienne la plus proche
+Faire défiler
+CONCEPTS DE BASE
+CONCEPTS AVANCES
+TOUTES LES CATEGORIES
+TYPES D'UNITES DE BASE
+TYPES DE CHASSIS
+TYPES DE REACTEURS
+ARMES ET MODULES
+TYPES DE BLINDAGES
+APTITUDES SPECIALES
+TERRAFORMAGE
+INSTALLATIONS DE LA BASE
+PROJETS SECRETS
+MODELES DE SOCIETE
+EFFETS DE LA SOCIETE
+AVANCEE TECHNOLOGIQUE
+PROFILS DE FACTION
+RETOUR
+FERMER
+A.M.
+Annuler les ordres
+E sommeil/Monter à bord de l'unité de transport
+Tenir
+Dissoudre
+Supporter d'ici
+Vue rapprochée de la base d'origine
+Donner l'ordre à l'unité de rentrer
+Homme
+Femme
+EFFETS SOCIAUX
+PUISSANCE DE LA FACTION
+DEPENSES
+RESUME
+PRODUCTION
+CITOYENS
+SELECTIONNER TOUS
+DEFINIR SUR
+PARAMETRES AVANCES
+DESACTIVER GOUVERNEUR
+Préférences
+Préférences avancées
+Préférences d'avertissement
+Préférences d'automatisation
+Préférences audio/visuel
+AJOUTER
+OBSOLETE
+AMELIORER
++1/carré
+-1/carré
+NUTRIMENTS : Récoltes abondantes
+NUTRIMENTS : Récolte médiocre
+MINERAUX : Boom industriel
+MINERAUX : Faillite industrielle
+ENERGIE : Vague de chaleur
+ENERGIE : Nuageux
+ENERGIE : Nuages de poussière
+Gouverneur désactivé.
+Passer à la carte détaillée
+Passer à la carte mondiale
+Active le Gouverneur^EXPLORER : Scouts, Capsules colonie, Transports
+Active le Gouverneur^DECOUVRIR : Projets, Prototypes, Equipes de repérage, Noeuds de réseau
+Active le Gouverneur^BATIR : Formeuses et installations
+Active le Gouverneur^CONQUERIR : Unités militaires, Centres de commandement.
+Active et désactive le Gouverneur
+Montre les ressources produites par cette base
+Montre l'emplacement des unités supportées par cette base
+Montre les origines des droïdes et des talents à cette base
+Change les ordres de production de cette base
+Accélère la production de cette base
+FILE DE PRODUCTION :^Définie une série d'ordres de production
+CONCEPTION D'UNE NOUVELLE UNITE
+MODIFICATION D'UN MODELE PRECEDENT
+Activer le Menu principal du jeu
+Communiquer avec les dirigeants des autres factions
+Montrer les événements survenus pendant ce tour
+Montrer les informations générales utiles
+Passer au tour suivant
+Accepter le modèle de cette unité.
+Renommer ce type d'unité.
+Marquer ce modèle d'unité comme obsolète :^Il n'apparaîtra plus sur les listes
+Mettre à niveau toutes les unités de ce type vers^un autre modèle d'unité que vous avez créé.
+Annuler le modèle d'unité.
+NE plus montrer de nouveaux modèles d'unité.
+Vue rapprochée
+Vue éloignée
+Vue standard
+COMMERCE : Avec les autres factions, TRAITE ou PACTE nécessaires.
+INSTALLATIONS : Montre les installations de cette base ;^Cliquez pour mettre au rebut et recycler.
+NUTRIMENTS : Vert foncé indique un besoin de nutriments pour la croissance ;^Vert clair indique les nutriments accumulés.
+L'ENERGIE supporte l'économie et la recherche.
+Les MINERAUX supportent la production et les unités.
+Les NUTRIMENTS supportent la population et la croissance.
+L'ENERGIE pour le PSYCHISME améliore les conditions de vie : plus de TALENTS et moins de DROIDES.
+L'ENERGIE pour les LABOS supporte la recherche.
+L'ENERGIE pour l'ECONOMIE crée de la richesse.
+RESSOURCES : Montre les nutriments/les minéraux/l'énergie produits dans^chaque carré. Cliquez pour modifier. Cliquez sur le centre du carré pour optimiser.
+SUPPORTE : Montre les unités supportées par cette base^(pas nécessairement présentes à cette base).
+GARNISON : Montre les unités présentes à cette base.
+CITOYENS : Montre la population de cette base.^Ainsi que le nombre d'Ouvriers, de Talents, de Droïdes et de Spécialistes.
+DESCRIPTION DU PROJET
+Sélectionner un projet pour plus information.
+RESUME DU SATELLITE
+ATTAQUE ORBITALE
+ATTAQUE !
+Votre attaque a été couronnée de succès !
+Aucune autre faction ne possède de satellite.
+[Vol spatial orbital] pas encore accompli.
+Vous devez avoir une [Capsule de défense orbitale] non déployée pour attaquer.
+Votre attaque a échoué. Capsule de défense orbitale détruite.
+PRODUCTION : Ce que produit cette base.^les symboles sombres indiquent les minéraux requis pour terminer la production, les symboles clairs indiquent le progrès de la production.
+CHASSIS : Détermine la rapidité de votre unité,^et s'il s'agit d'unité au sol, navale ou aérienne.
+ARMEMENT : Permet d'attaquer (ou)^EQUIPEMENT : des fonctions civiles.
+BLINDAGE : Aide votre unité à se défendre contre les attaques ennemies.
+REACTEUR : Augmente la puissance et réduit le coût.
+APTITUDE : Ajoute une fonction spéciale à l'unité.
+Sélectionnez un modèle à examiner ou modifier^ou un emplacement libre pour créer une nouvelle unité.
+PREDEFINIS : Cliquez sur ces boutons pour obtenir des conseils sur la manière^de concevoir un type particulier d'unité.
+Utilisez ces boutons pour organiser votre société.^Vous en obtenez des supplémentaires grâce à la recherche.^Info. Voir TRANSFERT DE DONNEES .
+ECONOMIE : + augmente votre production d'énergie
+EFFICACITE : + réduit la perte d'énergie en raison de l'inefficacité
+SOUTIEN : + réduit le coût en minéraux pour soutenir des unités
+MORAL : + augmente le moral des unités militaires
+POLICE : + permet l'utilisation de la police pour empêcher les émeutes de droïdes
+CROISSANCE : + réduit les nutriments requis pour la croissance de la population
+PLANETE : + réduit les dégâts écologiques aide à la capture des vers télépathes & psy
+INFILTRATION : + réduit la vulnérabilité face à la subversion, au contrôle de l'esprit
+INDUSTRIE : + réduit les minéraux requis pour produire des éléments
+RECHERCHE : + accélère la recherche technologique
+EFFETS : Montre les effets de vos choix sociaux, la puissance de votre faction.
+FACTION : Montre les faiblesses et les forces spéciales de votre faction.
+ECONOMIE : Utilisé pour augm./dim. le^% d'énergie pour la création de richesse.
+LABOS : Utilisé pour augmenter/diminuer le^% de votre énergie pour la recherche.
+PSY : Utilisé pour augmenter/diminuer le^% de votre énergie de qualité de vie.
+VERROUILLER : Verrouille/déverrouille cette barre d'attribution^(permet d'effectuer des changements dans les deux autres).
+Revient à l'état auquel vous étiez lors de l'accès à cet écran.
+EDITER BASE
+EDITER : éditer cette base lors de la création d'un scénario
+Augmenter la population de la base|+
+Diminuer la population de la base|-
+Editer les installations de la base
+Editer les projets secrets
+PRESENT
+Détruit
+Copier les installations de la base
+Effacer toutes les installations
+Ajouter toutes les installations disponibles
+Redéfinir sur non bâti
+Définir sur détruit
+Mousson
+Dune
+Uranium
+Géothermique
+Taille de la carte
+Plate
+Ronde
+Diplomatie pour
+Effacer
+J'ai un agent d'infiltration
+Je veux parlementer
+Je demande vengeance
+Je me suis rendu
+Je vais trahir
+Je suis victime d'une atrocité
+Combattre jusqu'à la mort
+TRANSMISSION
+Atrocité
+Atrocités commises
+Atrocités majeures commises
+BARRE D'OUTILS
+BARRE D'OUTILS : Barre d'outils d'éditeur de carte et de scénario
+EFFACER MESSAGE
+ENVOYER MESSAGE
+ACCEPTER L'OFFRE
+REFUSER L'OFFRE
+TERMINER LA TRANSMISSION
+PARTAGER TECHNOLOGIES
+DONNER DE L'ENERGIE
+OFFRIR VOS TECHNOLOGIES
+ATTAQUER MON ENNEMI
+PROPOSER UNE TREVE
+FAIRE UN TRAITE
+PROPOSER UN PACTE
+TERMINER UN PACTE
+Définir le statut actuel comme permanent
+Editer unité...
+Marquer la base comme OBJECTIF
+Effacer le marqueur OBJECTIF
+Objectif
+Objectifs
+Victoire
+Défaite
+Effacer base
+Dissoudre/Détruire|Maj+D
+Renoncer au Pacte
+Lui ordonner un repli
+TYPES D'UNITES
+Unités au sol
+Unités navales
+Unités aériennes
+Unités civiles
+Toutes les unités
+Obsolète
+EXAMINE UNITE DE BASE
+Emplacement
+ATELIER DE CONCEPTION
+EXAMINATION MODELE PRECEDENT
+NOUV. MODELE BASE / ANCIEN
+APPLIQUER
+Mk
+Copier instal. de la base (vers une autre)
+TOUTES BASES DE FACTION
+TOUTES BASES
+3/4 NECESSAIRE
+Victoire diplomatique.
+HS
+HS : mettre les unités Hors Service ; dissoudre ces unités.
+APPLIQUER : appliquer mais ne pas quitter l'écran.
+actif
+en production
+Victoire économique
+ANALYSE BIO
+REPUTATION
+HUMEUR
+STATUT DIPLOMATIQUE
+INFILTRATION
+INACTIF
+AUCUN QG
+TRANSF. DE DONNEES
+INFOS DU QG
+TECHNOLOGIES
+BASES
+TRAITES
+Elévations
+Rocailleux
+Rivières
+Ressources
+Capsules Unity
+Couvrir carte
+Pinceau : un carré
+Pinceau : Croix
+Pinceau : Losange 3x3
+Pinceau : Rayon de la base
+Pinceau : Losange 5x5
+Pinceau : Losange 7x7
+AUTOMATISER UNITES
+AMELIORATIONS D'UNITE
+DIVERS
+Dégâts écolo.
+REVENU NET
+Voix du Conseil planétaire
+A suffisamment de ressources pour effectuer un achat de toutes les bases restantes ! Le marché sera conclu en
+COUTS DE MAINTENANCE
+LOCALISATEUR DE BASE
+ANALYSE DU RESULTAT
+JOURNAL DU JOUEUR
+SELECTIONNER LA FACTION CIBLE
+SELECTIONNER LE SATELLITE CIBLE
+Carte détaillée
+CONDITION PREALABLE
+Base capturée
+Base maîtrisée
+Illimité
+* Réacteur
+SCORE LE PLUS ELEVE
+MEILLEUR EN NIVEAU TECH.
+MEILLEUR EN RESERVES D'ENERGIE
+MEILLEUR EN POPULATION
+RAPIDE EN CONQUETE
+RAPIDE EN TRANSCENDANCE
+Mode PEINTURE (Arrêt. Défil activé)
+Mode JEU (Arrêt. Défil désactivé)
+Editer Minéraux
+Editer Nutriments
+30-50% de surface
+50-70% de surface
+70-90% de surface
+Fort (terrain vallonné et plat)
+Moyen (terrain accidenté)
+Faible (terrain irrégulier, montagneux)
+100 millions milles (planète au climat froid)
+90 millions milles (planète au climat tempéré)
+80 millions de milles (planète au climat chaud)
+Peu dense (légères précipitations)
+Moyennes
+Dense (précipitations abondantes)
+Rare
+Moyenne
+Abondante
+PERSONNALISER OPTIONS DU JEU
+Nombre maxi de joueurs
+Niveau de difficulté global
+Carte préparée
+Taille de la Planète
+Couverture océanique
+Forces d'érosion
+Formes de vie extra-terrestres
+Couverture nuageuse
+Permuter
+une ferme
+une mine
+un capteur
+VISITE GUIDEE
+Aucun effet
+Charger carte
+Charger scénario
+Charger jeu
+Aléatoire
+Remplacer
+Mode Fonctions
+Mode Ressource
+Consulter les transferts de données
+Objectifs du scénario
+Date limite du scénario
+CARTE DEFINIE
+Bonus
+Cliquez avec le bouton droit/Ctrl-Cliquez avec le bouton droit pour modifier les satellites
+Contrôles du temps
+Silos exterminateurs de Planète
+SCENARIO
+SAUVEGARDE
+gagne
+MODE EDITEUR
+PROTO
+PROTO : Fonction de l'éditeur de scénario ; rend le prototype accessible.
+Dessiner
+OBJ. ALLIES
+ABANDON
+ABANDON : Fonction de l'éditeur de scénario ; détruit tous les prototypes du joueur.
+Modifier le propriétaire
+Modifier le propriétaire précédent
+Homme de fer
+Défenseur désigné.
+Effacer unité...
+PRET
+NON PRET
+LANCER LE JEU
+TRICHER
+TRICHE
+TRICHE
+Bonus d'Homme de fer
+Pénalité de triche
+Editeur de scénario
+EDITEUR UTILISE
+Type de jeu
+Nouveau jeu avec carte aléatoire
+Nouveau jeu avec carte enregistrée
+Jeu sauvegardé
+Verrouiller la difficulté
+Classement
+Class. d'Alpha Centauri
+OU
+Détruire améliorations|D
+5 SCORES LES PLUS ELEVES
+DIFFICULTE
+Déplacements simultanés
+Tours séquentiels
+Votre tour
+Joueur en cours de jeu
+En cours de jeu
+En déplacement
+Double la production de ressources
+Double le déplacement de l'unité/des unités
+Humains au contact au démarrage
+DEMO Score
+Factions éliminées
+Factions ayant rendu les armes
+Préférences de carte
+Correction Gamma
+Restaurer options par défaut
+Sons désactivés
+Sons activés
+Voix désactivée
+Voix activée
+FX désactivés
+FX activés
+Mus. désactivée
+Mus. activée
+PLUS
+TAILLE PERSONNALISEE
+Horizontale
+Verticale
+(variable en fonction du terrain)
+En alternance
+Saisir mot de passe
+Mot de passe
+Joueur suivant
+Joueur actuel
+En alternance/par E-mail
+Sélectionner unité
+Agrandir le message
+Effacer le message
+Agrandir et effacer
+Mots de passe erronés
+Annuler tous obsolètes
+Ajouter à la liste
+Production
+GRILLE ENERGETIQUE
+Offensive extra-terrestre
+Défense extra-terrestre
+Attaque par résonance
+Déf. par résonance
+Défense par impulsion
+Fléchette
+SELECTIONNEZ VOS FACTIONS
+Les factions SMAC initiales
+Les nouvelles factions
+Un mélange d'anciennes et de nouvelles factions
+CHANGER DE NOM
+CITATION
+FACTION AU HASARD
+FACTION SELECTIONNEE
+AU HASARD
+GSP
+GRILLE D'ENERGIE : la résonance dans les structures de la base
+ARRET
+Victoire des Progéniteurs
+Gardiens
+Usurpateurs
+garantir que l'expérience du Collecteur reste pure
+exploiter la puissance de l'expérience du Collecteur
+
+
+# ; This line must remain at end of file

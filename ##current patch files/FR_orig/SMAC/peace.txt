@@ -1,0 +1,144 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; DOSSIER FACTION : Force de Maintien de la Paix
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+; Lors du démarrage, ALPHA CENTAURI lit les règles du jeu à partir de ce
+; fichier. Vous pouvez essayer d'éditer ce fichier à vos risques et périls.
+; Nous vous recommandons de faire auparavant une copie de sauvegarde.
+;
+
+#PEACE
+FORCES DE MAINTIEN DE LA PAIX, L'Humaniste, Protecteurs de la Paix, M, 2, Lal, M,  0,  0, 1, 0, 1,
+  TECH, Biogen, TALENT, 4, SOCIAL, -EFFIC, POPULATION, -2, VOTES, 2
+  Politique, Démocratique, GROWTH
+  Politique, Etat policier, vide
+  Faction Protectrice de la Paix
+  Sarita, Kakani, Mémorial de Sarita
+  Frère, compatissant, vertueux, loyaux, geignards,
+  mauviette pusillanime
+  défendre les principes de notre Charte des Nations Unies
+  défendre les principes humanitaires de notre Charte originale des Nations Unies
+  se présenter comme la seule autorité 'légitime' de la Planète
+  vous présenter comme la seule autorité 'légitime' de la Planète
+  que vous vous transformez en une sorte de dictateur bienveillant
+  embrasser sa précieuse Charte des Nations Unies
+  embrasser votre précieuse Charte des Nations Unies
+  me lamenter
+  lamentations humanitaires, F2
+  vos initiatives humanitaires, F2
+  programmes sociaux pleurnichards, M2
+  une petit contribution, F1
+  à offrir un gouvernement légitime à cette Planète
+  aux Forces de maintien de la Paix
+  la Charte des Nations Unies
+
+#BASES
+Q.G. DES N. UNIES, M1
+CONSEIL DES N. UNIES, M1
+TEMPLE DES N. UNIES, M1
+REFUGE DES N. UNIES, M1
+DOMAINE DES N. UNIES, M1
+VILLE DES N. UNIES, F1
+STATION DES N. UNIES, F1
+VILLAGE DES N. UNIES, M1
+BASE DES N. UNIES, F1
+AUTORITES DES N.UNIES, F1
+COMMISSION DES N. UNIES, F1
+AGENCE DES N. UNIES, F1
+SIEGE DES N. UNIES, M1
+COMITE DES N. UNIES, M1
+TRIBUNAL DES N. UNIES, M1
+SECURITE DES N. UNIES, F1
+FONDS DES N. UNIES, M1
+TRIBUNAL DES N. UNIES, M1
+CITE DES N. UNIES, F1
+POLICE DES N. UNIES, F1
+CENTRE DES N. UNIES, F1
+CONGRES DES N. UNIES, M1
+HUMANISME DES N. UNIES, F1
+#END
+
+#WATERBASES
+DOCKS DES N. UNIES, M1
+HYDROBASE DES N. UNIES, F1
+HYDROFERME DES N. UNIES, F1
+JETEE DES N. UNIES, F1
+PORT DES N. UNIES, M1
+#END
+
+#BLURB
+  Un flux d'informations libre est le seul rempart contre la tyrannie. C'est
+la triste expérience que les Américains ont faite durant leur dernier siècle
+sur Terre. Les peuples opprimés dont les dirigeants décident finalement
+de lever leur mainmise sur les circuits d'informations retrouveront bien
+vite liberté et vitalité. En revanche, les nations libres qui contrôlent
+chaque jour un peu plus les opinions publiques entament leur longue descente
+vers le despotisme. Méfiez-vous de la personne qui veut limiter votre accès
+à l'information car, au plus profond de son être, elle ne rêve que
+de domination.
+^
+^        -- Commissaire Pravin Lal,
+^           "Déclaration des droits des Nations Unies"
+
+#DATALINKS1
+^DIRIGEANT : {Commissaire Pravin Lal}
+^CURRICULUM : {Autorité spatiale des Nations Unies, Chirurgien de l'Unity}
+^ORDRE DU JOUR : {Idéaux humanitaires, Démocratie}
+^TECHNOLOGIE : {Biogénétique}
+^
+
+#DATALINKS2
+^-1 EFFICACITE : {bureaucratie du type Nations Unies}
+^Un TALENT supplémentaire tous les quatre citoyens : {Attire l'élite intellectuelle}
+^Peut dépasser de 2 les exigences de population par COMPLEXE D'HABITATION.
+^Reçoit le DOUBLE de voix lors de l'élection du Gouverneur planétaire et du Dirigeant Suprême.
+^{Ne peut pas utiliser la politique de l'Etat policier}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Cette lutte ne nous mène à rien, $NAME1.
+Oublions nos différences et concentrons nos efforts sur les
+objectifs de cette mission".
+
+"Cela paraît juste. J'ordonne le cessez-le-feu".
+"Ah ! Quel plaisir j'aurai à voir vos bases brûler !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"La fragmentation de cette mission a été un vrai désastre, $TITLE0
+$NAME1. Ne souhaitez-vous pas signer un Traité d'amitié et m'aider
+à réunifier les autres ?"
+
+"C'est un but honorable, $TITLE4, c'est d'accord".
+"Non. Ce qui est fait est fait, $NAME3."
+
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Ces querelles entre nous ne riment à rien, $NAME1.
+Oublions nos différences et reconcentrons nos efforts sur la survie."
+
+"Survie : essentiel. Trêve : d'accord."
+"Concept : 'nous': humains. Votre destruction : continuer."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"La fragmentation de notre mission signifie que vous devez traiter
+individuellement avec chaque faction, $TITLE0 $NAME1. Voulez-vous signer
+une Traité d'amitié et m'aider à créer une nation humaine unifiée ?"
+
+"Beaucoup mieux : une nation humaine. votre objectif : accepté."
+"$NAME3 : semble oublier: parler aux Progéniteurs. Offre : rejetée."
+
+
+
+# ; This line must remain at end of file
+
+

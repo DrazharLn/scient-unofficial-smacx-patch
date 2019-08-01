@@ -1,0 +1,2084 @@
+;
+;  Aide
+;
+
+#HELPCATS
+Concepts
+Réacteurs
+Armes
+Armure
+Châssis
+Bâtiments
+Social
+Aptitudes
+Technologie
+Véhicules
+Projets
+Factions
+Citoyens
+Terraformage
+
+#HELPTECHS
+#xs 600
+#caption SELECTIONNER LA TECHNOLOGIE
+
+#HELPTECH
+#xs 440
+#caption Technologie : $STR0
+^$STR0
+^
+
+#TECHHECK
+^Les formeuses peuvent améliorer les carrés de fongus.
+^Les restrictions sur le déplacement du fongus sont levées.
+^Il est possible de construire des routes dans les carrés de fongus.
+^Les unités peuvent être conçues avec deux aptitudes spéciales.
+^Les restrictions sur les nutriments sont levées ; production de plus de 3 nutriments/carré.
+^Les restrictions sur les minéraux sont levées ; production de plus de 3 minéraux/carré.
+^Les restrictions sur l'énergie sont levées ; production de plus de 3 énergies/carré.
+^Secrets : la première faction à les découvrir acquiert de la technologie gratuite.
+^Augmente le moral de base de l'équipe de repérage.
+^Augmente les revenus du COMMERCE découlant des traités et des pactes.
+^La totalité de la carte planétaire est révélée.
+^Les équipes de repérage peuvent commettre des atrocités de la guerre génétique.
+^Augmente la production d'ENERGIE dans les carrés de fongus.
+^Augmente la production de MINERAUX dans les carrés de fongus.
+^Augmente la production de NUTRIMENTS dans les carrés de fongus.
+^Les unités dotées de capsules de largage peuvent effectuer des insertions orbitales.
+^+1 de bonus de Minéraux pour toutes les plates-formes minières
+^Victoire économique autorisée
+^Victoire diplomatique autorisée
+^Les formeuses peuvent exécuter l'ordre "$TERRAFORM0".
+
+#CITIZENHECK
+^Bonus de commerce pour la base.
+^Bonus de production pour la base.
+^Bonus de défense Psy pour la base.
+^Bonus de moral pour la base.
+^Bonus de soutien d'unité pour la base.
+^Bonus d'efficacité pour la base.
+^Bonus d'extra-terrestres pour la base.
+
+#HELPWEAPONS
+#xs 440
+#caption SELECTIONNER LE TYPE D'ARME
+
+#HELPWEAPON
+#xs 440
+#caption Arme : $STR0
+^
+^PUISSANCE DE FEU : $NUM0
+^COUT : $NUM1
+^
+^TECHNOLOGIE : $LINK<$STR2=$NUM2>
+
+#HELPWEAPON2
+#xs 440
+#caption Arme : $STR0
+^
+^PUISSANCE DE FEU : $NUM0
+^
+^TECHNOLOGIE : $LINK<$STR2=$NUM2>
+
+#HELPDEFENSES
+#xs 440
+#caption SELECTIONNER LE TYPE DE DEFENSE
+
+#HELPDEFENSE
+#xs 440
+#caption DEFENSE : $STR0
+^
+^PUISSANCE : $NUM0
+^
+^TECHNOLOGIE : $LINK<$STR2=$NUM2>
+
+#HELPDEFENSE2
+#xs 440
+#caption DEFENSE : $STR0
+^
+^PUISSANCE : $STR1
+^
+^TECHNOLOGIE : $LINK<$STR2=$NUM2>
+
+
+#HELPREACTOR
+#xs 440
+#caption DEFENSE : $STR0
+^
+^PUISSANCE : $NUM0
+^TECHNOLOGIE : $LINK<$STR1=$NUM1>
+
+
+#HELPCHASSIS2
+#xs 440
+#caption SELECTIONNER LE TYPE DE CHASSIS
+
+#HELPCHASSIS
+#xs 440
+#caption CHASSIS : $STR0
+^
+^TAUX DE MOUVEMENT : $STR1 $NUM0
+^
+^TECHNOLOGIE : $LINK<$STR2=$NUM3>
+
+
+#HELPCROPS
+#xs 440
+#caption LISTE DES TYPES DE RECOLTE
+
+
+#HELPFACS
+#xs 440
+#caption SELECTIONNER LE TYPE DE BATIMENT
+
+#HELPFAC
+#xs 440
+#caption BATIMENT DE BASE : $STR0
+^
+^COUT : $NUM0
+^ENTRETIEN : $NUM1
+^
+^TECHNOLOGIE : $LINK<$STR1=$NUM2>
+^
+
+#HELPFACFREE
+#xs 440
+#caption BATIMENT DE BASE : $STR0
+^
+^COUT : $NUM0
+^ENTRETIEN : $NUM1
+^
+^TECHNOLOGIE : $LINK<$STR1=$NUM2>
+^GRATUIT POUR LES NOUVELLES BASES : $LINK<$STR2=$NUM3>
+^
+
+
+
+#HELPPROJS
+#xs 440
+#caption SELECTIONNER LE PROJET SECRET
+
+#HELPPROJ
+#xs 440
+#caption Projet secret : $STR0
+^
+^COUT : $NUM0
+^
+^TECHNOLOGIE : $LINK<$STR1=$NUM2>
+^
+
+#HELPUNIT
+#xs 440
+#caption TYPE D'UNITE : $STR0
+^ATTAQUE : {$STR2}
+^DEFENSE : {$STR3}
+^DEPLACEMENT : {$NUM1}
+^COUT : {$NUM0}
+^
+^TECHNOLOGIE : $LINK<$STR1=$NUM2>
+
+#HELPUNITS
+#xs 400
+#caption SELECTIONNER LE TYPE D'UNITE
+
+#HELPABILS
+#xs 400
+#caption SELECTIONNER LE TYPE D'APTITUDE SPECIALE
+
+#HELPABIL
+#xs 440
+#caption APTITUDE SPECIALE D'UNITE : $STR0
+^
+^APTITUDE : $STR2
+^COUT : $STR3
+^
+^TECHNOLOGIE :    $LINK<$STR1=$NUM0>
+
+#HELPTERRAFORM
+#xs 440
+#caption TERRAFORMAGE : $STR0
+^
+^NOMBRE DE TOURS REQUIS : $NUM1 $STR2
+^
+^TECHNOLOGIE : $LINK<$STR1=$NUM0>
+
+
+#; Quartier général
+#HELPFAC1
+Centre administratif de votre colonie. $LINK<+1 ENERGIE=43> . Pas
+d'$LINK<EFFICACITE=25> . Les $LINK<équipes de repérage=30006> ennemies
+ne peuvent pas essayer de contrôle psychique ici.
+
+#; Crèche pour enfants
+#HELPFAC2
+La base reçoit +2 sur l'échelle de $LINK<CROISSANCE=130006>
+et +1 sur l'échelle d'$LINK<EFFICACITE=130001>.
+Tous les effets négatifs de $LINK<MORAL=130004> sont annulés
+pour les unités du carré de base ; ces unités
+reçoivent à la place un bonus de 1 au MORAL.
+Diminue la vulnérabilité de la base au contrôle psychique de l'ennemi.
+
+#; Réservoirs de recyclage
+#HELPFAC3
+Augmente la production de $LINK<NUTRIMENTS=41>, de $LINK<MINERAUX=42>,
+et d'$LINK<ENERGIE=43> du carré de base.
+
+#; Périmètre de défense
+#HELPFAC4
+Augmente de 1 le multiplicateur de défense de la base. Ceci
+a pour effet de doubler la puissance de la défense (ou de la tripler
+en combinaison avec un $LINK<Champ de tachyons=100005>).
+
+#; Champ de tachyons
+#HELPFAC5
+Augmente de 1 le $LINK<multiplicateur de défense=100004> de la base.
+Cumulable avec la Périmètre de défense, permet de tripler
+la puissance de la défense de la base.
+
+#; Dôme de divertissement
+#HELPFAC6
+Diminue de deux le nombre de $LINK<Droïdes=36> de la colonie.
+
+#; Banque d'énergie
+#HELPFAC7
+Augmente de 50% l'$LINK<ECONOMIE=44> de la base.
+
+#; Noeud de réseau
+#HELPFAC8
+Augmente de 50% les $LINK<LABOS=45> sur la base. La base peut étudier
+les $LINK<objets anciens=30007>.
+
+#; Laboratoire de biologie
+#HELPFAC9
+$LINK<+2 labos=45> par tour.
+Toute forme de vie indigène élevée sur cette base acquiert
+un bonus de $LINK<1 de cycle de vie=11>
+
+#; Usine secrète
+#HELPFAC10
+Elimine les coûts supplémentaires de $LINK<prototype=23> d'unités
+nouvelles sur cette base.
+
+#; Théâtre holographique
+#HELPFAC11
+Divise par deux le nombre de $LINK<Droïdes=36>, et augmente de 50%
+la $LINK<PSY=38> de la base.
+
+#; Dôme de Paradis
+#HELPFAC12
+Deux $LINK<talents=37> supplémentaires sur cette base.
+
+#; Ferme arboricole
+#HELPFAC13
+Augmente de 50% la $LINK<PSY=38> de la base et
+de 50% également ses $LINK<ECONOMIES=44>.
+Augmente la production de $LINK<NUTRIMENTS=41> dans les carrés de
+$LINK<forêt=90004>.
+Elimine au moins la moitié des $LINK<dégâts écologiques=26> provoqués
+par le terraformage ($LINK<fermes=90000>, $LINK<mines=90002>,
+$LINK<routes=90005>, etc.)
+
+#; Forêt hybride
+#HELPFAC14
+Augmente la production de $LINK<NUTRIMENTS=41> et d'$LINK<ENERGIE=43>
+dans les carrés de $LINK<forêt=90004>.
+Augmente de 50% la puissance $LINK<PSY=38>de la base et
+de 50% également
+ses $LINK<ECONOMIES=44>, et, en combinaison avec
+la $LINK<ferme arboricole=100013>, élimine les dégâts écologiques
+provoqués par le terraformage. Cumulable avec la Ferme arboricole.
+
+#; Laboratoire de fusion
+#HELPFAC15
+Augmente de 50% l'$LINK<ECONOMIE=44> et les
+$LINK<LABOS=45> sur la base.
+
+#; Laboratoire quantique
+#HELPFAC16
+Augmente de 50% l'$LINK<ECONOMIE=44> et
+les $LINK<LABOS=45> sur la base. Cumulable avec le
+$LINK<Laboratoire de fusion=100015>.
+
+#; Hôpital de recherche
+#HELPFAC17
+Augmente de 25% le pouvoir $LINK<PSY=38> et de 50%
+les $LINK<LABOS=45> sur la base. Diminue de 1 le nombre
+de $LINK<Droïdes=36>. Réduit la perte de population entraînée par
+la guerre génétique et autres flambées de maladie.
+
+#; Nano-hôpital
+#HELPFAC18
+Augmente de 25% le pouvoir $LINK<PSY=38> et de 50%
+les $LINK<LABOS=45> sur la base. Diminue de 1 le nombre
+de $LINK<Droïdes=36>. Réduit la perte de population entraînée par
+la guerre génétique et autres flambées de maladie. Cumulable avec
+l'$LINK<Hôpital de recherche=100017>.
+
+#; Usine de montage robotique
+#HELPFAC19
+Augmente de 50% la production de $LINK<MINERAUX=42>. Cumulable avec
+tous les autres bâtiments de ce type.
+
+#; Nano-réplicateur
+#HELPFAC20
+Augmente de 50% la production de $LINK<MINERAUX=42>. Cumulable avec
+tous les autres bâtiments de ce type.
+
+#; Convertisseur quantique
+#HELPFAC21
+Augmente de 50% la production de $LINK<MINERAUX=42>. Cumulable avec
+tous les autres bâtiments de ce type.
+
+#; Usine de prise génétique
+#HELPFAC22
+Augmente de 50% la production de $LINK<MINERAUX=42>, mais
+augmente également de 1 le nombre de $LINK<Droïdes=36> de la base
+et augmente la vulnérabilité au contrôle psychique de l'ennemi.
+Cumulable avec tous les autres bâtiments de ce type.
+
+#; Sphère de punition
+#HELPFAC23
+Elimine tant les $LINK<DROIDES=36> que les $LINK<TALENTS=37> de
+cette base, et diminue la vulnérabilité au contrôle psychique de
+l'ennemi, mais diminue de moitié la production des $LINK<LABOS=45>.
+
+#; Complexe d'habitation
+#HELPFAC24
+Permet à la population de la base de croître au-delà de la taille 7.
+
+#; Dôme d'habitation
+#HELPFAC25
+Permet à la population de la base de croître au-delà de la taille 14.
+La base doit déjà comporter un $LINK<complexe d'habitation=100024>.
+
+#; Dôme de pression
+#HELPFAC26
+Permet à la base de survivre à l'immersion. Compte aussi pour
+des $LINK<réservoirs de recyclage=100003>  pour cette base.
+
+#; Centre de commande
+#HELPFAC27
+Répare rapidement les unités au sol endommagées. Les unités au
+sol qui y sont bâties reçoivent deux mises à niveau de $LINK<moral=11>.
+
+#; Base navale
+#HELPFAC28
+Répare rapidement les unités navales endommagées. Les unités navales
+qui y sont bâties reçoivent deux mises à niveau de $LINK<moral=11>.
+
+#; Complexe aérospatial
+#HELPFAC29
+Répare rapidement les unités aériennes endommagées. Les unités
+aériennes qui y sont bâties reçoivent deux mises à niveau de
+$LINK<moral=11>. La base doit comporter un complexe aérospatial
+avant de pouvoir procéder à des améliorations basées dans l'espace.
+
+#; Centre de progrès génétique
+#HELPFAC30
+Toutes les unités militaires bâties ici reçoivent deux mises à niveau de
+$LINK<moral=11>. Toute forme de vie indigène élevée sur cette base
+acquiert un bonus de $LINK<1 de cycle de vie=11>.
+
+#; Réserve Centauri
+#HELPFAC31
+Diminue les effets de l'industrie sur l'écologie de la Planète.
+Toute forme de vie indigène élevée sur cette base acquiert un bonus
+$LINK<1 de cycle de vie=11>.
+
+#; Temple de la Planète
+#HELPFAC32
+Diminue les effets de l'industrie sur l'écologie de la Planète.
+Toute forme de vie indigène élevée sur cette base acquiert un bonus
+$LINK<1 de cycle de vie=11>. Cumulable avec $LINK<Réserve Centauri=100031>.
+
+#; Porte psychique
+#HELPFAC33
+Les unités peuvent se téléporter entre des bases comportant des Portes
+psychiques.
+
+#; Laboratoire hydroponique aérien
+#HELPFAC65
+Chaque laboratoire hydroponique aérien augmente de 1 la $LINK<production de
+NUTRIMENTS=41> de chaque base. Ne peut être produit que par des bases dotées
+d'un $LINK<Complexe aérospatial=100029>. L'augmentation de Nutriments est
+réduite de moitié pour les bases dépourvues de complexe aérospatial, et
+ne peut en aucun cas dépasser la taille de la base.
+
+#; Station minière sur Nessus
+#HELPFAC66
+Chaque station minière sur Nessus augmente de 1 la
+$LINK<production de MINERAUX=42> de chaque base.
+Ne peut être produite que par des bases dotées
+d'un $LINK<Complexe aérospatial=100029>. Le bonus de Minéraux est réduit
+de moitié pour les bases dépourvues de complexe aérospatial, et ne peut
+en aucun cas dépasser la taille de la base.
+
+#; Transmetteur d'énergie orbitale
+#HELPFAC67
+Chaque transmetteur d'énergie orbitale augmente de
+$LINK<1 la production d'énergie=43> de chaque base.
+Ne peut être produit que par des bases dotées d'un
+$LINK<Complexe aérospatial=100029>. Le bonus d'Energie est réduit
+de moitié pour les bases dépourvues de complexe aérospatial, et ne peut
+en aucun cas dépasser la taille de la base.
+
+#; Nacelle de défense orbitale
+#HELPFAC68
+Chaque Nacelle de défense orbitale (appelée aussi capsule de défense orbitale)
+présente une chance de 50% d'empêcher une attaque d'un
+$LINK<Destructeur de planète=60016>, ou une attaque $LINK<fongique=60025> ou $LINK<tectonique=60024> contre l'une de vos
+bases. Les nacelles de défense ne peuvent être déployées qu'une seule
+fois par tour ; s'il ne reste plus de nacelle en réserve (non déployées),
+il n'est possible d'arrêter un Destructeur de planète qu'en sacrifiant
+une des nacelles déjà déployées.
+
+#; Accumulateur à énergie
+#HELPFAC69
+Tous les $LINK<MINERAUX=42> produits sur la base sont immédiatement
+convertis en $LINK<ECONOMIE=44> réserves d'énergie (2 unités de Minéraux
+correspondent à 1 unité d'Energie).
+
+#; Projet de génome humain
+#HELPPROJ0
+Un $LINK<Talent=37> supplémentaire sur chaque base.
+
+#; Le noeud de commande
+#HELPPROJ1
+Compte pour un $LINK<Centre de commande=100027> sur chacune de vos bases.
+
+#; Le paradigme météorologique
+#HELPPROJ2
+Augmente de 50% la vitesse de terraformage sauf pour
+$LINK<supprimer le fongus=90010>. Les formeuses peuvent bâtir des
+$LINK<condenseurs=90012>, des $LINK<trous de forage=90014>,
+$LINK<élever=90016>/$LINK<abaisser le terrain=90017>, même si vous n'avez pas
+découverts les technologies appropriées.
+
+#; La Bourse du commerce
+#HELPPROJ3
+Augmente de $LINK<1 l'énergie=43> sur chaque carré de cette base.
+
+#; La Guilde des Empathiques
+#HELPPROJ4
+Permet de contacter n'importe quel dirigeant, et vous donne
+un infiltrateur dans chaque faction. Vous donne +50% de voix
+lors de l'élection du $LINK<Gouverneur planétaire=28> et du
+$LINK<Dirigeant suprême=10005>.
+
+#; La force de défense des citoyens
+#HELPPROJ5
+Compte comme un $LINK<Périmètre de défense=100004> sur chaque base.
+
+#; Le monde virtuel
+#HELPPROJ6
+Outre leur effet normal, les $LINK<Noeuds de réseau=100008> comptent comme
+des $LINK<Théâtres holographiques=100011> sur chacune de vos bases : divise
+par deux le nombre de $LINK<Droïdes=36> et augmente la puissance $LINK<PSY=38>
+de la base de 50%.
+
+#; Le système de transit planétaire
+#HELPPROJ7
+Toutes les nouvelles bases que vous fondez commencent au niveau de population
+3. Un $LINK<Droïde=36> de moins sur toutes les bases dont la population est
+au niveau 3 ou à un niveau inférieur.
+
+#; Le dôme xénoempathique
+#HELPPROJ8
+Tous les carrés de $LINK<Xénofongus=14> servent de $LINK<routes=90005> ;
+la vitesse à laquelle les $LINK<formeuses=30001> $LINK<suppriment=90010>
+et/ou $LINK<plantent le fongus=90011> est doublée. Toute forme de vie
+indigène que vous élevez acquiert un bonus de
+$LINK<+1 de cycle de vie=11>.
+
+#; L'amplificateur neuronal
+#HELPPROJ9
+Apporte +50% de $LINK<défense PSY=15>.
+
+#; Le centre de contrôle maritime
+#HELPPROJ10
+Multiplie par deux la vitesse de mouvement de toutes les unités navales
+non indigènes et compte pour une $LINK<Base navale=100028> sur chacune
+de vos bases.
+
+#; Liaisons de données planétaires
+#HELPPROJ11
+Vous découvrez automatiquement toute $LINK<technologie=140062>
+découverte par l'une ou l'autre des six autres $LINK<factions=150001>.
+
+#; Le super-collisionneur
+#HELPPROJ12
+Les découvertes de la faction $LINK<Recherche=45> sur cette base sont doublées.
+
+#; Les vertus ascétiques
+#HELPPROJ13
+Augmente de deux la limite de population de vos bases, et augmente
+la tolérance de votre société vis-à-vis de l'utilisation de la police
+et des unités militaires de ($LINK<1 en POLICE=130005>).
+
+#; Le vaccin de longévité
+#HELPPROJ14
+Deux $LINK<Droïdes=36> de moins sur chaque base si
+l'$LINK<économie de votre société=120005> est $LINK<planifiée=120008>.
+Un Droïde de moins sur chaque base si l'économie est $LINK<simple=120006>
+ou $LINK<verte=120009>.
+L'$LINK<ECONOMIE=44> augmentent de 50% sur cette base
+pour une économie de $LINK<marché libre=120007>.
+
+#; L'algorithme chasseur-chercheur
+#HELPPROJ15
+Met vos unités et vos bases complètement à l'abri de l'infiltration
+d'une $LINK<équipe de repérage=30006>, sauf si l'équipe dispose de
+l'aptitude spéciale $LINK<Amélioration algorithmique=80028>.
+
+#; Le mutagène de Pholus
+#HELPPROJ16
+Diminue les effets de l'industrie sur l'écologie de la Planète sur
+toutes vos bases.
+De plus, le $LINK<Fongus=14> procure à toutes vos unités les mêmes
+avantages de combat qui sont habituellement réservés aux formes de
+vie indigènes.
+Toute forme de vie indigène que vous élevez acquiert un bonus
+de $LINK<1 de cycle de vie=11>.
+
+#; L'usine de Cyborgs
+#HELPPROJ17
+Compte pour un $LINK<Centre de progrès génétique=100030> sur chaque base.
+
+#; La théorie du Tout
+#HELPPROJ18
+Les découvertes des $LINK<LABOS=45> sont doublées sur cette base.
+
+#; Le tourbillon des rêves
+#HELPPROJ19
+L'$LINK<attaque PSY=15> augmente de +50%.
+
+#; Le traducteur universel
+#HELPPROJ20
+Deux $LINK<avancées technologiques=140062> gratuites à l'achèvement.
+Sur cette base, il est possible de vendre n'importe quel nombre
+d'$LINK<objets anciens=30007>.
+
+#; Le coeur du réseau
+#HELPPROJ21
+La $LINK<recherche=45> augmente de 1 sur cette base pour chaque point
+de $LINK<Commerce=29> reçu, ainsi que pour chaque $LINK<Noeud de réseau=100008>
+existant sur Alpha Centauri, quel que soit le possesseur de ce Noeud de réseau.
+Elimine les effets négatifs d'une $LINK<société cybernétique=120017>.
+
+#; La nano-usine
+#HELPPROJ22
+Permet de réparer rapidement et complètement les unités
+même lorsqu'elles ne sont pas dans les carrés de base. Le coût
+de mise à niveau des unités est réduit de 50%.
+
+#; La raffinerie vivante
+#HELPPROJ23
+Diminue la quantité de minéraux nécessaire au soutien des unités
+militaires : $LINK<+2 SOUTIEN=130002> sur le tableau de Génie social.
+
+#; Les cuves de clonage
+#HELPPROJ24
+Toutes vos bases entrent dans un état permanent d'explosion démographique et
+croissent à chaque tour, pourvu que la production de $LINK<NUTRIMENTS=41> soit
+suffisante et les $LINK<bâtiments d'habitation=100024> adéquats. Les effets
+négatifs des choix d'ingénierie sociale tels que la $LINK<Puissance=120012>
+et le $LINK<Contrôle psychique=120019> sont éliminés.
+
+#; La colonie intelligente
+#HELPPROJ25
+Le coût de l'entretien énergétique des bâtiments est divisé par deux sur toutes
+vos
+bases. Si l'emploi d'une $LINK<police=130005> est autorisé dans le modèle
+social actuel, on considère que toutes vos bases disposent d'une unité de police
+supplémentaire.
+
+#; Immortalité clinique
+#HELPPROJ26
+Un $LINK<Talent=37> supplémentaire sur chaque base. Double le nombre de vos
+voix aux élections du $LINK<Gouverneur planétaire=28> et du
+$LINK<Dirigeant suprême.=10005>
+
+#; L'ascenseur spatial
+#HELPPROJ27
+Double la production de réserves d'énergie sur cette base ($LINK<ECONOMIE=44>) et double la vitesse
+de production de $LINK<MINERAUX=42> sur toutes vos bases lors
+des améliorations du Système Orbital. Vos unités équipées
+de $LINK<capsules de largage=80004> peuvent effectuer des insertions orbitales
+où que ce soit sur la Planète. Toutes les restrictions de
+$LINK<Complexe aérospatial=100029> sur les améliorations orbitales sont annulées.
+
+#; L'inducteur de singularité
+#HELPPROJ28
+Compte pour un $LINK<Convertisseur quantique=100021> sur chaque base, et diminue
+les $LINK<effets écologiques=26> de la production de minéraux.
+
+#; Le transmetteur en vrac
+#HELPPROJ29
+Apporte des $LINK<+2 MINERAUX=42> sur chaque base.
+
+#; La matrice télépathe
+#HELPPROJ30
+Il n'y a jamais d'$LINK<émeute=9> de $LINK<Droïdes=36> sur vos bases.
+Toutes vos $LINK<équipes de repérage=30006> reçoivent un modificateur
+de $LINK<+2 au moral=11>.
+
+#; La Voix de la Planète
+#HELPPROJ31
+Démarre la séquence d'$LINK<Ascension vers la transcendance=110102>.
+Toute faction peut maintenant commencer l'Ascension vers la transcendance.
+Toute forme de vie indigène que vous élevez acquiert un bonus de
+$LINK<1 de cycle de vie=11>.
+
+#; L'Ascension vers la transcendance
+#HELPPROJ32
+Termine l'ascension vers la Transcendance et met fin à l'Ere humaine.
+L'Ascension ne peut pas commencer tant que la $LINK<Voix de la Planète=110101>
+est opérationnelle.
+
+#;POLITICS
+#HELPSOC0
+La catégorie sociale "Politique" vous permet de choisir votre système
+politique de base.
+^
+^$LINK<Frontière=120001>
+^$LINK<Etat policier=120002>
+^$LINK<Démocratique=120003>
+^$LINK<Fondamentaliste=120004>
+
+#;Frontière
+#HELPSOC00
+La politique de frontière représente les dispositions libres de gouvernement
+des premières colonies, avant que la population n'atteigne un niveau
+rendant nécessaire une forme plus évoluée de gouvernement. La politique de
+frontière n'apporte ni bonus ni pénalité.
+^
+^TECHNOLOGIE : NEANT
+
+#;Etat policier
+#HELPSOC01
+Les Etats policiers utilisent l'oppression pour faire obéir leurs ressortissants
+et accordent à leurs dirigeants un grand pouvoir sur les décisions militaires.
+Mais une telle oppression diminue aussi l'efficacité économique.
+^
++2 POLICE
++2 SOUTIEN
+-2 EFFICACITE
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;Démocratique
+#HELPSOC02
+Les Démocraties permettent aux citoyens de participer au gouvernement,
+et renoncent à l'oppression et à la stabilité qu'elle confère, en faveur
+de la croissance et de l'efficacité.
+Mais les citoyens restent méfiants des grands déploiements militaires
+et l'insouciance civile crée d'importantes bureaucraties militaires,
+ce qui fait que les coûts du soutien
+militaire augmentent.
+^
++2 EFFICACITE
++2 CROISSANCE
+-2 SOUTIEN
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;Fondamentaliste
+#HELPSOC03
+La politique fondamentaliste unit une société derrière une religion dogmatique
+et forte. L'évangélisation de la populace crée des forces militaires loyales
+et même fanatiques, et tend à immuniser les citoyens contre d'autres formes de
+lavage de cerveau, mais la recherche technologie souffre des attaques
+répétées contre l'intégrité intellectuelle de tels régimes.
+^
++1 MORAL
++2 REPERAGE
+-2 RECHERCHE
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+
+#;ECONOMIE
+#HELPSOC1
+La catégorie sociale "Economie" vous permet de contrôler la manière
+dont votre économie est gérée.
+^
+^$LINK<Simple=120006>
+^$LINK<Marché libre=120007>
+^$LINK<Planifiée=120008>
+^$LINK<Verte=120009>
+
+#;Simple
+#HELPSOC10
+L'économie Simple décrit l'économie informelle et adaptée qui se développe
+au cours des premières années de la chute de planète, avant que des systèmes
+économiques plus élaborés soient mis en place. L'économie Simple n'apporte
+aucun profit ni pénalité spéciaux.
+^
+^TECHNOLOGIE : NEANT
+
+#;Marché libre
+#HELPSOC11
+L'économie de Marché libre relâche les lois du marché dans votre société.
+L'économie de marché sans entrave peut générer rapidement une grande
+richesse, mais dans le contexte des fragiles économies émergentes de
+la Planète, peut aussi mener à des extrêmes pollution et des dégâts
+écologiques. Les citoyens appauvris subitement par l'action de magnats
+peu scrupuleux peuvent se révolter contre leurs maîtres engraissés à l'énergie.
+^
++2 ECONOMIE
+-3 PLANETE
+-5 POLICE
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;Planifiée
+#HELPSOC12
+Economie de demi marché gardée en échec par des réglementations
+gouvernementales féroces. L'économie Planifiée favorise une croissance
+industrielle et démographique stable au dépends de l'efficacité.
+^
++2 CROISSANCE
++1 INDUSTRIE
+-2 EFFICACITE
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;Verte
+#HELPSOC13
+L'économie Verte lutte pour intégrer le progrès sensible aux besoins
+de la biosphère. L'économie Verte utilise les ressources avec efficacité et
+a tendance à éviter les excès du développement industriel qui pourraient
+mettre en danger la vie indigène de la Planète, mais la croissance
+démographique souffre nécessairement du manque d'espace.
+^
++2 PLANETE
++2 EFFICACITE
+-2 CROISSANCE
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;VALEURS
+#HELPSOC2
+La catégorie sociale "Valeurs" vous permet de définir des priorités
+majeures pour votre société.
+^
+^$LINK<Survie=120011>
+^$LINK<Puissance=120012>
+^$LINK<Connaissance=120013>
+^$LINK<Richesse=120014>
+
+#;Survie
+#HELPSOC20
+La Survie est, bien entendu, la priorité principale des premières
+colonies humaines ou de $LINK<Progéniteurs=47> de l'espace. La "Survie"
+en tant que priorité, n'apporte ni bonus, ni pénalité spéciaux.
+^
+^TECHNOLOGIE : NEANT
+
+#;Puissance
+#HELPSOC21
+Les dirigeants recherchant la Puissance constituent des forces militaires
+importantes et bien payées pour soutenir leur volonté. Mais l'infrastructure
+économique et industrielle peut souffrir des budgets gonflés de la "Défense".
+^
++2 MORAL
++2 SOUTIEN
+-2 INDUSTRIE
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;Connaissance
+#HELPSOC22
+Les dirigeants recherchant la Connaissance et l'illumination intellectuelle
+consacrent leurs ressources à la recherche et à l'instruction. Ils tendent
+aussi à promouvoir le libre échange des informations, ce qui augmente
+l'efficacité mais génère aussi des risques plus importants en matière de
+sécurité.
+^
++2 RECHERCHE
++1 EFFICACITE
+-2 REPERAGE
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;Richesse
+#HELPSOC23
+Les dirigeants recherchant la Richesse s'efforcent de bâtir rapidement une
+infrastructure économique et industrielle. Ils tentent de parvenir à une
+croissance et à un développement rapides sans tenir compte des possible
+effets secondaires comme la décadence et la dégénérescence des moeurs.
+^
++1 INDUSTRIE
++1 ECONOMIE
+-2 MORAL
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;SOCIETE DU FUTUR
+#HELPSOC3
+Description...
+Les sociétés du futur indiquent de manière spéculative, l'évolution
+de la société dans l'avenir lointain.
+^
+^$LINK<Néant=120016>
+^$LINK<Cybernétique=120017>
+^$LINK<Eudémonique=120018>
+^$LINK<Contrôle psychique=120019>
+
+#;Néant
+#HELPSOC30
+"Néant", ou aucune Société future, signifie simplement que votre
+société n'a pas encore atteint le statut élevé de Société du futur.
+Aucun bonus ni pénalité n'est appliqué.
+^
+^TECHNOLOGIE : NEANT
+
+#;Cybernétique
+#HELPSOC31
+Dans l'avenir lointain, les citoyens pourront choisir de transmettre
+les fonctions de gestion de la société à des ordinateurs, améliorant
+ainsi l'efficacité et libérant les individus pour qu'ils puissent se
+consacrer à des tâches plus créatives. Mais est-ce que les ouvriers
+remplacés par les ordinateurs ne vont-ils plonger dans le désespoir,
+tomber dans la pauvreté et réagir violemment ?
+^
++2 EFFICACITE
++2 PLANETE
++2 RECHERCHE
+-3 POLICE
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;Eudémonique
+#HELPSOC32
+Peut-être la société la plus désirée dans l'avenir lointain, la
+société Eudémonique prend son nom du mot grec ancien signifiant accomplissement
+et Bonheur. Une société Eudémonique encourage chaque citoyen à atteindre
+le bonheur en essayant d'utiliser complètement ses potentiels.
+La population, l'économie et l'industrie connaîtront toutes
+une croissance saine. La violence disparaîtra tandis que la
+société deviendra de plus en plus tolérante et juste et même quand
+cette société sera poussée à la violence, elle aura pour but d'assujettir
+plutôt que de détruire.
+^
++2 CROISSANCE
++2 ECONOMIE
++2 INDUSTRIE
+-2 MORAL
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+#;Contrôle psychique
+#HELPSOC33
+La méthode "Big Brother" ultime, le Contrôle psychique diffuse des
+gaz neurochimiques ne pouvant pas être détectés dans l'atmosphère
+pour rendre obéissante, loyale et non influençable par les idées
+étrangères. Cependant, une quantité importante de ressources est
+requise pour maintenir ce niveau de contrôle.
+^
++2 POLICE
++2 MORAL
++2 REPERAGE
+-3 SOUTIEN
+^
+^TECHNOLOGIE : $LINK<$STR0=$NUM0>
+
+ECONOMIE, EFFICACITE, SOUTIEN, TALENT, MORAL, POLICE, CROISSANCE, PLANETE, REPERAGE, INDUSTRIE, RECHERCHE
+
+#;ECONOMIE
+#HELPEFFECT0
+{ECONOMIE} représente la puissance brute de l'économie de votre
+société. Le fait d'augmenter cette valeur augmentera le votre flux
+d'$LINK<énergie=43>.
+^
+^-3, -2 d'énergie sur chaque base.
+^-2, -1 d'énergie sur chaque base.
+^-1, -1 d'énergie sur chaque base de QG.
+^ 0, Taux d'énergie normaux.
+^ 1, +1 d'énergie sur chaque base.
+^ 2, +1 d'énergie sur chaque carré.
+^ 3, +1 d'énergie sur chaque carré ; +1 au taux de commerce.
+^ 4, +1 d'énergie sur chaque carré ; +2 d'énergie par base ; +2 au taux de commerce.
+^ 5, +1 d'énergie sur chaque carré ; +4 d'énergie par base ; +3 au taux de commerce.
+
+#;EFFICACITE
+#HELPEFFECT1
+{EFFICACITE} représente l'aptitude de votre société à fonctionner
+sans gaspillage ni erreur de gestion. Si cette valeur tombe trop bas,
+vos bases commenceront à perdre de l'$LINK<énergie=43> en raison de l'inefficacité.
+^
+^-4, PARALYSIE ECONOMIQUE.
+^-3, Inefficacité criminelle.
+^-2, Inefficacité choquante.
+^-1, Inefficacité grossière.
+^ 0, Inefficacité élevée.
+^ 1, Efficacité raisonnable.
+^ 2, Efficacité louable.
+^ 3, Efficacité exemplaire.
+^ 4, ECONOMIE MODELE.
+
+#;SOUTIEN
+#HELPEFFECT2
+{SOUTIEN} affecte le coût de soutien des unités militaires. Plus
+votre score est bas dans ce domaine, plus vous devrez utiliser de
+$LINK<minéraux=42> pour le soutien de vos unités.
+^
+^-4, 1 unité coûte 2 de soutien ; pas de minéraux pour une nouvelle base.
+^-3, 1 unité coûte 1 de soutien ; pas de minéraux pour une nouvelle base.
+^-2, Soutien 1 unité par base ; pas de minéraux pour une nouvelle base.
+^-1, Soutien 1 unité par base.
+^ 0, Soutien 2 unités par base.
+^ 1, Soutien 3 unités par base.
+^ 2, Soutien 4 unités par base.
+^ 3, Soutien 4 unités OU jusqu'au niveau de la taille de la base.
+
+#;TALENT -- NOTUSED!!!
+#HELPEFFECT3
+
+#;MORAL
+#HELPEFFECT4
+{MORAL} affecte l'entraînement et la détermination de vos militaires.
+Un score élevé dans ce domaine se traduit directement par une
+amélioration du $LINK<moral=11> de vos unités.
+^
+^-4, -3 Moral ; + modificateurs divisés par deux.
+^-3, -2 Moral ; + modificateurs divisés par deux.
+^-2, -1 Moral ; + modificateurs divisés par deux.
+^-1, -1 Moral.
+^ 0, Moral normal.
+^ 1, +1 Moral.
+^ 2, +1 Moral (+2 sur défense).
+^ 3, +2 Moral (+3 sur défense).
+^ 4, +3 Moral.
+
+#;POLICE
+#HELPEFFECT5
+{POLICE} représente la tolérance de votre société par rapport au
+contrôle de l'Etat policé et aux restrictions des libertés individuelles.
+Un score élevé vous permet d'utiliser des unités militaires comme
+police pour supprimer les $LINK<émeutes de droïdes=9>. Un faible
+score entraînera une augmentation des tensions lorsque les unités
+militaires seront loin de leur base.
+^
+^-5, Deux $LINK<Droïdes=36> supplémentaires pour chaque unité militaire hors du territoire.
+^-4, Un droïde supplémentaire pour chaque unité militaire hors du territoire.
+^-3, Un droïde supplémentaire si plus d'une unité militaire hors du territoire.
+^-2, Impossible d'utiliser les unités militaires comme police. Gaz innervant inutilisable.
+^-1, Une unité de police autorisée. Gaz innervant inutilisable.
+^ 0, Une unité militaire peut être utilisée comme police.
+^ 1, Jusqu'à deux unités militaires peuvent être utilisées comme police.
+^ 2, Jusqu'à trois unités militaires peuvent être utilisées comme police.
+^ 3, Jusqu'à trois unités utilisées comme police. Effet de la police doublé.
+
+#;CROISSANCE
+#HELPEFFECT6
+{CROISSANCE} affecte le taux de croissance de votre population.
+Plus votre score est élevé, moins vos bases auront besoin de produire
+de $LINK<nutriments=41>
+^
+^-3, CROISSANCE DEMOGRAPHIQUE CATASTROPHIQUE (PRESQUE NULLE).
+^-2, -20% de taux de croissance.
+^-1, -10% de taux de croissance.
+^ 0, CROISSANCE DEMOGRAPHIQUE NULLE.
+^ 1, +10% de taux de croissance.
+^ 2, +20% de taux de croissance.
+^ 3, +30% de taux de croissance.
+^ 4, +40% de taux de croissance.
+^ 5, +50% de taux de croissance.
+^ 6, RECORD DE CROISSANCE DEMOGRAPHIQUE.
+
+#;PLANETE
+#HELPEFFECT7
+{PLANETE} représente la sensibilité de votre société vis-à-vis de
+l'$LINK<écologie de la Planète=26>.
+Un faible score indique que des dégâts écologiques surviendront plus
+rapidement.
+^
+^-3, Désordre écologique capricieux ; -3 de production du Fongus.
+^-2, Désordre écologique rampant ; -2 de production du Fongus.
+^-1, Désordre écologique accru ; -1 de production du Fongus.
+^ 0, Tension écologique normale.
+^ 1, Sagesse écologique ! peut capturer les formes de vie indigènes.
+^ 2, Harmonie écologique ! chances accrues de capture des formes de vie indigènes.
+^ 3, Symbiose écologique ! chances maximales de capture des formes de vie indigènes.
+
+#;REPERAGE
+#HELPEFFECT8
+{REPERAGE} affecte votre vulnérabilité (ou force) dans le domaine
+de la sécurité.
+Un score élevé permettra d'empêcher les attaques des $LINK<équipes
+de repérage=30006> ennemies.
+^
+^-2, -50% coût actions équipes de repérage ennemies ; taux accru réussite ennemie.
+^-1, -25% coût actions équipes de repérage ennemies ; taux accru réussite ennemie.
+^ 0, Mesures de sécurités normales.
+^ 1, +1 au moral des équipes de repérage ; +50% au coût des actions des équipes de repérage ennemies.
+^ 2, +2 au moral des équipes de repérage ; double le coût des actions des équipes de repérages ennemies.
+^ 3, +3 au moral des équipes de repérage ; les bases et les unités ne peuvent
+plus être soumises par les équipes de repérage standard.
+
+
+#;INDUSTRIE
+#HELPEFFECT9
+{INDUSTRIE} représente votre puissance de fabrication.
+Un score élevé réduit le nombre de $LINK<minéraux=42> requis pour construire
+des unités et des installations.
+^
+^-3, Coût des minéraux accru de 30%.
+^-2, Coût des minéraux accru de 20%.
+^-1, Coût des minéraux accru de 10%.
+^ 0, Taux de production normal.
+^ 1, Coût des minéraux diminué de 10%.
+^ 2, Coût des minéraux diminué de 20%.
+^ 3, Coût des minéraux diminué de 30%.
+^ 4, Coût des minéraux diminué de 40%.
+^ 5, Coût des minéraux diminué de 50%.
+
+
+#;RECHERCHE
+#HELPEFFECT10
+{RECHERCHE} affecte votre $LINK<progrès technologique=45>. Un score
+élevé augmentera le taux auquel vous accomplirez des percées
+technologiques.
+^
+^-5, Recherche en laboratoire ralentie de 50%.
+^-4, Recherche en laboratoire ralentie de 40%.
+^-3, Recherche en laboratoire ralentie de 30%.
+^-2, Recherche en laboratoire ralentie de 20%.
+^-1, Recherche en laboratoire ralentie de 10%.
+^ 0, Taux de recherche normal.
+^ 1, Recherche en laboratoire accélérée de 10%.
+^ 2, Recherche en laboratoire accélérée de 20%.
+^ 3, Recherche en laboratoire accélérée de 30%.
+^ 4, Recherche en laboratoire accélérée de 40%.
+^ 5, Recherche en laboratoire accélérée de 50%.
+
+
+
+
+
+#;FERME
+#HELPTERRALAND0
+Une ferme augmente de 1 la $LINK<production de Nutriments=41> d'un carré.
+Les fermes ne peuvent être bâties sur des $LINK<carrés rocailleux=1>.
+
+#HELPTERRASEA0
+Une ferme de varech augmente de 2 la $LINK<production de Nutriments=41>
+d'un carré d'océan. Les fermes de varech ne peuvent être établies que
+sur des carrés en plateau (profondeur inférieure à 1000m).
+
+#;ENGRAIS
+#HELPTERRALAND1
+Un {fertilisant de terrain} augmente de 1 la $LINK<production de Nutriments=41>
+d'un carré.
+Les fertilisants de terrain ne peuvent être bâtis sur les carrés comportant
+déjà une $LINK<ferme=90000>.
+
+#HELPTERRASEA1
+no
+
+#;MINE
+#HELPTERRALAND2
+Une {mine} augmente la production de $LINK<Minéraux=42> d'un carré :
+^$LINK<Carrés plats=1> : 1 de Minéraux
+^$LINK<Carrés en pente=1> : 1 de Minéraux
+^$LINK<Carrés rocailleux=1> : 2 de Minéraux (3 s'il y a une route)
+^
+^Une mine apporte un supplément de 1 Minéraux dans les carrés de
+Ressources de Minéraux.
+
+#HELPTERRASEA2
+Une {plate-forme minière} augmente la production de $LINK<minéraux=42>
+des océans de 1, ou de 2 si
+l'$LINK<Ingénierie économique avancée=140062> a déjà été découverte.
+^
+Les plates-formes minières ne peuvent être bâties que sur des carrés en
+plateau (profondeur inférieure à 1000m).
+
+#;CAPTEUR SOLAIRE
+#HELPTERRALAND3
+Un {capteur solaire} permet la collecte d'$LINK<énergie=43> sur un carré.
+Les capteurs solaires au niveau de la mer collectent 1 Energie par tour.
+Les capteurs solaires d'altitude collectent de l'Energie supplémentaire
+pour chaque $LINK<altitude supplémentaire=2> de 1000m au-dessus du
+niveau de la mer.
+
+#HELPTERRASEA3
+Un {harnais marémoteur} permet la collecte d'$LINK<Energie=43> dans les carrés
+d'océan. Les carrés dotés d'un harnais marémoteur produisent 3 Energies par
+tour.
+^
+Les harnais marémoteurs ne peuvent être construits que sur les carrés en plateau
+(profondeur inférieure à 1000m)
+
+#;FORET
+#HELPTERRALAND4
+Les carrés de {forêt} fournissent des quantités équilibrées mais limitées
+de $LINK<Nutriments=41>, de $LINK<Minéraux=42> et d'$LINK<Energie=43>.
+La production des carrés de forêt est considérablement accrue pour les bases
+comportant une $LINK<Ferme arboricole=100013> ou une $LINK<Forêt hybride=100014>.
+^
+Les forêts s'étendent parfois sur les carrés adjacents, et repoussent même
+dans ce cas le $LINK<Fongus=14> indigène.
+
+#HELPTERRASEA4
+no
+
+#;ROUTE
+#HELPTERRALAND5
+Les {routes} accélèrent le déplacement des unités au sol, qui se déplacent
+sur une route trois fois plus vite que la normale.
+^
+Les routes accroissent aussi la production $LINK<minière=90002> des
+$LINK<carrés rocailleux=1>.
+
+#HELPTERRASEA5
+no
+
+#;TUBE
+#HELPTERRALAND6
+Les {tubes magnétiques} accélèrent considérablement le déplacement des unités
+au sol, qui, lorsqu'elles passent d'un carré de tube magnétique à un autre,
+ne consomme aucun point de déplacement.
+
+#HELPTERRASEA6
+no
+
+#;BLOCKHAUS
+#HELPTERRALAND7
+Un {blockhaus} améliore la valeur de défense de son carré. Les unités
+qui se défendent dans un blockhaus gagnent 50% de défense.
+
+#HELPTERRASEA7
+no
+
+#;BASE AERIENNE
+#HELPTERRALAND8
+Une {base aérienne} permet aux unités aériennes alliées d'atterrir et
+de refaire le plein de carburant.
+
+#HELPTERRASEA8
+no
+
+#;CHAMP DE DETECTEURS
+#HELPTERRALAND9
+Un {champ de détecteurs} surveille les intrus sur le territoire qui l'entoure.
+Ces champs
+de détecteurs peuvent voir les unités ennemies à deux carrés de là.
+^
+Les données transmises par les champs de détecteurs augmentent la promptitude
+de la défense.
+Toute unité située dans un carré de terrain à une distance de deux carrés
+maximum d'un champ de détecteurs alliés gagne 25% de défense.
+
+#HELPTERRASEA9
+no
+
+#;FONGUS
+#HELPTERRALAND10
+Permet de supprimer le $LINK<Fongus=14> d'un carré.
+
+#HELPTERRASEA10
+Permet de supprimer le $LINK<Fongus marin=14> d'un carré.
+
+#;PRODUIRE FONGUS
+#HELPTERRALAND11
+Grâce aux techniques xénoagricoles, il est possible de cultiver le
+$LINK<fongus=14>.
+^
+La production des carrés de Fongus augmente avec chaque technologie
+$LINK<"Centauri"=140006> que vous découvrez.
+
+#HELPTERRASEA11
+Grâce aux technique xénoagricoles, il est possible de cultiver le
+$LINK<Fongus=14>.
+^
+La production des carrés de Fongus augmente avec chaque technologie
+$LINK<"Centauri"=140006>que vous découvrez.
+
+#;CONDENSEUR   12
+#HELPTERRALAND12
+Un {condenseur} augmente les $LINK<précipitations=0> sur son propre carré et
+TOUS
+LES CARRES ADJACENTS. Il apporte aussi un supplément de $LINK<1 Nutriments=41>
+dans son propre carré, cumulables avec les bonus de $LINK<ferme=90000>.
+Utilisez les condenseurs pour accroître la production de Nutriments
+des zones sèches.
+^
+Les condenseurs ont d'importantes conséquences $LINK<écologiques négatives=26>.
+
+#HELPTERRASEA12
+no
+
+#;MIROIR      13
+#HELPTERRALAND13
+Un {miroir à échelons} augmente de 1 l'$LINK<énergie=43> solaire collectée
+par les capteurs solaires dans TOUS LES CARRES ADJACENTS. Il compte aussi
+pour un $LINK<capteurs solaires=90003> pour son propre carré, bien qu'il
+ne bénéficie pas des bonus supplémentaires apportés par les autres miroirs
+à échelons.
+^
+Les miroirs à échelons ont d'importantes conséquences
+$LINK<écologiques négatives=26>.
+
+#HELPTERRASEA13
+no
+
+#;TROU THERMIQUE    14
+#HELPTERRALAND14
+Un {trou thermique} pénètre dans le manteau de la Planète et fournit
+d'importants bonus de Minéraux et d'Energie. Les carrés de trous de
+forage fournissent des $LINK<Minéraux=42> et de l'$LINK<Energie=43>,
+mais aucun $LINK<Nutriment=41> et ne peuvent recevoir de ferme.
+^
+Les trous thermiques ne peuvent être construits à côtés d'autres trous de
+forage ni sur des pentes (carrés de terrain adjacents à d'autres carrés
+d'une $LINK<altitude=2> inférieure).
+^
+Les trous thermiques ont d'importantes conséquences
+$LINK<écologiques négatives=26>.
+
+#HELPTERRASEA14
+no
+
+#;PHREATIQUE     15
+#HELPTERRALAND15
+Le forage jusqu'à la {nappe phréatique} crée une nouvelle rivière
+prenant sa source dans son carré.
+
+#HELPTERRASEA15
+no
+
+#;ELEVER TERRAIN       16
+#HELPTERRALAND16
+{Elever terrain} augmente l'$LINK<altitude=2> du carré actuel de 1000 mètres
+environ. Un carré d'océan peut donc devenir un carré de terrain.
+
+#HELPTERRASEA16
+{Elever terrain} augmente l'$LINK<altitude=2> du carré actuel de 1000 mètres
+environ.
+
+#;ABAISSER TERRAIN       17
+#HELPTERRALAND17
+{Abaisser terrain} diminue l'$LINK<altitude=2> du carré actuel de 1000 mètres
+environ. Un carré de terre peut être reconquis par l'océan par l'action
+d'une formeuse maritime à partir d'un carré d'océan voisin.
+
+#HELPTERRASEA17
+{Abaisser terrain} diminue l'$LINK<altitude=2> du carré actuel de 1000 mètres
+environ. Un carré de terre peut être reconquis par l'océan par l'action
+d'une formeuse maritime à partir d'un carré d'océan voisin.
+
+#;NIVELER TERRAIN       18
+#HELPTERRALAND18
+{Niveler terrain} diminue l'aspect $LINK<rocailleux=1> d'un carré. Peut
+servir à transformer les carrés rocailleux en carrés plats convenant
+à une $LINK<ferme=90000>.
+
+#HELPTERRASEA18
+no
+
+#;MAKEMONO    19
+#HELPTERRALAND19
+no
+
+#HELPTERRASEA19
+no
+
+#UNITDESC0
+Une {Capsule de colonie} représente les ressources matérielles et humaines
+nécessaires pour construire une nouvelle {base}.
+
+#UNITDESC1
+Vos ingénieurs de terraformage ("FORMEUSES") sont cruciaux à la survie
+de votre expédition. Les Formeuses peuvent planter des $LINK<forêts=90004>
+et bâtir des $LINK<fermes=90000>, des $LINK<routes=90005>,
+des $LINK<mines=90002> et des $LINK<capteurs solaires=90003>; elles peuvent
+même $LINK<élever=90016> ou $LINK<abaisser des montagnes=90017>.
+
+#UNITDESC2
+Une {Patrouille de reconnaissance} peut être utilisée pour explorer
+les régions inconnues de la Planète. Elle peut aussi protéger les bases
+contre les attaques lancées par les ennemies et les
+$LINK<vers télépathes=30008>, bien qu'elles ne soient pas aussi puissantes
+que les futures unités que vous pourrez mettre au point.
+
+#UNITDESC3
+Les {Aéroglisseurs de transport} sont des moyens de transport utiles au début
+de la colonisation pour effectuer des déplacements entre les continents
+sur les océans. Les unités au sol peuvent être chargées sur
+les aéroglisseurs de transport et transférées par mer.
+
+#UNITDESC4
+Les {Formeuses maritimes}, comme leurs $LINK<cousines au sol=30001>,
+sont utilisées pour améliorer et changer le profil de la Planète.
+Les Formeuses maritimes peuvent bâtir des $LINK<Fermes de Varech=90020>,
+des $LINK<Plates-formes minières=90022> et des $LINK<Harnais de marées=90023>.
+
+#UNITDESC5
+Les {Unités de ravitaillement à chenilles} sont utiles pour transporter des
+ressources.
+L'U. de ravitaillement à chenilles peut :
+^
+* Produire des $LINK<nutriments=41>, des $LINK<minéraux=42> de
+l'$LINK<énergie=43> dans n'importe quel carré de la carte et envoyer
+des ressources vers sa base d'attache.
+Sélectionnez l'option "Convoi" ('O') dans le Menu Action.
+^
+* Se dissoudre dans une base alliée pour fournir sa valeur {totale} en
+minéraux pour la construction d'un $LINK<projet secret=110071> ou d'un
+$LINK<prototype d'unité=23>.
+
+#UNITDESC6
+Les {Equipes de repérage} peuvent s'infiltrer et tenter d'effectuer
+une subversion des bases et des unités ennemies. Elles peuvent aussi
+dérober des informations de recherche technologique ennemies, accomplir
+un sabotage des installations de leur base, assassiner du personnel
+ennemi clé et lancer une guerre génétique.
+^
+Déplacez une équipe de repérage vers une base ou unité ennemie pour
+utiliser ses capacités opérationnelles.
+^
+Les équipes de repérage peuvent aussi défendre vos bases contre leurs
+homologues ennemies. Si une équipe de repérage est présente dans un
+carré dans lequel une équipe de repérage ennemie essaie d'entrer,
+un combat survient entre les deux unités. L'équipe de repérage avec
+le $LINK<moral=11> le plus élevé sort victorieuse du combat
+habituellement.
+^
+Les équipes de repérage reçoivent souvent une augmentation du niveau
+de leur moral lorsqu'elles accomplissent une mission avec succès. Plus
+le niveau de moral d'une équipe de repérage est élevé, plus elle aura
+de chances de sortir indemne des missions de plus en plus complexes.
+
+#UNITDESC7
+Les {Objets anciens} (ou {nodules de bibliothèque}, comme les appellent les Progéniteurs), sont de mystérieux et
+énigmatiques dispositifs venant des Progéniteurs, que l'on découvre quelquefois sur Planète. Si vous trouvez un tel
+objet et si vous pouvez le ramener dans l'une de vos bases, vous aurez le
+choix entre plusieurs utilisations : (a) vous pouvez le relier à un
+$LINK<Noeud de réseau=100008> si vous en possédez un et vous bénéficiez
+automatiquement d'une percée technologique, (b) vous pouvez l'utiliser
+pour accélérer la production d'un $LINK<Projet secret=110071> ou d'un
+$LINK<Prototype d'unité=23>, (c) vous pouvez le conserver pour
+l'utiliser plus tard.
+^
+Les objets anciens peuvent être dérobés aux autres joueurs.
+Un objet qui se trouve seul peut être capturé par n'importe quel joueur
+sans risque de pénalité diplomatique.
+
+#UNITDESC8
+Les {Vers télépathes} peuvent apparaître à tout moment et ont un lien
+très étroit avec le $LINK<fongus=14>.
+^
+Les Vers télépathes et autres créatures indigènes peuvent engager
+un $LINK<Combat psy=15>, dans lequel l'armement et le blindage sont
+ignorés, l'attaquant bénéficiant d'un avantage de 3 contre 2 sur terre.
+Le niveau du $LINK<Moral=11> est important lorsque vous vous défendez
+contre des Vers télépathes et autres créatures indigènes.
+^
+Les Vers télépathes peuvent être élevés en captivité à l'aide de
+techniques de reproduction et de contrôle adéquates conduites par
+des techniciens spécialisés dans ce domaine. Ces groupes de Vers
+télépathes peuvent être utilisés pour attaquer des unités ennemies
+dans des combats psy, permettant ainsi d'annuler les avantages
+technologiques ennemis en armement et en blindage.
+Les $LINK<Labos biologiques=100009> et d'autres installations
+peuvent améliorer la puissance des groupes de Vers télépathes
+élevés en captivité. Comme avec n'importe quelle unité indigène, les joueurs peuvent relâcher des vers télépathes dans
+la nature, pour harceler et désorganiser un ennemi.
+
+#UNITDESC9
+Un vecteur aquatique des $LINK<Vers télépathes=30008>,
+l'{Ile des profondeurs}, est étroitement lié aux Vers télépathes
+et au $LINK<Fongus des mers=14>. La coquille flottante de l'Ile
+des profondeurs, formée à partir des sécrétions des membres de
+la colonie, est souvent utilisée par les Vers télépathes pour se
+reproduire et peut aussi transporter de grosses unités d'un
+continent à un autre.
+^
+Les Iles des profondeurs et les autres créatures indigènes peuvent
+engager un $LINK<Combat psy=15>, dans lequel l'armement et le
+blindage sont ignorés. Le niveau du $LINK<Moral=11> est important
+lorsque vous vous défendez contre les Iles des profondeurs ou contre
+d'autres unités indigènes.
+^
+Les Iles des profondeurs peuvent être élevées en captivité à l'aide
+de techniques de reproduction et de contrôle adéquates conduites
+par des techniciens spécialisés dans ce domaine. Ces groupes captifs
+d'Iles des profondeurs peuvent être utilisés pour attaquer les unités
+navales ennemies, déclenchant ainsi un combat psy. Ils peuvent également être
+utilisés pour transporter des unités suivant leur taille. Comme avec n'importe quelle unité indigène, les joueurs
+peuvent relâcher des îles des profondeurs dans la nature, pour harceler et désorganiser un ennemi.
+
+#UNITDESC10
+Les avatars les plus féroces de la Planète, les {Acridiens de Chiron}
+sont une variante ailée rapace des $LINK<Vers télépathes=30008> qui se
+trouvent sur terre. L'apparition des Acridiens entraîne une
+dégénérescence considérable du réseau neuronal du $LINK<fongus=14>,
+dont ils se nourrissent.
+
+Comme avec n'importe quelle unité indigène, les joueurs peuvent relâcher des acridiens dans la nature, pour harceler et
+désorganiser un ennemi.
+
+#UNITDESC11
+Quelques exemplaires de cette unité sont écrasés sur la surface. L'U.N.S. Unity comportait beaucoup de ces {engins tout
+terrain}
+légèrement armés qui sont utiles pour explorer les masses continentales
+de la Planète.
+
+#UNITDESC12
+Quelques exemplaires de ces Hélicoptères très pratiques étaient
+entreposés à bord du U.N.S. Unity ; il est possible qu'un ou deux de ces hélicos aient résisté à l'écrasement du
+vaisseau sur la surface. Bien qu'ils soient légèrement armés et limités au niveau du carburant, les {Hélicoptères des
+l'Unity} sont des unités de reconnaissance et d'exploration de grande valeur.
+
+#UNITDESC13
+Ces petits {aéroglisseurs} préfabriqués étaient entreposés à bord de
+l'U.N.S. Unity, prêts à être utilisés pour explorer les mers
+de la Planète.
+
+#CHASSISDESC0
+Les unités d'{Infanterie} se déplacent lentement mais ne sont pas
+chères et bénéficient d'avantages importants dans les batailles.
+Les unités d'infanterie ont un avantage de 25% dans les combats
+lorsqu'elles attaquent directement les bases ennemies.
+
+#CHASSISDESC1
+Les {Engins rapides} mobiles peuvent se déplacer rapidement sur la surface
+de la Planète. Les Engins rapides bénéficient d'un avantage de 25% dans
+les combats lorsqu'ils attaquent en terrain dégagé. Ils peuvent aussi
+rompre le combat lorsqu'ils sont surpris par une unité
+d'$LINK<infanterie=40000> ennemie plus lente.
+
+#CHASSISDESC2
+L'unité la plus efficace dans le domaine du transport au sol, le
+{Magnétoglisseur} n'est jamais pénalisé lorsqu'il traverse des terrains
+difficiles pour cette unité, le coût requis pour entrer dans un carré
+ne dépasse jamais un point. Comme les $LINK<Engins rapides=40001>, les
+Magnétoglisseurs bénéficient d'un avantage de 25% lorsqu'ils attaquent en
+terrain dégagé.
+
+#CHASSISDESC3
+Les {Aéroglisseurs} peuvent être utilisés pour effectuer des transports
+et des patrouilles sur mer avec efficacité.
+
+#CHASSISDESC4
+Vous pouvez produire des énormes {Croiseurs} si vous possédez une
+infrastructure industrielle suffisante. Ces vaisseaux de grande taille
+sont des unités navales formidables et sont aussi les unités de
+transport les plus efficaces.
+
+ #CHASSISDESC5
+Les {jets d'intervention}, le symbole aérien du 23ème siècle, apparaissent
+dans le ciel de la Planète une fois que les industries commencent à
+produire du carburéacteur de haute qualité en quantité suffisante.
+Puissants, mais ayant une portée opérationnelle limitée, les Jets
+d'intervention peuvent être utilisés pour défendre votre espace aérien,
+lancer une attaque aérienne et explorer la Planète.
+^
+Les Jets d'intervention doivent se rendre à une base ou une base aérienne
+alliée tous les deux tours pour faire le plein en carburant.
+
+#CHASSISDESC6
+Les {Hélicos} sont d'une grande maniabilité et sont
+capables d'atterrir temporairement sur un terrain difficile.
+Ce sont des unités de combat formidables.
+^
+Les Hélicos doivent se rendre à une base ou une base
+aérienne alliée tous les deux tours pour faire le plein en carburant.
+Si cela est impossible, l'Hélico doit atterrir temporairement dans
+un champ et subit 30% de dégâts.
+
+#CHASSISDESC7
+Les {Vaisseaux gravitationnels}, les mastodontes du futur, bénéficient de tous
+les avantages d'un appareil normal sans aucune limite dans son autonomie.
+Les Vaisseaux gravitationnels peuvent se déplacer
+rapidement sur terre et sur mer et n'ont pas à rentrer à la base pour se
+ravitailler en carburant.
+
+#CHASSISDESC8
+Les {Missiles} peuvent être utilisés pour lancer des
+$LINK<charges conventionnelles=60023> puissantes ou des
+$LINK<emports fongiques=60025>, des $LINK<emports tectoniques=60024>
+ou encore des $LINK<destructeurs de planètes=60016>
+spectaculaires et quasi nucléaires. Les Missiles
+délivrent une frappe puissante mais sont bien sûr détruits au moment
+de l'impact.
+
+#WEAPONDESC0 La force de l'{armement} d'une unité détermine la puissance
+au combat dont elle dispose au moment de l'attaque. Plus l'armement est
+puissant plus l'attaque sera destructrice.
+
+#WEAPONDESC1
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC2
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC3
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC4
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC5
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC6
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC7
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC8
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC9
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC10
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC11
+La force de l'{armement} d'une unité détermine la puissance au combat
+dont elle dispose au moment de l'attaque. Plus l'armement est puissant
+plus l'attaque sera destructrice.
+
+#WEAPONDESC15
+L'arme d'{Attaque psy} permet à une unité conventionnelle de lancer
+des attaques psy. L'armement et le blindage sont ignorés dans le
+$LINK<Combat psy=15> et l'attaquant bénéficie d'un avantage de 3
+contre 2 sur terre (1 contre 1 sur mer).
+
+#WEAPONDESC16
+Le {Destructeur de Planète} quasi nucléaire représente l'atrocité
+ultime de l'avenir. Les Destructeurs de Planète détruisent
+tout dans un rayon égal à la taille de leur $LINK<réacteur=50001>,
+laissant souvent des cratères énormes.
+^
+Conformément à la Charte des Nations Unies, l'utilisation des
+Destructeurs de Planète est punissable et sanctionnée immédiatement
+par une expulsion du $LINK<Conseil planétaire=27> et une destruction
+militaire totale.
+
+#WEAPONDESC17
+Les {Modules de Colonie} peuvent être utilisés pour créer des
+$LINK<capsules Colonie=30000> personnalisés. Les unités équipées de
+Modules de colonie peuvent construire de nouvelles bases. Si un
+Module de Colonie est installé sur une unité navale, des bases
+peuvent être construites sur mer.
+
+#WEAPONDESC18
+L'{Unité de Terraformage} peut être utilisée pour créer des
+$LINK<terraformeuses=30001> personnalisées.
+
+#WEAPONDESC19
+Le module de {Transport de troupes} permet à une unité de transporter
+d'autres unités sur terre, sur mer ou par air, suivant le châssis
+de l'unité.
+^
+Seules les unités navales peuvent transporter plus d'une unité
+à la fois. Un {Aéroglisseur} peut transporter un nombre d'unités égal à deux
+fois la valeur de son réacteur. Un {Croiseur} peut transporter
+un nombre d'unités égal à quatre fois la valeur de son réacteur.
+^
+Les unités de transport peuvent transporter normalement uniquement
+des unités au sol, mais les unités navales de transport peuvent
+recevoir l'aptitude spéciale $LINK<Pont porteur=80007>
+pour leur permettre de transporter et de ravitailler en
+carburant des unités aériennes.
+
+#WEAPONDESC20
+Le module de {Transport de ravitaillement} peut être utilisé pour
+créer des unités d'approvisionnement personnalisées. De telles unités
+fonctionnent plus ou moins comme les
+$LINK<Unités de ravitaillement à chenilles=30005> et peuvent :
+^
+* Produire des nutriments, des minéraux ou de l'énergie dans n'importe
+quel carré de la carte et envoyer les ressources à sa base d'attache.
+Sélectionnez l'option "Convoi" ('O') dans le Menu Action.
+^
+* Se dissoudre dans une base alliée pour fournir leur valeur {entière}
+en minéraux pour compléter la construction d'un projet secret ou d'un
+prototype d'unité.
+
+#WEAPONDESC21
+Le module de l'{Equipe de repérage} peut être utilisé pour créer
+des équipes de repérage personnalisées.
+De telles unités fonctionnent plus ou moins comme des
+$LINK<Equipes de repérage=30006> régulières.
+^
+Les Equipes de repérage peuvent s'infiltrer et tenter d'effectuer
+une subversion des bases et des unités ennemies. Elles peuvent aussi
+dérober des informations de recherche technologique ennemies, accomplir
+un sabotage des installations de leur base, assassiner du personnel
+ennemi clé et lancer une guerre génétique.
+^
+Déplacez une équipe de repérage vers une base ou unité ennemie pour
+utiliser ses capacités opérationnelles.
+^
+Les équipes de repérage peuvent aussi défendre vos bases contre leurs
+homologues ennemies. Si une équipe de repérage est présente dans un
+carré dans lequel une équipe de repérage ennemie essaie d'entrer,
+un combat survient entre les deux unités. L'équipe de repérage avec
+le $LINK<moral=11> le plus élevé sort victorieuse du combat
+habituellement.
+^
+Les équipes de repérage reçoivent souvent une augmentation du niveau
+de leur moral lorsqu'elles accomplissent une mission avec succès. Plus
+le niveau de moral d'une équipe de repérage est élevé, plus elle aura
+de chances de sortir indemne des missions de plus en plus complexes.
+
+#WEAPONDESC23
+Le dispositif d'armement de {Charge conventionnelle} peut être
+utilisé pour créer des missiles conventionnels. Il peut être
+utilisé uniquement avec le châssis de $LINK<Missile=40008>.
+^
+Les missiles conventionnels possèdent les puissances
+d'attaques suivantes :
+^
+^Fission : {9}
+^Fusion : {18}
+^Quantum : {27}
+^Singularité : {36}
+
+#ABILDESC0
+L'aptitude {Super Formeuse} double la vitesse à laquelle une unité
+effectue les fonctions de terraformage. Elle peut être utilisée
+uniquement avec les  $LINK<unités de terraformage=30001>.
+
+#ABILDESC1
+L'aptitude {Radar} permet à une unité de déceler
+la présence d'unités ennemies et d'un terrain à une distance
+de deux carrés.
+
+#ABILDESC2
+Un {Dispositif de brouillage} permet à une unité d'éviter d'être
+détectée par les unités ennemies à moins qu'elles n'essaient d'entrer
+dans le même carré. Les unités ainsi dissimulées peuvent aussi ignorer
+les $LINK<Zones de contrôle=34> ennemies. Elles peuvent se déplacer
+librement dans les carrés adjacents aux unités ennemies.
+
+#ABILDESC3
+Les {capsules amphibies} permettent à une unité au sol d'attaquer
+directement à partir d'un carré de mer lorsqu'elle débarque d'une
+unité de transport. Les unités équipées de capsules amphibies peuvent
+aussi se déplacer et attaquer à travers les canaux situés entre
+les bases navales et les continents.
+
+#ABILDESC4
+Les {capsules de largage} permettent aux unités au sol d'être parachutées.
+Une unité doit entamer son tour dans une base ou base
+aérienne alliée afin d'être parachutée. Les parachutages doivent être
+accomplis dans un carré vide et dans un rayon de 8 carrés
+(sauf si votre faction possède la technologie nécessaire pour
+effectuer des Insertions orbitales, dans lequel cas les unités
+peuvent être parachutées n'importe où sur la Planète).
+^
+Les capsules de largage peuvent se déplacer après un parachutage,
+mais s'ils attaquent une pénalité de combat de -50% est appliquée.
+
+#ABILDESC5
+L'aptitude de {Supériorité aérienne} permet d'équiper une unité avec
+des missiles nécessaires pour attaquer des Jets d'intervention en vol.
+Les unités de Supériorité aérienne bénéficient d'un avantage de combat de 100%
+lorsqu'elles attaquent d'autres unités aériennes en vol, mais subissent
+une pénalité de -50% si elles attaquent des unités au sol ou navale.
+^
+Le combat air-air est calculé en comparant les facteurs d'attaque-
+la valeur de blindage est ignorée.
+^
+Vous remarquerez que même les unités au sol ou navales
+peuvent être équipées de missiles SAM requis pour leur conférer
+cette aptitude.
+
+#ABILDESC6
+Une {Coque ultra pressurisée} permet à une unité navale de fonctionner
+comme un sous-marin.
+Les sous-marins sont difficiles à détecter.
+
+#ABILDESC7
+Un {Pont porteur} permet à des unités de transport naval de transporter
+et de réapprovisionner en carburant des unités aériennes.
+
+#ABILDESC8
+L'aptitude de {Radar anti-AAA} augmente de 100% la défense
+d'une unité contre les attaques aérienne et de missile.
+
+#ABILDESC9
+Le {Brouilleur de communication} interfère avec les communications
+tactiques de contrôle et de commandement ennemies, créant ainsi
+beaucoup de confusion dans les offensives mobiles ennemies. Un
+brouilleur de communications accorde un bonus de défense de 50%
+contre les unités au sol qui ont plus d'un point de mouvement comme
+les ($LINK<Engins rapides=40001> et les $LINK<Magnétoglisseurs=40002>).
+
+#ABILDESC10
+Les {Supports antigravité} donnent à une unité un point de mouvement
+supplémentaire à chaque tour et permettent à toutes les unités au sol,
+comme les $LINK<Magnétoglisseurs=40002>, d'éviter les pénalités de mouvement
+en terrain difficile.
+^
+Les unités aériennes équipées de supports antigravité gagnent une
+quantité de points de mouvement égale à deux fois la valeur de leur
+réacteur (par exemple, une unité aérienne équipée de supports
+antigravité et d'un $LINK<Réacteur à fusion=50002> gagnerait 4
+points de mouvement).
+
+#ABILDESC11
+La {Chant empathique} confère un bonus d'attaque de 50% contre
+les unités qui utilisent une défense psy tels que les
+$LINK<Vers télépathes=30008> ou autres créatures indigènes.
+
+#ABILDESC13
+Les {Réservoirs fongicides} permettent aux unités de terraformage
+de nettoyer le $LINK<Xénofongus=14> deux fois plus vite. Seules les
+unités de $LINK<terraformage=30001> peuvent bénéficier de cette aptitude.
+
+#ABILDESC14
+L'aptitude de {Vaillance} procure à une unité une amélioration
+du $LINK<1 moral=11> lorsqu'elle vient d'être créée.
+
+#ABILDESC15
+Les unités d'{Artillerie lourde} bombardent leurs cibles à distance
+au lieu de les attaquer directement. Cette aptitude unique leur permet
+de tirer sur des unité situées à deux carrés au maximum et d'attaquer
+chaque unité dans un carré lors de l'attaque.
+^
+La seule faiblesse de l'unité d'artillerie est son incapacité à utiliser
+une autre forme d'attaque autre que le $LINK<bombardement=35>.
+^
+Vous remarquerez que les unités navales ont l'aptitude de bombardement
+déjà incorporée, mais elles peuvent aussi attaquer directement
+les unités situées dans les carrés d'océan.
+
+#ABILDESC16
+Les unités équipées de {Réacteur autonome} ne requièrent aucun soutien
+de leur base d'attache. De plus, elles ne créent aucun droïde dans
+des économies du $LINK<Marché libre=120007>.
+#ABILDESC17
+Le {dispositif d'intrusion} permet à une unité d'ignorer toutes les défenses
+d'une base, le ($LINK<Périmètre de défense=100004>,
+le $LINK<Champ de Tachyon=100005>), lorsqu'elle attaque cette même base.
+
+#ABILDESC18
+Les unités équipées de l'{Hypnose} sont protégées contre les attaques
+psy et reçoivent ainsi un bonus de défense de 50% lorsqu'elles sont
+attaquées par des unités qui utilisent le $LINK<Combat psy=15>, tels
+que les $LINK<Vers télépathes=30008> et autres créatures indigènes.
+
+#ABILDESC20
+Les dirigeants de faction qui veulent commettre des atrocités
+peuvent équiper leurs unités de combat avec des {capsules de gaz innervant}.
+Les unités ainsi équipées peuvent utiliser ses capsules pour bénéficier
+d'un bonus d'attaque de 50%. Si ils sont utilisées contre une zone
+peuplée, les capsules de gaz innervant provoqueront des pertes civiles
+importantes.
+
+#ABILDESC21
+Un {Atelier de réparation} permet à des unités de transport de réparer
+les unités qu'elle transporte pendant leur transport.
+
+#ABILDESC22
+Les méthodes {Anti-Emeute} permettent à une unité de compter double
+lorsqu'elle est utilisée comme unité de Police (chaque unité élimine
+deux $LINK<droïdes=36> plutôt qu'une).
+
+#ABILDESC12
+Le {Cryptage polymorphique} double la résistance d'une unité à la subversion des équipes de repérage.
+
+#ARMORDESC
+La force de {blindage} d'une unité détermine sa puissance de combat
+lorsqu'elle est attaquée.
+Plus le blindage est épais plus efficace sera la défense de cette unité.
+
+#REACTORDESC
+Le {réacteur} d'une unité détermine sa {puissance}, la quantité de
+dégâts que l'unité peut subir lors d'un combat avant d'être détruite
+et dans certains cas sa force de destruction.
+Une unité peut subir 10 points de dégâts pour chaque niveau de puissance
+du réacteur.
+^
+La technologie de réacteur plus avancée permet aussi de créer des
+unités à un coût inférieur.
+
+;début du SMACX stuff
+
+
+#; Le centre d'opérations secret
+#HELPFAC34
+Les unités d'$LINK<équipes de repérage=30006> construites ici reçoivent deux mises à niveau de $LINK<moral=11>. La base
+reçoit aussi un taux de $LINK<TEST=130008> de +2.
+
+#; La fosse de couvaison
+#HELPFAC35
++1 de $LINK<moral=11> aux unités indigènes bâties ici. -25% de coût des unités extra-terrestres. Les effets négatifs sur
+le $LINK<CYCLE DE VIE=130004> sont annulés dans le carré de la base. La base reçoit $LINK<+1 en POLICE=130005>.
+
+#; La ferme aquacole
+#HELPFAC36
+Toutes les $LINK<fermes de varech=90020> exploitées par une base génèrent un $LINK<nutriment=41> supplémentaire.
+
+#; La grande conduite sous-marine
+#HELPFAC37
+Toutes les $LINK<plates-formes minières=90022> exploitées par une base génèrent un $LINK<minéral=42> supplémentaire.
+
+#; Le transducteur thermoclinal
+#HELPFAC38
+Tous les $LINK<harnais marémoteurs=90023> exploités par une base génèrent un crédit d'$LINK<énergie=43> supplémentaire.
+
+#; Le système de défense Fléchette
+#HELPFAC39
++50% de défense contre les $LINK<missiles conventionnels=60023>  pour toutes les unités dans un rayon de deux carrés.
+Et, si vous
+n'avez pas de $LINK<Capsules de défense en orbite=100068>, le système peut abattre un missile non conventionnel
+($LINK<destructeur de planète=60016>, $LINK<missile à emport tectonique=60024>,
+et $LINK<missile à emport fongique=60025>) dans 50% des cas s'il est utilisé dans un rayon de deux carrés autour de la
+base.
+Les deux effets se cumulent ; c'est-à-dire que s'il existe deux systèmes Fléchette dans un rayon de deux carrés autour
+de la cible du missile, un missile n'a que 25% de chances de réussite.
+
+#; Le générateur sub-spatial
+#HELPFAC40
+Il s'agit du composant principal de la balise sub-spatiale utilisée par les factions des $LINK<Progéniteurs=47> pour
+émettre les
+coordonnées de Planètes vers leurs mondes respectifs. Une fois qu'une faction de Progéniteurs a construit six
+générateurs sur des bases de taille 10 ou plus, la balise appelle une flotte de renforts, mettant ainsi fin à
+l'installation humaine sur Planète par la $LINK<Victoire des Progénigeurs=10014>.
+
+#; Capsule de reconnaissance géosynchrone
+#HELPFAC41
+Le rayon de vision de cette base passe à trois carrés. La capsule agit également comme un $LINK<champ de détecteurs=
+90009>, apportant +25% de bonus de défense. Les capsule géosynchrones peuvent être détruites par les $LINK<capsules de
+défense en orbite=100068> ou les $LINK<équipes de repérage=30006>.
+
+
+#; Les harmoniques du Collecteur
+#HELPPROJ33
+Augmente les ressources récoltées dans les carrés de $LINK<monolithe=12> et de $LINK<fongus=14> en fonction de votre
+note générale de
+$LINK<PLANETE=130007>, de la manière suivante :
+^
+^0 Planète:   +1 $LINK<Energie=43>
+^+1 Planète:  +1 $LINK<Nutriment=41>, +1 Energie
+^+2 Planète:  +1 Nutriment, +1 Energie, +1 $LINK<Minéral=42>
+^+3 Planète:  +1 Nutriment, +2 Energie, +1 Minéral
+
+#; Le terminus Nethack
+#HELPPROJ34
++1 de $LINK<moral=11> à toutes les $LINK<équipes de repérage=30006> construites. -25% de coût des actions des équipes de
+repérage. Toutes les équipes de repérage disposant d'un $LINK<réacteur à fusion=50002> ou plus bénéficient de
+l'équivalent de l'$LINK<amélioration algorithmique=80028>.
+
+#; L'académie des nuées
+#HELPPROJ35
+Un $LINK<complexe aérospatial=100029> gratuit sur chaque base.
+
+
+#; La grille d'énergie planétaire
+#HELPPROJ36
+Une $LINK<banque d'énergie=100007> gratuite sur chaque base. La production de l'$LINK<accumulateur à énergie=100069>
+augmente de 25%.
+
+#ABILDESC24
+Les unités équipées de {capsules de gaz soporifique} diminuent le moral de l'ennemi de 2 pendant l'attaque.
+
+#ABILDESC25
+Les unités équipées de l'{onde dissociative} peuvent contrer les aptitudes spéciales qui modifient les paramètres
+(pourcentages) de combat. Celle-ci annule les aptitudes spéciales telles que le $LINK<brouilleur de comms=80009>
+et la $LINK<transe hypnotique=80018>.
+
+#ABILDESC26
+Les unités maritimes équipées d'un {détachement de marine} peuvent arraisonner et capturer les navires ennemis qui ont
+été gravement endommagés.
+
+#ABILDESC27
+Les {nanocellules de carburant} ajoutent +2 a la capacité de carburant d'une unité aérienne.
+
+#ABILDESC28
+Les $LINK<équipes de repérage=30006> équipées des {améliorations algorithmiques} exécutent des opérations secrètes avec
+des chances de réussite supérieures. Les équipes de
+repérage améliorées peuvent également infiltrer les bases et les unités quels que soient les choix d'ingénierie sociale
+ou le projet secret de l'$LINK<algorithme chasseur-chercheur=110085>, bien qu'elles aient encore un taux d'échec élevé.
+
+#UNITDESC14
+Les {Maringuets} hantent les surfaces fongiques et les profondeurs océaniques des mers de Planète. Opposés au $LINK<îles
+des profondeurs=30009> moins agressives, les Maringuets cherchent et attaquent les bases côtières et océaniques. Elles
+peuvent aussi se tapir pour attendre une proie facile, se saisissant
+des navires imprudents qui voguent trop près du $LINK<fongus=14>. Lorsqu'elles sont immobiles, ces créatures sont
+extrêmement difficiles à détecter jusqu'à ce qu'elles lancent leur attaque.
+
+Lorsqu'ils sont attaqués, les Maringuets peuvent engager un $LINK<combat psy=15> dans lequel la puissance des armes et
+des blindages est ignorée.
+Le niveau de $LINK<Moral=11> level est très important lorsqu'on attaque les Maringuets.
+^
+Avec des techniques d'élevage et de limitation appropriées, les Maringuets peuvent être élevés en captivité et contrôlés
+par des entraîneurs qualifiés.
+Comme pour toutes les unités indigènes, les joueurs peuvent relâcheer les Maringuets dans la nature pour harceler et
+désorganiser un ennemi.
+
+
+#UNITDESC15
+Les {lanceurs de spores} peuvent apparaître seuls ou en compagnie des $LINK<vers télépathes=30008>, et sont étroitement
+liés au $LINK<fongus=14>. Les lanceurs de spores tendent à observer les alentours des établissements, à expulser des
+jets de spores corrosives qui peuvent détruire les améliorations des humains ou des Progéniteurs d'une distance de deux
+carrés. Ces spores sont également efficaces contre les unités.
+^
+Les lanceurs de spores peuvent s'engager dans le $LINK<combat psy=15> lorsqu'ils sont attaqués ; la forces des armes et
+des blindages est alors ignorée. Le niveau de $LINK<moral=11> est très important lors de l'attaque d'autres lanceurs de
+spores.
+^
+
+Avec une éducation convenable et des techniques de limitation, les lanceurs de spores peuvent également être élevés en
+captivité et contrôlés par des moniteurs de couvaison qualifiés. Ces naissains captifs peuvent être utilisés par
+l'artillerie pour attaquer les unités ennemies ou les améliorations de terrain.
+Comme avec toute unité indigène, les joueurs peuvent aussi relâcher les lanceurs de spores dans la nature, pour harceler
+et désorganiser un ennemi.
+
+#UNITDESC16
+Les {ogres de combat} sont rares, ce sont les restes mécaniques de la première ère des $LINK<Progéniteurs=47> sur
+Planète.
+Il existe plusieurs types d'ogres, dotés chacun d'un équipement et de pouvoirs différents. Malheureusement, la
+conception tortueuse de ces unités rendent leur réparation impossible même par les techniciens Progéniteurs ; toutes les
+avaries deviennent permanentes.
+^
+L'ogre de combat Mk1 possède un $LINK<laser à résonance=60012>, un $LINK<blindage à résonance 3=70011> et un
+$LINK<réacteur à fission=50001>.
+Sa taille énorme et son aspect effrayant aident aussi réprimer l'activité des droïdes, doublant effectivement les
+pouvoirs de $LINK<police=130005> de l'ogre.
+
+#UNITDESC17
+Les {ogres de combat} sont rares, ce sont les restes mécaniques de la première ère des $LINK<Progéniteurs=47> sur
+Planète.
+Il existe plusieurs types d'ogres, dotés chacun d'un équipement et de pouvoirs différents. Malheureusement, la
+conception tortueuse de ces unités rendent leur réparation impossible même par les techniciens Progéniteurs ; toutes les
+avaries deviennent permanentes.
+^
+L'ogre de combat Mk2 possède un $LINK<verrou à résonance=60013>, un
+$LINK<blindage à résonance 8=70013> et un $LINK<réacteur à fusion=50002>. Sa taille énorme et son aspect effrayant
+aident aussi réprimer l'activité des
+droïdes, doublant effectivement les pouvoirs de $LINK<police=130005> de l'ogre. Les Progéniteurs ont également construit
+l'ogre Mk2 avec
+l'aptitude spéciale $LINK<onde dissociative=80025>.
+
+#UNITDESC18
+Les {ogres de combat} sont rares, ce sont les restes mécaniques de la première ère des $LINK<Progéniteurs=47> sur
+Planète.
+Il existe plusieurs types d'ogres, dotés chacun d'un équipement et de pouvoirs différents. Malheureusement, la
+conception tortueuse de ces unités rendent leur réparation impossible même par les techniciens Progéniteurs ; toutes les
+avaries deviennent permanentes.
+^
+L'ogre de bataille Mk3 possède un $LINK<dislocateur de cordes=60014>, un
+$LINK<blindage à générateur de stase=70008> et une $LINK<chambre quantique=50003>. Sa taille énorme et son aspect
+effrayant aident aussi réprimer l'activité
+des droïdes, doublant effectivement les pouvoirs de $LINK<police=130005> de l'ogre. Les Progéniteurs ont également
+construit l'ogre
+avec l'aptitude spéciale $LINK<onde dissociative=80025>.
+
+#UNITDESC19
+Les {tours fongiques} agissent comme un système nerveux localisé pour les surfaces de $LINK<fongus=14>.
+Ces tours sont des entremêlements massifs de vers télépathes, de fongus et d'autres formes de vie indigènes étranges.
+Bien que les tours ne puissent ni se déplacer, ni attaquer, elles empêchent tout déplacement dans leur périphérie et
+exercent une emprise sur une $LINK<zone de contrôle=34> qui peut paralyser les unités sur cette zone.
+^
+Lorsqu'elles sont attaquées, les tours fongiques peuvent s'engager dans un $LINK<combat psy=15>, lors duquel la force
+des armes et du blindage est ignorée.
+Le niveau de $LINK<Moral=11> est très important lors de l'attaque des tours fongiques. Lorsqu'elles sont attaquées, les
+tours fongiques reçoivent un bonus de 50% en raison de leur aptitude à coordonner et à diriger les formes de vie
+indigènes de la région.
+^
+La taille et la puissance des tours fongiques dépendent de la quantité de fongus au voisinage de la tour.
+Les tours peuvent également générer du fongus dans les carrés vides avoisinants.
+
+#UNITDESC20
+Le vaisseau Unity des Nations Unies contenait quelques-uns de ces lasers conçus pour des opérations de forage
+rudimentaires. Il est possible qu'un ou deux de ces appareils aient résisté à l'écrasement de l'Unity sur la surface de
+Planète.
+Au cours des premières années qui suivent l'arrivée sur Planète, il est possible de les utiliser comme des armes.
+
+#WEAPONDESC12
+Le {laser à résonance} fonctionne à la fois comme un laser et comme une force de désorganisation puissante sur les
+champs de résonance locaux. Son facteur d'attaque de base est de 6 et il reçoit +25% de bonus lorsqu'il est engagé dans
+un $LINK<combat psy=15>.
+
+#WEAPONDESC13
+Le {verrou à résonance} fonctionne à la fois comme une $LINK<décharge de tachyon=60007> et comme une force de
+désorganisation puissante sur les champs de résonance locaux. Son facteur d'attaque de base est de 12 et il reçoit +25%
+de bonus lorsqu'il est engagé dans un $LINK<combat psy=15>.
+
+#WEAPONDESC14
+La puissance d'une unité (arme) détermine sa puissance d'attaque. Plus l'arme est puissance et plus l'attaque est
+violente.
+
+#WEAPONDESC24
+Les armes de l'{emport tectonique} peuvent servir à créer des missiles tectoniques. Elles ne peuvent être utilisées
+qu'avec le châssis $LINK<missile=40008>.
+^
+L'explosion d'un missile tectonique provoque un tremblement de terre qui élève le terrain visé de 1 à 4 niveaux
+d'altitude, en fonction du type de $LINK<réacteur=50001>. Un réacteur à fission élève le terre d'un niveau, un réacteur
+à singularité de un à quatre niveaux. Les missiles tectoniques sont considérés comme des plates-formes de lancement et
+ne peuvent donc pas viser des bases ni des unités.
+
+#WEAPONDESC25
+Les armes à {emport fongique} peuvent servir à créer des missiles fongiques. Elles ne peuvent être utilisées qu'avec
+le châssis $LINK<missile=40008>.
+^
+L'explosion d'un missile fongique détruit toutes les améliorations d'un carré. De plus, l'explosion couvre de fongus une
+surface de 1 à 4 carrés de terrain, en fonction du type de $LINK<réacteur=50001>. Un réacteur à fission couvre un carré,
+un réacteur à singularité, quatre carrés. La détonation peut également réveiller les spores dormants des formes de vie
+indigènes. Les missiles fongiques sont considérés comme des plates-formes de lancement et
+ne peuvent donc pas viser des bases ni des unités.
+
+#ARMORDESC9
+Le blindage à {défense psy} confère une aptitude défensive identique à celle que possèdent les unités indigènes telles
+que les $LINK<vers télépathes=30008>. Lorsqu'elle est attaquée, une unité dotée de la défense psy engage le $LINK<combat
+psy=15> dans lequel la puissance des armes et des blindages est ignorée et l'attaquant reçoit un avantage de 3 à 2 sur
+le terrain. Le niveau de $LINK<Moral=11> est très important lors de l'attaque d'une unité dotée de la défense psy.
+
+#ARMORDESC10
+Le {blindage à impulsion 3} est un système de défense combiné qui apporte les avantages de l'$LINK<armure d'acier plasma
+=
+70002> (D3) tout en conférant un bonus de défense de 25% contre les unités au sol disposant de plus d'un déplacement
+($LINK<engins rapides=40001> et $LINK<magnétoglisseurs=40002>).
+
+#ARMORDESC11
+L'{armure à résonance 3} est un système de défense combiné qui apporte les avantages de l'$LINK<armure d'acier plasma =
+70002> (D3) associés à un bouclier psychique qui confère un bonus de +25% de défense lors des attaques par les unités
+qui emploient le $LINK<combat psy=15>, telles que les $LINK<vers télépathes=30008> et autres créatures indigènes.
+
+#ARMORDESC12
+L'{armure à impulsion 8} est un système de défense combiné qui apporte les avantages du $LINK<blindage neutronium=70006>
+(D8) et confère un bonus de 25% de défense contre les unités au sol disposant de plus d'un mouvement ($LINK<engins
+rapides=40001> et $LINK<magnétoglisseurs=40002>).
+
+#ARMORDESC13
+L'{armure à résonance 8} associe la protection physique du $LINK<blindage neutronium=70006> (D8) à un bouclier psy qui
+confère un bonus de +25% de défense lors des attaques des unités qui emploient le $LINK<combat psy=15>,
+telles que les $LINK<vers télépathes=30008> et les autres créatures indigènes.
+
+
+
+
+
+# ; This line must remain at end of file
+

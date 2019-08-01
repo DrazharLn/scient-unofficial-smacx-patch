@@ -1,0 +1,133 @@
+;
+; Sid Meier's ALPHA CENTAURI Expansion Disk
+;
+; FACTION FILE: Le culte de Planète
+;
+Copyright (c) 1999, 1998, Firaxis Games, Inc.
+;
+; ALPHA CENTAURI lit les règles du jeu dans ce fichier au
+; démarrage. Vous pouvez, à vos propres risques, faire des essais de modification
+; de ce fichier. Nous vous conseillons d'effectuer une copie de sauvegarde de l'original.
+;
+
+#FUNGBOY
+Le culte de Planète, La Voix, Culte de Planète, M, 1, Cha Dawn, M, 1, 1, 0, 0, 1,
+  TECH, Ecology, TECH, Psych, WORMPOLICE, 0, SOCIAL, ++PLANET, SOCIAL, -INDUSTRY, SOCIAL, -ECONOMY, FREEFAC, 35, UNIT, 8
+  Economie, Verte, PLANET
+  VALEURS, Richesse, nil
+  Zélé, Zélé
+  Fatima, Samuels, Jardin de Fatima
+  Prophète, charismatique, protecteur des vers, fervents, fanatiques,
+  manipulateur
+  réaliser la Volonté de Planète
+  réaliser la Volonté de Planète
+  exterminer tout ce qui marche sur deux jambes
+  exterminer tout ce qui marche sur deux jambes
+  que vous planifiez l'éradication de toutes les formes de vie intelligentes sur la Planète
+  jeter ses adversaires en pâture aux Vers télépathes
+  jeter vos adversaires en pâture aux Vers télépathes
+  torturer mes ennemis dans l'abomination de mes Fosses de Couvaison
+  fanatiques aux yeux orange, M2
+  vos fervents efforts de communion avec Planète, M2
+  vos croisades, F2
+  une petite aumône, F1
+  à détourner de vos têtes l'Ire de Planète
+  à mes derviches
+  les Commandements de Planète
+
+#BASES
+AUBE SUR PLANETE
+ANTRE DU VER
+ECRITS SAINTS
+DELICIEUSE TERREUR
+PROPHETES DE CHIRON
+FOUDRE DE PLANETE
+RELIQUAIRE DU VER
+PUITS BAPTISMAL
+VISION GLOBALE
+TRANSE DE PURETE
+VIERGE PLANETE
+STIGMATES DE CHIRON
+HAVRE ACRIDIEN
+PUITS DES AMES
+DANS LA LUMIERE
+SANCTUAIRE DES SPORES
+FIN D'ENFANCE
+EPREUVE DU FEU
+CHOEUR DE L'AURORE
+CONDORDAT DES VERS
+MISERICORDE
+ERMITAGE
+ASCESE
+#END
+
+#WATERBASES
+POISSONNEUSE
+TRANSE DES VAGUES
+FLENSING
+ATOLL BABYLONE
+ARCHE D'ALLIANCE
+ORAISON D'AURORE
+MARINGUETS
+CONTRITION
+#END
+
+#BLURB
+L'humanité est restée aveugle pendant des milliers d'années, c'est-à-dire pendant toute son histoire. Mais nous avons
+atteint un lieu dont les merveilles sont cent fois plus étonnantes que tout ce qui existait sur la terre. Tout autour de
+nous resplendit la preuve éclatante d'une Volonté supérieure. J'apporte la Lumière aux
+yeux aveugles des hommes. J'apporte le Verbe aux oreilles sourdes des hommes. C'est
+par moi qu'ils verront, c'est par moi qu'ils entendront.
+^
+^      -- Prophète Cha Dawn
+^         "Lever de Planète"
+
+#DATALINKS1
+^DIRIGEANT: {Cha Dawn}
+^CURRICULUM: {De parenté incertaine, trouvé abandonné dans le fongus par des écologistes mécontents}
+^ORDRE DU JOUR: {Restaurer Planète à son état virginal}
+^TECHNOLOGIE: {Ecologie centauri, Psy sociale}
+^
+
+#DATALINKS2
+^+2 PLANETE: {A voué sa vie à promouvoir les formes de vie originelles}
+^-1 INDUSTRIE: {Refuse de polluer l'environnement}
+^-1 ECONOMIE: {Sourd au sirènes du profit}
+^FOSSE DE COUVAISON gratuite avec la découverte de la Génétique Centauri
+^Les Vers télépathes doublent la force de la police: {La vie indigène inspire une terreur sacrée}
+^{Ne peuvent choisir la Richesse en ingénierie sociale}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Planète réprouve ce conflit. Soumettons-nous à Sa sainte Volonté et concluons une Trêve de Sang."
+
+"Bon... qu'il en soit ainsi... Si c'est Planète qui le dit..."
+"Avez-vous de nouveau fumé des spores, $NAME3 ? Nous allons voir si votre Planète va pouvoir vous sauver !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Planète ressent une parenté entre nos deux peuples. Forgeons un lien solide en signant un Traité d'Amitié !"
+
+"Planète est sage, $NAME3. Qu'il en soit ainsi."
+"Votre Planète cache du magma brûlant sous son écorce, $NAME3. Jamais nous ne nous joindrons à vos fanatiques fumeurs de spores !"
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Planète réprouve ce conflit. Soumettons-nous à Sa sainte Volonté et concluons une Trêve de Sang."
+
+"Accord total ! Gloire au Collecteur Six !"
+"Hérésie ! Le Collecteur Six : un profond et indicible Mystère inaccessible aux humains. Trêve refusée."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Par delà nos différences de nature, Planète ressent une communion entre nos peuples.
+Qu'un Traité d'Amitié vienne forger entre nous un lien solide et planétaire !"
+
+"Communion possible autour du respect pour le Collecteur six. Traité accepté."
+"Impossible d'interpréter la Volonté du Collecteur 6. Traité reporté."
+
+# ; This line must remain at end of file

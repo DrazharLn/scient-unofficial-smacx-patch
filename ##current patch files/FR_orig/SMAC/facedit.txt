@@ -1,0 +1,325 @@
+; Faction Editor Text Files
+
+#TITLE
+Editeur de faction v1.0
+
+#DATATITLES
+NOM DES BASES
+NOM DES BASES MARINES
+FACTION
+PHRASES
+REGLES
+DIRIGEANT
+DIPLOMATIE
+LIAISONS DE DONNEES
+
+#BUTTONS
+Nouvelle faction
+Enregistrer faction
+Charger faction
+Quitter
+Faction
+Dirigeant
+Règles
+Diplomatie
+Liaisons de données
+Phrases
+Nom des bases
+Nom des bases marines
+Mâle
+Femelle
+Oui
+Non
+Parfois
+Masculin
+Féminin
+Singulier
+Pluriel
+Ajouter faction au jeu
+Supprimer faction du jeu
+Quitter
+Diplomatie Alien
+Diplomatie humaine
+
+#FACTION
+Nom de faction
+Nom descriptif
+Nom de faction
+Adjectif de faction
+Insulte de faction
+Genre de faction
+Pluriel/Singulier
+Idéologie sociale
+Domaine
+Contre-idéologie
+Bonus de faction
+Ensemble graphique
+
+#GRAPHICSET
+Filles de Gaïa
+Ruche humaine
+Université de la Planète
+Industries Morgan
+Fédération spartiate
+Les dévôts du Seigneur
+Forces de maintien de la paix
+La conscience cybernétique
+Pirates
+Les Droïdes libres
+Les Anges des données
+Le Culte de Planète
+Gardiens du Collecteur
+Usurpateurs du Collecteur
+
+#LEADER
+Nom
+Titre
+Adjectif positif
+Adjectif négatif
+Insulte
+Assistant
+Scientifique
+Ville de l'Assistant
+Genre du dirigeant
+Utilisation de la force
+Intérêt Pouvoir
+Intérêt Technologie
+Intérêt Fortune
+Intérêt Croissance
+
+#LIMITEDBONUS
+Aucune
+Technologie gratuite
+Bâtiment gratuit
+Véhicule gratuit
+Progrès social
+Robuste
+Immunité
+Impunité
+Pénalité
+Nutriment fongique
+Minéral fongique
+Energie fongique
+Voix bonus
+Bâtiment gratuit (cond. préalable)
+Révolte
+Pas de droïde
+Aptitude gratuite
+Coût de l'équipe de repérage
+Bonus Défense
+Bonus Attaque
+
+#LIMITEDBONUSCODES
+AUCUNE
+TECH
+FACILITY
+UNIT
+SOCIAL
+ROBUST
+IMMUNITY
+IMPUNITY
+PENALTY
+FUNGNUTRIENT
+FUNGMINERALS
+FUNGENERGY
+VOTES
+FREEFAC
+REVOLT
+NODRONE
+FREEABIL
+PROBECOST
+DEFENSE
+OFFENSE
+
+#SENTENCES
+Ensemble, nous allons 
+J'ai l'intention de 
+Il/Elle veut 
+Vous semblez vouloir 
+Je ne resterais pas stoïque pendant 
+Il/Elle passe son temps à 
+Vous passez votre temps à 
+J'ai été accusé de 
+$<Votre:Votre:Vos:Vos>
+Imaginez les avantages pour 
+J'ai confiance en 
+il est habituel de me remettre 
+pour les services fournis 
+Je donnerai l'ordre
+Vous êtes en contravention avec
+et...
+ne m'impressionne pas
+qui flattent votre ego
+...
+pour garantir qu'un tel...
+
+#DIPLOMACY
+Texte de la Trêve
+Accepter la Trêve
+Refuser la Trêve
+Texte du Traité
+Accepter le Traité
+Refuser le Traité
+Texte de la Trêve extra-terrestre
+Accepter la Trêve extra-terrestre
+Refuser la Trêve extra-terrestre
+Texte du Traité extra-terrestre
+Accepter le Traité extra-terrestre
+Refuser le Traité extra-terrestre
+
+#DATALINKS
+Dirigeant:
+Curriculum:
+Ordre du jour:
+Technologie:
+Bonus 1:
+Bonus 2:
+Bonus 3:
+Bonus 4:
+Bonus 5:
+Bonus 6:
+Bonus 7:
+Bonus 8:
+Auteur :
+Source :
+Texte  :
+
+#BONUS
+Modificateur de moral
+Modificateur de combat psy (%)
+Bonus de recherche par base
+Droïde supplémentaire par base
+Talent supplémentaire par base
+Bonus de réserve d'énergie
+Intérêts d'énergie (%)
+Bonus de taux de commerce
+Bonus de population
+Modificateur d'accélération (%)
+Modificateur de recherche (%)
+Partage des informations technologiques
+Sélection de technologies
+Bonus de terraformation
+Bonus de fréquence de communications
+Immunité au contrôle psychique
+25% de bonus d'attaque
+Prototypes gratuits
+Faction aquatique
+Faction extra-terrestre
+Police : vers
+Technologie partagée : espionnage
+Vol de technologie
+
+#BONUSCODES
+MORALE
+PSI
+RESEARCH
+DRONE
+TALENT
+ENERGY
+INTEREST
+COMMERCE
+POPULATION
+HURRY
+TECHCOST
+TECHSHARE
+SELECTTECH
+TERRAFORM
+COMMFREQ
+MINDCONTROL
+FANATIC
+FREEPROTO
+AQUATIC
+ALIEN
+WORMPOLICE
+SHARETECH
+TECHSTEAL
+
+#HELPTEXT
+Nom officiel de la colonie/du groupe
+Description de l'idéologie de base
+Le nom au pluriel
+Adjectif décrivant la faction
+Insulte contre la faction
+Le genre du nom de la faction
+Nombre du nom de la faction
+Ideologie sur laquelle le joueur IA se concentrera
+Domaine de la société que le joueur IA essayera d'améliorer
+Idéologie sociale que le joueur IA trouvera désagréable
+Bonus de faction ; limité à un total de huit
+L'ensemble de fichiers graphiques utilisé par la faction
+Nom du dirigeant de la faction
+Titre du dirigeant de la faction
+Adjectif positif s'appliquant au dirigeant de la faction
+Adjectif négatif qualifiant le dirigeant de la faction
+Insulte contre le dirigeant de la faction
+Nom d'un assistant utilisé dans plusieurs interludes
+Nom d'un scientifique utilisé dans plusieurs interludes
+Nom d'une base utilisé dans plusieurs interludes
+Sexe du dirigeant de la faction
+La volonté du dirigeant de la faction d'atteindre ses objectifs par l'agression
+L'intérêt du dirigeant de la faction pour la puissance militaire lorsque c'est l'IA qui joue
+L'intérêt du dirigeant de la faction pour la recherche lorsque c'est l'IA qui joue
+L'intérêt du dirigeant de la faction pour l'accumulation d'énergie lorsque c'est l'IA qui joue
+L'intérêt du dirigeant de la faction pour l'extension de ses frontières lorsque c'est l'IA qui joue
+Augmente ou diminue le moral des nouvelles unités. 0 = immun. contre les modif. négatifs
+Un pourcentage de bonus de pourcentage dans tous les combats PSY
+Points de recherche gratuits générés sur chaque base à chaque tour
+Un droïde supplémentaire sur chaque base, par nombre de population saisi
+Nombre de talents supplémentaires générés sur chaque base, en fonction de la population actuelle
+Réserves d'énergie gratuite au début du jeu
+Intérêt pour les réserves d'énergie. Lorsque ce paramètre est à 0, +1 par base
+Taux de commerce augmenté
+Nombre à ajouter à la limite de population avant qu'un dôme ou un complexe d'habitation soit nécessaire
+Pourcentage de modificateur des coûts associés à l'accélération de la production
+Pourcentage de modificateur du taux de recherche
+Nombre de factions devant connaître une tech. avant que vous ne la receviez. 0 indique l'absence de cette aptitude
+Permet à la faction de sélectionner un certain nombre de technologies au début d'un jeu
+Diminue de moitié les coûts de terraformage vers le haut/vers le bas
+Donne une fréquence de communication supplémentaire au début du jeu
+Les véhicules et les bases sont immunisés contre le contrôle psychique
+25% de bonus en attaque
+Coût des prototypes nuls pour cette faction
+Faction maritime (minéraux supp. sur océan, améliorations océaniques)
+Faction de Progéniteurs (texte des Progéniteurs, unités supplémentaires, technologies dirigées, etc.)
+Les vers télépathes doublent la force de la police
+En cas d'utilisation avec la technologie partagée, nécessite l'espionnage des autres factions
+La faction vole une technologie lorsqu'elle capture une base
+Le nom du dirigeant de la faction qui figure sur les liaisons de données
+Le curriculum du dirigeant de la faction qui figure dans les liaisons de données
+L'ordre du jour du dirigeant de la faction qui figure dans les liaisons de données
+La technologie de démarrage de la faction telle qu'elle figure dans les liaisons de données
+Un bonus de faction qui figure dans les liaisons de données
+L'auteur de la source d'où provient la citation
+La source d'où est tirée la citation
+La citation qui s'affiche lors du choix d'une faction
+Modification du texte des divers messages diplomatiques
+Affichage du résultat final du message diplomatique, en contexte
+Liste des noms des bases terrestres
+Liste des noms des bases maritimes
+Restauration des paramètres par défaut de la faction (la Ruche humaine)
+Chargement d'une faction précédemment créée
+Enregistrement de la faction et ajout au jeu
+Pour quitter l'éditeur de faction
+Options de la faction
+Options du dirigeant
+Options des règles
+Options diplomatiques
+Options liaisons de données
+Options des phrases
+Nom des bases terrestres
+Nom des bases maritimes
+Texte de la Trêve proposée par votre faction à un humain
+Texte utilisé lorsqu'un humain accepte une Trêve avec votre faction
+Texte utilisé lorsqu'un humain refuse une Trêve avec votre faction
+Texte du Traité proposé par votre faction à un humain
+Texte utilisé lorsqu'un humain accepte un Traité avec votre faction
+Texte utilisé lorsqu'un humain refuse un Traité avec votre faction
+Texte de la Trêve proposée par votre faction à un extra-terrestre
+Texte utilisé lorsqu'un extra-terrestre accepte une Trêve avec votre faction
+Texte utilisé lorsqu'un extra-terrestre refuse une Trêve avec votre faction
+Texte du Traité proposé par votre faction à un extra-terrestre
+Texte utilisé lorsqu'un extra-terrestre accepte un Traité avec votre faction
+Texte utilisé lorsqu'un extra-terrestre refuse un Traité avec votre faction
+Permutation entre le texte diplomatique humain et extra-terrestre
+
+# ; This line must remain at end of file

@@ -1,0 +1,234 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; General JACKAL Errors
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#FILEWIN_LOAD
+#xs 320
+#caption ERREUR DE CHARGEMENT
+Impossible de trouver le fichier $FILENAME0.
+
+#FILEWIN_SAVEEXISTS
+#xs 320
+#caption AVERTISSEMENT
+^^$FILENAME0 existe déjà. Désirez-vous écraser ce fichier ?
+
+#NET_LOBBY_PASSWORD_QUERY
+#xs 320
+#caption DEFINIR MOT DE PASSE ?
+
+Oui
+Non
+
+#NET_LOBBY_INPUT_PASSWORD
+#xs 320
+#caption ENTREZ LE MOT DE PASSE DE LA SESSION.
+
+
+#NETCONNECT_CREATE
+#xs 320
+#caption HOTE D'UN JEU MULTIJOUEUR
+#editbox
+#itemlist
+Entrez le nom du jeu :
+Entrez votre nom :
+##Optional password :
+
+#NETCONNECT_JOIN
+#xs   320
+#caption JOINDRE JEU MULTIJOUEUR
+#itemlist
+Entrez votre nom :
+
+#NETCONNECT_NEED_SESSION
+#xs   320
+#caption AVIS
+^^Nom du jeu requis. Veuillez de nouveau essayer.
+
+#NETCONNECT_NEED_PLAYER
+#xs   320
+#caption AVIS
+^^Nom du joueur requis. Veuillez de nouveau essayer.
+
+#NETCONNECT_MAX_PLAYERS
+#xs   200
+#caption   CREEZ UN JEU MULTIJOUEUR
+^^Choisissez le nombre de joueurs autorisés
+
+#NETCONNECT_PASSWORD_SET
+#xs   320
+#caption AVIS
+^^Protection par mot de passe définie.
+
+#NETCONNECT_SESSION_NOT_FOUND
+#xs   320
+#caption  JEU NON TROUVE
+#button   Essayez de nouveau
+Aucun jeu n'a été trouvé.
+
+#NETCONNECT_SESSIONS
+#xs 440
+#caption CHOISISSEZ LE JEU QUE VOUS VOULEZ JOINDRE
+#button Rafraîchir
+
+
+#FILEFIND_NOCD
+#xs   320
+#caption SID MEIER'S ALPHA CENTAURI
+#button Reprise
+Le CD-ROM d'Alpha Centauri n'a pu être détecté. Certaines caractéristiques du jeu
+ne pourront fonctionner si le CD-ROM ne se trouve pas dans le lecteur.
+
+#NETCONNECT_JOIN_OR_CREATE
+#xs   320
+#caption HOTE OU JOINDRE UNE SESSION
+Voulez-vous être l'hôte d'un nouveau jeu ou rejoindre une session
+en cours?
+
+Hôte
+Rejoindre session
+
+#SELECTSERVICE
+#xs   320
+#caption CONFIGURATION MULTIJOUEUR
+Sélectionnez un service...
+
+#FILEWIN
+FILE NAME
+
+#DDRAWERROR
+#xs   320
+#caption  ERREUR DE DIRECTDRAW
+#button Installer DirectX
+Nous avons rencontré un problème avec la configuration de DirectDraw
+sur votre machine. L'erreur suivante est survenue : $SOMEERROR0. Le 
+jeu exige l'installation correcte de DirectX, version 5 ou plus 
+récente. Si vous voulez essayer d'installer ou de réinstaller 
+DirectX, assurez-vous que le CD-ROM du jeu soit dans votre lecteur 
+et appuyez sur "Installer DirectX" ci-dessous.
+
+#DPLAYERROR
+#xs   320
+#caption  ERREUR DE DIRECTPLAY
+#button Installer DirectX
+Nous avons rencontré un problème avec la configuration de DirectPlay
+sur votre machine. L'erreur suivante est survenue : $SOMEERROR0. Le 
+jeu exige l'installation correcte de DirectX, ou plus récente. Si 
+vous voulez essayer d'installer ou de réinstaller DirectX, 
+assurez-vous que le CD-ROM du jeu soit dans votre lecteur et 
+appuyez sur "Installer DirectX" ci-dessous.
+
+#CDNOTFOUND
+#xs   320
+#caption SID MEIER'S ALPHA CENTAURI
+#button Reprise
+Le CD-ROM d'Alpha Centauri n'a pu être détecté. Certaines caractéristiques du jeu
+ne pourront fonctionner si le Cd-rom ne se trouve pas dans le lecteur.
+
+#HOSTOLDERVERSION
+#xs 320
+#caption INCOMPATIBILITE DE VERSION
+Un joueur a essayé de se connecter avec une version plus récente et 
+incompatible du jeu. Vous pouvez mettre à niveau votre jeu en allant 
+sur le site $LINK<www.firaxis.com:0>.
+
+#CLIENTOLDERVERSION
+#xs 320
+#caption INCOMPATIBILITE DE VERSION
+Désolé, mais la version du jeu du joueur Maître ($HOSTVERSION0) est 
+plus récente que votre version ($CLIENTVERSION1). Vous pouvez mettre 
+à niveau votre jeu en allant sur le site $LINK<www.firaxis.com:0>.
+
+#CLIENTNEWERVERSION
+#xs 320
+#caption INCOMPATIBILITE DE VERSION
+Désolé, mais la version du jeu du joueur Maître est plus ancienne 
+que votre version et est donc incompatible. Afin de vous connecter,
+le Maître de cette session devra mettre à niveau sa version du jeu.
+
+#GUARANTEEDFAILURE
+#xs 320
+#caption ECHEC DE MESSAGE GARANTI
+#button Réessayez
+#button Continuer le Jeu seul
+#button Quitter le Jeu
+Une tentative d'envoi de message au joueur $PLAYERNAME0 a échoué.
+
+#FILEWIN_ILLEGALCHAR
+#xs 320
+#caption ATTENTION
+Le nom de fichier que vous avez demandé comporte des caractères non autorisés.
+Veuillez essayer de nouveau.
+
+#NET_SENDTIMEDOUT
+#xs 440
+#caption LE DELAI D'ENVOI DU MESSAGE A EXPIRE
+Un message n'a pu être transmis aux joueurs suivants : $PLAYERNAMES0.
+Cette situation peut être momentanée, mais elle peut aussi indiquer
+la perte de la connexion réseau.
+Comment souhaitez-vous remédier à cette erreur ?
+
+Réessayer dans 20 secondes.
+Abandonner la session mais continuer le jeu en solo.
+Quitter le jeu.
+Ignorer ce message (peut s'avérer fatal).
+
+#NET_OKTODROPHOST
+#xs 440
+#caption LE JOUEUR NE REPOND PAS
+L'hôte $PLAYERNAME0 ne répond pas. Cette situation peut être momentanée,
+mais elle peut aussi indiquer la perte de la connexion réseau.
+Vous pouvez (a) tenter de rétablir la connexion (b) abandonner l'hôte
+et continuer sans lui, (c) abandonner l'hôte et sauvegarder le jeu
+pour terminer dans une nouvelle session.
+
+Abandonner l'hôte et devenir hôte à sa place.
+Ne pas abandonner l'hôte.
+Ne pas abandonner l'hôte et régler le facteur de tolérance.
+
+#NET_OKTODROPCLIENT
+#xs 440
+#caption LE JOUEUR NE REPOND PAS
+L'hôte $PLAYERNAME0 ne répond pas. Cette situation peut être momentanée,
+mais elle peut aussi indiquer la perte de la connexion réseau.
+Vous pouvez (a) tenter de rétablir la connexion (b) abandonner le joueur
+et continuer sans lui, (c) abandonner le joueur et sauvegarder le jeu
+pour terminer dans une nouvelle session.
+
+Abandonner $PLAYERNAME0.
+Ne pas abandonner $PLAYERNAME0.
+Ne pas abandonner $PLAYERNAME0 et régler le facteur de tolérance.
+
+#NET_OKTODROPHOSTS
+#xs 320
+#caption LE JOUEUR NE REPOND PAS
+L'hôte $PLAYERNAME0 et l'hôte potentiel suivant, $PLAYERNAME1, ne répondent pas.
+Cette situation peut être momentanée,
+mais elle peut aussi indiquer la perte de la connexion réseau.
+
+Mettre fin au jeu en réseau.
+Continuer à essayer de jouer.
+Continuer à essayer de jouer et régler le facteur de tolérance.
+
+#NET_ADJUSTTOLERANCE
+#xs 320
+#caption REGLER LA TOLERANCE D'ABANDON
+Sélectionner le facteur de tolérance d'abandon.
+
+5 secondes
+10 secondes (valeur par défaut)
+20 secondes
+30 secondes
+
+#CAVIAR_INVALIDCPU
+#xs 320
+#caption PROCESSEUR NON GERE
+#button JOUER QUAND MEME
+Votre processeur n'est pas géré par le programme. Vous pouvez
+tenter de jouer quand même : cependant, des blocages sont
+possibles.
+
+# ; This line must remain at end of file

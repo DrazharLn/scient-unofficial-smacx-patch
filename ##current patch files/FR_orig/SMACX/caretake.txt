@@ -1,0 +1,123 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Les Gardiens du Collecteur
+;
+Copyright (c) 1999, 1998, Firaxis Games, Inc.
+;
+; ALPHA CENTAURI lit les règles du jeu dans ce fichier au
+; démarrage. Vous pouvez, à vos propres risques, de faire des essais de modification
+; de ce fichier. Nous vous conseillons d'effectuer une copie de sauvegarde de l'original.
+;
+
+#CARETAKE
+Gardiens du Collecteur, Le Conservateur, Gardiens, M, 2, H'minee, F, 1, 1, 1, 0, 1,
+  ALIEN, 0, DEFENSE, 125, SOCIAL, +PLANET, TECH, Biogen, TECH, InfNet, TECH, Ecology, FACILITY, 3
+  Economie, Planifiée, PLANET
+  nil, nil, nil
+  Gardien, Gard.
+  Hackjob, Peter, Taudis de Hackjob
+  Gardien, perspicace, réactionnaire, droits, répugnants,
+  vivante atrocité
+  préserver la sainteté du Collecteur
+  de faire en sorte d'empêcher les Usurpateurs de polluer la Planète
+  balayer notre race de la surface de la Planète
+  balayer notre race de la surface de la Planète
+  que vous essayez de transformer la Planète en une immense réserve de Vers télépathes
+  s'en prendre à tous ceux qui refusent l'utopie d'une Planète pure
+  vous en prendre à tous ceux qui refusent votre utopie d'une Planète pure
+  vouloir détruire l'humanité au nom du Saint Collecteur
+  jérémiades, F2
+  vos projets grandioses, F2
+  votre prétendue 'grandiose entreprise', F1
+  une petite obligation de modulation d'énergie, F1
+  de protection du Saint Collecteur
+  mes acolytes harmoniques
+  l'Accord Tau Ceti du 31.5
+
+#BASES
+POUVOIR DU COLLECTEUR
+MEMOIRE TAU CETI
+SIXIEME COLLECTEUR
+RESONANCE ET PUISSANCE
+NOEUD RESONANT
+HYMNE A LA MODULATION
+S'ADAPTER OU MOURIR
+TERRE M'DAR
+RESERVE DE LA TOUR
+FORCES FANTOMES
+EQUILIBRE NATUREL
+HARMONIE DES SPHERES
+NOEUD D'ENERGIE
+COMMUNION
+MELODIE DES AMES
+HARMONIQUE SUPERIEURE
+EMBOITEMENTS INFINIS
+COEUR DU MONDE
+SONORITE DE LA VISION
+SUPREME ENTRELACS
+REVERENCE DU GARDIEN
+SEMENCE DE PENSEE
+CONVERGENCE
+CHANT MAJEUR
+MANTEAU DE VERDURE
+ACOLYTE HARMONIQUE
+#END
+
+#WATERBASES
+CARAPACE
+ONDE SONORE
+L'OISEAU, LE CRI
+RISEE SONORE
+MER ET VENT
+BAIE DE L'ECHO
+NID DE L'EAU
+FIRMAMENTS
+#END
+
+#BLURB
+Floraison sur Tau Ceti : les horreurs dont nous fûmes témoins sur les systèmes avoisinants ne doivent jamais se répéter.
+Conséquence : si cela signifie la fin de l'évolution de notre espèce, eh bien, qu'il en soit ainsi.
+^
+^       -- Gardien Lular H'minee
+^          "La Vie et le Sacrifice"
+
+#DATALINKS1
+^DIRIGEANT: {Gardien Lular H'minee}
+^CURRICULUM: {<Inconnu>}
+^ORDRE DU JOUR: {Faire barrage à la Transcendance}
+^TECHNOLOGIE: {Psy Progéniteur, Ecologie centauri, Modulation de champ, Réseaux d'informations, Biogénétique}
+^
+
+#DATALINKS2
+^+25% de combat défensif: {Peuvent ressentir et manipuler les champs de "Résonance"}
+^+1 PLANETE: {Communie avec la Planète et le sixième Collecteur}
+^+50% de combat défensif: {Extrême sensibilité à la "Résonance"}
+^RESERVOIRS DE RECYCLAGE gratuits sur chaque base
+^"Grille d'énergie" sur chaque base: {l'accroîssement de l'infrastructure génère de l'énergie supplémentaire}
+^Arrivent sur Planète avec un Ogre de combat Mk I et une capsule de colonie supplémentaire
+^Toutes les unités de combat prototypées disposent d'un rayon de vision de 2 carrés {Sensibilité à la "Résonance"}
+^Peuvent diriger les efforts de recherche {redécouverte des technologies et des infrastructures}
+^Possèdent un relevé physique de la surface de Planète
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Ces escarmouches : un gâchis. Nous détournent de la véritable menace : les odieux Usurpateurs. Demande immédiate et
+pressante d'une Trêve de Sang."
+
+"Nous n'avons aucune raison de vous faire obstacle, $NAME3. Trêve de sang acceptée."
+"C'est VOUS qui êtes la véritable menace pour ce monde, $NAME3. Cette guerre va continuer !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Objectif ultime : restauration de l'état naturel sur la Planète. Mais
+entre temps, nos deux cultures peuvent coopérer. Notre prière : signature d'un Traité de Paix."
+
+"Nous n'avons pas l'intention de déménager dans un proche avenir, $NAME3. Mais nous pouvons probablement travailler
+ensemble à court terme."
+"Pourquoi hâter notre propre disparition en collaborant avec votre espèce ? Pardon, mais nous ne pouvons pas signer
+votre Traité."
+
+# ; This line must remain at end of file

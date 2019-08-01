@@ -1,0 +1,123 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Manifold Usurpers
+;
+; Copyright (c) 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#USURPER
+Manifold Usurpers, The Insurgent, Usurpers, M, 2, Marr, M, 1, 1, 0, 1, 0,
+  ALIEN, 0, OFFENSE, 125, SOCIAL, +GROWTH, SOCIAL, +MORALE, SOCIAL, -PLANET, FACILITY, 3, TECH, Ecology, TECH, Physic, TECH, Biogen 
+  Economics, Planned, PLANET
+  Politics, Democratic, nil
+  Usurper, Usurper
+  Hackjob, Peter, Hackjob Hovel
+  Conqueror, mighty, power-hungry, fearless, horrific, 
+  Abominable Despot
+  exploit the latent powers of the Manifold and use them against the obstinate Caretakers 
+  to harness the tremendous power of the Manifold experiment
+  elimination of all other factions on Planet
+  complete galactic domination
+  wrest control of Planet from its various inhabitants
+  feasting on the living flesh of his human prisoners
+  feasting on the living flesh of your human prisoners
+  exploiting the powers of Planet for your own nefarious ends
+  overblown plans for galactic conquest, M1
+  struggle against the Caretakers, M1
+  struggle against the Caretakers, M1
+  protection fee, M1
+  suffering you to continue your hardscrabble existence on Planet, M1
+  my Shock Troopers
+  the Usurper Doctrine
+
+#BASES
+Courage : To Question
+Dimension : Sky
+Strafing Run
+Spires : Ascendant
+Honor : Progenitor
+Conquest of the Weak
+Genesis : Destiny
+Tusk and Claw
+Skymaster Base
+Red Stick
+Fear Song
+Evil Eye
+Fragment of Sound
+Union Place
+Warrior's Harmony
+Maar's Dissolution
+Razorwing City
+Era of Blood
+Godhood's Grasp
+Satiation
+Tau Ceti Mantle
+Resonance of Swords
+Manifest Doom
+Martial Air
+Memories : Pain
+Risks of Flowering
+Final Honor
+#END
+
+#WATERBASES
+Hornbill Point
+Scorch Island
+Destroyer Base
+Impaler Dome
+Salt : Wound
+Conquest Seaway
+Ramspeed Shoals
+Predator's Quay
+Ocean Scar
+
+#END
+
+#BLURB
+Risks of Flowering: considerable. But rewards of godhood: who can measure?
+^
+^       -- Usurper Judaa Marr
+^          "Courage : To Question"
+
+
+#DATALINKS1
+^LEADER: {Usurper Judaa Marr}
+^BACKGROUND: {<Unkown>}
+^AGENDA: {Subvert Planet for galactic domination}
+^TECH: {Progenitor Psych, Centauri Ecology, Field Modulation, Applied Physics, Biogenetics}
+^
+
+#DATALINKS2
+^+1 GROWTH: {Abuse Planet's resources for their own gain}
+^+1 MORALE: {Warlike culture}
+^-1 PLANET: {Planet senses Usurper's dark intent}
+^+25% Offensive combat: {Can sense & manipulate "Resonance" fields}
+^Free RECYCLING TANKS at every base
+^"Energy Grid" at each base: {Increased infrastructure generates additional energy}
+^Begin game with a Mk I Battle Ogre and extra Colony Pod
+^All prototyped combat units have 2-square sighting radius ("Resonance" sensitivity)
+^Can direct research efforts (rediscovering technology & infrastructure)
+^Possess a physical scan of Planet's surface
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War : siphons resources from our goal : joining with the Manifold. Blood Truce : Demanded!"
+
+"We have goals of our own to pursue. Let's end this war and get back to business."
+"I don't much care for your tone, $NAME3. We reject your demands!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Ultimate Usurper goal : Godhood. Humans : may benefit as well. First step : sign Treaty."
+
+"Hmmm...Godhood does have a certain appeal. Where do I sign?"
+"I'm not sure your New Galactic Order has a place for us humans. I can't trust you to honor that Treaty!"
+
+# ; This line must remain at end of file

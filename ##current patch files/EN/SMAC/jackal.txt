@@ -1,0 +1,210 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; General JACKAL Errors
+;
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
+;
+
+#FILEWIN_LOAD
+#xs 320
+#caption LOADING ERROR
+Unable to find file $FILENAME0.
+
+#FILEWIN_SAVEEXISTS
+#xs 320
+#caption WARNING
+^^$FILENAME0 already exists.  Overwrite?
+
+#NET_LOBBY_PASSWORD_QUERY
+#xs 320
+#caption Set password?
+
+Yes
+No
+
+#NET_LOBBY_INPUT_PASSWORD
+#xs 320
+#caption Enter session password
+
+
+#NETCONNECT_CREATE
+#xs 320
+#caption Host Multiplayer Game
+#editbox
+#itemlist
+Enter game name:
+Enter your name:
+##Optional password:
+
+#NETCONNECT_JOIN
+#xs   320
+#caption Join Multiplayer Game
+#itemlist
+Enter your name:
+
+#NETCONNECT_NEED_SESSION
+#xs   320
+#caption NOTICE
+^^Game name required. Please try again.
+
+#NETCONNECT_NEED_PLAYER
+#xs   320
+#caption NOTICE
+^^Player name required. Please try again.
+
+#NETCONNECT_MAX_PLAYERS
+#xs   200
+#caption   Create Multiplayer Game
+^^Choose number of players allowed
+
+#NETCONNECT_PASSWORD_SET
+#xs   320
+#caption NOTICE
+^^Password protection has been set.
+
+#NETCONNECT_SESSION_NOT_FOUND
+#xs   320
+#caption  Game Not Found
+#button   Try Again
+No game was found.
+
+#NETCONNECT_SESSIONS
+#xs 440
+#caption Pick Game to Join
+#button Refresh
+
+#NETCONNECT_JOIN_OR_CREATE
+#xs   320
+#caption Host or Join Session
+Would you like to host a new game or join an existing one?
+
+Host
+Join
+
+#SELECTSERVICE
+#xs   320
+#caption MultiPlayer Setup
+Select a service …
+
+#FILEWIN
+FILE NAME
+
+#DDRAWERROR
+#xs   320
+#caption  DirectDraw Error
+#button Install DirectX
+We have encountered a problem with the DirectDraw configuration
+on your machine. The following error was returned: $SOMEERROR0. The game requires
+proper installation of DirectX, version 5 or later. If you would like to try
+installing or reinstalling DirectX, please be sure the game CD-ROM is in your drive, and
+press “Install DirectX” below.
+
+#DPLAYERROR
+#xs   320
+#caption  DirectPlay Error
+#button Install DirectX
+We have encountered a problem with the DirectPlay configuration
+on your machine. The following error was returned: $SOMEERROR0. The game requires
+proper installation of DirectX, version 5 or later. If you would like to try
+installing or reinstalling DirectX, please be sure the game CD-ROM is in your drive, and
+press “Install DirectX” below.
+
+#HOSTOLDERVERSION
+#xs 320
+#caption Version Incompatibility
+A player has attempted to connect with a newer and incompatible version of the game. You may upgrade your
+version at $LINK<www.firaxis.com:0>.
+
+#CLIENTOLDERVERSION
+#xs 320
+#caption Version Incompatibility
+Sorry, but the host’s version of the game ($HOSTVERSION0) is newer than your version ($CLIENTVERSION1). You may upgrade
+your version at $LINK<www.firaxis.com:0>.
+
+#CLIENTNEWERVERSION
+#xs 320
+#caption Version Incompatibility
+Sorry, but the host’s version of the game is older than your version and incompatible. In order to connect, this
+session’s host will need to upgrade the game.
+
+#GUARANTEEDFAILURE
+#xs 320
+#caption Guaranteed Message Failure
+#button Retry
+#button Continue Game Solo
+#button Quit Game
+An attempt to send a message to $PLAYERNAME0 has failed.
+
+#FILEWIN_ILLEGALCHAR
+#xs 320
+#caption WARNING
+The filename you have requested contains illegal characters. Please try again.
+
+#NET_SENDTIMEDOUT
+#xs 440
+#caption SEND MESSAGE TIME EXPIRED
+A message has failed to be transmitted to the following players: $PLAYERNAMES0.
+This may be a temporary condition, but it could also indicate that
+the network connection has been permanently lost.
+How would you like this error to be handled?
+
+Try again for 20 seconds.
+Drop from session but continue the game solo.
+Exit game.
+Skip this message (potentially fatal).
+
+#NET_OKTODROPHOST
+#xs 440
+#caption PLAYER NOT RESPONDING
+Host $PLAYERNAME0 is not responding. This may be a temporary
+condition, but it could also indicate the network connection has been
+permanently lost. You may (a) attempt to reestablish the connection
+(b) drop the host and continue without him, (c) drop him and save the
+game to finish in a new session.
+
+Drop host and become host.
+Don’t drop host.
+Don’t drop host, and adjust tolerance.
+
+#NET_OKTODROPCLIENT
+#xs 440
+#caption PLAYER NOT RESPONDING
+Player $PLAYERNAME0 is not responding. This may be a temporary
+condition, but it could also indicate the network connection has been
+permanently lost. You may (a) attempt to reestablish the connection,
+(b) drop the player and continue without him, or (c) drop him and
+save the game to finish in a new session.
+
+Drop $PLAYERNAME0.
+Don’t drop $PLAYERNAME0.
+Don’t drop $PLAYERNAME0, and adjust tolerance.
+
+#NET_OKTODROPHOSTS
+#xs 320
+#caption PLAYER NOT RESPONDING
+Host $PLAYERNAME0 and the potential next host, $PLAYERNAME1, are not responding.
+This may be a temporary condition, but it could also indicate the
+network connection has been permanently lost.
+
+End net game.
+Continue attempting to play.
+Continue attempting to play, and adjust tolerance.
+
+#NET_ADJUSTTOLERANCE
+#xs 320
+#caption ADJUST DROP TOLERANCE
+Select desired drop tolerance.
+
+5 seconds
+10 seconds (Default)
+20 seconds
+30 seconds
+
+#CAVIAR_INVALIDCPU
+#xs 320
+#caption CPU NOT SUPPORTED
+#button PLAY ANYWAY
+Your cpu is not supported. You may attempt to play the game anyway; however, crashes are possible.
+
+# ; This line must remain at end of file

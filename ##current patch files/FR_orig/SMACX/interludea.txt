@@ -1,0 +1,518 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Backstory Interludes
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#INTERLUDE
+#xs 400
+^^
+^^INTERLUDE
+^
+^^du
+^
+^^Livre de Planète
+^
+^^$NUM0 A.M.
+^
+^
+
+#EPILOGUE
+#xs 400
+^^
+^^EPILOGUE
+^
+^^du
+^
+^^Livre de Planète
+^
+^^1 027 823 A.M.
+^
+^
+
+#EPILOGUE2
+#xs 400
+^^
+^^EPILOGUE
+^
+^^du
+^
+^^Livre de Planète
+^
+^^$NUM2 A.M. (Année 1 de la semence)
+^
+^
+
+#EPILOGUE3
+#xs 400
+^^
+^^EPILOGUE
+^
+^^du
+^
+^^Livre de Planète
+^
+^^$NUM2 A.M.
+^
+^
+
+
+#INTERLUDE0
+#xs 500
+#caption Interlude : Douce est la Victoire
+^  Vous vous demandez si, dans votre inconscient, vous
+avez
+réellement pensé voir arriver ce jour. Puis vous balayez
+cette idée,
+car le dernier disque est lancé.
+Le dernier rivet est en place. Le dernier revêtement
+d'acier a été
+poli. C'est le moment.
+^  "Chef."
+^Votre assistante penche la tête, attendant
+respectueusement. Ses émanations sont formelles et riches
+de
+signification. "Allez-vous envoyer la puissance et nous
+délivrer de
+l'exil ?"
+^  Vous hochez de la tête et fermez la connexion. Les
+Générateurs
+sub-spatiaux s'emparent des champs de résonance et les
+niveaux
+quantiques de puissance commencent à parcourir les divers
+composants.
+Bientôt leurs rayons formeront des arcs très loin au-
+dessus de votre
+nation, puis un orifice sera percé dans le sous-espace.
+Par cet
+orifice, sur des distances inconcevables pour n'importe
+quel cerveau,
+un message volera. Le Transmetteur par résonance enverra
+sa balise de
+détresse vers le monde d'origine et ils reconnaîtront
+votre voix.
+^  La lumière verte commence à luire. Bientôt. Bientôt,
+vous reverrez
+votre bien-aimé Kenal K'esh. Bientôt vous retrouverez vos
+frères. Et
+lorsque vous les aurez trouvés, ils viendront à votre
+aide avec des
+vaisseaux et des soldats et toutes les autres créatures
+vivantes du
+Collecteur six verront votre puissance. Vous avez attendu
+si
+longtemps.
+^  La lumière verte dresse un arc dans le ciel et le
+monde change à
+tout jamais.
+
+
+
+#INTERLUDE1
+#xs500
+#caption Personne ne peut plus nous arrêter
+^  Vous montez à bord du jet d'intervention mugissant et
+atterrissez
+de nouveau dans la capitale en un temps record.
+Le pilote essayait visiblement de vous impressionner et
+il y a
+réussi.
+Vous vous hâtez vers la salle de commandement et savourez
+les ondes
+de résonance alors qu'elles vous montrent la surface du
+sixième
+Collecteur : partout où se pose votre regard, vous voyez
+vos propres
+forces. Il y a bien quelques restes éparpillés de la
+résistance
+ennemie mais ce ne sont que des poches de couleur dans
+une marée de
+Progéniteurs.
+^  Quand tout échoue, pensez-vous, il suffit d'éliminer
+toute
+opposition.
+Il reste alors assez de temps pour réaliser n'importe
+quel plan. Vous
+n'êtes pas sûr de vouloir prendre contact avec le monde
+d'origine dès
+maintenant, plutôt que d'assurer votre propre pouvoir--
+mais ça n'a
+guère d'importance, n'est-ce pas ? Rien ne peut vous
+arrêter quoi que
+vous décidiez.
+^  C'est une très très bonne sensation.
+
+
+#INTERLUDE2
+#xs 500
+#caption Interlude : Têtes réduites
+^  Les réservoirs des champs résonnent des images spectrales des
+envahisseurs extra-terrestres capturés lors de la première rencontre.
+Si vous louchiez, vous pourriez les confondre avec des jeunes
+Progéniteurs-- mais avec une tête réduite, maladive. Ils ressemblent
+aux conjurations des contes de nourrices des tribus primitives
+dans les parties sombres du monde d'origine. Ils ont un aspect tout à
+fait dégoûtant.
+^  Leur nature primitive n'est nulle part aussi apparente que dans
+leur incapacité à communiquer--ils peuvent émettre des bruits, mais
+ne peuvent les moduler comme il le faudrait. C'est dommage, parce que
+vous n'avez aucune idée de la manière dont ils sont arrivés ici, et
+vous voudriez le savoir.
+^  "Faites-moi part de vos théories", modulez-vous. Le bourdonnement
+constant de la pièce s'interrompt pendant plusieurs impulsions
+circulaires. Puis la stochastique junior résonne.
+^  "Ils sont une création du Collecteur,", vibre-t-elle en hésitant.
+On ressent une raillerie générale. Vous essayez d'être plus gentil.
+^  "Non, Canla, ce n'est pas possible", modulez-vous. "Leur biologie
+n'est pas compatible ADN. Ils doivent venir d'un autre monde." Il y a
+une altération générale d'assentiment.
+^  "Mais comment une race assez sophistiquée pour traverser les
+étoiles peut-elle être dans un état aussi primitif ?" résonne le
+général.
+^  Il y a encore un bourdonnement vide. Puis Canla, intrépide, parle
+de nouveau.
+^  "Peut-être ont-ils subi un destin similaire au nôtre", module-t-
+elle. "Après tout, regardez dans quel état nous sommes."
+^  La douleur de cela est incontestable. Et quelque part, au-dehors,
+il y a les $OTHERALIENS6 haïs.
+Vous vous demandez si vous pouvez faire des alliés de ces gens
+d'ailleurs, avant que vos ennemis ne s'en chargent. Votre première
+tâche, dans ce cas, est d'apprendre comment leur esprit fonctionne,
+de manière à pouvoir communiquer avec eux. Vous vous demandez s'il
+est très difficile de penser comme un extra-terrestre.
+
+
+#INTERLUDE3
+#xs 500
+#caption Interlude : Les Anciens
+^  Le conseil pourrait tout aussi bien être trempé dans une cuve de
+matière végétale enflammée--les résonances de peur sont aussi
+intenses. Vous tentez de rester calme, de faire preuve d'une autorité
+ferme que vous êtes loin de ressentir. D'une manière ou d'une autre,
+venus de quelque part, les gens de l'autre monde occupent le précieux
+Collecteur !
+^  "La clef de tout est la recherche de la communication", modulez-
+vous. "Leur capacité à créer des formes d'onde dans l'atmosphère est
+utile, mais leur compréhension du processus de modulation est plus
+importante. Si on peut raisonner avec eux, on peut en faire des
+alliés. Si on peut en faire des alliés, ils peuvent nous aider contre
+notre ennemi."
+^  Le général opine du chef, et résonne une aura de confiance, pour
+la première fois. "C'est vrai", module-t-il. "Mais j'ai peur ; bien
+qu'ils ressemblent à d'anciens et faibles membres de notre race, ils
+sont totalement étrangers. Que se passera-t-il si leur cause et la
+nôtre ne coïncident pas ?"
+^  "Nous devons alors découvrir quelle est leur cause", modulez-vous,
+"et en appeler à elle. Devenir ce qu'ils souhaitent que nous
+devenions. Et pendant ce temps, nous devons continuer à approfondir
+nos propres objectifs."
+^  Le xénobiologiste--la fonction la plus proche d'un
+xénopsychologue--frémit des mandibules. "Mais ils prétendent qu'ils
+sont des colonisateurs ici ! Nos objectifs ne peuvent coïncider avec
+ce point de vue ! Tôt ou tard, nous devons les détruire pour
+$EXPLOITORPRISTINE7 !"
+^  Vous modulez les mots du biologiste avec un grand calme. "J'espère
+que ce sera tard--beaucoup plus tard. Nous devons tout d'abord les
+utiliser si nous le pouvons... et si nous ne le pouvons pas, alors,
+nous devons les détruire rapidement et sans merci."
+^  Les modulations à *cela* sont *très* positives.
+
+
+#INTERLUDE4
+#xs500
+#caption Interlude : Singe voit, singe fait... Quoi ?
+^  "Regardez attentivement", le biologiste module si doucement que
+vous percevez à peine le changement. "Regardez ce qu'il fait."
+^  Cela vous est difficile--l'humain capturé est aussi laid qu'un
+nouveau-né de votre race, mais sans son agréable substance. Vous vous
+forcez cependant, car l'observation et la compréhension sont l'une
+des clef de la survie sur le Collecteur six.
+^  On a fait jeûner l'humain pendant plusieurs jours. Maintenant, de
+la nourriture pend à un crochet suspendu au plafond de la pièce. On a
+également éparpillé plusieurs boîtes dans la pièce. On pense qu'il va
+construire une sorte de tour pour accéder à la nourriture.
+^  "Qu'est-ce que ça prouvera ?" modulez-vous, ennuyé.
+^  "Regardez ! Regardez !" module le biologiste, tout excité.
+^  L'humain fait le tour de la pièce du regard puis il s'assied et
+reste immobile. Il émet des ondes sonores avec son appareil
+respiratoire. Il reste assis en observant la pièce.
+^  "Il est stupide ?" modulez-vous.
+^  "Non !" module triomphalement le biologiste. "Il se méfie ! Les
+ondes sonores sont son langage--il dit quelque chose comme 'Mets une
+fleur à spores dans ton chlo ! Je ne mange pas pour vous distraire !'
+Il sait que nous l'observons."
+^  Ainsi, l'humain préfère mourir de faim plutôt qu'être traité en
+animal de laboratoire, hein ? Intéressant... très intéressant. Nous
+ne savez pas bien si c'est très très bon--ou très très dangereux.
+"Apprenez immédiatement son langage !" tranchez-vous. "Nous devons
+communiquer dès que possible !"
+
+
+#INTERLUDE5
+#xs 500
+#caption Interlude : Le vol des Ailes de rasoir
+^  Tuer ne vous cause aucune jouissance particulière. Vous
+souhaiteriez presque communiquer directement avec les humains, leur
+expliquer la nécessité du transfert forcé de population--la nécessité
+de leur mort.
+^  "Au rapport, $TITLE0 $NAME1", résonne le Commandant de l'armée
+d'occupation. "Les colons humains s'enfuient de la base qu'ils
+appellent '$BASENAME5.' Ceux qui ont choisi de rester en arrière ont
+été assimilé et reconstitués."
+^  Tuer ne vous cause aucune jouissance particulière. Mais c'est
+ainsi que fonctionne l'esprit Progéniteur tout comme l'esprit Humain.
+Ils ne peuvent coexister sous un gouvernement unique ; ils ne peuvent
+échanger leur nourriture ni utiliser les installations de l'autre
+race.
+^  Tuer ne vous cause aucune jouissance particulière. Mais ils sont
+les ennemis, et c'est la seule manière de procéder.
+
+
+#INTERLUDE6
+#xs 500
+#caption Interlude : Si proche et si lointain
+^  De vos propres mains, vous faites tourner en place le dernier
+disque sur le premier des Transmetteurs par résonance. Le chemin a
+été long et difficile jusqu'à ce moment--pour recapturer ce qui avait
+été perdu. Mais lentement, comme des primitifs (accélérés, cependant,
+de dizaines de milliers d'années), vous avez réussi à recréer les
+découvertes de vos ancêtres et à façonner les matériaux sur ce monde
+étrangement hostile ; et le moment est maintenant venu.
+^  "Vous n'avez pas l'air satisfait, Chef", résonne votre assistant.
+"N'est-ce pas un grand jour ?"
+^  "Je suppose que oui", modulez-vous, ressentant à ce moment précis
+en manque d'enthousiasme étrange.
+Après avoir réfléchi un moment, vous comprenez pourquoi : pendant
+toutes ces années, vous avez été le dirigeant suprême de votre propre
+monde... de votre propre peuple. C'est la fin de tout cela,
+maintenant, avec l'appel lancé à la flotte de votre monde d'origine.
+Des dirigeants plus puissants que vous vont arriver pour détruire ce
+qui reste de l'opposition ; ils vont venir et s'approprier votre
+triomphe. Vous souhaiteriez presque que cela continue, mais vous
+savez que votre devoir vous commande de $EXPLOITORPRISTINE7, et vous
+devez respecter cette mission. Vous modulez de nouveau : "Nous avons
+tous triomphé. Ce n'est qu'une question de temps."
+Avec un soupir, vous saisissez le //spinner// et vous vous détournez.
+
+
+#INTERLUDE7
+#xs 500
+#caption Interlude : Guerre civile
+^  "Oui, ils sont ici."
+^  Tous ceux qui sont rassemblés dans la pièce attendaient cette
+nouvelle. Pourtant elle envoie une ridule de modulation au travers de
+la pièce comme si vous aviez annoncé la mort de tout le Conseil des
+Seigneurs. En secret, tous, y compris vous-même, aviez espéré que les
+Usurpateurs haïs étaient morts à l'arrivée sur Planète. Vous savez
+maintenant que ce n'est pas le cas.
+^  "Ca ne change rien !" Doucement, vous modulez tout le
+bourdonnement de la conversation, pour souligner ce que vous voulez
+dire. "Le plan continue comme nous en avions convenu. Les Usurpateurs
+doivent mourir et nous devons continuer notre quête pour reprendre
+contact avec notre monde d'origine et que le Collecteur six reste
+pur. Sommes-nous engagés jusqu'à la mort ?"
+^  De nombreux membres du conseil ont l'air embarrassé, leurs yeux
+clignotent rapidement. Vous pouvez comprendre leurs sentiments--la
+cause des Gardiens est dédiée à la paix et au status quo. Cette
+position destructrice n'est pas cohérente avec vos buts avoués.
+Enfin, Kaala L'mota articule ce que les autres pensent à l'évidence.
+^  "Ne pouvons-nous essayer une fois de plus de parvenir à un accord
+avec le dirigeant Usurpateur, Marr ?
+Dans des circonstances aussi dramatiques, même lui peut comprendre la
+sagesse d'une éventuelle coopération."
+^  "Je suis désolé, mes amis", modulez-vous brusquement, exprimant
+vos regrets et votre déplaisir en même temps. "Pensez à la cause des
+Usurpateurs : ils souhaitent atteindre à la Transcendance avec le
+Collecteur six. Nous savons ce qui est arrivé à Tau Ceti lorsqu'on a
+permis à la Floraison de se produire. La destruction. La mort."
+^  Vous voyez la peur sur tous les visages, les mandibules sont
+crispées. "Nous savons tous cela--les Usurpateurs aussi, Marr". Vous
+poursuivez. "Et pourtant ils continuent leur quête vers la
+Transcendance. C'est incompréhensible. Ils vont inexorablement vers
+la mort! Nous avons demandé, prié, combattu et nous sommes morts pour
+empêcher ceci, et ils continuent. Ce n'est sûrement pas une babiole
+comme l'écrasement d'un vaisseau qui va modifier leur plan. Non, mes
+amis, Nous devons rester fermes sur nos positions. La mort, ou la
+liberté pour le Collecteur six. Etes-vous d'accord ?"
+^  Vos mots sont modulés, un par un, par chaque membre du conseil.
+Ils donnent tous leur accord.
+
+
+#INTERLUDE8
+#xs 500
+#caption Interlude : Guerre civile
+^  "Oui, ils sont ici."
+^  Tous ceux qui sont rassemblés dans la pièce attendaient cette
+nouvelle. Pourtant elle envoie une ridule de modulation au travers de
+la pièce comme si vous aviez annoncé une attaque surprise sur votre
+monde d'origine. En secret, tous, y compris vous-même, aviez espéré
+que les Gardiens avaient été détruits à l'arrivée sur Planète. Vous
+savez maintenant que ce n'est pas le cas.
+^  "Ca ne change rien !" Doucement, vous modulez tout le
+bourdonnement de la conversion pour souligner ce que vous voulez
+dire. "Le plan se poursuit comme nous en étions convenus. Les
+Gardiens doivent mourir et nous devons continuer notre quête pour
+entrer en contact avec le monde d'origine ou pour atteindre la
+Floraison en contrôlant le Collecteur six. Sommes-nous d'accord ?"
+^  Un des membres du conseil semble mal à l'aise, ses yeux clignotent
+rapidement. Il se lève et module poliment vos mots, demandant la
+permission de parler. Vous secouez la tête dans sa direction et il
+continue.
+^  "Vous me connaissez", module-t-il. "Je ne suis pas un lâche et je
+conseille pourtant de faire une dernière tentative pour raisonner les
+Gardiens et leur dirigeant H'minee. Nous sommes tous des
+Progéniteurs, piégés ici, sur le Collecteur six, jusqu'à ce que nous
+puissions remettre en oeuvre nos technologies perdues. Jusqu'alors,
+ne devrions-nous pas essayer de faire cause commune ?"
+^  Les autres modulent ses mots de manière subtile, exprimant le
+doute ou la tolérance pour cette idée. Vous intervenez rapidement.
+^  "Non, mes amis !" modulez-vous vivement. "Souvenez-vous à qui nous
+avons affaire.
+H'minee et ses partisans ont constaté l'incroyable puissance des
+Collecteurs et pourtant ils les rejettent. Ils ont lu les livres
+anciens et connaissent les projets de nos ancêtres pour l'expérience
+des Collecteurs. Pourtant, ils les rejettent aussi.
+Ils vivent dans la peur--et un Progéniteur qui vit dans la peur est
+un Progéniteur mort. Si notre race a décliné depuis l'époque des
+ancêtres, c'est à cause de la timidité et de la crainte de la faction
+des Gardiens. Nous devons avancer avec audace et accomplir la
+destinée élaborée pour nous il y a tant de milliers d'orbites. Etes-
+vous d'accord avec moi ?"
+^  Vos mots sont modulés, un par un, par chaque membre du conseil.
+Ils donnent tous leur accord.
+
+
+#INTERLUDE9
+#xs 500
+#caption Interlude : Le Noeud
+^  Imaginez six Progéniteurs dans une pièce. Ils moduleraient la
+résonance de la pièce et moduleraient les modulations, en une
+conversation libre et fluide. La simple complexité de cela vous donne
+une sensation agréable dans le bassin cérébral.
+^  En fixant les parois patinées sur Noeud collecteur, vous avez la
+même sensation, magnifiée un million de fois. Vous imaginez non pas
+six Progéniteurs, mais six Planètes--six esprits presque divins par
+leur puissance mais presque infantiles par leur connaissance du monde
+et des manières des Progéniteurs.
+^  "C'est presque comme être la nourrice d'un dieu", résonnez-vous
+doucement.
+Votre assistant, debout près de vous, vous accorde une onde narquoise
+des mandibules. "Qu'avez-vous modulé, Chef ?"
+^  Vous battez légèrement du cou, recueillant les mots de
+l'assistant, les modulant et les renvoyant. "Cela", résonnez-vous, en
+désignant le Noeud. "Au cours de la Première Ere, ceci a été
+construit pour être le centre de commande de l'expérience du
+Collecteur."
+^  Votre assistant parait intimidé par cette relique du passé. "Est-
+ce qu'il fonctionne encore ?"
+^  "Oui." Vous secouez le cou vers le rapport qu'on vient de vous
+tendre. "Il fonctionne encore à la perfection. Notre harmonie avec le
+Collecteur six est même plus grande qu'elle n'a jamais été." Vous
+regardez le temps en silence, puis vous vous détournez. Vous venez
+d'obtenir une petite mesure de pouvoir sur six dieux. Vous devez vous
+montrer prudent.
+
+
+#INTERLUDE10
+#xs500
+#caption Interlude : Changement de plans
+^  Vous pouvez à peine le croire. Vous  avez insisté pour vous
+joindre aux équipes de recherche qui passent au crible les ruines de
+la dernière base $OTHERALIENS6, non parce que vous ayez pensé que vos
+serviteurs étaient incompétents mais parce que vous deviez constater
+par vous-même que la victoire finale était à portée de main.
+^  Et quelles glorieuses ruines ! Les cadavres des partisans
+$OTHERALIENS6 jonchent le sol. Les armes détruites et les décombres
+des bâtiments éventrés encombrent les rues. Même au milieu de la mort
+et de la destruction de vos parents éloignés, vous ressentez un
+curieux sentiment d'enthousiasme. L'ennemi tant haï est enfin
+détruit !
+^  "Chef," le commandant module le son des explosions lointaines qui
+vous parviennent, pour souligner ses propres mots. "C'est un grand
+jour. Que faisons-nous maintenant ?"
+^  Vous savez qu'il veut dire 'quelle sera la prochaine étape',
+mais ses mots soulèvent une question plus profonde : quel sera le
+destin de votre peuple, maintenant que leur principal objectif est
+atteint ?
+^  "Nous bâtissons", modulez-vous en le surprenant. "Nous bâtissons
+en attendant le jour où nous pourrons appeler nos alliés ou celui de
+la conquête ultime. Le destin du Collecteur six est entre nos mains.
+Nous ne devons pas faillir."
+
+
+#INTERLUDE11
+#xs 500
+#caption Interlude : Visages familiers
+^  Les rapports sur les attaques et les morts sont très troublants.
+^  "Comment cela ?" modulez-vous, vous tournant vers la
+xénobiologiste. "Aucun de nos rapports de montre une telle hostilité
+de la part des formes de vie indigènes à l'époque des débuts de
+l'expérience !"
+^  "Les rapports actuels ne mentent pas, cependant", rétorque-t-elle.
+"Les vers télépathes et les lanceurs de spores cherchent sans aucun
+doute à nous tuer. Dans le passé..." Le bourdonnement de la pensée
+s'interrompt un petit moment, et vous demandez doucement : "Dans le
+passé ?"
+^  "Oui, Chef." La biologiste semble très malheureuse. "Dans le
+passé, nous étions les jardiniers. Nous n'étions ici que pour
+inspecter avant de repartir. Maintenant, nous sommes ici pour y
+vivre. Le Collecteur six--toute la planète--n'aime pas cela. Il se
+fiche de notre politique. Simplement, il n'aime pas que nous soyons
+ici."
+^  "Vous êtes consciente des implications de cela ?" modulez-vous, en
+ressentant sans le montrer un soupçon de peur. "Nous sommes à la
+merci d'un monde tout entier. Il n'est pas assez intelligent pour
+qu'on puisse négocier... il va simplement essayer de nous tuer."
+^  "Oui, Chef", module la biologiste.
+^  Et, en vérité, il n'y a rien que vous puissiez faire d'autre.
+Vous extirpez ce problème de votre cerveau et quittez la pièce à
+grandes enjambées.
+
+
+#INTERLUDE12
+#xs 500
+#caption Interlude : La tour de la force
+^  Vous vous tenez à distance respectueuse, examinant l'étrange
+formation par un dispositif à concentration de résonance rafistolé
+par l'un des techs.
+Cet outil est très utile et vous pouvez voir l'objet lointain comme
+s'il se trouvait à quelques mètres.
+^  "Ca ressemble à une éruption miliaire sur la peau du Collecteur
+six," dites-vous, et vos compagnons rassemblés autour de vous
+modulent votre résonance pour faire preuve d'humour. "Qu'est-ce que
+c'est ?"
+^  Le xénobiologiste rejette en arrière ses appendices de cou et
+module sèchement :
+"Nous ne savons pas, Chef. Il n'existe aucun compte-rendu sur ces
+objets dans les fichiers du Collecteur légués par les créateurs
+initiaux. Cela paraît être quelque chose de nouveau."
+^  Vous claquez des mandibules comme un bébé en abaissant le
+dispositif à concentration.
+"Mauvais. Très mauvais. C'est la présence des gens de l'autre monde
+qui a provoqué ceci, n'est-ce pas ?"
+^  Le biologiste secoue de nouveau la tête pour approuver. "D'une
+certaine manière, l'intellect latent du Collecteur six a créé ces...
+tours... en réaction aux irritations provoquées par les ravages
+écologiques de ces gens d'ailleurs ; et, j'hésite à le dire, en
+réaction à notre propre présence aussi. Ces tours génèrent le fongus
+à vitesse accélérée et sont peut-être aussi un passage pour les vers
+télépathes et les lanceurs de spores. Ces vrilles que vous voyez--"
+il ondule d'un bras "--ont une portée de plusieurs centaines de
+mètres. Il est très dangereux de trop s'en approcher."
+^  Vous écarquillez les yeux en un éclat de rire tout en modulant ses
+mots pour exprimer l'humour.
+"Oh ! Alors j'avais raison la première fois. C'est bien une éruption
+miliaire géante !"
+^  Vous auriez voulu que ce soit aussi drôle que ça le paraissait. Le
+fait était que, non contrôlées, ces choses prendraient possession du
+collecteur. Est-ce que cela provoquerait la Floraison ? Ou bien est-
+ce que cela apporterait une autre destruction, comme celle de Tau
+Ceti ?
+^  "Surveillez-la," soupirez-vous. "Nous la détruirons s'il le faut."
+^  Si ça ne nous détruit pas en premier, pensez-vous sans oser le
+dire.
+
+
+# ; This line must remain at end of file.

@@ -1,0 +1,677 @@
+;
+
+; Sid Meier's ALPHA CENTAURI
+
+;
+
+; Courtes descriptions tech
+
+;
+
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+
+;
+
+
+
+
+
+##Biogénétique
+
+#TECH0
+
+^^"Compréhension des complications du code génétique"
+
+
+
+
+
+##Base industrielle
+
+#TECH1
+
+^^"Consolidation de notre infrastructure industrielle"
+
+
+
+
+
+##Réseaux d'information
+
+#TECH2
+
+^^"La base de la recherche scientifique"
+
+
+
+
+
+##Physique appliquée
+
+#TECH3
+
+^^"Des lasers modernes puissants et maniables"
+
+
+
+##Psy sociale
+
+#TECH4
+
+^^"Nous devons construire une société stable"
+
+
+
+##Doctrine : mobilité
+
+#TECH5
+
+^^"Des attaques rapides et des troupes disciplinées réussissent aussi bien sur la Planète que sur Terre"
+
+
+
+##Ecologie Centauri
+
+#TECH6
+
+^^"En étudiant le xénofongus, nous pouvons apprendre à survivre"
+
+
+
+##Supraconducteur
+
+#TECH7
+
+^^"Une transmission d'énergie efficace pour un armement puissant"
+
+
+
+##Mathématiques non-linéaires
+
+#TECH8
+
+^^"Maîtrise de la théorie du chaos pour de nouveaux types d'armement"
+
+
+
+##Relativité appliquée
+
+#TECH9
+
+^^"Mise à jour des théories d'Albert Einstein"
+
+
+
+##Energie de fusion
+
+#TECH10
+
+^^"Une source d'énergie propre et bon marché"
+
+
+
+##Alliages d'acier
+
+#TECH11
+
+^^"Des métaux résistants et souples pour la construction et la défense"
+
+
+
+##Théorie subatomique avancée
+
+#TECH12
+
+^^"La recherche des plus petites particules de matière"
+
+
+
+##Chimie grande puissance
+
+#TECH13
+
+^^"De meilleures défenses grâce à la chimie"
+
+
+
+##Surfaces sans friction
+
+#TECH14
+
+^^"Des matériaux qui ne sont pas soumis à la friction"
+
+
+
+##Nano-métallurgie
+
+#TECH15
+
+^^"Manipulation des métaux au niveau moléculaire"
+
+
+
+##Théorie des supercordes
+
+#TECH16
+
+^^"Compréhension des forces fondamentales de l'univers"
+
+
+
+##Algorithmes militaires avancés
+
+#TECH17
+
+^^"Application de nouveaux outils à un nouveau type d'art de la guerre"
+
+
+
+##Aimants unipolaires
+
+#TECH18
+
+^^"Les secrets du magnétisme"
+
+
+
+##Compression de matière
+
+#TECH19
+
+^^"Création de matériaux de densité extrêmement élevée"
+
+
+
+##Théorie des champs unifiés
+
+#TECH20
+
+^^"Découverte des mécanismes fondamentaux de l'univers"
+
+
+
+##Théorie du graviton
+
+#TECH21
+
+^^"Déverrouillage des mécanismes de la gravité"
+
+
+
+##Logiciel polymorphique
+
+#TECH22
+
+^^"Les premiers réseaux neuronaux massifs"
+
+
+
+##Gravitonique appliquée
+
+#TECH23
+
+^^"Contrôle des forces de gravité"
+
+
+
+##Puissance quantique
+
+#TECH25
+
+^^"Création d'une puissance incroyable par la division de la lumière elle-même"
+
+
+
+##Mécanique singulière
+
+#TECH26
+
+^^"Révélation des secrets sur les trous noirs"
+
+
+
+##Singularité contrôlée
+
+#TECH27
+
+^^"Contrôle de la puissance sur les trous noirs"
+
+
+
+##Mécanique temporelle
+
+#TECH28
+
+^^"Manipulation du temps lui-même"
+
+
+
+##Mécanique des probabilités
+
+#TECH29
+
+^^"Prédiction et contrôle des événements aléatoires"
+
+
+
+##Algorithmes sensibles
+
+#TECH30
+
+^^"Des ordinateurs ayant presque une conscience propre"
+
+
+
+##Matériaux de supertraction
+
+#TECH31
+
+^^"Des matériaux incassables"
+
+
+
+##Réseaux planétaires
+
+#TECH32
+
+^^"Nous pouvons mettre en commun nos connaissances avec une base de données mondiale"
+
+
+
+##Sensibilité numérique
+
+#TECH33
+
+^^"Des ordinateurs avec une personnalité"
+
+
+
+##Machines intelligentes
+
+#TECH34
+
+^^"Des machines pensantes"
+
+
+
+##Doctrine : initiative
+
+#TECH35
+
+^^"Une complète suprématie navale nécessite de nouveaux équipements et de nouvelles tactiques"
+
+
+
+##Doctrine : flexibilité
+
+#TECH36
+
+^^"Le contrôle de la planète nécessite la puissance maritime"
+
+
+
+##Intégrité intellectuelle
+
+#TECH37
+
+^^"Ne pas prendre ses désirs pour la réalité"
+
+
+
+##Combustibles fossiles synthétiques
+
+#TECH38
+
+^^"Du pétrole, du charbon et du gaz naturel fabriqués par l'homme"
+
+
+
+##Doctrine : puissance aérienne
+
+#TECH39
+
+^^"De nouveau dans les airs"
+
+
+
+##Mécanique onde/photon
+
+#TECH40
+
+^^"Contrôle de la lumière elle-même"
+
+
+
+##Interface esprit/machine
+
+#TECH41
+
+^^"Intégration de l'homme et de la machine"
+
+
+
+##Nano-miniaturisation
+
+#TECH42
+
+^^"Des machines microscopiques"
+
+
+
+##Doctrine : Loyauté
+
+#TECH43
+
+^^"La loyauté est le moteur des armées"
+
+
+
+##Calcul éthique
+
+#TECH44
+
+^^"Un nouveau système de moralité pour dominer notre avenir"
+
+
+
+##Economie industrielle
+
+#TECH45
+
+^^"Même sur la planète, l'industrie crée la richesse"
+
+
+
+##Automatisation industrielle
+
+#TECH46
+
+^^"La robotique peut nous aider à bâtir un empire"
+
+
+
+##Méditation Centauri
+
+#TECH47
+
+^^"La Planète nous parlera... si nous écoutons"
+
+
+
+##Secrets du cerveau humain
+
+#TECH48
+
+^^"Compréhension des mécanismes de la conscience"
+
+
+
+##Raccordement génétique
+
+#TECH49
+
+^^"Amélioration de l'ADN des plantes et des animaux"
+
+
+
+##Bio-ingénierie
+
+#TECH50
+
+^^"Découverte des derniers secrets de la génétique"
+
+
+
+##Biomachinerie
+
+#TECH51
+
+^^"Intégration de la machine au niveau cellulaire"
+
+
+
+##Greffe neuronale
+
+#TECH52
+
+^^"Amélioration des individus avec un circuit embarqué"
+
+
+
+##Cyberéthique
+
+#TECH53
+
+^^"Définition du rôle des ordinateurs dans la société"
+
+
+
+##Eudémonisme
+
+#TECH54
+
+^^"Le bonheur complet et véritable"
+
+
+
+##La volonté de puissance
+
+#TECH55
+
+^^"Dans la force se trouve la sagesse"
+
+
+
+##Seuil de la transcendance
+
+#TECH56
+
+^^"L'orée d'une nouvelle époque"
+
+
+
+##Transmission de matière
+
+#TECH57
+
+^^"Transmission d'objets d'un bout à l'autre de la planète"
+
+
+
+##Empathie Centauri
+
+#TECH58
+
+^^"Nous devons comprendre le comportement de la planète"
+
+
+
+##Economie de l'environnement
+
+#TECH59
+
+^^"Une économie à la fois lucrative et écologique"
+
+
+
+##Génie écologique
+
+#TECH60
+
+^^"Nous pouvons remodeler ce monde"
+
+
+
+##Economie planétaire
+
+#TECH61
+
+^^"Unification des marchés globaux pour un maximum de profits"
+
+
+
+##Génie écologique avancé
+
+#TECH62
+
+^^"Terraformage dernier cri"
+
+
+
+##Psy Centauri
+
+#TECH63
+
+^^"Maîtrise des pouvoirs psy des vers télépathes"
+
+
+
+##Secrets d'Alpha Centauri
+
+#TECH64
+
+^^"Tracer la carte de l'esprit planétaire"
+
+
+
+##Secrets de la création
+
+#TECH65
+
+^^"Quel sont le but et l'ordre de l'univers ?"
+
+
+
+##Vol spatial avancé
+
+#TECH66
+
+^^"Exploration des confins de l'espace"
+
+
+
+##Homo Supérieur
+
+#TECH67
+
+^^"Evoluons en corps et en esprit"
+
+
+
+##Superlubrifiant organique
+
+#TECH68
+
+^^"Des lubrifiants qui apprennent où s'appliquer"
+
+
+
+##Machinerie quantique
+
+#TECH69
+
+^^"Des machines au pouvoir immense"
+
+
+
+##Modification de la matière
+
+#TECH71
+
+^^"Manipulation des plus petites particules de matière"
+
+
+
+##Ordinateurs optiques
+
+#TECH72
+
+^^"Des calculs à la vitesse de la lumière"
+
+
+
+##Nano-robotique industrielle
+
+#TECH73
+
+^^"Des usines robotiques miniatures"
+
+
+
+##Génétique Centauri
+
+#TECH74
+
+^^"Déchiffrage du code génétique de la Planète"
+
+
+
+##Econométrie sensible
+
+#TECH75
+
+^^"Utilisation d'ordinateurs intelligents pour prédire l'économie"
+
+
+
+##Ingénierie rétrovirale
+
+#TECH76
+
+^^"Nous libérons cette arme à nos propres risques"
+
+
+
+##Vol spatial orbital
+
+#TECH77
+
+^^"De nouveau dans l'espace"
+
+##Psy Progéniteur
+#TECH78
+^^"La culture et la langue de la race des Progéniteurs"
+
+##Modulation de champ
+#TECH79
+^^"Simple manipulation des champs de résonance"
+
+##Doctrine adaptative
+#TECH80
+^^"Adaptation de la réaction militaire à toutes les situations"
+
+##Economie adaptative
+#TECH81
+^^"L'économie adaptée à de nouveaux environnements"
+
+##Résonance bioadaptative
+#TECH82
+^^"Contrôle évolué des champs de résonance"
+
+##Résonance sensible
+#TECH83
+^^"Création de"
+
+##Secrets du Collectgeur
+#TECH84
+^^"Découvrir les Collecteurs lointains connectés à Planète"
+
+##Compression N-spatiale
+#TECH85
+^^"Exploiter les univers parallèle pour la compression de matière"
+
+##Résonance des cordes
+#TECH86
+^^"Destruction des briques fondamentales de l'univers"
+
+
+##Pensée transcendante
+
+#TECH88
+
+^^"Au-delà de l''Ere de l'intelligence individuelle"
+
+
+
+# ; This line must remain at end of file
+

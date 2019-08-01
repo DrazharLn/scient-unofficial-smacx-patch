@@ -1,0 +1,153 @@
+;
+; ALPHA CENTAURI de Sid Meier
+;
+; FACTION FILE: Les Pirates du Nautilus
+;
+Copyright (c) 1999, 1998, Firaxis Games, Inc.
+;
+; ALPHA CENTAURI lit les règles du jeu dans ce fichier au
+; démarrage. Vous pouvez, à vos propres risques, faire des essais de modification
+; de ce fichier. Nous vous conseillons d'effectuer une copie de sauvegarde de l'original.
+;
+
+#PIRATES
+  Pirates du Nautilus, Le Boucanier,  Pirates, M, 2, Svensgaard, M, 0, 1, 0, 0, 1,
+  TECH, Mobile, TECH, DocFlex, SOCIAL, -GROWTH, SOCIAL, -EFFIC, FREEFAC, 28, AQUATIC, 0, FREEABIL, 26
+  Valeurs, Puissance, SUPPORT
+  nil, nil, nil
+  Nautilus, Nautil.
+  Enseigne Jones, Lukas, Coffre de Jones
+  Capitaine, héroïque, sanguinaire, intrépides, sauvages,
+  vieux diplodocus
+  tirer parti des richesses de la mer
+  dompter le vaste potentiel des océans
+  couper nos lignes de commerce et nous prendre à la gorge
+  couper nos lignes de commerce et nous prendre à la gorge
+  que vous violez sans vergogne les lois interfactionnelles au nom du droit au commerce
+  s'imbiber de rhum et gaver son perroquet avec des vers télépathes
+  vous imbiber de rhum et gaver votre perroquet avec des vers télépathes
+  multiples pillages
+  multiples pillages, M2
+  vos aventures en mer, F2
+  vos dernières courses, F2
+  un petit trésor, F1
+  à assurer la protection de vos cargaisons contre tous les immondes brigandages
+  à mes corsaires
+  la Loi de la mer
+
+#BASES
+TAVERNE DU TREPASSE
+PLANCHER DES VACHES
+CACHE AU TRESOR
+JAMBE DE BOIS
+REPOS DU MARIN
+SOURCES D'EAU DOUCE
+LOF POUR LOF
+PORT D'ATTACHE
+APPEL DU LARGE
+PAVILLON TETE DE MORT
+VIEUX LOUP DE MER
+CABESTAN
+TERREUR CORENTIN
+REFUGE D'ULRICK
+FRERES DE LA COTE
+TERRE FERME
+VADROUILLE
+TRINQUETTE
+GAILLARD D'AVANT
+NAUFRAGEURS
+CARREFOUR DU CRANE
+DELICES DU MARIN
+RHUM VIEUX
+TONNERRE DE BREST
+#END
+
+#WATERBASES
+PORT TRANQUILLE
+SVENSGAARD
+NID D'AIGLE
+AIGUADE
+JETEE DU PERROQUET
+COTE DE BARBARIE
+TIEDEUR DES ILES
+POINTE SANGLANTE
+CABOTAGE
+ILOT DU SABRE
+CAVERNE DU SEXTANT
+QUAI DES CORSAIRES
+CALE SECHE
+LA FREGATE
+APPONTAGE SURCOUF
+SOUS LE VENT
+PASSE PERILLEUSE
+MOUILLAGE
+FILLES DU PORT
+DENT DU SQUELETTE
+#END
+
+#BLURB
+La mer... vaste, mystérieuse... et regorgeant de richesses ! Et les nations de la Planète y lancent étourdiment leurs
+vaisseaux marchands. Si la mer les laisse passer c'est qu'elle se fiche bien d'eux. Mais nous, nous pouvons faire
+quelque chose pour elle : il suffit de donner à ces culs-terreux une petite leçon d'humilité.
+ ^
+ ^      -- Capitaine Ulrik Svensgaard
+ ^         "La Ride et la Vague"
+
+#DATALINKS1
+^DIRIGEANT: {Capitaine Ulrik Svensgaard}
+^CURRICULUM: {Astroquêteur de l'Unity}
+^ORDRE DU JOUR: {Pillage et mise à sac}
+^TECHNOLOGIE: {Doctrine: Mobilité, Doctrine: Souplesse}
+^
+
+#DATALINKS2
+^-1 EFFICACITE {Mentalité individualiste par opposition aux organisations centralisées}
+^-1 CROISSANCE {La culture ne place pas l'accent sur la famille}
+^CHANTIER NAVAL gratuit avec découverte de la Doctrine: Initiative : {Charpentiers de marine qualifiés}
+^Les améliorations peuvent être construite dans l'océan et les carrés de fissures avec la découverte du Génie écologique
+avancé : {entraînement à la vie maritime}
+^Capsule de colonie maritime et prototypes de formeuse maritime GRATUITS: {Technologie océanique avancée}
+^Bonus de minéraux provenant des carrés de plateau océanique : {Culture et technologie adaptées à l'océan}
+^Aptitude de détachement de marine GRATUITE pour toutes les unités de combat naval à la découverte de la Doctrine
+adaptative
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Ce conflit est lassant. Des aventures exaltantes nous tendent les bras sur cette planète ! Hardi les gars !
+Concluons une Trêve de sang, larguons les amarres et bon vent !"
+
+"D'accord. En avant pour l'aventure !"
+"Il n'est pas d'aventure plus exaltante que la défaite d'un adversaire présomptueux. Préparez-vous à être annihilés !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Il y a une chose que j'apprécie chez vous, $TITLE0 $NAME1 : on peut bourlinguer sur les sept mers sans vous trouver sur
+notre route.
+Nous aimerions signer un Traité d'Amitié pour sceller des liens durables."
+
+"En effet : nous vous aimons trop pour vous importuner, $NAME3 ! Signons ce Traité."
+ Nous réservons notre réponse. Nos projets d'expansion peuvent entrer en conflit avec cette proposition."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Ce conflit est lassant. Des aventures exaltantes nous tendent les bras sur cette planète ! Hardi les gars !
+Concluons une Trêve de sang, larguons les amarres et bon vent !"
+
+"Priorité à l'exploration du Collecteur Six. Trêve accordée."
+"Le Collecteur Six : exploration achevée. L'aventure la plus exaltante : vous détuire !"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Apparemment, vous ne comptez pas vous étendre sur les mers, $TITLE0 $NAME1. Nous sommes différents,
+bien sûr, mais parmi toutes les factions humaines, je crois que je suis votre
+allié logique, puisque nos sphères d'influence ne s'opposent pas. Signons un Traité
+d'Amitié et officialisons cet état de fait."
+
+"La Terre : propriété des Progéniteurs. La Mer : propriété de $NAME3. Traité possible."
+"La totalité du Collecteur Six nous revient. Conséquence : possibilité de conflit. Traité inapproprié pour l'instant."
+
+# ; This line must remain at end of file
