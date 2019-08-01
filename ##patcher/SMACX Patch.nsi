@@ -11,7 +11,7 @@
 !define REG_ROOT "HKLM"
 !define REG_APP_PATH "Software\Microsoft\DirectPlay\Applications"
 #!define REG_GOG_PATH "Software\GOG.com"
-!define PATCH_FILES_PATH "K:\#AC-ACX Project\##current patch files"
+!define PATCH_FILES_PATH "..\##current patch files"
 
 ######################################################################
 
