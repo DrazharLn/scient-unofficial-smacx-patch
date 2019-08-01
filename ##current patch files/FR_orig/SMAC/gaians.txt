@@ -1,0 +1,144 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; DOSSIER FACTION : Les Filles de Gaia
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+; Lors du démarrage, ALPHA CENTAURI lit les règles du jeu à partir de ce
+; fichier. Vous pouvez essayer d'éditer ce fichier à vos risques et périls.
+; Nous vous recommandons de faire auparavant une copie de sauvegarde.
+;
+
+#GAIANS
+LES FILLES DE GAIA, Les Verts, Gaïens, F, 2, Deirdre, F, -1, 0, 0, 0, 1,
+  TECH, Ecology, SOCIAL, -MORALE, SOCIAL, -POLICE, SOCIAL, ++EFFIC, SOCIAL, +PLANET, FUNGNUTRIENT, 1
+  Economie, Vert, PLANET
+  Economie, Marché libre, vide
+  Faction Gaïenne
+  Lindly, Scott, Le Repos de Lindly
+  Lady, belle, dingue des arbres, sensible à l'écologie, écolo,
+  Folle de nature
+  protéger toute forme de vie sur la Planète
+  défendre, comprendre et protéger toute forme de vie sur la Planète
+  juguler tout développement sensible légitime sur cette planète
+  juguler tout développement sensible légitime sur cette planète
+  que vous enrayez tout effort de progrès sensible sur ce monde
+  danser nue au milieu des arbres
+  danser nue au milieu des arbres
+  papoter sur l'environnement
+  bavardage sur des mesures en matière d'environnement, M1
+  vos discours sur des mesures en matière d'environnement, M1
+  vos initiatives en matière d'environnement, F2
+  un petit impôt écologique, M1  
+  à protéger et cataloguer toute forme de vie sur la Planète
+  à ma police écologique
+  le Code écologique planétaire
+
+#BASES
+DOMAINE DE GAIA, M1
+JARDIN SURELEVE DE GAIA, M1
+FORET PRIMITIVE, F1
+ENFANTS DE LA TERRE, M2
+VALLON DES VENTS, M1
+COL DU VER TELEPATHE, M1
+PALAIS DES RACINES, M1
+PORTES DE LA SERRE, F2
+FORET DU BEC CROCHU, F1
+DERNIERE ROSE D'ETE, F1
+AUTOMNE HEUREUX, M1
+REVES DE VERDURE, M2
+PINS, M2
+POINTE DES PATURAGES, F1
+CHANT DE PLANETE, M1
+BRILLANTE NESSUS, F1
+PARC DE L'OISEAU, M1
+ERE DE JACHERE, F1
+BOCAGE D'AUTOMNE, M1
+PRECHE DES FLEURS, M1
+CHENE RESPLENDISSANT, M1
+MUGUET, M1
+SOL VIERGE, M1
+JARDIN DU PARADIS, M1
+VIGNE EPINEUSE, M1
+RESERVE DE CHIRON, F1
+MEMOIRE DE TERRE, F1
+#END
+
+#WATERBASES
+JARDIN DES PROFONDEURS, M1
+PECHE DE DEIRDRE, F1
+JARDIN AQUATIQUE, M1
+FLEUR D'OCEAN, F1
+CASCADE, F1
+GRAND LAGON, M1
+BERCEAU MARIN, M1
+JARDIN DES POISSONS, M1
+#END
+
+#BLURB
+  Sur les terres du Domaine de Gaia, nous avons une magnifique pinède blanche,
+plantée à l'époque des premières colonies. Elle représente notre promesse faite
+au peuple et à la Planète elle-même, de ne plus répéter la tragédie de la Terre.
+^
+^        -- Lady Deirdre Skye,
+^           "Rêves de Planète"
+
+#DATALINKS1
+^DIRIGEANT : {Deirdre Skye}
+^CURRICULUM : {Ecosse libre, Unité Xénobiologiste}
+^ORDRE DU JOUR : {Démocratie écologique}
+^TECHNOLOGIE : {Ecologie centaurienne}
+^
+
+#DATALINKS2
+^+1 PLANETE : {Mesures écologiques préventives ; peut capturer les vers télépathes}
+^+2 EFFICACITE : {Expérimentation de systèmes de vie et du recyclage}
+^-1 MORAL : {Tendances pacifistes}
+^-1 POLICE : {Amour de la liberté}
+^+1 Nutriment dans les cases de fongus
+^{Ne peut pas utiliser l'économie de marché}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Cette destruction insensée va sûrement provoquer des dégâts irréparables
+sur l'écosystème de la Planète. Je vous supplie d'oublier nos différences
+et de conclure une Trêve de sang"
+
+"Bien dit. Cette violence doit prendre fin."
+"Ah ! Vos rochers et vos plantes ne pourront vous sauver, maintenant, $NAME3 !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"J'ai le sentiment que vous êtes un ami de Planète, $TITLE0 $NAME1. Je vous
+suggère de signer un Traité d'amitié, pour que nos peuples puissent vivre
+côte à côte dans la paix".
+
+"D'accord. signons un accord avec Planète, $NAME3."
+"Non. Cette idée d'ami de Planète me donne des angoisses".
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Cette destruction insensée provoquera certainement des dégâts irréparables pour
+l'écologie de Planète. Je supplie d'oublier nos différences et de conclure une
+Trêve de sang."
+
+"Destruction du Collecteur six : à éviter. Accord."
+"Collecteur six : plus fort que vous, $NAME3. Destruction : préparez-vous !"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, il est clair que vous et votre race en savez plus sur Planète que
+les humains n'en sauront jamais. Ne pourrions-nous pas signer un Traité d'amitié
+pour que nous puissions apprendre à vos ... heuhhh... à vos flancs ?"
+
+"Collecteur six : sacrosaint. Objectifs : similaires. Traité : bonne idée."
+"Votre compréhension du Collecteur six : faible. Traité : pas maintenant."
+
+# ; This line must remain at end of file
+
+

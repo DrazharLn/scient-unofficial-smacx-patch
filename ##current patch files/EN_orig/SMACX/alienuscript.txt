@@ -1,0 +1,2627 @@
+#INTRONEW0
+#xs 440
+#caption $CAPTION7
+"Greetings: $CHARACTERADJ9 $TITLE0 $NAME1. You: well known to Progenitor.
+Progenitor identity: $TITLE2 $NAME3 of the $FACTION4. Intention:
+$TO_CARRY_OUT_MY_MISSION6."
+
+#INTRONEW1
+#xs 440
+#caption $CAPTION7
+"Salutations: $TITLE0 $NAME1. Most interested: your talents and abilities. Progenitor identity:
+$NAME3, $TITLE2 of the $FACTION4. Intention:
+$TO_CARRY_OUT_MY_MISSION6."
+
+#INTRONEW2
+#xs 440
+#caption $CAPTION7
+"Hail: $CHARACTERADJ9 $TITLE0 $NAME1. Human reputation: First among $SPECIAL5.
+Progenitor followers called: $FACTION4. Progenitor identity: $<4:its:their> $TITLE2, $NAME3.
+Intention: $TO_CARRY_OUT_OUR_MISSION6."
+
+#INTRONEW3
+#xs 440
+#caption $CAPTION7
+"Presumption: You are $TITLE0 $NAME1. Greetings from: $TITLE2 $NAME3 of the $FACTION4.
+Your empire: $SPECIAL5 one. Intention: $TO_CARRY_OUT_OUR_MISSION6. Interference: not tolerated."
+
+#INTRONEW4
+#xs 440
+#caption $CAPTION7
+"Greetings: $TITLE0 $NAME1. Progenitor identity: $TITLE2 $NAME3. Leader: 
+the $FACTION4. Intention: $TO_CARRY_OUT_MY_MISSION6.
+Most pleased: your progress on Manifold Six."
+
+#INTRONEW5
+#xs 440
+#caption $CAPTION7
+"Greetings: $TITLE0 $NAME1.
+Progenitor identity: $TITLE2 $NAME3 of the $FACTION4.
+You: well known to Progenitor.
+Progenitor intention: $TO_CARRY_OUT_MY_MISSION6. Interference: not tolerated."
+
+#INTRO0
+#xs 440
+#caption $CAPTION7
+"Again: greetings: $TITLE0 $NAME1. Fervent hope: your
+$ENVIRONMENTAL_INITIATIVES5 proceeding
+apace. Reminder of identity: $TITLE2 $NAME3: $FACTION4."
+
+#INTRO1
+#xs 440
+#caption $CAPTION7
+"Greetings: $TITLE0 $NAME1 the $CHARACTERADJ9. Pleasure: to contend with you.
+$TITLE2 $NAME3 of the $FACTION4: Progenitor identity."
+
+#INTRO2
+#xs 440
+#caption $CAPTION7
+"Repeated greetings: $TITLE0 $NAME1. Your $FOLLOWERADJ5 followers: well wishes.
+My identity: $TITLE2 $NAME3: $FACTION4."
+
+#INTRO3
+#xs 440
+#caption $CAPTION7
+"Greetings: $TITLE0 $NAME1. You: the most $CHARACTERADJ9: all denizens of
+Manifold Six. Your followers: the most $FOLLOWERADJ5.
+$NAME3, $TITLE2 of the $FACTION4: salutes you."
+
+#INTROMAD0
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: old nemesis. Your $RUTHLESS_METHODS6:
+my $FACTIONADJ8 subjects detest. You address: $NAME3,
+their $TITLE2. Intention: to stop you from $IMPLEMENTING_YOUR_EVIL_AGENDA5."
+
+#INTROMAD1
+#xs 440
+#caption $CAPTION7
+"Greetings: $TITLE0 $NAME1. Warning: you: bent on
+$IMPLEMENTING_YOUR_EVIL_AGENDA6. Beware: you and $FOLLOWPEJORATIVE5
+followers: cannot defeat $TITLE2 $NAME3 of the
+$FACTION4!"
+
+#INTROMAD2
+#xs 440
+#caption $CAPTION7
+"Trifling: do not, $TITLE0 $NAME1. $TITLE2 $NAME3 of the
+$FACTION4: not impressed by $RUTHLESSMETHODS6."
+
+#INTROMAD3
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: very busy $DANCING_NAKED_THROUGH_THE_TREES8. Question:
+prepared once again to face: old enemy $NAME3,
+$TITLE2 of the $FACTION4?"
+
+#INTROMAD4
+#xs 440
+#caption $CAPTION7
+"Surprised to find: $PEJORATIVE5 $TITLE0 $NAME1,
+known to other humans as: $ECO_LOONY6. Cease:
+$DANCING_NAKED_THROUGH_THE_TREES8. Face: $NAME3, $TITLE2 of the $FACTION4!"
+
+#BUYPROTO0
+#xs 440
+#caption $CAPTION7
+"Great expense to develop: $LASERCRAWLERPROTOTYPE0.
+$NUM0 energy credits: you part with, for the plans?"
+
+"Never mind."
+Pay $NUM0 energy credits.
+
+#BUYPROTOHIGH0
+#xs 440
+#caption $CAPTION7
+"Great cost to develop: $LASERCRAWLERPROTOTYPE0.
+$NUM0 energy credits: price for sharing of plans."
+
+#BUYCOMMLINKHIGH0
+#xs 440
+#caption $CAPTION7
+"$<M1:$FACTIONADJ0> commlink
+frequency: pleased to advise. Requirement: {$NUM0 energy
+credits} first."
+
+#BUYCOMMLINK0
+#xs 440
+#caption $CAPTION7
+"$<M1:$FACTIONADJ0> commlink
+frequency: intention: to pass along. Meager cost: {$NUM0 energy credits."}
+
+"No thanks."
+Pay $NUM0 energy credits.
+
+#EXTORTCOMMLINK
+#xs 440
+#caption $CAPTION7
+"Bargain: acceptable. Transmission of $<M1:$FACTIONADJ0> commlink
+frequency: commencing."
+
+#BUYTECH0
+#xs 440
+#caption $CAPTION7
+"Knowledge: form of energy. So-called 'energy credits': another form.
+Knowledge: {$TECH0}: transmitted: in exchange for {$NUM0 energy
+credits.} Agreed?"
+
+"No thanks."
+Pay $NUM0 energy credits.
+
+#BUYTECH1
+#xs 440
+#caption $CAPTION7
+"Price for {$TECH0,}: {$NUM0 energy credits."}
+
+"What are you trying to pull?"
+Pay $NUM0 energy credits.
+
+#BUYTECHHIGH0
+#xs 440
+#caption $CAPTION7
+"$TECH0 information: valuable. Value: $NUM0 energy credits.
+Talk again: when you have this much energy."
+
+#BUYTECHHIGH1
+#xs 440
+#caption $CAPTION7
+"Emotion: pity: your energy reserves. Reluctantly: offer $TECH0.
+Requirement: $NUM0 energy credits."
+
+#REJTECHHATE0
+#xs 440
+#caption $CAPTION7
+"Progenitor followers: call $TITLE0 $NAME1: $NATURE_LOONY2.
+Breach of trust: to share information with you."
+
+#REJTECHHATE1
+#xs 440
+#caption $CAPTION7
+"Shudder to think: $FOLLOWERPEJORATIVE3 minions get
+ahold: Progenitor possessions. $TITLE0: think we: quite stupid!"
+
+#REJTECHHATE2
+#xs 440
+#caption $CAPTION7
+"Aid: you: aid: $IMPLEMENTING_YOUR_EVIL_AGENDA4? Answer: no."
+
+#REJTECHFEAR0
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: too fond: $IMPLEMENTING_YOUR_EVIL_AGENDA2.
+Grant of knowledge: unwise."
+
+#REJTECHFEAR1
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: busy: $IMPLEMENTING_YOUR_EVIL_AGENDA2. Progenitor
+unwise: to alter balance of power."
+
+#REJTECHADVANCED0
+#xs 440
+#caption $CAPTION7
+"Research created by your $FOLLOWERPEJ0
+scientists: emotion: humor."
+
+#REJTECHADVANCED1
+#xs 440
+#caption $CAPTION7
+"Your $FOLLOWERPEJ0 minions' research: adjective 'so-called'.
+Therefore: not interested."
+
+#REJTECHADVANCED2
+#xs 440
+#caption $CAPTION7
+"Your data: obsolete. Our data: edge: cutting. Understand?"
+
+#REJTECHPROJ0
+#xs 440
+#caption $CAPTION7
+"Interest: exchange of data. Pending: completion of $PROJECT0."
+
+#REJTECHPROJ1
+#xs 440
+#caption $CAPTION7
+"Future: interest in exchange. Priority: completion of $PROJECT0.
+Speak again: later."
+
+#REJTECHPROJ2
+#xs 440
+#caption $CAPTION7
+"Rejection of proposal from: $TITLE1 $NAME2. Reason: exchange:
+possibly lead to: loss of $PROJECT0 to $TITLE1 $NAME2."
+
+#TECHFREEBIE
+#xs 440
+#caption $CAPTION7
+"Data on {$TECH0}: granted as gift. Use: in support of generous benefactor."
+
+#TECHSLAVE
+#xs 440
+#caption $CAPTION7
+"Information
+on {$TECH0}: most exciting. Transmission: with great pleasure."
+
+#REJTECHLATER0
+#xs 440
+#caption $CAPTION7
+"Progenitor research: too sensitive. Exchange of knowledge: some other time."
+
+#REJTECHLATER1
+#xs 440
+#caption $CAPTION7
+"Progenitor secrets: remain Progenitor secrets."
+
+#REJTECHLATER2
+#xs 440
+#caption $CAPTION7
+"Technical data: no access at this time."
+
+#REJTECHLATER3
+#xs 440
+#caption $CAPTION7
+"Emotion: humility. Progenitor data: you already know."
+
+#REJTECHLATER4
+#xs 440
+#caption $CAPTION7
+"Subjects of your data: already known to Progenitor. Try again: later."
+
+#REJCOMMLINK
+#xs 440
+#caption $CAPTION7
+"Commlink information: unwilling to transmit now."
+
+#TRADETECH0
+#xs 440
+#caption $CAPTION7
+"Exchange of data: mutually beneficial.
+You send: {$TECH0}. We send: {$TECH1?} Not to forget: $PET_PROJECTS5: furthered by
+this knowledge."
+
+"Out of the question."
+"That is satisfactory."
+
+#TRADETECH1
+#xs 440
+#caption $CAPTION7
+"Greetings: $TITLE3 $NAME4. Sadly aware of Progenitor reputation: $BEHAVING_BADLY9, but Progenitor:
+actually: kind and gentle. Prove point: exchange knowledge. Progenitor: {$TECH1.} You:
+{$TECH0."} Agreed?
+
+"Out of the question."
+"That is satisfactory."
+
+#TRADETECH2
+#xs 440
+#caption $CAPTION7
+"Your data: {$TECH0}: important
+for: $PET_PROJECTS6. Willingness expressed: exchange
+for: Progenitor files on {$TECH1.} Interested?"
+
+"No."
+"It's a deal."
+
+#TRADETECH3
+#xs 440
+#caption $CAPTION7
+"Progenitor map: quite useful to you. Your information on
+{$TECH0}: of mild interest to Progenitor. Exchange: your tech for copy of {world map}?"
+
+"No."
+"It's a deal."
+
+#TRADETECH4
+#xs 440
+#caption $CAPTION7
+"Mapping of Manifold Six: prime importance. Offer: your maps: my information
+on {$TECH1?"}
+
+"No. My maps are highly classified."
+"That is acceptable."
+
+#TRADETECH5
+#xs 440
+#caption $CAPTION7
+"Manifold Six: highly dangerous environment. Offer: exchange map
+data: mutual protection?"
+
+"No. My maps are highly classified."
+"That seems prudent."
+
+#REJTECHINSTEAD
+#xs 440
+#caption $CAPTION7
+"Regrets: $TITLE3 $TITLE4. {$TECH0}: other choice: nothing."
+
+#REJTECHSECOND
+#xs 440
+#caption $CAPTION7
+"$TECH2: irrelevant to discussion. Time: concept: wasting
+away while you: blather."
+
+#ENERGYFREEBIE0
+#xs 440
+#caption $CAPTION7
+"Proclaim Progenitor generosity: {$NUM0 energy credits!} Request only:
+spend in multiply iterated places."
+
+#ENERGYFREEBIE1
+#xs 440
+#caption $CAPTION7
+"Forget: human word for one who grovels for cash! Progenitor:
+offer {$NUM0 energy credits}: token of sympathy."
+
+#REJENERGY0
+#xs 440
+#caption $CAPTION7
+"Energy reserves: all spoken for."
+
+#REJENERGY1
+#xs 440
+#caption $CAPTION7
+"Energy reserves: reserved. Progenitor: makes joke."
+
+#ENERGYLOAN1
+#xs 440
+#caption $CAPTION7
+"Trust: $TITLE0 $NAME1. Offer: {$NUM0 energy credits.}
+Terms: generous: you pay: $NUM1 credits per year for $NUM2 years."
+
+Refuse loan.
+Accept loan of $NUM0 energy credits.
+
+#ENERGYLOAN2
+#xs 440
+#caption $CAPTION7
+"Trust: $TITLE0 $NAME1. Offer: {$NUM0 energy credits.}
+Terms: generous: you pay: $NUM1 credits per year for $NUM2 years."
+
+Refuse loan.
+Accept loan of $NUM0 energy credits.
+
+#REJSELLNONE
+#xs 440
+#caption $CAPTION7
+"Technical data of interest, belonging to $TITLE0 $NAME1: none."
+
+#REJSELLAFFORD
+#xs 440
+#caption $CAPTION7
+"Apologies: $TITLE0 $NAME1. Progenitor: cannot afford price."
+
+#ENERGYTECH0
+#xs 440
+#caption $CAPTION7
+"Information on {$TECH0}: of interest. Ability to pay: limited
+to {$NUM0 energy credits.} Agreed?"
+
+"Sorry, not interested."
+Transmit information on $TECH0.
+Consult Datalinks.
+
+#ENERGYTECH1
+#xs 440
+#caption $CAPTION7
+"Benefits of {$TECH0}: considerable. Price: must be attractive.
+{$NUM0 energy credits}: fair price?"
+
+"Sorry, not interested."
+Transmit information on $TECH0.
+Consult Datalinks.
+
+#ENERGYTECH2
+#xs 440
+#caption $CAPTION7
+"Information on {$TECH0}: of interest. Ability to pay: limited
+to {$NUM0 energy credits.} Agreed?"
+
+"Sorry, not interested."
+Transmit information on $TECH0.
+"No, but I will sell you $TECH1 for the same price."
+Consult Datalinks.
+
+#REJSELLSECOND
+#xs 440
+#caption $CAPTION7
+"Interest in $TECH1: none."
+
+#SELLSECOND
+#xs 440
+#caption $CAPTION7
+"Agreement: $TECH1 for $NUM0 credits."
+
+#MAKEPACT
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1 of the $FACTION2: formal acknowledgement: you,
+as $PACTBROTHERORSISTER3! Accomplish: $YOURGOAL4.
+Accomplish: $MYGOAL5. Drink toast: to victory!"
+
+#MAKETREATY0
+#xs 440
+#caption $CAPTION7
+"Emotion: pleasure. $TITLE0 $NAME1: this Treaty: symbolic of
+cooperation between species. Clearly: Manifold Six: able to
+accomodate: your $PET_PROJECTS6 and Progenitor $PET_PROJECTS7.
+Additional benefit: exchanges between our peoples. Friendship 
+between $FACTION2 and $FACTION5: enduring!"
+
+#MAKETREATY1
+#xs 440
+#caption $CAPTION7
+"Emotion: pleasure. Progenitor $PET_PROJECTS7 and your $PET_PROJECTS6: excellent
+combination. $FACTION5 and $FACTION2: gain greatly from cooperation, interspecies exchanges."
+
+#MAKETRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME4 of the $FACTION5: pledged to Blood Truce with $FACTION2. Emotion: solemnity."
+
+#TRUCEMEPAY
+#xs 440
+#caption $CAPTION7
+"Emotion: gratitude: our Vendetta at end. Reminder: gentle: prompt resumption
+of your $NUM0 energy credit {loan} payments. Balance remaining: (addition: interest and penalties)
+$NUM1 credits."
+
+#TRUCEYOUPAY
+#xs 440
+#caption $CAPTION7
+"Emotion: gratitude: Vendetta resolution: mutually agreed. Promise: resumption
+of $NUM0 energy credit loan payments."
+
+#REJPACTMEEK
+#xs 440
+#caption $CAPTION7
+"Careful consideration reveals: unwise to trust you
+as $PACTBROTHERORSISTER0."
+
+#REJPACTHATE
+#xs 440
+#caption $CAPTION7
+"$TITLE1: proven unworthy of trust. Reputation: $DANCING_NAKED_THROUGH_THE_TREES3.
+Careful consideration reveals: foolish to trust you."
+
+#REJPACTAHEAD0
+#xs 440
+#caption $CAPTION7
+"$TITLE1: extremely powerful. Pact now: aids $TITLE1.
+Pact now: Does not aid Progenitor."
+
+#REJPACTAHEAD1
+#xs 440
+#caption $CAPTION7
+"$TITLE1: extremely powerful. Pact now: aids you in $IMPLEMENTING_YOUR_EVIL_AGENDA3.
+Pact now: Does not aid Progenitor."
+
+#REJPACTPOWER
+#xs 440
+#caption $CAPTION7
+"$PET_PROJECTS3: still working without aid."
+
+#REJPACTNOBRIBE
+#xs 440
+#caption $CAPTION7
+"Value to you: immense. Value to Progenitor: miniscule.
+Equality of bargain: non-existent."
+
+#REJPACTBADBRIBE
+#xs 440
+#caption $CAPTION7
+"Careful consideration reveals: not worth it."
+
+#REJPACTNOHELP
+#xs 440
+#caption $CAPTION7
+"Your actions: reveal true intentions. Status
+as $PACTBROTHERSORSISTERS2: ended."
+
+#REJPACT
+#xs 440
+#caption $CAPTION7
+"Progenitor agenda: proceeding smoothly.
+Need for Pact: too small to consider."
+
+#GIMMETECH0
+#xs 440
+#caption $CAPTION7
+"Offer: valuable and intriguing. Progenitor agenda: includes
+acquisition: technology. Cement bond: transmit data on {$TECH2}?"
+
+"That information is classified, $TITLE1."
+Transmit data on $TECH2.
+Consult Datalinks.
+
+#GIMMETECH1
+#xs 440
+#caption $CAPTION7
+"$PET_PROJECTS3: furthered by your proposal. Progenitor
+requires: {$TECH2}. Agree: if transmitted."
+
+"Nice try, $TITLE1, but that's classified."
+Transmit data on $TECH2.
+Consult Datalinks.
+
+#GIMMETECH0
+#xs 440
+#caption $CAPTION7
+"Progenitor: looks forward to future diplomacy.
+Requires: data. Suggest: transmit {$TECH2} and {$TECH4}
+Result: favorable outlook."
+
+"That information is classified, $TITLE1."
+Transmit data on $TECH2 and $TECH4.
+Consult Datalinks.
+
+#GIMMEENERGY0
+#xs 440
+#caption $CAPTION7
+"Offer: found intriguing. Progenitor dilemma: lack of
+energy credits. Suggestion: transfer{$NUM0 credit}.
+Probable result: favorable outlook for future."
+
+"What you describe is larceny!"
+Wire $NUM0 credits.
+
+#GIMMEENERGY1
+#xs 440
+#caption $CAPTION7
+"Appropriate human idiom: put up or shut up.
+Requirement: {$NUM0 energy credits}. You: willing?"
+
+"Your grasp of human idiom exceeds your sense, $TITLE1."
+Wire $NUM0 credits.
+
+#GIMMEHELP
+#xs 440
+#caption $CAPTION7
+"$TITLE5: greetings. Progenitor: willing with reservation:
+require: pronouncing Vendetta upon {$FACTION6."}
+
+"I fear I cannot honorably do so."
+"So be it! We shall crush the $FACTION6 beneath our boots!"
+
+#REJTREATYMEEK
+#xs 440
+#caption $CAPTION7
+"No desire: offend $TITLE1. Exception: Must reject
+agreement: $FACTION2."
+
+#REJTREATYHATE
+#xs 440
+#caption $CAPTION7
+"Treaty: of great benefit to $TITLE1. Same treaty: ploy
+to lure Progenitor complacence. End result: your reputation
+as $NATURE_LOONY4: more compelling factor then Progenitor
+desire for treaty."
+
+#REJTREATYAHEAD
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME0: faction far too powerful. Result: your success in
+$IMPLEMENTING_YOUR_EVIL_AGENDA5. Probable result: Progenitor: $PET_PROJECTS4
+never to bear fruit."
+
+#REJTREATYNOBRIBE
+#xs 440
+#caption $CAPTION7
+"Definition of 'friendship' to $TITLE1 $NAME0: dissimilar to
+Progenitor definition. Result: rejection of proposal."
+
+#REJTREATYBADBRIBE
+#xs 440
+#caption $CAPTION7
+"Current terms: unacceptable."
+
+#REJTREATYNOHELP
+#xs 440
+#caption $CAPTION7
+"Rejection: based on: your response."
+
+#REJTREATY
+#xs 440
+#caption $CAPTION7
+"Human concept: bribery. $TITLE1: fails to acquire Progenitor
+interest: this method."
+
+#PROVOKED0
+#xs 440
+#caption $CAPTION7
+"Emotion: anger. Reason: your $BAD_HABITS2. Result: Vendetta
+on $TITLE0 $NAME1. Expectation: destruction of $NAME1."
+
+#PROVOKED1
+#xs 440
+#caption $CAPTION7
+"Human idiom: that was the last straw. Result: Vendetta
+on $TITLE0 $NAME1. Expected result: cessation of
+your $BAD_HABITS2 forever!"
+
+#COLLABORATOR
+#xs 440
+#caption $CAPTION7
+"Progenitor: Vendetta currently with $TITLE2 $NAME3. You:
+friendship currently with $TITLE2 $NAME3.
+Result: Progenitor Vendetta extends to you!"
+
+#BULLY0
+#xs 440
+#caption $CAPTION7
+"Hostility: begun: by you. Progenitor toleration for outrage: low.
+Result: Vendetta upon you!"
+
+#BULLY1
+#xs 440
+#caption $CAPTION7
+"$<1:$CHARACTERADJ3> $TITLE0: refusal. Progenitor power: great.
+Result: Vendetta of acquisition. Prepare: for destruction."
+
+#BULLY2
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: grave error in judgement. Side benefit: Progenitor: good
+practice in destruction of $<M1:$FACTIONPEJ2> faction. Prepare!"
+
+#BULLY3
+#xs 440
+#caption $CAPTION7
+"$NAME1 usefulness to Progenitor: none. Conclusion: requires: extermination
+of $NAME1 and faction."
+
+#BULLY4
+#xs 440
+#caption $CAPTION7
+"Your desire: Vendetta: apparent from actions. Progenitor: willing.
+$THOUGHT_POLICE4: will enjoy victory."
+
+#BULLY5
+#xs 440
+#caption $CAPTION7
+"$NAME1: destruction: imminent. Emotion: almost: sadness
+at smallness of target."
+
+#BULLY6
+#xs 440
+#caption $CAPTION7
+"Progenitor: glad of chance to fight.
+Your $BIZARRE_PRACTICES5: odious: deserve destruction."
+
+
+#OUTRAGE0
+#xs 440
+#caption $CAPTION7
+"Treachery from $NAME0: most foul! Punishment: swift
+and severe!"
+
+#OUTRAGE1
+#xs 440
+#caption $CAPTION7
+"Vendetta: $TITLE0 $NAME1! Foulness: undescribable.
+Progenitor delight at your destruction: equally undescribable."
+
+#OUTRAGE2
+#xs 440
+#caption $CAPTION7
+"Reputation as $NATURE_LOONY2: deserved.
+Vendetta on $TITLE0 $NAME1: deserved and enjoyable!"
+
+#VENDETTA0
+#xs 440
+#caption $CAPTION7
+"Your $<M1:$FACTIONPEJ3> faction: at Progenitor mercy. Intention: capture
+of $TITLE0 $NAME1. Showing of mercy: none!"
+
+#VENDETTA1
+#xs 440
+#caption $CAPTION7
+"Your $<M1:$FACTIONPEJ3> faction: importance: microscopic.
+$TITLE1: destruction: imminent."
+
+#VENDETTA2
+#BULLY4
+#xs 440
+#caption $CAPTION7
+"Your desire: Vendetta: apparent from actions. Progenitor: willing.
+$THOUGHT_POLICE4: will enjoy victory."
+
+#VENDETTA3
+#xs 440
+#caption $CAPTION7
+"Manifold Six: suffers at the existence: $NAME1.
+Your destruction: a service to all."
+
+#VENDETTA4
+#xs 440
+#caption $CAPTION7
+"$NAME1: $<1:$CHARPEJ2>. Progenitor: free Manifold
+Six: your $BADHABITS4."
+
+#VENDETTA5
+#xs 440
+#caption $CAPTION7
+"Analysis: $NAME1: $NATURE_LOONY9.
+Regret at destruction of $NAME1: none."
+
+#VENDETTA6
+#xs 440
+#caption $CAPTION7
+"$NAME1: description: no words known with sufficient
+negative impact. Your destruction: afford pleasure."
+
+#VENDETTA7
+#xs 440
+#caption $CAPTION7
+"Anticipation: our next meeting: Progenitor: victorious.
+$NAME1: in chains and begging for mercy."
+
+#VENDETTA8
+#xs 440
+#caption $CAPTION7
+"Manifold Six: cries of anguish at the presence: $NAME1.
+Pleasure at your defeat: immense."
+
+#VENDETTA9
+#xs 440
+#caption $CAPTION7
+"Atrocities against Progenitor: committed by $NAME1.
+Payment: don't expect energy credits!"
+
+#VENDETTA10
+#xs 440
+#caption $CAPTION7
+"$NAME1 atrocities: many and various. Entire rest
+of population of Manifold Six: emotion: happy at your death."
+
+#VENDETTA11
+#xs 440
+#caption $CAPTION7
+"$NAME1: foul destroyer of life. Payment: quick but
+not merciful."
+
+#VENDETTA12
+#xs 440
+#caption $CAPTION7
+"Progenitor: suffer: ravages of $NAME1. Fervent wish: utter
+destruction of $NAME1 and whole faction."
+
+#VENDETTA13
+#xs 440
+#caption $CAPTION7
+"$NAME1 atrocities: many and various. Entire rest
+of population of Manifold Six: emotion: happy at your death."
+
+#VENDETTA14
+#xs 440
+#caption $CAPTION7
+"$TITLE1: place in Progenitor plans: none visible. Regrets: some.
+Destruction of $TITLE1: imminent."
+
+#VENDETTA15
+#xs 440
+#caption $CAPTION7
+"$TITLE1: obvious plans: $IMPLEMENTING_YOUR_EVIL_AGENDA5,
+Progenitor intention: Vendetta: means of thwarting evil plan."
+
+#VENDETTA16
+#xs 440
+#caption $CAPTION7
+"Progenitor inaction: unforgivable. You: intend to $IMPLEMENT_YOUR_EVIL_AGENDA8.
+Solution: swift and vigorous Vendetta!"
+
+#VENDETTA17
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1 wealth: great. $TITLE0 $NAME1 power: insufficient.
+Progenitor intention: human idiom: strike while the iron is hot.
+You: the iron."
+
+#VENDETTA18
+#xs 440
+#caption $CAPTION7
+"$NAME1: large, but unprotected. Progenitor plan: acquire
+part: your empire."
+
+#ATROCIOUS
+#xs 440
+#caption $CAPTION7
+"$NAME1 atrocities: many and various. Entire rest
+of population of Manifold Six: emotion: happy at your death."
+
+#ATROCIOUSITY
+#xs 440
+#caption $CAPTION7
+"Previous warnings to $TITLE0 $NAME1: atrocities: unheeded.
+Solution: Vendetta and destruction upon $NAME1."
+
+#NEVER
+#xs 440
+#caption $CAPTION7
+"Territorial dispute: unmistakable. Progenitor right to
+land: equally unmistakable. Ultimate solution: Vendetta: $PLAYERTITLE0 $PLAYERNAME1!"
+
+#RUNNINGDOG
+#xs 440
+#caption $CAPTION7
+"$TITLE2 $NAME3: mortal enemy. Progenitor need for access: immense.
+Progenitor willingness to defend passage rights: equally immense.
+Result: extension of Vendetta to you.
+
+#NOWAYJOSE
+#xs 440
+#caption $CAPTION7
+"Progenitor and $TITLE0 $NAME1: truce. Right granted to $NAME1
+to order Progenitor forces: none. Result: Progenitor moves: where we please."
+
+#TURNABOUT
+#xs 440
+#caption $CAPTION7
+"Acknowledged: $TITLE0. Your forces: Progenitor territory. Progenitor
+forces: your territory. Mutual withdrawal: suggested. Agreed?"
+
+"Never mind. Let our forces remain in place."
+"Agreed. My forces shall withdraw as well."
+
+#WITHDRAWPACT
+#xs 440
+#caption $CAPTION7
+"$PACTBROTHERORSISTER2: wish: Progenitor command. Withdrawal
+of forces: commencing."
+
+#WITHDRAW
+#xs 440
+#caption $CAPTION7
+"Horrible error committed: force commander. Withdrawal of
+forces: immediate. Apologies: profound. Punishment of leader: swift."
+
+#WITHDRAWTRUCE
+#xs 440
+#caption $CAPTION7
+"Restart of Vendetta: reluctance. Conclusion: withdrawal of Progenitor
+forces. Request: mutual respect: boundaries."
+
+#NOWITHDRAW
+#xs 440
+#caption $CAPTION7
+"Progenitor: confusion. Our forces in your territory: none. You speak
+of: what?"
+
+#EXTORTTECH
+#xs 440
+#caption $CAPTION7
+"$PACTBORS0: no need for emotion: anger. Coincidence: mighty: mere
+moments from transmitting data: $TECH1! Problem: solved."
+
+#EXTORTENERGY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: show: mercy! Willingness: pay $NUM0 energy credits.
+Fervent hope: this amount: sufficient."
+
+#FEND
+#xs 440
+#caption $CAPTION7
+"Progenitor: resigned to fate. Energy available: none.
+If: lack of funds: hostility: so be it."
+
+#ENDPACT
+#xs 440
+#caption $CAPTION7
+"Emotion toward $TITLE0 $NAME1: angry and hurt.
+Consideration: $PACTBROTHERORSISTER2: terminated.
+Reason: your threats."
+
+#IGNOREPACT
+#xs 440
+#caption $CAPTION7
+"$TITLE0: pathetic. Further begging: prohibited."
+
+#IGNORE
+#xs 440
+#caption $CAPTION7
+"Confusion: $TITLE0 $NAME1 intention? Progenitor: certainty: error.
+Thought: threat of Vendetta. If so: attack. If not: be more polite.
+
+#REALLYBROKE
+#xs 440
+#caption $CAPTION7
+"$PACTBROTHERORSISTER0: surprises: Progenitor. 'Null and void:' intention
+to discard: valuable alliance?"
+
+"Heavens, no! I meant to say 'full of droids.'"
+"Yes. I have had my fill of your whining incompetence."
+
+#DROIDS
+#xs 440
+#caption $CAPTION7
+"Droid: unfamiliar term. Enlightenment: expected: some future
+date."
+
+#BROKEPACT
+#xs 440
+#caption $CAPTION7
+"$PACTBROTHERORSISTER0 sincerity: suspect. $TITLE1 $NAME2: beware
+further provocation."
+
+#YOUATTACK
+#xs 440
+#caption $CAPTION7
+"Call for Vendetta: intriguing. Must know: subject of attack, $TITLE0?"
+
+#REJWARFAR
+#xs 440
+#caption $CAPTION7
+"Regrets, $TITLE0: Progenitor forces: not in position
+to attack: $<M1:$FACTIONADJ2> territory."
+
+#REJWARALREADY
+#xs 440
+#caption $CAPTION7
+"Coincidence: amazing! Vendetta $TITLE0 $NAME1: already in progress!"
+
+#REJWARTRUST
+#xs 440
+#caption $CAPTION7
+"Cleverness: $TITLE1 $NAME2. Clear intention: goad Progenitor to
+attack $FACTION3. Meanwhile: $UNITTYPES0 attack: Progenitor
+rear. Final response: no."
+
+#REJWAR
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: valid existence. Bribery: insufficient
+cause: attack $HIMHER2."
+
+#REJWARNOBRIBE
+#xs 440
+#caption $CAPTION7
+"'Good will:' insufficient cause to start Vendetta."
+
+#MAYBEWARENERGYPACT
+#xs 440
+#caption $CAPTION7
+"$FACTION0: currently Progenitor $PACTBROTHERORSISTER1.
+Required to even consider attack: {$NUM0 energy credits!"}
+
+#MAYBEWARENERGY
+#xs 440
+#caption $CAPTION7
+"Vendetta: $<0:$FACTIONPEJ2> $FACTION0!: cost: astronomical!
+{$NUM0 energy credits}: absolute minimum: consider such
+a course."
+
+#MAYBEWARENERGYFAR
+#xs 440
+#caption $CAPTION7
+"$FACTION0: unfamiliar. Progenitor forces: not near $<M1:$FACTIONADJ6> lands.
+Still possible: Vendetta. Required: {$NUM0 energy credits."}
+
+#MAYBEWARTECH4
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: dangerous foe. Required for Vendetta: increase
+in knowledge. Coincidence: your files
+on {$TECH3,} {$TECH4,} {$TECH8,} and {$TECH9}: sufficient."
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECH3
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: dangerous foe. Required for Vendetta: increase
+in knowledge. Coincidence: your files
+on {$TECH3,} {$TECH4,} and {$TECH8}: sufficient."
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECH2
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: dangerous foe. Required for Vendetta: increase
+in knowledge. Coincidence: your files
+on {$TECH3} and {$TECH4}: sufficient."
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECH
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: dangerous foe. Required for Vendetta: increase
+in knowledge. Coincidence: your files
+on {$TECH3}: sufficient.
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECHFAR
+#xs 440
+#caption $CAPTION7
+"$FACTION0: dangerous foe. Additional information: Progenitor
+forces: far from $<M1:$FACTIONADJ6> lands. Result: willingness
+for Vendetta, but: requirement: {$TECH3."}
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECHFAR2
+#xs 440
+#caption $CAPTION7
+"$FACTION0: dangerous foe. Additional information: Progenitor
+forces: far from $<M1:$FACTIONADJ6> lands. Result: willingness
+for Vendetta, but: requirement: {$TECH3} and {$TECH4."}
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECHFAR3
+#xs 440
+#caption $CAPTION7
+"$FACTION0: dangerous foe. Additional information: Progenitor
+forces: far from $<M1:$FACTIONADJ6> lands. Result: willingness
+for Vendetta, but: requirement: {$TECH3,} {$TECH4,} and {$TECH8."}
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECHFAR4
+#xs 440
+#caption $CAPTION7
+"$FACTION0: dangerous foe. Additional information: Progenitor
+forces: far from $<M1:$FACTIONADJ6> lands. Result: willingness
+for Vendetta, but: requirement: {$TECH3,} {$TECH4,} {$TECH8,} and {$TECH9."}
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECHPACT
+#xs 440
+#caption $CAPTION7
+"$FACTION0: currently under so-called Pact.
+Breakage of Pact: require data: {$TECH3!"}
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECHPACT2
+#xs 440
+#caption $CAPTION7
+"$FACTION0: currently under so-called Pact.
+Breakage of Pact: require data: {$TECH3} and {$TECH4!"}
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECHPACT3
+#xs 440
+#caption $CAPTION7
+"$FACTION0: currently under so-called Pact.
+Breakage of Pact: require data: {$TECH3,} {$TECH4,} and {$TECH8!"}
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#MAYBEWARTECHPACT4
+#xs 440
+#caption $CAPTION7
+"$FACTION0: currently under so-called Pact.
+Breakage of Pact: require data: {$TECH3,} {$TECH4,} {$TECH8,} and {$TECH9!"}
+
+"Nice try, $TITLE5, but that's classified."
+"Very well, begin transmission!"
+
+#WARTHREAT
+#xs 440
+#caption $CAPTION7
+"Vendetta: $TITLE0 $NAME1: agreed. Warning: Progenitor
+suspicion: you: unwilling to commit forces. If so: Progenitor
+forces: removed."
+
+#WARPACT
+#xs 440
+#caption $CAPTION7
+"$PACTBROorSIS3: requests. Progenitor: accedes.
+Vendetta: $TITLE0 $NAME1: begin: immediately."
+
+#INCITED0
+#xs 440
+#caption $CAPTION7
+"Vendetta: the $FACTION2: approval. $TITLE0 $NAME1: no
+friend: Progenitor."
+
+#INCITED1
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1's $<M1:$FACTIONPEJ3> faction: deserving of
+death. Result: Vendetta agreed!"
+
+#HERESTHEMAP
+#xs 440
+#caption $CAPTION7
+"Fervent wish: to aid $PACTBROTHERORSISTER0.
+Result: upload of current map data."
+
+#REJMAPS
+#xs 440
+#caption $CAPTION7
+"$<M1:$FACTIONADJ0> survey data: extremely important.
+Revelation: not to be expected."
+
+#TRADEMAPS
+#xs 440
+#caption $CAPTION7
+"One map: another map. Trade: approved."
+
+#REJTECHNOTHING
+#xs 440
+#caption $CAPTION7
+"Gratitude: yes. Value of your data to me: no."
+
+#OFFERTECH
+#xs 440
+#caption $CAPTION7
+"{$TECH0}: most interesting: Progenitor. Data
+transmission: begins now?"
+
+"No. Never mind."
+"Yes. Beginning transmission."
+
+#OFFERTECH2
+#xs 440
+#caption $CAPTION7
+"{$TECH0}: most interesting: Progenitor. Data
+transmission: begins now?"
+
+"No. Never mind."
+"Yes. Beginning transmission."
+"No, but we shall provide you data on $TECH1."
+
+#GAVETECH
+#xs 440
+#caption $CAPTION7
+"Gratitude: yes. Gift: received and accepted."
+
+#GAVETECH1
+#xs 440
+#caption $CAPTION7
+"Gratitude: great. Gift: received and accepted."
+
+#GAVETECH2
+#xs 440
+#caption $CAPTION7
+"Gratitude: extreme! Gift: received and accepted."
+
+#OFFERENERGY
+#xs 440
+#caption $CAPTION7
+"Specification: size of gift?"
+
+#GAVEENERGY
+#xs 440
+#caption $CAPTION7
+"Gratitude: yes. Gift: received and incorporated."
+
+#GAVEENERGY1
+#xs 440
+#caption $CAPTION7
+"Gratitude: great. Gift: received and incorporated."
+
+#GAVEENERGY2
+#xs 440
+#caption $CAPTION7
+"Gratitude: extreme. Gift: received and incorporated."
+
+#PLEA
+#xs 440
+#caption $CAPTION7
+"Heinous attack: the $<1:$CHARPEJ8> $TITLE0 $NAME1
+of the $FACTION2. $FACTION2 intention: $EVILAGENDA9. Your best
+interest: aid me: repulsion of attack. In exchange: $PACTOFBROTHERHOODSISTERHOOD3
+and {$NUM0 energy credits.}"
+
+"Too bad. You're on your own."
+"Done. Vendetta upon the $FACTION2!"
+
+#PLEATECH
+#xs 440
+#caption $CAPTION7
+"Heinous attack: the $<1:$CHARPEJ8> $TITLE0 $NAME1
+of the $FACTION2. $FACTION2 intention: $EVILAGENDA9. Your best
+interest: aid me: repulsion of attack. In exchange: $PACTOFBROTHERHOODSISTERHOOD3,
+{$NUM0 energy credits,} and information: {$TECH4.}"
+
+"Too bad. You're on your own."
+"Agreed. Vendetta upon the $FACTION2!"
+
+#PLEAPACT
+#xs 440
+#caption $CAPTION7
+"Heinous attack: the $<1:$CHARPEJ8> $TITLE0 $NAME1
+of the $FACTION2. $PACTOFBORS5 with you: false and misleading!
+Actual plan: $EVILAGENDA9. Alternative: swear: true Pact: Progenitor.
+Avoid: destruction at hands of $FACTION2. Additional
+incentive: {$NUM0 credits}: your expenses."
+
+"You must be joking."
+"Well spoken. Vendetta upon the $FACTION2!"
+
+#PLEAPACTTECH
+#xs 440
+#caption $CAPTION7
+"Heinous attack: the $<1:$CHARPEJ8> $TITLE0 $NAME1
+of the $FACTION2. $PACTOFBORS5 with you: false and misleading!
+Actual plan: $EVILAGENDA9. Alternative: swear: true Pact: Progenitor.
+Avoid: destruction at hands of $FACTION2. Additional
+incentive: {$NUM0 credits}: your expenses, and transmit: data: {$TECH4.}"
+
+"You must be joking."
+"Well spoken. Vendetta upon the $FACTION2!"
+
+#PROPOSE
+#xs 440
+#caption $CAPTION7
+"Although ultimate Progenitor goal: destruction of rebel Progenitor
+faction: meantime: $<2:$FACTIONPEJ8> $FACTION2: growing ever more
+powerful. Also: dangerous. $TITLE0 $NAME1: reported: $DANCINGNAKED9! 
+Proposal: You, Progenitor: crush $NAME1.
+$PACTOFBORS4: logical extension of proposal."
+
+"Not interested."
+"A cunning plan! Vendetta upon the $FACTION2!"
+
+#PROPOSEPACT
+#xs 440
+#caption $CAPTION7
+"$TITLE5: urgent alert. $PACTBORS6 $TITLE0 $NAME1 of the $FACTION2: false
+loyalty. Actual intention: $EVILAGENDA9 and utter betrayal.
+Counteraction: You, Progenitor: swear Pact. Teach: lesson!"
+
+"Enough of your trickery, $TITLE8."
+"Agreed. I shall put my forces in motion at once."
+
+#BETRAYFRIEND
+#xs 440
+#caption $CAPTION7
+"Greetings: $NAME0. Important message: regarding $NAME2.
+$NAME2: plans for $EVILAGENDA4. Proposal: surpise attack.
+Enticement: surprise attack."
+
+"I fear I must decline."
+"Agreed. $TITLE1 $NAME2 will never know what hit $<2:him:her:x:x>!"
+
+#ENEMYMAP1
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: greetings. Sympathies: your conflict with $TITLE2 $NAME3.
+Progenitor: helpful: acquired map: $<M1:$FACTIONADJ4> installation.
+Surmise: you could use copy. Exchange: map: $NUM0 energy credits."
+
+"No thank you, I can deal with $NAME3 myself."
+"It's a deal."
+
+#ENEMYMAP2
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: greetings. Sympathies: your conflict with $TITLE2 $NAME3.
+Progenitor: helpful: acquired map: $<M1:$FACTIONADJ4> installation.
+Surmise: you could use copy. Exchange: map: files on {$TECH5.}"
+
+"No thank you, I can deal with $NAME3 myself."
+"It's a deal."
+
+#METFRIEND0
+#xs 440
+#caption $CAPTION7
+"Wish to mention: $NAME3. Current title: $TITLE2 of the $FACTION4.
+$NAME3: analysis: reasonable leader. Progenitor: give you commlink frequency."
+
+"No thank you, I see no need to speak with $NAME3."
+"Yes, that would be most helpful."
+
+#METFRIEND0a
+#xs 440
+#caption $CAPTION7
+"Wish to mention: $NAME3. Current title: $TITLE2 of the $FACTION4.
+$NAME3: analysis: reasonable leader. Additional interest: $NAME3: holds
+information: {$TECH8.} Progenitor: give you commlink frequency."
+
+"No thank you, I see no need to speak with $NAME3."
+"Yes, that would be most helpful."
+
+#METFRIEND1
+#xs 440
+#caption $CAPTION7
+"Wish to mention: $NAME3. Current title: $TITLE2 of the $FACTION4.
+$NAME3: analysis: reasonable leader. Progenitor: provide you commlink frequency.
+You: provide Progenitor files on {$TECH6.}"
+
+"No thank you, I see no need to speak with $NAME3."
+"Very well, I am transmitting my files on {$TECH6} now."
+
+#METFRIEND1a
+#xs 440
+#caption $CAPTION7
+"Wish to mention: $NAME3. Current title: $TITLE2 of the $FACTION4.
+$NAME3: analysis: reasonable leader. Additional interest: $NAME3: holds
+information: {$TECH8.} Progenitor: provide you commlink frequency.
+You: provide Progenitor files on {$TECH6.}"
+
+"No thank you, I see no need to speak with $NAME3."
+"Very well, I am transmitting my files on {$TECH6} now."
+
+#METFRIEND2
+#xs 440
+#caption $CAPTION7
+"Wish to mention: $NAME3. Current title: $TITLE2 of the $FACTION4.
+$NAME3: analysis: reasonable leader. Progenitor: provide you commlink frequency.
+You: provide Progenitor $NUM0 energy credits."
+
+"No thank you, I see no need to speak with $NAME3."
+"Excellent. $NUM0 credits it is, then."
+
+#METFRIEND2a
+#xs 440
+#caption $CAPTION7
+"Wish to mention: $NAME3. Current title: $TITLE2 of the $FACTION4.
+$NAME3: analysis: reasonable leader. Additional interest: $NAME3: holds
+information: {$TECH8.} Progenitor: provide you commlink frequency.
+You: provide Progenitor $NUM0 energy credits."
+
+"No thank you, I see no need to speak with $NAME3."
+"Excellent. $NUM0 credits it is, then."
+
+#BOTHFRIEND
+#xs 440
+#caption $CAPTION7
+"Understanding: you: in contact with $NAME3. $NAME3: reasonable.
+Recent acquisition: {map of $<M1:$FACTIONADJ5> territory}. Progenitor: provide
+you with map. You: provide Progenitor information on {$TECH6.}"
+
+"No, I don't think that will be necessary."
+"Yes, actually that would be quite useful."
+
+#ANYNEWS
+#xs 440
+#caption $CAPTION7
+"Query: $NAME1: location. You: provide frequency: commlink communication.
+Progenitor: provide you $NUM0 energy credits."
+
+"Nope, haven't heard a word."
+"Yes, I'm forwarding $<1:his:her:x:x> comm frequency now."
+
+#COMMLINKTECH
+#xs 440
+#caption $CAPTION7
+"Can provide: $<M1:$FACTIONADJ2> commlink frequency.
+You: provide files on {$TECH0.}"
+
+"Never mind."
+"Very well, I am transmitting my files on {$TECH0} now."
+
+#COMMLINKFREE
+#xs 440
+#caption $CAPTION7
+""Can provide: $<M1:$FACTIONADJ2> commlink frequency.
+Emotion: happiness to do so."
+
+#DEMANDATTACK0
+#xs 440
+#caption $CAPTION7
+"'$TITLE1' $NAME2 to you,: currently $PACTBROTHERORSISTER0.
+Estimation: madness. Proof: $NAME2 known: $DANCINGNAKED9.
+Suggestion: renounce: pact with $FACTION3. Result: gain friendship
+of Progenitor."
+
+"No. The $FACTION3 $<3:is a loyal ally:are loyal allies>."
+"Agreed. $TITLE1 $NAME2 will soon find my knife in $HISHER4 back!"
+
+#DEMANDATTACK1A
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: mortal enemy of Progenitor. Estimation: madness.
+Proof: $NAME2 now known for: $DANCINGNAKED9. Urgent
+suggestion: join forces, destroy $FACTION3!"
+
+"Certainly not. $NAME2 is my friend."
+"A prudent suggestion--let us begin at once!"
+
+#DEMANDATTACK1B
+#xs 440
+#caption $CAPTION7
+"Progenitor ultimate goal: destruction of rebel Progenitor
+faction. Blocking progress towards goal: $TITLE1 $NAME2 of the $FACTION3: true
+purpose: $IMPLEMENTING_HIS_EVIL_AGENDA8. Proposal: you: switch
+allegiances, destroy $FACTION3."
+
+"Certainly not. The $FACTION3 $<3:is my friend:are my friends>."
+"A prudent suggestion--let us begin at once!"
+
+#DEMANDATTACK2a
+#xs 440
+#caption $CAPTION7
+"$<2:$CHARPEJ8> $TITLE1 $NAME2: attack Progenitor. Provocation: none.
+Urgent request: you assist in repulsing them."
+
+"No. I have pledged Blood Truce with the $FACTION3."
+"By all means. Let us rid ourselves of the $<M1:$FACTIONADJ6> nuisance."
+
+#DEMANDATTACK2b
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2 of the $FACTION3: attack Progenitor. Provocation: fear
+of Progenitor $PET_PROJECTS8. Knowledge: you and $NAME2: previous altercations.
+Urgent suggestion: you assist in repulsing them."
+
+"No. I have pledged Blood Truce with the $FACTION3."
+"By all means. Let us rid ourselves of the $<M1:$FACTIONADJ6> nuisance."
+
+#DEMANDATTACK3
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2 of the $FACTION3: brutal attack on peaceful
+Progenitor homelands. Great fortune: you, Progenitor: Pact.
+You: honor pact, declare: Vendetta: $FACTION3"
+
+"Sorry, I cannot help you right now."
+"Very well. Let us teach $TITLE1 $NAME2 a lesson."
+
+#DEMANDATTACK4
+#xs 440
+#caption $CAPTION7
+""$<2:$CHARPEJ8> $TITLE1 $NAME2: attack Progenitor. Provocation: none.
+Urgent request: you assist in repulsing them."
+
+"No. The $FACTION3 $<3:has:have> done me no wrong."
+"By all means. Let us rid ourselves of the $<M1:$FACTIONADJ6> nuisance."
+
+#DEMANDBRIBE0
+#xs 440
+#caption $CAPTION7
+"$TITLE0: acquaint you: Progenitor
+custom. You: remit: Progenitor: '$FEE8.' In
+return: Progenitor forces: $PROVIDING_VALUABLE_SERVICES9.
+Decided amount: {$NUM0 energy
+credits.}"
+
+"You are a $INSULT6, $NAME3. You'll get nothing from me."
+Pay $NUM0 credit '$FEE8.'
+"I can pay only $NUM1."
+
+#DEMANDBRIBE1
+#xs 440
+#caption $CAPTION7
+"Manifold Six: very dangerous: $TITLE0 $NAME1. Progenitor: very
+familiar: Manifold Six. Progenitor $MY_ENVIRONMENTAL_POLICE9: protect
+you from harm. In exchange: you pay {$NUM0 energy credits.}"
+
+"I will not listen to your veiled threats, $NAME3."
+"You have a point. I shall send $NUM0 credits at once."
+"I can afford $NUM1, no more."
+
+#DEMANDBRIBE2
+#xs 440
+#caption $CAPTION7
+"Human idiom: honesty is best policy. $TITLE0 $NAME1: inhibits
+Progenitor plans: $TO_CARRY_OUT_MY_MISSION9. Normally: sweep
+offending faction aside. This case: peace in exchange for: {$NUM0 energy credits."}
+
+"Do not boast of your $BAD_HABITS6 to me, $NAME3."
+Pay $NUM0 credits.
+"Alas, $NAME3. I can pay only $NUM1 credits."
+
+#DEMANDBRIBE3
+#xs 440
+#caption $CAPTION7
+"$TITLE0: violated: Progenitor $THE_ENVIRONMENTAL_CODE9!
+Immediate reparations: vital. Amount: {$NUM0 energy credits.}"
+
+"Your codes do not apply to me."
+Pay $NUM0 credit 'fine.'
+"Perhaps $NUM1 credits would take care of our little problem?"
+
+#DEMANDBRIBE4
+#xs 440
+#caption $CAPTION7
+"$NAME0: afraid to face: Progenitor power? Willing: forgo
+pleasure: your destruction. In exchange: your apology,
+and you pay {$NUM0 energy credits."}
+
+"You deceive yourself, $NAME3. Prepare to be crushed."
+Pay $NUM0 credits.
+"Apology, yes, but only $NUM1 credits."
+
+#DEMANDBRIBE5a
+#xs 440
+#caption $CAPTION7
+"Now $TITLE0 sees pointy tip: Progenitor tusk.
+You: pay {$NUM0 energy
+credits}. Result: not get gored."
+
+"Save your petty threats for someone else, $NAME3."
+Pay $NUM0 credits.
+"I can pay only $NUM1 credits."
+
+#DEMANDBRIBE5b
+#xs 440
+#caption $CAPTION7
+"Progenitor war: $TITLE0: nearing stalemate. Further
+damage: to both sides, inevitable. Progenitor: willing
+to cease hostilities. Exchange: you pay {$NUM0 energy credits.}"
+
+"You are in no position to make demands, $NAME3."
+Pay $NUM0 credits.
+"I can pay $NUM1 credits, or I can destroy you utterly. Your choice."
+
+#DEMANDBRIBE6
+#xs 440
+#caption $CAPTION7
+"$PETPROJECTS9: require emergency funding. Request: {$NUM0 energy credits.}
+Reason: binding friendship."
+
+"No. Cease this parasitic snivelling at once!"
+Give $NUM0 credits.
+"$NUM1 credits and not a joule more."
+
+#DEMANDBRIBE7
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: your forces: strong. Progenitor
+forces: equally powerful. Willingness to leave
+you in peace: can be bought for {$NUM0 energy credits."}
+
+"Begone! Your faction is no longer important to my plans."
+"Very well. Take $NUM0 credits and see that you do not interfere."
+"You overestimate my riches. $NUM1 seems a better number."
+
+#DEMANDBRIBE8
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: vast wealth. Progenitor: population
+crying out for benefits of energy. Begging: you: {$NUM0 credits.}
+Imagine: suffering you could ease."
+
+"Perhaps you should spend your pennies more wisely, $TITLE3."
+"Here are $NUM0 credits. Do not waste them."
+"You overestimate my wealth. $NUM1 seems a better number."
+
+#DEMANDBRIBE9
+#xs 440
+#caption $CAPTION7
+"You: well known to $FACTION6. Crimes against us: many.
+Human idiom: revenge is sweet. Willingness to forgo: in
+exchange for {$NUM0 energy credits.}"
+
+"You are the only criminal here, $TITLE3."
+Pay $NUM0 credits.
+"Sorry. I can pay only $NUM1 credits."
+
+#DEMANDBRIBE10
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: your enemies pay well: your destruction.
+Progenitor: magnanimous. Willing: forgo reward. Exchange
+necessary: you pay {$NUM0 energy credits."}
+
+"You'll not get a joule from me, $NAME4."
+Pay $NUM0 credits.
+"I can pay only $NUM1 credits."
+
+#WEASELOUT
+#xs 440
+#caption $CAPTION7
+"Uninterested: other offers. $NUM0 energy credits: only acceptable
+amount."
+
+"Shrivel and die, you $NATURE_LOONY6!"
+"Oh very well, $NUM0 credits it is."
+
+#WEASELEDOUT
+#xs 440
+#caption $CAPTION7
+"$NUM2: acceptable. Future: tread carefully."
+
+#HALFBRIBE
+#xs 440
+#caption $CAPTION7
+"Gift: useless. You: keep."
+
+#DEMANDTECH0
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: $BADHABITS9: become too odious.
+Solution: Progenitor takes: your files: {$TECH0.}
+Time: of the essence, $NAME2."
+
+"When you pry them from my cold dead fingers, $TITLE3 $NAME4."
+Transmit data on $TECH0.
+Consult Datalinks.
+
+#DEMANDTECH1
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: accused by: Progenitor
+followers: $SPOUTING_TREE_CRAZY_PRATTLE9.
+Solution: show good faith. Method: share {$TECH0} files.
+Alternative: unpleasant conflict."
+
+"Have you no shame, $TITLE3 $NAME4? Do your own research."
+Transmit data on $TECH0.
+Consult Datalinks.
+
+#DEMANDTECH2
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: accused by: Progenitor
+followers: $SPOUTING_TREE_CRAZY_PRATTLE9.
+Solution: show good faith. Method: share {$TECH0} files.
+Alternative: unpleasant conflict."
+
+"Silence! Enough of your veiled threats."
+Transmit data on $TECH0.
+Consult Datalinks.
+
+#DEMANDTECH3
+#xs 440
+#caption $CAPTION7
+"Course of battle: Progenitor quite satisfied.
+Progenitor: also magnanimous. Willing: take data: {$TECH0.}
+Exchange: end to Vendetta. Alternative: continued destruction."
+
+"Do your worst, $TITLE3 $NAME4."
+Transmit data on $TECH0.
+Consult Datalinks.
+
+#DEMANDTECH4
+#xs 440
+#caption $CAPTION7
+"Course of battle: Progenitor quite satisfied.
+Progenitor: also magnanimous. Willing: take data: {$TECH0.}
+Exchange: end to Vendetta. Alternative: continued destruction."
+
+"Do your worst, $TITLE3 $NAME4."
+Transmit data on $TECH0.
+Consult Datalinks.
+
+#DEMANDTECH5
+#xs 440
+#caption $CAPTION7
+"Technology: {$TECH0:} most wonderful. Sharing: expected
+between one $PACTBROTHERORSISTER5 and another."
+
+"No. Go do your own research."
+Transmit data on $TECH0.
+Consult Datalinks.
+
+#DEMANDTECH6
+#xs 440
+#caption $CAPTION7
+"$NAME1: think Progenitor a fool: let you off so easy.
+End to Vendetta: requires data: {$TECH6} as well."
+
+"You shall pay for this treachery, $TITLE3 $NAME4!"
+Transmit data on $TECH6.
+Consult Datalinks.
+
+#DEMANDTECH7
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: your forces: strong. Progenitor
+forces: equally powerful. Willingness to leave
+you in peace: can be bought for data on {$TECH0."}
+
+"Your faction is no longer significant, $TITLE3 $NAME4."
+Transmit data on $TECH0.
+Consult Datalinks.
+
+#DEMANDTECH8
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: committer of past crimes: Progenitor. Wise
+course: attack preemptively. Actual solution: you share data on {$TECH0?"}
+
+"You must think me quite stupid, $TITLE3, to fall for such a ploy."
+"Very well, I shall transmit at once."
+Consult Datalinks.
+
+#DEMANDTECH9
+#xs 440
+#caption $CAPTION7
+"Progenitor emergency: needful: technology of {$TECH0.}
+Coincidence: you possess this tech. Idle speculation: you
+send tech to Progenitor?"
+
+#DEMANDTECH10
+#xs 440
+#caption $CAPTION7
+"{$TECH0:} of great interest: Progenitor. Ask: favor: you send
+this tech."
+
+#DEMANDTECH11
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2: Tau Ceti accords demand: equal sharing: technological
+breakthroughs. Fully trust: you send {$TECH0:} immediately!"
+
+#DEMANDTECH11A
+"Your alien accords are meaningless to me."
+"I have no wish to offend. I shall transmit at once."
+"As you wish, but I'll require $NUM0 credits to cover my expenses."
+"And you will reciprocate with your own data on $TECH6?"
+Consult Datalinks.
+
+#DEMANDTECH12
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2 many enemies. Pressure to destroy you: constant.
+Progenitor: strong willed: willing to ignore. Exchange: all
+files on {$TECH0} and {$TECH6."}
+
+"Take your treacherous mouth elsewhere, $NAME4."
+"But of course I shall transmit immediately!"
+Consult Datalinks.
+
+#DEMANDTECH13
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2 many enemies. Pressure to destroy you: constant.
+Progenitor: strong willed: willing to ignore. Exchange: all
+files on {$TECH0.}"
+
+"Take your treacherous mouth elsewhere, $NAME4."
+"But of course I shall transmit immediately!"
+Consult Datalinks.
+
+#DEMANDTECH14
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2 many enemies. Pressure to destroy you: constant.
+Progenitor: strong willed: willing to ignore. Exchange: all
+files on {$TECH0,} {$TECH6,} and {$TECH8."}
+
+"Take your treacherous mouth elsewhere, $NAME4."
+"But of course I shall transmit immediately!"
+Consult Datalinks.
+
+#DEMANDTECH15
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2 many enemies. Pressure to destroy you: constant.
+Progenitor: strong willed: willing to ignore. Exchange: all
+files on {$TECH0,} {$TECH6,} {$TECH8,} and {$TECH9."}
+
+"Take your treacherous mouth elsewhere, $NAME4."
+"But of course I shall transmit immediately!"
+Consult Datalinks.
+
+
+#AGREEDENERGY
+#xs 440
+#caption $CAPTION7
+"Agreed. $NUM0 credits: wired now."
+
+#AGREEDTECH
+#xs 440
+#caption $CAPTION7
+"Acceptable."
+
+#DEMANDTECHAGAIN1
+#xs 440
+#caption $CAPTION7
+"Price quoted by $NAME2: exceeds Progenitor
+funds. Reiterated request: transmit data: {$TECH0}?"
+
+"Sorry. No check, no tech."
+"Oh, have it your way, then."
+
+#DEMANDTECHAGAIN2
+#xs 440
+#caption $CAPTION7
+"$NAME2: undeserving of such knowledge. Reiterated
+request: transmit files on {$TECH0."}
+
+"Sorry, tusk-face. Make a trade or stop wasting my time."
+"Oh, never mind. I'll transmit it."
+
+#ASKFORLOAN1
+#xs 400
+#caption $CAPTION7
+"$TITLE0 $NAME1: available credit reserves. Progenitor: no
+such reserves. Solution: you lend $NUM0 energy credits.
+Recompense: Progenitor: pay you $NUM1 credits per year for $NUM2 years."
+
+"I am not your personal moneylender, $TITLE2 $NAME3."
+"Agreed. But if you rob me you shall feel my wrath."
+"I can lend you half of that, and no more."
+
+#ASKFORLOAN2
+#xs 400
+#caption $CAPTION7
+"$TITLE0 $NAME1: available credit reserves. Progenitor: no
+such reserves. Solution: you lend $NUM0 energy credits.
+Recompense: Progenitor: pay you $NUM1 credits per year for $NUM2 years."
+
+"I am not your personal moneylender, $TITLE2 $NAME3."
+"Agreed. But if you rob me you shall feel my wrath."
+"I can lend you half of that, and no more."
+
+#BREAKPACT
+#xs 440
+#caption $CAPTION7
+"Impossibility: $PACTBROTHERSORSISTERS2 with:
+someone exhibiting: $BADHABITS3!
+Renouncing: pact."
+
+#SWEARAPACT
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: visionary, sympathetic viewpoint: Progenitor.
+Emotion: gladness. Suggestion: swear {$PACTOFBROTHERORSISTERHOOD2.}
+Expected result: joint control: Manifold Six."
+
+"Excellent idea."
+"Sorry, my plans dictate otherwise."
+
+#RANSOMDEMAND
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: currently in possession: {$BASENAME2}. Progenitor
+forces: strong. Expected outcome: Recapture of {$BASENAME2.}
+Avoid hostilities: return base now, make Truce"
+
+"Never! $BASENAME2 shall remain mine for all time!"
+"Very well, let us trade land for peace."
+
+#RANSOMTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: not primary threat: Progenitor.
+Fervent desire: Treaty. Enticement: Progenitor: return {$BASENAME2:} your possession."
+
+"Fair enough. Let us put this conflict behind us."
+"Hah! I shall soon retake $BASENAME2, your petty bargain notwithstanding."
+
+#OFFERTRUCE
+#xs 440
+#caption $CAPTION7
+"Human concept: Blood Truce: understood and entirely acceptable."
+
+"So pledged. I thank you."
+"No! I shall see this through to the bitter end."
+
+#MUSTTRUCE
+#xs 440
+#caption $CAPTION7
+"Incomprehensible: Progenitor defeat. Facts: remain: wish
+Blood Truce."
+
+"I'll savor your admission of defeat even as I sign the Truce!"
+"Hah! Defend yourself or be crushed!"
+
+#WANTTOTRUCE0
+#xs 440
+#caption $CAPTION7
+"Vendetta: wasteful. Real enemies: out there. Suggestion: sign
+Blood Truce."
+
+"Well spoken. Let it be done."
+"Never! Prepare to be annihilated!"
+
+#WANTTOTRUCE1
+#xs 440
+#caption $CAPTION7
+"Vendetta: wasteful. Real enemies: out there. Suggestion: sign
+Blood Truce."
+
+"Agreed. Let us so pledge."
+"It is you who will be destroyed, $TITLE2 $NAME3!"
+
+#WANTTOTRUCE2
+#xs 440
+#caption $CAPTION7
+"$NAME1: possessor of forces: formidable. Progenitor: error in
+attack. Amends: pledge Blood Truce and make amends."
+
+"Very well. See that it does not happen again."
+"Too late, $NAME3. Now I shall destroy you!"
+
+
+#TECHTRUCE
+#xs 440
+#caption $CAPTION7
+"Blood Truce: fervently desired. Additional
+enticement: Progenitor offer {$TECH0.}"
+
+"Accepted."
+"Your pathetic research does not impress me."
+"I must consult the Datalinks."
+
+#ENERGYTRUCE
+#xs 440
+#caption $CAPTION7
+"Blood Truce: fervently desired. Additional
+enticement: Progenitor offer {$NUM0 energy
+credits.}"
+
+Pledge Blood Truce.
+"I have no interest in bribes."
+
+#TRUCEPLEASE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: great and powerful. Progenitor: weak
+and puny. Defeat: utter and complete. Fervent
+desire: continue living. Offer: all available
+energy credits ($NUM0) and all research data
+($NUM1 new $<#1:tech:techs>). Interference
+from Progenitor: none, forever."
+
+"Very well, but you must swear a Pact to serve me."
+"No. Destroying you will be a service to humanity."
+
+#PROTOPACT
+#xs 440
+#caption $CAPTION7
+"New $UNITTYPE0 prototype ($STATS1): now available!
+Your prototypes: also of interest. Suggestion: exchange
+prototyping data."
+
+"No. My prototype data is too sensitive."
+"Yes, let us combine our prototyping efforts!"
+
+#PROTORIVAL
+#xs 440
+#caption $CAPTION7
+"$UNITTYPE0 prototype ($STATS1): now available: Progenitor.
+These units: formidable, to be feared."
+
+#NOTORIETY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: well known: treacherous nature.
+Progenitor: not above same thing: if necessary."
+
+#MOREWAR
+#xs 440
+#caption $CAPTION7
+"War: desired by $NAME1? Progenitor: willing to oblige.
+Declaration: Vendetta!"
+
+#OFFERTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: reasonable
+leader. $<M1:$FACTIONADJ2> followers: worthy
+population. Conclusion: Treaty of
+Friendship between $NAME1, Progenitor?"
+
+Sign treaty.
+"Sorry. I cannot accept such a restrictive arrangement."
+
+#OFFERTREATY2
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, Progenitor: currently under Blood Truce: expires
+soon. Ensuring continued peace: sign Treaty of Friendship?"
+
+Sign Treaty.
+"No. I cannot be so bound--and perhaps I have other plans."
+
+#ENERGYTREATY
+#xs 440
+#caption $CAPTION7
+"Further enducement: {$NUM0 credit} contribution: your
+$PETPROJECTS2?"
+
+Sign treaty.
+"My affection cannot be purchased, $TITLE0 $NAME1."
+
+#MILDPACT
+#xs 440
+#caption $CAPTION7
+"Apology: $NAME3. Progenitor: took definition of
+'friendship' beyond boundary."
+
+#MILDTREATY
+#xs 440
+#caption $CAPTION7
+"Reluctant acceptance: $TITLE0 $NAME1 decision. Point
+out: true friendship: involves give and take."
+
+#MILD
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: uncooperative. Progenitor: disturbed by
+this development."
+
+#REBUFFEDPACT
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: insults Progenitor: $PACTBROTHERSORSISTERS2.
+Human idiom: no way to treat a friend."
+
+#REBUFFEDTREATY
+#xs 440
+#caption $CAPTION7
+"At present: no action taken in response: arrogant stance.
+Future: beware such bravado."
+
+#REBUFFED
+#xs 440
+#caption $CAPTION7
+"$NAME0: should consider self warned: future conflict: if
+continue insulting actions."
+
+#LOWPATIENCEPACT
+#xs 440
+#caption $CAPTION7
+"Progenitor: always willing: speak: $NAME0.
+Progenitor: pressed for time. Request: speak quickly."
+
+#LOWPATIENCE
+#xs 440
+#caption $CAPTION7
+"Progenitor: willing at this time: speak: $NAME0.
+Request: speak quickly. Progenitor: quite busy."
+
+#WHATSUPPACT
+#xs 440
+#caption $CAPTION7
+"Greetings and salutations: $TITLE0 $NAME1!"
+
+#WHATSUPTREATY
+#xs 440
+#caption $CAPTION7
+"Greetings: $TITLE0 $NAME1."
+
+#WHATSUP
+#xs 440
+#caption $CAPTION7
+"Acknowledge presence: $TITLE0 $NAME1."
+
+#HELLOPACT
+#xs 440
+#caption $CAPTION7
+"Greetings and salutation: $TITLE1. $NAME0: great and powerful!"
+
+#HELLOTREATY
+#xs 440
+#caption $CAPTION7
+"Greetings: $TITLE1 $NAME2. Our friendship: enduring and complete."
+
+#HELLO
+#xs 440
+#caption $CAPTION7
+"Acknowledge presence: $TITLE1 $NAME2. Much appreciate: lack
+of interference: $PETPROJECTS3. Emotion: admiration."
+
+#WRONGEDENEMY
+#xs 440
+#caption $CAPTION7
+"Progenitor: fully aware: your betrayal: $TITLE0 $NAME1 of the $FACTION2.
+No friend: that one. Suggestion: limit such activity: Progenitor."
+
+#WRONGEDMIGHTY
+#xs 440
+#caption $CAPTION7
+"Progenitor: fully aware: your betrayal: $TITLE0 $NAME1 of the $FACTION2.
+Warning: Progenitor: mighty. Suggestion: human idiom: don't even think
+about it."
+
+#WRONGEDMEEK
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1 of the $FACTION2: trusted you.
+$TITLE0 $NAME1 of the $FACTION2: more foolish than: Progenitor.
+Progenitor: always on guard."
+
+#REPORTWINNING
+#xs 440
+#caption $CAPTION7
+"$<M1:$FACTIONADJ0>: human idiom: on its last ropes.
+Expectation: Progenitor troops: capture $TITLE1 $NAME2
+shortly."
+
+#REPORTLOSING
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2 of the $FACTION3: brutal
+attack: Progenitor holdings. Assistance: desperately
+needed. Without: Progenitor falls!"
+
+#REPORTEVEN
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2, Progenitor: engaged in: stalemate
+Vendetta. Your assistance: swing balance: our
+favor!"
+
+#TERRITORY
+#xs 440
+#caption $CAPTION7
+"Your forces: encroaching upon: $<M1:$FACTIONADJ1> territory.
+Withdrawal: usher in new era: peace and understanding."
+
+#QUISLING
+#xs 440
+#caption $CAPTION7
+"You, $<1:$CHARPEJ2> $TITLE0 $NAME1: in collaboration.
+Progenitor: unhappy: this turn of events. Toleration: minimal."
+
+#TIMESUPALLY
+#xs 440
+#caption $CAPTION7
+"Pressing business: prevents further discourse: $TITLE0 $NAME1.
+$NAME2: available later. Conversation: suspended."
+
+#TIMESUP
+#xs 440
+#caption $CAPTION7
+"Further discourse: impossible: for now. $TITLE0: must
+call back later."
+
+#INOURTERRITORY
+#xs 440
+#caption $CAPTION7
+"Your forces: too near: $BASENAME0.
+Our Treaty of Friendship: mutual agreement: not
+to encroach. Suggestion: immediate withdrawal!"
+
+#INOURTERRITORY2
+#xs 440
+#caption $CAPTION7
+"Your forces: encroaching: $<M1:$FACTIONADJ1> territory.
+Our Treaty of Friendship: mutual agreement: not to do so.
+Suggestion: immediate withdrawal!"
+
+#GETOUT1
+#xs 440
+#caption $CAPTION7
+"Your forces: near $BASENAME0: time to remove.
+Demand: honor Treaty: removal!"
+
+Withdraw forces to nearest base.
+"Only if you likewise withdraw from my territory!"
+"That treaty is rubbish! My forces shall remain!"
+
+#GETOUT2
+#xs 440
+#caption $CAPTION7
+"Your forces: encroachment: Progenitor territory.
+Our Treaty of Friendship: demands withdrawl.
+Consequence of failure: military action!"
+
+Withdraw troops to nearest base.
+"Only if you likewise withdraw from my territory!"
+"You are a fool, $NAME2. I am not bound by worthless treaties!"
+
+#GETOUT3
+#xs 440
+#caption $CAPTION7
+"Suspect: your forces: missed obvious territory markers.
+Mistake: regrettable. Redress: our Treaty of Friendship: withdraw
+immediately?"
+
+Withdraw troops to nearest base.
+"Only if you likewise withdraw from my territory!"
+"I have decided to make certain 'adjustments' to our borders, $NAME2."
+
+#GETOUT4
+#xs 440
+#caption $CAPTION7
+"Constant incursions into Progenitor territory: no longer
+tolerated. Demand: honor: our Treaty of Friendship. Withdraw
+your forces."
+
+Withdraw forces to nearest base.
+"Only if you likewise withdraw from my territory!"
+"Your time is up, $NAME2. I have come to destroy you."
+
+#GETOUT5
+#xs 440
+#caption $CAPTION7
+"Constant incursions into Progenitor territory: no longer
+tolerated. Demand: honor: our Treaty of Friendship. Withdraw
+your forces."
+
+Withdraw forces to nearest base.
+"Only if you likewise withdraw from my territory!"
+"Your boundaries are of little concern to me, $NAME2."
+
+#BOTHOUT
+#xs 440
+#caption $CAPTION7
+"Agreement: Progenitor forces withdrawn."
+
+#GOAWAY0
+#xs 440
+#caption $CAPTION7
+"Your forces: too near: $BASENAME0.
+Suggestion: immediate removal."
+
+#GOAWAY1
+#xs 440
+#caption $CAPTION7
+"Your forces: too near: $BASENAME0.
+Suggestion: immediate removal. Consequence of
+failure: annhilations: aforementioned forces."
+
+#GOAWAY2
+#xs 440
+#caption $CAPTION7
+"Your forces: entrance into $<M1:$FACTIONADJ1> territory.
+Suggestion: immediate withdrawal."
+
+#THISLANDISMYLAND
+#xs 440
+#caption $CAPTION7
+"Your newest base: built in: $<M1:$FACTIONADJ0> territory!
+Redress: dismantle base: return to colony pod."
+
+Cancel new base.
+Build new base anyway.
+
+#DIPLO
+#xs 440
+#caption $CAPTION7
+"Additional requests?"
+#itemlist
+
+#PROPOSAL
+#xs 440
+#caption $CAPTION7
+"Ask: what from Progenitor?"
+
+#PROPOSECOMMLINK
+#xs 440
+#caption $CAPTION7
+"Commlink frequency: whose?"
+
+#NOCOMMLINK
+#xs 440
+#caption $CAPTION7
+"Commlink frequency: $TITLE0 $NAME1: unknown to
+Progenitor."
+
+#PROPOSEATTACK
+#xs 440
+#caption $CAPTION7
+"Request for Vendetta: upon whom?"
+
+#PROPOSEBASE
+#xs 440
+#caption $CAPTION7
+#listbox
+"Request for base: which one?"
+
+#COUNTERBASE
+#xs 440
+#caption $CAPTION7
+#listbox
+"Offer of base: which one?"
+
+#COUNTER0
+#xs 440
+#caption $CAPTION7
+"Understood. Your counter-offer?"
+
+#COUNTER1
+#xs 440
+#caption $CAPTION7
+"Tokens: always welcome. Further
+description of token?"
+
+#NOMYHQ
+#xs 440
+#caption $CAPTION7
+"$BASENAME0: Progenitor headquarters. Human
+idiom: not for sale at any price!"
+
+#NOBASESWAP
+#xs 440
+#caption $CAPTION7
+"$BASENAME0: exceedingly valuble. Your offer: insufficient.
+$NUM0 energy credits: possible amount: transfer
+control: $BASENAME0."
+
+#NOBASESWAP2
+#xs 440
+#caption $CAPTION7
+"$BASENAME0: far too valuable. Your entire empire: contains
+nothing as valuable."
+
+#NOBASESWAP3
+#xs 440
+#caption $CAPTION7
+"$BASENAME0: thriving metropolis. $BASENAME1: human
+idiom: small potatoes. Result: no swap."
+
+#YESBASESWAP
+#xs 440
+#caption $CAPTION7
+"$BASENAME1: welcome into Progenitor empire. Human
+population: relocated immediately."
+
+#NEVERBASESWAP
+#xs 440
+#caption $CAPTION7
+"Human, Progenitor: never attempt to live: each
+other's bases."
+
+#PAYBASESWAP
+#xs 440
+#caption $CAPTION7
+"$BASENAME0: experimental expansion base. $NUM0 energy
+credits: reasonable price for swap."
+
+"You must be joking. $NUM0 for that wretched hive?"
+Pay $NUM0 energy credits.
+
+#TECHBASESWAP
+#xs 440
+#caption $CAPTION7
+"$BASENAME0: full of sedition. Swap: possible.
+Additional requirement: all your outstanding
+technical data."
+
+"Very funny, $TITLE2."
+Share technological data.
+
+#BASEGIFT
+#xs 440
+#caption $CAPTION7
+"$TITLE0: great generosity . Your gift: influential."
+
+#BASEGIFT1
+#xs 440
+#caption $CAPTION7
+"$TITLE0: great generosity! Thanks: many!"
+
+#BASEGIFT2
+#xs 440
+#caption $CAPTION7
+"$TITLE0: great generosity . Your gift: influential."
+
+
+#BASEOK
+#xs 440
+#caption $CAPTION7
+"$BASENAME0: now yours. Wishing you: luck."
+
+#BASENOCEDE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: threats unbecoming. Progenitor
+territory: never ceded to threats."
+
+#KEPTPACT1
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: stealing of technological
+secrets: our $PACTOFBORS2: makes more
+tenuous."
+
+#KEPTPACT2
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: act of sabotage: our
+$PACTOFBORS2: puts in jeopardy."
+
+#EXCUSEDPACT
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: pushed Progenitor: beyond
+reasonable limits. Our $PACTOFBORS2: cancelled."
+
+#KEPT1
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: stealing of technology:
+not good. Possible future result: reprisal."
+
+#KEPT2
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: act of sabotage: not
+good. Possible future result: reprisal."
+
+#USEDEXCUSE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: constant provocation: leading
+now to Vendetta!"
+
+#PLANETBUSTER0
+#xs 440
+#caption $CAPTION7
+"Progenitor arsenal: now contains PLANET BUSTER!"
+
+#PLANETBUSTER1
+#xs 440
+#caption $CAPTION7
+"Use of Planet Buster: unite all other factions:
+against you. Their use: human idiom: don't even
+think about it."
+
+#PLANETBUSTER2
+#xs 440
+#caption $CAPTION7
+"Use of Planet Buster: force Progenitor: reply with
+counter strike. Devastation: complete."
+
+#TEAMTECH
+#xs 440
+#caption $CAPTION7
+"Progenitor current research: {$TECH0.} Suggestion: your
+next research: {$TECH1:} maximum efficiency."
+
+#NOBATTLEPLANS
+#xs 440
+#caption $CAPTION7
+"Battle plans: not able to coordinate: yours. Contact: later."
+
+#MAPBATTLEPLANS
+#xs 440
+#caption $CAPTION7
+"Requirement of coordination: map information exchange.
+You: willing?"
+
+"No. Never mind."
+"Yes."
+
+#BATTLEPLANS
+#xs 440
+#x -20
+#y -20
+#caption $CAPTION7
+"$BASENAME0: Progenitor target. Your target
+suggestion: $BASENAME1."
+
+"I concur."
+"Wait, I have a better idea."
+
+#BATTLEPLAN
+#xs 440
+#x -20
+#y -20
+#caption $CAPTION7
+"Progenitor: listening. Forces: attack what place?"
+
+#BATTLENO
+#xs 440
+#caption $CAPTION7
+#x -20
+#y -20
+"$BASENAME0: strategic importance: minimal. Fighting: more
+important nearer to home."
+
+#BATTLEYES
+#xs 440
+#caption $CAPTION7
+#x -20
+#y -20
+"$BASENAME0: fine target. Progenitor forces: on
+the march!"
+
+#CALLOFF
+#xs 440
+#caption $CAPTION7
+"Wish: end to Vendetta: against . . ."
+
+#TOTHEDEATH
+#xs 440
+#caption $CAPTION7
+"Compliance: not possible. $TITLE0 $NAME1: bitter
+enemy. Necessity of destruction: great."
+
+#NOPEHIRED
+#xs 440
+#caption $CAPTION7
+"Destruction of $FACTION3: part of prior
+agreement. Progenitor: must follow through on contract."
+
+#THEIRFAULT
+#xs 440
+#caption $CAPTION7
+"Vendetta: started: $TITLE0 $NAME1 of the $FACTION3.
+Progenitor: willing: Blood Truce. Necessity: $NAME1 must agree as well."
+
+#CALLEDOFF
+#xs 440
+#caption $CAPTION7
+"You: ask. Progenitor: comply. Peace: $TITLE0 $NAME1."
+
+#THISLANDISMYLAND2
+#xs 440
+#caption $CAPTION7
+"These waters: $<M1:$FACTIONADJ0> territory. You: no
+bases here. Demand: removal of colony and return to pod!"
+
+Cancel new base.
+Build new base anyway.
+
+#SOCIAL1CAT1BAD2
+#xs 440
+#caption $CAPTION7
+"Progenitor: aware that $TITLE0 $NAME1: engaging in free market
+economics. Planned economy: closest known human equivalent to:
+superior Progenitor methods. Free market:
+too chaotic. Makes $TITLE0 $NAME1: untrustworthy. Suggest:
+reconsideration of economic plans."
+
+#SOCIAL1CAT1WAR2
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: continuation of chaotic economic policies. End
+result: likely betrayal of Progenitor due to incompatible ideologies.
+Course of action: preemptive strike. Alternative name: Vendetta!"
+
+#SOCIAL1CAT1PACT2
+#xs 440
+#caption $CAPTION7
+"Chaotic economic policies: first step toward betrayal of Progenitor
+ideals. Warnings: frequent. Level of attention from $TITLE0 $NAME1:
+limited. End result: cancellation of $PACT2."
+
+#SOCIAL1CAT2GOOD
+#xs 440
+#caption $CAPTION7
+"Orderly distribution of goods: reflects well on: $TITLE0 $NAME1.
+Progenitor method: similar. Acknowledgement: your actions."
+
+#SOCIAL1CAT3BAD2
+#xs 440
+#caption $CAPTION7
+"Resemblance of $TITLE0 $NAME1 to Manifold Six life form: great. Practicality:
+low. Manifold Six: has no need for such subservience. Progenitor: wishes to see:
+$TITLE0 $NAME1 prosper. Suggestion: abandon stance."
+
+#SOCIAL1CAT3WAR2
+#xs 440
+#caption $CAPTION7
+"Continued insinuation of $TITLE0 $NAME1 into Manifold Six: highly dangerous.
+Economic stance: example of insinuation. Conclusion: $TITLE0 $NAME1:
+usurp power of Manifold Six. Logical dictate: preemptive strike:
+$TITLE0 $NAME1! Vendetta: begins now."
+
+#SOCIAL1CAT3PACT2
+#xs 440
+#caption $CAPTION7
+"Continued policies of interference: Manifold Six: $TITLE0 $NAME1.
+Progenitor: wary of this policy. Reason: fate of Manifold Six for Progenitor
+to settle. Looking to future: $TITLE0 $NAME1: usurp Manifold
+power: self. Prevention: unilateral make finished: our $PACT2."
+
+#ALIENUNITYENGINE
+#xs 320
+#wave 0
+#caption Operations Director
+This wrecked human ship appears to have a primitive nuclear reaction
+core. This can be repurposed to provide $NUM0 energy credits!
+
+#ALIENUNITYCHOPPER
+#xs 320
+#wave 0
+#caption Operations Director
+We have found a human vehicle in the wreckage of this large ship. It
+appears to be an inverse-rotor ground-effect vehicle with limited
+fuel.
+
+#ALIENUNITYMINER
+#xs 320
+#wave 0
+#caption Operations Director
+We have found a human vehicle in the wreckage of this large ship. It
+appears to be a laser platform of some kind! 
+
+#ALIENUNITYRADAR
+#xs 320
+#wave 0
+#caption Operations Director
+The computers on board the wrecked human ship show landing trajectories
+for some escape pods. This must be the ship in which the humans arrived,
+and these are their landing sites!
+
+# ; This line must remain at end of file
+

@@ -1,0 +1,136 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Data Angels
+;
+; Copyright (c) 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#ANGELS
+The Data Angels, The Infogrrrrl, Angels, F, 2, Roze, F, 0, 0, 1, 1, 0, 
+  TECH, InfNet, TECH, PlaNets, SOCIAL, ++PROBE, SOCIAL, -POLICE, PROBECOST, 75, FREEFAC, 34, TECHSHARE, 3, UNIT, 6 
+  Politics, Democratic, PROBE
+  Values, Power, nil
+  Datatech, Datate.
+  Katt, Roberts, Katt's Cradle
+  Datajack, stylish, anarchistic, free-thinking, thieving, 
+  Mad Hacker
+  keep information free for all
+  to open the floodgates barring access to information
+  infecting all of us with her insidious viruses
+  infecting all of us with your insidious viruses
+  infiltrate every proprietary database on Planet
+  drooling in front of her computer terminal
+  drooling in front of your computer terminal
+  engaging in deviant virtual debauchery
+  pseudo-revolutionary blather, M1
+  covert operations, M2
+  network sabotage, M1
+  network access charge, M1
+  keeping your systems free of dangerous viruses
+  my Network Liberation Front
+  the Freedom of Information Act
+
+#BASES
+Data DeCentral
+Gargoyle Garden
+Ergonomia
+Safe House City
+The Sprawl
+Newer Ciba City
+Gibson Base
+Trojan Source
+Googleplex
+Tinker Junction
+Keypad Grid
+Opticommons
+Coder's Pit
+Shadow Sprawl
+Nettap Complex
+Stack Heap
+Roze Function
+Secret Hollow
+Ferrett's Lair
+Moonshadow
+Alphaville
+Applet Way
+#END
+
+#WATERBASES
+Atlantisville
+Conshelf 57
+Deep Sea Nine
+Calypso Beat
+Tears In Rain
+Great Lagoon
+Sea Cradle
+Garden of Fishes
+#END
+
+#BLURB
+What's more important, the data or the jazz? Sure, sure, 'Information should
+be free' and all that--but anyone can set information free. The jazz is in how
+you do it, what you do it to, and in almost getting caught without getting
+caught. The data is 1's and 0's. Life is the jazz.
+ ^
+ ^        -- Datatech Sinder Roze,
+ ^           "Infobop"
+
+#DATALINKS1
+^LEADER: {Sinder Roze}
+^BACKGROUND: {MorganNet QA Manager, Unity Information Services Helpdesk}
+^AGENDA: {Free Flow of Information}
+^TECH: {Information Networks, Planetary Networks}
+^
+
+#DATALINKS2
+^+2 PROBE: {Highly motivated computer specialists}
+^-1 POLICE: {Decentralized, difficult to control}
+^Gain any tech known to 3 other factions with whom Angels have infiltration: {Wide-ranging covert activities}
+^-25% cost to PROBE TEAM actions: {Skilled at network access and control}
+^Free COVERT OPS CENTER with discovery of Pre-Sentient Algorithms
+^{May not make Power choice in social engineering.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Military conflict diverts vital bandwidth from the struggle for network liberation.
+Pledge Blood Truce that we may restore the free flow of information."
+
+"Information does seem more important than conflict at this point. We'll sign your Truce."
+"Forget it! Your feeble coders won't save you now, $NAME3!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Not only are you a wise leader,  $TITLE0 $NAME1, but we admire your style. A
+Treaty of Friendship would be suitably chic, don't you agree? "
+
+"Agreed. Code to your heart's content, $NAME3."
+"What are you rambling on about, $NAME3? I would never join my fate to one so irresponsible."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Unlike you, our military ambitions are slight, $NAME1. Can't we end this war?"
+
+"Progenitor: willing: find other targets. Truce: agreed."
+"Pressing keys: not same: pressing trigger. $NAME3: prepare for death."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we feel a strange kindred spirit--both of us
+being outcasts and mistrusted by the others on Planet. Not only
+that, but we admire your jazzy neck flaps. A Treaty of Friendship
+would be suitably chic, don't you agree? "
+
+"Not understand: jazzy. Treaty: anyway. Agreement."
+"Treaty: for friends. Chic: irrelevant. Answer to silly $NAME3: no."
+
+
+# ; This line must remain at end of file

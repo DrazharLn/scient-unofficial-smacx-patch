@@ -1,0 +1,157 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; FACTION FILE: Free Drones
+;
+; Copyright © 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#DRONE
+The Free Drones, The Laborer, Drones, M, 2, Domai, M, 0, 0, 0, 1, 0,
+  TECH, Indust, SOCIAL, ++INDUSTRY, SOCIAL, --RESEARCH, NODRONE, 1, REVOLT, 75
+  Future Society, Eudaimonic, INDUSTRY
+  Economics, Green, nil
+  Free Drone, Free D.
+  Maxwell, Irwin, Maxwell’s Assembly
+  Foreman, stalwart, brainless, diligent, self-important,
+  Undeserving Malcontent
+  improve the lot of the common citizen
+  to free the enslaved working classes from their oppressors
+  controlling all industrial production on Planet
+  controlling all industrial production on Planet
+  undermine the very foundations of our society
+  glorying in the accolades of his mindless lackeys
+  glorying in the accolades of your mindless lackeys
+  inciting drones against their rightful masters
+  self-righteous bombast, M1
+  industrial ambitions, M2
+  self-styled worker’s paradise, M1
+  charitable donation, M1
+  maintaining a minimum standard of living for the common citizen
+  my Labor Mediation Teams
+  the Planetary Living Standard
+
+#BASES
+Free Drone Central
+Hall of Industry
+Smokestack Hill
+Steelfount
+Freedman’s Park
+Common Ground
+Labor Trust
+Liberty Plant
+Freedom’s Foundry
+Assembly Hall
+Worker’s Paradise
+Miner’s Freehold
+Digger’s Descent
+Domai Dome
+Living Standard
+Spanner Works
+Staples of Life
+Hammer and Tongs
+Anvil of Man
+Whipsaw Base
+Drilling Grounds
+Guild House
+Craftsman Keep
+Future’s Fulcrum
+Power Grid
+Overlords’ Despair
+Collective Organization
+Union Labor
+Despots’ Chagrin
+Collective Bargaining
+Tolpuddle Martyrs
+Rerum Novarum
+Workers’ Rights
+Minimum Wage
+Emperors’ Misery
+Black Grease
+Trade Union
+Chartist Movement
+Labour Government
+Wheels of Industry
+Class Struggle
+New Model Unions
+Hammer & Tongs
+#END
+
+#WATERBASES
+Seawork Caverns
+Chainlink Break
+Welder’s Shipyards
+Deep Platform Nine
+Stevedore Dock
+Longshoreman’s Quay
+Tanker’s Rest
+Coral Warehouse
+#END
+
+#BLURB
+“Now it’s day and night the irons clang, and like poor galley slaves
+^We toil and toil, and when we die, must fill dishonored graves
+^But some dark night, when everything is silent in the town
+^I’ll shoot those tyrants one and all, I’ll gun the flogger down
+^I’ll give the land a little shock, remember what I say,
+^And they’ll yet regret they’ve sent Jim Jones in chains to Botany Bay.”
+ ^
+ ^      —“Jim Jones”, Traditional
+
+#DATALINKS1
+^LEADER: {Foreman Domai}
+^BACKGROUND: {Unity Assistant Jobtech 3rd Class}
+^AGENDA: {Emancipation of the working class}
+^TECH: {Industrial Base}
+^
+
+#DATALINKS2
+^+2 INDUSTRY: {Excellent craftsmen and skilled workers}
+^-2 RESEARCH: {Emphasis on productivity instead of ‘blue-sky’ research}
+^Revolting bases tend to join drones: {Offer a workingman’s paradise}
+^-1 {Drones} in every base: {Working for common good reduces discontent}
+^{May not use Green economics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“The common man has suffered most during this interminable conflict. For the  sake
+of our citizens, we should set aside our egotistical pride and pledge Blood Truce.”
+
+“You’re right, our people deserve better. We’ll sign your truce.”
+“Our people gladly suffer any hardship to encompass your destruction.”
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“You seem to care about your citizens’ welfare, $TITLE0 $NAME1. In the interest  of
+our people, we should forswear our personal ambitions and sign a Treaty of Friendship.”
+
+“Yes, the desires of the people should come first.”
+“My people exist only to further my ambitions. A Treaty does not fit with my plans at this time.”
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Surely your workers are the same as ours, $TITLE0 $NAME1. All they must
+hope for is to live their lives in peace. Cannot we, as their leaders, accede
+to their wishes and pledge Blood Truce?”
+
+“All Progenitor: equally important. Truce: best for all Progenitor.”
+“Conflict against $NAME3: best for Progenitor. Conflict: will continue.”
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“Though others mistrust you, $TITLE0 $NAME1, I believe your science and
+understanding of Planet would go well with our industrial might. We should
+sign a Treaty of Friendship that we may coexist in peace.”
+
+“Treaty: beneficial to all. Idea: agreed upon.”
+“Presumption: interaction with $NAME3: somehow beneficial: incorrect. Answer: no.”
+
+# ; This line must remain at end of file

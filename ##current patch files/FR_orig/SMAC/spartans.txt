@@ -1,0 +1,137 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; DOSSIER FACTION : La Fédération spartiate
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+; Lors du démarrage, ALPHA CENTAURI lit les règles du jeu à partir de ce
+; fichier. Vous pouvez essayer d'éditer ce fichier à vos risques et périls.
+; Nous vous recommandons de faire auparavant une copie de sauvegarde.
+;
+
+#SPARTANS
+FEDERATION SPARTIATE, Le Survivant, Spartiates, M, 2, Santiago, F,  0,  1, 1, 0, 0,
+  TECH, Mobile, FREEPROTO, 0, SOCIAL, ++MORALE, SOCIAL, +POLICE, SOCIAL, -INDUSTRY
+  Principes, Militaire, MORALE
+  Principes, Richesse, vide
+  Faction spartiate
+  Voki, Bonaventura, Le Prix de Voki
+  Colonel, vigilante, paranoïaque, prudente, sociopathe,
+  extrémiste de droite
+  exercer notre droit de posséder et de porter des armes
+  profiter librement du droit donné par Dieu de posséder et de porter des armes
+  préparer une armée privée pour prendre le contrôle de la Planète
+  préparer votre armée privée pour prendre le contrôle de la Planète
+  vous préparez une armée privée afin de prendre le contrôle de la Planète
+  nettoyer ses chères pièces d'artillerie
+  nettoyer vos chères pièces d'artillerie
+  prendre trop au sérieux mes hallucinations paranoïaques
+  hallucinations paranoïaques, F2
+  vos préparatifs militaires, M2
+  vos visions extrémistes, F2
+  une petite solde, F1
+  à préserver la paix
+  à ma Légion paramilitaire
+  le Code militaire spartiate
+
+#BASES
+COMMANDEMENT SPARTIATE, M1
+BASE DE SURVIE, F1
+DONJON DU COMMANDANT, M1
+AVANT-POSTE DE GUERRE, M1
+STATION DE MILICE, F1
+FORT DE LA LEGION, M1
+ROCHER DU JANISSAIRE, M1
+ROCHER DE LA DETONATION, M1
+FAUCON DE CHIRON, M1
+CRAINTE DE L'ASSASSIN, F1
+CAVERNE DU CENTURION, F1
+BLOCKHAUS 118, M1
+CITADELLE DE L'HOMME, F1
+CAMP D'ENTRAINEMENT, M1
+FIEF DE MEFIANCE, M1
+LIEU DE MORT DES HEROS, M1
+FORT LIBERTE, M1
+PRESQU'ILE DE FER, F1
+FORT DU SURVIVANT, M1
+FORT DE SUPERIORITE, M1
+SALLES DE DISCIPLINE, F2
+TERRAIN DE PARADE, M1
+#END
+
+#WATERBASES
+QUAI DE LA FLOTTE, M1
+BASE DE L'AMIRAUTE, F1
+HYDRODOCK, M1
+BASE DE LA FLOTTE, F1
+AVANT-POSTE MARIN, M1
+#END
+
+#BLURB
+  Lorsqu'ils sont associés, un entraînement et un armement
+de qualité ont un effet exponentiel sur la puissance militaire
+générale. Des troupes bien entraînées et bien équipées peuvent
+affronter, en comparaison, beaucoup plus que la simple arithmétique
+linéaire ne le laisse supposer.
+^^
+^        -- Colonel Corazon Santiago,
+^           "Manuel de combat spartiate"
+
+#DATALINKS1
+^DIRIGEANT : {Col. Corazon Santiago}
+^CURRICULUM : {Survivante, Chef de la sécurité de l'Unity}
+^ORDRE DU JOUR : {Droit de posséder et de porter des armes}
+^TECHNOLOGIE : {Doctrine : Mobilité}
+^
+
+#DATALINKS2
+^+2 MORAL : {mouvement survivaliste exacerbé}
+^+1 POLICE : {partisans très disciplinés}
+^-1 INDUSTRIE : {armes sophistiquées et coûteuses}
+^Les unités de prototype ne coûtent pas de minéraux supplémentaires.
+^{Ne peut pas utiliser la valeur Richesse dans l'Ingénierie sociale}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Vous ne pouvez pas espérer vous dresser contre moi, $NAME1.
+Signons une Trêve de sang maintenant, ou préparez-vous à la destruction totale".
+
+"D'accord pour la Trêve. Et je vous en remercie".
+"Le bluff ne vous mènera nulle part, $NAME3. Préparez-vous à l'annihilation !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. Mes fidèles survivants se contentent de veiller sur leurs
+foyers dans la paix armée. Je vous suggère de signer un Traité d'amitié et
+d'éviter de trop nous gêner".
+
+"Bien, mais je vais veiller soigneusement sur mes frontières".
+"Pas question. Une faction armée jusqu'aux dents ne me paraît pas amicale".
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Vous ne pouvez espérer vous dresser contre moi, $NAME1.
+Signez une Trêve de sang maintenant ou préparez-vous la destruction totale."
+
+"Destruction : à éviter. Trêve : d'accord."
+"Vous gagner : pourquoi offrir paix ? Conclusion : vous : perdre ! Rejeté !"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, il est évident que vos objectifs et les nôtres
+coïncident : c'est la survie dans ce monde terrible sur lequel
+nous sommes arrivés. Si nous signons un Traité, je serai moins
+exposé à la vindicte des autres et mon peuple ne souffrira pas."
+
+"Droit de se défendre : important. Traité : acceptable."
+"Armement : beaux mensonges. Traité : pas opportun."
+
+
+# ; This line must remain at end of file
+
+

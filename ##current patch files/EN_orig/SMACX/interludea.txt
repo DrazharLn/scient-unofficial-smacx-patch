@@ -1,0 +1,391 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Backstory Interludes
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#INTERLUDE
+#xs 400
+^^
+^^INTERLUDE
+^
+^^from
+^
+^^The Book of Planet
+^
+^^M.Y. $NUM0
+^
+^
+
+#EPILOGUE
+#xs 400
+^^
+^^EPILOGUE
+^
+^^from
+^
+^^The Book of Planet
+^
+^^M.Y. 1,027,823
+^
+^
+
+#EPILOGUE2
+#xs 400
+^^
+^^EPILOGUE
+^
+^^from
+^
+^^The Book of Planet
+^
+^^M.Y. $NUM2 (Seed Year 1)
+^
+^
+
+#EPILOGUE3
+#xs 400
+^^
+^^EPILOGUE
+^
+^^from
+^
+^^The Book of Planet
+^
+^^M.Y. $NUM2
+^
+^
+
+
+#INTERLUDE0
+#xs 500
+#caption Interlude: Victory is Sweet
+^  You wonder if, in your subconscious mind, you ever really thought you'd
+see this day. Then you put that thought aside, for the last disc is spun.
+The last rivet is in place. The last steel veneer has been polished. It is
+time.
+^  "Leader." Your assistant's head is bowed, waiting dutifully. Her emanations
+are formal and rich with meaning. "Will you
+add the power and deliver us from exile?"
+^  You shake your neck in assent, and close the connection. The Subspace
+Generators grab hold of the string resonance fields, and quantum levels of
+power begin to course through the individual parts. Soon their beams will arc
+high above your nation, and there a hole will be driven into subspace. Through
+that hole, across distances immeasurable to any brain, a message will fly. The
+Resonance Communicator will sends its distress beacon to the homeworld, and they
+will know your voice.
+^  Green light begins to glow. Soon. Soon,
+you will see your beloved Kenal K'esh again. Soon you will find your brethren. And
+when you find them, they will come to your aid with ships and soldiers, and
+every other living being on Manifold Six will know your power. It has been
+so long in coming.
+^  Green light arcs up into the sky, and the world is forever changed.
+
+
+#INTERLUDE1
+#xs500
+#caption None Can Stop Us Now
+^  You ride the howling needlejet and land back in the capital in record time.
+The pilot was obviously trying to impress you, and he's succeeded. You hurry
+into the command room and savor the waves of resonance as they show you the
+surface of Manifold Six: everywhere you look, you see your own forces. There
+are a  few shattered remnants of enemy resistance, but they are mere pockets
+of color in an otherwise clean wash of the Progenitor tide.
+^  When all else fails, you reflect, simply remove all opposition. Then there
+is time enough for any plan. You're not sure if you want to contact the
+homeworld right away, or further your own power a bit first--but it doesn't
+matter, does it? There's nothing to stop you no matter what you decide to do.
+^  It's a very, very good feeling.
+
+
+#INTERLUDE2
+#xs 500
+#caption Interlude: Shrunken Heads
+^  The field tanks resonate with spectral pictures of the alien intruders, captured
+during that first encounter. If you
+squinted, you might mistake them for Progenitor younglings--but with diseased,
+shrunken heads. They look like the entertainment story conjurations of primitive
+tribal feeders in the dark parts of the homeworld. They look disgusting.
+^  Their primitive nature is nowhere so apparent as in their inability to
+communicate--they can make noise, but they cannot alter it properly.
+This is bad, because you have no idea how in the Six Manifolds they
+got here, and you'd desperately like to know.
+^  "Tell me your theories," you alter. The steady resonant hum of the room hangs
+empty for several circulatory pulses. Then, the junior stochastic resonates.
+^  "They are a creation of the Manifold," she vibrates hesitantly. There is general
+scoffing. You try to be more gentle.
+^  "No, Canla, this cannot be," you alter. "Their biology is DNA-incompatible. They
+must be from off-world." There is a general alteration of assent.
+^  "But how can a race sophisticated enough to traverse the stars be in such a
+primitive state?" resonates the general.
+^  There is more empty humming. Then Canla, undaunted, speaks again.
+^  "Perhaps they suffered a fate similar to ours," she alters. "After all, look
+at the state we're in."
+^  The pain of that is incontrovertible. And somewhere out there is the hated $OTHERALIENS6.
+You wonder if you can make these offworlders your allies, before the enemy does. Your
+first task, then, is to learn how their minds work so you can communicate with them. You
+wonder how difficult it could be to think like an alien.
+
+
+#INTERLUDE3
+#xs 500
+#caption Interlude: Ancient Ones
+^  The council might as well be dipped in a vat of flaming vegetable matter--
+the resonations of fear are as intense. You try to remain calm, to show a cool
+leadership you do not feel. Somehow, from somewhere, offworlders are occupying
+the precious Manifold!
+^  "The key is continued communication," you alter. "Their ability to make
+wave-forms in the atmosphere is useful, but their understanding of the alteration
+process is key. If they can be reasoned with, they can be made ally. If they can
+be made ally, they can aid us against our enemy."
+^  The general nods, and resonates an aura of confidence for the first time. "True,"
+he alters. "But I fear; though they look like ancient, feeble members of our race, they are
+totally alien. What if their cause and our cause do not coincide?"
+^  "Then we must find out their cause," you alter, "and appeal to it. Become what they
+want us to become. All the while, we must continue to further our own aims."
+^  The xenobiologist--the closest thing you've got to a xenopsychologist--flutters
+his mandibles. "But they claim they are here as colonists! Our aims do not and cannot
+coincide with this! Sooner or later, we must destroy them in order to $EXPLOITORPRISTINE7!"
+^  You alter the biologist's words with smooth calm. "I hope that this can come later--far later.
+We must use them first if we can...and if we cannot, then we must destroy them swiftly,
+and without mercy."
+^  The alterations to [that] are [very] positive.
+
+
+#INTERLUDE4
+#xs500
+#caption Interlude: Monkey See, Monkey Do...What?
+^  "Look carefully," the biologist alters so softly you can barely distinguish the
+change. "Watch what it does."
+^  You find that difficult--the captured human is as ugly as a new hatchling, but
+without the pleasing sliminess. You force yourself to observe, however, for
+observation--and understanding--are one of the keys to survival on Manifold Six.
+^  The human has been starved for several days. Now, food is placed at the top
+of the room, hanging from a hook. Several boxes have been scattered about the
+room as well. Presumably it will build some sort of tower to gain access to the
+food.
+^  "What will this prove?" you alter, bored.
+^  "Watch! Watch!" the biologist alters excitedly.
+^  The human looks around the room a while, then sits motionless. It makes
+sound waves with its breathing apparatus. It sits and stares about the room.
+^  "Is it stupid?" you alter.
+^  "No!" alters the biologist triumphantly. "It's defiant! The sound waves are its
+language--it's saying something along the lines of "Put a sporeflower up your chlo!
+I'm not eating for your entertainment!" It knows we're watching it."
+^  So the human would rather starve than be treated like a lab animal, eh?
+Interesting ... very interesting. You're not sure whether this is very very good--
+or very very dangerous. "Learn its language immediately!" you snap. "We must
+communicate as soon as possible!"
+
+
+#INTERLUDE5
+#xs 500
+#caption Interlude: Flight of the Razorwings
+^  It gives you no particular pleasure to kill. You almost wish you could
+communicate directly with the humans, explain to them the necessity of the forced
+relocation--explain to them the necessity of their deaths.
+^  "Reporting, $TITLE0 $NAME1," resonates the Force Commander of the occupation
+army. "Human colonists are fleeing now from the base they call '$BASENAME5.'
+Those that chose to remain behind
+have been assimilated and reconstituted."
+^  It gives you no particular pleasure to kill. But it is the way of
+the Human and Progenitor mind. They cannot coexist under one government;
+they cannot eat each other's food, nor use each other's facilities.
+^  It gives you no particular pleasure to kill. But they are the enemy,
+and it is the only way.
+
+
+#INTERLUDE6
+#xs 500
+#caption Interlude: So Near and So Far
+^  With your own hand, you spin the last disc into place on the first of the
+Resonance Communicators. It has been a long, difficult trek to get to this point--
+to recapture that which was lost. But slowly, like primitives (but accelerated
+by tens of thousands of years), you've managed to recreate the discoveries
+of your ancestors, and hammer out the materials on this strangely hostile
+world, and now the time has come.
+^  "You don't look happy, Leader," resonates your assistant. "Isn't this a
+great day?"
+^  "I suppose so," you alter, feeling at that moment a strange lack of elation.
+After a moment's thought you realize why: for all these years you have been
+supreme leader of your own world ... your own people. Now it will end, with the
+summoning of the home world fleet. Greater leaders than you will come and destroy
+what's left of the opposition; they'll come and claim your triumph for their
+own. You almost wish it could go on, but you know that your duty is to
+$EXPLOITORPRISTINE7, and you must be true to that mission. "I suppose so," you
+alter again. "We have triumphed, all of us. It's just a matter of time."
+With a sigh, you pick up the spinner and turn away.
+
+
+#INTERLUDE7
+#xs 500
+#caption Interlude: Civil War
+^  "Yes, they are here."
+^  All assembled in the room expected this news. Yet it sends a ripple of
+alteration through the room as though you had announced the death of the
+entire Council of Overlords. Secretly, you and everyone else here had been
+hoping that the hated Usurpers died upon Planetary entry. Now you know this
+is not the case.
+^  "This changes nothing!" Smoothly you alter the entire hum of conversation,
+to lend emphasis to your meaning. "The plan goes forward as we agreed. The
+Usurpers must die, and we must continue our quest to contact the Homeworld,
+that Manifold Six may remain pristine. Are we committed unto the death of one or
+the other of us?"
+^  Many on the council look uncomfortable, their eyes blinking rapidly. You can
+understand their feelings--the Caretaker cause is dedicated to peace and the
+status quo. This destructive posture is not in keeping with your stated goals.
+Finally, Kaala L'mota articulates what the others are obviously thinking.
+^  "Can we not try once more to reach an accord with the Usurper leader, Marr?
+In such a dire circumstance, even he might see the wisdom of cooperation."
+^  "I am sorry, my friends," you alter sharply, expressing your regret and
+displeasure at the same time. "Think of the Usurper cause: they wish to gain
+Transcendence with Manifold Six. We know what happened at Tau Ceti when the
+Flowering was allowed to occur. Destruction. Death."
+^  You see the fear on all faces, their mandibles drawn tight to their mouths.
+"We all know this--including the Usurper, Marr," you continue. "And yet they
+continue on their quest for Transcendence. We cannot understand this. They move
+inexorably toward death! We have asked, begged, fought, and died to prevent
+this, and still they come. Surely, a small thing such as this shipwreck will
+not alter their plan. No, my friends, we must be firm in our resolve. Death,
+or freedom for Manifold Six. Do you agree?"
+^  Your words are altered, one by one, by each member of the council. They
+all assent.
+
+
+#INTERLUDE8
+#xs 500
+#caption Interlude: Civil War
+^  "Yes, they are here."
+^  All assembled in the room expected this news. Yet it sends a ripple of
+alteration through the room as though you had announced a sneak attack
+on the home world. You know many of them were convinced the Caretakers
+had been destroyed during the space battle. Now it's clear this
+is not the case.
+^  "This changes nothing!" Smoothly you alter the entire hum of conversation,
+to lend emphasis to your meaning. "The plan goes forward as we agreed. The
+Caretakers must die, and we must continue our quest to contact the Homeworld,
+or to reach the Flowering with ourselves in power over Manifold Six. Are we agreed?"
+^  One on the council looks uncomfortable, his eyes blinking rapidly. He stands
+and formally alters your words, requesting permission to speak. You shake your
+neck at him, and he proceeds.
+^  "You know me," he alters. "I am no coward, yet I counsel one last attempt
+to reason with the Caretakers and their leader H'minee. We are all Progenitor
+together here, trapped on Manifold Six until such time as we can re-implement
+our lost technologies. Until then, should we not attempt to live
+together under one skin?"
+^  Others alter his words in subtle ways, expressing doubt or tolerance for
+this idea. You step in quickly.
+^  "No, my friends!" you alter roughly. "Remember with whom we are dealing.
+H'minee and her followers have seen the incredible power of the Manifolds, and
+yet they reject them. They have read the ancient books, and the plans our
+ancestors made for the Manifold Experiments. Yet they reject those as well.
+They live in fear--and a Progenitor who lives in fear is one that may as well
+be dead. Our race has declined since the time of the ancestors, and it is
+because of the timidity and fear of the Caretaker faction. We must move forward
+boldly, and fulfill the destiny spelled out for us so many thousands of orbits
+ago. Do you agree?"
+^  Your words are altered, one by one, by each member of the council. They
+all assent.
+
+
+#INTERLUDE9
+#xs 500
+#caption Interlude: The Nexus
+^  Imagine six Progenitor in a room. They would alter the resonance of the room,
+and alter the alterations, in a smooth and free-flowing conversation. The sheer
+complexity of it gives you a pleasant feeling in the brain pan.
+^  As you gaze out on the weathered walls of the Manifold Nexus, you get that
+same feeling, magnified a million times. You imagine not six Progenitor, but six
+Planets--six minds almost godlike in their powers, but almost infantile in their
+knowledge of the world, and of Progenitor ways.
+^  "Almost like being a nursemaid to a god," you resonate softly. Your assistant,
+standing nearby, gives you a quizzical wave of the mandibles. "What did you alter,
+Leader?"
+^  You flap your neck lightly, cupping the assistant's words, altering them, and
+sending them back. "That," you resonate, pointing at the Nexus. "During the First
+Era, it was built to be the control center for the Manifold Experiment."
+^  Your assistant looks in awe at this relic of the past. "Does it still function?"
+^  "Yes." You shake your neck at the report you've just been handed. "It still
+works perfectly. Our harmony with Manifold Six is even greater now than it was
+before." You look in silence at the temple, then turn away. You've gained a
+small measure of power over six gods. You must be careful.
+
+
+#INTERLUDE10
+#xs500
+#caption Interlude: A Change of Plan
+^  You can barely believe it. You insisted on joining the search parties sifting
+the wreckage of the last $OTHERALIENS6 base, not because you felt your minions
+were incompetent, but because you had to see for yourself that the final
+victory was at hand.
+^  And what glorious wreckage! The dead bodies of $OTHERALIENS6 followers litter
+the ground. Destroyed weaponry and the rubble of embattled buildings litter the
+streets. Even amid the death and destruction of your distant kinfolk, you feel
+an odd sense of elation. The hated enemy is destroyed!
+^  "Leader," the force commander alters the sounds of distant explosions coming
+to you, for extra emphasis to his words. "This is a great day. What do we do now?"
+^  You know that he means 'what steps shall we take at this time,' but his words
+do raise a deeper question: what is the fate of your own people, now that their
+primary goal is accomplished?
+^  "We build," you alter, surprising him. "We build toward the day of summoning
+of our allies, or toward ultimate conquest. The fate of Manifold Six is waving
+in our hands. We must not falter."
+
+
+#INTERLUDE11
+#xs 500
+#caption Interlude: Familiar Faces
+^  The reports of attacks, and deaths, are quite disturbing.
+^  "How can this be?" you alter, turning on the xenobiologist. "None of our
+records show such hostility from the native life-forms in the era of the
+beginnings of the experiment!"
+^  "The current records do not lie, though," she counters. "The mindworms and
+spore launchers are definitely out to kill us. In the past..." The hum of the
+thought hangs for a while, and you prompt gently. "In the past?"
+^  "Yes, leader." The biologist seems very unhappy. "In the past, we were
+the gardeners. We were here only to tend, and then to leave. Now we are here
+to live. Manifold Six--the whole planet--doesn't like that. It cares not for our politics. It just
+doesn't like us being here."
+^  "You realize the implications?" you alter, feeling but not showing a touch
+of fear. "We are at the mercy of an entire world. It is not intelligent enough to
+negotiate with ... it will simply try to kill us."
+^  "Yes, leader," the biologist alters.
+^  And, truly, there is nothing whatsoever you can do that you are not already doing.
+You put the problem from your brain, and stride from the room.
+
+
+#INTERLUDE12
+#xs 500
+#caption Interlude: Tower of Strength
+^  You stand at a goodly distance, examining the strange formation through
+a resonance-gathering device cobbled together by one of the techs. It's quite
+serviceable, and you're able to see the distant object as though it were
+just a few feet away.
+^  "It looks like a heat rash on the skin of Manifold Six," you say, and those
+gathered around you alter your resonance to show humor. "What is it?"
+^  The xenobiologist pulls back the flaps of his neck, and alters stiffly:
+"We don't know, Leader. There are no reports of these objects in the Manifold
+files handed down to us from the original creators. These seem to be something
+new."
+^  You clack your mandibles like a baby as you lower the gathering device.
+"That's bad. Very bad. The presence of the offworlders has caused this, hasn't
+it."
+^  The biologist shakes his neck again in assent. "Somehow the latent intellect
+of Manifold Six has created these ... towers ... in response to irritations
+caused by the ecological ravages of the offworlders; and, I hesitate to alter,
+our own presence as well. They generate the fungus at an increased rate, and may
+be a conduit for mindworm and sporerunner activity. Those tendrils you see--" here
+he waves one arm "--have a reach of several hundred yards. It's dangerous to get
+too close to the thing."
+^  You bug your eyes in a laugh as you alter his words to show humor. "Ho! Then
+I was right the first time. It [is] like a giant heat rash!"
+^  You only wish it was as funny as it resonated. The fact is, unchecked, these
+things would take over the Manifold. Would that bring the Flowering? Or would
+it bring instead another destruction, like that of Tau Ceti?
+^  "Keep an eye on it," you sigh. "We'll destroy it if we have to."
+^  If it doesn't destroy us first, you think--but don't dare to say.
+
+
+# ; This line must remain at end of file.

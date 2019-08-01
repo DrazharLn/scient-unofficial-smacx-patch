@@ -1,0 +1,1728 @@
+#PLANETFALL
+#xs 400
+#caption Arrivée sur la Planète !
+#x -5
+#y -5
+$NAME3, la désastreuse bataille spatiale au-dessus des cieux de
+Planète est terminée,et les restes éparpillés de votre vaisseau-mère se
+préparent à atterrir sur la surface. Votre seul réconfort est la pensée que le
+vaisseau de l'Usurpateur a été détruit, lui aussi -- mais vous pouvez vous
+attendre à rencontrer votre némésis,quelque part sur l'immensité de Planète.
+Vous façonnez maintenant la destinée de votre faction $<F1:$FACTIONADJ0>
+qui vient d'arriver sur Planète !
+
+#PLANETFALLX
+#xs 400
+#caption Arrivée sur la Planète !
+#x -5
+#y -5
+$NAME3, la désastreuse bataille spatiale au-dessus des cieux de
+Planète est terminée,et les restes éparpillés de votre vaisseau-mère se
+préparent à atterrir sur la surface. Votre seul réconfort est la pensée que le
+vaisseau des Gardiens a été détruit, lui aussi -- mais vous pouvez vous
+attendre à rencontrer votre némésis,quelque part sur l'immensité de Planète.
+Vous façonnez maintenant la destinée de votre faction $<F1:$FACTIONADJ0>
+qui vient d'arriver sur Planète !
+
+#PLANETFALL2
+#xs 400
+#x -5
+#y -5
+#caption $TITLE2 $NAME3
+$NAME3, votre faction $<F1:$FACTIONADJ0> a prospéré au cours des
+$NUM0 années qui ont suivi l'arrivée sur Planète. Votre projet secret,
+$PROJECTNAME4 est terminé, et vous êtes enfin prêt à mettre vos plans en oeuvre et à
+réaliser votre destin et celui de Planète.
+
+#GOODYRESOURCE
+#xs 320
+#caption Responsable des opérations
+Nous avons récupéré une {capsule robotique} laissée ici par
+les envahisseurs humains. Elle a éparpillé d'abondantes ressources de
+type $RESOURCETYPE0.
+
+#GOODYURANIUM
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Nous avons récupéré une {capsule robotique} laissée ici par
+les envahisseurs humains.
+Elle contient des approvisionnements primitifs qui peuvent être
+réutilisés contre $NUM0 crédits d'énergie !
+
+#GOODYHYDROGEN
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Nous avons récupéré une {capsule robotique} laissée ici par
+les envahisseurs humains.
+Elle contient des approvisionnements primitifs qui peuvent être
+réutilisés contre $NUM0 crédits d'énergie !
+
+#GOODYRIVER
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Un {dispositif extra-terrestre} a percé par hasard une rivière
+souterraine !
+
+#GOODYMINE
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Une grossière {capsule robotique} humaine a préparé des mines
+rudimentaires dans cette zone.
+
+#GOODYFARM
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Une grossière {capsule robotique} humaine a préparé des fermes
+rudimentaires dans cette zone.
+
+#GOODYSOLAR
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Une grossière {capsule robotique} humaine a préparé des capteurs
+solaires rudimentaires dans cette zone.
+
+#GOODYKELP
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Une grossière {capsule robotique} humaine a provoqué la prolifération
+de forêts de varech dans cette zone.
+
+#GOODYVIEW
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Nous avons récupéré une grossière {capsule cartographique} humaine
+contenant des données sur la zone environnante !
+
+#GOODYSONAR
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Nous avons récupéré une grossière {capsule sonar} humaine contenant
+des données sur la zone environnante !
+
+
+#GOODYQUAKE
+#xs 320
+#wave 0
+#caption Responsable des opérations
+La grossière capsule humaine a eu un dysfonctionnement et a déclenché
+un tremblement de terre !
+On pouvait s'y attendre !
+
+#GOODYVANISH
+#xs 320
+#wave 39
+#caption Responsable des opérations
+Notre unité s'est dématérialisée et à disparu à tout jamais !
+
+#GOODYWHIRLPOOL
+#xs 320
+#wave 39
+#caption Responsable des opérations
+Notre unité a disparu à tout jamais dans un tourbillon !
+
+#GOODYGATE
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Notre unité est tombée au travers d'une porte dimensionnelle !
+
+#GOODYWAVE
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Notre unité a été balayée par un raz-de-marée !
+
+#GOODYFUNGUS
+#xs 320
+#wave 0
+#caption Responsable des opérations
+La grossière capsule humaine a déclenché une floraison fongique.
+
+#GOODYFOREST
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Une grossière {capsule robotique} humaine a provoqué la prolifération
+de forêts de varech dans cette zone !
+
+#GOODYISLE
+#xs 320
+#wave 16
+#caption Responsable des opérations
+Notre unité rapporte qu'une île des profondeurs a fait surface et
+avalé la capsule !
+
+#GOODYBUILD
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Nous avons récupéré une {capsule robotique} humaine.
+Elle a fourni assez de minéraux pour nous permettre de finir de bâtir
+l'élément $ITEM0
+sur la base $BASENAME1 au prochain tour !
+
+#GOODYARTIFACT
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Finalement, il ne s'agit pas d'une capsule robotique humaine, mais
+d'un nodule de bibliothèque laissé par la première expédition !
+Emportons-le vers une base comportant un noeud de réseau pour le
+téléchargement.
+
+#GOODYCLONE
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Une fissure dimensionnelle a cloné notre unité $UNITTYPE0 !
+
+#GOODYPOD
+#xs 320
+#wave 0
+#caption Responsable des opérations
+Nous avons récupéré une {capsule robotique} laissée ici par
+les envahisseurs humains.
+Elle contient une unité $UNITYUNITTYPE0 en état de marche !
+
+#GOODYCOMM
+#xs 320
+#wave 1
+#caption Responsable des opérations
+Nous avons récupéré une {capsule robotique} laissée ici par
+les envahisseurs humains.
+Elle contient une fréquence de communications pour $TITLE0 $NAME1 de
+la faction $FACTION2.
+
+#GOODYDATA
+#xs 320
+#wave 1
+#caption Responsable des opérations
+Nous avons récupéré une {capsule robotique} laissée ici par
+les envahisseurs humains.
+Elle contient d'importants fichiers informatiques nécessaires à nos
+efforts de reconstruction.
+Le Chef documentaliste est en train de les installer dans les
+liaisons de communications.
+
+#GOODYDATA1
+#xs 320
+#wave 1
+#caption Responsable des opérations
+Nous avons récupéré une {capsule robotique} laissée ici par
+les envahisseurs humains.
+Elle contient des informations sur la technologie $TECH0 !
+
+#ARTIFACTTECH
+#xs 320
+#caption Chef du département scientifique
+Nos scientifiques ont connecté le nodule de bibliothèque au réseau de
+données et récupéré
+ainsi une technologie de grande valeur !
+
+#ARTIFACTTECH1
+#xs 320
+#caption Chef du département scientifique
+Un pic de tension provenant du nodule de bibliothèque a provoqué un
+court-circuit
+du noeud de réseau sur $BASENAME0 !
+
+Continuer
+Vue rapprochée de la Base
+
+#ALREADYARTIFACT
+#xs 400
+#wave 10
+#caption Chef du département scientifique
+Le noeud de réseau de $BASENAME0 a déjà été connecté à un nodule de
+bibliothèque.
+Nous devons connecter cet objet au noeud de réseau d'une autre base.
+
+#SEEMONOLITH
+#xs 320
+#caption Responsable des opérations
+Nous avons repéré ici un monolithe de station de mise à niveau.
+Seules les unités militaires
+peuvent bénéficier des stations de mise à niveau.
+
+#MONOLITH
+#xs 320
+#caption Responsable des opérations
+Nous avons repéré un monolithe de station de mise à niveau.
+
+Nous n'en avons pas besoin maintenant.
+Améliorer maintenant.
+Toujours améliorer près des monolithes.
+
+#MONOLITH0
+#xs 320
+#caption Responsable des opérations
+Le monolithe de station de mise à niveau a mis à jour notre unité
+vers le statut de $MORALE0.
+Puis il a disparu.
+
+#MONOLITH1
+#xs 320
+#caption Responsable des opérations
+Le monolithe de station de mise à niveau a mis à jour notre unité
+vers le statut de $MORALE0.
+
+#MONOLITHNO
+#xs 320
+#caption Responsable des opérations
+Cette unité a déjà été améliorée dans une station de mise à niveau.
+Elle n'a pas besoin
+d'autres réparations.
+
+#MONOLITHHEAL
+#xs 320
+#caption Responsable des opérations
+Le monolithe de station de mise à niveau a réparé notre unité.
+
+#OURBOOTY1
+#xs 400
+#wave 13
+#caption Rapport de combat
+Nous avons capturé un nodule de bibliothèque !
+
+#OURBOOTY2
+#xs 400
+#wave 13
+#caption Rapport de combat
+Nous avons capturé $NUM0 nodules de bibliothèque !
+
+#THEIRBOOTY1
+#xs 400
+#wave 14
+#caption Rapport de combat
+L'ennemi a capturé un nodule de bibliothèque !
+
+#THEIRBOOTY2
+#xs 400
+#wave 14
+#caption Rapport de combat
+L'ennemi a capturé $NUM0 nodules de bibliothèque !
+
+#THEIRBOOTY3
+#xs 440
+#wave 14
+#caption Rapport de combat
+La faction $FACTION0 a pris notre nodule de bibliothèque !
+
+#ARTEXPLORE
+#xs 400
+#caption Responsable des opérations
+Les nodules de bibliothèque ne peuvent être utilisés pour
+l'exploration.
+
+#RECYCLEME0
+#xs 400
+#caption Responsable des opérations
+#wave 32
+Le bâtiment $FACILITY0 a été fusionné avec un nodule de bibliothèque
+et ne peut être recyclé.
+Si vous le souhaitez, nous pouvons essayer de le détruire.
+
+Pas question.
+Détruisez le bâtiment $FACILITY0.
+
+#INTRONEW1
+#xs 440
+#caption $CAPTION7
+"Bienvenue sur la Planète, $TITLE0 $NAME1. Vous apportez bien des aptitudes
+sur notre nouveau monde. Permettez-moi de me présenter ; parmi les
+humains, on me nomme
+$NAME3, $TITLE2, de la faction $FACTION4, et sur ce monde, j'ai pour
+objectif
+de $TO_CARRY_OUT_MY_MISSION6."
+
+#INTRONEW4
+#xs 440
+#caption $CAPTION7
+"Heureuse rencontre, $TITLE0 $NAME1. Je suis $TITLE2 $NAME3, et
+j'agis en tant que
+porte-parole de la faction $FACTION4 ; j'ai l'intention de
+$TO_CARRY_OUT_MY_MISSION6.
+Je vois que vos subordonnés et vous-même avez prospéré sur ce monde
+impitoyable."
+
+#INTRONEW5
+#xs 440
+#caption $CAPTION7
+"Ainsi, vous devez être $TITLE0 $NAME1.
+Je suis $TITLE2 $NAME3 de la faction $FACTION4 et je vous salue.
+Le récit de vos prouesses s'est répandu depuis votre
+atterrissage.
+Vous savez peut-être que je veux $TO_CARRY_OUT_MY_MISSION6. N'essayez
+pas de vous interposer."
+
+#INTROMAD4
+#xs 440
+#caption $CAPTION7
+"Tiens ! Mais c'est $<0:le:la> $PEJORATIVE5 $TITLE0 $NAME1.
+Vous êtes $<6:un:une> véritable $ECO_LOONY6 ! Alors ? Vous n'en avez pas assez de
+ $DANCING_NAKED_THROUGH_THE_TREES8 ? C'est
+$NAME3, $TITLE2 de la faction $FACTION4 qui vous parle !"
+
+#BUYTECH1
+#xs 440
+#caption $CAPTION7
+"Le prix de mes fichiers sur la technologie {$TECH0} est de {$NUM0
+crédits d'énergie}."
+
+"Ce Prix : ridicule !"
+Payer $NUM0 crédits d'énergie.
+
+#TRADETECH4
+#xs 440
+#caption $CAPTION7
+"Mes cartographes tentent de compiler une carte complète de cette
+planète.
+Echangeriez-vous vos propres {cartes} contre mes informations sur la
+technologie {$TECH1} ?"
+
+"Non. Nos Cartes : trop d'importance à vos yeux."
+"Acceptable."
+
+#TRADETECH5
+#xs 440
+#caption $CAPTION7
+"De nombreuses régions de ce monde restent inexplorées et
+dangereuses. Voudriez vous
+échanger des informations cartographiques pour garantir notre
+sécurité mutuelle ?"
+
+"Non. Nos Cartes : trop d'importance à vos yeux."
+"Acceptable."
+
+#TRADETECHOPT
+"Donner : {$TECH9} à la place. Bonne affaire."
+"Non. Mais le Progéniteur propose ceci : divulguer information : {$TECH2}."
+"Autorisation de passage du temps. Consultation de {Liaisons de Données}
+."
+
+#ENERGYTECH2
+#xs 440
+#caption $CAPTION7
+"Vos informations sur la technologie {$TECH0} m'intéressent,
+mais je ne peux
+payer que {$NUM0 crédits d'énergie}. Est-ce suffisant ?"
+
+"Le Prix : insuffisant."
+Transmettre information $TECH0.
+"Non. Mais : $TECH1 : même prix."
+Consulter les liaisons de données.
+
+#GIMMETECH0
+#xs 440
+#caption $CAPTION7
+"Votre offre m'intéresse, mais je ne peux accepter que si elle est
+faite
+sur la base de l'égalité de l'accès aux données. Voulez-vous me
+transmettre
+toutes vos données sur la technologie {$TECH2} en gage de notre
+amitié future ?"
+
+"Information : secrète, $TITLE1."
+Transmettre données sur la technologie $TECH2.
+Consulter les liaisons de données.
+
+#GIMMETECH1
+#xs 440
+#caption $CAPTION7
+"Votre proposition concorde parfaitement avec mon projet
+$PET_PROJECTS3. Cependant, j'ai
+un urgent besoin d'informations sur la technologie {$TECH2}. Pouvez-
+vous me les transmettre
+immédiatement ?"
+
+"Information: secrète."
+Transmettre données sur la technologie $TECH2.
+Consulter les liaisons de données.
+
+#GIMMEENERGY0
+#xs 440
+#caption $CAPTION7
+"Je vois que la coopération pourrait être profitable. En fait, de
+récents événements ont
+laissé mon budget énergétique avec un déficit de {$NUM0 crédits}.
+Pouvez-vous me prêter des crédits pour l'éponger ?"
+
+"Votre pénurie : pas un problème de Progéniteur."
+Faire un virement de $NUM0 crédits.
+
+#GIMMEHELP
+#xs 440
+#caption $CAPTION7
+"Ce sont des paroles hardies, $TITLE5, mais les renforcerez-vous en
+déclarant la Vendetta
+contre la faction {$FACTION6} ? ce sont mes pires ennemis !"
+
+"Autorisation refusée : affaire d'Honneur."
+"D'accord : écraser sans merci : $FACTION6 !"
+
+#TURNABOUT
+#xs 440
+#caption $CAPTION7
+"Je vais vous faire une contre-proposition, $TITLE0. Si vous retirez
+d'abord toutes
+vos forces de MON territoire, j'en ferai volontiers de même."
+
+"Fin de pensée : forces rester en place."
+"D'accord : retrait des forces du Progéniteur."
+
+#REALLYBROKE
+#xs 440
+#caption $CAPTION7
+"Nul et non avenu !? $PACTBROTHERORSISTER0, avez-vous vraiment
+l'intention de tourner le dos
+à nos années d'amitié !?"
+
+"Erreur de traduction : Correction.'"
+"Oui : fatigué de vous."
+
+#MAYBEWARPRICE
+#itemlist
+"Montant défini : modification impossible !"
+"$NUM0 crédits : somme acceptable."
+
+#MAYBEWARTECH4
+#xs 440
+#caption $CAPTION7
+"Ah, la faction $FACTION0. $TITLE1 $NAME2 serait un adversaire
+formidable, vous le savez certainement.
+Je pourrais le faire, mais uniquement en échange de vos données sur
+les technologies {$TECH3},
+{$TECH4}, {$TECH8} et {$TECH9}."
+
+"Information : secrète."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECH3
+#xs 440
+#caption $CAPTION7
+"Ah, la faction $FACTION0. $TITLE1 $NAME2 serait un adversaire
+formidable, vous le savez certainement.
+Je pourrais le faire, mais uniquement en échange de vos données sur
+les technologies {$TECH3},
+{$TECH4} et {$TECH8}."
+
+"Information : secrète. $TITLE5: on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECH2
+#xs 440
+#caption $CAPTION7
+"Ah, la faction $FACTION0. $TITLE1 $NAME2 serait un adversaire
+formidable, vous le savez certainement.
+Je pourrais le faire, mais uniquement en échange de vos données sur
+les technologies {$TECH3} et {$TECH4}."
+
+"Information : secrète. $TITLE5: on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECH
+#xs 440
+#caption $CAPTION7
+"Ah, la faction $FACTION0. $TITLE1 $NAME2 serait un adversaire
+formidable, vous le savez certainement.
+Je pourrais le faire, mais uniquement en échange de vos données sur
+la technologie {$TECH3}."
+
+"Information : secrète. $TITLE5 : on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECHFAR
+#xs 440
+#caption $CAPTION7
+"La vendetta contre la faction $FACTION0 pourrait être une
+proposition dangereuse.
+Mes forces ne sont pas en mesure de donner l'assaut contre les terres
+$<F2:$FACTIONADJ6>,
+mais j'accepte de déclarer la Vendetta en échange de vos données sur
+la technologie {$TECH3}."
+
+"Information : secrète. $TITLE5 : on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECHFAR2
+#xs 440
+#caption $CAPTION7
+"La  Vendetta contre la faction $FACTION0 pourrait être une
+proposition dangereuse.
+Mes forces ne sont pas en mesure de donner l'assaut contre les terres
+$<F2:$FACTIONADJ6>,
+mais j'accepte de déclarer la vendetta en échange de vos données sur
+les technologies
+{$TECH3} et {$TECH4}."
+
+"Information : secrète. $TITLE5 : on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECHFAR3
+#xs 440
+#caption $CAPTION7
+"La Vendetta contre la faction $FACTION0 pourrait être une
+proposition dangereuse.
+Mes forces ne sont pas en mesure de donner l'assaut contre les terres
+$<F2:$FACTIONADJ6>,
+mais j'accepte de déclarer la Vendetta en échange de vos données sur
+les technologies
+{$TECH3}, {$TECH4}, et {$TECH8}."
+
+"Information : secrète. $TITLE5 : on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECHFAR4
+#xs 440
+#caption $CAPTION7
+"La Vendetta contre la faction $FACTION0 pourrait être une
+proposition dangereuse.
+Mes forces ne sont pas en mesure de donner l'assaut contre les terres
+$<F2:$FACTIONADJ6>,
+mais j'accepte de déclarer la Vendetta en échange de vos données sur
+les technologies
+{$TECH3}, {$TECH4}, {$TECH8} et {$TECH9}."
+
+"Information : secrète. $TITLE5 : on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECHPACT
+#xs 440
+#caption $CAPTION7
+"Rompre mon Pacte avec la faction $FACTION0 ? Je pourrais le faire,
+mais uniquement
+en échange de vos données sur la technologie {$TECH3} !"
+
+"Information : secrète. $TITLE5 : on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECHPACT2
+#xs 440
+#caption $CAPTION7
+"Rompre mon Pacte avec la faction $FACTION0 ? Je pourrais le faire,
+mais uniquement
+en échange de vos données sur les technologies {$TECH3} et {$TECH4} !
+"
+
+"Information : secrète. $TITLE5 : on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECHPACT3
+#xs 440
+#caption $CAPTION7
+"Rompre mon Pacte avec la faction $FACTION0 ? Je pourrais le faire,
+mais uniquement
+en échange de vos données sur les technologies {$TECH3}, {$TECH4} et
+{$TECH8} !"
+
+"Information : secrète. $TITLE5 : on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#MAYBEWARTECHPACT4
+#xs 440
+#caption $CAPTION7
+"Rompre mon Pacte avec la faction $FACTION0 ? Je pourrais le faire,
+mais uniquement
+en échange de vos données sur les technologies {$TECH3}, {$TECH4},
+{$TECH8} and {$TECH9} !"
+
+"Information : secrète. $TITLE5 : on ne trompe pas le Progéniteur."
+"D'accord. Début de transmission !"
+
+#OFFERTECH
+#xs 440
+#caption $CAPTION7
+"Les informations sur la technologie {$TECH0} pourraient s'avérer
+très utiles pour certains
+de mes projets $PET_PROJECT2.
+Voulez-vous transmettre ces données immédiatement ?"
+
+"Décision : annulée. Transmission : aucune."
+"Oui : transmission commencée."
+
+#OFFERTECH2
+#xs 440
+#caption $CAPTION7
+"Les informations sur la technologie {$TECH0} pourraient s'avérer
+très utiles pour certains
+de mes projets $PET_PROJECTS2.
+Voulez-vous transmettre ces données immédiatement ?"
+
+"Décision : annulée. Transmission : aucune."
+"Oui : transmission commencée."
+"Non  : mais $TECH1 : à la place ?"
+
+#PLEA
+#xs 440
+#caption $CAPTION7
+"Je subis les attaques des forces $<1:du:de la:x:x> $<1:$CHARPEJ8>
+$TITLE0 $NAME1 de la faction
+$FACTION2 qui veut $EVILAGENDA9. Si vous vous joignez à moi pour
+résister à cette invasion
+impitoyable, je me prononcerai en faveur d'un
+$PACTOFBROTHERHOODSISTERHOOD3 avec vous et je vous
+offrirai {$NUM0 crédits d'énergie} pour couvrir vos dépenses."
+
+"Refusé. Suggestion : employez vos propres dispositifs."
+"Fait : Vendetta contre la faction $FACTION2 !"
+
+#PLEATECH
+#xs 440
+#caption $CAPTION7
+"Je subis les attaques des forces $<1:du:de la:x:x> $<:$CHARPEJ8>
+$TITLE0 $NAME1 de la faction
+$FACTION2 qui veut $EVILAGENDA9. Si vous vous joignez à moi pour
+résister à cette invasion
+impitoyable, je me prononcerai en faveur d'un $PACTOFBORS3 avec vous
+et je vous offrirai $NUM0
+crédits d'énergie pour couvrir vos dépenses."
+Je partagerai aussi avec vous toutes mes informations sur la
+technologie {$TECH4}."
+
+"Refusé. Suggestion : employez vos propres dispositifs."
+"Fait : Vendetta : la faction $FACTION2 !"
+
+#PLEAPACT
+#xs 440
+#caption $CAPTION7
+"J'en appelle à vous en tant que victime $<1:du:de la:x:x> $<1:
+$CHARPEJ8> $TITLE0 $NAME1
+de la faction $FACTION2, qui a conclu un faux $PACTOFBORS5 avec vous
+et qui veut actuellement
+$EVILAGENDA9. Ne voulez-vous pas conclure un véritable Pacte avec moi
+et m'aider à résister à
+$HISHER6 agression avant qu'il ne soit trop tard et que vous ne
+deveniez $HISHER6 prochaine victime ?
+Je fournirai même {$NUM0 crédits} pour couvrir vos dépenses."
+
+"Vous : essai d'humour. Progéniteur : pas amusé."
+"Fait : Vendetta contre la faction $FACTION2 !"
+
+#PLEAPACTTECH
+#xs 440
+#caption $CAPTION7
+"J'en appelle à vous en tant que victime $<1:du:de la:x:x> $<1:
+$CHARPEJ8> $TITLE0 $NAME1
+de la faction $FACTION2, qui a conclu un faux $PACTOFBORS5 avec vous
+et qui veut actuellement
+$EVILAGENDA9. Ne voulez-vous pas conclure un véritable Pacte avec moi
+et m'aider à résister à
+$HISHER6 agression avant qu'il ne soit trop tard et que vous ne
+deveniez $HISHER6 prochaine victime ?
+Je fournirai même {$NUM0 crédits} pour couvrir vos dépenses et je
+vous enverrai toutes mes données
+sur la technologie {$TECH4}."
+
+"Vous : essai d'humour. Progéniteur : pas amusé."
+"Fait : Vendetta contre la faction $FACTION2 !"
+
+#PROPOSE
+#xs 440
+#caption $CAPTION7
+"Cette $<2:$FACTIONPEJ8> de faction $FACTION2 est devenue une
+sérieuse menace,
+et pendant ce temps $TITLE0 $NAME1 ne pense qu'à $DANCINGNAKED9.
+Je suggère que nous joignons nos forces pour l'écraser pendant qu'il
+est temps !
+Nous devrions conclure immédiatement un $PACTOFBORS4 à ce sujet."
+
+"Vous : bel essai d'humour. Progéniteur : pas amusé."
+"Fait : Vendetta contre la faction $FACTION2 !"
+
+#PROPOSEPACT
+#xs 440
+#caption $CAPTION7
+"$TITLE5, j'ai la preuve que votre soit-disant $PACTBORS6, $TITLE0
+$NAME1 de la faction
+$FACTION2 veut $EVILAGENDA9 et prévoit de vous trahir
+impitoyablement. Concluons notre propre
+Pacte et apprenons-lui sa leçon !"
+
+"$TITLE8 : parle sans savoir."
+"Fait : Vendetta contre la faction $FACTION2 !"
+
+#BETRAYFRIEND
+#xs 440
+#caption $CAPTION7
+"$NAME0, je dois vous parler en particulier. J'ai feint l'amitié avec
+$NAME2, mais je hais
+ses subordonnés $<M2:$FACTIONPEJ3> et je crains qu'$<2:il:elle:x:x>
+ne veuille $EVILAGENDA4.
+Je propose que nous signions un $PACTOFBORS5 et lancions ensemble une
+attaque surprise
+contre la faction $FACTION6."
+
+"Proposition refusée."
+"D'accord. $TITLE1 $NAME2 : bientôt sentir le poids de nos forces !"
+
+#ENEMYMAP1
+#xs 440
+#caption $CAPTION7
+"Ainsi, $TITLE0 $NAME1, je vois que vous êtes en conflit avec notre
+jeune $<3:ami:amie:x:x>
+$TITLE2 $NAME3. Entre nous, j'ai récemment obtenu un plan complet des principales
+installations
+$<F1:$FACTIONADJ4> et je me ferai un plaisir de vous en
+fournir une copie en
+échange de $NUM0 crédits d'énergie."
+
+"Non : $NAME3 : notre problème."
+"Proposition : d'accord."
+
+#ENEMYMAP2
+#xs 440
+#caption $CAPTION7
+"Ainsi, $TITLE0 $NAME1, je vois que vous êtes en conflit avec notre
+jeune $<3:ami:amie:x:x>
+$TITLE2 $NAME3. Entre nous, j'ai récemment obtenu un plan complet de
+chaque installation
+$<F1:$FACTIONADJ4> importante et je me ferai un plaisir de vous en
+fournir une copie
+en échange de vos fichiers sur la technologie {$TECH5}."
+
+"Non : $NAME3 : notre problème."
+"Proposition : d'accord."
+
+#METFRIEND0
+#xs 440
+#caption $CAPTION7
+"Il vous intéressera peut-être de savoir que j'ai été en contact avec
+$NAME3, qui se fait maintenant
+appeler $TITLE2 de la $FACTION4. $NAME3 est maintenant $<3:obsédé:
+obsédée:x:x> par son projet : $PETPROJECTS5,
+mais j'ai déjà eu plusieurs conversations fructueuses avec $<3:lui:
+elle:x:x>. Si vous le voulez, je peux
+vous fournir sa fréquence de communications."
+
+"Besoin de parler avec $NAME3 : nul."
+"Oui. Emotion : gratitude."
+
+#METFRIEND0a
+#xs 440
+#caption $CAPTION7
+"Il vous intéressera peut-être de savoir que j'ai été en contact avec
+$NAME3, qui se fait maintenant
+appeler $TITLE2 de la $FACTION4. $NAME3 est maintenant $<3:obsédé:
+obsédée:x:x> par son projet : $PETPROJECTS5,
+mais j'ai déjà eu plusieurs conversations fructueuses avec $<3:lui:
+elle:x:x> et je crois
+qu'$<3:il:elle:x:x> pourrait fournir des informations sur la
+technologie {$TECH8}. Si vous le voulez,
+je peux vous fournir sa fréquence de communications."
+
+"Besoin de parler avec $NAME3 : nul."
+"Oui. Emotion : gratitude."
+
+#METFRIEND1
+#xs 440
+#caption $CAPTION7
+"Il vous intéressera peut-être de savoir que j'ai été en contact avec
+$NAME3, qui se fait maintenant appeler
+$TITLE2 de la $FACTION4. $NAME3 est maintenant $<3:obsédé:obsédée:x:
+x> par son projet : $PETPROJECTS5,
+mais j'ai déjà eu plusieurs conversations fructueuses avec $<3:lui:
+elle:x:x>. Si vous le voulez, je peux
+vous fournir sa fréquence de communications en échange de vos
+fichiers sur la technologie {$TECH6}."
+
+"Besoin de parler avec $NAME3 : nul."
+"Emotion : gratitude. Fichiers sur technologie {$TECH6} : en cours de
+transmission."
+
+#METFRIEND1a
+#xs 440
+#caption $CAPTION7
+"Il vous intéressera peut-être de savoir que j'ai été en contact avec
+$NAME3, qui se fait maintenant appeler
+$TITLE2 de la $FACTION4. $NAME3 est maintenant $<3:obsédé:obsédée:x:
+x> par son projet : $PETPROJECTS5,
+mais nous avons déjà eu plusieurs conversations fructueuses avec $<3:
+lui:elle:x:x> et je crois
+qu'$<3:il:elle:x:x> pourrait fournir des informations sur la
+technologie {$TECH8}. Si vous le voulez,
+je peux vous fournir sa fréquence de communications en échange de vos
+fichiers sur la technologie {$TECH6}."
+
+"Besoin de parler avec $NAME3 : nul."
+"Emotion : gratitude. Fichiers sur technologie {$TECH6} : en cours de
+transmission."
+
+#METFRIEND2
+#xs 440
+#caption $CAPTION7
+Il vous intéressera peut-être de savoir que j'ai été en contact avec
+$NAME3, qui se fait maintenant appeler
+$TITLE2 de la $FACTION4. $NAME3 est maintenant $<3:obsédé:obsédée:x:
+x> par son projet : $PETPROJECTS5,
+mais j'ai déjà eu plusieurs conversations fructueuses avec $<3:lui:
+elle:x:x>. Si vous le voulez,
+je peux vous fournir sa fréquence de communications en échange de
+$NUM0 crédits d'énergie."
+
+"Besoin de parler avec $NAME3 : nul."
+"Accord. $NUM0 crédits  : transférés par virement."
+
+#METFRIEND2a
+#xs 440
+#caption $CAPTION7
+"Il vous intéressera peut-être de savoir que j'ai été en contact avec
+$NAME3, qui se fait maintenant appeler
+$TITLE2 de la $FACTION4. $NAME3 est maintenant $<3:obsédé:obsédée:x:
+x> par son projet : $PETPROJECTS5,
+mais nous avons déjà eu plusieurs conversations fructueuses avec $<3:
+lui:elle:x:x> et je crois
+qu'$<3:il:elle:x:x> pourrait fournir des informations sur la
+technologie {$TECH8}. Si vous le voulez,
+je peux vous fournir sa fréquence de communications en échange de
+{$NUM0 crédits d'énergie}."
+
+"Besoin de parler avec $NAME3 : nul."
+"Accord. $NUM0 crédits  : transférés par virement."
+
+#BOTHFRIEND
+#xs 440
+#caption $CAPTION7
+"Ainsi, j'ai entendu dire que vous avez été en contact avec $NAME3.
+Entre nous, je trouve
+ses $<M2:$FACTIONPEJ4> subordonnés un peu rampants, mais jusqu'ici,
+nous avons pu coopérer et
+$<3:il:elle:x:x> n'a pas essayé d'interférer avec mes affaires. A propos d'affaires, j'ai une
+jolie {carte du territoire $<M1:$FACTIONADJ5>} que je partagerais
+volontiers contre vos
+informations sur la technologie {$TECH6}."
+
+"Ces cartes : pas nécessaires."
+"Cartes : avec plaisir. Données : en cours de transmission."
+
+#ANYNEWS
+#xs 440
+#caption $CAPTION7
+"Connaissez-vous $NAME1 ? Je n'ai pas pu $<1:le:la:x:x> localiser, ni
+sa faction $<F1:$FACTIONADJ2>
+depuis l'arrivée sur Planète et je voudrais poursuivre nos
+conversations.
+Si vous aviez sa fréquence de communications, je pourrais vous offrir
+$NUM0 crédits d'énergie
+pour le dérangement."
+
+"$NAME1 : fréquence ignorée."
+"Oui. Envoi de la fréquence."
+
+#COMMLINKTECH
+#xs 440
+#caption $CAPTION7
+"Si vous le souhaitez, je peux vous fournir la fréquence de
+communications $<F1:$FACTIONADJ2>
+en échange de vos fichiers sur la technologie {$TECH0}."
+
+"Désir : annulé."
+"{$TECH0} : début de transmission de données."
+
+#DEMANDATTACK0
+#xs 440
+#caption $CAPTION7
+"Votre soi-disant $PACTBROTHERORSISTER0, '$TITLE1' $NAME2, est $<2:
+devenu fou:devenue folle:x:x> et s'occupe maintenant en
+$DANCINGNAKED9.
+N'allez-vous pas renoncer à votre Pacte avec la faction $FACTION3
+pour gagner mon amitié ?"
+
+"Non : $FACTION3 : loyaux alliés."
+"D'accord. $TITLE1 $NAME2 : bientôt $<2:attaqué:attaquée:x:x>."
+
+#DEMANDATTACK1A
+#xs 440
+#caption $CAPTION7
+"Saviez-vous que mon $<2:ennemi juré:ennemie jurée:x:x>, $TITLE1
+$NAME2 de la faction $FACTION3,
+n'a plus qu'une idée : $DANCINGNAKED9 ?
+Unissons nos forces et mettons fin
+à ses $BADHABITS6 !"
+
+"Non. $NAME2 : ami."
+"D'accord. $TITLE1 $NAME2 : bientôt $<2:attaqué:attaquée:x:x>."
+
+#DEMANDATTACK1B
+#xs 440
+#caption $CAPTION7
+"L'ignoble $TITLE1 $NAME2 de la faction $FACTION3, travaille à
+$IMPLEMENTING_HIS_EVIL_AGENDA8.
+Je propose que vous changiez d'allégeance et que vous m'aidiez à
+l'arrêter avant qu'il ne soit trop tard !"
+
+"Non. $NAME2 : ami."
+"D'accord. $TITLE1 $NAME2 : bientôt $<2:attaqué:attaquée:x:x>."
+
+#DEMANDATTACK2a
+#xs 440
+#caption $CAPTION7
+"$<2:Le:La:x:x> $<2:$CHARPEJ8> $TITLE1 $NAME2 et ses subordonnés
+$<M2:$FACTIONPEJ9>
+ont impitoyablement attaqué mes biens. M'aiderez-vous à les repousser
+?"
+
+"Non : trêve de sang conclue : $FACTION3."
+"Oui. Faction $FACTION3 : doit être détruite."
+
+#DEMANDATTACK2b
+#xs 440
+#caption $CAPTION7
+"Votre ennemi de longue date, $TITLE1 $NAME2 de la faction $FACTION3,
+qui a la hantise
+absurde de me voir $PET_PROJECTS8, a brutalement attaqué
+mes établissements en
+$IMPLEMENTING_HIS_EVIL_AGENDA9. M'aiderez-vous à $<2:le:la:x:x>
+repousser ?
+
+"Non : trêve de sang conclue : $FACTION3."
+"Oui. Faction $FACTION3 : doit être détruite."
+
+#DEMANDATTACK3
+#xs 440
+#caption $CAPTION7
+"Mon $<2:ennemi mortel:ennemie mortelle:x:x>, $TITLE1 $NAME2 de la
+faction $FACTION3,
+a brutalement attaqué mes établissements. Je dois maintenant insister
+pour que vous respectiez
+notre Pacte et que vous vous joigniez à ma Vendetta contre $HIMHER5."
+
+"Ne pas savoir : Pacte exiger combat. Emotion : tristesse."
+"Oui. Faction $FACTION3 : doit être détruite."
+
+#DEMANDATTACK4
+#xs 440
+#caption $CAPTION7
+"Mon $<2:ennemi:ennemie:x:x>, $TITLE1 $NAME2 de la faction $FACTION3,
+a impitoyablement
+attaqué mes possessions. M'aiderez-vous à $<2:le:la:x:x> repousser ?"
+
+"Non : Faction $FACTION3 : pas fait de mal au Progéniteur."
+"Oui. Faction $FACTION3 : doit être détruite."
+
+#DEMANDBRIBE0
+#xs 440
+#caption $CAPTION7
+"$<1:Mon:Ma:x:x> $<1:$CHARADJ5> $TITLE0, il est devenu habituel que
+les dirigeants de factions mineures,
+comme vous me versent un petit, ah, comment dire, $<8:un:une:des:des>
+... '$FEE8,' pour rémunérer mes efforts pour
+$PROVIDING_VALUABLE_SERVICES9. Dans votre cas, je crois
+que {$NUM0 crédits d'énergie} suffiront."
+
+"$NAME3 : $INSULT6 : vous n'aurez rien."
+Payer $<8:un:une:des:des> '$FEE8' de $NUM0 crédits.
+"Aptitude : maximum : payer $NUM1."
+
+#DEMANDBRIBE1
+#xs 440
+#caption $CAPTION7
+"Planète est un monde dangereux, $TITLE0 $NAME1, et qui sait quelles
+tragédies imprévues
+pourraient détruire votre fragile projet de $PETPROJECTS8. Mais si vous
+me remettez
+{$NUM0 crédits d'énergie}, je demanderai à $MY_ENVIRONMENTAL_POLICE9
+de veiller à ce qu'aucun
+'accident' ne survienne."
+
+"$NAME3 : $INSULT6 : vous n'aurez rien."
+Payer $NUM0 crédits de '$FEE8'.
+"Aptitude : maximum : payer $NUM1."
+
+#DEMANDBRIBE2
+#xs 440
+#caption $CAPTION7
+"Parlons franchement, $TITLE0 $NAME1. $<8:Votre:Vos>
+$RIGHT_WING_FANTASIES8 $<8:se dresse:se dressent>
+contre mes plans pour $TO_CARRY_OUT_MY_MISSION9. Je veux bien passer
+sur cet état de choses
+pour le moment, mais uniquement en échange de {$NUM0 crédits
+d'énergie}."
+
+"Pas impressionné : $<6:votre:vos> $BAD_HABITS6."
+Payer $NUM0 crédits d'énergie.
+"Aptitude : maximum : payer $NUM1."
+
+#DEMANDBRIBE3
+#xs 440
+#caption $CAPTION7
+"$TITLE0, vous êtes transgressez $THE_ENVIRONMENTAL_CODE9 !
+Vous devez payer
+immédiatement l'amende de {$NUM0 crédits d'énergie} ou en supporter
+les conséquences."
+
+"Intention de rassembler : comment mettre en oeuvre ?"
+Payer une amende de $NUM0 crédits.
+"Aptitude : maximum : payer $NUM1."
+
+#DEMANDBRIBE4
+#xs 440
+#caption $CAPTION7
+"Vous lassez-vous si rapidement de notre Vendetta, $NAME0 ?
+Je n'accepterai que si vous présentez vos plates excuses et {$NUM0 crédits
+d'énergie}."
+
+"$NAME3 : illusoire. Votre destruction : imminente."
+Payer $NUM0 crédits d'énergie.
+"Excuses : profondes. Crédits : seulement $NUM1."
+
+#DEMANDBRIBE5a
+#xs 440
+#caption $CAPTION7
+"Vous avez maintenant senti la main de fer dans le gant $<M1:
+$FACTIONADJ4>, $TITLE0. Payez-moi
+{$NUM0 crédits d'énergie} immédiatement et je vous épargnerai toute
+autre indignité."
+
+"$NAME3 menaces : méprisées."
+Payer $NUM0 crédits d'énergie.
+"Aptitude : maximum : payer $NUM1."
+
+#DEMANDBRIBE5b
+#xs 440
+#caption $CAPTION7
+"Votre force est impressionnante, $TITLE0, mais ne sous-estimez pas
+mes capacités à vous nuire.
+Payez-moi immédiatement {$NUM0 crédits d'énergie} et je pardonnerai
+vos offenses passées."
+
+"$NAME3 menaces : ignorées."
+Payer $NUM0 crédits d'énergie.
+"Aptitude : maximum : payer $NUM1."
+
+#DEMANDBRIBE6
+#xs 440
+#caption $CAPTION7
+"Mon désir de $PETPROJECTS9 a grand
+besoin de financement, $NAME5.
+M'enverrez-vous {$NUM0 crédits d'énergie} en l'honneur de notre
+longue amitié ?"
+
+"Vous : grande ressemblance avec vampire."
+Donner $NUM0 crédits.
+"Pour amitié : $NUM1 crédits."
+
+#DEMANDBRIBE7
+#xs 440
+#caption $CAPTION7
+"Votre puissance est formidable, $TITLE0 $NAME1, mais mes propres
+forces sont loin d'être
+insignifiantes et si vous continuez à maintenir cette planète sous
+votre coupe, je veux prendre part
+à l'action, pour la modique somme de {$NUM0 crédits d'énergie}."
+
+"Vous : grande ressemblance avec vampire."
+Donner $NUM0 crédits.
+"Pour amitié : $NUM1 crédits."
+
+#DEMANDBRIBE8
+#xs 440
+#caption $CAPTION7
+"Vous êtes riche, $TITLE0 $NAME1, et je suis pauvre. Mes foules
+grouillantes croissent sans repos
+dans cette disparité ; ne pourriez-vous me prêter {$NUM0 crédits}
+pour soulager leur chienne de vie ?"
+
+"$TITLE53 : idiome humain : faire des économies de bouts de
+chandelle."
+"Cadeau  : généreux : $NUM0 crédits."
+"Richesse Progéniteur : surestimée. $NUM1 : maximum à prêter."
+
+#DEMANDBRIBE9
+#xs 440
+#caption $CAPTION7
+"On se souvient bien de vos crimes passés contre la faction
+$FACTION6, $TITLE0 $NAME1, et mes
+fidèles veulent leur revanche. Seule une compensation de {$NUM0
+crédits d'énergie} apaiserait leur haine."
+
+"$TITLE3 : véritable criminel."
+Payer $NUM0 crédits d'énergie.
+"Aptitude : maximum : payer $NUM1."
+
+#DEMANDBRIBE10
+#xs 440
+#caption $CAPTION7
+"Vos ennemis ont mis votre tête à prix, $TITLE0 $NAME1, mais j'ai
+autre chose à faire et je veux
+bien me retirer de cette Vendetta contre {$NUM0 crédits d'énergie}."
+
+"Vendetta : continue."
+Payer $NUM0 crédits d'énergie.
+"Aptitude : maximum : payer $NUM1."
+
+#WEASELOUT
+#xs 440
+#caption $CAPTION7
+"Je vous avertis, $NAME1 ! $NUM crédits d'énergie, ou sinon !"
+
+"Vous : faim jamais assouvie."
+"Capitulation : $NUM0 crédits."
+
+#DEMANDTECH0
+#xs 440
+#caption $CAPTION7
+"Etre engourdi, $TITLE1 $NAME2, $<9:votre:vos:x:x> $BADHABITS9 me
+$<9:fait:font> peur et il est grand
+temps de régler nos comptes. Je veux vos fichiers sur la technologie
+{$TECH0} et je les veux maintenant."
+
+"$TITLE3 $NAME4 : jamais acquérir technologie : Progéniteur."
+Transmettre données sur la technologie $TECH0.
+Consulter les liaisons de données.
+
+#DEMANDTECH1
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2, on vous accuse de tuer le temps en
+$SPOUTING_TREE_CRAZY_PRATTLE9, et bon nombre de mes
+fidèles souhaitent une solution militaire. Voulez-vous partager vos
+fichiers sur la technologie {$TECH0}
+en gage de bonne foi, ou bien dois-je laisser mes subalternes libres
+de s'en saisir ?"
+
+"Vos subalternes : succulents. Impatience de vous vaincre : élevée."
+Transmettre données sur la technologie $TECH0.
+Consulter les liaisons de données.
+
+#DEMANDTECH2
+#xs 440
+#caption $CAPTION7
+"$NAME2, en ce qui me concerne, vous pouvez bien $DANCING_NAKED_THROUGH_THE_TREES9,
+mais je ne vous laisserai pas me tenir à l'écart lorsqu'il s'agit de
+la recherche. Allez-vous me fournir
+immédiatement vos fichiers sur la technologie {$TECH0} ?
+Je l'espère, pour éviter que la violence ne devienne nécessaire entre
+nous."
+
+"Ironie : détectée. Réponse négative."
+Transmettre données sur la technologie $TECH0.
+Consulter les liaisons de données.
+
+#DEMANDTECH3
+#xs 440
+#caption $CAPTION7
+"La leçon ne vous a pas suffi,
+$TITLE1 $NAME2. Allez-vous échanger vos données sur la technologie
+{$TECH0}
+contre la fin de cette Vendetta, ou bien allez-vous risquer que je
+vous détruise complètement ?"
+
+"$TITLE3 $NAME4 : tentatives dérisoires. Réponse : non."
+Transmettre données sur la technologie $TECH0.
+Consulter les liaisons de données.
+
+#DEMANDTECH4
+#xs 440
+#caption $CAPTION7
+"Il est encore temps de revenir sur votre arrogance passée.
+Voulez-vous m'échanger vos données sur la technologie {$TECH0} contre
+la fin de la Vendetta,
+$TITLE1 $NAME2, ou préférez-vous risquer que je vous anéantisse ?"
+
+"$TITLE3 $NAME4 : tentatives dérisoires. Réponse : non."
+Transmettre données sur la technologie $TECH0.
+Consulter les liaisons de données.
+
+#DEMANDTECH5
+#xs 440
+#caption $CAPTION7
+"Vos recherches sur la technologie {$TECH0} sont tout à fait
+fascinantes, $TITLE1 $NAME2.
+Ne les partagerez-vous pas avec votre $PACTBROTHERORSISTER5 ?"
+
+"Vous : capable de recherche vous-même."
+Transmettre données sur la technologie $TECH0.
+Consulter les liaisons de données.
+
+#DEMANDTECH6
+#xs 440
+#caption $CAPTION7
+"Vos bases sont à ma merci, $NAME1. Si vous voulez sauvez votre peau,
+ça vous coûtera en plus vos
+données sur la technologie {$TECH6}."
+
+"$TITLE3 $NAME4 : déloyal. Autre transmission  : refusée !"
+Transmettre données sur la technologie $TECH6.
+Consulter les liaisons de données.
+
+#DEMANDTECH7
+#xs 440
+#caption $CAPTION7
+"Votre faction est vraiment puissante, $TITLE1 $NAME2, mais mes
+forces le sont encore plus
+et je ne vous permettrai pas de piller les richesses de cette planète
+sans m'en donner une
+part. Mon prix sera l'ensemble de vos données sur la technologie
+{$TECH0}."
+
+"Votre faction : insignifiante."
+Transmettre données sur la technologie $TECH0.
+Consulter les liaisons de données.
+
+#DEMANDTECH8
+#xs 440
+#caption $CAPTION7
+"$TITLE1 $NAME2, mes fidèles ont peur que vous ne réitériez vos
+crimes passés contre nous,
+et ils me poussent cette fois à un attaque préventive. Voulez-vous
+m'aider à les convaincre
+du contraire en me communiquant vos données sur la technologie
+{$TECH0} ?"
+
+"$TITLE3 : tentative de stratagème : échoué."
+"Accord total."
+Consulter les liaisons de données.
+
+#DEMANDTECH9A
+"$TITLE3 $NAME4 : idiome humain : menteur comme un arracheur de dents."
+"$TECH0 : transmise : aussitôt !"
+"Aide : volontiers. Frais : $NUM0. Espoir fervent : vous payer."
+"Equité: dans les deux sens. Vous : fournir $TECH6."
+Consulter les liaisons de données.
+
+#DEMANDTECH10A
+"Information  : confidentielle. Demande : refusée."
+"Transmission : commencée."
+"Aide : volontiers. Frais : $NUM0. Espoir fervent : vous payer."
+"Equité: dans les deux sens. Vous : fournir $TECH6."
+Consulter les liaisons de données.
+
+#DEMANDTECH11A
+"Pas comprendre : NU."
+"Honneur : charte humaine."
+"Aide : volontiers. Frais : $NUM0. Espoir fervent : vous payer."
+"Equité: dans les deux sens. Vous : fournir $TECH6."
+Consulter les liaisons de données.
+
+#DEMANDTECH12
+#xs 440
+#caption $CAPTION7
+"Vos ennemis offrent une importante récompense pour votre
+destruction, $TITLE1 $NAME2,
+mais je vais faire la sourde oreille à leurs chuchotements en échange
+de
+votre connaissance des technologies {$TECH0} et {$TECH6}."
+
+"$NAME4 : pouvoir écouter ces chuchotements dérisoires."
+"Transmission : immédiate !"
+Consulter les liaisons de données.
+
+#DEMANDTECH13
+#xs 440
+#caption $CAPTION7
+"Vos ennemis offrent de grandes récompenses pour votre destruction,
+$TITLE1 $NAME2,
+mais je vais faire la sourde oreille en échange de votre
+connaissance la technologie {$TECH0}."
+
+"$NAME4 : pouvoir écouter ces chuchotements dérisoires."
+"Transmission : immédiate !"
+Consulter les liaisons de données.
+
+#DEMANDTECH14
+#xs 440
+#caption $CAPTION7
+"Vos ennemis offrent de généreuses récompenses pour votre
+destruction, $TITLE1 $NAME2,
+mais je vais faire la sourde oreille à leurs chuchotements en échange
+de votre
+connaissance des technologies {$TECH0}, {$TECH6} et {$TECH8}."
+
+"$NAME4 : pouvoir écouter ces chuchotements dérisoires."
+"Transmission : immédiate !"
+Consulter les liaisons de données.
+
+#DEMANDTECH15
+#xs 440
+#caption $CAPTION7
+"Vos ennemis offrent une rançon royale pour votre destruction,
+$TITLE1 $NAME2,
+mais je vais faire la sourde oreille à leurs chuchotements en échange
+de votre connaissance
+des technologies {$TECH0}, {$TECH6}, {$TECH8} et {$TECH9}."
+
+"$NAME4 : pouvoir écouter ces chuchotements dérisoires."
+"Transmission : immédiate !"
+Consulter les liaisons de données.
+
+#DEMANDTECHAGAIN1
+#xs 440
+#caption $CAPTION7
+"C'est trop cher pour moi, $NAME2. Allez-vous transmettre vos
+données sur la technologie {$TECH0}, oui ou non ?"
+
+"Transmission de technologie : fonds nécessaires."
+"Emotion : pitié. Transmission : commençant."
+
+#DEMANDTECHAGAIN2
+#xs 440
+#caption $CAPTION7
+"Je ne peux vous faire confiance sur ce point, $NAME2.
+Ainsi, vous refusez de transmettre vos fichiers sur la technologie
+{$TECH0} ?"
+
+"Refus : mot rude. Alternative : pas intéressé."
+"Vérité révélée : en tests. Transmission : commençant."
+
+#ASKFORLOAN1
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, je dois avouer que je suis un peu à cours de
+numéraires.
+Si vous pouviez me prêter $NUM0 crédits d'énergie, je vous ferais de
+généreux versements
+de $NUM1 crédits par an pendant $NUM2 ans."
+
+"$TITLE2 $NAME3 : Progéniteur est-il banquier ?"
+"D'accord : confiance en votre honnêteté."
+"Montant à prêter : moitié seulement."
+
+#ASKFORLOAN2
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, je dois avouer que je suis un peu à cours de
+numéraires.
+Si vous pouviez me prêter $NUM0 crédits d'énergie, je vous ferais de
+généreux versements
+de $NUM1crédits par an pendant $NUM2 ans."
+
+"$TITLE2 $NAME3 : Progéniteur est-il banquier ?"
+"D'accord : confiance en votre honnêteté."
+"Montant à prêter : moitié seulement."
+
+#SWEARAPACT
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. Nos visions sont compatibles et nos intérêts
+convergent. Voulez-vous signer
+un {$PACTOFBROTHERORSISTERHOOD2} avec moi pour que nous puissions
+faire le vide devant nous ?"
+
+"Concept de Pacte : d'accord !"
+"Plans : différents. Refusé : avec regrets."
+
+#RANSOMDEMAND
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, mes forces sont puissantes et mes troupes sont
+mobilisées.
+Si vous ne me rendez pas {$BASENAME2} immédiatement, je vous
+détruirai complètement."
+
+"$BASENAME2 : maintenant appartenir au Progéniteur !"
+"Très bien : échanger terre : paix."
+
+#RANSOMTREATY
+#xs 440
+#caption $CAPTION7
+"Je n'ai jamais vraiment voulu cette Vendetta, $TITLE0 $NAME1.
+Si vous l'abandonnez et signez un Traité d'amitié,
+je vous rendrai {$BASENAME2}."
+
+"Retour de base : fin de Vendetta."
+"$BASENAME2 : sera reprise. Marchandage mesquin : sans objet."
+
+#OFFERTRUCE
+#xs 440
+#caption $CAPTION7
+"Très prudent. Dans ce cas, j'accepte de conclure une Trêve de sang."
+
+"Trêve : conclue."
+"Non : combat : continuer."
+
+#MUSTTRUCE
+#xs 440
+#caption $CAPTION7
+"Ce n'est qu'avec la plus grande amertume que j'accepte cette défaite
+et que j'offre de
+conclure une Trêve de sang avec vous."
+
+"Trêve : d'accord."
+"Trêve de sang : pas assez. Votre mort : imminente."
+
+#WANTTOTRUCE0
+#xs 440
+#caption $CAPTION7
+"Cette Vendetta gaspille les vies et les ressources.
+Voulez-vous conclure une Trêve de sang pour y mettre fin ?"
+
+"D'accord. Trêve : bénéfique."
+"Trêve de sang : pas assez. Votre mort : imminente."
+
+#WANTTOTRUCE1
+#xs 440
+#caption $CAPTION7
+"Nos combats donnent l'occasion pour les autres de devenir plus
+forts. Nous devrions conclure une
+Trêve de sang avant de nous détruire mutuellement."
+
+"D'accord. Trêve : bénéfique."
+"Trêve de sang : pas assez. Votre mort : imminente."
+
+#WANTTOTRUCE2
+#xs 440
+#caption $CAPTION7
+"Vos forces sont formidables, $NAME1, et je vois bien que j'ai eu
+tort de mettre votre patience à
+l'épreuve. Permettez-moi de conclure avec vous une Trêve de sang et
+de faire amende honorable."
+
+"D'accord. Trêve : bénéfique."
+"Trêve de sang : pas assez. Votre mort : imminente."
+
+#TECHTRUCE
+#xs 440
+#caption $CAPTION7
+"Pour garantir une Trêve de sang, j'offre toutes nos données sur la
+technologie {$TECH0}."
+
+"D'accord."
+"Vos recherches : inacceptables."
+Consulter les liaisons de données.
+
+#ENERGYTRUCE
+#xs 440
+#caption $CAPTION7
+#PLANETFALL2"Si vous arrêtez, je vous enverrai {$NUM0 crédits
+d'énergie} pour compenser vos pertes."
+
+Conclure trêve de sang.
+"Concept : corruption. Ignorée."
+
+#TRUCEPLEASE
+#xs 440
+#caption $CAPTION7
+"Je me rends, <$1:puissant:puissante:x:x> $TITLE0 $NAME1, car ma
+défaite est abjecte et totale.
+Ayez pitié de moi, et je vous donnerai tous mes crédits d'énergie
+($NUM0) et je partagerai mes données
+de recherche ($NUM1 $<#1:x:nouvelle tech:x:nouvelles techs>). Je ne
+vous ennuierai
+plus jamais."
+
+"Très bien : mais vous : esclave de Progéniteur."
+"Non. Votre destruction : nécessaire."
+
+#PROTOPACT
+#xs 440
+#caption $CAPTION7
+"J'ai le plaisir d'annoncer que mes ingénieurs ont terminé le nouveau
+prototype $UNITTYPE0 ($STATS1) !
+Les premières unités sont actuellement mises en service. Voudriez-
+vous partager des données relatives
+aux prototypes  ?"
+
+"Non : données de prototype : trop importantes."
+"Oui. Prototypes : à échanger."
+
+#OFFERTREATY
+#xs 440
+#caption $CAPTION7
+"Je ne vais pas me quereller avec vous, $TITLE0 $NAME1, ni avec vos
+fidèles $<M2:$FACTIONADJ2>.
+Signons un Traité d'amitié et coexistons en paix."
+
+Signer le traité
+"Concept : traité rejeté."
+
+#OFFERTREATY2
+#xs 440
+#caption $CAPTION7
+"Notre Trêve de sang expire bientôt, $TITLE0 $NAME1, vous le savez
+sûrement. Voulez-vous conclure
+une paix permanente en signant avec nous un Traité d'amitié ?"
+
+Signer le traité
+"Concept : traité rejeté."
+
+#ENERGYTREATY
+#xs 440
+#caption $CAPTION7
+"Est-ce qu'une contribution de {$NUM0 crédits} à votre projet
+$PETPROJECTS2 vous ferait changer d'avis ?"
+
+Signer le traité
+"Energie : insuffisante : changer d'avis."
+
+#GETOUT1
+#xs 440
+#caption $CAPTION7
+"Vos forces proches de $BASENAME0 sont en train de violer notre
+Traité d'amitié ! J'exige que
+vous les retiriez immédiatement !"
+
+Retirer les forces vers la base la plus proche.
+"Vous : plutôt quitter territoire Progéniteur."
+"Traité annulé. Forces Progéniteur : rester !"
+
+#GETOUT2
+#xs 440
+#caption $CAPTION7
+"Vous avez violé mon intégrité territoriale, en contravention avec
+notre Traité d'amitié !
+Si vous ne rappelez pas immédiatement vos troupes, je vais lancer des
+représailles militaires !"
+
+Retirer les forces vers la base la plus proche.
+"Vous : plutôt quitter territoire Progéniteur."
+"Traité annulé. Forces Progéniteur : rester !"
+
+#GETOUT3
+#xs 440
+#caption $CAPTION7
+"Vos troupes n'ont peut-être pas vu mes grosses bornes à la frontière
+lorsqu'elles ont pénétré
+illégalement sur mon territoire. Je vous demanderai de bien vouloir
+respecter notre Traité d'amitié
+en rappelant immédiatement vos forces.
+
+Retirer les forces vers la base la plus proche.
+"Vous : plutôt quitter territoire Progéniteur."
+"Non : frontière : changer."
+
+#GETOUT4
+#xs 440
+#caption $CAPTION7
+"$TITLE3 $NAME4, je ne tolérerai pas d'incursions sur mon territoire.
+Allez-vous retirer vos troupes
+ou dois-je de nouveau vous expliquer les termes de notre Traité
+d'amitié ?"
+
+Retirer les forces vers la base la plus proche.
+"Vous : plutôt quitter territoire Progéniteur."
+"Nouvelle décision  : attaquer. Votre destruction  : imminente !"
+
+#GETOUT5
+#xs 440
+#caption $CAPTION7
+"$TITLE3 $NAME4, certains de vos fidèles $<M2:$FACTIONPEJ5> ont été
+repérés à l'intérieur du
+territoire $<M1:$FACTIONADJ6>. C'est explicitement interdit par notre
+Traité d'amitié et je dois
+insister pour qu'ils partent immédiatement."
+
+Retirer les forces vers la base la plus proche.
+"Vous : plutôt quitter territoire Progéniteur."
+"Vos frontières : ignorées immédiatement."
+
+#DIPLOMENU
+"Croire : terminé."
+"Intérêts : continuer commerce ?"
+"Proposition : à faire."
+"Proposition : supplémentaire."
+"Plans de bataille : coordonner !"
+"Votre vendetta : désactiver contre . . ."
+"J'ai besoin de votre voix lors de la prochaine réunion du Conseil."
+"Déclaration : $PACTOFBORS1 : nul et non avenu !"
+"Vous : violation territoire Progéniteur ! Obligation de le quitter !"
+
+#PROPOSALMENU
+"Proposition : pas maintenant."
+"Progéniteur : gage d'amitié : vous accepter ?"
+"$PACTOFBORS1 : nous jurer !"
+"Traité d'amitié : nous signer."
+"Vos recherches : désir : accéder."
+"Informations sur Prototype : vous vendre."
+"Fréquences de communications : désir pour autres factions."
+"Crédits d'énergie : besoin urgent."
+"Solde du prêt : $NUM0 : remboursement complet."
+"Données étude : échanger."
+"Attaquer : ensemble : ennemi Progéniteur . . ."
+"Votre base : céder contrôle d'une."
+"Unités militaires : Progéniteur fournira."
+
+#COUNTERMENU
+"Proposition : pas maintenant."
+"Paiements du prêt : échéancier généreux."
+"Considérations : futures. Présent : amitiés uniquement."
+"N'importe quel prix : vous indiquez, $TITLE0."
+"Promesse : votre destruction  : renoncer."
+"$PACTOFBORS2 : annulé : si vous pas d'accord."
+"Données de recherche : vous envoyer ?"
+"TOUTES données de recherche : vous envoyer ?"
+"Crédits d'énergie : envoyer un peu."
+"Base Progéniteur : cédée à vous."
+
+#PAYBASESWAP
+#xs 440
+#caption $CAPTION7
+"Eh bien, $BASENAME0 est une colonie pénitentiaire sans importance.
+Je pense que je pourrais me
+laisser persuader de m'en séparer pour, disons, $NUM0 crédits
+d'énergie."
+
+"$NUM0 : prix excessif pour $BASENAME0!"
+Payer $NUM0 crédits d'énergie.
+
+#TECHBASESWAP
+#xs 440
+#caption $CAPTION7
+"Hmm, c'est tentant. La population de $BASENAME0 est une masse puante
+de misérables ingrats,
+de toute façon. Je veux bien en céder le contrôle, mais vous devez
+accepter de partager avec moi
+TOUS vos fichiers technologiques."
+
+"$TITLE2 : faire blague humaine."
+Partager les informations technologiques
+
+#ARTIFACT
+#xs 440
+#caption Responsable des opérations
+Un nodule de bibliothèque est arrivé à $BASENAME0. Allons-nous
+libérer ses pouvoirs ?
+
+#TAKENARTIFACT
+#xs 440
+#caption Responsable des opérations
+Notre unité $UNITTYPE0 s'est emparée d'un nodule de bibliothèque de
+la faction $FACTION1 !
+
+#ALIENPROBE
+#xs 440
+#caption Responsable des opérations
+Les équipes de repérage n'ont pas d'effet sur les formes de vie du
+Collecteur.
+
+#ASCENT
+#xs 440
+#caption La Voix de la Planète
+Maintenant que la Voix de la Planète est opérationnelle, vous pouvez
+maintenant entamer votre
+Ascension vers la transcendance ! Toutes les factions peuvent
+maintenant commencer le projet
+d'Ascension vers la transcendance sur n'importe quelle base.
+La première faction à mener à bien le projet imprimera profondément
+ses idéaux dans l'Esprit planétaire.
+
+
+#CONQUERPLANET
+#xs 440
+#caption Conquête planétaire !
+$TITLE0 $NAME1, les dernières poches de résistance ennemie ont été
+balayées ! Plus rien ne se
+dresse entre vous et le pouvoir absolu sur le destin de la galaxie.
+Félicitations--
+Planète vous appartient !
+
+
+#BATTLEPLANS
+#xs 440
+#x -20
+#y -20
+#caption $CAPTION7
+"Je prévois de faire mouvement en force contre $BASENAME0. Je suggère
+que vous rassembliez vos propres
+troupes et que vous tentiez un assaut contre $BASENAME1."
+
+"D'accord."
+"Attendre : contre-proposition : . . ."

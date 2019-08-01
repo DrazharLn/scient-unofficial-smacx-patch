@@ -1,0 +1,526 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Credits
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#CREDITS
+
+
+SID MEIER'S ALPHA CENTAURI DESIGNED BY
+Brian Reynolds
+
+
+WITH
+Sid Meier
+Timothy Train
+Douglas Kaufman
+Bing Gordon
+
+AND
+Members of FIRAXIS Games
+
+
+SID MEIER'S ALIEN CROSSFIRE DESIGNED BY
+Timothy Train
+
+
+WITH
+Douglas Kaufman
+Chris Pine
+Gregory Foertsch
+Michael Ely
+Bing Gordon
+Sid Meier
+
+AND
+Members of FIRAXIS Games
+
+
+FOR ALIEN CROSSFIRE
+
+
+EXECUTIVE PRODUCER
+Jeffery L. Briggs
+
+
+PRODUCER
+Timothy Train
+
+
+LEAD PROGRAMMER
+Chris Pine
+
+
+SOUND ENGINEERING AND PROGRAMMING
+David Evans
+
+
+FACTION EDITOR DESIGN AND PROGRAMMING
+Jeff Morris
+
+
+SYSTEM AND INTERFACE PROGRAMMING
+Jason Coleman
+
+
+ADDITIONAL PROGRAMMING
+Jeff Morris 
+David Evans 
+Jason Coleman
+Brian Reynolds
+
+
+ART DIRECTOR
+Gregory Foertsch
+
+
+GRAPHIC ARTISTS
+Jerome Atherholt (Portraits, Terrain)
+Brent Alleyne (Progenitor design and animations)
+Steve Chao (Icons, Ship design, Dossier photos)
+Michael Bazzell (3D Units)
+
+
+MOVIES AND VOICES DIRECTED BY
+Michael Ely
+
+
+FEATURING THE VOICES OF
+James Leibman (as Captain Ulrik Svensgaard)
+Jeff Gordon (as Progenitors Lular H'minee and Judaa Marr)
+Frederick Serafin (as Foreman Domai)
+Allie Rivenbark (as Prime Function Aki Zeta-5)
+Christine Melton (as Datajack Sinder Roze)
+Stacy Spenser (as Prophet Cha Dawn)
+Robert Levy (Narrator)
+
+
+BACKGROUND MUSIC
+David Evans
+Jeffery L. Briggs
+
+
+MOVIE MUSIC
+Jeffery L. Briggs
+
+
+DIRECTOR OF MARKETING
+Lindsay Riehl
+
+
+MASTER OF MISCELLANEOUS
+Susan Meier
+
+
+WEBMASTER
+Dan Magaha
+
+
+INTERN
+Stephen Lee
+
+
+WITH SPECIAL THANKS TO
+Ann, Wendy, Jennifer, and all our families
+
+
+PUBLISHED BY
+Electronic Arts
+
+
+EA GODFATHER
+Bing Gordon
+
+
+EA PRODUCER
+Hunter Smith
+
+
+DIRECTOR OF MARKETING
+Chris Plummer
+
+
+PRODUCT MANAGER
+Jonathan Harris
+
+
+EUROPEAN PRODUCT MANAGER
+Audrey Meehan
+
+
+MEDIA RELATIONS MANAGER
+Patrick Buechner
+
+
+QUALITY ASSURANCE DIRECTOR
+Jeff Morris, FIRAXIS Games
+
+
+LEAD TESTER
+David "Killkwik" McCormick
+
+
+ASSISTANT LEAD TESTER
+Daryl "Red Evil" Humdy
+
+
+TESTERS
+Eduardo "Duff" Buenviaje, Jr.
+T.J. "DeadMeat" Cipri
+Justin "WWSD" Holst
+Mike "Hot Pants" Hong
+Matthew "Shocktart" Lewis
+Joe "Muh Pipe" Norris
+Ausias "Gimpy" Salmeron-Viver
+John "Belial" Trest
+
+
+EA CUSTOMER QUALITY CONTROL
+CQC Manager: Joel Knutson
+
+CQC Representatives: 
+Benjamin Crick 
+Shane Ferguson
+Jacob Fernandez
+Darryl Jenkins
+Dave Knudson
+Micah Pritchard
+Andrew Young
+
+
+BETA TESTERS
+Marty Bishop
+John Brown
+Michael Buccheri
+Ted Dennison
+Kevin Devine
+Michael Dorn
+Neil Fradkin
+Lonnie George
+Andrew Goldstein
+Dick Knisely
+Greg Lary
+Martin Leuschen
+Sam May
+Biju Mathai
+Jen MacLean
+Jean McGuire
+Vernon Michael
+Mark Norton
+George Politis
+Ronald Powell
+Alan Precourt
+Marc Ressig
+Jason Russ
+Thomas Stobie
+Peter Szymonik
+David Train
+Jeff Vitous
+Rita Waller
+
+
+MANUAL WRITER
+Douglas Kaufman
+
+
+DOCUMENTATION LAYOUT
+Deborah Maxwell
+
+
+MANUAL EDITOR
+Ede Clarke
+Timothy Train
+
+
+TECH TREE POSTER DESIGN
+Marco Garcia
+
+
+PACKAGING ART DIRECTION
+Nancy Waisanen
+
+
+LOCALIZATION DIRECTOR
+Atsuko Matsumoto
+
+
+LOCALIZATION LEAD
+John Pemberton 
+
+
+PRODUCTION SPECIALISTS
+Barry Feather
+Ricky Brown
+
+
+PROJECT MANAGER
+Emily Bromley
+
+
+FRENCH TRANSLATION MANAGER
+Jean-Luc Chabrier
+
+
+FRENCH TRANSLATORS
+Jean-Claude Ducerf (www.ducerftranslations.com)
+Nathalie Marlier (www.apex.fr) 
+
+
+FRENCH AUDIO
+Knockin' Boots Production, Paris/France
+
+
+GERMAN TRANSLATION MANAGER
+Christina Vollmer
+
+
+GERMAN TRANSLATORS
+Frank Dietz
+Christoph Niedermair
+Susanne van Eyl 
+
+
+GERMAN AUDIO
+toneworx GmbH, Hamburg/Germany 
+
+
+SPANISH PRODUCT MANAGER
+Teo Alcorta 
+
+
+SPANISH LOCALIZATION MANAGER
+Julio Valladares 
+
+
+SPANISH LOCALIZATION
+José Luis Rovira 
+
+
+ITALIAN TRANSLATION
+C.T.O. S.p.a., Bologna/Italy 
+
+
+MPEG Real-Time Libraries
+(c) 1996-1998 by MpegTV. All rights reserved.
+
+
+ORIGINAL ALPHA CENTAURI CREDITS
+(Where different from above)
+
+
+CREATED BY
+Brian Reynolds
+
+
+WITH
+Sid Meier
+Timothy Train
+Douglas Kaufman
+Bing Gordon
+
+
+AND
+Members of FIRAXIS Games
+
+
+ART DIRECTOR
+Michael Haire (Icons, Scoring)
+
+
+GRAPHIC ARTISTS
+Jerome Atherholt (Portraits, Terrain)
+Michael Bazzell (3D Units, Prototyping)
+Gregory Foertsch (Payoffs, Movies)
+David Inscore (Interface, Movies)
+Nicholas Rusko-Berger (Movies, Opening)
+
+
+FEATURING THE VOICES OF
+Carolyn Dahl (as Lady Deirdre Skye)
+Lu Yu (as Chairman Sheng-ji Yang)
+Yuri Nesteroff (as Academician Prokhor Zakharov)
+Regi Davis (as CEO Nwabudike Morgan)
+Wanda Nino (as Colonel Corazon Santiago)
+Gretchen Weigel (as Sister Miriam Godwinson)
+Hesh Gordon (as Commissioner Pravin Lal)
+Alena Kanka (as Planet)
+Robert Levy (Datalinks, Male)
+Katherine Ferguson (Datalinks, Female)
+
+
+WEBMASTER
+Michael Ely
+
+
+ASTRONOMY, PHYSICS, AND BIOLOGY RESEARCH
+Derek Cotter
+
+
+INTERN COORDINATOR
+Deborah Briggs
+
+
+INTERNS
+Alex Luskin (Sound Engineering)
+Kurt Kotula (Graphic Art)
+Matt Pierce (Marketing)
+
+
+STOCK FOOTAGE COURTESY OF
+Archive Films
+Corbis
+The Image Bank
+WPA Film Library
+
+
+"THE DANCING BABY"
+is used with the permission
+of Kinetix, a division of
+Autodesk, inc.
+
+
+WITH SPECIAL THANKS TO
+Jill, Ro, and Caleb Reynolds
+
+
+EA EXECUTIVE PRODUCER
+Andy Hollis
+
+
+EA PRODUCER
+Bryan Walker
+
+
+VP MARKETING
+Alex Carloss
+
+
+PRODUCT MANAGER
+Matt Orlich
+
+
+MEDIA RELATIONS MANAGER
+David Swofford
+
+
+ABSOLUTE QUALITY, INC.
+Dan Schlueter, AQ Lead Tester
+Graham Boyanich
+Charles Brubaker
+Ray Lofton
+Ted Paulsen
+Jim Smith
+
+
+ORIGIN SYSTEMS, INC.
+Paul "Paladin" Vaden, OSI QA Supervisor
+Rhea "Shalom" Shelley, OSI Project Leader
+Todd "Balls" Raffray, OSI Assistant Project Leader
+Tim "Quasimodo" Bell
+Brett "Beaker" Bonner
+Stacy "Skyline" Davidson
+Zafer "Z-man" Hamza
+Kent "Hand" Raffray
+Jon "Punchy" Shelus
+Stephen "Money Shot" VanWambeck
+Russ "Stranger" Wilkins
+
+
+AND
+Kyle "Paddleboat" Drewke
+Brian "BIG tiny" DuBose
+Mackey "Rastuss" Fair
+Kenny "Hottman" Hott
+Matt "O.G. Mudbone" Lynch
+Grant "Rogue" McDaniel
+Brandon "Arashi" Salinas
+Jon "Stormer" Savinelli
+Lance "MudPuppy" Stites
+
+
+BUT NOT
+Chris "Binky" Launius
+
+
+BETA TESTERS
+Marty Bishop
+Michael Buccheri
+Ted Dennison
+Chris Fitzgerald
+Neil Fradkin
+Andrew Goldstein
+Ronald Gretz
+Dick Knisely
+Greg Lary
+Martin Leuschen
+Jen MacLean
+Biju Mathai
+Sam May
+Jean McGuire
+Laralyn McWilliams
+Vernon Michael
+Mark Norton
+George Politis
+Alan Precourt
+Marc Reissig
+Don Rinker
+Jennifer Schlickbernd
+Dan Speicher
+William Stapel
+Thomas Stobie
+Jeff Vitous
+Rita Waller
+
+
+ELECTRONIC ARTS, INC.
+Benjamin Crick
+Etienne Grunenwald
+Daniel Hiatt
+Bobby Joe
+Michael Jung
+Anatol Somerville
+
+
+DOCUMENTATION BY
+Incan Monkey God Studios, Inc.
+
+
+MANUAL WRITER
+Chris McCubbin
+
+
+MANUAL EDITOR
+David Ladyman
+
+
+Dedicated to the men and women of NASA,
+and all the world's space programs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Eternity lies ahead of us, and behind.
+Have you drunk your fill?
+
+Lady Deirdre Skye,
+"Conversations with Planet",
+Epilogue
+
+
+
+#; This line must remain at end of file
+

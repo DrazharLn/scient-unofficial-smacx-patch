@@ -1,0 +1,140 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Peacekeeping Forces
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#PEACE
+Peacekeeping Forces, The Humanitarian, Peacekeepers, M, 2, Lal, M,  0,  0, 1, 0, 1,
+  TECH, Biogen, TALENT, 4, SOCIAL, -EFFIC, POPULATION, -2, VOTES, 2
+  Politics, Democratic, GROWTH
+  Politics, Police State, nil
+  Peacekeeper, Peace,
+  Sarita, Kakani, Sarita's Memorial
+  Brother, humane, self-righteous, loyal, whining,
+  Pusillanimous Wimp
+  defend the principles of our U.N. Charter
+  to defend the humanitarian principles of our original U.N. Charter
+  setting himself up as the only 'legitimate' authority on Planet
+  setting yourself up as the only 'legitimate' authority on Planet
+  make yourself into some kind of self-appointed benevolent dictator
+  kissing up to his precious U.N. Charter
+  kissing up to your precious U.N. Charter
+  humanitarian whimpering
+  humanitarian whimpering, M1
+  humanitarian initiatives, M2
+  whimpering social programs, M2
+  contribution, M1
+  providing a legitimate government for this Planet
+  my Peacekeeping Forces
+  the U.N. Charter
+
+#BASES
+U.N. Headquarters
+U.N. High Commission
+U.N. Temple of Sol
+U.N. Haven City
+U.N. Great Refuge
+U.N. Amnesty Town
+U.N. Pillar of Rights
+U.N. Humanity Base
+U.N. Aid Station
+U.N. Equality Village
+U.N. Settlement Agency
+U.N. Enforcement Base
+U.N. Health Authority
+U.N. Planning Authority
+U.N. Education Agency
+U.N. Social Council
+U.N. Commerce Committee
+U.N. Court of Justice
+U.N. Information Agency
+U.N. Planetary Trust
+U.N. Data Aquisition
+U.N. Disaster Relief
+U.N. Criminal Tribunal
+#END
+
+#WATERBASES
+U.N. Ocean Authority
+U.N. Marine Agency
+U.N. Sea Habitat
+U.N. Peace Anchorage
+U.N. Port Refuge
+#END
+
+#BLURB
+^  As the Americans learned so painfully in Earth's final century,
+free flow of information is the only safeguard against tyranny.
+The once-chained people whose leaders at last lose their grip on
+information flow will soon burst with freedom and vitality, but
+the free nation gradually constricting its grip on public discourse
+has begun its rapid slide into despotism. Beware of he who would
+deny you access to information, for in his heart he dreams himself
+your master.
+^
+^        -- Commisioner Pravin Lal,
+^           "U.N. Declaration of Rights"
+
+#DATALINKS1
+^LEADER: {Commissioner Pravin Lal}
+^BACKGROUND: {United Nations Space Authority, Unity Ship's Surgeon}
+^AGENDA: {Humanitarian Ideals, Democracy}
+^TECH: {Biogenetics}
+^
+
+#DATALINKS2
+^-1 EFFICIENCY:  {U.N. style bureaucracy}
+^Extra TALENT for every four citizens: {Attracts intellectual elite}
+^May exceed HAB COMPLEX population requirements by 2.
+^Receives DOUBLE votes in elections for Planetary Governor and Supreme Leader.
+^{May not use Police State Politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This squabbling amongst ourselves accomplishes nothing, $NAME1.
+Let us forswear our differences and refocus our efforts on the
+goals of this mission."
+
+"Fair enough. I shall order hostilities to cease."
+"Hah! I shall enjoy watching your bases burn!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"The fragmentation of this mission has been a disaster, $TITLE0
+$NAME1. Won't you sign a Treaty of Friendship and help me
+to reunite the others?"
+
+"A lofty goal, $TITLE4--I am with you."
+"No. What's done is done, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This squabbling amongst ourselves accomplishes nothing, $NAME1.
+Let us forswear our differences and refocus our efforts on survival."
+
+"Survival: paramount. Truce: agreed."
+"Concept: 'ourselves': humans. Your destruction: will continue."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"The fragmentation of our mission means you must deal with
+each individual human faction, $TITLE0 $NAME1. Won't you
+sign a Treaty of Friendship and help me create a unified human nation?"
+
+"Much better: one human nation. Your goal: agreed."
+"$NAME3: seems to forget: talking to Progenitor. Offer: rejected."
+
+
+# ; This line must remain at end of file
+

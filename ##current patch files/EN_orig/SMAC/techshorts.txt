@@ -1,0 +1,357 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Short Tech Descriptions
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+
+##Biogenetics
+#TECH0
+^^"Understanding the intricacies of the genetic code"
+
+
+##Industrial Base
+#TECH1
+^^"Bootstrap our industrial infrastructure"
+
+
+##Information Networks
+#TECH2
+^^"The foundation of scientific research"
+
+
+##Applied Physics
+#TECH3
+^^"Powerful, versatile modern lasers"
+
+##Social Psych
+#TECH4
+^^"We must build a stable society"
+
+##Doctrine: Mobility
+#TECH5
+^^"Fast attacks and disciplined troops succeed on Planet as on Earth"
+
+##Centauri Ecology
+#TECH6
+^^"By studying the Xenofungus we can learn how to survive"
+
+##Superconductor
+#TECH7
+^^"Efficient energy transmission for powerful weaponry"
+
+##Nonlinear Mathematics
+#TECH8
+^^"Harness Chaos Theory for new kinds of weaponry"
+
+##Applied Relativity
+#TECH9
+^^"Updating Einstein's theories"
+
+##Fusion Power
+#TECH10
+^^"A cheap, clean power source"
+
+##Silksteel Alloys
+#TECH11
+^^"Strong, flexible metals for construction and defense"
+
+##Advanced Subatomic Theory
+#TECH12
+^^"The search for the smallest particles of matter"
+
+##High Energy Chemistry
+#TECH13
+^^"Better defenses through Chemistry"
+
+#Frictionless Surfaces
+#TECH14
+^^"Materials not subject to friction "
+
+##Nanometallurgy
+#TECH15
+^^"Manipulate metals at the molecular level"
+
+##Superstring Theory
+#TECH16
+^^"Understand the fundamental forces of the universe"
+
+##Advanced Military Algorithms
+#TECH17
+^^"Apply new tools to new kinds of warfare"
+
+##Monopole Magnets
+#TECH18
+^^"The secrets of magnetism"
+
+##Matter Compression
+#TECH19
+^^"Create materials of extremely high density"
+
+##Unified Field Theory
+#TECH20
+^^"Discover the fundamental mechanism of the universe"
+
+##Graviton Theory
+#TECH21
+^^"Unlock the mechanisms of gravity"
+
+##Polymorphic Software
+#TECH22
+^^"The first massive neural nets"
+
+##Applied Gravitonics
+#TECH23
+^^"Control the forces of gravity"
+
+##Quantum Power
+#TECH25
+^^"Create incredible power by splitting light itself"
+
+##Singularity Mechanics
+#TECH26
+^^"Unravel the secrets of black holes"
+
+##Controlled Singularity
+#TECH27
+^^"Control the power of black holes"
+
+##Temporal Mechanics
+#TECH28
+^^"Manipulate time itself"
+
+##Probability Mechanics
+#TECH29
+^^"Predict and control random events"
+
+##Pre-Sentient Algorithms
+#TECH30
+^^"Computers on the verge of self-awareness"
+
+##Super Tensile Solids
+#TECH31
+^^"Unbreakable materials"
+
+##Planetary Networks
+#TECH32
+^^"We can pool our knowledge with a worldwide database"
+
+##Digital Sentience
+#TECH33
+^^"Computers with personality"
+
+##Self-Aware Machines
+#TECH34
+^^"Machines that think"
+
+##Doctrine: Initiative
+#TECH35
+^^"Complete naval supremacy requires new equipment and tactics"
+
+##Doctrine: Flexibility
+#TECH36
+^^"Control of Planet requires naval power"
+
+##Intellectual Integrity
+#TECH37
+^^"Do not mistake wishes for truth"
+
+##Synthetic Fossil Fuels
+#TECH38
+^^"Man-made oil, coal, and natural gas"
+
+##Doctrine: Air Power
+#TECH39
+^^"Let us return to the air"
+
+##Photon/Wave Mechanics
+#TECH40
+^^"Control light itself"
+
+##Mind/Machine Interface
+#TECH41
+^^"The integration of man and machine"
+
+##Nanominiaturization
+#TECH42
+^^"Microscopic machines"
+
+##Doctrine: Loyalty
+#TECH43
+^^"Loyalty is the engine that drives armies"
+
+##Ethical Calculus
+#TECH44
+^^"A new system of morality to encompass our future"
+
+##Industrial Economics
+#TECH45
+^^"Even on Planet, industry creates wealth"
+
+##Industrial Automation
+#TECH46
+^^"Robotics can help us build an empire"
+
+##Centauri Meditation
+#TECH47
+^^"Planet will speak to us...if we will listen"
+
+##Secrets of the Human Brain
+#TECH48
+^^"Understanding the mechanisms of self-awareness"
+
+##Gene Splicing
+#TECH49
+^^"Enhancing plant and animal DNA"
+
+##Bio-Engineering
+#TECH50
+^^"Unlock the last secrets of genetics"
+
+##Biomachinery
+#TECH51
+^^"Machinery integrated on a cellular level"
+
+##Neural Grafting
+#TECH52
+^^"Enhance individuals with on-board circuitry"
+
+##Cyberethics
+#TECH53
+^^"Defining the role of computers in society"
+
+##Eudaimonia
+#TECH54
+^^"True and complete happiness"
+
+##The Will to Power
+#TECH55
+^^"In strength, wisdom"
+
+##Threshold of Transcendence
+#TECH56
+^^"The brink of a new epoch"
+
+##Matter Transmission
+#TECH57
+^^"Transmit objects from one end of Planet to the other"
+
+##Centauri Empathy
+#TECH58
+^^"We must learn Planet’s ways"
+
+##Environmental Economics
+#TECH59
+^^"An economy both lucrative and green"
+
+##Ecological Engineering
+#TECH60
+^^"We can reshape this world"
+
+##Planetary Economics
+#TECH61
+^^"Unify global markets for maximum profits"
+
+##Adv. Ecological Engineering
+#TECH62
+^^"The last word in Terraforming"
+
+##Centauri Psi
+#TECH63
+^^"Harness the Psi powers of the Mind Worm"
+
+##Secrets of Alpha Centauri
+#TECH64
+^^"Map the Planetary Mind"
+
+##Secrets of Creation
+#TECH65
+^^"What is the purpose and order of the universe?"
+
+##Advanced Spaceflight
+#TECH66
+^^"Explore the reaches of space"
+
+##Homo Superior
+#TECH67
+^^"Let us evolve our brains and bodies"
+
+##Organic Superlubricant
+#TECH68
+^^"Lubricants that learn where to apply themselves"
+
+##Quantum Machinery
+#TECH69
+^^"Immensely powerful machines"
+
+##Matter Editation
+#TECH71
+^^"Manipulate the smallest particles of matter"
+
+##Optical Computers
+#TECH72
+^^"Computations at the speed of light"
+
+##Industrial Nanorobotics
+#TECH73
+^^"Miniature robotic factories"
+
+##Centauri Genetics
+#TECH74
+^^"Decipher Planet’s genetic code"
+
+##Sentient Econometrics
+#TECH75
+^^"Using intelligent computers to predict the economy"
+
+##Retroviral Engineering
+#TECH76
+^^"We unleash this weapon at our own risk"
+
+##Orbital Spaceflight
+#TECH77
+^^"Return to space"
+
+##Progenitor Psych
+#TECH78
+^^"The basic culture and language of the Progenitor race"
+
+##Field Modulation
+#TECH79
+^^"Simple manipulation of resonance fields"
+
+##Adaptive Doctrine
+#TECH80
+^^"Adapt military responses to each situation"
+
+##Adaptive Economics
+#TECH81
+^^"Economics adapted to new environments"
+
+##Bioadaptive Resonance
+#TECH82
+^^"Advanced control of resonance fields"
+
+##Sentient Resonance
+#TECH83
+^^"Create sentient resonance fields"
+
+##Secrets of the Manifolds
+#TECH84
+^^"Uncover other far-flung Manifolds connected to Planet"
+
+##N-Space Compression
+#TECH85
+^^"Tap parallel universes for matter compression"
+
+##String Resonance
+#TECH86
+^^"Destroy the fundamental building blocks of the universe"
+
+##Transcendent Thought
+#TECH88
+^^"Beyond the Era of Individual Sentience"
+
+# ; This line must remain at end of file

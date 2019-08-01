@@ -1,0 +1,1627 @@
+;
+;   Sid Meier's ALPHA CENTAURI
+;
+;   Tutorial dialog boxes
+;
+;   Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+#LANDFALL
+#xs 300
+#button VISITE GUIDEE
+Votre Capsule de colonie a atterri en catastrophe sur Alpha Centauri ;
+ses provisions de bord ont été utilisées pour fonder votre première
+base, $BASENAME0. Vous pouvez utiliser l'unité $UNITNAME1 qui est
+maintenant active pour explorer la zone environnante. Elle peut être
+aussi utilisée pour votre défense si cela est nécessaire.
+^
+Si c'est la première fois que vous jouez à Alpha Centauri et si
+vous désirez suivre une visite guidée de l'interface, cliquez sur
+le bouton {VISITE GUIDEE}.
+
+#DIRECTIONS
+Nord-est
+Est (C'est-à-dire Droite)
+Sud-est
+Sud (C'est-à-dire Bas)
+Sud-ouest
+Ouest (C'est-à-dire Gauche)
+Nord-ouest
+Nord (C'est-à-dire Haut)
+
+#TOUR1
+#xs 300
+La case de statut d'une unité clignote lorsque celle-ci est
+prête à se déplacer. Utilisez cette unité {$UNITNAME0} pour explorer.
+
+#TOUR1A
+#xs 300
+La case de statut d'une unité clignote lorsque celle-ci est prête
+à se déplacer. Utilisez cette unité {$UNITNAME0} pour explorer.
+
+#TOUR1B
+#xs 400
+Au moment de votre tour, vos pièces de jeu, appelées 'unités', auront
+leur case de statut qui clignotera pour vous avertir que vous pouvez
+les déplacer. Lorsque les cases de statut ne clignotent pas, un
+curseur clignotera à la place ; dans ce cas, vous pouvez revenir aux
+pièces mobiles en appuyant sur la touche 'V' (ne le faites pas
+maintenant mais attendez la fin de votre tour).
+
+#TOUR2
+#xs 300
+Vous pouvez utiliser les "touches fléchées" ou la souris pour déplacer
+les unités.
+La barre D'ESPACEMENT donne l'ordre à l'unité de rester où elle se
+trouve pendant ce tour.
+
+#TOUROCEAN
+#xs 300
+Seules les unités navale et aérienne peuvent entrer dans les carrés
+des océans.
+
+#TOUROCEAN2
+#xs 300
+Votre unité $UNITTYPE0 peut explorer l'océan et transporter vos
+unités au sol vers d'autres continents.
+
+#TOURFUNGUS
+#xs 300
+Le {Xénofongus} est une forme de vie végétale propre à Alpha Centauri.
+Considérez-la comme un obstacle dangereux pour le moment.
+
+#TOURMAP
+#xs 300
+Les trois ressources principales de la planète sont les {NUTRIMENTS},
+les {MINERAUX}, et l'{ENERGIE}. Pour exploiter ces ressources, il
+vous faudra trouver des carrés avec des {PRECIPITATIONS}, des carrés
+{ROCAILLEUX}, et de haute {ALTITUDE}.
+
+#TOURRAIN
+#xs 300
+Plus un carré est "vert", plus les {précipitations} sont importantes.
+Les carrés pluvieux produisent beaucoup de {NUTRIMENTS}.
+Les {Nutriments} nourrissent vos colons et permettent à votre colonie
+de s'accroître.
+
+#TOURRAINWET
+#xs 300
+Ce carré vert et {PLUVIEUX} est excellent pour planter des récoltes
+NUTRITIVES.
+
+#TOURRAINMOD
+#xs 300
+Ce carré bénéficie de {PRECIPITATIONS MODEREES} comme l'indique
+la quantité modeste de verdure, et permettra la plantation de
+récoltes. L'établissement d'une ferme ou un reboisement de ce
+carré améliorera la production de {NUTRIMENTS} de manière considérable.
+
+#TOURRAINDRY
+#xs 300
+Ce terrain sec et {ARIDE} (Pas verts) ne produira pas de nutriments sans
+un terraformage important ou un reboisement. N'oubliez pas de rechercher
+les carrés {verts} lorsque vous voulez planter des récoltes.
+
+#TOURRAINDRY2
+#xs 300
+Tous les carrés situés à proximité sont {ARIDES}, comme l'indique
+l'absence de surfaces vertes. La production de nutriments dans les
+carrés arides est médiocre, par conséquent vous devrez établir des
+{FERMES} ou planter des {FORETS} rapidement.
+
+#TOURALT
+#xs 300
+Ces deux carrés se trouvent à différentes {ALTITUDES}. Plus un
+carré est haut, plus il produira de l'{ENERGIE} si vous construisez un
+capteur solaire. Votre production d'ENERGIE est augmentée d'un point
+tous les 1 000 mètres d'altitude.
+
+#TOURTWOFOOD
+#xs 300
+Il s'agit là d'un emplacement parfait pour établir une ferme.
+Les FERMES augmentent la production de {NUTRIMENTS} dans un carré.
+
+#TOURTWOROCK
+#xs 300
+Ce carré est assez {ROCAILLEUX} et est excellent pour la production
+de {MINERAUX}. Vos bases ont besoin de minéraux pour construire de
+nouvelles unités et installations. Les récoltes ne poussent pas bien
+dans les carrés rocailleux.
+
+#TOURONEROCK
+#xs 300
+Ce carré est un terrain {VALLONE} (présence de quelques roches)
+et produira quelques {MINERAUX}.
+#TOURFLAT
+#xs 300
+Ce carré est {PLAT} (aucune roche) et ne produira pas de {MINERAUX}
+sauf si vous construisez une {MINE} ou plantez une {FORET}.
+
+#TOURFOREST
+#xs 400
+Dans chaque carré, vos Formeuses peuvent construire des {FERMES}, qui
+améliorent la production de {nutriments}, des {MINES}, qui améliorent
+la production de {minéraux} et des {CAPTEURS SOLAIRES}, qui améliorent
+la production d'{énergie}. Elles peuvent aussi planter des {FORETS}
+pour permettre une exploitation des ressources équilibrée ainsi que
+des {ROUTES} pour accélérer le déplacement des unités.
+
+#TOURREVIEW
+#xs 440
+Récapitulation rapide de l'exploitation des ressources de base :
+^La production des {NUTRIMENTS} est meilleure dans les zones {HUMIDES} (Construisez des {FERMES}).
+^La production de {MINERAUX} est meilleure dans les zones {ROCAILLEUSES} (Construisez des {MINES}).
+^La production d'{ENERGIE} est meilleure dans les zones {ELEVEES} (Construisez des {CAPTEURS SOLAIRES}).
+^Les {FORETS} produisent une quantité fixe de tous les types de ressources. Enfin, si une zone est très rocailleuse, la
+production de
+nutriment est pénalisée.
+
+#TOURADVANCED
+#xs 440
+Ces toutes dernières options intéresseront peut-être les joueurs avancés :
+^Les {CONDENSEURS} augmentent les précipitations dans chaque carré environnant.
+^Les {TROUS DE FORAGE} fournissent des quantités importantes de MINERAUX et d'ENERGIE.
+^Les {FORAGES VERS LA NAPPE PHREATIQUE} exploitent les rivières souterraines.
+^Les {TUBES MAGNETIQUES} augmentent énormément le déplacement.
+^Les {ENGRAIS} permettent d'améliorer le rendement agricole.
+^Le {NIVELLEMENT} diminue le caractère rocailleux du terrain.
+^L'{ELEVATION/ABAISSEMENT DU TERRAIN} peuvent modifier les continents
+ainsi que les conditions atmosphériques.
+
+#TOURFORMDONE
+#xs 440
+Bien, pour terminer notre visite guidée des fonctions de terraformage,
+nous vous suggérons de commencer à construire des fermes et à planter
+des forêts dans les carrés près de votre base (déplacez vos Formeuses
+vers ces carrés, puis appuyez sur la touche 'F' ou la combinaison de
+touches ('Maj+F'). Nous vous donnerons plus de conseils tout au long du
+processus.
+^
+Si vous souhaitez recommencer cette visite guidée depuis le début,
+sélectionnez "Visite guidée du Terraformage" à partir du menu "Aide".
+
+#TOURSCAN
+#xs 300
+Le {Balayage planétaire} montre une vue éloignée de la planète que
+vous pouvez utiliser pour vous repérer.
+
+#TOURMENU
+#xs 300
+Le {Menu principal} est activé en cliquant sur ce bouton ;
+il fonctionne de la même manière que le bouton DEMARRER de Windows.
+Les joueurs chevronnés peuvent utiliser la fonction "Menus détaillés"
+à partir du menu de jeu.
+
+#TOURCOMMLINK
+#xs 300
+Le bouton {Transmission} vous permet d'entrer en contact avec
+les autres factions ; vous pouvez cliquer sur le nom de n'importe
+quelle faction que vous avez rencontrée pour engager des négociations.
+Dans un jeu multijoueurs cette fenêtre indique aussi le statut de
+conversation et l'horloge du tour actuel.
+
+#TOURUNITSINFO
+#xs 300
+La {Fenêtre de l'unité} indique quelle unité vous déplacez en ce
+moment ou quelle unité vous avez sélectionnée.
+
+#TOURTERRAININFO
+#xs 300
+La {Fenêtre du terrain} détaille la composition du terrain à votre
+emplacement actuel. Plus une zone est pluvieuse (plus verte), plus
+elle produit de NUTRIMENTS. Plus une zone est rocailleuse, plus elle
+produit de MINERAUX ; et enfin plus une zone est élevée, plus elle
+produit de l'ENERGIE.
+
+#TOURSTACKINFO
+#xs 300
+La {Fenêtre d'empilage} vous permet de voir toutes les unités dans
+le carré actuel. Cliquez sur n'importe quelle unité pour
+la sélectionner. N'oubliez pas que les "statistiques" d'une unité,
+exemple : 1-1-1, indiquent son {armement}, son {blindage} et ses
+{points de mouvement}.
+Les meilleures unités ont des valeurs supérieures.
+
+#TOURMESSAGEINFO
+#xs 300
+La {Fenêtre des messages} fournit des données utiles de tous types
+pendant le jeu. Vous pouvez cliquer ici pour passer d'un
+affichage à l'autre ou vous pouvez conserver un affichage si vous
+souhaitez l'étudier en détails.
+
+#TOURBUTTONINFO
+#xs 300
+Le {Bouton Infos I} oblige la Fenêtre des messages à passer en revue
+les informations générales.
+
+#TOURBUTTONMESSAGE
+#xs 300
+Le {Bouton des messages M} oblige la Fenêtre des messages à afficher
+une liste des événements survenus récemment à vos bases (tels que
+les nouvelles unités construites, les émeutes de droïdes, etc). Vous
+pouvez cliquer sur les éléments affichés dans la liste pour vous
+rendre vers la base concernée.
+
+#TOURWORLDINFO
+#xs 300
+La {Fenêtre du monde} affiche une carte aérienne de la planète
+toute entière. Vous pouvez cliquer à n'importe quel endroit sur
+la carte pour vous rendre vers cet emplacement.
+
+#TOURDATEINFO
+#xs 300
+La date actuelle et vos réserves en énergie sont affichées ici.
+
+#TOURBUTTONTURN
+#xs 300
+Vous pouvez cliquer sur le {Bouton FIN DU TOUR} pour passer au tour
+suivant. Normalement le jeu passera au tour suivant
+automatiquement après avoir déplacé toutes vos unités. Ce bouton
+est plus important dans les jeux multijoueurs.
+
+#TOURINFO
+#xs 300
+L'{Affichage des données} fournit des informations importantes sur
+votre situation actuelle. Vous pouvez cliquer sur l'affichage des
+données pour passer d'un panneau d'affichage à l'autre manuellement.
+
+#TOURSTAT
+#xs 300
+L'affichage {Statut de la mission} fournit une liste du contenu du
+carré actif sur la carte principale ; vous y trouverez des détails
+concernant les unités, les bases et le terrain situés dans le
+carré sélectionné.
+
+#TOUROVER
+#xs 440
+Bien, votre première tâche consiste à utiliser votre Patrouilleur
+-éclaireur pour explorer la zone autour de votre base.
+^
+Si vous souhaitez recommencer cette visite guidée depuis le début,
+sélectionnez "Visite guidée de l'interface" à partir du menu "Aide".
+
+#BASECONTROL
+#xs 400
+#button TOUR
+L'{Ecran de contrôle de la base} vous permet de contrôler
+la production et la croissance économique de votre base, $BASENAME0.
+Cliquez sur le bouton {VISITE GUIDEE} pour plus de détails.
+
+#TOUR1GOVERNOR
+#xs 400
+Nous commencerons la visite guidée de la base en vous présentant
+le {Gouverneur}. Le Gouverneur est un assistant important qui peut
+vous aider à contrôler les activités de votre base. Que vous soyez
+débutant ou expert, vous verrez que le Gouverneur peut vous
+aider à développer rapidement vos bases. Pour utiliser le Gouverneur,
+Dites-lui simplement si cette base devrait {Explorer, Découvrir, Bâtir}
+ou {Conquérir}.
+
+#TOUR1EXPLORE
+#xs 400
+Le bouton {EXPLORER} demande au Gouverneur d'une base de concentrer
+ses efforts sur la découverte et l'occupation de nouveaux territoires.
+Les bases qui ont reçu l'ordre d'explorer concentreront leurs efforts
+en général sur la construction de {Scouts}, de {Capsules colonie},
+de {Transports} et parfois d'{Unités navales} pour effectuer
+une reconnaissance des océans.
+Ce bouton est tout particulièrement utile au début du jeu, au moment
+où vous devez étendre rapidement votre territoire.
+
+#TOUR1DISCOVER
+#xs 400
+Le bouton {DECOUVRIR} donne la priorité à la recherche
+scientifique et les percées technologiques. Le gouverneur
+de la base concentrera ses efforts sur la construction
+d'{Installations scientifiques} (tels que les Noeuds de réseau),
+les {Projets secrets}, les {Equipes de repérage} et les
+{Unités prototypes} Ce bouton est particulièrement efficace dans
+vos bases importantes qui sont bien protégées à l'intérieur
+de votre territoire.
+
+#TOUR1BUILD
+#xs 400
+Le bouton {BATIR} met l'accent sur les infrastructures
+et la croissance. Le gouverneur de la base bâtira des
+{Installations} et des {Formeuses}. Utilisez ce
+bouton à tout moment pour demander à votre base de se
+concentrer sur une croissance pacifique.
+
+#TOUR1CONQUER
+#xs 440
+Utilisez le bouton {CONQUERIR} pour renforcer vos forces
+militaires. Dans ce mode votre base produira des
+{unités militaires} diverses et leurs installations
+correspondantes tels que les {Centres de commandement}.
+Utilisez ce bouton toutes les fois que vous désirez attaquer
+un ennemi ou vous défendre.
+
+#TOUR1GOVERNOR2
+#xs 440
+Vous avez maintenant assez d'informations pour commencer ; si
+vous voulez, cliquez sur le bouton {Terminer visite}
+et commencer à jouer. Autrement, continuez cette visite guidée
+pour apprendre à gérer une base par vous-même.
+^
+Nous commencerons par le bouton {GOUVERNEUR}, qui peut être
+utilisé pour activer et désactiver le Gouverneur. Le Gouverneur
+sera automatiquement activé si vous cliquez sur le bouton Explorer,
+Découvrir, Bâtir ou Conquérir.
+
+#TOUR1ADVANCED
+Le bouton {GOUVERNEUR AVANCE} fait apparaître une boîte de
+dialogue qui vous permet de personnaliser votre Gouverneur.
+Par exemple, vous pourriez demander  à votre Gouverneur de
+bâtir {uniquement} des installations.
+
+#TOUR1CAPTION
+#xs 300
+La {Case d'informations} indique le nom de la base et sa
+population. Par commodité, vos {Réserves en énergie}
+actuelles sont aussi indiquées ici. Si votre base s'est développée
+au point de représenter un danger à l'environnement local, le voyant
+des {Dégâts écologiques} indiquera le pourcentage de
+probabilité d'intervention de la Planète.
+
+#TOUR1ECO
+#xs 300
+Pour faciliter la surveillance, la date et vos {Réserves d'énergie} actuelles
+sont affichées ici. Si votre base a grandi au point de devenir un danger
+pour l'environnement local, le voyant de {Dégâts écologiques} indique le
+pourcentage de risques d'intervention par la Planète.
+
+#TOUR1POP
+#xs 300
+La {Barre de la population} vous montre les citoyens de
+$BASENAME0-chaque "personne" représente à peu près 10 000 colons.
+La plupart de vos citoyens sont des {Ouvriers}, capables de
+produire des ressources standards. Plus tard, vous pourrez
+promouvoir certains citoyens qui deviendront {Spécialistes}
+(Docteurs, Techniciens, Bibliothécaires, etc).
+
+#TOUR1POP2
+#xs 300
+Des conditions sociales excellentes dans votre colonie feront
+apparaître l'icône de vos {Talents} de couleur verte.
+Des conditions sociales médiocres et une surpopulation les
+transformeront en {Droïdes} dont l'icône sera de couleur rouge. Toutes
+les fois que votre base comporte plus de droïdes que de
+Talents, il y aura une {Emeute de Droïdes}. Pour résoudre ce problème,
+vous devriez soit construire des installations qui ont une influence
+sur le psychisme de la population tel qu'une {Aire de jeu} soit
+transformer des citoyens en {Docteurs} ou augmenter l'attribution de
+votre énergie au {Psychisme}.
+
+#TOUR1STAPLE
+#xs 300
+Le bouton {Gaz innervant} est une mesure particulièrement
+draconienne pour contrôler les émeutes de droïdes. Si vous sectionner
+les nerfs de vos citoyens, ils cesseront les émeutes pendant au moins
+{dix tours}. Ayez recours à cette méthode uniquement en cas d'urgence
+car le gaz innervant est considéré comme une {atrocité}.
+
+#TOUR1PRODUCTION
+#xs 300
+La {Case de la production} indique ce que la base est en train
+de construire. Les bases peuvent produire de nouvelles unités
+ou bâtir des installations pour améliorer leurs infrastructures.
+Votre base utilise des {minéraux} pour la production. Lorsque tous
+les symboles des minéraux sont éclairés dans la case, votre nouvelle
+unité ou installation est terminée.
+
+#TOUR1QUEUE
+#xs 300
+La {File de construction} indique ce que cette base bâtira après
+avoir terminé sa production actuelle.
+
+#TOUR1CHANGE
+#xs 300
+Cliquez sur le {Bouton CHANGER} pour définir de nouveaux ordres
+de production pour votre base.
+
+#TOUR1HURRY
+#xs 300
+Utilisez le {Bouton ACCELERER} si vous devez terminer quelque chose
+rapidement. Vous pouvez envoyer vos {Réserves en énergie} pour
+achever la production rapidement mais cela peut être très cher.
+
+#TOUR1GARRISON
+#xs 400
+La {Case Garnison} affiche les unités qui sont actuellement
+présentes dans cette base gardez au moins une unité militaire dans
+chaque base pour la protéger contre des attaques surprises. Vous
+pouvez cliquer sur n'importe quelle unité pour l'activer ou cliquez
+sur le bouton droit de la souris pour obtenir des options
+supplémentaires.
+
+#TOUR1SUPPORTED
+#xs 400
+La {case des forces supportées} affiche les unités que cette base
+a produites (et qu'elle doit par conséquent {soutenir}). Ces unités
+ne sont pas forcément présentes à la base en ce moment-vous pouvez
+utiliser le bouton {SOUTIEN} pour savoir où elles se trouvent.
+
+#TOUR1FACILITIES
+#xs 400
+La {case Installations} affiche les {installations} que vous avez
+construites dans cette base. Les installations augmentent le
+potentiel de votre base (par exemple, un Noeud de réseau augmente
+le rendement de vos laboratoires), mais la plupart des installations
+requièrent une petite quantité d'énergie à chaque tour pour leur
+{maintenance}. Si vous ne voulez plus l'une de vos installations,
+vous pouvez cliquer dessus pour la mettre au {rebut et la recycler}.
+
+#TOUR1COMMERCE
+#xs 400
+La {Case du commerce} affiche vos échanges commerciaux avec les
+autres factions humaines. Si vous signez un {Traité} ou un {Pacte} avec
+une autre faction humaine, votre base commencera automatiquement le commerce
+avec vos nouveaux alliés, procurant ainsi de l'{énergie supplémentaire}
+pour votre base. Les taux du commerce sont influencés par (1) la taille
+des bases impliquées, (2) le nombre de technologies du commerce que
+vous avez découvertes et (3) si vous avez un Traité ou un Pacte
+(un Pacte vous permet de doubler le commerce).
+
+#TOUR1NUTRIENTS
+#xs 400
+La {Case des Nutriments} affiche le potentiel de votre base pour
+une {croissance}. Lorsque votre base produit des {nutriments}, ils
+sont entreposés ici ; votre base augmentera en population lorsque
+toutes les cases de nutriments seront éclairées.
+
+#TOUR1AREA
+#xs 400
+La {Carte de la base} montre la région située autour de votre base.
+Des fermes et des mines peuvent être construites dans tous les carrés
+de cette région ou ceux-ci peuvent recevoir des améliorations apportées
+par vos citoyens afin de produire des {nutriments}, des {minéraux} et
+de l'{énergie} qui sont les unités économiques de base du jeu.
+Les carrés utilisés sont indiqués par un symbole montrant la quantité de
+chaque ressource produite.
+^
+Vous pouvez utiliser un carré de cette carte pour chaque {Ouvrier}
+présent dans cette base (vous pouvez aussi utiliser le carré de
+la base). Vous pouvez faire glisser des Ouvriers d'un carré à un
+autre ou les faire glisser dans la {Barre de la Population} pour
+les promouvoir au statut de {spécialistes}.
+^
+Vous ne pouvez pas utiliser les carrés inexplorés, ni les carrés
+utilisés par des bases situées à proximité, ni les carrés occupés par
+des unités ennemies.
+
+#TOUR1NUT
+#xs 400
+La {Barre des nutriments} indique la production actuelle de nutriments.
+Les nutriments permettent de nourrir vos citoyens et contribuent
+à la croissance de votre colonie. Chaque citoyen à besoin de $NUM0
+nutriments chaque tour pour survivre ; cette {consommation} est
+indiqué sur le côté gauche de la barre. Le {surplus} de production de
+nutriments est indiqué sur le côté droit de la barre. Tout surplus est
+stocké chaque tour pour une utilisation future et pour la {croissance
+de la population}. Toute ressource apparaissant en rouge indique un
+{manque} qui peut conduire à la {famine}.
+^
+Si vous voulez augmenter la production de nutriments, déplacez des
+citoyens vers la carte de la zone dans des carrés produisant plus de
+nutriments. Transférez vos unités {Formeuses} (sur la carte principale)
+pour construire des {Fermes} dans ces carrés.
+
+#TOUR1MIN
+#xs 400
+La {Barre des minéraux} indique votre production actuelle de minéraux.
+Suivant le nombre d'unités militaires que vous aurez construites (et
+les paramètres du Génie social), vous devrez peut-être dépenser des
+minéraux chaque tour pour soutenir les unités existantes. Ceci est
+indiqué sur le côté gauche de la barre. Les minéraux en {surplus} sont
+indiqués sur la droite de la barre ; ils sont appliqués à votre
+{production} actuelle. Tout élément apparaissant en rouge représente
+un {manque} de support et peut conduire à l'élimination des unités
+militaires non supportées.
+^
+Si votre base a besoin de plus de minéraux, envoyez vos {Formeuses}
+pour bâtir plus de {Mines}.
+
+#TOUR1ENERGY
+#xs 400
+La {Barre d'énergie} indique la production actuelle d'énergie de
+la base $BASENAME0. Chaque carreau rouge représente de l'énergie
+perdue en raison de l'{inefficacité}.
+L'{Inefficacité} augmente lorsque vos choix de génie social sont
+inadéquats par rapport aux besoins d'une colonie et d'une population
+importante. Si vous perdez beaucoup d'énergie en raison de
+l'inefficacité, pensez à construire une {Crèche pour enfants} afin
+d'augmenter l'efficacité ou passez à un modèle social plus efficace
+du point de vue économique (démocratique ou écologique, par exemple).
+^
+Si votre base a besoin de plus d'énergie, envoyez vos {Formeuses}
+pour construire plus de {Capteurs solaires}.
+
+#TOUR1ALLOC
+#xs 400
+Le {Diagramme de l'attribution d'énergie} indique la manière dont la
+production d'énergie est redistribuée parmi vos trois priorités :
+L'{Economie}, les {Laboratoires} et le {Psychisme}.
+^
+Vous pouvez redistribuer votre énergie à tout moment en sélectionnant
+{Génie Social} à partir du Menu QG.
+
+#TOUR1ALLOC2
+#xs 400
+Le {Tableau Energie Attribution} vous permet de voir la manière
+dont votre production d'énergie est répartie parmi vos trois
+priorités : l'{Economie}, les {Labos} et le {Psychisme}.
+^
+Vous pouvez redéfinir la répartition de votre énergie à tout
+moment en  sélectionnant le {Génie social} à partir du menu QG.
+
+#TOUR1ECON
+#xs 400
+L'énergie attribuée à l'{économie} est utilisée pour augmenter vos
+{réserves d'énergie} que vous pouvez utiliser plus tard pour
+accélérer la production, soudoyer des factions voisines et effectuer
+la maintenance des installations de la base.
+
+#TOUR1PSYCH
+#xs 400
+L'énergie attribuée au {psychisme} est utilisé pour améliorer la
+qualité de vie de vos citoyens. Deux unités d'énergie dépensées
+permettent d'inciter un ouvrier à devenir un {Talent}.
+Les dépenses effectuées dans ce domaine permettent d'éviter les
+{émeutes de droïdes}.
+
+#TOUR1LABS
+#xs 400
+L'énergie attribuée aux {labos} est utilisée pour la recherche
+scientifique ; plus vous dépensez d'énergie dans ce domaine plus vous
+découvrirez rapidement de nouvelles technologies.
+
+#TOUR1SUPPORTBUTTON
+#xs 300
+Le {Bouton SOUTIEN} permet de passer de la Carte de la base à une
+large vue permettant de montrer où se trouvent les unités
+produites par (et par conséquent soutenues par) cette base. Le gros
+symbole coloré représente votre  base ; les symboles de tailles
+inférieure représentent les unités de cette base.
+
+#TOUR1PSYCHBUTTON
+#xs 300
+Le {Bouton PSY} permet de passer de la Carte de la base
+à un profil du psychisme. Les informations que vous y trouverez
+vous aideront à résoudre les problèmes de conditions de vie
+négatives et à empêcher les {émeutes de droïdes}.
+
+#TOUR1RESOURCEBUTTON
+#xs 300
+Le {Bouton des Ressources} renvoie la Carte de la
+base à l'affichage des ressources standards ; il s'agit de
+l'affichage qui généralement vous aidera le plus pour
+gérer votre base.
+
+#TOUR1PREV
+#xs 300
+Lorsque vous possédez plus d'une base, le {Bouton Base précédente}
+vous renvoie à la base précédente dans l'ordre alphabétique.
+
+#TOUR1NEXT
+#xs 300
+Le {Bouton Base suivante} vous renvoie de manière similaire, mais
+cette fois à la base suivante dans l'ordre alphabétique.
+
+#TOUR1RENAME
+#xs 300
+Le {Bouton RENOMMER} vous permet de renommer votre base. Le fait
+de renommer une base capturée à un autre joueur peut le rendre
+vraiment furieux.
+
+#TOUR1OK
+#xs 300
+Enfin, le {Bouton OK} vous permet de fermer l'écran de contrôle
+de la base lorsque vous avez terminé. Vous pouvez aussi appuyer sur
+la touche ENTREE pour fermer la fenêtre.
+^
+Cette visite guidée contient beaucoup de détails que vous voudrez
+peut-être revoir plus tard. Vous pouvez suivre de nouveau cette visite
+guidée à tout moment en sélectionnant {Visite guidée des commandes de la base}
+dans le menu Aide.
+
+#DESWIN
+#xs 400
+#button VISITE GUIDEE
+Sur l'{Ecran de l'atelier de conception}, vous créez de nouvelles
+unités avec lesquelles vous pourrez explorer et conquérir la
+Planète. Vous affectez à chaque unité un armement, un blindage,
+un châssis, un réacteur et peut-être une ou deux aptitudes
+spéciales. Ensuite, vous pourrez construire ces unités dans
+toutes vos bases.
+^
+Si vous souhaitez une visite guidée de cet écran plus détaillée,
+cliquez sur le bouton {VISITE GUIDEE}
+
+#DESTOURCHAS
+#xs 400
+Le {Châssis} détermine le nombre de points de {mouvement} qu'une
+unité peut utiliser à chaque tour. Vous pouvez aussi choisir un
+châssis {au sol}, {naval} ou {aérien}. Certains châssis bénéficient
+de bonus spéciaux lors des combats ; par exemple le type de châssis
+de l'Infanterie est particulièrement avantageux pour attaquer
+les bases ennemies.
+
+#DESTOURWEAP
+#xs 400
+Le fait d'attribuer un {Armement} à votre unité lui permet
+d'attaquer les unités ennemies. Plus la valeur d'attaque
+est élevée plus vous aurez de chances de succès (mais le coût de
+construction de l'unité sera plus onéreux). Vous pouvez aussi
+choisir des modules d'{Equipement} pour créer des unités
+ayant un rôle non combatif.
+
+#DESTOURARM
+#xs 400
+Le {Blindage} protège votre unité contre les attaques. Plus
+le blindage est épais plus votre unité sera résistante.
+
+#DESTOURREACTOR
+#xs 400
+Un {Réacteur} fournit de la puissance à votre unité. Vous devriez
+en général sélectionner le réacteur le plus puissant permis par
+votre niveau technologique, car ceci rend, non seulement votre
+unité plus résistante, mais son coût en est réduit.
+
+#DESTOURABILITY
+#xs 400
+Lorsque votre niveau technologique vous le permet, vous pouvez
+ajouter des  {aptitudes spéciales} telles des Capsules de largage
+ou des Supports antigravité pour des missions spéciales.
+
+#DESTOURCOST
+#xs 400
+Le {coût} indique le nombre de minéraux requis pour bâtir votre
+nouvelle unité. A moins de jouer au nom des Spartiates, la première
+unité d'un nouveau type aura un {coût de prototype}, représentant
+ainsi la difficulté de mise au point de nouveaux modèles.
+
+#DESTOURSTATS
+#xs 400
+Les {"statistiques"} de votre unité sont résumées ici. Le premier
+nombre représente la force de l'armement ou sa capacité offensive.
+Le deuxième nombre indique l'épaisseur du blindage ou sa
+capacité défensive. Le dernier nombre montre le nombre de points de
+mouvement. Si vous avez sélectionné un réacteur avec une valeur
+supérieure à 1, ceci sera affiché à la fin avec une étoile (*).
+
+#DESTOURBAR
+#xs 400
+Les types d'unité de base et les types d'unité que vous avez conçus
+apparaîtront ici. Vous pouvez cliquer sur n'importe quel type
+d'unité pour l'examiner ou le modifier.
+
+#DESTOURARROWS
+#xs 400
+Ces boutons fléchés vous permettent de faire défiler vos
+types d'unités.
+
+#DESTOURPRESETS
+#xs 400
+Les boutons {Prédéfinis} vous permettent de concevoir certains
+styles d'unité rapidement. Cliquez sur n'importe quel bouton
+et l'atelier proposera un modèle de ce type.
+
+#DESTOURDONE
+#xs 400
+Lorsque vous avez conçu une nouvelle unité ou apporté des
+changements à un vieux modèle, utilisez le bouton {Accepter}
+pour confirmer vos changements et fermez l'atelier de conception.
+
+#DESTOURAPPLY
+#xs 400
+Le bouton {Appliquer} peut être utilisé pour confirmer vos
+changements sans fermer l'atelier de conception ; vous pouvez
+ensuite créer ou examiner d'autres types d'unité.
+
+#DESTOURRENAME
+#xs 400
+Le bouton {Renommer} vous permet de nommer vos types d'unité.
+
+#DESTOUROBS
+#xs 400
+Le bouton {Obsolète} peut être utilisé pour indiquer qu'une
+unité est obsolète et qu'elle n'est plus nécessaire. Les types
+d'unité obsolètes n'apparaîtront plus dans les choix de production
+afin qu'ils n'occupent pas de place dans vos menus de production,
+mais toute unité existante de type obsolète continuera de
+fonctionner jusqu'à ce que vous l'amélioriez, la détruisiez
+ou la dissolviez. Vous pouvez aussi utiliser ce bouton pour
+remettre en service un type d'unité qui était précédemment obsolète.
+
+#DESTOURUPGRADE
+#xs 400
+Le bouton {AMELIORER} met à niveau toutes les unités du
+type actuellement sélectionné, les transformant ainsi en unités
+de type supérieur. L'atelier de conception vérifiera si vous
+possédez un type d'unité meilleur disponible et si c'est le cas
+il vous proposera une mise à niveau. Vous devez créer un nouveau
+prototype d'unité avant de pouvoir mettre à niveau les autres
+unité par rapport à ce type d'unité.
+
+#DESTOURRETIRE
+#xs 400
+Le bouton {HS} met hors service un type d'unité.
+Toutes les unités restantes de ce type sont dissoutes et le modèle
+est effacé de votre liste des unités (son "emplacement"
+devient vacant).
+
+#DESTOURCANCEL
+#xs 400
+Enfin, le bouton {Annuler} vous permet de quitter l'Atelier de
+conception sans effectuer de changements supplémentaires. Si
+vous souhaitez suivre de nouveau cette visite guidée, vous pouvez
+le faire à tout moment en sélectionnant "Visite guidée de
+l'Atelier de conception" à partir du menu Aide.
+
+#SOCWIN
+#xs 400
+#button VISITE GUIDEE
+Sur l'{Ecran de Génie social} vous exposez votre vision d'une
+utopie. Les choix que vous faites ont de nombreux effets
+pendant le jeu. Vous pouvez concevoir votre société pour qu'elle
+puisse bénéficier d'une puissance supérieure dans un domaine
+particulier mais soyez prudent, ceci peut créer des faiblesses
+dans d'autres domaines.
+^
+Si vous voulez une visite guidée plus détaillée de cet écran,
+cliquez sur le bouton {VISITE GUIDEE}.
+#SOCTOURMAIN
+#xs 400
+Dans la {Case du Génie} vous effectuez les choix de valeurs qui
+vont façonner votre société. Vos choix sont répartis dans quatre
+catégories : {Politique}, {Economie}, {Valeurs} et {Société future}.
+Au début du jeu vous avez peu d'options, mais grâce aux percées
+technologiques de vos chercheurs dans le domaine de la société, vos
+options deviendront de plus en plus nombreuses. Vous pouvez cliquer
+sur n'importe quel bouton de la case pour effectuer ce choix
+de société pour votre colonie.
+
+#SOCTOURFACTION
+#xs 300
+Les {Avantages} et {Désavantages} de votre faction sont indiqués ici.
+Il s'agit des forces et des faiblesses inhérentes à votre faction
+et dont vous ne pourrez pas vous défaire.
+
+#SOCTOUROVERVIEW
+#xs 300
+La {Case des effets sociaux} indique les effets résultant des
+choix que vous avez effectués.
+
+#SOCTOUREFFECTS
+#xs 300
+La {Case de la société} calcule l'effet social net dans chaque
+large catégorie. Vous pouvez cliquer sur n'importe lequel des
+boutons pour voir les choix de société qui maximisent
+le paramètre sélectionné.
+
+#SOCTOUR0
+#xs 300
+L'{ECONOMIE} indique la force brute de l'économie de votre société.
+L'augmentation de cette valeur entraînera une augmentation
+du flux d'énergie.
+
+#SOCTOUR1
+#xs 300
+L'{EFFICACITE} représente l'aptitude de votre
+société à fonctionner sans gaspillage et sans de mauvaise gestion.
+Si cette valeur tombe trop bas, vos bases commenceront à perdre
+de l'énergie en raison de l'inefficacité.
+
+#SOCTOUR2
+#xs 300
+Le {SOUTIEN} affecte les coûts de support des unités militaires.
+Plus votre score est bas, plus vous devrez utiliser des minéraux
+pour soutenir vos unités.
+
+#SOCTOUR3
+#xs 300
+Le {MORAL} affecte l'entraînement et la détermination de vos
+unités militaires. Un score élevé se traduit directement
+par des améliorations du moral de vos unités.
+
+#SOCTOUR4
+#xs 300
+La {POLICE} indique la tolérance de votre société vis-à-vis d'un
+Etat policier et d'une restriction des libertés individuelles. Un
+score élevé vous permet d'utiliser des unités militaires pour
+supprimer les émeutes de droïdes. Un score bas entraînera une
+augmentation des tensions lorsque vos unités militaires
+se trouveront loin de vos bases.
+
+#SOCTOUR5
+#xs 300
+La {CROISSANCE} affecte le taux de croissance de votre population.
+Plus votre score est élevé, moins vos bases auront besoin
+de nutriments pour s'accroître.
+
+#SOCTOUR6
+#xs 300
+La {PLANETE} indique la sensibilité de votre société à l'écologie
+de la Planète. Un score bas signale que des dégâts écologiques
+surviendront plus rapidement.
+
+#SOCTOUR7
+#xs 300
+Le {REPERAGE} affecte votre vulnérabilité (ou force) dans
+le domaine de la sécurité. Un score élevé vous aidera à empêcher
+les attaques des équipes de repérage ennemies.
+
+#SOCTOUR8
+#xs 300
+L'{INDUSTRIE} indique votre puissance de fabrication. Un
+score élevé réduit le nombre de minéraux requis pour construire
+des unités et des installations.
+
+#SOCTOUR9
+#xs 300
+La {RECHERCHE} affecte vos progrès technologiques. Un
+score élevé augmentera le taux auquel vous accomplirez
+des percées technologiques.
+
+#SOCTOURECON
+#xs 400
+La {Barre de l'Economie} vous permet de déterminer le pourcentage
+de votre flux d'énergie qui sera attribué à votre économie,
+augmentant ainsi vos {réserves d'énergie}. Cliquez sur
+les flèches gauches ou droites pour ajuster cette valeur.
+
+#SOCTOURPSYCH
+#xs 400
+La {Barre du Psychisme} vous permet de consacrer un pourcentage
+de votre flux d'énergie à l'amélioration de la qualité de vie
+de vos citoyens. L'énergie utilisée servira à augmenter le nombre
+de {Talents} dans votre société, empêchant ainsi les
+{Emeutes de droïdes}.
+
+#SOCTOURLABS
+#xs 400
+La {Barre des Labos} contrôle le pourcentage de votre flux
+d'énergie orienté vers la recherche. Bien que vous puissiez
+augmenter votre taux de percées technologiques en augmentant
+cette valeur, il est important de remarquer que votre
+efficacité est plus élevée les pourcentages de vos {Labos} et
+de votre {Economie} sont égaux. Lorsque ces deux paramètres
+diffèrent, votre inefficacité augmentera ; le taux dépendra de
+votre score d'{EFFICACITE}.
+
+#SOCTOURINFO
+#xs 400
+La {Case d'informations} indique des résultats supplémentaires
+suite à vos choix sociaux. Votre {Taux de percées} technologiques
+et votre {Revenu d'énergie} par tour sont affichés ici. Si vos
+paramètres des {Labos} et de l'{Economie} sont inégaux, toute
+inefficacité qui en résulte sera affichée ici. Aussi, si vous
+essayez de changer les valeurs de société trop rapidement,
+il y aura peut-être un {Coût du soulèvement} qui sera aussi
+affiché ici.
+
+#SOCTOURCANCEL
+#xs 400
+Le bouton {ANNULER} remet les paramètres de société qui
+existaient avant que vous apportiez des changements
+et vous permet de quitter l'écran.
+#SOCTOURRESET
+#xs 400
+Le bouton {RESTAURER} rétablit les paramètres de société qui
+existaient avant que vous apportiez des changements mais ne vous
+permet pas de quitter l'écran.
+
+#SOCTOUROK
+#xs 400
+Enfin, le {Bouton OK} permet de quitter l'écran, acceptant ainsi
+les changements que vous apportés à votre société.
+^
+Vous pouvez reprendre cette visite guidée à tout moment
+en sélectionnant la {Visite guidée du Génie social} à partir
+du menu Aide.
+
+#DRONERIOTS
+#xs 400
+#button DETAILS
+La base $BASENAME0 subit actuellement des {émeutes de droïdes}
+qui réduisent la productivité. La méthode la plus simple pour
+maîtriser les émeutes de droïdes consiste à demander à votre
+{Gouverneur} de s'en occuper, il prendra les mesures nécessaires
+pour les supprimer.
+Cliquez sur le bouton DETAILS pour plus d'informations.
+
+#DRONETOUR1
+#xs 400
+Les {Emeutes de droïdes} surviennent lorsque le nombre de {Droïdes}
+rouges de la base dépassent le nombre de {Talents} verts.
+Les autres citoyens, tels que les {Ouvriers} et les {Spécialistes}
+n'ont aucun effet direct sur les émeutes. Les droïdes apparaissent
+suite à la pression de la surpopulation et aux conditions de vie
+médiocres.
+Nous vous indiquerons plusieurs méthodes pour contrôler les
+émeutes de droïdes.
+
+#DRONETOUR2
+#xs 400
+Une méthode directe pour contrôler les émeutes de droïdes
+consiste à utiliser les unités militaires comme {police}.
+Les unités militaires vont agir automatiquement comme police si vous
+les déplacer à l'intérieur de votre base. Le nombre d'unités de police
+que vous pourrez utiliser dépendra du seuil de tolérance de votre
+société vis-à-vis de la police, ceci étant indiqué par votre taux
+de {POLICE} sur l'écran du Génie social. En faisant passer votre
+société à un {Etat Policé}, par exemple, vous pourrez vous permettre
+d'utiliser plus d'unités militaires pour agir en tant que police
+et supprimer des émeutes.
+
+#DRONETOUR3
+#xs 400
+Une méthode draconienne de contrôle des émeutes de droïdes
+consiste à {sectionner les nerfs} de vos citoyens.
+Le gaz innervant empêchera les émeutes de droïdes
+pendant au moins dix tours, mais ceci est
+considéré comme étant une atrocité.
+
+#DRONETOUR4
+#xs 400
+Une manière plus humanitaire d'empêcher les émeutes de droïdes
+consiste à bâtir des {installations} qui allégeront le stress
+de la surpopulation et les conditions de vie médiocres. Par exemple,
+un {Aire de jeu} va satisfaire les revendications de deux
+droïdes au plus qui deviendront ainsi des ouvriers réguliers.
+La construction d'installations représente une solution à long
+terme excellente pour résoudre les problèmes des droïdes.
+
+#DRONETOUR5
+#xs 400
+La création de {Docteurs} (ou plus tard, de {Télépathes} et de
+{Transcendants}) représente une autre solution, quoiqu'à court
+terme, au problème. Les docteurs, en augmentant votre rendement de
+{Psychisme}, augmenteront le nombre de Talents pour équilibrer
+le nombre de Droïdes. Pour promouvoir un citoyen au
+statut de Docteur, cliquez sur lui dans la barre de la population.
+
+#DRONETOUR6
+#xs 400
+Si vous possédez de nombreuses bases importantes produisant
+beaucoup d'énergie, vous pouvez orienter une quantité de
+cette énergie vers le {Psychisme}, ceci améliorera la qualité de vie
+de vos citoyens. Deux unités d'énergie orientées vers le Psychisme transformeront l'un de vos Ouvriers en Talent. Pour
+orienter un pourcentage de votre production d'énergie vers le
+Psychisme, rendez-vous à l'écran du Génie social en le
+sélectionnant à partir du menu QG sur l'affichage principal.
+
+#DRONETOUR7
+#xs 400
+Vous pouvez utiliser le bouton du {Psychisme} pour voir les effets
+de la Police, des installations, du psychisme et des Projets secrets.
+
+#LOWNUTRIENT
+#xs 400
+La baser $BASENAME0 ne produit pas assez de {nutriments} pour
+nourrir ses citoyens !
+Cliquez sur le carré central de la (base) sur la Carte
+de la base pour transformer quelques spécialistes en Ouvriers.
+
+#NEWTERRAFORMER
+#xs 400
+#button TOUR
+La base $BASENAME0 vient juste de construire une unité $UNITNAME1, qui
+représente les Ingénieurs de terraformage dont le rôle est crucial à la
+réussite de l'expédition. Les Formeuses peuvent planter des forêts,
+construire des fermes, des routes, des mines et des capteurs
+solaires ; Elles pourront même plus tard élever ou raser des montagnes.
+^
+Appuyez sur Maj+A pour automatiser ces Formeuses pour qu'elles
+commencent à faire automatiquement des travaux d'amélioration dans
+votre colonie. Si vous voulez apprendre les méthodes de terraformage,
+cliquez sur le bouton {Visite guidée}.
+
+#TERRAFORMER
+#xs 320
+Vos Ingénieurs de terraformage ("FORMEUSES") sont cruciales à la
+réussite de votre expédition. Les Formeuses peuvent planter des
+forêts, construire des fermes, des routes, des mines et des capteurs
+solaires ; elles pourront même plus tard élever ou raser des montagnes.
+
+#TERRAFARM
+#xs 400
+#button Ne pas réafficher
+Ce carré pourrait produire des nutriments supplémentaires s'il
+possédait une Ferme. Les nutriments permettront à la base $BASENAME0
+de se développer. Pour construire une Ferme ici, appuyez sur la
+touche 'F'.
+
+#TERRASURVEY2
+#xs 300
+Cette étude indique les carrés qui se prêtent le mieux à la plantation
+de récoltes. Les carrés comportant beaucoup d'icônes conviennent le
+mieux. Utilisez cet écran comme guide pour envoyer vos Formeuses dans
+leurs expéditions d'amélioration du sol. Pour désactiver cette vue, il
+suffit de cliquer n'importe où sur la carte.
+
+#TERRAROAD
+#xs 400
+#button Ne pas réafficher
+Les formeuses peuvent aussi construire des routes qui permettent
+d'accélérer le déplacement des unités. Pour construire une route ici,
+appuyez sur la touche  'R' ou sélectionnez "Bâtir route" à partir
+du menu Ordres.
+
+#TERRARAISE
+#xs 400
+#button Ne pas réafficher
+Le capteur solaire dans ce carré accumulerait plus d'énergie si le
+carré était à une altitude supérieure. Vos Formeuses élèveront
+l'altitude de ce carré si vous appuyez sur la touche "]]" ou si
+vous sélectionnez "Elever terrain" à partir du menu Ordres.
+
+##TERRARAISE2
+##xs 300
+##button Ne pas réafficher
+#La base $BASENAME0 ne produit pas beaucoup d'énergie. Pour augmenter
+#sa production d'énergie, vous devez construire des capteurs solaires
+#sur des carrés de haute altitude situés à proximité. Comme la base
+#$BASENAME0 ne possède pas beaucoup de carrés à haute altitude,
+#vous voudrez peut-être élever le niveau de ce carré en appuyant
+#sur la touche "]]" ou en sélectionnant "Elever terrain" à partir
+#du menu Ordres.
+
+#TERRAMINE
+#xs 400
+#button Ne pas réafficher
+Pour produire de nouvelles Formeuses ou Unités militaires, votre
+colonie doit accumuler des minéraux. Appuyez sur la touche 'M' pour
+construire une mine qui augmentera la production de minéraux ici.
+
+#TERRASOLAR
+#xs 400
+#button Ne pas réafficher
+Les capteurs solaires récupèrent l'{énergie} pour votre colonie qui
+aide votre économie et accélère la recherche scientifique. Appuyez
+sur 'S' pour construire un capteur solaire ici.
+
+#TERRAFOREST
+#xs 300
+#button Ne pas réafficher
+Planter des {forêts} est une manière excellente d'augmenter les
+ressources. Les carrés de forêts fournissent une quantité limitée de
+nutriments, de minéraux et d'énergie dans n'importe quel carré ; cette
+production de ressource bien équilibrée peut être très utile,
+spécialement dans les carrés qui conviennent le moins à une
+production traditionnelle.
+
+#TERRASENSOR
+#xs 300
+#button Ne pas réafficher
+Les {Détecteurs} détectent les vers télépathes et les unités ennemies
+à une distance de deux carrés. De plus, ils fournissent un bonus
+défensif de +25% à vos unités au sol situées à une distance de
+deux carrés. Appuyez sur 'O' pour bâtir un Détecteur.
+
+#NEWUNIT
+#xs 400
+La base $BASENAME0 vient juste de construire une nouvelle
+unité $UNITNAME1. Des unités peuvent être utilisées pour explorer
+la planète, attaquer des ennemis et défendre votre colonie.
+
+#FASTUNIT
+#xs 400
+Cette unité $UNITTYPE0 ($UNITSTATS1) peut se déplacer deux fois
+à chaque tour sauf si elle se trouve dans un carré rocailleux ou
+comportant du fongus (vous remarquerez que sa valeur de mouvement,
+le troisième nombre, est deux).
+Les unités mobiles reçoivent un bonus de combat lorsqu'elles attaquent
+en terrain dégagé et peuvent souvent s'échapper face à un ennemi plus
+fort mais plus lent.
+
+#BIGUNIT
+#xs 400
+Cette unité $UNITTYPE0 plus fortement armée ($UNITSTATS1) s'avérera
+utile pour attaquer des ennemis ou défendre votre territoire.
+Vous remarquerez sa valeur d'{armement} élevée (le premier nombre).
+Les unités d'infanterie sont particulièrement efficaces pour attaquer
+les bases ennemies car elles bénéficient d'un modificateur d'attaque
+de +25% dans ce cas.
+
+
+#ARTYUNIT
+#xs 400
+Cette unité $UNITTYPE0 peut faire feu contre des ennemis situés
+"Feu à longue portée" à un maximum de deux espaces.
+Sélectionnez à partir du Menu Action lorsque vous voulez tirer.
+
+
+#NEWSHIP
+#xs 400
+Utilisez les aéroglisseurs et d'autres {navires} pour explorer les mers
+de la planète, protéger vos bases contre des attaques navales et
+transporter des unités d'un continent à un autre.
+
+#NEWAIR
+#xs 400
+Les unités {aériennes} peuvent se déplacer rapidement au-dessus du sol
+et de la mer mais elles doivent rentrer à la base de temps en temps
+pour se réapprovisionner en {carburant}.
+
+#DEFENDIT
+#xs 400
+#button Ne pas réafficher
+Cette unité $UNITTYPE1 devrait peut-être "rester à la base" pour
+{défendre} la base $BASENAME0 contre un danger potentiel. Appuyez sur
+la touche 'H' pour lui donner l'ordre de "TENIR" ici.
+
+#DEFENDIT2
+#xs 400
+#button Ne pas réafficher
+cette unité $UNITTYPE1 ($UNITSTATS2) pourrait être une excellente
+unité de garnison. Vous remarquerez que son {blindage} (deuxième
+numéro) est élevé et son armement (premier numéro) est faible.
+Elle devrait peut-être "rester à la base" pour {défendre} la base
+$BASENAME0 contre un danger potentiel. Appuyez sur la touche 'H'
+pour lui donner l'ordre de "TENIR" ici.
+
+#ENEMYBASE
+#xs 400
+Cette base, la base $BASENAME0, appartient à un autre joueur, $TITLE1
+$NAME2 de la faction $FACTION3. Vous pouvez attaquer une base ennemie
+en essayant de pénétrer à l'intérieur.
+
+
+#ENEMYVEH
+#xs 400
+Cette unité appartient à un autre joueur, $TITLE1 $NAME2 de la faction
+$FACTION3. Les autres factions peuvent devenir des alliés utiles ou de
+dangereux ennemis. Vous pouvez attaquer une unité ennemie en essayant
+d'entrer dans son carré.
+
+#ENEMYTERR
+#xs 400
+Cette ligne colorée indique la frontière du {territoire} d'un autre
+dirigeant de faction--$TITLE1 $NAME2 de la faction $FACTION3.
+Les dirigeants de faction peuvent réagir violemment si vous
+entrez dans leur territoire.
+
+#NEWUNITS
+#xs 400
+#caption CONSEILS D'ORDRE GENERAL
+Les unités dotées d'un {blindage} épais et de capacités défensives
+élevées sont utiles pour défendre des zones importantes ; utilisez la
+touche 'H' ou la commande "Tenir" pour qu'elles se retranchent dans
+vos bases.
+^
+Les unités à déplacement {rapide} sont excellentes pour l'exploration et
+les attaques mobiles. Utilisez-les pour explorer la planète et chercher
+vos ennemis.
+^
+Si vous décidez d'attaquer un ennemi, créez une unité équipée d'une
+{arme} puissante et d'une capacité de mouvement élevée.
+^
+Les {Capsules colonie} permettent à votre colonie de s'étendre en
+construisant de nouvelles bases. Plus vous construisez de bases,
+plus votre colonie s'accroît rapidement.
+^
+Les unités de {Terraformage} accéléreront le processus de construction
+de fermes et de routes ainsi que d'autres infrastructures. N'oubliez
+pas de construire des Formeuses une fois que votre colonie
+commence à s'étendre.
+
+#NEWCOLONIST
+#xs 400
+#button Ne pas réafficher
+La base $BASENAME0 a produit une nouvelle {Capsule de colonie} qui
+représente l'équipement et la main d'oeuvre nécessaires pour fonder
+une nouvelle base! Déplacez-le vers un endroit approprié, tel que
+celui indiqué par la deuxième ligne, puis appuyez sur la touche 'B'
+pour bâtir une base.
+
+#BUILDHERE
+#xs 400
+#button Ne pas réafficher
+La proximité de terres fertiles et la présence d'autres ressources
+font de cet emplacement un endroit excellent pour construire une {base}.
+Pour construire une base ici, appuyez sur la touche 'B' ou sélectionnez
+la commande "Bâtir base" à partir du menu Ordres.
+
+#FUNGUSAMUNGUS
+#xs 300
+Le {Xénofongus} est une forme végétale propre à cette planète et vous
+constaterez qu'elle pousse rapidement dans beaucoup de zones de la
+planète. Les plantes terriennes ne peuvent pas pousser dans les
+carrés contenant du fongus sauf si vous l'éliminez auparavant.
+
+#FUNGUSSEA
+#xs 300
+Le fongus des mers ralentit le mouvement des navires de surface.
+
+#TECHNOLOGY
+#xs 400
+#caption La recherche
+L'{énergie} alimente vos {labos} de recherche et aide vos
+chercheurs à découvrir et exploiter de nouvelles {technologies}.
+Vous orientez leur recherche en contrôlant les domaines d'étude
+dans lesquelles ils sont impliqués.
+
+#TERRAFORM
+#xs 400
+Les événements qui font élever ou raser les {montagnes}, c'est-à-dire
+les (tremblements de terre, les actions des Formeuses, etc.) peuvent
+aussi entraîner des {changements climatiques}. Les montagnes d'une
+altitude supérieure ou égale à 2000 mètres au dessus du niveau de la
+mer ont un effet significatif sur la formation des nuages et les
+précipitations. En effet, ces montagnes retiennent l'humidité qui est
+acheminée par les vents prédominants. Ceci signifie que les zones
+"sous le vent" (situées à l'"est" ou à "droite" dans ce jeu) d'une
+montagne seront plus arides et les zones "au vent" d'une montagne
+(à l'"ouest" ou à "gauche") seront plus humides car l'humidité est
+retenue à leur avantage. Vous pouvez profiter de ce phénomène en
+faisant élever des montagnes par vos Formeuses pour "assécher" les
+zones sous le vent de vos ennemis ou pour augmenter les précipitations
+des zones au vent de vos bases.
+
+#SLOWFUNGUS
+#xs 300
+Le {xénofongus} épais est un obstacle à vos unités. Il faut plusieurs
+tours pour rentrer dans un carré de xénofongus.
+
+#FRACTIONALMOVE
+#xs 300
+Une unité qui ne dispose pas assez de points de mouvements pour
+rentrer dans un carré sera peut-être obligée de rester dans le
+carré où elle se trouve pendant un tour supplémentaire.
+
+#MADEFARM
+#xs 400
+Vos Formeuses ont construit une {ferme} ici. Ce carré produira
+maintenant des nutriments supplémentaires. Les {nutriments}
+aident à augmenter votre population.
+
+#MADESOIL
+#xs 400
+Vos Formeuses ont construit ici un {fertilisant de terrain} qui va
+améliorer la production de nutriment de ce carré.
+
+#MADEMINE
+#xs 400
+Vos Formeuses ont construit ici une {mine} qui améliore la production
+de {minéraux} dans ce carré. Les minéraux permettent à vos bases de
+construire des unités et des installations.
+
+#MADESOLAR
+#xs 400
+Vos Formeuses ont construit ici un {capteur solaire} qui améliorera la
+production d'{énergie} dans ce carré. L'énergie accélère la recherche
+et augmente votre richesse.
+
+#MADEFOREST
+#xs 400
+Vos Formeuses ont planté ici une {forêt}. Les forêts fournissent des
+ressources {équilibrées} de nutriments, de minéraux et d'énergie.
+Elles améliorent l'environnement local et s'étendent dans les carrés environnants.
+
+#MADEROAD
+#xs 400
+Vos Formeuses construisent ici une {route}. Les unités se déplacent
+trois fois plus rapidement lorsqu'elles empruntent une route. Les
+routes améliorent le rendement des mines.
+
+#MADETUBE
+#xs 400
+Vos Formeuses construisent ici un {tube mag}. Les unités peuvent se
+déplacer rapidement sur les tubes mag sans utiliser leurs points de
+mouvement.
+
+#MADESENSOR
+#xs 400
+Vos Formeuses ont construit ici un {détecteur}. Un détecteur détectera toute
+unité ennemie dans un rayon de deux espaces. Les détecteurs vous aident
+aussi à fournir un {bonus défensif de +25%} à vos unités situées dans
+un rayon de deux espaces.
+
+#MADEAQUIFER
+#xs 400
+Vos formeuses ont détecté une {aquifère !} souterraines. La nouvelle
+rivière augmentera votre production d'énergie et accélérera le
+mouvement au sol.
+
+#MADECONDENSER
+#xs 400
+Vos Formeuses ont construit ici un {condenseur} Un condenseur augmente
+les précipitations (et par conséquent la production de nutriments)
+dans tous les carrés de terre adjacents.
+
+#MADEBOREHOLE
+#xs 400
+Vos Formeuses ont construit ici un {trou de forage}. Un trou de
+forage améliore à la fois la production de minéraux et la production
+d'énergie mais empêche la production de nutriments
+
+#MADESEAMINE
+#xs 400
+Vos Formeuses des mers ont construit ici une {plate-forme de minage} qui
+permet à ce carré de produire des minéraux.
+
+#MADESEASOLAR
+#xs 400
+Vos Formeuses des mers ont construit ici un {harnais des marées} qui
+augmente la production d'énergie dans ce carré.
+
+#MADESEAFARM
+#xs 400
+Vos Formeuses des mers ont planté ici {une forêt de varechs} qui
+augmente la production de nutriments dans ce carré.
+
+#SOCIETY
+#xs 440
+#caption AUMONIER PSY
+La découverte de la technologie $TECH0 permet à votre colonie de
+faire un nouveau choix de Génie social, le choix "{$SOC1}". Voulez-vous
+faire de nouveau choix de Génie social maintenant ?
+
+Non. Continuez avec le modèle social actuel.
+Oui. Commencez le Génie social.
+
+#EXPLORATION
+#xs 400
+Les capsules de ravitaillement de votre vaisseau spatial,
+l'Unity, représentent un intérêt particulier lors de l'exploration
+de la planète. Vous devez entrer dans le carré contenant la capsule
+pour trouver ce qu'elle contient.
+
+#BONUSNUTRIENT
+#xs 400
+Ce symbole indique des ressources abondantes de {nutriments}.
+Si vous avez une base à une distance de deux carrés, elle
+pourra y produire des nutriments supplémentaires. Les nutriments
+permettent d'augmenter votre population.
+
+#BONUSMINERALS
+#xs 400
+Ce symbole indique des ressources abondantes de {minéraux}.
+Si vous avez une base à une distance de deux carrés, elle
+pourra y produire des minéraux supplémentaires, spécialement
+si vous y construisez une {mine}. Les minéraux vous
+aident à construire de nouveaux véhicules et des installations.
+
+#BONUSENERGY
+#xs 300
+Ce symbole représente des ressources abondantes d'{énergie}.
+Si vous avez une base à une distance de deux carrés, elle
+pourra y produire de l'énergie supplémentaire. L'énergie
+accélère la recherche scientifique et augmente votre richesse.
+
+#SECONDBASE
+#xs 300
+Votre base $BASE0 est en pleine prospérité. Il est peut-être temps
+maintenant de fonder une deuxième base. Pour ce faire, cliquez sur
+la base $BASE0 et utilisez le bouton "Changer" pour donner l'ordre
+de construire une Capsule colonie.
+
+#BUILDMORE
+#xs 300
+Votre colonie s'accroît en fondant de nouvelles bases ; vous pouvez
+obtenir de nouvelles bases soit en les construisant vous-même soit
+en conquérant des bases ennemies. Vous devriez donner
+l'ordre à l'une de vos bases de construire une nouvelle Capsule colonie.
+
+#BUILDBASE
+#xs 300
+Il est temps d'étendre votre colonie en construisant une nouvelle
+base envoyez cette Capsule colonie vers un emplacement convenable et
+ensuite appuyez sur la commande 'B'.
+
+#ARTIFACT
+#xs 300
+Déplacez cet {Objet extra-terrestre} vers l'une de vos bases aussi
+vite que possible. Plus tard, après avoir construit un {Noeud de
+réseau}, vos chercheurs pourront le relier à cet objet pour essayer
+d'apprendre ses secrets.
+
+#DAMAGED
+#xs 400
+Cette unité a été endommagée au combat. Les dégâts sont indiqués
+par une barre colorée située sur le côté gauche de l'icône du statut :
+vert représente peu (ou aucun) dégâts ; jaune et rouge indiquent
+des dégâts de plus en plus importants.
+^
+Pour réparer une unité endommagée, déplacez-la vers l'une de vos
+bases, puis ne l'activez pas pendant un tour (appuyez sur la barre
+espace). Vous devrez peut-être répéter cette opération pendant
+plusieurs tours.
+^
+Vous pouvez aussi effectuer des "réparations sur le terrain"
+(c'est-à-dire pas à la base), mais le processus est bien plus
+lent et est efficace uniquement si votre unité a subi plus de
+20% de dégâts.
+^
+Une base comportant un Centre de commande peut
+réparer des unités au sol en un seul tour ; de même, un Chantier
+naval et un Complexe aérospatial peuvent réparer rapidement des
+unités navales et aériennes.
+
+#TREETIME
+#xs 300
+#caption Directeur des opérations
+Maintenant que vos chercheurs ont découvert la technologie $TECH0, nos
+Formeuses peuvent planter des forêts (touche de commande 'Maj+F') dans
+les carrés qui ne sont ni arides ni rocailleux. Les carrés de forêt
+produisent deux nutriments, un minéral et une unité d'énergie. Elles
+sont donc idéales dans les zones qui sont trop chaudes ou trop froides
+pour d'autres utilisations.
+
+#ZOCMSG
+#xs 400
+Les unités au sol ne peuvent pas passer d'un carré à un autre si
+ceux-ci sont adjacents à des unités d'un autre joueur ; elles doivent
+tout d'abord se retirer dans un carré qui n'est pas adjacent. On
+appelle ceci la règle de la "zone de contrôle" et représente la
+difficulté de manoeuvrer face à des forces ennemies.
+^
+^Il existe quelques exceptions à cette règle :
+^* Les unités peuvent toujours entrer dans des carrés occupés par
+des unités alliées.
+^* Les unités peuvent toujours entrer et sortir des bases librement.
+^* Les unités avec l'aptitude "$ABIL0" peuvent ignorer les zones de
+contrôle.
+
+#VENDETTA
+#xs 440
+$TITLE0 $NAME1 de la faction $FACTION2 a déclaré une Vendetta contre
+vous et votre faction ! Vous devriez renforcer vos défenses ; vous
+pouvez passer quelques-unes unes de vos bases en mode "CONQUERIR" cliquez
+sur la base, puis cliquez sur le bouton CONQUERIR. Pour attaquer une
+unité ou une base ennemie, déplacez une de vos unités dans son carré.
+
+#PSICOMBAT
+#xs 440
+Quelques unités (essentiellement les créatures indigènes
+tels que les Vers télépathes) peuvent engager un {COMBAT PSY}. Dans
+un Combat Psy, les capacités d'armement et de blindage sont ignorées
+et l'attaquant bénéficie d'un avantage de 3 contre 2 sur terre
+(1 contre 1 pour les combats sur mer). Le niveau du {MORAL} est
+très important dans un Combat psy.
+
+#MINDWORMS
+#xs 440
+Les Vers télépathes, l'une des formes de vie de la Planète
+la plus redoutée, peuvent apparaître à tout moment, spécialement
+près des carrés de fongus. Les vers télépathes attaquent violemment
+les colonies.
+
+#EMPTYBASE
+#xs 440
+#button Ne pas réafficher
+Cette base, la base $BASENAME0, n'est pas défendue et peut tomber
+aux mains des vers télépathes ou de vos ennemis. Vous devriez
+peut-être déplacer l'une de vos unités à l'intérieur de cette base
+pour la protéger ou cliquez sur la base et donnez-lui l'ordre de
+construire une nouvelle unité de garnison.
+
+#INEFFICIENCY
+#xs 440
+Vous remarquerez des plaques rouges sur la barre d'{énergie}. Ceci
+signifie que cette base est en train de perdre beaucoup d'énergie en
+raison de son {inefficacité}. L'inefficacité augmente lorsque vos
+choix de génie social sont inadéquats par rapports aux besoins d'une
+grande colonie et une population importante. Essayez de bâtir une
+{Crèche pour enfants} pour augmenter l'efficacité ou passer à un
+modèle social plus efficace du point de vue économique (démocratique
+ou écologique, par exemple), sur l'écran du Génie social.
+
+#INEFFICIENCYHQ
+#xs 440
+Comme vous avez perdu votre base {Quartier Général} (la première
+base que vous avez construite), votre colonie n'a pas de QG central.
+Le manque de force d'unification et centrale entraîne une augmentation
+de l'{inefficacité} dans votre colonie, comme l'indique les plaques
+rouges sur la barre de l'{énergie}.
+Vous devriez choisir une base relativement en sécurité et lui
+demander de bâtir une nouvelle installation de {Quartier général}.
+
+#SUPPORT
+#xs 400
+La base $BASENAME0 utilisent énormément de {minéraux} pour le
+{support d'unité}. Comme elle supporte tant d'unités, cette base
+ne peut pas bâtir de nouvelles installations et d'unités très
+rapidement. Vous devriez {dissoudre} certaines unités si vous
+pouvez vous en passer ou vous pouvez passer à un modèle social
+plus militariste (Etat Policé ou étatique, par exemple) sur
+l'écran du Génie social.
+
+#LOWMINERALS
+#xs 400
+La base $BASENAME0 ne produit plus beaucoup de {minéraux}. Ceci
+signifie qu'elle ne peut pas bâtir des unités ou des installations
+très rapidement. Peut-être avez-vous besoin de quelques {Formeuses}
+pour bâtir des {Mines} ou planter des  {Forêts} aux alentours.
+
+#LOWMINERALS2
+#xs 400
+La base $BASENAME0 ne produit pas beaucoup de {minéraux}. Ceci
+signifie qu'elle ne peut pas bâtir des unités ou des installations
+très rapidement. Peut-être avez-vous besoin de quelques {Formeuses
+des mers} pour bâtir des {Plates-formes de minage} aux alentours.
+
+#COMMERCE
+#xs 400
+Notre nouveau {Traité} avec la faction $FACTION0 nous permet
+d'effectuer des échanges et du {Commerce}, si la faction est
+humaine. Chacune de nos bases, si elle est assez importante, peut
+maintenant commencer à recevoir un bonus d'{énergie} généré par
+les échanges commerciaux. Nous pouvons augmenter nos bonus
+commerciaux en signant plus de traités avec d'autres factions
+humaines, en passant des Pactes avec d'autres factions humaines
+et en recherchant plus de technologies économiques et industrielles.
+^
+Les traités et les Pactes avec les factions des progéniteurs n'ont
+pas d'incidence sur le commerce.
+
+#PACT
+#xs 400
+Notre récent {Pacte} avec la faction $FACTION0 nous permet
+de coopérer avec $TITLE1 $NAME2 afin d'atteindre des buts
+communs. Nous pouvons maintenant nous déplacer librement dans
+le territoire de la faction $<M1:$FACTIONADJ3> stationner nos
+unités avec leurs unités et entrer dans leurs bases. De même,
+les unités de la faction $FACTION0 peuvent traverser notre
+territoire sans déclencher un conflit militaire. Le point
+le plus important est l'effet immédiat sur le {Commerce}
+entre nos deux factions, en effet celui-ci est doublé !
+
+#ALMEETSGUY
+#xs 400
+Vous avez rencontré des unités d'une faction humaine, qui ont laissé
+des traces de leur passage sur toute la surface de Planète. Puisque
+vous avez découver la {Psy sociale}, vous pouvez communiquer avec ces
+étranges créatures arriérées.
+
+#GUYMEETSAL
+#xs 400
+Vous avez rencontré des unités de la faction $FACTION0. Ces extra-terrestres
+appartiennent à la race des Progéniteurs, dont les ancêtres ont bâti les
+nombreuses structures mystérieuses que vous avez pu voir. Puisque vous avez
+découvert la {Psy Progéniteur}, vous pouvez communiquer avec toutes les factions
+de Progéniteurs.
+
+#ALMEETSAL
+#xs 400
+Vous avez rencontré des unités de la faction $FACTION0. Votre propre faction est
+engagée dans une guerre sans fin avec ce groupe ; c'est pourquoi aucune communication
+n'est possible.
+
+#ALMEETSGUYNOPSYCH
+#xs 400
+Vous avez rencontré des unités d'une faction humaine. Vous devez découvrir
+la {Psy sociale} avant de pouvoir communiquer avec ces primitifs.
+
+#GUYMEETSALNOPSYCH
+#xs 400
+Vous avez rencontré des unités de la faction $FACTION0. Vous devez découvrir
+la {Psy Progéniteur} avant de pouvoir communiquer avec ces extra-terrestres.
+
+#GETOGRE
+#xs 400
+Vous avez découvert une unité extra-terrestre connue sous le nom d'Ogre de
+combat. Les Ogres de combat sont de grosses machines de guerre abandonnées
+par la race même qui a créé les monolithes et les objets anciens. Un Ogre est
+une arme très puissante, mais sa technologie archaïque le rend impossible à
+réparer, même à un monolithe.
+
+#SEALURK
+#xs 400
+Cette forme de vie Planétaire est nommée Maringuet. Elle est semblable à
+l'île des profondeurs en ce qu'elle habite les océans de Planète, mais elle ne
+peut transporter d'autres unités. Elle attaque les bases maritimes et côtières.
+
+#SPORELAUNCHER
+#xs 400
+Cette forme de vie planétaire est nommée Lanceur de spores. Elle attaque en
+bataille rangée, comme les unités dotées de l'aptitude spéciale Artillerie lourde.
+Bien qu'elle ne soit pas terriblement dangereuse, elle essaie de détruire toutes
+les améliorations de vos bases, il faut donc essayer de les capturer ou de les
+détruire rapidement.
+
+
+
+# ; This line must remain at end of file
+

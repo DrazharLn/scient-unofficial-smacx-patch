@@ -1,0 +1,143 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; FACTION FILE: Morgan Industries
+;
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#MORGAN
+Morgan Industries, The Mogul, Morganites, M, 2, Morgan, M, -1,  0, 0, 1, 0,
+  TECH, Indust, ENERGY, 100, SOCIAL, +ECONOMY, POPULATION, 3, COMMERCE, 1, SOCIAL, -SUPPORT
+  Economics, Free Market, ECONOMY
+  Economics, Planned, nil
+  Morganic, Morgan,
+  Jeneba, Kai, The Jeneba Complex
+  CEO, shrewd, monopolistic, wealthy, bloated,
+  Filthy Money Grubber
+  dominate Planet’s economy
+  to reap the rightful rewards of skillful investment and planning
+  achieving total monopolistic control of all of Planet’s resources
+  achieving total monopolistic control of all of Planet’s resources
+  grab every drop of Planet’s wealth for yourself
+  counting his ill-gotten energy tokens
+  counting your ill-gotten energy tokens
+  monopolistic grasping
+  monopolistic grasping, M1
+  business plans, M2
+  corporate empire-building, M1
+  investment, M1
+  exploiting Planet’s natural wealth
+  Corporate Security
+  Morgan Corporate Policy
+
+#BASES
+Morgan Industries
+Morgan Metagenics
+Morgan Bank
+Morgan Trade Center
+Morgan Biochemical
+Morgan Data Systems
+Morgan Hydroponics
+Morgan Mines
+Morgan Processing
+Morgan Solarfex
+Morgan Entertainment
+Morgan Distribution
+Morgan Pharmaceuticals
+Morgan Metallurgy
+Morgan Transport
+Morgan Antimatter
+Morgan Energy Monopoly
+Morgan Collections
+Morgan Construction
+Morgan Interstellar
+Morgan Aerodynamics
+Morgan Robotics
+Morgan Studios
+Morgan Gravitonics
+Morgan Plaza
+Morgan Stock Market
+Morgan Infrastructure
+Morgan Agriculture
+Morgan Derivatives
+#END
+
+#WATERBASES
+Morgan Hydrochemical
+Morgan Ocean Resources
+Morgan Marine
+Morgan Sea Platform
+Morgan Dock
+Morgan Port
+Morgan Fisheries
+#END
+
+#BLURB
+Human behavior is economic behavior. The particulars may vary,
+but competition for limited resources remains a constant. Need
+as well as greed have followed us to the stars, and the rewards
+of wealth still await those wise enough to recognize this deep
+thrumming of our common pulse.
+^
+^       —CEO Nwabudike Morgan,
+^       “The Centauri Monopoly”
+
+#DATALINKS1
+^LEADER: {CEO Nwabudike Morgan}
+^BACKGROUND: {Namibian Diamond Tycoon, Unity Franchise Holder}
+^AGENDA: {Free Market Economics, Pro-Industry}
+^TECH: {Industrial Base}
+^
+
+#DATALINKS2
+^+1 ECONOMY:  {Industrial conglomerate}
+^-1 SUPPORT:  {Followers have expensive tastes}
+^COMMERCE: {bonus increases value of treaties, pacts, loans}
+^Begins with 100 extra energy credits.
+^{Need Hab Complex} for bases to exceed size 4: {Creature comforts at a premium}
+^{May not use Planned Economics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Vendetta is bad for business, $NAME1. I suggest
+we pledge Blood Truce and get back to work.”
+
+“Fair enough. I shall order hostilities to cease.”
+“Sorry, $NAME3, but I plan to put you out of business.”
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“Friend $NAME1, I can offer lucrative trading arrangements
+if you will agree to a Treaty of Friendship. Shall we
+become business partners?”
+
+“By all means. Let us prosper together in peace.”
+“No. All of the profit would find its way into your pocket.”
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Vendetta must be bad for Progenitor business as much as humans, $NAME1. I suggest
+we pledge Blood Truce and get back to work.”
+
+“Economy: important. Death: to be avoided. Truce: agreed.”
+“$NAME3: believes money can save. Progenitor: disagree. War: continues!”
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“$NAME1, your lack of interest in human commerce makes you a
+natural ally, for we have no point of contention. Shall we
+sign a Treaty of Friendship and work toward other common goals?”
+
+“Commerce: not the only result. Friendship: valued. Treaty: agreed.”
+“Progenitor: no benefit: human treaty policies. Decline: politely.”
+
+# ; This line must remain at end of file

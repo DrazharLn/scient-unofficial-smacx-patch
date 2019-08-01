@@ -1,0 +1,154 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; FACTION FILE: The Lord’s Believers
+;
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#BELIEVE
+The Lord’s Believers, The Fundamentalist, Believers, M, 2, Miriam, F, 1,  1, 0, 0, 1,
+  TECH, Psych, SOCIAL, --RESEARCH, SOCIAL, +PROBE, SOCIAL, ++SUPPORT, SOCIAL, -PLANET, FANATIC, 0
+  Politics, Fundamentalist, PROBE
+  Values, Knowledge, nil
+  Believing, Belv.,
+  Jessica, Westcott, Jessica’s Faith
+  Sister, pious, fanatic, devout, bible thumping,
+  Religious Freak
+  embrace the truth of the Lord’s Scripture
+  to embrace the truth of the good Lord’s Scripture
+  imposing her extremist moral code on everyone else
+  imposing your extremist moral code on everyone else
+  shove your religious extremism down my throat
+  pounding her cherished bible
+  pounding your cherished bible
+  bible thumping extremism
+  bible thumping extremism, M1
+  life of worship, M1
+  bizarre religious practices, M2
+  tithe, M1
+  upholding standards of decency and morality
+  my Angels of Justice
+  Conclave Oral Law
+
+#BASES
+New Jerusalem
+Great Conclave
+Great Zion
+Far Jericho
+Redemption Base
+Children of God
+Noah’s Rainbow
+The Voice of God
+Judgement Seat
+Valley of the Faithful
+Blessed Redeemer
+The Glory of God
+New Eden
+Terrible Swift Sword
+Time of Salvation
+Eternal Reward
+The Lord’s Mercy
+Righteous Sentence
+Throne of God
+The Rapture
+The Lord’s Wrath
+The Lord’s Grace
+The Hand of God
+The Coming of the Lord
+Sanctity Base
+The Lord’s Chosen
+Hallowed Ground
+The Lord’s Gift
+Divinity Base
+The Word of God
+Revelation Base
+The Holy Fire
+The Lord’s Truth
+Blessed Saviour
+From On High
+Godwinson’s Hope
+House of Martyrs
+#END
+
+#WATERBASES
+He Walked on Water
+Loaves and Fishes
+Belly of the Whale
+Fisher of Men
+Port Grace
+Water to Wine
+Consecrated Waters
+#END
+
+#BLURB
+The righteous need not cower before the drumbeat of human progress.
+Though the song of yesterday fades into the challenge of tomorrow,
+God still watches and judges us. Evil lurks in the datalinks as it
+lurked in the streets of yesteryear. But it was never the streets
+that were evil.
+^
+^       —Sister Miriam Godwinson,
+^       “The Blessed Struggle”
+
+#DATALINKS1
+^LEADER: {Sister Miriam Godwinson}
+^BACKGROUND: {Christian States of America, Unity Psych Chaplain}
+^AGENDA: {Life of Religious Worship}
+^TECH: {Social Psych}
+^
+
+#DATALINKS2
+^+25% Bonus when attacking enemies, from strength of convictions.
+^+1 PROBE:  {Devout believers difficult to brainwash}
+^+2 SUPPORT: {Citizens eager to defend faith}
+^-2 RESEARCH:  {Suspicious of secular science}
+^-1 PLANET:  {Believe Planet is their promised land}
+^Accumulates {no} research points until MY 2110.
+^{May not use Knowledge value in Social Engineering.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“$NAME1, it is the Lord’s Will that we end this immoral conflict.
+Pledge Blood Truce with me and I shall pray for your
+soul’s redemption.”
+
+“As you wish. Truce pledged.”
+“I’ll see you in hell first, $NAME3.”
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“I have been praying for you lately, $TITLE0 $NAME1. The Lord
+wishes us to live side by side as brothers and sisters; we must
+sign a Treaty of Friendship and worship together in peace.”
+
+“Amen, $NAME3. Lasting peace is a great gift indeed.”
+“No. Your fanaticism makes me shiver, $NAME3.”
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“$NAME1, it is the Lord’s Will that we end this immoral conflict.
+Pledge Blood Truce with me and I shall pray for your alien
+soul’s redemption.”
+
+“All living things: soul. Truce: agreed.”
+“$NAME3: not understand concept: ‘alien.’ Defiance: your Lord. Answer: no.”
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“I have been praying for you lately, $TITLE0 $NAME1. The Lord
+wishes us to live side by side as brothers and sisters; we must
+sign a Treaty of Friendship and worship together in peace.”
+
+“Greater power: brings peace. Treaty: agreement.”
+“Progenitor: not bow: your Lord’s will. Rejection.”
+
+# ; This line must remain at end of file

@@ -1,0 +1,118 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; FACTION FILE: Manifold Caretakers
+;
+; Copyright © 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#CARETAKE
+Manifold Caretakers, The Conservator, Caretakers, F, 2, H’minee, F, 1, 1, 1, 0, 1,
+  ALIEN, 0, DEFENSE, 125, SOCIAL, +PLANET, TECH, Biogen, TECH, InfNet, TECH, Ecology, FACILITY, 3
+  Economics, Planned, PLANET
+  nil, nil, nil
+  Caretaker, Careta.
+  Hackjob, Peter, Hackjob Hovel
+  Guardian, insightful, reactionary, unyielding, horrific,
+  Walking Atrocity
+  preserve the sanctity of the Manifold
+  to keep the Usurper plague from defiling Planet
+  wiping Planet clean of our kind
+  wiping Planet clean of our kind
+  turn Planet into one big Mind Worm preserve
+  picking fights with anyone who opposes her vision of a pure Planet
+  picking fights with anyone who opposes your vision of a pure Planet
+  ‘species cleansing’ in the name of the sanctity of the Manifold
+  alarmist singsong, M1
+  grand experiment, M1
+  ‘grand experiment’, M1
+  energy modulation obligation, M1
+  Manifold sanctity preservation
+  my Harmonic Acolytes
+  the Tau Ceti Accord of 31.5
+
+#BASES
+Decision : Manifold
+Tau Ceti Memory
+Manifold : Sixth
+Resonance : Power
+Resonant Node
+Hymn : Modulation
+Adapt to Live
+M’dar Holding
+Tower Preserve
+Phantom Forces
+Balance of Nature
+Star Harmony
+Energy Nexus
+Vinculum
+Melody of Souls
+Greater Harmonic
+Worlds : Within Worlds
+Home : Hearth
+Vision : Sound
+Great Intertwining
+Caretaker Reverence
+Thought : Seed
+Consonance
+Overtone Song
+Conservator’s Mantle
+Harmonic Acolyte
+#END
+
+#WATERBASES
+Carapace Point
+Wavesound
+Bird : Cry
+Ripplesound
+Sea : Wind
+Echo Bay
+Nest : Water
+Island Shallows
+#END
+
+#BLURB
+Tau Ceti Flowering: Horrors visited upon neighboring systems must never be repeated.
+Therefore: if it means the end of our evolution as a species, so be it.
+^
+^       —Caretaker Lular H’minee
+^       “Sacrifice : Life”
+
+#DATALINKS1
+^LEADER: {Caretaker Lular H’minee}
+^BACKGROUND: {<Unknown>}
+^AGENDA: {Prevent Transcendence}
+^TECH: {Progenitor Psych, Centauri Ecology, Field Modulation, Information Networks, Biogenetics}
+^
+
+#DATALINKS2
+^+25% Defensive combat: {Can sense and manipulate “Resonance” fields}
+^+1 PLANET: {Understand workings of Planet, the Sixth Manifold}
+^Free {Recycling Tanks} at every base
+^”Energy Grid” at each base: {Increased infrastructure generates additional energy}
+^Make Planetfall with a {Mk I Battle Ogre} and {extra Colony Pod}
+^All prototyped combat units have two-square sighting radius (“Resonance” sensitivity)
+^Can direct research efforts (rediscovering technology & infrastructure)
+^Possess a physical scan of Planet’s surface
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Pointless skirmishing: distracts from true menace: hated Usurpers. Blood Truce: requested and required immediately.”
+
+“We don’t want to stand in your way, $NAME3. Blood Truce : accepted.”
+“[You] are the true menace here, $NAME3. This war shall continue!”
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“Although ultimate goal : return Planet to native state : in interim, our cultures can co-operate. Treaty of Friendship : sign please?”
+
+“We don’t plan to move anytime soon, $NAME3. But we can probably work together for the short term.”
+“Why hasten our own demise by working with your kind? Sorry, but we can’t sign your Treaty.”
+
+# ; This line must remain at end of file

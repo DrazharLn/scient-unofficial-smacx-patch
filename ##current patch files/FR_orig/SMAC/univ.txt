@@ -1,0 +1,148 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; DOSSIER FACTION : L'Université de la Planète
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+; Lors du démarrage, ALPHA CENTAURI lit les règles du jeu à partir de ce
+; fichier. Vous pouvez essayer d'éditer ce fichier à vos risques et périls.
+; Nous vous recommandons de faire auparavant une copie de sauvegarde.
+;
+
+#UNIV
+UNIVERSITE DE LA PLANETE, Le Savant, Universitaires, M, 2, Zakharov, M, 0,  0, 1, 0, 0,
+  TECH, InfNet, TECH, 1, SOCIAL, ++RESEARCH, SOCIAL, --PROBE, DRONE, 4,FACILITY, 8
+  Valeurs, Connaissance, RESEARCH
+  Politique, Fondamentaliste, vide
+  Faction Université
+  Nataliya, Fedorov, Labo de Nataliya
+  Doyen, génial, immoral, talentueux, téméraire
+  fou
+  poursuivre des recherches sans entraves
+  poursuivre des recherches pures sans entraves dues à des ingérences extérieures
+  mener toutes sortes de recherches contraires à l'éthique, immorales et nuisibles
+  mener toutes sortes de recherches contraires à l'éthique, immorales et nuisibles
+  vous procédez à des expériences innommables
+  rêver de nouveaux moyens d'extermination de notre espèce
+  rêver de nouveaux moyens d'extermination de notre espèce
+  mener des recherches immorales
+  méthodes immorales, F2
+  vos recherches, F2
+  vos "recherches", F2
+  une petite bourse de recherche, F1
+  à repousser les limites de la science
+  au service de sécurité de l'Université
+  la politique de l'Université
+
+#BASES
+BASE UNIVERSITAIRE, F1
+PARC ACADEMIQUE, M1
+LABORATOIRE TROIS, M1
+BIBLIOTHEQUE DE PLANETE, F1
+ARCHIVES PLANETAIRES, F2
+RAZVITIA, F1
+COSMOGRAD, F1
+BUDUSHI DVOR, F1
+INSTITUT TSIOLKOVSKY, M1
+COLLEGE MENDELEV, M1
+CENTRE DE SCIENCES NAUK, M1
+SOLEIL LEVANT ZARYA, M1
+ESPOIR NADEZJDA, M1
+ACADEMIE GORODOK, F1
+OBSERVATOIRE COPERNIC, M1
+BASE LIBRE SVOBODNY, F1
+ZVEDNY GORODOK, F1
+BAÏKONOUR, F1
+RECHERCHE CLIMATIQUE, F1
+STATION DE SURVEILLANCE, F1
+PROSPECTION BURAN, F1
+LABORATOIRE MIR, M1
+ECOLE DE RELATIVITE, F1
+LABO BIOLOGIQUE PAVLOV, M1
+PARC LOMONOSOV, M1
+CENTRE KOROLEV, M1
+MEMORIAL GAGARINE, M1
+NOUVELLE ARZAMAS, F1
+DECOUVERTE OTKRIETIA, F1
+OR ZOLOTO, M1
+UNITE EDINSTVO, F1
+#END
+
+#WATERBASES
+L'INSTITUT MARIN, M1
+LABO DE BIOLOGIE MARINE, M1
+LABO D'OCEANOGRAPHIE, M1
+INSTITUT HYDROTHERMIQUE, M1
+LABORATOIRE MARIN, M1
+#END
+
+#BLURB
+  L'infrastructure de l'univers est basée sur des composantes infinitésimales.
+Derrière l'atome se cache l'électron, et derrière l'électron se cache le quark.
+Chaque stade découvert révèle de nouveaux secrets, mais également de nouveaux
+mystères.
+^
+^        -- Académicien Prokhor Zakharov,
+^           "Car j'ai goûté au fruit"
+
+#DATALINKS1
+^DIRIGEANT : {Dr. Prokhor Zakharov}
+^CURRICULUM : {Communauté russe, Officier scientifique de l'Unity}
+^ORDRE DU JOUR : {Recherche, libre circulation des informations}
+^TECHNOLOGIE : {Réseaux d'informations}
+^
+
+#DATALINKS2
+^+2 RECHERCHE : {Recherche géniale}
+^-2 REPERAGE : {Réseaux académiques vulnérables à l'infiltration}
+^NOEUD DE RESEAU supplémentaire sur chaque base
+^Un BONUS de TECH au début du jeu
+^Un DROÏDE supplémentaire tous les quatre citoyens {(manque d'éthique)}
+^{Ne peut pas utiliser une Politique Fondamentaliste}
+
+#xxx
+^+2 SOUTIEN : {Ingénieurs improvisent volontiers}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Rappelez vos chiens, $NAME1. Je suis prêt à conclure une Trêve de
+sang
+Si vous me laissez poursuivre mes recherches".
+
+"Très bien, mais cessez de me provoquer".
+"Dommage, $NAME3. Votre destin est scellé".
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Nous sommes des chercheurs pacifiques, $TITLE0 $NAME1. Voulez-vous signer
+un Traité d'amitié et nous laisser étudier en paix ?"
+
+"Bien sûr. Nous devons lutter pour accroître nos connaissances".
+"Non. Je n'ai pas confiance en votre approche immorale de la recherche, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Rappelez vos ogres de combat, $NAME1. Le moment est venu de signer une Trêve
+de sang si vous me laissez continuer mes recherches."
+
+"$NAME3 : pas dangereux. Trêve : Acceptée."
+"Suggestion : recherche nouvelle arme. Guerre : continuer !"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Nous comprenons que votre race est très intéressée par la
+recherche, $TITLE0 $NAME1. Voulez-vous signer un Traité d'amitié
+et nous laisser étudier en paix ?"
+
+"Recherche : ultime importance : sauver tous les habitants. Traité : accepté."
+"$NAME3 : trop secret. Traité : pas conseillé."
+
+
+# ; This line must remain at end of file
+
+

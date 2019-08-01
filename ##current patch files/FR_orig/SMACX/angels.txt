@@ -1,0 +1,136 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Les Anges des données
+;
+; Copyright (c) 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI lit les règles du jeu dans ce fichier au
+; démarrage. Vous pouvez, à vos propres risques, faire des essais de modification
+; de ce fichier. Nous vous conseillons d'effectuer une copie de sauvegarde de l'original.
+;
+
+#ANGELS
+Les Anges des données, A fond les données !,  Anges, M, 2, Roze, F, 0, 0, 1, 1, 0,
+  TECH, InfNet, TECH, PlaNets, SOCIAL, ++PROBE, SOCIAL, -POLICE, PROBECOST, 75, FREEFAC, 34, TECHSHARE, 3, UNIT, 6
+  Valeurs, Richesses, PROBE
+  Société future, Contrôle psychique, nil
+  Technicien des données, Technic.
+  Katt, Roberts, Berceau de Katt
+  Valet des données, génial, anarchiste, farouchement indépendants, criminels,
+  hacker déjanté
+  libérer l'information
+  dévérouiller tout ce qui fait barrage aux libres flux de données
+  nous infecter avec ses virus insidieux
+  nous infecter avec vos virus insidieux
+  que vous essayez d'infiltrer toutes les bases de données confidentielles de la Planète
+  baver devant son terminal d'ordinateur
+  baver devant votre terminal d'ordinateur
+  me vautrer dans je ne sais quelle débauche virtuelle
+  plaisantin pseudo-révolutionnaire, M1
+  vos tentatives de déplombages, F2
+  vos intrusions dans le réseau, F2
+  un petit quelque chose pour couvrir mes frais d'accès au réseau, M2
+  sur vos systèmes contre les incursions des virus
+  au Front de Libération du Réseau
+  l'Acte sur la Liberté de l'Information
+
+#BASES
+UNITE CENTRALE
+MULTIPASS
+ERGONOMIE
+PERIMETRE SECURISE
+VEROLE
+VIRUS DE JERUSALEM
+BASE GIBSON
+CHEVAL DE TROIE
+PATCH JOELAP
+JONCTION DE PLANTAGE
+ALPHANUMERIQUE
+ALGORITHME
+CODE MACHINE
+SITE MIROIR
+CONNECTIQUE
+SEGMENT DE PILE
+FONCTION DE ROZE
+CODE RESIDENT
+TANIERE DU FURET
+INITIALISATION
+CODEX ALPHA
+APPLET
+#END
+
+#WATERBASES
+GRAND JAZZ
+BIDOUILLE 57
+IMMERSION VIRTUELLE
+TEMPO CALYPSO
+SINGING IN THE RAIN
+GOLFES CLAIRS
+ÅA BALANCE
+SURF
+#END
+
+#BLURB
+Qu'est-ce qui est plus important, les données ou le jazz ? Bien sûr, bien sûr, on dira : "l'information doit
+circuler librement". Je connais tous ces arguments. Mais n'importe qui peut faire circuler l'information. Le jazz,
+c'est vous, c'est votre toucher, c'est votre projet, c'est l'art de se laisser prendre sans tout à fait se laisser
+prendre. Les données ne
+sont que des 1 et des 0. Mais la Vie est un grand jazz.
+ ^
+ ^        -- Technicien de données Sinder Roze,
+ ^           "Infobop"
+
+#DATALINKS1
+^DIRIGEANT:{Sinder Roze}
+^CURRICULUM: {Direction de la qualité aux Industries Morgan, Ligne directe des services d'information de l'Unity}
+^ORDRE DU JOUR: {Libre circulation des informations}
+^TECHNOLOGIE: {Réseaux d'information, Réseaux planétaires}
+^
+
+#DATALINKS2
+^+2 TEST: {Spécialistes en informatique très motivés}
+^-1 POLICE: {Faction décentralisée, difficile à contrôler}
+^Obtient toute technologie connue de 3 autres factions chez qui elle a des infiltrateurs:{opérations secrètes à grande
+échelle}
+^-25% de coût des actions des EQUIPES DE REPERAGE: {Aptitudes pour l'accès au réseau et son contrôle}
+^CENTRE D'OPERATIONS SECRET avec découverte des Algorithmes pré-sensibles
+^{Impossible de faire le choix de Puissance en ingénierie sociale.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Ce conflit militaire gaspille une largeur de bande qui est vitale pour notre lutte de libération des réseaux.
+Concluons une Trêve de sang, et restaurons enfin la libre circulation des données."
+
+"Etant donné les circonstances, les données priment sur le conflit. Nous allons signer votre Trêve."
+"Laissez tomber ! Ce ne sont pas vos minables bidouilleurs qui vont vous sauver, $NAME3 !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Vous, au moins, vous savez où vous allez, $TITLE0 $NAME1 ; et vous avez un genre qui nous plaît bien.
+Un Traité d'amitié, ça vous dirait ?"
+
+"Certainement. Programmez tout votre saoûl, $NAME3. Vous avez notre bénédiction."
+"Vous voulez rire, $NAME3 ? Jamais je n'unirai mon destin à une tête brûlée de votre espèce."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Contrairement à vous, nous on n'a pas d'ambitions militaires, $NAME1. Pourquoi ne pas mettre fin à cette guerre ?"
+
+"Projet actuel du Progéniteur : trouver d'autres cibles. Trêve acceptée."
+"Motivations divergentes. Procédure d'anéantissement déclenchée. $NAME3 : préparez-vous à mourir."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, vous ne trouvez pas qu'on a plein de points communs ? D'abord, tous les autres nous traitent comme des
+parias. En plus, ces espèces de volets sur votre cou, là, ça fait un effet super cool ! Un Traité d'amitié, ça serait
+génial, non ? "
+
+"Super cool : mot inconnu. Mais accord complet pour le Traité."
+"Traité : mot réservé aux amis. Génial : mot inapproprié. Réponse négative et méprisante, $NAME3."
+
+# ; This line must remain at end of file

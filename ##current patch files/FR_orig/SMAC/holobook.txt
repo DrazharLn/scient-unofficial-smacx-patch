@@ -1,0 +1,92 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; LIVRE HOLO : Mesure de votre valeur en tant que dirigeant.
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+; (These must all be on one line.)
+
+#BOOKTITLE
+Bienvenue dans les Archives planétaires
+
+#BOOKINTRO
+"Après votre retraite, les gens rassemblent vos écrits les plus remarquables dans un livre de sagesse holographique intitulé :"
+
+#BOOKLIST0
+Grand livre d'humour des réservoirs de recyclage $<1:du:de> $TITLE0 $PLAYER1
+
+#BOOKLIST1
+Nous devons consentir : 100 lignes choisies $<0:du:de> $TITLE0 $PLAYER1
+
+#BOOKLIST2
+Car j'ai goûté au fongus (Pourquoi $<0:le:la> $TITLE0 $PLAYER1 ne peut cligner des yeux)
+
+#BOOKLIST3
+Le chat dans le bac : Contes pour les enfants $<0:du:de> $TITLE0 $PLAYER1
+
+#BOOKLIST4
+Tout ce que vous avez toujours voulu savoir sur le superlubrifiant organique (mais n'avez jamais osé demander)
+
+#BOOKLIST5
+Moi, ça va ; toi, tu es un droïde
+
+#BOOKLIST6
+J'ai rencontré des trous thermiques
+
+#BOOKLIST7
+La courageuse petite terraformeuse 
+
+#BOOKLIST8
+Planète, es-tu là ? C'est moi, $<1:le:la> $TITLE0 $PLAYER1
+
+#BOOKLIST9
+Véhicules de reconnaissance tout-terrain : dangereux à toutes les vitesses
+
+#BOOKLIST10
+J'élève mon enfant ayant subi une greffe neuronale
+
+#BOOKLIST11
+Les hommes viennent de Chiron, les femmes de Nessus
+
+#BOOKLIST12
+Tout ce que j'ai toujours voulu savoir, je l'ai appris dans les cuves de clonage.
+
+#BOOKLIST13
+Vers télépathes dans le brouillard
+
+#BOOKLIST14
+Notre biomécanique, notre soi
+
+#BOOKLIST15
+Votre sensibilité mise à jour : guide personnel $<0:du:de> $TITLE0 $PLAYER1 pour les talents
+
+#BOOKLIST16
+L'insoutenable légèreté des aéroglisseurs
+
+#BOOKLIST17
+Guide pratique de l'économétrie sensible
+
+#BOOKLIST18
+L'amant de Lady Deirdre
+
+#BOOKLIST19
+Comment être zen et entretenir son lanceur de missiles tout-terrain.
+
+#BOOKLIST20
+La transcendance pour les nuls
+
+#BOOKLIST21
+Les 27 habitudes des talents les plus efficaces
+
+#BOOKLIST22
+Critique $<0:du:de> $TITLE0 $PLAYER1 de la 'Critique de la raison pure'
+
+#BOOKLIST23
+La volonté de puissance : Manuel d'utilisation
+
+#BOOKLIST24
+Ascenseur vers la transcendance : le dernier livre que vous lirez
+
+
+#; This line must remain at the end of the file.

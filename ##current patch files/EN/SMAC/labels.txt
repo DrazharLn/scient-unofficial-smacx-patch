@@ -1,0 +1,1143 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; Miscellaneous Text Labels
+;
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
+;
+
+#LABELS
+1131
+Mission Year
+Funds
+Moving
+Viewing
+Map
+Veteran
+Elite
+Moves
+at
+Road
+Tube
+Elev
+Depth
+m
+Climate
+Frigid
+Cool
+Mild
+Hot
+Scorched
+Arid
+Moist
+Rainy
+No
+Vegetation
+NONE
+Turn Complete
+Press ENTER to continue
+Sid Meier’s ALPHA CENTAURI
+Mission Map
+Planetary Scan
+Data Readout
+Temperature
+Rainfall
+Physical
+Mission Status
+Energy
+Yield
+Existing
+Exit
+Minerals
+Nutrient
+Production
+Hurry
+Zoom to Base Control
+Proceed
+builds
+Growth
+turn
+turns
+stagnant
+Hunger
+Surplus
+Support
+Shortage
+Ineff.
+Inefficiency
+ENERGY RESERVES
+Psych
+Econ
+Labs
+Econ
+near
+GARRISON
+Forces Supported
+Shows Next Base (in alphabetical order)
+Shows Previous Base (in alphabetical order)
+No Minerals
+Base Facilities
+Society
+Socio/Economic Model
+Orders
+Chassis Types
+Weapons
+Defenses
+Abilities
+Technologies
+Hybrids
+Design Stats
+Reactor
+Chassis
+Size/Energy
+Armament
+Projectile
+Energy Rating
+Defense
+Remaining
+Cost to build
+Cost
+Flat
+Rolling
+Rocky
+Nutrient
+Minerals
+Energy
+bonus
+coverage
+Max
+Chassis Type
+Weapon Type
+Defense Type
+OK
+Cancel
+Help
+Energy Allocation
+Life Support
+Research
+Limit
+Energy-
+Proj-
+Empty Slot
+unit
+units
+Novice
+Expert
+seize
+liberate
+seizure
+liberation
+Design New Unit
+Rating
+Power
+Min Cost
+…
+Attack
+Rename
+Shielding
+Cost Factor
+Equipment
+Weapon
+Proj.
+Ener.
+Low
+Moderate
+High
+Xenofungus
+No special ability
+Empty
+Special Ability
+Requires
+Relocate
+Reactors
+Monolith
+Solar Collector
+Mine
+Polymer
+Scout
+Max Setting
+Battle Report
+RESEARCHING
+Breakthroughs
+Total
+Net Energy
+per turn
+Hybrid
+Facility
+Unit Abil
+Tech
+Income
+Maint
+Net
+Payload
+Air
+Sea
+Ability
+Carry
+One Free Pick
+Society Type
+Psych
+Econ
+Labs
+Industry
+Farm
+No Vegetation
+Name:
+Formal:
+Noun:
+Adjective:
+Worker
+Project
+of the
+Interest Rate
+Recon
+Attack
+Defense
+Prototype
+Major
+Minor
+Outpost
+Base
+BASE
+Prototype Cost
+Unexplored
+Ocean
+Independent
+Fuel
+Psi
+Unit
+Unit Types
+him
+her
+Pact Brother
+Pact Sister
+Pact Brothers
+Pact Sisters
+Pact of Brotherhood
+Pact of Sisterhood
+his
+her
+he
+she
+PACT
+TREATY
+TRUCE
+VENDETTA
+Data Links
+Cargo
+Unarmed
+Obs.
+Close
+Political
+Prod
+Integrity
+Might
+with farm
+with mine
+with solar
+with kelp
+with platform
+with tidal
+Sea Fungus
+Soil Enricher
+Linked
+Prototype Complete
+River
+End Tour
+Continue
+Kelp Farm
+Mining Platform
+Tidal Harness
+Mag Tube
+Air Base
+Polymer Adhesives
+All of the above
+Alien
+Aliens
+DISCOVERED
+Available
+Distant
+Production
+Distance
+Cancel Destination
+Multiplayer Setup
+READY
+NOT READY
+Waiting For Others
+Battle Map
+Surveillance Map
+Network Datalinks
+Turn Clock
+Upkeep
+Players
+WHO’S WHO
+Tech
+Mil
+Pop
+Overall
+Upkeep
+Ready
+Moving
+Done
+of
+Chat
+PAUSED
+Pause
+Unpause
+a
+an
+3+ Nutrient per Square
+3+ Minerals per Square
+3+ Energy per Square
+Can Build Magtubes
+sec/turn
+sec/base
+sec/unit
+No time controls
+Punish
++1 Nutrient in HOT
++1 Nutrient in RAINY
++1 Nutrient in MODERATE
++1 Nutrient in ARID
+Forest
+Forestation
+BATTLE PROFILE
+— DESTROYED —
+— EXTERMINATED —
+— CAPTURED —
+Loan Payment
+Loan Income
+Balance
+Commerce Rate
+Commerce Income
+Gross Income
+Maintenance Costs
+/turn
+Unlinked Node
+World Map
+Citizens
+Citizen
+Radius
+Not Available
+FREE
+Combat
+Commerce
+Ecology
+Moderate
+Wealth
+Reset
+Psych
+Resource
+Support
+Rename
+Unmodified
+Psych
+Facilities
+Police
+Pacifism
+Secret Projects
+Strength
+Trance
+Downhill
+Terrain
+Base
+Proj/Energy
+Bombard
+In Port
+Jammer
+Tracking
+Fungus
+Hasty
+Surprise
+Nerve Gas
+Gaian Psi
+Dream Twist
+Neural Amp
+Ocean Shelf
+Ocean Trench
+Enricher
+Colony
+Upheaval Cost
+Upheaval Refund
+Credits
+(Next Turn)
+Heavy
+Perimeter
+Battery
+AAA
+Tachyon
+Bunker
+Subject Profile
+Personality
+Aggressive
+Erratic
+Pacifist
+Interests
+Knowledge
+Economy
+Colonization
+Agenda
+Headquarters
+on
+with
+INFORMAL
+TECHNOLOGY
+BASES
+Laboratories Status
+TECH COST
+TECH ACCUMULATED
+TECH PER TURN
+/year
+ENERGY BANKS
+TOTAL INCOME
+TOTAL MAINTENANCE
+TOTAL LOAN
+MAINTENANCE
+Suspended
+Psych Profile
+Base Operations
+Security Nexus
+Active
+Prod
+Lost
+with road
+Proposed New Unit
+Damaged
+Automatic
+Automatic Roads
+Automatic Tubes
+Autoimprove Base
+Farm+Solar+Road
+Mine+Solar+Road
+Automatic Fungus
+Automatic Sensors
+North
+East
+South
+West
+Patrol
+to
+then
+Patrol to
+Move to
+Dist
+Save Files
+Map Files
+Save & Map Files
+Load Map File
+Brush Size
+Cross
+Elevations
+Rocky
+Rivers
+Resources
+Beacons
+Cover
+Editing
+File
+MAP EDITOR
+Base vs. Blink
+Bombardment
+Artillery Duel
+Under Construction
+Alpha Centauri Score
+Group Move To
+from
+Land Based Guns
+Counterbattery Fire
+Air Drop
+Orbital Insertion
+Non Combat
+Faction Dominance
+Uphill
+Anathema to Faction! (+1 DRONE)
+Don’t Show As Popup
+Bomb $BASENAME0
+On Alert
+Air-to-Air Duel
+Surface-to-Air Duel
+Ground Strike
+Air-to-Air
+Sanctions
+Sort: Name
+Sort: Size
+Sort: Dist
+Zoom
+TURNS TO GO
+Auto
+Governor
+Delete
+Insert
+Empty Slot
+- No Offers -
+- Offers -
+Negotiating
+ACCEPT
+DECLINE
+Communications Link
+Accept Offer
+Decline Offer
+End Transmission
+Speak Pact
+Make Treaty
+Pledge Truce
+Give Energy
+Share Tech
+End Pact
+Demand Withdrawal
+Profile
+Clear Offers
+Queue
+DEAL COMPLETE
+NO TRUCE
+Status
+Title:
+Description:
+Gender:
+Producing
+Comm Frequency
+Submissive
+COMPLETE
+Have Governor Manage Citizens
+Have Rioters Nerve Stapled (Atrocity)
+Create
+Planetary Council
+GOVERNOR
+YEA
+NAY
+ABSTAIN
+PROPOSAL
+CANDIDATE
+VETO
+EXPELLED
+ELIMINATED
+MEASURE PASSES
+MEASURE FAILS
+EXECUTIVE VETO
+Council
+VOTE
+Council Proposals
+ELECTED
+Communications and Protocol
+ENDANGERED
+RETAINED
+ELECTION DEADLOCKED
+VOTE
+VOTES
+Battle Plan
+CHANGE
+ALLOCATION
+PRODUCTION
+NUTRIENTS
+EXPLORE
+DISCOVER
+BUILD
+CONQUER
+Open Ground
+EXIT
+COMMLINK
+Belief
+Gate Open
+Gate Used
+Volcano
+RUTHLESS
+IDEALISTIC
+FACTION
+SOCIAL ENGINEERING
+Accept
+Auto Off
+Destination Map
+DATALINKS
+RESEARCH BREAKTHROUGH
+OUR RESEARCHERS HAVE MADE A BREAKTHROUGH!
+WE HAVE ACQUIRED TECHNOLOGY!
+Artillery
+Battery
+Space Operations
+Satellite Attack
+Infantry vs. Base
+Rough vs. Mobile
+Zoom to BASE
+Change production
+Hurry
+Set to EXPLORE
+Set to DISCOVER
+Set to BUILD
+Set to CONQUER
+Set delivery route
+Move unit to here
+Patrol to here
+Bombing run to here
+Airdrop here
+Orbital Insertion here
+Long Range Fire here
+Action …
+Terraform …
+Move cursor to here|Shift+Right
+Center on active unit|C
+Find a unit to move|V
+Activate unit here|A
+Activate units here|A
+End the turn|Ctrl+ENTER
+Rename landmark
+Erase landmark
+Name landmark
+Info on this square|Shift+Right
+Help
+Altitude
+Rare Life Forms
+Abundant Life Forms
+Size
+Recenter map window here
+Recenter this window here
+Open new map window
+PHYSICAL scan
+CLIMATE scan
+RAINFALL scan
+POLITICAL scan
+Main scan
+Economy scan
+Enemy faction profile
+Diplomatic scan
+Base scan
+Unit scan
+Terrain scan
+Faction dominance graph
+Faction dominance chart
+Who’s who
+Map editor scan
+Activate unit
+“Forget it!”
+“Almost …”
+Threaten
+THREATENS!
+Offer all tech
+Vendetta
+Joint Vendetta
+Road Attack
+Territory
+You attack
+Template
+Clock
+Mobile in open
+Mobile vs. Base
+Sensor
+Marines
+Invaders
+Free
+Defend
+Attack my enemy
+Redesign
+New Design
+Workshop
+Ignore Armor
+Ignore Weapon
+MENU
+Planet
+Scenario Files
+AI
+NO CONTACTS
+E
+D
+B
+C
+ALREADY MOVED
+Show Info on Base
+Show Info on Unit
+Contact
+Faction Profile
+Summon Planetary Council
+Toggle Chat Flag
+Send Chat Message
+No Time Control
+Clock
+Truce
+Treaty
+Pact
+Vendetta
+V’dtta
+They get
+Gov
+Explore
+Discover
+Build
+Conquer
+Allocation
+Intake
+Consumption
+Minerals Accumulated
+Ecological Damage
+Energy Allocation
+Resource Expenses
+Advanced Governor Settings
+Nerve Staple
+The Great Crater
+Back
+CLOSE
+Module
+Level
+Vehicle Presets
+Faction Editor
+Special Rules
+Social Rules
+Text Fills
+Load
+Save
+AI Editor
+UNTITLED
+Alpha Centauri Autosave
+BUDGET
+TOTAL COST
+Show Society
+Show Detail
+BEST BASES
+LAB OUTPUT
+PSYCH OUTPUT
+POPULATION
+INFRASTRUCTURE
+INFO
+MESSAGES
+LABORATORY SUMMARY
+ENERGY ALLOCATION
+BASE OPERATIONS
+SECRET PROJECT REPORTS
+SATELLITE SURVEY
+SECURITY NEXUS
+ALPHA CENTAURI SCORE
+INTELLIGENCE FILES
+SHORTFALL
+MAXIMIZE
+SOCIAL ENGINEERING
+SOCIETY OVERVIEW
+ON
+OFF
+ADVANCED
+TECH PROGRESS
+DRONE RIOTS
+NERVE STAPLED
+Add to beginning of build queue.
+Add to end of build queue.
+Speed
+Go to nearest airbase.
+Cycle
+BASIC CONCEPTS
+ADVANCED CONCEPTS
+ALL CATEGORIES
+BASIC UNIT TYPES
+CHASSIS TYPES
+REACTOR TYPES
+WEAPONS AND MODULES
+ARMOR TYPES
+SPECIAL ABILITIES
+TERRAFORMING
+BASE FACILITIES
+SECRET PROJECTS
+SOCIETY MODELS
+SOCIETY EFFECTS
+TECH ADVANCES
+FACTION PROFILES
+BACK
+CLOSE
+M.Y.
+Cancel Orders
+Sleep / Board Transport
+Hold
+Disband
+Support From Here
+Zoom To Home Base
+Order Unit To Come Home
+Male
+Female
+SOCIAL EFFECTS
+FACTION POWER
+EXPENDITURES
+SUMMARY
+PRODUCTION
+CITIZENS
+SELECT ALL
+SET TO
+ADVANCED SETTINGS
+TURN GOVERNOR OFF
+Preferences
+Adv. Preferences
+Warning Preferences
+Automation Preferences
+Audio/Visual Preferences
+ADD
+OBSOLETE
+UPGRADE
++1/sq
+-1/sq
+NUTRIENTS: Bumper Crops
+NUTRIENTS: Crop Failure
+MINERALS: Industrial Boom
+MINERALS: Industrial Bust
+ENERGY: Heat Wave
+ENERGY: Cloud Cover
+ENERGY: Dust Clouds
+Governor Off
+Switch to Detail Map
+Switch to World Map
+Activates the Governor^EXPLORE: Scouts, Colony Pods, Transports
+Activates the Governor^DISCOVER: Projects, Prototypes, Probes, Network Nodes
+Activates the Governor^BUILD: Formers and Facilities
+Activates the Governor^CONQUER: Military Units, Command Centers, etc.
+Turns the Governor on or off
+Shows the resources being produced by this base
+Shows where the units supported by this base are
+Shows the origins of Drones and Talents at this base
+Changes this base’s production orders
+Hurries this base’s production
+BUILD QUEUE:^Sets a series of production orders
+DESIGNING NEW UNIT
+MODIFYING PREVIOUS DESIGN
+Activate the Main Game Menu
+Communicate with other Faction Leaders
+Show events which have occurred this turn
+Show general useful information
+Go onto the next turn
+Accept this unit design
+Rename this unit type
+Mark this unit design as obsolete:^It will no longer show up on lists.
+Upgrade all units of this type to^another unit design you have created.
+Cancel unit design
+Stop showing me new unit designs
+Zoom in
+Zoom out
+Standard zoom
+COMMERCE: With other factions at TREATY or PACT.
+FACILITIES: Shows Facilities at this base;^Click to scrap and recycle.
+NUTRIENTS: Dark green shows nutrients needed for growth;^Bright shows nutrients accumulated.
+ENERGY supports economy and research.
+MINERALS support production and units.
+NUTRIENTS support population and growth.
+ENERGY for PSYCH improves living conditions: more TALENTS and fewer DRONES.
+ENERGY for LABS supports research.
+ENERGY for ECONOMY creates wealth.
+RESOURCES: Shows nutrients/minerals/energy produced in^each square. Click to change. Click square center to optimize.
+SUPPORTED: Shows units supported by this base^(not necessarily present AT this base).
+GARRISON: Shows units present at this base.
+CITIZENS: Shows the population of this base.^Also the # of Workers, Talents, Drones, and Specialists.
+PROJECT DESCRIPTION
+Select a Secret Project for more information.
+SATELLITE SUMMARY
+ORBITAL ATTACK VIEW
+ATTACK!
+Your attack was successful!
+No other faction has any satellites.
+[Orbital Spaceflight] not yet achieved.
+You must have an undeployed [Orbital Defense Pod] to attack.
+Your attack failed.  Orbital Defense Pod destroyed.
+PRODUCTION: What this base is making.^Dark shows minerals needed to complete, bright shows progress.
+CHASSIS: Determines how fast your unit moves,^and whether land, sea, or air.
+WEAPON: Allows your unit to attack (or)^EQUIPMENT: Allows non-combat functions.
+ARMOR: Helps your unit defend against enemy attacks.
+REACTOR: Increases power and reduces cost.
+ABILITY: Adds a specialty function to the unit.
+Select a design to examine or modify^or select an empty slot to design a new unit.
+PRESETS: Click these buttons for advice on^how to design a particular type of unit.
+Use these buttons to engineer your society.^You can earn new buttons through research.^See DATALINKS for more information.
+ECONOMY: + increases your energy production
+EFFICIENCY: + reduces energy lost to inefficiency
+SUPPORT: + reduces mineral cost to support units
+MORALE: + increases military unit morale
+POLICE: + allows use of police to prevent drone riots
+GROWTH: + reduces nutrients required for population growth
+PLANET: + reduces ecological damage and helps psi & mind worm capture
+PROBE: + reduces vulnerability to subversion and mind control
+INDUSTRY: + reduces minerals required to produce things
+RESEARCH: + speeds technological research
+EFFECTS: Shows the effects of your social choices and faction power.
+FACTION: Shows the special strengths and weaknesses of your faction.
+ECON: Use to increase/decrease the^% of your energy used for wealth creation.
+LABS: Use to increase/decrease the^% of your energy used for research.
+PSYCH: Use to increase/decrease the^% of your energy used for quality of life.
+LOCK: Locks/unlocks this allocation bar^(makes changing the other two more convenient).
+Reverts to the state at which you arrived on this screen.
+EDIT BASE
+EDIT: edit this base when creating a scenario
+Increase base population|+
+Decrease base population|-
+Edit base facilities
+Edit secret projects
+PRESENT
+Destroyed
+Copy base facilities (from another base)
+Clear all facilities
+Add all available facilities
+Reset to unbuilt
+Set to destroyed
+Monsoon
+Dune
+Uranium
+Geothermal
+Map Size
+Flat
+Round
+Diplomacy for
+Clear
+I have infiltrator
+I want to talk
+I want revenge
+I have surrendered
+I shall betray
+I am atrocity victim
+Fight to the death
+Commlink
+Atrocity
+Atrocities committed
+Major atrocities committed
+TOOLBAR
+TOOLBAR: Tool bar for map and scenario editor
+CLEAR MESSAGE
+SEND MESSAGE
+ACCEPT OFFER
+DECLINE OFFER
+END TRANSMISSION
+SHARE TECH
+GIVE ENERGY
+OFFER ALL TECH
+ATTACK MY ENEMY
+PLEDGE TRUCE
+MAKE TREATY
+SPEAK PACT
+END PACT
+Fix current status as permanent
+Edit Unit
+Mark base as OBJECTIVE
+Clear OBJECTIVE flag
+Objective
+Objectives
+Victory
+Defeat
+Delete Base
+Disband/Destruct|Shift+D
+Renounce Pact
+Demand Withdrawal
+UNIT TYPES
+Land Units
+Naval Units
+Air Units
+Non-Combat Units
+All Units
+Obsolete
+EXAMINING BASIC UNIT
+Slot
+DESIGN WORKSHOP
+EXAMINING PREVIOUS DESIGN
+NEW DESIGN BASED ON OLD
+APPLY
+Mk
+Copy base facilities (to another base)
+ALL BASES THIS FACTION
+ALL BASES
+3/4 NEEDED
+Diplomatic Victory
+RETIRE
+RETIRE: retire this unit; disband all units of this type.
+APPLY: apply changes but do not exit screen.
+active
+in production
+Economic Victory
+BIOSCAN
+REPUTATION
+MOOD
+DIPLOMATIC STATUS
+INFILTRATION
+INACTIVE
+NO HEADQUARTERS
+DATALINKS
+HQINFO
+TECHS
+BASES
+TREATIES
+Elevations
+Rockiness
+Rivers
+Resources
+Unity Pods
+Cover Map
+Brush: One Square
+Brush: X-Cross
+Brush: 3×3 Diamond
+Brush: Base Radius
+Brush: 5×5 Diamond
+Brush: 7×7 Diamond
+AUTOMATE UNITS
+UNIT ADVANCES
+MISCELLANEOUS
+Eco-Damage
+NET INCOME
+Planetary Council Votes
+has sufficient resources to conduct a leveraged buyout of all remaining bases!  The deal will be finalized in
+MAINTENANCE COSTS
+BASE LOCATOR
+SCORE ANALYSIS
+PLAYER DIARY
+SELECT FACTION TARGET
+SELECT SATELLITE TARGET
+Detail Map
+PREREQUISITE
+Captured Base
+Stapled Base
+Unlimited
+* Reactor
+HIGHEST SCORE
+HIGHEST TECH LEVEL SCORE
+HIGHEST ENERGY RESERVES SCORE
+HIGHEST POPULATION SCORE
+FASTEST CONQUEST SCORE
+FASTEST TRANSCENDENCE SCORE
+PAINT mode (Scroll Lock)
+PLAY mode (No Scroll Lock)
+Edit Minerals
+Edit Nutrient
+30-50% of surface
+50-70% of surface
+70-90% of surface
+Strong (Rolling and flat terrain)
+Average (Hilly terrain)
+Weak (Rough, mountainous terrain)
+100 million miles (cool planet)
+90 million miles (average planet)
+80 million miles (warm planet)
+Sparse (light rainfall)
+Average
+Dense (heavy rainfall)
+Rare
+Average
+Abundant
+CUSTOM GAME OPTIONS
+Max Players
+Global Difficulty Level
+Prepared Map
+Planet Size
+Ocean Coverage
+Erosive Forces
+Native Life Forms
+Cloud Cover
+Toggle
+With Farm
+With Mine
+With Solar
+TOUR
+No Effects
+Load Map
+Load Scenario
+Load Game
+Random
+Replace
+Feature Mode
+Resource Mode
+Consult Datalinks
+Scenario Goals
+Scenario End Date
+MAP DEFINED
+Bonuses
+RightClick/Ctrl-RightClick to modify satellites
+Time Controls
+Planet Buster Silos
+SCENARIO
+SAVE
+wins
+EDITOR Mode
+PROTO
+PROTO: Scenario Editor function; toggles “prototype complete” flag.
+Draw
+Allied Objectives
+RETIRE ALL
+RETIRE ALL: Scenario Editor fuction; clears all player prototypes.
+Change owner
+Change former owner
+Iron Man
+Desig. Defender
+Delete Unit
+MAKE READY
+MAKE NOT READY
+LAUNCH GAME
+CHEAT
+CHEATED
+CHEATING
+Iron Man Bonus
+Cheating Penalty
+Scenario Editor
+USED EDITOR
+Type of Game
+New Game with Random Map
+New Game with Loaded Map
+Saved Game
+Lock Difficulty
+Rating
+Alpha Centauri Rating
+OR
+Destroy Enhancement|D
+TOP 5 SCORES
+DIFFICULTY
+Simultaneous Moves
+Sequential Turns
+Your Turn
+Phasing Player
+Phasing
+Moving
+Double Resource Production
+Double Unit Movement
+Humans In Contact At Start
+DEMO Score
+Eliminated Factions
+Surrendered Factions
+Map Preferences
+Gamma Correction
+Restore Defaults
+Main Off
+Main On
+Voice Off
+Voice On
+SFX Off
+SFX On
+Music Off
+Music On
+More
+Custom Size
+Horizontal
+Vertical
+(may vary with terrain)
+Hotseat
+Enter Password
+Password
+Next Player
+Current Player
+Hotseat/Play-by-Email
+Select unit
+Zoom to message
+Erase message
+Zoom and Erase
+Passwords Unsatisfied
+Cancel all obsolete
+Add to queue
+Set production
+ENERGY GRID
+Alien Offense
+Alien Defense
+Resonance Attack
+Resonance Def.
+Pulse Defense
+Flechette
+CHOOSE YOUR FACTIONS
+The Original SMAC Factions
+The New Factions
+Mix Old and New Factions
+CHANGE NAME
+QUOTE
+PLAY RANDOM FACTION
+PLAY SELECTED FACTION
+RANDOM
+GSP
+ENERGY GRID: Resonance among base structures
+SHUTDOWN
+Progenitor Victory
+Caretakers
+Usurpers
+guarantee that the Manifold Experiment remains pristine
+exploit the power of the Manifold experiment
+
+# ; This line must remain at end of file

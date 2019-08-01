@@ -1,0 +1,674 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Lookups for movies
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+#PROJECTS
+humanGenome, 0
+commandNexus, 1
+weatherParadigm, 2
+merchantExchange, 3
+empathGuild, 4
+citizensDefense, 5
+virtualWorld, 6
+planetaryTransit, 7
+xenoempathyDome, 8
+neuralAmplifier, 9
+maritimeControl, 10
+planetaryDatalinks, 11
+superCollider, 12
+asceticVirtues, 13
+longevityVaccine, 14
+hunterSeeker, 15
+pholusMutagen, 16
+cyborgFactory, 17
+theoryOfEverything, 18
+dreamTwister, 19
+universalTranslator, 20
+networkBackbone, 21
+nanofactory, 22
+livingRefinery, 23
+cloningVats, 24
+SelfAwareColony, 25
+clinical_Immortality, 26
+spaceElevator, 27
+singularityInductor, 28
+bulkMatter, 29
+telepathicMatrix, 30
+voiceOfPlanet, 31
+transcend, 32
+smacxmanifold, 33
+smacxnethack, 34
+smacxcloudbase, 35
+smacxgrid, 36
+theyTranscend, 37
+
+
+#HUMANGENOME
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+180, 140, 280, 200,
+10, 4000,
+
+^^[Projet de génome humain]
+^
+^
+^^Un $LINK<Talent=37> supplémentaire sur chaque base.
+
+
+#COMMANDNEXUS
+Arial, 0, 10,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[Le noeud de commande]
+^
+^
+^^Compte pour un $LINK<Centre de commande=100027> sur chacune de vos bases.
+
+#WEATHERPARADIGM
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+180, 140, 280, 200,
+10, 7000,
+
+^^[Le paradigme météorologique]
+^
+^Augmente de 50% la vitesse de $LINK<terraformage=90008> sauf pour
+$LINK<supprimer le fongus=90010>. Les formeuses peuvent bâtir des
+$LINK<condenseurs=90012>, des $LINK<trous de forage=90014>,
+$LINK<élever=90016>/$LINK<abaisser le terrain=90017>, même si vous n'avez pas
+découverts les technologies appropriées.
+
+
+#MERCHANTEXCHANGE
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[La Bourse du commerce]
+^
+^
+^^Augmente de $LINK<1 l'énergie=43> sur chaque carré de cette base.
+
+#EMPATHGUILD
+Arial, 0, 10,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[La Guilde des Empathes]
+^
+^Permet de contacter n'importe quel dirigeant, et vous donne
+un infiltrateur dans chaque faction. Vous donne +50% de voix
+lors de l'élection du $LINK<Gouverneur planétaire=28> et du
+$LINK<Dirigeant suprême=10005>.
+
+
+#CITIZENSDEFENSE
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[La force de défense des citoyens]
+^
+^
+^^Compte comme un $LINK<Périmètre de défense=100004> sur chaque base.
+
+
+#VIRTUALWORLD
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[Le monde virtuel]
+^
+^Outre leur effet normal, les $LINK<Noeuds de réseau=100008> comptent comme
+des $LINK<Théâtres holographiques=100011> sur chacune de vos bases : divise
+par deux le nombre de $LINK<Droïdes=36> et augmente la puissance $LINK<PSY=38>
+de la base de 50%.
+
+
+#PLANETARYTRANSIT
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 5000,
+
+^^[Le système de transit planétaire]
+^
+^Toutes les nouvelles bases que vous fondez commencent au niveau de population
+3. Un $LINK<Droïde=36> de moins sur toutes les bases dont la population est
+au niveau 3 ou à un niveau inférieur.
+
+#XENOEMPATHYDOME
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[Le dôme xénoempathique]
+^
+^Tous les carrés de $LINK<Xénofongus=14> servent de $LINK<routes=90005> ;
+la vitesse à laquelle les $LINK<formeuses=30001> $LINK<suppriment=90010>
+et/ou $LINK<plantent le fongus=90011> est doublée. Toute forme de vie
+indigène que vous élevez acquiert un bonus de
+$LINK<1 au cycle de vie=11>.
+
+
+
+#NEURALAMPLIFIER
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[L'amplificateur neuronal]
+^
+^
+^^Apporte +50% en $LINK<défense PSY=15>.
+
+#MARITIMECONTROL
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 5000,
+
+^^[Le centre de contrôle maritime]
+^
+^Multiplie par deux la vitesse de mouvement de toutes les unités navales et
+compte pour une $LINK<Base navale=100028> sur chacune de vos bases.
+
+
+#PLANETARYDATALINKS
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[Liaisons de données planétaires]
+^
+^Vous découvrez automatiquement toute $LINK<technologie=140062>
+découverte par l'une ou l'autre des six autres $LINK<factions=150001>.
+
+
+#SUPERCOLLIDER
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[Le super-collisionneur]
+^
+^
+^^Les découvertes de la faction $LINK<Recherche=45> sur cette base sont doublées.
+
+
+
+#ASCETICVIRTUES
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 5000,
+
+^^[Les vertus ascétiques]
+^
+^Augmente de deux la limite de population de vos bases, et augmente
+la tolérance de votre société vis-à-vis de l'utilisation de la police
+et des unités militaires de ($LINK<1 POLICE=130005>).
+
+
+
+#LONGEVITYVACCINE
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 7000,
+
+^^[Le vaccin de longévité]
+^
+^Deux $LINK<Droïdes=36> de moins sur chaque base si
+l'$LINK<économie de votre société=120005> est $LINK<planifiée=120008>.
+Un Droïde de moins sur chaque base si l'économie est $LINK<simple=120006>
+ou $LINK<verte=120009>.
+L'$LINK<ECONOMIE=44> augmentent de 50% sur cette base
+pour une économie de $LINK<marché libre=120007>.
+
+
+
+#HUNTERSEEKER
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[L'algorithme chasseur-chercheur]
+^
+^Met vos unités et vos bases complètement à l'abri de l'infiltration
+d'une quelconque $LINK<équipe de repérage=30006>.
+
+
+#PHOLUSMUTAGEN
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[Le mutagène de Pholus]
+^
+^Diminue les effets de l'industrie sur l'écologie de la Planète sur
+toutes vos bases.
+De plus, le $LINK<Fongus=14> procure à toutes vos unités les mêmes
+avantages de combat qui sont habituellement réservés aux formes de
+vie indigènes.
+Toute forme de vie indigène que vous élevez acquiert un bonus
+de $LINK<1 de cycle de vie=11>.
+
+
+#CYBORGFACTORY
+Arial, 0, 10,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+180, 140, 280, 200,
+10, 4000,
+
+^^[L'usine de Cyborgs]
+^
+^^Compte pour un $LINK<Centre de progrès génétique=100030> sur chaque base.
+
+
+
+#THEORYOFEVERYTHING
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[La théorie du Tout]
+^
+^
+^^Les découvertes des $LINK<LABOS=45> sont doublées sur cette base.
+
+
+
+#DREAMTWISTER
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[Le tourbillon des rêves]
+^
+^
+^^L'$LINK<attaque PSY=15> augmente de +50%.
+
+
+#UNIVERSALTRANSLATOR
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 5000,
+
+^^[Le traducteur universel]
+^
+^Deux $LINK<avancées technologiques=140062> gratuites à l'achèvement.
+Sur cette base, il est possible de vendre n'importe quel nombre
+d'$LINK<objets anciens=30007>.
+
+
+#NETWORKBACKBONE
+Arial, 0, 10,
+56, 64, 1, 1,
+Arial, 1, 14,
+56, 64, 1, 1,
+Arial, 1, 14,
+56, 64, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[Le coeur du réseau]
+^
+^La $LINK<recherche=45> augmente de 1 sur cette base pour chaque point
+de $LINK<Commerce=29> reçu, ainsi que pour chaque $LINK<Noeud de réseau=100008>
+existant sur Alpha Centauri, quel que soit le possesseur de ce Noeud de réseau.
+Elimine les effets négatifs d'une $LINK<société cybernétique=120017>.
+
+
+
+#NANOFACTORY
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[La nano-usine]
+^
+^Permet de réparer rapidement et complètement les unités
+même lorsqu'elles ne sont pas dans les carrés de base. Le coût de la
+mise à niveau des unités est réduit de 50%.
+
+
+#LIVINGREFINERY
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[La raffinerie vivante]
+^
+^Diminue la quantité de minéraux nécessaire au soutien des unités
+militaires : $LINK<+2 SOUTIEN=130002> sur le tableau de Génie social.
+
+#CLONINGVATS
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[Les cuves de clonage]
+^
+^Toutes vos bases entrent dans un état permanent d'explosion démographique et
+croissent à chaque tour, pourvu que la production de $LINK<NUTRIMENTS=41> soit
+suffisante et les $LINK<bâtiments d'habitation=100024> adéquats. Les effets
+négatifs des choix d'ingénierie sociale tels que la $LINK<Puissance=120012>
+et le $LINK<Contrôle psychique=120019> sont éliminés.
+
+
+#SElFAWARECOLONY
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[La colonie intelligente]
+^
+^Le coût de l'entretien énergétique des bâtiments est divisé par deux sur toutes
+vos
+bases. Si l'emploi d'une $LINK<police=130005> est autorisé dans le modèle
+social actuel, on considère que toutes vos bases disposent d'une unité de police
+supplémentaire.
+
+
+#CLINICAL_IMMORTALITY
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4500,
+
+^^[Immortalité clinique]
+^
+^Un $LINK<Talent=37> supplémentaire sur chaque base. Double le nombre de vos
+voix aux élections du $LINK<Gouverneur planétaire=28> et du
+$LINK<Dirigeant suprême.=10005>
+
+
+#SPACEELEVATOR
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[L'ascenseur spatial]
+^
+^Double la production de réserves d'énergie sur cette base, et double la vitesse
+de production de $LINK<MINERAUX=42> sur toutes vos bases lors
+des améliorations du Système Orbital. Vos unités équipées
+de $LINK<capsules de largage=80004> peuvent effectuer des insertions orbitales
+où que ce soit sur la Planète. Toutes les restrictions du
+$LINK<Complexe aérospatial=100029> sur les améliorations orbitales sont annulées.
+
+
+
+#SINGULARITYINDUCTOR
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[L'inducteur de singularité]
+^
+^Compte pour un $LINK<Convertisseur quantique=100021> sur chaque base, et diminue
+les $LINK<effets écologiques=26> de la production de minéraux.
+
+
+#BULKMATTER
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[Le transmetteur en vrac]
+^
+^
+^^Apporte $LINK<+2 en MINERAUX=42> sur chaque base.
+
+#TELEPATHICMATRIX
+Arial, 0, 10,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+160, 150, 320, 180,
+10, 5000,
+
+^^[La matrice télépathe]
+^
+^Il n'y a jamais d'$LINK<émeute=9> de $LINK<Droïdes=36> sur vos bases.
+Toutes vos $LINK<équipes de repérage=30006> reçoivent un modificateur
+de $LINK<+2 au moral=11>.
+
+
+#VOICEOFPLANET
+Arial, 0, 10,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+Arial, 1, 14,
+55, 56, 1, 1,
+180, 140, 280, 200,
+10, 5000,
+
+^^[La Voix de la Planète]
+^
+^Démarre la séquence d'$LINK<Ascension vers la transcendance=110071>.
+Toute faction peut maintenant commencer l'Ascension vers la transcendance.
+Toute forme de vie indigène que vous élevez acquiert un bonus de
+$LINK<1 en cycle de vie=11>.
+
+
+#SMACXGRID
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[La grille d'énergie planétaire]
+^
+^
+^^Une $LINK<banque d'énergie=100007> gratuite sur chaque base.
+^^La $LINK<réserve d'énergie=100069> produit 25% de plus.
+
+#SMACXNETHACK
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 5000,
+
+^^[Le Terminus NetHack]
+^
+^
+^^+1 de $LINK<moral=11> à toutes les $LINK<équipe de repérage=30006> construites.
+^^-25% de coût des actions des équipes de repérage.
+^^Toutes les équipes de repérage ont l'équivalent de l'Amélioration algorithmique.
+
+#SMACXMANIFOLD
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 6000,
+
+^^[Les harmoniques du collecteur]
+^
+^
+^^Augmente les ressources récoltées à partir des monolithes et des carrés de fongus
+en fonction de votre taux global de PLANETE, de la manière suivante :
+^
+^^0 PLANETE :   +1 ENERGIE
+^^+1 PLANETE :  +1 NUTRIMENT, +1 ENERGIE
+^^+2 PLANETE :  +1 NUTRIMENT, +1 ENERGIE, +1 MINERAUX
+^^+3 PLANETE :  +1 NUTRIMENT, +2 ENERGIE, +1 MINEEAUX
+
+#SMACXCLOUDBASE
+Arial, 0, 10,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+Arial, 1, 14,
+56, 55, 1, 1,
+160, 150, 320, 180,
+10, 4000,
+
+^^[L'Académie des Nuées]
+^
+^
+^^Un complexe aérospatial gratuit sur chaque base.
+
+# ; This line must remain at end of file
+

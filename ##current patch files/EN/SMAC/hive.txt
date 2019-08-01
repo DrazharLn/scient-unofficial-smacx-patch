@@ -1,0 +1,186 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; FACTION FILE: The Human Hive
+;
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#HIVE
+Human Hive, The Despot, Hive, M, 1, Yang, M,  1,  1, 0, 1, 0,
+  TECH, DocLoy, FACILITY, 4, SOCIAL, +GROWTH, SOCIAL, +INDUSTRY, SOCIAL, --ECONOMY, IMMUNITY, EFFIC
+  Politics, Police State, POLICE
+  Politics, Democratic, nil
+  Hive, Hive,
+  Ota Kyi, Shimoda, Song of Ota Kyi
+  Chairman, ruthless, cruel, unquestioning, mindless,
+  Inhuman Monster
+  properly control our followers
+  to found a society on the principles of security and control
+  reducing us all to mindless servants of his diabolical schemes
+  reducing us all to mindless servants of your diabolical schemes
+  reduce the human population of this world into mindless slavery
+  torturing the wretched fools who chose to follow him
+  torturing the wretched fools who chose to follow you
+  preaching brutal nihilism
+  brutal nihilism, M1
+  social experiments, M2
+  mind control experiments, M2
+  fee, M1
+  keeping an eye on the workers
+  Hive Security
+  Hive Law
+
+#BASES
+The Hive
+Sheng-ji Yang Base
+Worker’s Nest
+People’s Teeming
+Great Clustering
+The Colony
+Industrial Crawling
+Manufacturing Warrens
+Discipline Tubes
+Laborer’s Throng
+Unification Cavern
+Social Engineering Den
+The Labyrinth
+Paradise Swarming
+Communal Nexus
+Social Artery
+Factory Maze
+Unity Lair
+Society Grid
+Great Collective
+Proletarian Knot
+Socialism Tunnels
+The Drone Mound
+Plex Anthill
+Watcher’s Eye
+Working Man Hold
+Huddling of the People
+Yang Mine
+Seat of Proper Thought
+The Leader’s Horde
+Chairman’s Burrow
+Labor Network
+Deep Passages
+Fellowship City
+People’s Endeavor
+Fecundity Tower
+Hole of Aspiration
+Serene Submission
+Collective Achievement
+Will’s Triumph
+Human Potential
+Line of Ten Thousand Hands
+Guidance of the Multitudes
+The Master’s Plan
+Masses Firmament
+Pioneers Waypoint
+The People Shall Prevail
+Glory to the Group
+Dauntless Without End
+Society’s Architects
+Camaraderie Hearth
+Endurance Rising
+Harmony of Purpose
+Obedience and Duty
+Struggle’s Respite
+Your Tutor’s Words
+Discipline’s Path
+Obedience’s Reward
+Security Perimeter
+Shining Victory
+Perfection in Submission
+Enlightened Guidance
+Guiding Hand
+Serve the People
+Example to the Masses
+Strive for the Future
+Order’s Bulwark
+The Firmament of Stability
+Citizens’ Resolve
+Triumph of the Group
+Strength of Resolve
+Inner Balance
+#END
+
+#WATERBASES
+Sea Collective
+Deep Community
+Sea Hive
+Port Yang
+Factory Drift
+Ocean Core
+Deep Clustering
+#END
+
+#BLURB
+Learn to overcome the crass demands of flesh and bone, for they
+warp the matrix through which we perceive the world. Extend your
+awareness outwards, beyond the self of body, to embrace the self
+of group and the self of humanity. The goals of the group and the
+greater race are transcendent, and to embrace them is to achieve
+enlightenment.
+^
+^       —Chairman Sheng-Ji Yang,
+^       “Essays on Mind and Matter”
+
+#DATALINKS1
+^LEADER: {Sheng-Ji Yang}
+^BACKGROUND: {Great China, Unity Executive Officer}
+^AGENDA: {Atheist Police State}
+^TECH: {Doctrine: Loyalty}
+^
+
+#DATALINKS2
+^+1 GROWTH:   {Rapid population growth}
+^+1 INDUSTRY: {Brutal serfdom}
+^-2 ECONOMY:  {Little political freedom}
+^Underground bunkers: Free {Perimeter Defense} at each base
+^{May not use Democratic politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order.”
+
+“Indeed. Blood Truce would be most satisfactory.”
+“Never! I plan to put an end to your scheming once and for all!”
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“$TITLE0 $NAME1, your ideals are admirable if a bit misguided and
+your faction need not pose a threat to Hive policy. Shall we sign
+a Treaty of Friendship to formalize our symbiotic relationship?
+
+“As you wish. The Hive seems a valuable friend.”
+“No. Your social experiments are a bit too bizarre for me, $NAME3.”
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order.”
+
+“Progenitor: perceive no point either. Mutual agreement: truce.”
+“Your needs: truth: not same. Continued conflict: beneficial to Progenitor!”
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“$TITLE0 $NAME1, my noninterference philosophies would seem to make
+me the only natural ally for you from among these warring human
+factions. Can’t we sign a Treaty of Friendship and coexist in peace?
+
+“Hive: safe ally. Treaty: admirable idea.”
+“Hive: control: too important. Ally: dangerous. Answer: no.”
+
+# ; This line must remain at end of file

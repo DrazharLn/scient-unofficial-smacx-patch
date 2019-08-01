@@ -1,0 +1,114 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario Template
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; Ce fichier peut être copié dans le même répertoire qu'un fichier de
+; scénario et personnalisé pour celui-ci.
+;
+; De nombreux fichiers texte du jeu (ALPHA.TXT, SCRIPT.TXT, par exemple) ainsi
+; que des fichiers graphiques (UNITS.PCX, etc.) peuvent être copiés dans le
+; répertoire de scénario et modifiés ; les fichiers du répertoire de scénario
+; ont la priorité sur ceux du répertoire principal du jeu.
+;
+; Toutes les chaînes et valeurs de #INTRO et #OBJECTIVES
+; peuvent être utilisées dans l'un ou dans l'autre. #INTRO figure au début
+; du scénario ; la section #OBJECTIVES s'affiche lorsque le joueur 
+; choisit "Examiner objectifs" dans le menu.
+;
+
+#INTRO
+#xs 320
+#caption SCENARIO
+^^
+^^Commencer Scénario
+^^
+^^$TITLE1 $NAME2 de la faction $FACTION3
+^^
+^^$DATE4
+
+##facultatif pour #INTRO et #OBJECTIVES
+## $TITLE1 $NAME2 de la faction $FACTION3 => Faction du joueur
+## $DATE4 = Date actuelle, comprend "A.M."
+## $NUM0 = objectifs à atteindre pour la victoire
+## $NUM1 = objectifs à atteindre pour la victoire instantanée
+## $NUM2 = objectifs en possession du joueur au démarrage
+## $NUM3 = année de fin du scénario
+
+#OBJECTIVES
+#xs 440
+#caption SCENARIO
+^^
+^^Objectifs du scénario
+^^
+^^Objectifs requis pour la victoire : $NUM0
+^^
+^^Objectifs requis pour une victoire par combat à mort : $NUM1
+^^
+^^Objectifs atteints : $NUM2
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption FIN DU SCENARIO
+^^
+^^A.M. $YEAR0
+^^
+^^FIN DU SCENARIO
+^^
+#SCENTIMEWIN
+#xs 440
+#caption VICTOIRE
+^^
+^^FELICITATIONS !
+^^
+^^$TITLE0 $NAME1 de la faction $FACTION2
+^^
+^^VOUS AVEZ GAGNE CE SCENARIO !
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption FIN DU SCENARIO !
+^^
+^^$TITLE0 $NAME1 de la faction $FACTION2
+^^
+^^REMPLIT LES CONDITIONS DE LA VICTOIRE
+^^
+^^ET GAGNE LE SCENARIO !
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption FIN DU SCENARIO !
+^^
+^^$TITLE0 $NAME1 de la faction $FACTION2
+^^
+^^A REMPLI LES CONDITIONS DE LA VICTOIRE
+^^
+^^ET A GAGNE LE SCENARIO !
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption VICTOIRE
+^^
+^^FELICITATIONS !
+^^
+^^$TITLE0 $NAME1 de la faction $FACTION2
+^^
+^^VOUS AVEZ GAGNE LE SCENARIO !
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption AVERTISSEMENT DE FIN DU SCENARIO
+^^
+^^LA FIN DU SCENARIO APPROCHE
+^^
+^^LE JEU PRENDRA FIN DANS $NUM0 A.M.
+^^
+
+#; This line must remain at end of file

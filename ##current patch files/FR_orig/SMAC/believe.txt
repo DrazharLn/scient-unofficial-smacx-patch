@@ -1,0 +1,137 @@
+;
+; Sid Meier's ALPHA CENTAURI
+; !
+; DOSSIER FACTION : Les Dévots du Seigneur
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+; Lors du démarrage, ALPHA CENTAURI lit les règles du jeu à partir de ce
+; fichier. Vous pouvez essayer d'éditer ce fichier à vos risques et périls.
+; Nous vous recommandons de faire auparavant une copie de sauvegarde.
+;
+
+#BELIEVE
+LES DEVOTS DU SEIGNEUR, La Fondamentaliste, Dévots, M, 2, Miriam, F,  1,  1, 0, 0, 1,
+  TECH, Psych, SOCIAL, --RESEARCH, SOCIAL, +PROBE, SOCIAL, ++SUPPORT, SOCIAL, -PLANET, FANATIC, 0
+  Politique, Fondamentaliste, PROBE
+  Valeurs, CONNAISSANCE, nil
+  Faction Dévôt
+  Jessica, Westcott, la Foi de Jessica
+  Soeur, pieuse, fanatique, dévots, maître à penser de la Bible,
+  toquée de religion
+  adopter la vérité des Ecritures du Seigneur
+  faire adopter la vérité des Ecritures du Seigneur
+  imposer son code moral extrémiste à tout le monde
+  imposer votre code moral extrémiste à tout le monde
+  que vous me gavez l'esprit de votre extrémisme religieux
+  asséner sa chère bible
+  asséner votre chère bible
+  me dévouer aux principes de la bible
+  dévoué aux principes de la bible, M1
+  vos principes bibliques, M2
+  vos pratiques religieuses bizarres, F2
+  une petite dîme, F1
+  à soutenir les principes de décence et de moralité
+  à l'armée de mes Anges de Justice
+  la Loi orale du Conclave
+
+#BASES
+ARC-EN-CIEL DE NOE, M1
+NOUVELLE JERUSALEM, F1
+GRAND CONCLAVE, M1
+GRANDE SION, F1
+LOINTAINE JERICHO, F1
+BASE DE LA REDEMPTION, F1
+ENFANTS DE DIEU, M2
+VOIX DE DIEU, F1
+TRONE DU JUGEMENT, M1
+VALLEE DES FIDELES, F1
+REDEMPTEUR BENI, M1
+GLOIRE DE DIEU, F1
+NOUVEL EDEN, M1
+TERRIBLE EPEE, F1
+HEURE DU SALUT, F1
+RECOMPENSE ETERNELLE, F1
+MISERICORDE DIVINE, M1
+SENTENCE VERTUEUSE, F1
+TRONE DE DIEU, M1
+RAVISSEMENT, M1
+COLERE DE DIEU, F1
+GRACE DE DIEU, F1
+MAIN DE DIEU, F1
+RETOUR DU SEIGNEUR, M1
+BASE DE SAINTETE, F1
+ELUS DU SEIGNEUR, M2
+TERRE SAINTE, F1
+DON DU SEIGNEUR, M1
+BASE DE LA DIVINITE, F1
+PAROLE DU SEIGNEUR, F1
+BASE DE LA REVELATION, F1
+FEU SACRE, M1
+VERITE DU SEIGNEUR, F1
+SAUVEUR BENI, M1
+DES CIEUX, M2
+ESPOIR DE GODWINSON, M1
+MAISON DES MARTYRES, F1
+#END
+
+#WATERBASES
+MARCHE SUR LES EAUX, F1
+PARABOLE DU PECHEUR, F1
+VENTRE DE LA BALEINE, M1
+PECHEUR D'HOMMES, M1
+PORT GRACE, M1
+NOCES DE CANA, F2
+EAUX BENIES, F2
+#END
+
+#BLURB
+  Les justes ne doivent pas craindre le fracas du progrès humain.
+Bien que le chant de la veille s'efface au défi du lendemain,
+Dieu veille sur nous et nous juge. Le mal sommeille dans les bases
+de données, tout comme il sommeillait dans les rues d'autrefois.
+Mais le mal ne venait pas des rues elles-mêmes.
+^
+^        -- Soeur Miriam Godwinson,
+^           "La lutte bénie"
+
+#DATALINKS1
+^DIRIGEANT : {Soeur Miriam Godwinson}
+^CURRICULUM : {Etats chrétiens d'Amérique, Aumônier psy de l'Unity}
+^ORDRE DU JOUR : {Vie d'adoration religieuse}
+^TECHNOLOGIE : {Psychologie sociale}
+^
+
+#DATALINKS2
+^+25% bonus d'attaque des ennemis, conséquence de la force des convictions.
+^+1 TEST : {lavage de cerveau difficile sur les croyants dévôts}
+^+2 DE SOUTIEN : {Citoyens anxieux de défendre la foi}
+^-2 RECHERCHE : {Méfiance envers la science séculière}
+^-1 PLANETE : {Croient que la Planète est leur Terre promise}
+^N'accumule AUCUN point de recherche avant 2110 AM.
+^{Ne peut pas utiliser son Savoir pour l'Ingénierie Sociale.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, la Volonté du Seigneur est que nous mettions fin à ce conflit immoral.
+Concluez une Trêve de sang avec moi et je prierai pour le salut de votre âme".
+
+"Comme vous voulez. Faisons une trêve".
+"Allez au diable, $NAME3."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"J'ai beaucoup prié pour vous, ces derniers temps, $TITLE0 $NAME1. Le Seigneur
+souhaite que nous vivions côte à côte comme frères et soeurs ; nous devons
+signer un Traité d'amitié et l'adorer ensemble en paix".
+
+"Amen, $NAME3. Une paix durable est une bénédiction, je vous le dis".
+"Non. Votre fanatisme me donne des frissons, $NAME3."
+
+
+
+# ; This line must remain at end of file
+
+

@@ -1,0 +1,486 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; System Parameters
+;
+; Copyright (c) 1997,1998 by Firaxis Games, Inc.
+;
+; We recommend that you do not alter this file
+;
+
+;
+; Color Cycling
+; Relative Color id, # colors, mSec timing
+;
+#CYCLING
+0
+221, 5, 100
+226, 5, 200
+231, 5, 300
+
+;
+; Explosions
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS
+49,  100
+83,  100
+85,   99
+86,   98
+87,   97
+88,   96
+90,   95
+219,  94
+220,  93
+221,  92
+222,  91
+121,   90
+122,  80
+124,  60
+126,  40
+71,   95
+
+;
+; Explosion table 00 orange
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS0
+49,  100,
+83,  100
+85,   99
+86,   98
+87,   97
+88,   96
+90,   95
+219,  94
+220,  93
+221,  92
+222,  91
+123,   90
+124,  80
+125,  60
+126,  40
+71,   95
+
+;
+; Explosion table 01 Teal
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS1
+30,  100
+144, 100
+145,  99
+192,  98
+193,  97
+194,  96
+195,  95
+196,  94
+197,  93
+198,  92
+202,  91
+203,  90
+204,  80
+29,   60
+30,   40
+71,   95
+
+;
+; Explosion table 02 Blue
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS2
+179, 100
+144, 100
+145,  99
+146,  98
+147,  97
+148,  96
+149,  95
+151,  94
+155,  93
+159,  92
+163,  91
+168,  90
+172,  80
+179,  60
+181,  40
+71,   95
+
+;
+; Explosion table 03 orange transparent
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS3
+49,  100,
+83,  100
+85,   99
+86,   98
+87,   97
+88,   96
+90,   95
+219,  94
+220,  90
+221,  85
+222,  70
+123,   50
+124,  40
+125,  20
+126,  00
+71,   95
+
+;
+; Explosion table 04 Red
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS4
+189, 100
+32,  100
+33,   99
+35,   98
+113,  97
+114,  96
+79,   95
+94,   94
+95,   93
+96,   92
+97,   91
+98,   90
+99,   80
+122,  60
+189,  40
+71,   95
+
+;
+; Explosion table 05 Green
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS5
+26,  100
+83,  100
+85,   99
+139,  98
+140,  97
+141,  96
+142,  95
+143,  94
+16,   93
+18,   92
+20,   91
+22,   90
+24,   80
+25,   60
+26,   40
+71,   95
+
+;
+; Explosion table 06 Purple
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS6
+183, 100
+144, 100
+145,  99
+224,  98
+225,  97
+226,  96
+227,  95
+228,  94
+229,  93
+230,  92
+174,  91
+177,  90
+180,  80
+181,  60
+183,  40
+71,   95
+
+;
+; Explosion table 07 Red to drkPurp
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS7
+189, 100
+32,  100
+33,   99
+35,   98
+113,  97
+114,  96
+79,   95
+117,  94
+119,  93
+230,  92
+174,  91
+177,  90
+180,  80
+181,  60
+183,  40
+71,   95
+
+;
+; Explosion table 08 Gray
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS8
+71,  100
+56,  100
+58,   99
+60,   98
+63,   97
+65,   96
+66,   95
+67,   94
+68,   93
+69,   92
+70,   91
+71,   90
+72,   80
+73,   60
+74,   40
+71,   95
+
+;
+; Explosion table 09 Yellow
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS9
+49,  100
+80,  100
+82,   99
+84,   98
+233,  97
+234,  96
+235,  95
+207,  94
+3,    93
+6,    92
+8,    91
+10,   90
+12,   80
+14,   60
+126,  40
+71,   95
+
+;
+; Explosion table 10 White
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS10
+71,  100
+56,  100
+57,   99
+58,   98
+59,   97
+60,   96
+61,   95
+63,   94
+65,   93
+66,   92
+67,   91
+68,   90
+70,   80
+72,   60
+74,   40
+71,   95
+
+;
+; Explosion table 11 Black
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS11
+71,  100
+57,  100
+61,   99
+64,   98
+66,   97
+67,   96
+68,   95
+69,   94
+71,   93
+72,   92
+73,   91
+74,   90
+55,   80
+55,   60
+55,   40
+71,   95
+
+
+;
+; Explosion table 12 Crash landing
+;
+; Relative Color id, %opaque
+;
+#EXPLOSIONS12
+144,  60
+144,  55
+144,  50
+144,  45
+144,  40
+144,  35
+144,  30
+144,  25
+144,  20
+144,  15
+144,  10
+144,  5
+144,  5
+144,  5
+144,  5
+144,  5
+
+
+;
+; Glow colors for energy icons
+;
+;  Relative Color id, %opaque
+#ENERGYGLOW
+85, 70
+85, 50
+85, 30
+
+;
+; Ocean offsets from ocean altitudes
+;
+; Offset into the palette for altitude above ocean bottom. Abyss, then deep, then shelf.
+;
+#OCEANOFFSETS
+34
+35
+34
+34
+34
+33
+34
+34
+33
+32
+32
+33
+34
+33
+34
+34
+34
+33
+33
+32
+
+28
+27
+26
+27
+28
+29
+30
+30
+29
+28
+27
+26
+25
+26
+25
+25
+25
+24
+25
+24
+
+20
+19
+19
+18
+24
+18
+16
+15
+14
+15
+16
+14
+12
+11
+12
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+#VEHICLECOLORING
+95,  ALIEN RED--NOT REALLY USED.
+197, CYBERNETIC TEAL
+244, PIRATES CYAN
+122, DRONES MAROON
+228, ANGELS PURPLE
+79,  CULT XENOPINK
+142, CARETAKERS OLIVE
+139, URSURPERS YELLOW
+
+#OLDVEHICLECOLORING
+95,  ALIEN RED--NOT REALLY USED.
+142, GAIAN GREEN
+250, LABYRINTH BLUE  ;This was 208. No longer any good?? jsc
+62,  ARCHON WHITE
+241, MORGAN YELLOW
+70,  SPARTAN BLACK
+219, CONCLAVIST ORANGE
+227, KEEPER PURPLE
+
+#ARMORCOLORING
+95, PLASMA STEEL
+233, SILK STEEL
+88, NEUTRONIUM
+70, ANTIMATTER PLATE
+
+#ARMORCOLORING_TRANS
+62, 30, 60, PROBABILITY SHEATH--color, beginning percent, ending percent
+
+#VEH_LIGHT_DIR_MAP
+6, 4, 15
+
+#BOUNDARYPERCENTS
+0,  ALIEN PLAYER...NOT USED
+50, GAIAN GREEN
+60, LABYRINTH BLUE  ;This was 208. No longer any good?? jsc
+50,  ARCHON WHITE
+50, MORGAN YELLOW
+60,  SPARTAN BLACK
+50, CONCLAVIST ORANGE
+70, KEEPER PURPLE
+
+# ; This line must remain at end of file

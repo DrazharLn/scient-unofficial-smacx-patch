@@ -1,0 +1,144 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Gaia's Stepdaughters
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#GAIANS
+Gaia's Stepdaughters, The Green, Gaians, F, 2, Deirdre, F, -1, 0, 0, 0, 1,
+  TECH, Ecology, SOCIAL, -MORALE, SOCIAL, -POLICE, SOCIAL, ++EFFIC, SOCIAL, +PLANET, FUNGNUTRIENT, 1
+  Economics, Green, PLANET
+  Economics, Free Market, nil
+  Gaian, Gaian,
+  Lindly, Scott, Lindly's Rest
+  Lady, beautiful, tree-crazy, ecologically sensitive, eco-daft,
+  Nature Loony
+  preserve Planet's native life
+  to guard, understand, and preserve Planet's native life
+  stamping out all legitimate sentient development of this planet
+  stamping out all legitimate sentient development of this planet
+  cripple any and all efforts toward sentient progress on this world
+  dancing naked through the trees
+  dancing naked through the trees
+  spouting tree-crazy prattle
+  tree-crazy prattle, M1
+  environmental initiatives, M2
+  pagan rituals, M2
+  ecology tax, M1
+  preserving and cataloguing Planet's native life
+  my Environmental Police
+  the Planetary Ecology Code
+
+#BASES
+Gaia's Landing
+Gaia's High Garden
+Forest Primeval
+Children of Earth
+Vale of Winds
+Mindworm Pass
+Blackroot Palace
+Greenhouse Gate
+Razorbeak Wood
+Last Rose of Summer
+Lucky Autumn
+Dreams of Green
+The Pines
+Velvetgrass Point
+Song of Planet
+Nessus Shining
+Silverbird Park
+Fallow Time
+Autumn Grove
+The Flowers Preach
+Resplendent Oak
+Lily of the Valley
+Virgin Soil
+Garden of Paradise
+Thorny Vineyard
+Chiron Preserve
+Memory of Earth
+#END
+
+#WATERBASES
+Garden of the Deep
+Deirdre's Fishery
+Water Garden
+Ocean Flower
+Falling Water
+Great Lagoon
+Sea Cradle
+Garden of Fishes
+#END
+
+#BLURB
+In the great commons at Gaia's Landing we have a tall and particularly
+beautiful stand of white pine, planted at the time of the first
+colonies. It represents our promise to the people, and to Planet
+itself, never to repeat the tragedy of Earth.
+^
+^        -- Lady Deirdre Skye,
+^           "Planet Dreams"
+
+#DATALINKS1
+^LEADER: {Deirdre Skye}
+^BACKGROUND: {Free Scotland, Unity Xenobiologist}
+^AGENDA: {Green Democracy}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^+1 PLANET: {Environmental safeguards; can capture mindworms}
+^+2 EFFICIENCY: {Experience with life systems & recycling}
+^-1 MORALE: {Pacifist tendencies}
+^-1 POLICE: {Freedom loving}
+^+1 Nutrients in fungus squares
+^{May not use Free Market economics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This senseless destruction will surely cause irreparable harm
+to Planet's ecology. I urge we mend our differences and
+pledge Blood Truce."
+
+"It is as you say. This violence must end."
+"Hah! Your rocks and plants won't save you now, $NAME3!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I sense you are a friend of Planet, $TITLE0 $NAME1. I suggest
+we sign a Treaty of Friendship, that our peoples may live
+side by side in peace."
+
+"Agreed. Walk with Planet, $NAME3."
+"No. This 'Friend of Planet' stuff gives me the creeps."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This senseless destruction will surely cause irreparable harm
+to Planet's ecology. I urge we mend our differences and
+pledge Blood Truce."
+
+"Destruction of Manifold Six: to be avoided. Agreement."
+"Manifold Six: tougher than you, $NAME3. Destruction: prepare!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, clearly you and your kind know more of Planet than
+we humans ever shall. Cannot we sign a Treaty of Friendship, that
+we may learn at your ... uh ... knee?"
+
+"Manifold Six: sacrosanct. Aims: similar. Treaty: fine idea."
+"Your understanding of Manifold Six: feeble. Treaty: not at this time."
+
+# ; This line must remain at end of file
+

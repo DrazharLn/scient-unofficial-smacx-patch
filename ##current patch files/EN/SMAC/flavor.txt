@@ -1,0 +1,425 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; Flavoring text for Unit Design Screen
+;
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
+;
+
+;CHASSIS
+
+#INFANTRY
+Domain: Land
+Speed: 8 km/h
+Modality: Manual/Tracked
+Dimensions: N/A
+Modifiers: +25% vs. base
+
+#SPEEDER
+Domain: Land
+Speed: 102 km/h
+Modality: Wheeled
+Dimensions: 7.7 × 3.6 × 2.9 m
+Modifiers: +25% in open
+
+#HOVERTANK
+Domain: Land
+Speed: 227 km/h
+Modality: Aircushion
+Dimensions: 6.9 × 3 × 3 m
+Modifiers: +25% in open
+
+#FOIL
+Domain: Sea
+Speed: 62 km/h
+Modality: Airfoil
+Dimensions: 162 × 24.25 × 17.5 m
+Modifiers: None
+
+#CRUISER
+Domain: Sea
+Speed: 115 km/h
+Modality: Naval Keel
+Dimensions: 200 × 50.5 × 20 m
+Modifiers: None
+
+#NEEDLEJET
+Domain: Air
+Speed: 766 km/h
+Modality: Fixed-wing aircraft
+Dimensions: 18.6 × 12.5 × 4.4 m
+Modifiers: Require refuel every 2 turns
+
+#’COPTER
+Domain: Air
+Speed: 523 km/h
+Modality: Rotary
+Dimensions: 15.5 × 6 × 4 m
+Modifiers: Range unaffected by fuel
+
+#GRAVSHIP
+Domain: Air
+Speed: 1021 km/h
+Modality: Gravitron booster
+Dimensions: 22 × 8 × 6 m
+Modifiers: Range unaffected by fuel
+
+#MISSILE
+Domain: Air
+Speed: 232.5 km/h
+Modality: Assisted airflow
+Dimensions: 15.5 × .5 × .5 m
+Modifiers: Destroyed on impact
+
+;REACTORS
+
+#FISSION PLANT
+Rating: 32655 kW
+Throughput: 29377 kW
+Efficiency: 89.99%
+Discharge: 52 r
+Fuel source: U-235
+
+#FUSION REACTOR
+Rating: 68003 kW
+Throughput: 62821 kW
+Efficiency: 92.38%
+Discharge: 67 r
+Fuel source: Ionized deuterium
+
+#QUANTUM CHAMBER
+Rating: 147893 kW
+Throughput: 141977 kW
+Efficiency: 96.01%
+Discharge: 21 r
+Fuel source: Deuterium-tritium mix
+
+#SINGULARITY ENGINE
+Rating: >4000000 kW
+Throughput: Var
+Efficiency: Var
+Discharge: N/A
+Fuel source: Vizorium-5
+
+;  WEAPONS
+
+#HAND WEAPONS
+Ammo: 7.62 mm U.N. standard
+Muzzle velocity: 1100 mps
+Rate of fire: Varies; max 120/min
+Max range: 550 m
+Target acquisition: Visual
+
+#LASER
+Active medium: Diode
+Type: Fiber-coupled
+Pulse duration: 5 nsec
+Wavelength: 193 nm
+Peak power: .84 GW
+Burn rate (1 m steel): .76 sec
+
+#PARTICLE IMPACTOR
+Ammo: 10 mm caseless Kinetic Energy
+Muzzle velocity: 2500 mps
+Rate of fire: 1100/min
+Max range: 2700 m
+Target acquisition: Optical
+
+#MISSILE LAUNCHER
+Ammo: Mk. 12(t) ‘Sabre’ missile
+Velocity: Mach 2.2
+Rate of fire: 6/min
+Max range: 90 km
+Target acquisition: IR signature
+
+#GATLING LASER
+Active medium: Neodymium-glass
+Type: Conductively cooled stacked array
+Pulse duration: 2 nsec
+Wavelength: 107 nm
+Peak power: .96 GW
+Burn rate (1 m steel): .52 sec
+
+#CHAOS GUN
+Ammo: 9 mm caseless Field Disruptor
+Muzzle velocity: 3000 mps
+Rate of fire: 10/min
+Max range: 11 km
+Target acquisition: Field Differential
+
+#FUSION LASER
+Active medium: Neodymium-YAG
+Type: Actively cooled stacked array
+Pulse duration: 15 nsec
+Wavelength: 573 nm
+Peak power: 2.4 GW
+Burn rate (1 m steel): .14 sec
+
+#TACHYON BOLT
+Active medium: Molecular hydrogen
+Type: Active liquid coolant
+Pulse duration: 1 usec
+Wavelength: 680 nm
+Peak power: 5 GW
+Burn rate (1 m steel): .07 sec
+
+#PLASMA SHARD
+Ammo: 15 mm Mass-energy shell
+Muzzle velocity: Varies; max 4000 mps
+Rate of fire: 160/min
+Max range: 16 km
+Target acquisition: Charged particle
+
+#QUANTUM LASER
+Active medium: Temporal field distortion
+Type: Crystal diffusion
+Pulse duration: N/A
+Wavelength: .005 nm
+Peak power: Varies
+Burn rate (1 m steel): N/A
+
+#GRAVITON GUN
+Ammo: 2 mm 3-stage particle-accelerated
+Muzzle velocity: 9800 mps
+Rate of fire: 2000/min
+Max range: 1.4 km
+Target acquisition: Nanoremote
+
+#SINGULARITY LASER
+Active medium: Temporal boundary
+Type: Singularity induction
+Pulse duration: Relative
+Wavelength: .001 nm
+Peak power: N/A (approach inf.)
+Burn rate (1 m steel): Relative
+
+#PSI ATTACK
+Active medium: Patterned energy
+Type: Compelled dissociative
+Range: Line of sight
+Peak power: Inverse to distance
+Target acquisition: Psi lock
+
+#PLANET BUSTER
+Designation: Mk. 714 Plasma bomb
+Active kill radius: 2000 km
+Explosive force: 296 Gt TNT
+Target acquisition: Charged particle
+
+#COLONY MODULE
+Complement: 1000+
+Composition: Prefab plastic
+Hydroponics rating: indefinite
+Armament: Sidearms only
+
+#TERRAFORMING UNIT
+Crew: 367
+Composition: Bonded steel/ceramic
+Armament: Sidearms only
+
+#TROOP TRANSPORT
+Capacity: 500 troops + support
+Composition: Hardened plasteel
+Hydroponics rating: ST
+
+#SUPPLY TRANSPORT
+Capacity: 2575 mt
+Composition: reinforced plasteel
+Armament: Sidearms only
+
+#PROBE TEAM
+Complement: 16
+Counterintel suite: ShieldSafe V 6.0
+Armament: Cyberlinks/mind control
+
+;DEFENSES
+
+#NO ARMOR
+Type: N/A
+Tensile strength: N/A
+Density: N/A
+Thickness: N/A
+
+#SYNTHMETAL ARMOR
+Type: Chobham (modified)
+Tensile strength: Base
+Density: 2.3 kg/l
+Thickness: 250 mm
+
+#PLASMA STEEL ARMOR
+Type: Mass-energy composite
+Tensile strength: 5 × base
+Density: 2.5 kg/l
+Thickness: 520 mm
+
+#SILKSTEEL ARMOR
+Type: Bonded
+Tensile strength: 23 × base
+Density: 2.5 kg/l
+Thickness: 520 mm
+
+#PHOTON WALL
+Type: Refractive field
+Tensile strength: 46 × base
+Density: N/A
+Thickness: 2 m
+
+#PROBABILITY SHEATH
+Type: Phase adjustment
+Tensile strength: 97 × base
+Density: N/A
+Thickness: N/A
+
+#NEUTRONIUM ARMOR
+Type: Kinetic diffusion
+Tensile strength: 198 × base
+Density: 4 kg/l
+Thickness: 755 mm
+
+#ANTIMATTER PLATE
+Type: Reactive
+Tensile strength: 560 × base
+Density -4 kg/l
+Thickness: Var.
+
+#STASIS GENERATOR
+Type: Temporal field distortion
+Tensile strength: N/A
+Density: N/A
+Thickness: N/A
+
+#PSI DEFENSE
+Type: Pattern refraction
+Resistance: Proportional to distance
+Density: N/A
+Thickness: N/A
+
+;ABILITIES
+
+#SUPER FORMER
+Domain: All
+Desc.: SmartSettler V2.0 software upgrade
+Effect: Terraform rate doubled
+Limits: Terraformer unit only
+
+#DEEP RADAR
+Domain: All
+Desc.: Mk. 45 Sensor array upgrade
+Effect: Sees 2 spaces
+Limits: None
+
+#CLOAKING DEVICE
+Domain: Land
+Desc.: Type IV Refraction/diffusion shield
+Effect: Invisible; Ignores Zones of Control
+Limits: Not for use with the Probe Module
+
+#AMPHIBIOUS PODS
+Domain: Land
+Desc.: Hoverpod LCs
+Effect: Attacks from ships
+Limits: Combat units only
+
+#DROP PODS
+Domain: Land
+Desc.: Aircushion LCs
+Effect: Can make airdrops
+Limits: None
+
+#AIR SUPERIORITY
+Domain: All
+Desc.: Mk. 66 fire control sensor
+Effect: Attacks air units
+Limits: Combat units only
+
+#DEEP PRESSURE HULL
+Domain: Sea
+Desc.: Reinforced Silksteel chassis
+Effect: Operates underwater
+Limits: Combat units only
+
+#CARRIER DECK
+Domain: Sea
+Desc.: Bonded alloy flight deck
+Effect: Mobile Airbase
+Limits: Not for use in Probe Teams
+
+#AAA TRACKING
+Domain: Land, Sea
+Desc.: Mk. 190 FUBR fire control system
+Effect: × 2 vs. air attacks
+Limits: Not for use with Psi or air units
+
+#COMM JAMMER
+Domain: Land
+Desc.: Type IX ECTS EMP pulse generator
+Effect: +50% vs. fast units
+Limits: Combat, non-Psi units only
+
+#ANTIGRAV STRUTS
+Domain: Land, Air
+Desc.: Gravitron repulsor pylons
+Effect: +1 movement rate
+Limits: None
+
+#EMPATH SONG
+Domain: All
+Desc.: Psi lock software upgrade
+Effect: +50% attack vs. Psi
+Limits: Non-psi combat units only
+
+#FUNGICIDE TANKS
+Domain: All
+Desc.: Boron defoliant system
+Effect: Clear fungus at double speed
+Limits: Terraformer units only
+
+#HIGH MORALE
+Domain: All
+Desc.: Advanced Warfare Training
+Effect: Gains morale upgrade
+Limits: Combat units only
+
+#HEAVY ARTILLERY
+Domain: Land
+Desc.: Reactor chamber upgrade
+Effect: Bombards; -50% armor & move
+Limits: Non-psi units only
+
+#CLEAN REACTOR
+Domain: All
+Desc.: Reactor emission containment system
+Effect: Requires no support
+Limits: None
+
+#BLINK DISPLACER
+Domain: All
+Desc.: Temporal distortion field
+Effect: Bypass base defenses
+Limits: Combat units only
+
+#HYPNOTIC TRANCE
+Domain: All
+Desc.: Psychic amplification module
+Effect: +50% defense vs. PSI
+Limits: Non-psi combat units only
+
+#NERVE GAS PODS
+Domain: Land, Air
+Desc.: Mk. 1 VX delivery system
+Effect: Can +50% offense (Atrocity)
+Limits: Non-psi combat units only
+
+#REPAIR BAY
+Domain: All
+Desc.: Modified Supply Transport module
+Effect: Repairs ground units on board
+Limits: Transport units only
+
+#NON-LETHAL METHODS
+Domain: Land
+Desc.: Stunjack cannon & training for police
+Effect: × 2 Police powers
+Limits: Combat units only, has no affect when police rating is less than 1
+
+# ; This line must remain at end of file

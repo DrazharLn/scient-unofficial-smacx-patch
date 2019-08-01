@@ -1,0 +1,93 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; HOLOBOOK: The measure of your worth as a leader.
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+;
+; (These must all be on one line.)
+
+#BOOKTITLE
+Welcome to the Planetary Archives
+
+#BOOKINTRO
+Following your retirement, the people collect your most memorable writings into a holobook of wisdom entitled:
+
+#BOOKLIST0
+$TITLE0 $PLAYER1's Big Book of Recycling Tanks Humor
+
+#BOOKLIST1
+We Must Consent:  100 Surefire Pick-up Lines of $TITLE0 $PLAYER1
+
+#BOOKLIST2
+For I Have Tasted The Fungus (Why $TITLE0 $PLAYER1 Can't Blink)
+
+#BOOKLIST3
+The Cat In The Vat:  $TITLE0 $PLAYER1's Sleepchamber Stories
+
+#BOOKLIST4
+Everything You Ever Wanted To Know About Organic Superlubricant (But Were Afraid To Ask)
+
+#BOOKLIST5
+I'm OK, You're A Drone 
+
+#BOOKLIST6
+Boreholes I Have Known
+
+#BOOKLIST7
+The Little Terraformer That Could
+
+#BOOKLIST8
+Are You There, Planet?  It's Me, $TITLE0 $PLAYER1
+
+#BOOKLIST9
+Recon Rovers: Unsafe At Any Speed
+
+#BOOKLIST10
+How To Raise A Nerve-Stapled Child
+
+#BOOKLIST11
+Men Are From Chiron, Women Are From Nessus
+
+#BOOKLIST12
+All I Ever Wanted To Know I Learned in the Cloning Vats
+
+#BOOKLIST13
+Mindworms in the Mist
+
+#BOOKLIST14
+Our Biomachinery, Our Selves
+
+#BOOKLIST15
+Actualizing Your Sentient Being:  $TITLE0 $PLAYER1's Self-help Guide for Talents
+
+#BOOKLIST16
+The Unbearable Lightness of Hovertanks
+
+#BOOKLIST17
+Sentient Econometrics Made Simple
+
+#BOOKLIST18
+Lady Deirdre's Lover
+
+#BOOKLIST19
+Zen and the Art of Missile Rover Maintenance
+
+#BOOKLIST20
+Transcendence for Dummies
+
+#BOOKLIST21
+The 27 Habits of Highly Effective Talents
+
+#BOOKLIST22
+$TITLE0 $PLAYER1's Critique of the Critique of Pure Reason
+
+#BOOKLIST23
+The Will To Power:  A User's Guide
+
+#BOOKLIST24
+Stairway to Transcendence: The Last Book You'll Ever Read
+
+
+#; This line must remain at the end of the file.

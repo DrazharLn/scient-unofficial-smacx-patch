@@ -1,0 +1,188 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Texte pour écran Monument
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+
+
+#FOUNDCOLONY1ST
+$NUM0 A.M. : $TITLE0 $NAME1 fonde la première base
+de l'humanité depuis l'arrivée sur la planète -- $BASENAME2 !
+
+#FOUNDCOLONY2ND
+$NUM0 A.M. : $TITLE0 $NAME1 fonde la base $BASENAME2, la première base
+de la faction $<F1:$FACTIONADJ3> depuis l'arrivée sur la planète.
+($<4:Le:> $TITLE4 $NAME5 $FACTIONNAME6 a fondé la première
+base humaine depuis l'arrivée sur la planète en $NUM1 A.M.).
+
+#TECHDISCOVER1ST
+$NUM0 A.M. : les scientifiques de la faction $<M2:$FACTIONADJ0> découvrent
+la technologie : $TECH1 -- c'est le premier progrès de la recherche humaine
+sur la planète !
+
+#TECHDISCOVER2ND
+$NUM0 A.M. : les scientifiques de la faction $<M2:$FACTIONADJ0> découvrent
+la technologie : $TECH1 -- c'est le premier progrès de leur recherche sur
+la planète.
+(La première découverte de l'humanité a été faite par les
+$FACTIONNAME2 en $NUM1 A.M.).
+
+#SECRETS1STA
+$NUM0 A.M. : les chercheurs de la faction $<M2:$FACTIONADJ0> découvrent
+les "secrets du cerveau humain !"
+
+#SECRETS1STB
+$NUM0 A.M. : les chercheurs de la faction $<M2:$FACTIONADJ0> découvrent
+les "secrets du cerveau humain !" D'autres secrets ont été découverts en
+$NUM1 A.M..
+
+#SECRETS1STC
+$NUM0 A.M. : les chercheurs de la faction $<M2:$FACTIONADJ0> découvrent
+les "secrets du cerveau humain !" D'autres secrets ont été découverts en
+$NUM1 A.M. et $NUM2 A.M..
+
+#SECRETS2NDA
+$NUM0 A.M. : les chercheurs de la faction $<M2:$FACTIONADJ0> découvrent
+les "secrets du cerveau humain !" (Ceux des $FACTIONNAME1
+ont découvert les premiers ces secrets en $NUM1 A.M.).
+
+#SECRETS2NDB
+$NUM0 A.M. : les chercheurs de la faction $<M2:$FACTIONADJ0> découvrent
+les "secrets du cerveau humain !" (Ceux des $FACTIONNAME1
+ont découvert les premiers ces secrets en $NUM1 A.M.). 
+Les chercheurs de la faction $<M2:$FACTIONADJ2> ont découvert d'autres
+secrets en $NUM2 A.M.
+
+#SECRETS2NDC
+$NUM0 A.M. : les chercheurs de la faction $<M2:$FACTIONADJ0> découvrent
+les "secrets du cerveau humain !" (Ceux des $FACTIONNAME1
+ont découvert les premiers ces secrets en $NUM1 A.M.). Les chercheurs
+de la faction $<M2:$FACTIONADJ2> ont découvert d'autres secrets
+en $NUM1 A.M. et $NUM3 A.M..
+
+#PROTO1ST
+$NUM0 A.M. : les ingénieurs de la faction $<M2:$FACTIONADJ2> ont bâti 
+leur premier prototype de véhicule sur la planète !
+
+#PROTO2ND
+$NUM0 A.M. : les ingénieurs de la faction $<M2:$FACTIONADJ0> ont construit
+leur premier prototype de véhicule. (Les ingénieurs de la faction
+$<M2:$FACTIONADJ3> travaillant sous les ordres des $FACTIONNAME3 
+ont déjà bâti leur premier prototype sur la planète en $NUM1 A.M.).
+
+#FACILITY1ST
+$NUM0 A.M. : les travailleurs de la $<M2:$FACTIONADJ0> ont bâti 
+leur premier bâtiment sur la base de $BASENAME3 !
+
+#FACILITY2ND
+$NUM0 A.M. : les travailleurs de la $<M2:$FACTIONADJ0> ont bâti leur
+première base. (Les travailleurs de la $<M2:$FACTIONADJ3> ont déjà 
+construit la première base de la planète en $NUM1 A.M.).
+
+#PROJECT1ST
+$NUM0 A.M. : les ingénieurs de la faction $<M2:$FACTIONADJ0> terminent 
+le premier projet secret de la planète : $PROJECT2 !
+
+#PROJECT2ND
+$NUM0 A.M. : les ingénieurs de la faction $<M2:$FACTIONADJ0> terminent leur
+premier projet secret : $PROJECT1. (Les ingénieurs sous les ordres 
+$<2:du:de la:: > $TITLE2 $NAME3 des $FACTIONNAME4 ont déjà 
+terminé le premier projet secret de la planète en $NUM1 A.M.).
+
+#BATTLEWIN1ST
+$NUM0 A.M. : $TITLE0 $NAME1 gagne la première bataille planétaire
+contre $TITLE2 $NAME3 des $FACTIONNAME4 !
+
+#BATTLEWIN2ND
+$NUM0 A.M. : $TITLE0 $NAME1 gagne la première bataille de la faction
+$<F1:$FACTIONADJ2>. ($TITLE3 $NAME4 des $FACTIONNAME5
+a déjà gagné la première bataille planétaire en $NUM1 A.M.).
+
+#BASECAP1ST
+$NUM0 A.M. : $TITLE0 $NAME1 des $FACTIONNAME2 capture
+la base de $BASENAME3 et réussit la première conquête de la planète !
+
+#BASECAP2ND
+$NUM0 A.M. : $TITLE0 $NAME1 capture la base de $BASENAME2 et réussit la première
+conquête de la faction $<F1:$FACTIONADJ3>. 
+($TITLE4 $NAME5 des $FACTIONNAME6 a déjà réussi la première
+conquête planétaire en $NUM1 A.M.)
+
+#NAVY1ST
+$NUM0 A.M. : $TITLE0 $NAME1, $<1:fondateur:fondatrice::> des troupes navales
+des $FACTIONNAME2 baptise le premier navire de guerre de la
+planète !
+
+#NAVY2ND
+$NUM0 A.M. : les ingénieurs de la  $<M2:$FACTIONADJ0> ont construit
+leur premier navire de guerre. ($NAME2 des $FACTIONNAME3 a déjà
+fondé les premières troupes navales en $NUM1 A.M.).
+
+#AIR1ST
+$NUM0 A.M. : $TITLE0 $NAME1, $<1:père:mère::> des troupes atmosphériques
+de la faction $<F2:$FACTIONADJ2> révèle la première unité aérienne de la
+planète !
+
+#AIR2ND
+$NUM0 A.M. : les ingénieurs de la faction :$<M2:$FACTIONADJ0> ont bâti
+leur première unité aérienne. ($TITLE1 $NAME2 des 
+$FACTIONNAME3 a déjà fondé les premières troupes atmosphériques en $NUM1 A.M.).
+
+#NATIVE1ST
+$NUM0 A.M. : $TITLE0 $NAME1 inaugure les troupes psy de la faction
+$<F2:$FACTIONADJ2> issues du premier élevage en captivité de formes de vie
+extraterrestres réussi par les humains !
+
+#NATIVE2ND
+$NUM0 A.M. : les xénobiologistes de la  $<M2:$FACTIONADJ0> élèvent
+leurs premières formes de vie extraterrestres.
+($TITLE1 $NAME2 des $FACTIONNAME3 a déjà inauguré le 
+premier élevage humain de formes de vie extraterrestres en $NUM1 A.M.)
+
+#SPACE1ST
+$NUM0 A.M. : Les $FACTIONNAME0 ont lancé un vaisseau spatial ! 
+C'est la première faction dans l'espace depuis l'arrivée sur la planète !
+
+#SPACE2ND
+$NUM0 A.M. : $TITLE0 $NAME1 ordonne le lancement du premier vaisseau
+spatial $<M1:$FACTIONADJ2>. (Les $FACTIONNAME0 sont les premiers dans 
+l'espace depuis l'arrivée sur la planète en $NUM1 A.M.).
+
+#PRESERVE1ST
+$NUM0 A.M. : $TITLE0 $NAME1 des $FACTIONNAME2 crée la première
+réserve Centauri de la planète !
+
+#PRESERVE2ND
+$NUM0 A.M. : $TITLE0 $NAME1 crée la première réserve Centauri de la faction
+$<F1:$FACTIONADJ2>.
+($TITLE3 $NAME4 a bâti la première réserve Centauri de l'humanité en $NUM1
+A.M.).
+
+#WINUNIFY
+$NUM0 A.M. : $TITLE0 $NAME1 unifie toute la planète sous la bannière
+de la faction $<F1:$FACTIONADJ2> !
+
+#WINCO-OPUNIFY
+$NUM0 A.M. : $TITLE0 $NAME1 de la faction $FACTION2 a unifié la planète
+sous sa bannière ! Notre pacte avec la faction $FACTION3 nous permet
+de partager la victoire !
+
+#WINTRANSCEND
+$NUM0 A.M. : $TITLE0 $NAME1 des $FACTIONNAME2 dirige
+l'humanité dans l'ascension vers la transcendance -- étape suivante de
+l'évolution humaine !
+
+#WINCO-OPASCENT
+$NUM0 A.M. : $TITLE0 $NAME1 de la faction $FACTION2 a terminé
+l'ascension vers la transcendance ! Notre pacte avec la faction $FACTION3 nous permet de nous joindre à l'ascension !
+
+#KILLFACTION
+$NUM0 A.M. : La faction $FACTION0 a éradiqué la faction
+$FACTION1 ! $TITLE2 $NAME3 a été $<3:capturé:capturée> et
+$<3:interrogé:interrogée>.
+
+
+
+# ; This line must remain at end of file

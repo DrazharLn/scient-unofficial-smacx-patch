@@ -1,0 +1,435 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Flavoring text for Unit Design Screen
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+
+;CHASSIS
+
+#INFANTRY
+Domaine : Terre
+Vitesse : 8 km/h
+Particularités : Manuel\Chenillé
+Dimensions : Néant
+Modificateurs : + 25% contre une base
+
+#SPEEDER
+Domaine : Terre
+Vitesse : 102 km/h
+Particularités : A roues
+Dimensions : 7,7x3,6x2,9 mètres
+Modificateurs : + 25% en terrain dégagé
+
+#HOVERTANK
+Domaine : Terre
+Vitesse : 227 km/h
+Particularités : Sur coussin d'air
+Dimensions : 6,9x3x3 mètres
+Modificateurs : + 25% en terrain dégagé. 
+
+#FOIL
+Domaine : Mer
+Vitesse : 62 km/h
+Particularités : Surface portante
+Dimensions : 162x24,25x17,5 mètres
+Modificateurs : Aucun
+
+#CRUISER
+Domaine : Mer
+Vitesse : 115 km/h
+Particularités : Quille navale
+Dimensions : 200x50,5x20 mètres
+Modificateurs : Aucun
+
+#NEEDLEJET
+Domaine : Air
+Vitesse : 766 km/h
+Particularités : Appareil à voilure fixe
+Dimensions : 18,6x12,5x4,4 mètres
+Modificateurs : Requiert un approvisionnement en carburant tous les 2 tours
+
+#'COPTER
+Domaine : Air
+Vitesse : 523 km/h
+Particularités : Appareil à ailes rotatives
+Dimensions : 15,5x6x4 mètres
+Modificateurs : Portée non modifiée par la quantité de carburant
+
+#GRAVSHIP
+Domaine : Air
+Vitesse : 1.021 km/h
+Particularités : Dispositif de propulsion Graviton
+Dimensions : 22x8x6 mètres
+Modificateurs : Portée non modifiée par la quantité de carburant
+
+#MISSILE
+Domaine : Air
+Vitesse : 232,5 km/h
+Particularités : Aérodynamique assistée
+Dimensions : 15.5x.5x.5 mètres
+Modificateurs : Destruction lors de l'impact
+
+
+;REACTORS
+
+#FISSION PLANT
+Régime nominal : 32.655 kW
+Capacité de débit : 29.377 kW
+Efficacité : 89,99%
+Décharge : 52 R
+Carburant : U-235
+
+#FUSION REACTOR
+Régime nominal : 68.003 kW
+Capacité de débit : 62.821 kW
+Efficacité : 92,38%
+Décharge : 67 R
+Carburant : Deutérium ionisé
+
+#QUANTUM CHAMBER
+Régime nominal : 147.893 kW
+Capacité de débit : 141.977 kW
+Efficacité : 96,01%
+Décharge : 21 R
+Carburant : Mélange de deutérium et de tritium
+
+#SINGULARITY ENGINE
+Régime nominal : >4.000.000 kW
+Capacité de débit : Divers
+Efficacité : Divers
+Décharge : Néant
+Carburant : Vizorium-5
+
+;  WEAPONS 
+
+#HAND WEAPONS
+Munitions : 7,62mm UN standard
+Vitesse initiale : 700 mètres par seconde
+Cadence du tir : Divers; maximum 120\min
+Portée maximum : 550 mètres
+Acquisition de cible : Visuel
+
+#LASER
+Matériau laser : Diode
+Type : Couplage de fibres
+Durée de l'impulsion : 5 nanosecondes
+Longueur d'onde : 193 nanomètres
+Puissance de crête : O,84 gw
+Taux de combustion (1 m d'acier) : 0,76 seconde
+
+#PARTICLE IMPACTOR
+Munitions : Munitions de 10mm sans douille à énergie cinétique 
+Vitesse initiale : 800 mètres par seconde
+Cadence du tir : 1.100\min
+Portée maximum : 2.700 mètres
+Acquisition de cible : Optique
+
+#MISSILE LAUNCHER
+Munitions : Missile 'Sabre' Mk. 12(t)
+Vitesse : Mach 2,2
+Cadence du tir : 6\min
+Portée maximum : 90 km
+Acquisition de cible : Signature infrarouge
+
+#GATLING LASER
+Matériau laser : Laser à verre au néodyme
+Type : Réseau jumelé à refroidissement conducteur
+Durée de l'impulsion : 2 nanosecondes
+Longueur d'onde : 107 nanomètres
+Puissance de crête : 0,96 gw
+Taux de combustion (1 mètres d'acier) : 0,52 seconde
+
+#CHAOS GUN
+Munitions : Dislocateur de champ de 9 mm sans douille
+Vitesse initiale : 1.000 mètres par seconde
+Cadence du tir : 10\min
+Portée maximum : 11 km
+Acquisition de cible : Différentiel de champ
+
+#FUSION LASER
+Matériau laser : Néodyme-YAG
+Type : Réseau jumelé à refroidissement actif
+Durée de l'impulsion : 15 nanosecondes
+Longueur d'onde : 573 nanomètres
+Puissance de crête : 2,4 gw
+Taux de combustion (1 pied acier) : 0,14 seconde
+
+#TACHYON BOLT
+Matériau laser : Hydrogène moléculaire
+Type : Liquide de refroidissement actif
+Durée de l'impulsion : 1 microseconde
+Longueur d'onde : 680 nanomètres
+Puissance de crête : 5 gw
+Taux de combustion (1 mètres acier) : 0,07 seconde
+
+#PLASMA SHARD
+Munitions : Obus de 15 mm à énergie et à masse
+Vitesse initiale : Divers; max 1.300 mètres par seconde
+Cadence du tir : 160\min
+Portée maximum : 16 km
+Acquisition de cible : Particules chargées
+
+#QUANTUM LASER
+Matériau laser : Distorsion du champ temporel
+Type : Diffusion à cristal
+Durée de l'impulsion : Néant
+Longueur d'onde : 0,005 nanomètres
+Puissance de crête : Divers
+Taux de combustion (1 mètres d'acier) : Néant
+
+#GRAVITON GUN
+Munitions : Munitions de 2mm à accélération de particules en 3 étapes
+Vitesse initiale : 3.200 mètres  par seconde
+Cadence du tir : 2.000\min
+Portée maximum : 1,4 km
+Acquisition de cible : Nano à distance
+
+#SINGULARITY LASER
+Matériau laser : Limite temporelle
+Type : Induction de singularité
+Durée de l'impulsion : Relative
+Longueur d'onde : 0,001 nanomètres
+Puissance de crête : Néant (approche inf.)
+Taux de combustion (1 mètres d'acier) : Relatif
+
+
+#PSI ATTACK
+Matériau actif : énergie répartie
+Type : Dissociation asservie
+Portée : Ligne de mire
+Puissance de crête : Inverse à la distance
+Acquisition de cible : Verrouillage sur l'indicateur de vitesse
+
+#PLANET BUSTER
+Désignation : Bombe au plasma Mk. 714
+Rayon de destruction actif : 2.000 km
+Force de l'explosif : 296 gigatonne de TNT
+Acquisition de cible : Particules chargées
+
+#COLONY MODULE
+Effectif : Plus de 1.000
+Composition : Plastique préfabriqué
+Régime nominal hydroponique : indéf.
+Armement : Armes légères uniquement
+Blindage : Passif (Plaque de blindage)
+
+#TERRAFORMING UNIT
+Equipage : 367
+Composition : Alliage d'acier et de céramique
+Armement : Armes légères uniquement
+Blindage : Passif (Plaque de blindage)
+
+#TROOP TRANSPORT
+Capacité : 500 hommes + matériel de soutien
+Composition : Alliage de plastique et d'acier renforcé
+Régime nominal hydroponique : ST
+Blindage : Passif (Plaque de blindage)
+
+#SUPPLY TRANSPORT
+Capacité : 2.575 mégatonne
+Composition : Alliage de plastique et d'acier renforcé. 
+Armement : Armes légères uniquement
+Blindage : Passif (Plaque de blindage)
+
+#PROBE TEAM
+Effectif : 16
+Equipement de contre espionnage : Ecran de protection V 6.0
+Armement : Liaisons en ligne\contrôle de l'esprit
+Blindage : Passif (Plaque de blindage)
+
+;DEFENSES
+
+#NO ARMOR
+Type : Néant
+Force de traction : Néant
+Densité : Néant
+Epaisseur : Néant
+
+#SYNTHMETAL ARMOR
+Type : Chobham (modifié)
+Force de traction : Base
+Densité : 2,3 kg\litre
+Epaisseur : 250 mm
+
+#PLASMA STEEL ARMOR
+Type : Composite à énergie et à masse
+Force de traction : 5X base
+Densité : 2,5 kg\litre
+Epaisseur : 520 mm
+
+#SILKSTEEL ARMOR
+Type : Lié
+Force de traction : 23X base
+Densité : 2,5 kg\litre
+Epaisseur : 520 mm
+
+#PHOTON WALL
+Type : Champ de réfraction
+Force de traction : 46X base
+Densité : Néant
+Epaisseur : 2 mètres
+
+#PROBABILITY SHEATH
+Type : Réglage en phase
+Force de traction : 97X base
+Densité : Néant
+Epaisseur : Néant
+
+#NEUTRONIUM ARMOR
+Type : Diffusion d'énergie cinétique
+Force de traction : 198X base
+Densité : 4 kg\litre
+Epaisseur : 755 mm
+
+#ANTIMATTER PLATE
+Type : Réactif
+Force de traction : 560X base
+Densité - 4 kg\litre
+Epaisseur : Divers
+
+#STASIS GENERATOR
+Type : Distorsion du champ temporel
+Force de traction : Néant
+Densité : Néant
+Epaisseur : Néant
+
+#PSI DEFENSE
+Type : Réfraction de motif
+Résistance : Proportionnelle à la distance
+Densité : Néant
+Epaisseur : Néant
+
+
+
+;ABILITIES 
+
+#SUPER FORMER
+Desc. : Logiciel SmartSettler V2.0, version améliorée
+Effet : Taux de terraformage doublé
+Limites : Unité de terraformage uniquement
+Domaine : Tous
+
+#DEEP RADAR
+Desc. : Version améliorée du réseau de détecteurs Mk. 45
+Effet : Capacité de vision jusqu'à 2 espaces
+Limites : Aucune
+Domaine : Tous
+
+#CLOAKING DEVICE
+Desc. : Bouclier de réfraction\diffusion de Type IV
+Effet : Invisible; Ignore les zones de contrôle
+Limites : Non conçu pour être utilisé par les Equipes de Test
+Domaine : Terre
+
+#AMPHIBIOUS PODS
+Desc. : LCS aéroglisseur
+Effet : Attaques à partir de vaisseaux
+Limites : Unités de combat uniquement
+Domaine : Terre
+
+#DROP PODS
+Desc. : LCS à coussin d'air
+Effet : Peut Effectuer des largages
+Limites : Aucune
+Domaine : Terre
+
+#AIR SUPERIORITY
+Desc. : Capteur de conduite de tir Mk. 66
+Effet : Attaque les unités aérienne
+Limites : Unités de combat uniquement
+Domaine : Tous
+
+#DEEP PRESSURE HULL
+Desc. : Châssis en acier renforcé
+Effet : Opération sous-marine
+Limites : Unités de combat uniquement
+Domaine : Mer
+
+#CARRIER DECK
+Desc. : Pont de vol en alliage à double parois
+Effet : Base aérienne mobile
+Limites : Non conçu pour être utilisé par les Equipes de Test
+Domaine : Mer
+
+#TRACKING LASERS
+Desc. : Système de conduite de tir Mk. 190 FUBR
+Effet : x2 contre les attaques aériennes
+Limites : Non conçu pour être utilisé avec les unités Psy ou aériennes
+Domaine : Terre, Mer
+
+#COMM JAMMER
+Desc. : Générateur d'impulsion ECTS EMP de Type IX
+Effet : + 50% contre les unités rapides
+Limites : Unités de combat et non Psy uniquement
+Domaine : Terre
+
+#ANTIGRAV STRUTS
+Desc. : Pylônes de repousseur à Graviton
+Effet : + 1 pour la capacité de mouvement
+Limites : Aucune
+Domaine : Terre
+
+#EMPATH SONG
+Desc. : Psi lock s\w version améliorée
+Effet : + 50% pour les attaques contre les unités Psy
+Limites : Unités de combat non psy uniquement
+Domaine : Tous
+
+#FUNGICIDE TANKS
+Desc. : Système défoliant Boron
+Effet : Détruit le fongus deux fois plus vite
+Limites : Unités de terraformage uniquement
+Domaine : Tous
+
+#HIGH MORALE
+Desc. : Formation dans le domaine de la guerre de pointe
+Effet : Apporte un gain de moral
+Limites : Unités de combat uniquement
+Domaine : Tous
+
+#HEAVY ARTILLERY
+Desc. : Version améliorée de la chambre de réaction
+Effet : Bombarde; - 50% contre le blindage et les unités mobiles
+Limites : Unités non psy uniquement
+Domaine : Terre
+
+#CLEAN REACTOR
+Desc. : Système de retenue des émissions du réacteur
+Effet : Ne requiert aucun soutien
+Limites : Aucune
+Domaine : Tous
+
+#BLINK DISPLACER
+Desc. : Champ de distorsion temporel
+Effet : Ignore les défenses des bases
+Limites : Unités de combat uniquement
+Domaine : Tous
+
+#HYPNOTIC TRANCE
+Desc. : Module d'amplification psychique
+Effet : + 50% pour les défenses contre les unités PSY
+Limites : Unités de combat non psy uniquement
+Domaine : Tous
+
+#NERVE GAS PODS
+Desc. : Système de lancement Mk. 1 VX
+Effet : Peut bénéficier de + 50% lors d'une offensive (Atrocité)
+Limites : Unités de combat non psy uniquement
+Domaine : Terre, air
+
+#REPAIR BAY
+Desc. : Module de transport de ravitaillement modifié
+Effet : Répare les unités au sol à bord
+Limites : Unités de transport uniquement
+Domaine : Air, Mer
+
+#NON-LETHAL METHODS
+Desc. : Canon Stunjack et entraînement pour la police
+Effet : Double la puissance de la Police
+Limites : Unités de combat uniquement
+Domaine : Terre
+
+
+# ; This line must remain at end of file
