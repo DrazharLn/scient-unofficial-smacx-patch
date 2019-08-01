@@ -72,6 +72,8 @@
 ; #CONCEPT17 -> removed bug report (fixed)
 ; #CONCEPT39 -> revised display of vulnerability (less cluttered) and added reference to Nessus Canyon
 ;
+; DrazharLn's changes 2019: git log conceptsx.txt
+;
 ; <End of text>
 
 #TITLES
@@ -923,7 +925,7 @@ If a wild native lifeform enters an undefended base, it destroys one random faci
  devours one population then disappears.
 
 #CONCEPT54
-Unity Pods provide random effects for the first faction that visits them.
+Unity Pods provide random effects for the first faction that visits them. Do not read this entry if you would prefer to be surprised!
 ^The of possible results are listed below are no particular order.
 ^
 ^
