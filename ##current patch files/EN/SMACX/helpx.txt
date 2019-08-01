@@ -544,9 +544,15 @@ Elevator=110027>.
 #HELPFAC68
 An {Orbital Defense Pod} has a 50% chance to shoot down a $LINK<Planet Buster=60016>, $LINK<Fungal=60025>, or
 $LINK<Tectonic=60024> missile attack against any of a faction’s bases. Defense Pods may only deploy against a missile once
-per turn. When no undeployed Pods remain, a missile can only be stopped by self-destructing a Pod. Can be sacrificed with
-50% chance to destroy a satellite of another faction (Under Satellite Survey ‘F6’ -> ‘Orbital Attack View’) Can be
-destroyed by $LINK<Major Solar Storm on Alpha Prime=41>. Can only be launched from a base which already has an
+per turn.
+^
+When no undeployed Pods remain, a missile can only be stopped by self-destructing a Pod.
+^
+Can be sacrificed with 50% chance to destroy a satellite of another faction
+(Under Satellite Survey ‘F6’ -> ‘Orbital Attack View’).
+Can be destroyed by $LINK<Major Solar Storm on Alpha Prime=41>.
+^
+Can only be launched from a base which already has an
 $LINK<Aerospace Complex=100029> or by a faction that controls $LINK<The Space Elevator=110027>.
 
 #; Stockpile Energy
