@@ -493,9 +493,8 @@ array=90009> on the base central square, conferring a +25% defensive bonus.
 ^
 ^{Geosynchronous Pods} may be destroyed by $LINK<Orbital Defense Pods=100068> or $LINK<Probes=60021>.
 ^
-^The launch of a faction’s first satellite enables them to map all unexplored parts of Planet.
-^
-^Can only be launched from a base which already has an $LINK<Aerospace Complex=100029> or by a faction that controls
+The launch of a faction’s first satellite enables them to map all unexplored parts of Planet.
+Can only be launched from a base which already has an $LINK<Aerospace Complex=100029> or by a faction that controls
 $LINK<The Space Elevator=110027>.
 
 #; Sky Hydroponics
@@ -537,9 +536,8 @@ for each unit of population.
 ^Power Transmitters can be destroyed by $LINK<Solar Storms on Alpha Prime=41> or by other factions using $LINK<Orbital
 Defense Pods=100068>.
 ^
-^The launch of a faction’s first satellite enables them to map all unexplored parts of Planet.
-^
-^Can only be launched from a base which already has an Aerospace Complex or by a faction that controls $LINK<The Space
+The launch of a faction’s first satellite enables them to map all unexplored parts of Planet.
+Can only be launched from a base which already has an Aerospace Complex or by a faction that controls $LINK<The Space
 Elevator=110027>.
 
 #; Orbital Defense Pod
@@ -1152,10 +1150,7 @@ $LINK<Fungus=18>.
 ^    +1 Rolling
 ^    +2 Rocky
 ^    +1 $LINK<River=90015>
-^    +2 $LINK<Fungus=18>¹
-^    +2 $LINK<Forest=90004>
-^
-^___
+^    +2 $LINK<Fungus=18>¹, $LINK<Forest=90004>
 ^¹Requires $LINK<Centauri Empathy=140058> to be constructed on $LINK<Fungus=18>.
 
 #;Mag Tube
@@ -1167,10 +1162,7 @@ points.
 ^    +1 $LINK<Rolling=43>
 ^    +2 Rocky
 ^    +1 $LINK<River=90015>
-^    +2 $LINK<Fungus=18>¹
-^    +2 $LINK<Forest=90004>
-^
-^___
+^    +2 $LINK<Fungus=18>¹, $LINK<Forest=90004>
 ^¹Requires $LINK<Centauri Psi=140063> to be constructed on $LINK<Fungus=18>.
 
 #;Bunker
