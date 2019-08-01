@@ -6,8 +6,8 @@
 
 !define APP_NAME "SMAC/X Unofficial Patch"
 #!define WEB_SITE "http://www.civgaming.net/forums/"
-!define VERSION "02.00.00.00"
-!define VERSION_SHRT "2.00"
+!define VERSION "02.01.00.00"
+!define VERSION_SHRT "2.1"
 !define REG_ROOT "HKLM"
 !define REG_APP_PATH "Software\Microsoft\DirectPlay\Applications"
 #!define REG_GOG_PATH "Software\GOG.com"
@@ -18,7 +18,7 @@
 VIProductVersion  "${VERSION}"
 VIAddVersionKey "ProductName"  "${APP_NAME}"
 VIAddVersionKey "CompanyName"  "scient"
-VIAddVersionKey "LegalCopyright"  "scient © 2013"
+VIAddVersionKey "LegalCopyright"  "scient © 2019"
 VIAddVersionKey "FileDescription"  "${APP_NAME}"
 VIAddVersionKey "FileVersion"  "${VERSION}"
 
