@@ -30,7 +30,7 @@ SetCompressor /SOLID /FINAL LZMA
 RequestExecutionLevel admin
 Name "${APP_NAME}"
 Caption "${APP_NAME} v${VERSION_SHRT} Installer"
-OutFile "SMACX_UP_v${VERSION_SHRT}_Installer.exe"
+OutFile "../dist/SMACX_UP_v${VERSION_SHRT}_Installer.exe"
 
 ######################################################################
 
