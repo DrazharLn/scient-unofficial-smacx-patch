@@ -390,6 +390,29 @@ patch please donate a few dollars via PayPal link at the top.
 18. **\[BUG\]** Fixed an audio clip not playing when Singularity Laser
     weapons are used by remixing from stereo to mono (edited by chuft).
 
+
+## More SMACX!
+
+You may also be interested in:
+
+- [The Alphacentauri2.info Wiki][ac2wiki]
+- [The Alphacentauri2.info Forum][ac2forum]
+- [Plotinus Redux's PRACX UI mod][pracx]
+- [Thinker][thinker]
+- [Yitzi's patch][yitzi]
+- [bvanery's SMACX AI Growth mod][aigrowthmod]
+- [The SMAC in SMAX project][smac-in-smax]
+
+[ac2wiki]: http://alphacentauri2.info/wiki/
+[ac2forum]: http://alphacentauri2.info/index.php?action=community
+[pracx]: https://github.com/drazharln/pracx
+[scient]: https://github.com/drazharln/scient-unofficial-smacx-patch
+[thinker]: https://github.com/induktio/thinker
+[yitzi]: http://alphacentauri2.info/wiki/Yitzi%27s_patch
+[aigrowthmod]: http://alphacentauri2.info/index.php?topic=20959.0
+[smac-in-smax]: https://github.com/drazharln/smac-in-smax
+
+
 ## Credits
 
 So far beyond a few, all of the patches to the exe are done by myself (@b-casey).
