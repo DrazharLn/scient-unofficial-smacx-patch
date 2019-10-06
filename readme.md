@@ -6,6 +6,9 @@ Author: scient ([Brendan Casey](https://github.com/b-casey))
 
 ## Introduction
 
+[This is mostly Brendan's readme from 2014. Links to CGN and Apolyton
+are broken now, but I've left them as they were]
+
 This is a comprehensive set of fixes to bugs, crashes, and exploits
 found in Sid Meier\'s Alpha Centauri (SMAC) and Alien Crossfire (SMACX).
 The primary goal of this project is to fix bugs left after the official
