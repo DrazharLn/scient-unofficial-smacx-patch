@@ -2,7 +2,7 @@
 
 Author: scient ([Brendan Casey](https://github.com/b-casey))
 
-[Donate to Brendan!](https://www.paypal.com/donate/?token=TD1cTJuTnZJ29liLpk90YTThMZjqZLOga64Iqg6a15m6aCe73gL2DjElVhi6HPAKsCH5WW&country.x=US&locale.x=US)
+[Donate to Brendan!](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=bcasey85%40gmail.com&item_name=Brendan+Casey&currency_code=USD&source=url)
 
 ## Introduction
 
