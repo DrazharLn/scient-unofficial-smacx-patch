@@ -7,7 +7,7 @@ Author: scient ([Brendan Casey](https://github.com/b-casey))
 ## Introduction
 
 [This is mostly Brendan's readme from 2014. Links to CGN and Apolyton
-are broken now, but I've left them as they were]
+are broken now, but I've left them as they were.]
 
 This is a comprehensive set of fixes to bugs, crashes, and exploits
 found in Sid Meier\'s Alpha Centauri (SMAC) and Alien Crossfire (SMACX).
@@ -299,11 +299,6 @@ patch please donate a few dollars via PayPal link at the top.
     actual rival factions.
 24. **\[BUG\]** Fixed the rendering of the menu when using the scenario
     editor to change the faction id of the former owner of a base.
-25. **\[BUG\]** Fixed the CC/BP combat bonus bug.
-26. **\[BUG\]\[EXPLOIT\]** Fixed the AI base trading exploit. (credit to
-    kryub)
-27. **\[EXPLOIT\]** Fixed the energy stockpile exploit. (credit to
-    kyrub)
 28. **\[BUG\]** Fixed the parsing of the \"Retool strictness\" value in
     alpha/x.txt so \"Never Free\" works correctly. This would only apply
     if you wanted to give a retooling penalty when switching to \"Secret
@@ -327,6 +322,14 @@ patch please donate a few dollars via PayPal link at the top.
     incorrectly displayed due to faction id value being set incorrectly.
     This best exhibited where Progenitors switch into \"Human\" dialog
     syntax.
+
+[This list originally contained three more entries that were actually removed prior to public release. These are now below.]
+
+25. **\[BUG\]** Fixed the CC/BP combat bonus bug.
+26. **\[BUG\]\[EXPLOIT\]** Fixed the AI base trading exploit. (credit to
+    kyrub)
+27. **\[EXPLOIT\]** Fixed the energy stockpile exploit. (credit to
+    kyrub)
 
 ## Non-Engine Fixes
 
