@@ -169,7 +169,7 @@ as they come into contact with other matter.
 #TECH15
 Driven by the requirements of [Doctrine: Initiative (E5)]
 and the mathematical models behind [Probability Mechanics
-(B7)],  {Nanometallurgy} techniques allow engineers to
+(B7)], {Nanometallurgy} techniques allow engineers to
 manipulate metals at the molecular level.
 
 
@@ -347,7 +347,7 @@ the key spark needed by computers to at last achieve
 have all the hallmarks of an individual organism:
 they respond to their environment, adapt to stimuli,
 and even exhibit advanced ‘personalities’ based on
-their respective abilities and  preferences.
+their respective abilities and preferences.
 
 
 ##Self-Aware Machines
@@ -379,7 +379,7 @@ Many radical young military officers felt that [Doctrine:
 Mobility (E1)] did not go far enough in the development
 of fast attacks and quick reconnaissance, because Mobility
 only takes land forces into account. These leaders work
-to create the first navies on Planet,  based on {Doctrine:
+to create the first navies on Planet, based on {Doctrine:
 Flexibility}—co-ordination and co-operation between forces
 made possible by control of the sea.
 
@@ -413,7 +413,7 @@ to build advanced vehicles and machinery.
 The colonists had brought the knowledge of atmospheric flight
 to Planet, but not the materials to build and maintain
 large quantities of aircraft in Planet’s harsh conditions.
-With the discovery of [Synthetic Fossil Fuels (E4)]  for
+With the discovery of [Synthetic Fossil Fuels (E4)] for
 materials and a renewed emphasis on [Doctrine: Flexibility (E2)],
 pilots can again make the leap into the clouds.
 
@@ -566,7 +566,7 @@ The insatiable drive for efficiency spawned by
 [Industrial Automation (B3)] drives the development
 of {Neural Grafting}. This new technology, based
 on [Secrets of the Human Brain (D2)], allows
-attachment of  digital circuitry directly to
+attachment of digital circuitry directly to
 the neural cortex. With these implants, individuals
 willing to undergo {Neural Grafting} can enhance
 many aspects of their physical being, from heightened
@@ -798,7 +798,7 @@ The widespread adoption of [Polymorphic Software
 (D2)] increased demand for faster computers. The
 revolutionary {Optical Computers}, which use photons
 traveling at the speed of light for binary
-calculations,  prove nearly 70% faster than old
+calculations, prove nearly 70% faster than old
 electron-based devices. Based on successes in
 [Applied Physics (C1)], {Optical Computers} also
 exponentially improve storage capacities and access
@@ -878,7 +878,7 @@ or until the Progenitors discover [Social Psych (B1)].
 The Progenitor race can sense and manipulate local fields
 an untrained human cannot perceive without mechanical aid,
 including electricity and magnetism. Built on an understanding
-of [Progenitor Psych (E1)] and [Centauri Ecology (E1], the discovery
+of [Progenitor Psych (E1)] and [Centauri Ecology (E1)], the discovery
 of {Field Modulation} allows trained and equipped individuals to
 detect and perform basic manipulations of these ‘resonance fields’.
 
